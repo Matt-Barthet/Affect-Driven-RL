@@ -1,3 +1,4 @@
+import re
 from abc import ABC
 from uuid import UUID
 
@@ -11,9 +12,11 @@ class MySideChannel(SideChannel, ABC):
         self.score = 0
         self.low_res_state = {}
         self.direction = []
+        self.levelEnd = True
 
     def on_message_received(self, msg: IncomingMessage):
         test = msg.read_string()
+        self.levelEnd = False
         if '[Score]' in test:
             self.score = int(re.search(r'\d+', test).group())
         elif '[Low-Resolution State]' in test:
@@ -24,3 +27,5 @@ class MySideChannel(SideChannel, ABC):
         elif '[Direction]' in test:
             vector = test.removeprefix("[Direction]:").split(",")
             self.direction = [float(vector[counter]) for counter in range(3)]
+        elif test == 'Level Ended':
+            self.levelEnd = True

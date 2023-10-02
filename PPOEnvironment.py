@@ -10,45 +10,78 @@ from Utils.Scalers import VectorScaler
 
 class PPO_Environment(BaseEnvironment, ABC):
 
-    def calculate_reward(self, state):
-        rotation_component = (180 - state[-1]) / 180
-        speed_component = np.linalg.norm([state[0], state[1], state[2]]) / 60
-        distance_component = (1 + state[-2])
-        self.reward = rotation_component * speed_component / distance_component
+    def __init__(self, id_number, graphics, scaler, obs_space, include_affect, path):
+        super().__init__(id_number, graphics, scaler, obs_space, include_affect, path)
+
+        self.max_reward = 0
+        self.cumulative_reward = 0
+        self.reward = 0
+        self.episode_length = 0
+        self.last_x = np.round(self.reset()[0])
+        self.max_x = -np.inf
+
+    def calculate_reward(self, state, env_score):
+        current_x = np.round(state[0])
+        reward = 0
+
+        if state[5] == 0:
+            reward -= 10
+
+        if current_x < self.last_x:
+            reward -= 1
+        elif current_x > self.last_x:
+            reward += 1
+            if current_x > self.max_x:
+                reward += 1
+
+        self.last_x = current_x
+        self.reward = (self.score - env_score) + reward
+        self.score = env_score
 
     def reset_condition(self):
         self.episode_length += 1
-        if self.episode_length > 600:
+        if self.episode_length > 4 * 120:
             self.episode_length = 0
+            self.max_x = -np.inf
+            self.create_and_send_message("[Cell Name]:Seed")
             self.reset()
 
     def update_stats(self):
+        self.cumulative_reward += self.reward
         self.max_score = np.max([self.score, self.max_score])
         self.max_reward = np.max([self.max_reward, self.reward])
 
     def step(self, action):
         # Move the env forward 1 tick and receive messages through side-channel.
-        state, env_score, d, info = self.env.step(np.asarray([tuple([action[0] - 1, action[1] - 1])]))
+        state, env_score, d, info = self.env.step((action[0] - 1, action[1]))
         state = state[0]
-        self.score = env_score
-        self.calculate_reward(state)
+        self.calculate_reward(state, env_score)
         self.update_stats()
         self.reset_condition()
         return state, self.reward, d, info
+
+    def handle_level_end(self):
+        print("End of level reached, resetting environment.")
+        self.reset()
 
 
 if __name__ == "__main__":
 
     load_scaler = False
-
     if load_scaler:
         with open('../Models_Pkls/MinMaxScaler.pkl', 'rb') as f:
             scaler = pickle.load(f)
     else:
         scaler = VectorScaler(49)
 
-    env = DummyVecEnv([lambda:PPO_Environment(counter, True, scaler) for counter in [4]])
-    model = PPO("MlpPolicy", env=env, tensorboard_log="../Tensorboard")
+    env = DummyVecEnv([lambda: PPO_Environment(counter,
+                                               graphics=True,
+                                               scaler=None,
+                                               include_affect=False,
+                                               obs_space={"low": -np.inf, "high": np.inf, "shape": (22,)},
+                                               path="./Builds/Platformer.app") for counter in [1]])
+    sideChannel = env.envs[0].customSideChannel
+    model = PPO("MlpPolicy", env=env, tensorboard_log="./Tensorboard")
     model.learn(total_timesteps=1500000, progress_bar=True, callback=TensorboardCallback(), tb_log_name="PPO")
     model.save("ppo_solid_test")
 

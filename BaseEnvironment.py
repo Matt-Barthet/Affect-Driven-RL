@@ -17,17 +17,17 @@ class BaseEnvironment(gym.Env, ABC):
     unty-gym wrapper, configures the game engine parameters and sets up the custom side channel for
     communicating between our python scripts and unity's update loop.
     """
-    def __init__(self, id_number, graphics, scaler, obs_space, include_affect):
+    def __init__(self, id_number, graphics, scaler, obs_space, include_affect, path):
 
         super(BaseEnvironment, self).__init__()
 
         # Set up the game engine communication channels
         self.engineConfigChannel = EngineConfigurationChannel()
-        self.engineConfigChannel.set_configuration_parameters(capture_frame_rate=10)
+        self.engineConfigChannel.set_configuration_parameters(capture_frame_rate=60)
         self.customSideChannel = MySideChannel()
 
         # Load the unity build and wrap it in a gym environment
-        self.env = self.load_environment(id_number, graphics)
+        self.env = self.load_environment(path, id_number, graphics)
         self.env = UnityToGymWrapper(self.env, uint8_visual=False, allow_multiple_obs=True)
 
         # Set observation space and action space - important for learning
@@ -46,11 +46,17 @@ class BaseEnvironment(gym.Env, ABC):
 
     def step(self, action):
         # Move the env forward 1 tick and receive messages through side-channel.
-        state, env_score, d, info = self.env.step(np.asarray([tuple([action[0] - 1, action[1] - 1])]))
+        state, env_score, d, info = self.env.step(np.asarray([tuple([action[0]-1, action[1]])]))
         self.score = env_score
         self.max_score = np.max([self.score, self.max_score])
-        self.scaler.update(state)
-        return state, env_score, d, info
+
+        if self.scaler is not None:
+            self.scaler.update(state)
+
+        if self.customSideChannel.levelEnd:
+            self.handle_level_end()
+
+        return self.tuple_to_vector(state), env_score, d, info
 
     @staticmethod
     def tuple_to_vector(s):
@@ -70,7 +76,7 @@ class BaseEnvironment(gym.Env, ABC):
 
     def load_environment(self, path, identifier, graphics):
         try:
-            env = UnityEnvironment(f"../Builds/{path}",
+            env = UnityEnvironment(f"{path}",
                                    side_channels=[self.engineConfigChannel, self.customSideChannel],
                                    worker_id=identifier,
                                    no_graphics=not graphics)
@@ -78,3 +84,6 @@ class BaseEnvironment(gym.Env, ABC):
             print("Path not found! Please specify the right environment path.")
             return None
         return env
+
+    def handle_level_end(self):
+        pass
