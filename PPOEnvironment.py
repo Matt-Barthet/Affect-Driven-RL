@@ -24,7 +24,9 @@ class PPO_Environment(BaseEnvironment, ABC):
         current_x = np.round(state[0])
         reward = 0
 
-        if state[5] == 0:
+        print(state)
+
+        if state[3] == 0:
             reward -= 10
 
         if current_x < self.last_x:
@@ -40,11 +42,16 @@ class PPO_Environment(BaseEnvironment, ABC):
 
     def reset_condition(self):
         self.episode_length += 1
-        if self.episode_length > 4 * 120:
+        if self.episode_length > 4 * 140:
             self.episode_length = 0
             self.max_x = -np.inf
             self.create_and_send_message("[Cell Name]:Seed")
             self.reset()
+
+    def reset(self):
+        super().reset()
+        self.cumulative_reward = 0
+        return self.tuple_to_vector(self.env.reset())[2:]
 
     def update_stats(self):
         self.cumulative_reward += self.reward
@@ -54,7 +61,7 @@ class PPO_Environment(BaseEnvironment, ABC):
     def step(self, action):
         # Move the env forward 1 tick and receive messages through side-channel.
         state, env_score, d, info = self.env.step((action[0] - 1, action[1]))
-        state = state[0]
+        state = state[0][2:]
         self.calculate_reward(state, env_score)
         self.update_stats()
         self.reset_condition()
@@ -78,8 +85,8 @@ if __name__ == "__main__":
                                                graphics=True,
                                                scaler=None,
                                                include_affect=False,
-                                               obs_space={"low": -np.inf, "high": np.inf, "shape": (22,)},
-                                               path="./Builds/Platformer.app") for counter in [1]])
+                                               obs_space={"low": -np.inf, "high": np.inf, "shape": (68,)},
+                                               path="./Builds/Platformer_Windows/Platform.exe") for counter in [1]])
     sideChannel = env.envs[0].customSideChannel
     model = PPO("MlpPolicy", env=env, tensorboard_log="./Tensorboard")
     model.learn(total_timesteps=1500000, progress_bar=True, callback=TensorboardCallback(), tb_log_name="PPO")
