@@ -52,7 +52,7 @@ def objective(trial):
                 ent_coef=ent_coef, clip_range=clip_range, n_epochs=n_epochs, verbose=1)
 
     # Train agent
-    model.learn(total_timesteps=500000)
+    model.learn(total_timesteps=100000)
 
     # Evaluate agent (you can use a separate evaluation env if needed)
     mean_reward = evaluate_agent(model, env, n_episodes=10)
