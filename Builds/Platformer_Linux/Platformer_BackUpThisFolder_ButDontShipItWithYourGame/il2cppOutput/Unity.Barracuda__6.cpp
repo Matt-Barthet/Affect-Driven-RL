@@ -1,0 +1,24082 @@
+﻿#include "pch-cpp.hpp"
+
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include <limits>
+
+
+template <typename R, typename T1>
+struct VirtualFuncInvoker1
+{
+	typedef R (*Func)(void*, T1, const RuntimeMethod*);
+
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeObject* obj, T1 p1)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		return ((Func)invokeData.methodPtr)(obj, p1, invokeData.method);
+	}
+};
+template <typename R, typename T1, typename T2>
+struct VirtualFuncInvoker2
+{
+	typedef R (*Func)(void*, T1, T2, const RuntimeMethod*);
+
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeObject* obj, T1 p1, T2 p2)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		return ((Func)invokeData.methodPtr)(obj, p1, p2, invokeData.method);
+	}
+};
+template <typename R, typename T1, typename T2, typename T3, typename T4>
+struct VirtualFuncInvoker4
+{
+	typedef R (*Func)(void*, T1, T2, T3, T4, const RuntimeMethod*);
+
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeObject* obj, T1 p1, T2 p2, T3 p3, T4 p4)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		return ((Func)invokeData.methodPtr)(obj, p1, p2, p3, p4, invokeData.method);
+	}
+};
+struct InterfaceActionInvoker0
+{
+	typedef void (*Action)(void*, const RuntimeMethod*);
+
+	static inline void Invoke (Il2CppMethodSlot slot, RuntimeClass* declaringInterface, RuntimeObject* obj)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_interface_invoke_data(slot, obj, declaringInterface);
+		((Action)invokeData.methodPtr)(obj, invokeData.method);
+	}
+};
+template <typename T1>
+struct InterfaceActionInvoker1
+{
+	typedef void (*Action)(void*, T1, const RuntimeMethod*);
+
+	static inline void Invoke (Il2CppMethodSlot slot, RuntimeClass* declaringInterface, RuntimeObject* obj, T1 p1)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_interface_invoke_data(slot, obj, declaringInterface);
+		((Action)invokeData.methodPtr)(obj, p1, invokeData.method);
+	}
+};
+template <typename T1, typename T2, typename T3>
+struct InterfaceActionInvoker3
+{
+	typedef void (*Action)(void*, T1, T2, T3, const RuntimeMethod*);
+
+	static inline void Invoke (Il2CppMethodSlot slot, RuntimeClass* declaringInterface, RuntimeObject* obj, T1 p1, T2 p2, T3 p3)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_interface_invoke_data(slot, obj, declaringInterface);
+		((Action)invokeData.methodPtr)(obj, p1, p2, p3, invokeData.method);
+	}
+};
+template <typename R>
+struct InterfaceFuncInvoker0
+{
+	typedef R (*Func)(void*, const RuntimeMethod*);
+
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeClass* declaringInterface, RuntimeObject* obj)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_interface_invoke_data(slot, obj, declaringInterface);
+		return ((Func)invokeData.methodPtr)(obj, invokeData.method);
+	}
+};
+template <typename R, typename T1, typename T2, typename T3>
+struct InterfaceFuncInvoker3
+{
+	typedef R (*Func)(void*, T1, T2, T3, const RuntimeMethod*);
+
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeClass* declaringInterface, RuntimeObject* obj, T1 p1, T2 p2, T3 p3)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_interface_invoke_data(slot, obj, declaringInterface);
+		return ((Func)invokeData.methodPtr)(obj, p1, p2, p3, invokeData.method);
+	}
+};
+
+struct Action_1_t66D91B4A0535D3170B9F2D9658576E595C9AD567;
+struct Action_1_t626AB2FAB3033A14D62E8C4FF1A9C06528EC3390;
+struct Dictionary_2_t20040F948CAE007E0BEEB1E6E26D6B9E33450F05;
+struct Dictionary_2_tF0A6FC33F6955AC1653DEE551CB62C8D5C41A9AD;
+struct Dictionary_2_tC90D3672F54F7B1D20DDCDDAACBFBE16D5699989;
+struct Dictionary_2_t6FFAD029BB474A5257D9A441504B633831AF5341;
+struct Dictionary_2_t5C8F46F5D57502270DD9E1DA8303B23C7FE85588;
+struct Dictionary_2_t89634CD86CDAA05DE523E1CD579D26394A76E910;
+struct Dictionary_2_tBB50951F587AFC820B72FF08C96B9AC80BC65249;
+struct Dictionary_2_t6F4A5EC085E0FBDBB3A25C5785F45C1EA56C859B;
+struct Dictionary_2_t65124A5674FEDF5836C36FA53AF2EA6AFAE4BDC1;
+struct Func_3_t112E81BD9C60E0186076895800369606BCF590FB;
+struct Func_7_t33F30BE5BCE3E271F4DAFFAF0E88EA8B6347957F;
+struct Func_7_tAD061F9712D11BFA0CB2E1EBCCB7E4743E48EC77;
+struct HashSet_1_t3F2B773735A788A312014370398B4D26CBC6010D;
+struct HashSet_1_t3D6F7BF2395DA8E4FD1A1D4432BDFEB208D49BBC;
+struct IComparer_1_t76B18C44D8838F955CF8C0F53336D6C7006E0B53;
+struct IDictionary_2_t715A14C877579557C7FCB2AB822FD8A8BDB21A23;
+struct IEnumerable_1_t0FF2D4C164C0AEAD50C6E6E6C6D2700CD5CBD11E;
+struct IEnumerable_1_t1DB5AAAE8851A01F42F7180F69E2A5DC3ED3CAAB;
+struct IEnumerable_1_tCE758D940790D6D0D56B457E522C195F8C413AF2;
+struct KeyList_t1A3FC9B1C5CA4558CD6740033E581469BA8E4CEC;
+struct List_1_t264DA9C475A0E3CF57148457209560CF2E2B6F27;
+struct List_1_tDEC4119E22EFA9DBE2F6B6C4F3ACD2FD0849215C;
+struct List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73;
+struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D;
+struct List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918;
+struct List_1_tE0B2B6230B6484379007679CBADD3E34B232F550;
+struct List_1_t622628B607C95D4AED48D5FA6D3CBF1FF519C9F9;
+struct SortedList_2_t770BD8AE327207D1B7D419DCA907B232D45C9FE4;
+struct ValueList_t2DB723ECF1A73D42C2ACB374D10FBF4ED9D71C9E;
+struct ValueTuple_3U5BU5D_t2EE684CE383C822F20AF09A2B0A3C10C5A8A94E5;
+struct Int32U5BU5DU5BU5D_t179D865D5B30EFCBC50F82C9774329C15943466E;
+struct DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771;
+struct Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C;
+struct IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832;
+struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918;
+struct SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C;
+struct StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF;
+struct TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81;
+struct StateU5BU5D_t582DB17A2F2961D87446D25E1C91EF394892D8A2;
+struct AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C;
+struct ComputeBuffer_t51EADA9015EBCC1B982C5584E9AB2734415A8233;
+struct ComputeTensorData_tA37942E94AA7D2B7D35DDF8973562A7CEA327540;
+struct DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E;
+struct GenericVarsWithReuse_t67229848B6AEB3967FFA740AB2EF2257976FEDF9;
+struct IAsyncResult_t7B9B5A0ECB35DCEC31B8A8122C37D687369253B5;
+struct IDictionary_t6D03155AF1FA9083817AA5B6AD7DEEACC26AB220;
+struct IModelExecutionsReporter_tC3503443DD973EA5E4EB8A728EE6D889BD99AE2B;
+struct ITensorAllocator_t553DDDB49ED44AEEF66ECF1C7CA6B532A76B0D74;
+struct ITensorData_t3A6F17AB959FF04A40F1CAF3FE450AA42855F8A2;
+struct MethodInfo_t;
+struct Model_t8F5B69764BF210D112B40801428554C916789420;
+struct NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8;
+struct ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659;
+struct SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6;
+struct String_t;
+struct StringCache_t19E6724546A439DC87FC72475FCFE5AD02EC3E02;
+struct Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10;
+struct TensorCachingAllocator_tBE0474DFC0656A0D4D19CDA54E5DEEEC9CD4E889;
+struct TensorScope_tEAFF048BDAA1CA8B1ED36BABBE9CACFB6421F4FE;
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
+struct ConvertFromOnDeviceFormatHelper_t00FEFF3BC2D50FCCEB6C6FFA6880F52353A12A86;
+struct U3CU3Ec__DisplayClass40_0_t07A00729CE63BCF16CFD5F329220101BCD59D875;
+struct U3CU3Ec__DisplayClass41_0_t8C56DD2BCEDEF77FFE7DA63D521300C8D54F528D;
+struct Seed_tCB3800330FC799B67001C34E4921C7A9845D0592;
+struct F_t0057DF9A2096B887F2CD030BD8B21AB93052E232;
+struct UniqueResourceHelper_t59DA06BEC5A93A2BD76CC262B47B9DBD6B261849;
+
+IL2CPP_EXTERN_C RuntimeClass* Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ComputeTensorData_tA37942E94AA7D2B7D35DDF8973562A7CEA327540_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* F_t0057DF9A2096B887F2CD030BD8B21AB93052E232_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Func_3_t112E81BD9C60E0186076895800369606BCF590FB_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Func_7_tAD061F9712D11BFA0CB2E1EBCCB7E4743E48EC77_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* GenericVarsWithReuse_t67229848B6AEB3967FFA740AB2EF2257976FEDF9_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* IEnumerable_1_t0FF2D4C164C0AEAD50C6E6E6C6D2700CD5CBD11E_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* IEnumerator_1_tE0227A96BB4E9337196B34798A58A07327372EFE_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ITensorAllocator_t553DDDB49ED44AEEF66ECF1C7CA6B532A76B0D74_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ITensorData_t3A6F17AB959FF04A40F1CAF3FE450AA42855F8A2_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* List_1_t264DA9C475A0E3CF57148457209560CF2E2B6F27_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* List_1_tDEC4119E22EFA9DBE2F6B6C4F3ACD2FD0849215C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Marshal_tD976A56A90263C3CE2B780D4B1CADADE2E70B4A7_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Seed_tCB3800330FC799B67001C34E4921C7A9845D0592_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* SortedList_2_t770BD8AE327207D1B7D419DCA907B232D45C9FE4_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* StringCache_t19E6724546A439DC87FC72475FCFE5AD02EC3E02_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* TensorCachingAllocator_tBE0474DFC0656A0D4D19CDA54E5DEEEC9CD4E889_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* TensorScope_tEAFF048BDAA1CA8B1ED36BABBE9CACFB6421F4FE_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass40_0_t07A00729CE63BCF16CFD5F329220101BCD59D875_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass41_0_t8C56DD2BCEDEF77FFE7DA63D521300C8D54F528D_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t82B4091189C4C589DBBE88730C3BC7A9CF700151____1B897DDDD4C151E2A2E6E3E91B7EA0F7FC4FD5ED00EF1C9669E8566393A02586_FieldInfo_var;
+IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t82B4091189C4C589DBBE88730C3BC7A9CF700151____20A743E052C9D5CFD34446BB42D40E9113BD65A8E43D9E3D108793BF2162F73C_FieldInfo_var;
+IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t82B4091189C4C589DBBE88730C3BC7A9CF700151____57BFF0102124E656FC853E9B99CCBD1F69009EFD41875725308CB212E246A77E_FieldInfo_var;
+IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t82B4091189C4C589DBBE88730C3BC7A9CF700151____6256A4B0BE4127B6FF9FA076FE7595961BC296521BD01220F64C6F95768C1FDD_FieldInfo_var;
+IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t82B4091189C4C589DBBE88730C3BC7A9CF700151____81C1A5A2F482E82CA2C66653482AB24E6D90944BF183C8164E8F8F8D72DB60DB_FieldInfo_var;
+IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t82B4091189C4C589DBBE88730C3BC7A9CF700151____DD0FB97FED5EB759F894A67CA31875F364B4CB5C0D709AD25626C9BCBC8321C6_FieldInfo_var;
+IL2CPP_EXTERN_C String_t* _stringLiteral13B231D7682384871CE73ED7B3E82983BC4C7EEA;
+IL2CPP_EXTERN_C String_t* _stringLiteral31C4DA90A4713C0BB4D6AD715684CF57A9A0DD2A;
+IL2CPP_EXTERN_C String_t* _stringLiteral50B34A4F98B75FA73BA7589AF784FC011ACD67B1;
+IL2CPP_EXTERN_C String_t* _stringLiteral7D9F7E9BB536E4122AF4B4F6A880B67F5F65C5B4;
+IL2CPP_EXTERN_C String_t* _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
+IL2CPP_EXTERN_C String_t* _stringLiteralE189FF4E020095B5B318626A1461DFD5F8B8410C;
+IL2CPP_EXTERN_C String_t* _stringLiteralFF09F3B368ED8A446AC4FE07CA39EE738A9B164D;
+IL2CPP_EXTERN_C const RuntimeMethod* Assert_AreEqual_TisDataType_tE83C8A4B68ABD2625ED7E2AF230FBA22E9AB1A05_mDD454F101053A3D4D732E78929815828B19DECFE_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerable_Any_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m1F745C2E29AD7260B441065DDB7957BC7090693C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerable_Reverse_TisKeyValuePair_2_tF9681614985AA4D11569AFA8747D722D1447A120_mD4D5923D68842B99CE3D61E339A4F1EAA650B808_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerable_Take_TisKeyValuePair_2_tF9681614985AA4D11569AFA8747D722D1447A120_mA225C8CD4BFF51A92F4A7F2221E0A244948F6353_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_Dispose_mA052BFC7D9C120BE726EFFA7FF5B9C4F76910699_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_MoveNext_mA007B24B08FDEC0C997DC7296F133A7F127B12C6_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_get_Current_m8A8BF612D863FA9E7319E23A81F02181F66B51E1_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* KeyValuePair_2_get_Value_mAB1FC5832CB06EEF53C3A3E9C2A67258EAC6048E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_AddRange_m176E3F9AEF07B831234D1D461309BEDCCB415464_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Add_m2F86E252D086E288E02FA1C830B7E86C0A431E51_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Add_m716377944B1E88CBB1B269AA9CF38C525A41D367_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Add_mC2AEA78982ECE580E4329735D062D1B5F1A12B94_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Clear_m6CD2E5AAE6552A27AECCC57936767B4DCFC902B1_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Clear_m8DD05D1390E2EDB26FCFD9F6E30A9CFECBFCB526_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Clear_mF6795DE5F49C1D0B91D6A0955F448B22970D67A9_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_GetEnumerator_m9629AB804337109F506FAB180D7D94604F46CEB5_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Insert_mC1B6D4E6CC94D8BA82A60B2F80CE9684D9345AAE_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_RemoveAt_m02AAC9739BBFB220DD397843A7825154D07F2C93_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_RemoveAt_m76C4CDACF47BA529BAFADFC8D5E13DB9587F4004_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_m30DD6F0F8DFBA9856BF7220A3CDB1C89ECEC0D98_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_m7734609AB0CE32B017F3FBC89E3A0D35323A5015_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_mC29D3D824786832A31096310B3B3016B8B42B802_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_mC423242B9593865CFAF5099E70E72BF837C18D2A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Count_m49F98C7CDE40A86E99CE80339BB0941F04189395_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Count_m545762F67009314D9C63DD209B42FFF950569B05_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Count_mD67F5478F4F639E87639CD28E2E5874679116DB2_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Item_m63FD20C67694792BD3237CE27670FD94DF753185_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Item_m79F3E2B859433E0B67E7E6B3EA0005F9FE9B12B6_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Item_mD99081BEFA1AB3526715F489192B0F7F596C183D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Item_mFE556F47C4CD09EAC6C898EF39D4A8EC112CFC50_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Marshal_SizeOf_TisInt64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_m4E05DA55D87CA8C80EABA53ECB8511113C81442F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ReferenceCPUOps_ApplyFusedActivation_m3FD39FDE56BAEDC8AAE8C3FD36ED451648419621_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ReferenceCPUOps_Concat_mF5E102F6C04B89D9F47075978AB44D212F85FC11_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ReferenceCPUOps_DepthwiseConv2D_m269D0974A20B97FEFBC3144169FDB7F7BE7542E7_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ReferenceCPUOps_Multinomial_m22633BF7C23989C6E84290D1841BF58255E63FF4_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ReferenceCPUOps_Normalization_m4E07EA578ACD1808C19330488EAD0F0B9F25E567_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ReferenceCPUOps_OneHot_m82FA57C652ABF646CDB0B52F666ED527E9E8FD63_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ReferenceCPUOps_TopKIndices_m56C2E731868D216FD87B5AB7E8E6996E62ACDEA6_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ReferenceCPUOps_TopKValues_m13BF79A919F3446B55691F9794CE5FEA76F29386_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ReferenceCPUOps_U3CPad2DEdgeU3Eg__GetEdgePaddingU7C45_0_m40EBA0FBCB6CF59F3DBBF54DF21A476073001C02_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ReferenceCPUOps_U3CPad2DReflectU3Eg__GetReflectPaddingU7C43_0_m62B1564F667A3E7AB8FEC113D2D34AE039A2B2F2_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ReferenceCPUOps_U3CPad2DSymmetricU3Eg__GetSymmetricPaddingU7C44_0_m4395D0F5D2DBBC53D8B652FE53D6B47317AEC67D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SortedList_2_Clear_mF4F051FB1CB7767BA1ABECA569FD1523FB240978_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SortedList_2_TryGetValue_mED60BAF7AF8424D5F7EE5ACBAC765D3B347FE0E6_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SortedList_2__ctor_m29C71F4CF169F5211D57AA2929A763CDFB073929_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SortedList_2_set_Item_mD0789CC8848F1E2413C9545F7DC27349CA416F7F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TensorScope___m1C05DF203215BAC9784F5C565FD7E6BE30C264CF_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CAddU3Eb__109_0_m9E16169437A4EB07F4DF747F6A2C11B9BE8E3345_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CDivU3Eb__112_0_mED0A86B776C51B531A58A1D5752C58A0CC86CB54_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CEqualU3Eb__129_0_m681B59DE00573245699011864635167B3B6C7C20_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CGreaterEqualU3Eb__126_0_mD7324FDDD9DBADBFE177C5E923D57DFA6098BECF_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CGreaterU3Eb__125_0_m9BE6C77619B2D83CEFD2194D700CAA521BEDA724_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CLessEqualU3Eb__128_0_m082FC34D210F052D02944B38A56E2D5523503DBA_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CLessU3Eb__127_0_mE933A42F1D21B84A346AD8BFA74F0992205D25B6_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CLogicalAndU3Eb__131_0_m65152C1E1804763224E27275D600B308ACA1D54D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CLogicalOrU3Eb__130_0_m6FBDE504DB02405544E04CF3B1500F6D39E051DB_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CLogicalXorU3Eb__132_0_mD0B776DA4EB8709769077198269D34AF7875BAD8_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CMaxU3Eb__115_0_m84DD44AEBD3FE2198EA835961019D4D07C0879E9_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CMeanU3Eb__116_0_m89E7615B86EE480B9C35D4DAA67815B2DD972F91_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CMinU3Eb__114_0_m128D39687CC4DFD5CFDD49BBFC96775DC562578D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CMulU3Eb__111_0_m220D39F2780C8D6F9F9B6B89FEE630F1A7DBE324_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CPowU3Eb__113_0_mB668D0245CF8A948086A29F5360E96C53158F308_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CSubU3Eb__110_0_m4F1375BF5C959EE91FC9D68FA45F71C1FAE0719B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass40_0_U3CBorder2DU3Eb__0_mD473AF0D077BECD2B95907D4BDFF3476AF609189_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass41_0_U3CBorder3DU3Eb__0_m8EE6506648A8FF7C8FC37F3EF41F65EE368B4B64_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ValueTuple_3__ctor_m0D7E698F23721325245996D0B8DED1C102559F60_RuntimeMethod_var;
+struct Delegate_t_marshaled_com;
+struct Delegate_t_marshaled_pinvoke;
+struct Exception_t_marshaled_com;
+struct Exception_t_marshaled_pinvoke;
+
+struct ValueTuple_3U5BU5D_t2EE684CE383C822F20AF09A2B0A3C10C5A8A94E5;
+struct Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C;
+struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918;
+struct SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C;
+struct TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81;
+struct StateU5BU5D_t582DB17A2F2961D87446D25E1C91EF394892D8A2;
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+struct List_1_t264DA9C475A0E3CF57148457209560CF2E2B6F27  : public RuntimeObject
+{
+	ValueTuple_3U5BU5D_t2EE684CE383C822F20AF09A2B0A3C10C5A8A94E5* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct List_1_tDEC4119E22EFA9DBE2F6B6C4F3ACD2FD0849215C  : public RuntimeObject
+{
+	Int32U5BU5DU5BU5D_t179D865D5B30EFCBC50F82C9774329C15943466E* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73  : public RuntimeObject
+{
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D  : public RuntimeObject
+{
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918  : public RuntimeObject
+{
+	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct SortedList_2_t770BD8AE327207D1B7D419DCA907B232D45C9FE4  : public RuntimeObject
+{
+	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___keys;
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___values;
+	int32_t ____size;
+	int32_t ___version;
+	RuntimeObject* ___comparer;
+	KeyList_t1A3FC9B1C5CA4558CD6740033E581469BA8E4CEC* ___keyList;
+	ValueList_t2DB723ECF1A73D42C2ACB374D10FBF4ED9D71C9E* ___valueList;
+	RuntimeObject* ____syncRoot;
+};
+struct GenericVars_tEB03C4D992899A6A838B2299D214A0DDFB0CFB48  : public RuntimeObject
+{
+	Dictionary_2_t89634CD86CDAA05DE523E1CD579D26394A76E910* ___m_TensorsByName;
+	HashSet_1_t3D6F7BF2395DA8E4FD1A1D4432BDFEB208D49BBC* ___m_ModelTensors;
+	Dictionary_2_tC90D3672F54F7B1D20DDCDDAACBFBE16D5699989* ___m_InputTensorsByLayer;
+	Dictionary_2_t5C8F46F5D57502270DD9E1DA8303B23C7FE85588* ___m_LayerNameToId;
+	Dictionary_2_t6FFAD029BB474A5257D9A441504B633831AF5341* ___m_LayerNameToDisposeWhenDone;
+	Dictionary_2_tF0A6FC33F6955AC1653DEE551CB62C8D5C41A9AD* ___m_LayerIdToLayer;
+	StringCache_t19E6724546A439DC87FC72475FCFE5AD02EC3E02* ___m_StringCache;
+	TensorCachingAllocator_tBE0474DFC0656A0D4D19CDA54E5DEEEC9CD4E889* ___m_Allocator;
+};
+struct ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659  : public RuntimeObject
+{
+	RuntimeObject* ___m_ModelExecutionsReporter;
+	RuntimeObject* ___m_Allocator;
+	StringCache_t19E6724546A439DC87FC72475FCFE5AD02EC3E02* ___m_StringCache;
+	StateU5BU5D_t582DB17A2F2961D87446D25E1C91EF394892D8A2* ___m_DropoutSeed;
+	StateU5BU5D_t582DB17A2F2961D87446D25E1C91EF394892D8A2* ___m_RandomNormalSeed;
+	StateU5BU5D_t582DB17A2F2961D87446D25E1C91EF394892D8A2* ___m_RandomUniformSeed;
+	StateU5BU5D_t582DB17A2F2961D87446D25E1C91EF394892D8A2* ___m_MultinomialSeed;
+};
+struct String_t  : public RuntimeObject
+{
+	int32_t ____stringLength;
+	Il2CppChar ____firstChar;
+};
+struct StringCache_t19E6724546A439DC87FC72475FCFE5AD02EC3E02  : public RuntimeObject
+{
+	Dictionary_2_t6F4A5EC085E0FBDBB3A25C5785F45C1EA56C859B* ___m_CacheStringString;
+	Dictionary_2_tBB50951F587AFC820B72FF08C96B9AC80BC65249* ___m_CacheStringStringLong;
+};
+struct TensorScope_tEAFF048BDAA1CA8B1ED36BABBE9CACFB6421F4FE  : public RuntimeObject
+{
+	HashSet_1_t3D6F7BF2395DA8E4FD1A1D4432BDFEB208D49BBC* ___m_Tensors;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___m_DependentOnTensor;
+};
+struct UniqueResourceId_t3A31ABD6FA0521225014929D3039C136EBEE965E  : public RuntimeObject
+{
+	int32_t ___U3CuniqueIdU3Ek__BackingField;
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F  : public RuntimeObject
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_pinvoke
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
+{
+};
+struct U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3  : public RuntimeObject
+{
+};
+struct U3CU3Ec__DisplayClass40_0_t07A00729CE63BCF16CFD5F329220101BCD59D875  : public RuntimeObject
+{
+	float ___value;
+};
+struct U3CU3Ec__DisplayClass41_0_t8C56DD2BCEDEF77FFE7DA63D521300C8D54F528D  : public RuntimeObject
+{
+	float ___value;
+};
+struct KeyValuePair_2_tF9681614985AA4D11569AFA8747D722D1447A120 
+{
+	float ___key;
+	int32_t ___value;
+};
+struct ValueTuple_3_tBFE24970AFB182B3C77F4C747E3F1E7A7B4EBC57 
+{
+	int32_t ___Item1;
+	int32_t ___Item2;
+	int32_t ___Item3;
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22 
+{
+	bool ___m_value;
+};
+struct Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F 
+{
+	double ___m_value;
+};
+struct GenericVarsWithReuse_t67229848B6AEB3967FFA740AB2EF2257976FEDF9  : public GenericVars_tEB03C4D992899A6A838B2299D214A0DDFB0CFB48
+{
+	Model_t8F5B69764BF210D112B40801428554C916789420* ___m_CachedModel;
+	bool ___m_LayerRequiresStorage;
+	HashSet_1_t3F2B773735A788A312014370398B4D26CBC6010D* ___m_LayersWithStorage;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___m_Temporary;
+	String_t* ___m_TemporaryName;
+	RuntimeObject* ___m_CachedInputShapes;
+};
+struct Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C 
+{
+	int32_t ___m_value;
+};
+struct Int64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3 
+{
+	int64_t ___m_value;
+};
+struct IntPtr_t 
+{
+	void* ___m_value;
+};
+struct Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D 
+{
+	float ___m_XMin;
+	float ___m_YMin;
+	float ___m_Width;
+	float ___m_Height;
+};
+struct Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C 
+{
+	float ___m_value;
+};
+struct TensorCachingAllocator_tBE0474DFC0656A0D4D19CDA54E5DEEEC9CD4E889  : public UniqueResourceId_t3A31ABD6FA0521225014929D3039C136EBEE965E
+{
+	String_t* ___U3CnameU3Ek__BackingField;
+	List_1_t622628B607C95D4AED48D5FA6D3CBF1FF519C9F9* ___m_AllocatedBuffers;
+	Dictionary_2_t65124A5674FEDF5836C36FA53AF2EA6AFAE4BDC1* ___m_BusyTensors;
+	Dictionary_2_t20040F948CAE007E0BEEB1E6E26D6B9E33450F05* ___m_SharedBuffers;
+	Action_1_t66D91B4A0535D3170B9F2D9658576E595C9AD567* ___disposeAllocatedBufferDelegate;
+	Action_1_t66D91B4A0535D3170B9F2D9658576E595C9AD567* ___adoptFreeBufferDelegate;
+	List_1_tE0B2B6230B6484379007679CBADD3E34B232F550* ___m_AllocatedTensors;
+	int32_t ___m_NumAllocatedBufferSinceCleanup;
+};
+struct TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 
+{
+	int32_t ___d0;
+	int32_t ___d1;
+	int32_t ___d2;
+	int32_t ___d3;
+	int32_t ___d4;
+	int32_t ___d5;
+	int32_t ___d6;
+	int32_t ___d7;
+	uint8_t ___m_UsesNamedDimensions;
+	int32_t ___m_Rank;
+};
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t Void_t4861ACF8F4594C3437BB48B6E56783494B843915__padding[1];
+	};
+};
+struct State_tA37EB68FE687D41D4B228462D4C7427FAC5BF9C1 
+{
+	int32_t ___s0;
+	int32_t ___s1;
+	int32_t ___s2;
+	int32_t ___s3;
+};
+struct Enumerator_t6C2C3126C98F6470FE4A695C9CEAE34CC520EA9C 
+{
+	List_1_t264DA9C475A0E3CF57148457209560CF2E2B6F27* ____list;
+	int32_t ____index;
+	int32_t ____version;
+	ValueTuple_3_tBFE24970AFB182B3C77F4C747E3F1E7A7B4EBC57 ____current;
+};
+struct AsyncGPUReadbackRequest_t6A735D3E0F1DEF8F43EBD0E6FE550FAE564519C7 
+{
+	intptr_t ___m_Ptr;
+	int32_t ___m_Version;
+};
+struct Delegate_t  : public RuntimeObject
+{
+	intptr_t ___method_ptr;
+	intptr_t ___invoke_impl;
+	RuntimeObject* ___m_target;
+	intptr_t ___method;
+	intptr_t ___delegate_trampoline;
+	intptr_t ___extra_arg;
+	intptr_t ___method_code;
+	intptr_t ___interp_method;
+	intptr_t ___interp_invoke_impl;
+	MethodInfo_t* ___method_info;
+	MethodInfo_t* ___original_method_info;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
+	bool ___method_is_virtual;
+};
+struct Delegate_t_marshaled_pinvoke
+{
+	intptr_t ___method_ptr;
+	intptr_t ___invoke_impl;
+	Il2CppIUnknown* ___m_target;
+	intptr_t ___method;
+	intptr_t ___delegate_trampoline;
+	intptr_t ___extra_arg;
+	intptr_t ___method_code;
+	intptr_t ___interp_method;
+	intptr_t ___interp_invoke_impl;
+	MethodInfo_t* ___method_info;
+	MethodInfo_t* ___original_method_info;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
+	int32_t ___method_is_virtual;
+};
+struct Delegate_t_marshaled_com
+{
+	intptr_t ___method_ptr;
+	intptr_t ___invoke_impl;
+	Il2CppIUnknown* ___m_target;
+	intptr_t ___method;
+	intptr_t ___delegate_trampoline;
+	intptr_t ___extra_arg;
+	intptr_t ___method_code;
+	intptr_t ___interp_method;
+	intptr_t ___interp_invoke_impl;
+	MethodInfo_t* ___method_info;
+	MethodInfo_t* ___original_method_info;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
+	int32_t ___method_is_virtual;
+};
+struct Exception_t  : public RuntimeObject
+{
+	String_t* ____className;
+	String_t* ____message;
+	RuntimeObject* ____data;
+	Exception_t* ____innerException;
+	String_t* ____helpURL;
+	RuntimeObject* ____stackTrace;
+	String_t* ____stackTraceString;
+	String_t* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	RuntimeObject* ____dynamicMethods;
+	int32_t ____HResult;
+	String_t* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
+};
+struct Exception_t_marshaled_pinvoke
+{
+	char* ____className;
+	char* ____message;
+	RuntimeObject* ____data;
+	Exception_t_marshaled_pinvoke* ____innerException;
+	char* ____helpURL;
+	Il2CppIUnknown* ____stackTrace;
+	char* ____stackTraceString;
+	char* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	Il2CppIUnknown* ____dynamicMethods;
+	int32_t ____HResult;
+	char* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	Il2CppSafeArray* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
+};
+struct Exception_t_marshaled_com
+{
+	Il2CppChar* ____className;
+	Il2CppChar* ____message;
+	RuntimeObject* ____data;
+	Exception_t_marshaled_com* ____innerException;
+	Il2CppChar* ____helpURL;
+	Il2CppIUnknown* ____stackTrace;
+	Il2CppChar* ____stackTraceString;
+	Il2CppChar* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	Il2CppIUnknown* ____dynamicMethods;
+	int32_t ____HResult;
+	Il2CppChar* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	Il2CppSafeArray* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
+};
+struct RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 
+{
+	intptr_t ___value;
+};
+struct Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10  : public UniqueResourceId_t3A31ABD6FA0521225014929D3039C136EBEE965E
+{
+	int32_t ___m_preferredDataType;
+	RuntimeObject* ___m_TensorOnDevice;
+	RuntimeObject* ___m_TensorAllocator;
+	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___m_Cache;
+	bool ___m_CacheIsDirty;
+	bool ___m_Disposed;
+	String_t* ___U3CnameU3Ek__BackingField;
+	TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 ___U3CshapeU3Ek__BackingField;
+	bool ___m_Disposing;
+};
+struct TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 
+{
+	TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 ___shape;
+	int32_t ___m_shapeLength;
+	int32_t ___index;
+	int32_t ___d0;
+	int32_t ___d1;
+	int32_t ___d2;
+	int32_t ___d3;
+	int32_t ___d4;
+	int32_t ___d5;
+	int32_t ___d6;
+	int32_t ___d7;
+};
+struct Seed_tCB3800330FC799B67001C34E4921C7A9845D0592  : public RuntimeObject
+{
+	StateU5BU5D_t582DB17A2F2961D87446D25E1C91EF394892D8A2* ___m_SeedStorage;
+	State_tA37EB68FE687D41D4B228462D4C7427FAC5BF9C1 ___m_EngineSeed;
+};
+struct ComputeTensorData_tA37942E94AA7D2B7D35DDF8973562A7CEA327540  : public UniqueResourceId_t3A31ABD6FA0521225014929D3039C136EBEE965E
+{
+	bool ___m_DisposeBufferAfterUse;
+	ComputeBuffer_t51EADA9015EBCC1B982C5584E9AB2734415A8233* ___m_Buffer;
+	TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 ___m_Shape;
+	int32_t ___m_Offset;
+	int32_t ___m_OnDeviceChannelsOrder;
+	String_t* ___name;
+	int32_t ___m_AsyncDownloadSchedulingFrame;
+	bool ___m_AsyncDownloadRequested;
+	AsyncGPUReadbackRequest_t6A735D3E0F1DEF8F43EBD0E6FE550FAE564519C7 ___m_AsyncDownloadRequest;
+	ConvertFromOnDeviceFormatHelper_t00FEFF3BC2D50FCCEB6C6FFA6880F52353A12A86* ___m_ConvertFromOnDeviceFormatHelper;
+};
+struct MulticastDelegate_t  : public Delegate_t
+{
+	DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771* ___delegates;
+};
+struct MulticastDelegate_t_marshaled_pinvoke : public Delegate_t_marshaled_pinvoke
+{
+	Delegate_t_marshaled_pinvoke** ___delegates;
+};
+struct MulticastDelegate_t_marshaled_com : public Delegate_t_marshaled_com
+{
+	Delegate_t_marshaled_com** ___delegates;
+};
+struct SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295  : public Exception_t
+{
+};
+struct Func_3_t112E81BD9C60E0186076895800369606BCF590FB  : public MulticastDelegate_t
+{
+};
+struct Func_7_t33F30BE5BCE3E271F4DAFFAF0E88EA8B6347957F  : public MulticastDelegate_t
+{
+};
+struct Func_7_tAD061F9712D11BFA0CB2E1EBCCB7E4743E48EC77  : public MulticastDelegate_t
+{
+};
+struct NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
+{
+};
+struct F_t0057DF9A2096B887F2CD030BD8B21AB93052E232  : public MulticastDelegate_t
+{
+};
+struct List_1_t264DA9C475A0E3CF57148457209560CF2E2B6F27_StaticFields
+{
+	ValueTuple_3U5BU5D_t2EE684CE383C822F20AF09A2B0A3C10C5A8A94E5* ___s_emptyArray;
+};
+struct List_1_tDEC4119E22EFA9DBE2F6B6C4F3ACD2FD0849215C_StaticFields
+{
+	Int32U5BU5DU5BU5D_t179D865D5B30EFCBC50F82C9774329C15943466E* ___s_emptyArray;
+};
+struct List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73_StaticFields
+{
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___s_emptyArray;
+};
+struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D_StaticFields
+{
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___s_emptyArray;
+};
+struct List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918_StaticFields
+{
+	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___s_emptyArray;
+};
+struct String_t_StaticFields
+{
+	String_t* ___Empty;
+};
+struct U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_StaticFields
+{
+	U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3* ___U3CU3E9;
+	Func_3_t112E81BD9C60E0186076895800369606BCF590FB* ___U3CU3E9__109_0;
+	Func_3_t112E81BD9C60E0186076895800369606BCF590FB* ___U3CU3E9__110_0;
+	Func_3_t112E81BD9C60E0186076895800369606BCF590FB* ___U3CU3E9__111_0;
+	Func_3_t112E81BD9C60E0186076895800369606BCF590FB* ___U3CU3E9__112_0;
+	Func_3_t112E81BD9C60E0186076895800369606BCF590FB* ___U3CU3E9__113_0;
+	Func_3_t112E81BD9C60E0186076895800369606BCF590FB* ___U3CU3E9__114_0;
+	Func_3_t112E81BD9C60E0186076895800369606BCF590FB* ___U3CU3E9__115_0;
+	Func_3_t112E81BD9C60E0186076895800369606BCF590FB* ___U3CU3E9__116_0;
+	Func_3_t112E81BD9C60E0186076895800369606BCF590FB* ___U3CU3E9__125_0;
+	Func_3_t112E81BD9C60E0186076895800369606BCF590FB* ___U3CU3E9__126_0;
+	Func_3_t112E81BD9C60E0186076895800369606BCF590FB* ___U3CU3E9__127_0;
+	Func_3_t112E81BD9C60E0186076895800369606BCF590FB* ___U3CU3E9__128_0;
+	Func_3_t112E81BD9C60E0186076895800369606BCF590FB* ___U3CU3E9__129_0;
+	Func_3_t112E81BD9C60E0186076895800369606BCF590FB* ___U3CU3E9__130_0;
+	Func_3_t112E81BD9C60E0186076895800369606BCF590FB* ___U3CU3E9__131_0;
+	Func_3_t112E81BD9C60E0186076895800369606BCF590FB* ___U3CU3E9__132_0;
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
+{
+	String_t* ___TrueString;
+	String_t* ___FalseString;
+};
+struct IntPtr_t_StaticFields
+{
+	intptr_t ___Zero;
+};
+struct TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3_StaticFields
+{
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___DataFeatures;
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___KernelSpatials;
+};
+struct Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10_StaticFields
+{
+	Action_1_t626AB2FAB3033A14D62E8C4FF1A9C06528EC3390* ___tensorDisposed;
+};
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+struct TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81  : public RuntimeArray
+{
+	ALIGN_FIELD (8) Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* m_Items[1];
+
+	inline Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+struct Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C  : public RuntimeArray
+{
+	ALIGN_FIELD (8) int32_t m_Items[1];
+
+	inline int32_t GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline int32_t* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, int32_t value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline int32_t GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline int32_t* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, int32_t value)
+	{
+		m_Items[index] = value;
+	}
+};
+struct StateU5BU5D_t582DB17A2F2961D87446D25E1C91EF394892D8A2  : public RuntimeArray
+{
+	ALIGN_FIELD (8) State_tA37EB68FE687D41D4B228462D4C7427FAC5BF9C1 m_Items[1];
+
+	inline State_tA37EB68FE687D41D4B228462D4C7427FAC5BF9C1 GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline State_tA37EB68FE687D41D4B228462D4C7427FAC5BF9C1* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, State_tA37EB68FE687D41D4B228462D4C7427FAC5BF9C1 value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline State_tA37EB68FE687D41D4B228462D4C7427FAC5BF9C1 GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline State_tA37EB68FE687D41D4B228462D4C7427FAC5BF9C1* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, State_tA37EB68FE687D41D4B228462D4C7427FAC5BF9C1 value)
+	{
+		m_Items[index] = value;
+	}
+};
+struct SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C  : public RuntimeArray
+{
+	ALIGN_FIELD (8) float m_Items[1];
+
+	inline float GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline float* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, float value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline float GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline float* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, float value)
+	{
+		m_Items[index] = value;
+	}
+};
+struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918  : public RuntimeArray
+{
+	ALIGN_FIELD (8) RuntimeObject* m_Items[1];
+
+	inline RuntimeObject* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline RuntimeObject** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, RuntimeObject* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline RuntimeObject* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline RuntimeObject** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, RuntimeObject* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+struct ValueTuple_3U5BU5D_t2EE684CE383C822F20AF09A2B0A3C10C5A8A94E5  : public RuntimeArray
+{
+	ALIGN_FIELD (8) ValueTuple_3_tBFE24970AFB182B3C77F4C747E3F1E7A7B4EBC57 m_Items[1];
+
+	inline ValueTuple_3_tBFE24970AFB182B3C77F4C747E3F1E7A7B4EBC57 GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline ValueTuple_3_tBFE24970AFB182B3C77F4C747E3F1E7A7B4EBC57* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, ValueTuple_3_tBFE24970AFB182B3C77F4C747E3F1E7A7B4EBC57 value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline ValueTuple_3_tBFE24970AFB182B3C77F4C747E3F1E7A7B4EBC57 GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline ValueTuple_3_tBFE24970AFB182B3C77F4C747E3F1E7A7B4EBC57* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, ValueTuple_3_tBFE24970AFB182B3C77F4C747E3F1E7A7B4EBC57 value)
+	{
+		m_Items[index] = value;
+	}
+};
+
+
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Assert_AreEqual_TisInt32Enum_tCBAC8BA2BFF3A845FA599F303093BBBA374B6F0C_m361E93CB894ACACC51263D46B9075E6B1AE80BA5_gshared (int32_t ___0_expected, int32_t ___1_actual, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1_Insert_mC1B6D4E6CC94D8BA82A60B2F80CE9684D9345AAE_gshared (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, int32_t ___0_index, int32_t ___1_item, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t List_1_get_Item_mD99081BEFA1AB3526715F489192B0F7F596C183D_gshared (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, int32_t ___0_index, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Func_7_Invoke_m0488A8C468A3B93B4CE37AD236310417DE2B7D97_gshared_inline (Func_7_t33F30BE5BCE3E271F4DAFFAF0E88EA8B6347957F* __this, RuntimeObject* ___0_arg1, int32_t ___1_arg2, int32_t ___2_arg3, int32_t ___3_arg4, int32_t ___4_arg5, int32_t ___5_arg6, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_7__ctor_m7FE61979E3525654B0B8F27126BFD92742680894_gshared (Func_7_t33F30BE5BCE3E271F4DAFFAF0E88EA8B6347957F* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SortedList_2__ctor_m29C71F4CF169F5211D57AA2929A763CDFB073929_gshared (SortedList_2_t770BD8AE327207D1B7D419DCA907B232D45C9FE4* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SortedList_2_TryGetValue_mED60BAF7AF8424D5F7EE5ACBAC765D3B347FE0E6_gshared (SortedList_2_t770BD8AE327207D1B7D419DCA907B232D45C9FE4* __this, float ___0_key, int32_t* ___1_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SortedList_2_set_Item_mD0789CC8848F1E2413C9545F7DC27349CA416F7F_gshared (SortedList_2_t770BD8AE327207D1B7D419DCA907B232D45C9FE4* __this, float ___0_key, int32_t ___1_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Enumerable_Take_TisKeyValuePair_2_tF9681614985AA4D11569AFA8747D722D1447A120_mA225C8CD4BFF51A92F4A7F2221E0A244948F6353_gshared (RuntimeObject* ___0_source, int32_t ___1_count, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Enumerable_Reverse_TisKeyValuePair_2_tF9681614985AA4D11569AFA8747D722D1447A120_mD4D5923D68842B99CE3D61E339A4F1EAA650B808_gshared (RuntimeObject* ___0_source, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t KeyValuePair_2_get_Value_mAB1FC5832CB06EEF53C3A3E9C2A67258EAC6048E_gshared_inline (KeyValuePair_2_tF9681614985AA4D11569AFA8747D722D1447A120* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SortedList_2_Clear_mF4F051FB1CB7767BA1ABECA569FD1523FB240978_gshared (SortedList_2_t770BD8AE327207D1B7D419DCA907B232D45C9FE4* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1__ctor_m7F078BB342729BDF11327FD89D7872265328F690_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* List_1_get_Item_m33561245D64798C2AB07584C0EC4F240E4839A38_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, int32_t ___0_index, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Marshal_SizeOf_TisInt64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_m4E05DA55D87CA8C80EABA53ECB8511113C81442F_gshared (const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Func_3_Invoke_mC8193F9BE436AD10B0F1279771862679CB5813AD_gshared_inline (Func_3_t112E81BD9C60E0186076895800369606BCF590FB* __this, float ___0_arg1, float ___1_arg2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_m5B9A75AB0F71A31F8F0F009E95D514DB82314D18_gshared (Func_3_t112E81BD9C60E0186076895800369606BCF590FB* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1__ctor_m30DD6F0F8DFBA9856BF7220A3CDB1C89ECEC0D98_gshared (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, int32_t ___0_capacity, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1__ctor_m7734609AB0CE32B017F3FBC89E3A0D35323A5015_gshared (List_1_t264DA9C475A0E3CF57148457209560CF2E2B6F27* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1__ctor_mC29D3D824786832A31096310B3B3016B8B42B802_gshared (List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Clear_m8DD05D1390E2EDB26FCFD9F6E30A9CFECBFCB526_gshared_inline (List_1_t264DA9C475A0E3CF57148457209560CF2E2B6F27* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Clear_mF6795DE5F49C1D0B91D6A0955F448B22970D67A9_gshared_inline (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Clear_m6CD2E5AAE6552A27AECCC57936767B4DCFC902B1_gshared_inline (List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_m2F86E252D086E288E02FA1C830B7E86C0A431E51_gshared_inline (List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* __this, float ___0_item, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_gshared_inline (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, int32_t ___0_item, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float List_1_get_Item_mFE556F47C4CD09EAC6C898EF39D4A8EC112CFC50_gshared (List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* __this, int32_t ___0_index, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m545762F67009314D9C63DD209B42FFF950569B05_gshared_inline (List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1_RemoveAt_m76C4CDACF47BA529BAFADFC8D5E13DB9587F4004_gshared (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, int32_t ___0_index, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1_RemoveAt_m02AAC9739BBFB220DD397843A7825154D07F2C93_gshared (List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* __this, int32_t ___0_index, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Enumerator_t6C2C3126C98F6470FE4A695C9CEAE34CC520EA9C List_1_GetEnumerator_m9629AB804337109F506FAB180D7D94604F46CEB5_gshared (List_1_t264DA9C475A0E3CF57148457209560CF2E2B6F27* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Enumerator_Dispose_mA052BFC7D9C120BE726EFFA7FF5B9C4F76910699_gshared (Enumerator_t6C2C3126C98F6470FE4A695C9CEAE34CC520EA9C* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ValueTuple_3_tBFE24970AFB182B3C77F4C747E3F1E7A7B4EBC57 Enumerator_get_Current_m8A8BF612D863FA9E7319E23A81F02181F66B51E1_gshared_inline (Enumerator_t6C2C3126C98F6470FE4A695C9CEAE34CC520EA9C* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Enumerator_MoveNext_mA007B24B08FDEC0C997DC7296F133A7F127B12C6_gshared (Enumerator_t6C2C3126C98F6470FE4A695C9CEAE34CC520EA9C* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ValueTuple_3__ctor_m0D7E698F23721325245996D0B8DED1C102559F60_gshared (ValueTuple_3_tBFE24970AFB182B3C77F4C747E3F1E7A7B4EBC57* __this, int32_t ___0_item1, int32_t ___1_item2, int32_t ___2_item3, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_m716377944B1E88CBB1B269AA9CF38C525A41D367_gshared_inline (List_1_t264DA9C475A0E3CF57148457209560CF2E2B6F27* __this, ValueTuple_3_tBFE24970AFB182B3C77F4C747E3F1E7A7B4EBC57 ___0_item, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Enumerable_Any_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m1F745C2E29AD7260B441065DDB7957BC7090693C_gshared (RuntimeObject* ___0_source, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_mD67F5478F4F639E87639CD28E2E5874679116DB2_gshared_inline (List_1_t264DA9C475A0E3CF57148457209560CF2E2B6F27* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1_AddRange_m176E3F9AEF07B831234D1D461309BEDCCB415464_gshared (List_1_t264DA9C475A0E3CF57148457209560CF2E2B6F27* __this, RuntimeObject* ___0_collection, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueTuple_3_tBFE24970AFB182B3C77F4C747E3F1E7A7B4EBC57 List_1_get_Item_m63FD20C67694792BD3237CE27670FD94DF753185_gshared (List_1_t264DA9C475A0E3CF57148457209560CF2E2B6F27* __this, int32_t ___0_index, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void List_1_AddWithResize_m446487BF7F55E757E7D552B2436AD74AC354EA99_gshared (List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* __this, float ___0_item, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void List_1_AddWithResize_m378B392086AAB6F400944FA9839516326B3F7BB8_gshared (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, int32_t ___0_item, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void List_1_AddWithResize_m57F67F58816C738BD74A58DE0B5652DE01FDC8EC_gshared (List_1_t264DA9C475A0E3CF57148457209560CF2E2B6F27* __this, ValueTuple_3_tBFE24970AFB182B3C77F4C747E3F1E7A7B4EBC57 ___0_item, const RuntimeMethod* method) ;
+
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StringCache__ctor_mEA993E7A38A48441B83987F7AA294C679D81F232 (StringCache_t19E6724546A439DC87FC72475FCFE5AD02EC3E02* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TensorCachingAllocator__ctor_m6E9648282E6945F8791073B3F4E35252199F29E4 (TensorCachingAllocator_tBE0474DFC0656A0D4D19CDA54E5DEEEC9CD4E889* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_NewTensor_m28313580259C16669D150B6F478E9DDFBEF01AFD (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, int32_t ___0_dataType, TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 ___1_s, int32_t ___2_scope, String_t* ___3_name, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_NewTensorLike_mFD7812C538D32C91820042603989181F9318A121 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_t, int32_t ___1_scope, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TensorShape__ctor_m7AB7F54A3AAB95BB6BF985DD3F86B8B95B1C972D (TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3* __this, int32_t ___0_n, int32_t ___1_c, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TensorShape__ctor_m0318587E59DA4D042BBC786E5B6CF255C773FA57 (TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3* __this, int32_t ___0_n, int32_t ___1_h, int32_t ___2_w, int32_t ___3_c, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1 (String_t* ___0_a, String_t* ___1_b, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Tensor_set_name_mF6D65DDE34C5D8D4B6B0E771EEE6435346EC3954_inline (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* __this, String_t* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Tensor_get_dataType_m57109C88C5386735035BB4066BAACD68228C3AB1 (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Assert_IsTrue_mE42C53B7220324D1FBAFB7AE48A7D8DD7796A663 (bool ___0_condition, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 TensorExtensions_MaxShape_m53F10A75EBA8FAF5EAC4855CD5E23627FF0CF741 (TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* ___0_tensors, const RuntimeMethod* method) ;
+inline void Assert_AreEqual_TisDataType_tE83C8A4B68ABD2625ED7E2AF230FBA22E9AB1A05_mDD454F101053A3D4D732E78929815828B19DECFE (int32_t ___0_expected, int32_t ___1_actual, const RuntimeMethod* method)
+{
+	((  void (*) (int32_t, int32_t, const RuntimeMethod*))Assert_AreEqual_TisInt32Enum_tCBAC8BA2BFF3A845FA599F303093BBBA374B6F0C_m361E93CB894ACACC51263D46B9075E6B1AE80BA5_gshared)(___0_expected, ___1_actual, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TensorShape_get_Item_m046FF56D8906EA7CD9D33486F778EBBCE949B33E (TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3* __this, int32_t ___0_axis, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_NewOutputTensor_m9A02521597BF2F0CA2519FD43C2333084204C429 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, int32_t ___0_type, TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 ___1_s, String_t* ___2_name, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_NewTempTensor_m52D1DD5FCDDC6B80A6440A678EFCC79482049B89 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, int32_t ___0_type, TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 ___1_s, String_t* ___2_name, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline (float ___0_a, float ___1_b, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float MathfEx_Tanh_mD886F38E2C989739750E15250B733E3D72A0F3E9 (float ___0_x, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Min_m747CA71A9483CDB394B13BD0AD048EE17E48FFE4_inline (float ___0_a, float ___1_b, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Sign_m42EE1F0BC041AF14F89DED7F762BE996E2C50D8A_inline (float ___0_f, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotImplementedException__ctor_mDAB47BC6BD0E342E8F2171E5CABE3E67EA049F1C (NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Tensor_get_length_m35C7DA71ED506DB11C0626A040E8A182CA25D5CA (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ModelAnalyzer_LegacyGetXYRanks_m4BDF7765F65AAD2117886609E3B9CA3F60D9FB16 (TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 ___0_X, TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 ___1_Y, int32_t* ___2_rankX, int32_t* ___3_rankY, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* ShapeInference_BarracudaShapeToOnnxLayout_m94C60CDBF3B7CD59D0FC9539192D1E155C4E8992 (TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 ___0_X, int32_t ___1_rank, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Math_Max_m530EBA549AFD98CFC2BD29FE86C6376E67DF11CF (int32_t ___0_val1, int32_t ___1_val2, const RuntimeMethod* method) ;
+inline void List_1_Insert_mC1B6D4E6CC94D8BA82A60B2F80CE9684D9345AAE (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, int32_t ___0_index, int32_t ___1_item, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73*, int32_t, int32_t, const RuntimeMethod*))List_1_Insert_mC1B6D4E6CC94D8BA82A60B2F80CE9684D9345AAE_gshared)(__this, ___0_index, ___1_item, method);
+}
+inline int32_t List_1_get_Item_mD99081BEFA1AB3526715F489192B0F7F596C183D (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, int32_t ___0_index, const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73*, int32_t, const RuntimeMethod*))List_1_get_Item_mD99081BEFA1AB3526715F489192B0F7F596C183D_gshared)(__this, ___0_index, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_NewTensor_m74008D9C77785A62165EBEF61281FBB9CB42DAAF (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, int32_t ___0_dataType, TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 ___1_s, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B (RuntimeArray* ___0_array, RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 ___1_fldHandle, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Tensor_get_batch_m6CD93DCCD32D6A47FDEDEBFF16FF70AC9C586DD9 (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Tensor_get_height_m0477A83109747FF1DA788569602DA2293D762AC1 (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Tensor_get_channels_m9DA46CF71B1C47E059EA3417C6A652E1233B5D04 (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Tensor_get_width_m9E948C3769B41324EB12D54CE6E2E51DC18DC488 (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_NewTensorLike_mE3067F6087FA22E7A01E136887210735B6DAE00D (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_t, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Tensor_get_dimensions_mD78E14F7C96D3C7E1F47BC20BFA4352E8C52E2BB (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Tensor_get_flatWidth_m7B9AECCB1EF9799E625DD86147A2A3F92F440CC5 (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Tensor_get_flatHeight_m5A8183FF5C9A9FBDE2F8080B134CA91ABA0FC50D (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Assert_AreEqual_m718BB4BD31FA3176A3A236F96BC5405EB750D6CF (int32_t ___0_expected, int32_t ___1_actual, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_NewTensor_m549377E46F09536C70FA6CD0E663E9FF6735A53F (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, int32_t ___0_dataType, int32_t ___1_b, int32_t ___2_ch, String_t* ___3_name, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Tensor_get_Item_mB3B371A025B020FBFB3A79C3375745EEA999829B (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* __this, int32_t ___0_b, int32_t ___1_ch, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tensor_set_Item_m3DDF7909FDDC72AE45128800669404B9A7151F87 (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* __this, int32_t ___0_b, int32_t ___1_ch, float ___2_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* __this, int32_t ___0_index, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ReferenceCPUOps_ApplyFusedActivation_m3FD39FDE56BAEDC8AAE8C3FD36ED451648419621 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, float ___0_v, int32_t ___1_fusedActivation, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TensorExtensions_Is4D_m1BB4A7DABDDBDB4046C16B6833336A64CD5A0C86 (TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 ___0_shape, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Tensor_get_kernelDepth_mE44E66338E9291E470D4CB152E2F8F83890567E9 (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Tensor_get_kernelCount_m98E82502EEC69F11C14B0589D40710B818714722 (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 TensorExtensions_ApplyKernel_m6D52E32ED54F6097A1E104CCB8CC7FB09F240443 (TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 ___0_shape, TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 ___1_kernel, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___2_stride, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___3_pad, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Tensor_get_Item_mA53C387CBDB9F0EA0D069DD7BFC45970172290C5 (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* __this, int32_t ___0_b, int32_t ___1_h, int32_t ___2_w, int32_t ___3_ch, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Tensor_get_kernelWidth_m4CA0EF3AA1795E14C8C1B11F5D658188FAF6FB73 (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Tensor_get_kernelHeight_m3BB900FD718F6156405ED93688816729B0BB80C6 (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tensor_set_Item_m7EF9E435A07905132E0C8C33A6C5A90E1E22BF58 (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* __this, int32_t ___0_b, int32_t ___1_h, int32_t ___2_w, int32_t ___3_ch, float ___4_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TensorExtensions_IsNDHWC_mAE6BCD15589A659050B19303629AD7252E90A49C (TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 ___0_shape, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Tensor_get_depth_mCBD84F5F780C2550B3D41F0EE99DC72FD5D93B91 (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Tensor_get_Item_mA5356D6E69A9A737CAAC9469CD796413667F784C (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* __this, int32_t ___0_b, int32_t ___1_d, int32_t ___2_h, int32_t ___3_w, int32_t ___4_ch, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Tensor_get_Item_mEC07898861EE98ED01A447281200D4F26CEDA1A9 (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* __this, int32_t ___0_s, int32_t ___1_r, int32_t ___2_n, int32_t ___3_t, int32_t ___4_d, int32_t ___5_h, int32_t ___6_w, int32_t ___7_c, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Tensor_get_kernelSpatialDepth_mBFFDA142CB543B96A8AB39819D5EFBFC415B8746 (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tensor_set_Item_m2DB3060AC1B6388733DCEBDBDA2FA5A27F40FB42 (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* __this, int32_t ___0_b, int32_t ___1_d, int32_t ___2_h, int32_t ___3_w, int32_t ___4_ch, float ___5_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotImplementedException__ctor_m8339D1A685E8D77CAC9D3260C06B38B5C7CA7742 (NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8* __this, String_t* ___0_message, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 TensorExtensions_ApplyKernelInverse_m35496E3C9A2647840F5C8B2297365F643D84701C (TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 ___0_shape, TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 ___1_kernel, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___2_stride, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___3_pad, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___4_outputAdjustment, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TensorShape__ctor_m3D0A670E59D0D5F0D13739F5C777DED331A7DAB6 (TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3* __this, int32_t ___0_s, int32_t ___1_r, int32_t ___2_n, int32_t ___3_t, int32_t ___4_d, int32_t ___5_h, int32_t ___6_w, int32_t ___7_c, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Tensor_IndexWithClamp_mEADD5A9E50B57ADD046A28383F03C846622CED93 (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* __this, int32_t ___0_n, int32_t ___1_d, int32_t ___2_h, int32_t ___3_w, int32_t ___4_c, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ReferenceCPUOps_BilinearInterpolation_m97D4EC60D8E977855B34E62AF8CDD1752D9DC193 (float ___0_fracSrcPosX, float ___1_fracSrcPosY, float ___2_p00, float ___3_p01, float ___4_p10, float ___5_p11, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_NewTensor_m3EF74B4420F55BBDE8F8C0FF99F0065052535404 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, int32_t ___0_dataType, int32_t ___1_b, int32_t ___2_h, int32_t ___3_w, int32_t ___4_ch, String_t* ___5_name, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Tensor_IndexWithClamp_m5AAE1870FAD159CC4608843CE836A1EAF8D8AE2C (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* __this, int32_t ___0_n, int32_t ___1_h, int32_t ___2_w, int32_t ___3_c, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_FloorToInt_m2A39AE881CAEE6B6A4B3BFEF9CA1ED40625F5AB7_inline (float ___0_f, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 TensorExtensions_ApplyPool_mB8C886661E283C591C554E99E632E67FAF2F084D (TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 ___0_shape, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___1_pool, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___2_stride, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___3_pad, bool ___4_ceilMode, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 TensorExtensions_ApplyBorder_m9E9BBD248EA93738E1D3C05DA0140DFCCFF5B065 (TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 ___0_shape, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___1_border, const RuntimeMethod* method) ;
+inline float Func_7_Invoke_m291CE77F6889BACD58F057269775193B4CD38682_inline (Func_7_tAD061F9712D11BFA0CB2E1EBCCB7E4743E48EC77* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_arg1, int32_t ___1_arg2, int32_t ___2_arg3, int32_t ___3_arg4, int32_t ___4_arg5, int32_t ___5_arg6, const RuntimeMethod* method)
+{
+	return ((  float (*) (Func_7_tAD061F9712D11BFA0CB2E1EBCCB7E4743E48EC77*, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, int32_t, int32_t, int32_t, int32_t, int32_t, const RuntimeMethod*))Func_7_Invoke_m0488A8C468A3B93B4CE37AD236310417DE2B7D97_gshared_inline)(__this, ___0_arg1, ___1_arg2, ___2_arg3, ___3_arg4, ___4_arg5, ___5_arg6, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass40_0__ctor_m13F889BD1EF6E34911B6E6D2CDC143BD4B1CA017 (U3CU3Ec__DisplayClass40_0_t07A00729CE63BCF16CFD5F329220101BCD59D875* __this, const RuntimeMethod* method) ;
+inline void Func_7__ctor_m8DB560F1A7DD403DF5451DEC6163508D9834A217 (Func_7_tAD061F9712D11BFA0CB2E1EBCCB7E4743E48EC77* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
+{
+	((  void (*) (Func_7_tAD061F9712D11BFA0CB2E1EBCCB7E4743E48EC77*, RuntimeObject*, intptr_t, const RuntimeMethod*))Func_7__ctor_m7FE61979E3525654B0B8F27126BFD92742680894_gshared)(__this, ___0_object, ___1_method, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_ApplyPadding_m525EE4A58B6DA3FCEF352C51BAB3DDF47ABEA64C (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___1_pad, Func_7_tAD061F9712D11BFA0CB2E1EBCCB7E4743E48EC77* ___2_paddingOp, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass41_0__ctor_m18FBB8A022814B0B3DE04498A48A52F290850F1A (U3CU3Ec__DisplayClass41_0_t8C56DD2BCEDEF77FFE7DA63D521300C8D54F528D* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TensorShape_get_width_m56A7458F96AE9D7CA09EBD26818829F744B9535E (TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Math_Min_m53C488772A34D53917BCA2A491E79A0A5356ED52 (int32_t ___0_val1, int32_t ___1_val2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TensorShape_get_height_m8B91777B58E0A3DA03D0D4321E808881FED66B49 (TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TensorShape_get_channels_m0E2F3816D81AD501AD029073DCE1355AE46EF52B (TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TensorIterator__ctor_m6319470FAD9BD9F476FBCF1BB5B62700D21A0CD9 (TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_tensor, int32_t ___1_index, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tensor_set_Item_m825AF5D1FC078421906298C6662565DF5C64817E (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* __this, int32_t ___0_index, float ___1_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TensorIterator_Next_m3BBE90015F10C99DBD4317583E5C8696E45865B1 (TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TensorIterator_IsValid_m35EB0AC3E815407848AFD55F95B88BF0093CC7A5 (TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Random_get_value_m2CEA87FADF5222EF9E13D32695F15E2BA282E24B (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Seed__ctor_m5074B5C4B837D374E1EE716B55027B3C5008BAC2 (Seed_tCB3800330FC799B67001C34E4921C7A9845D0592* __this, StateU5BU5D_t582DB17A2F2961D87446D25E1C91EF394892D8A2** ___0_storage, int32_t ___1_initialSeed, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ReferenceCPUOps_Bernoulli_m07BF2EF3475E0023F7C88725E69E974FBBB1F9BC (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, float ___0_p, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ReferenceCPUOps_Gaussian_m9B0078341A66CF8EE9E4D239E44B6EC00C4D525D (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, float ___0_mean, float ___1_stdDev, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TensorShape_get_sequenceLength_m5C087C678ABF06D5B2B51C228F8CB9F303116322 (TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TensorShape_get_numberOfDirections_m50DA3E7023E2EF50FD04578C7852D282823924EA (TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline (float ___0_value, float ___1_min, float ___2_max, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ReferenceCPUOps_NearestNeighbourBilinearInterpolation_m29813BC3C60B20B19B56B7304C09FED7413D97C5 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, int32_t ___1_n, float ___2_y, float ___3_x, int32_t ___4_c, bool ___5_snapToBorder, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* TensorShape_ToArray_m6F504949F53EAB92C210A4B52F7F53BE104E8637 (TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_Min_m888083F74FF5655778F0403BB5E9608BEFDEA8CB_inline (int32_t ___0_a, int32_t ___1_b, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TensorShape__ctor_m9DE68F3346972692FB3BA10C9DD28ABFDAE09173 (TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3* __this, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___0_shape, bool ___1_unnamedDimensions, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TensorExtensions_Convert8DAxisTo4D_m4B4356063BCD46AA320F6603E5CC8A14C81A39B2 (int32_t ___0_axis, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TensorExtensions_Convert4DTo8DAxis_mF1E59D0EAA74487291EAF4FB9ED1218F9FF99E8D (int32_t ___0_axis, const RuntimeMethod* method) ;
+inline void SortedList_2__ctor_m29C71F4CF169F5211D57AA2929A763CDFB073929 (SortedList_2_t770BD8AE327207D1B7D419DCA907B232D45C9FE4* __this, const RuntimeMethod* method)
+{
+	((  void (*) (SortedList_2_t770BD8AE327207D1B7D419DCA907B232D45C9FE4*, const RuntimeMethod*))SortedList_2__ctor_m29C71F4CF169F5211D57AA2929A763CDFB073929_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TensorShape_Index_mBC2A1602541E21AE2919F39C2424580F06A7402E (TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3* __this, int32_t ___0_n, int32_t ___1_h, int32_t ___2_w, int32_t ___3_c, const RuntimeMethod* method) ;
+inline bool SortedList_2_TryGetValue_mED60BAF7AF8424D5F7EE5ACBAC765D3B347FE0E6 (SortedList_2_t770BD8AE327207D1B7D419DCA907B232D45C9FE4* __this, float ___0_key, int32_t* ___1_value, const RuntimeMethod* method)
+{
+	return ((  bool (*) (SortedList_2_t770BD8AE327207D1B7D419DCA907B232D45C9FE4*, float, int32_t*, const RuntimeMethod*))SortedList_2_TryGetValue_mED60BAF7AF8424D5F7EE5ACBAC765D3B347FE0E6_gshared)(__this, ___0_key, ___1_value, method);
+}
+inline void SortedList_2_set_Item_mD0789CC8848F1E2413C9545F7DC27349CA416F7F (SortedList_2_t770BD8AE327207D1B7D419DCA907B232D45C9FE4* __this, float ___0_key, int32_t ___1_value, const RuntimeMethod* method)
+{
+	((  void (*) (SortedList_2_t770BD8AE327207D1B7D419DCA907B232D45C9FE4*, float, int32_t, const RuntimeMethod*))SortedList_2_set_Item_mD0789CC8848F1E2413C9545F7DC27349CA416F7F_gshared)(__this, ___0_key, ___1_value, method);
+}
+inline RuntimeObject* Enumerable_Take_TisKeyValuePair_2_tF9681614985AA4D11569AFA8747D722D1447A120_mA225C8CD4BFF51A92F4A7F2221E0A244948F6353 (RuntimeObject* ___0_source, int32_t ___1_count, const RuntimeMethod* method)
+{
+	return ((  RuntimeObject* (*) (RuntimeObject*, int32_t, const RuntimeMethod*))Enumerable_Take_TisKeyValuePair_2_tF9681614985AA4D11569AFA8747D722D1447A120_mA225C8CD4BFF51A92F4A7F2221E0A244948F6353_gshared)(___0_source, ___1_count, method);
+}
+inline RuntimeObject* Enumerable_Reverse_TisKeyValuePair_2_tF9681614985AA4D11569AFA8747D722D1447A120_mD4D5923D68842B99CE3D61E339A4F1EAA650B808 (RuntimeObject* ___0_source, const RuntimeMethod* method)
+{
+	return ((  RuntimeObject* (*) (RuntimeObject*, const RuntimeMethod*))Enumerable_Reverse_TisKeyValuePair_2_tF9681614985AA4D11569AFA8747D722D1447A120_mD4D5923D68842B99CE3D61E339A4F1EAA650B808_gshared)(___0_source, method);
+}
+inline int32_t KeyValuePair_2_get_Value_mAB1FC5832CB06EEF53C3A3E9C2A67258EAC6048E_inline (KeyValuePair_2_tF9681614985AA4D11569AFA8747D722D1447A120* __this, const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (KeyValuePair_2_tF9681614985AA4D11569AFA8747D722D1447A120*, const RuntimeMethod*))KeyValuePair_2_get_Value_mAB1FC5832CB06EEF53C3A3E9C2A67258EAC6048E_gshared_inline)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TensorShape_GetPositionsFromIndex_m1D0BFA271F02E131FD139905B80656D42BA3D3A9 (TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3* __this, int32_t ___0_index, int32_t* ___1_n, int32_t* ___2_h, int32_t* ___3_w, int32_t* ___4_c, const RuntimeMethod* method) ;
+inline void SortedList_2_Clear_mF4F051FB1CB7767BA1ABECA569FD1523FB240978 (SortedList_2_t770BD8AE327207D1B7D419DCA907B232D45C9FE4* __this, const RuntimeMethod* method)
+{
+	((  void (*) (SortedList_2_t770BD8AE327207D1B7D419DCA907B232D45C9FE4*, const RuntimeMethod*))SortedList_2_Clear_mF4F051FB1CB7767BA1ABECA569FD1523FB240978_gshared)(__this, method);
+}
+inline void List_1__ctor_mC423242B9593865CFAF5099E70E72BF837C18D2A (List_1_tDEC4119E22EFA9DBE2F6B6C4F3ACD2FD0849215C* __this, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_tDEC4119E22EFA9DBE2F6B6C4F3ACD2FD0849215C*, const RuntimeMethod*))List_1__ctor_m7F078BB342729BDF11327FD89D7872265328F690_gshared)(__this, method);
+}
+inline void List_1_Add_mC2AEA78982ECE580E4329735D062D1B5F1A12B94_inline (List_1_tDEC4119E22EFA9DBE2F6B6C4F3ACD2FD0849215C* __this, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___0_item, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_tDEC4119E22EFA9DBE2F6B6C4F3ACD2FD0849215C*, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*, const RuntimeMethod*))List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline)(__this, ___0_item, method);
+}
+inline int32_t List_1_get_Count_m49F98C7CDE40A86E99CE80339BB0941F04189395_inline (List_1_tDEC4119E22EFA9DBE2F6B6C4F3ACD2FD0849215C* __this, const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (List_1_tDEC4119E22EFA9DBE2F6B6C4F3ACD2FD0849215C*, const RuntimeMethod*))List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline)(__this, method);
+}
+inline Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* List_1_get_Item_m79F3E2B859433E0B67E7E6B3EA0005F9FE9B12B6 (List_1_tDEC4119E22EFA9DBE2F6B6C4F3ACD2FD0849215C* __this, int32_t ___0_index, const RuntimeMethod* method)
+{
+	return ((  Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* (*) (List_1_tDEC4119E22EFA9DBE2F6B6C4F3ACD2FD0849215C*, int32_t, const RuntimeMethod*))List_1_get_Item_m33561245D64798C2AB07584C0EC4F240E4839A38_gshared)(__this, ___0_index, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TensorShape_Axis_m9540333825C44D41F1A057AFCD2248193A1EA1D7 (TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3* __this, int32_t ___0_axis, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 TensorExtensions_Concat_m75BFAF346DDA62D560A4674C4B7DA3F0A9137F79 (TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* ___0_tensors, int32_t ___1_axis, const RuntimeMethod* method) ;
+inline int32_t Marshal_SizeOf_TisInt64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_m4E05DA55D87CA8C80EABA53ECB8511113C81442F (const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (const RuntimeMethod*))Marshal_SizeOf_TisInt64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_m4E05DA55D87CA8C80EABA53ECB8511113C81442F_gshared)(method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnsafeUtility_MemClear_m6C4377117084A11A667A567BC2F5E606A632A7C1 (void* ___0_destination, int64_t ___1_size, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t ReferenceCPUOps_GetAggregatedDimLength_mFC6A2CF70A4D19E8E3ED72B7CE6A5AD20F325BD8 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 ___0_shape, int32_t ___1_startDim, int32_t ___2_endDim, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TensorShape_get_length_m42D935AC99F95A1C8DE6B04AEC4DB9C96EDE7608 (TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* Tensor_ToReadOnlyArray_mDCBBEF11F36C4B4D0B2F994C5648EA822A759D2A (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Copy_m4C8D50AF6A1886B553D019FDE15A1F03D145B8F0 (RuntimeArray* ___0_sourceArray, int64_t ___1_sourceIndex, RuntimeArray* ___2_destinationArray, int64_t ___3_destinationIndex, int64_t ___4_length, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Tensor_get_data_m02BB8F7F1185C6AF1A8192A63DFBD7CF29B3B59A (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TensorExtensions_Get8DParametersNoAlloc_m8BABE0CC703EED646CB20B460C69C30E81C1FBED (TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 ___0_shape, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___1_parameters, int32_t* ___2_parameters8D, int32_t ___3_defaultValue, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 TensorExtensions_ApplyStridedSlice8DUnsafeNoAlloc_mB133DE734B3023D4D5B5C9B6E5290634EF6BC90A (TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 ___0_shape, int32_t* ___1_starts, int32_t* ___2_ends, int32_t* ___3_stride, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TensorExtensions_WrapIndex_m2CB48399E65FC2F88306940433EF6E260F9A31F5 (int32_t ___0_i, int32_t ___1_length, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 TensorExtensions_Scale_m7FD866CB7B971A1BB0E281E211C7F41AB781F73A (TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 ___0_shape, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___1_scale, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_NewTensorLike_m2AC23001C620780970864EAB7BC88B7AD650C1D1 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* ___0_tensors, int32_t ___1_scope, bool ___2_validateType, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TensorIterator__ctor_m155A791924246F4E780FA39C05FA2E78AE8DDFAC (TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78* __this, TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 ___0_shape, int32_t ___1_index, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Tensor_IndexWithBroadcast_m143CB5EAE64D94906777F9CA075F1FF0F83C5154 (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* __this, int32_t ___0_s, int32_t ___1_r, int32_t ___2_n, int32_t ___3_t, int32_t ___4_d, int32_t ___5_h, int32_t ___6_w, int32_t ___7_c, const RuntimeMethod* method) ;
+inline float Func_3_Invoke_mC8193F9BE436AD10B0F1279771862679CB5813AD_inline (Func_3_t112E81BD9C60E0186076895800369606BCF590FB* __this, float ___0_arg1, float ___1_arg2, const RuntimeMethod* method)
+{
+	return ((  float (*) (Func_3_t112E81BD9C60E0186076895800369606BCF590FB*, float, float, const RuntimeMethod*))Func_3_Invoke_mC8193F9BE436AD10B0F1279771862679CB5813AD_gshared_inline)(__this, ___0_arg1, ___1_arg2, method);
+}
+inline void Func_3__ctor_m5B9A75AB0F71A31F8F0F009E95D514DB82314D18 (Func_3_t112E81BD9C60E0186076895800369606BCF590FB* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
+{
+	((  void (*) (Func_3_t112E81BD9C60E0186076895800369606BCF590FB*, RuntimeObject*, intptr_t, const RuntimeMethod*))Func_3__ctor_m5B9A75AB0F71A31F8F0F009E95D514DB82314D18_gshared)(__this, ___0_object, ___1_method, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_ApplyElementwiseWithBroadcast_mDE4B2864B1CCDAF5C25F38D03EDD3B2F2EB6A0B0 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* ___0_tensors, Func_3_t112E81BD9C60E0186076895800369606BCF590FB* ___1_operation, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 TensorExtensions_Reduce_m560987AF34398CEE85412B1B5DCE11AB22B6712F (TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 ___0_shape, int32_t ___1_axis, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TensorIterator_IndexInReducedShape_mC61CB8FA82E20218BE6DB90DF92EE42F734DD260 (TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78* __this, TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 ___0_reducedShape, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TensorIterator_IndexWithReplacedAxis_m5CC893C8253AC414C1BED1B7602E85EF4A01A50C (TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78* __this, int32_t ___0_axis, int32_t ___1_newDimensionValue, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TensorIterator_get_Item_m63E891C7B085A16BE0673E4A6AE6D26B08DAA97D (TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78* __this, int32_t ___0_axis, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_ApplyLogicalOperator_mEAD34540E2E1E45B67B8E7CA1EF132C62D2DD4DC (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_tensorA, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___1_tensorB, Func_3_t112E81BD9C60E0186076895800369606BCF590FB* ___2_logicOp, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Convert_ToBoolean_m73A44AA68F53847BAC4B938953612587F8FBF61B (float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Convert_ToSingle_mDB62EDFD0197B14286A6DEA482361F6FCD101237 (bool ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Tensor_get_allocator_m4B48DE0DCE9B90635E95EE1C0C1056D36B653CE6 (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* Tensor_get_name_mFFE192D8C6C752B333D635CE813BAAA9294F374F_inline (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* StringCache_Lookup_m80EE1FF42C651AF290481EDC8A58496A14CCFFB4 (StringCache_t19E6724546A439DC87FC72475FCFE5AD02EC3E02* __this, String_t* ___0_a, String_t* ___1_b, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* Tensor_ShallowCopy_m13DFFFBB76E57DD9E8B57EABE6E98BEFF869BFEB (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* __this, String_t* ___0_newName, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* Tensor_Flatten_m2C87C9097269B973D3D7C759A2209B0BF55D7476 (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* __this, String_t* ___0_newName, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 TensorShape_Flatten_m071EF526832C3614F714121763E93C1951D73D79 (TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericVarsWithReuse_get_layerRequiresStorage_mCF1E6873474FCD0F4E808771A1B9E7FC06B6E7A6 (GenericVarsWithReuse_t67229848B6AEB3967FFA740AB2EF2257976FEDF9* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Tensor_get_tensorOnDevice_m3869D45C1126A5C95288140B0A9705D772322E6D (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ComputeTensorData_get_channelsOrder_m0EB81830CF353AD02ECF1B766BD7E3643954137D (ComputeTensorData_tA37942E94AA7D2B7D35DDF8973562A7CEA327540* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* Tensor_Reshape_mA4BAB390E389DD469BE918BD7698107CC35C6B55 (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* __this, TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 ___0_newShape, String_t* ___1_newName, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TensorShape_set_Item_m3E04172058C8855DBEE7B00941B909FF48D824A9 (TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3* __this, int32_t ___0_axis, int32_t ___1_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Tensor_Index_m9B79771242BEBFD7DABE460CA621983475E1F40E (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* __this, int32_t ___0_b, int32_t ___1_h, int32_t ___2_w, int32_t ___3_ch, const RuntimeMethod* method) ;
+inline void List_1__ctor_m30DD6F0F8DFBA9856BF7220A3CDB1C89ECEC0D98 (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, int32_t ___0_capacity, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73*, int32_t, const RuntimeMethod*))List_1__ctor_m30DD6F0F8DFBA9856BF7220A3CDB1C89ECEC0D98_gshared)(__this, ___0_capacity, method);
+}
+inline void List_1__ctor_m7734609AB0CE32B017F3FBC89E3A0D35323A5015 (List_1_t264DA9C475A0E3CF57148457209560CF2E2B6F27* __this, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t264DA9C475A0E3CF57148457209560CF2E2B6F27*, const RuntimeMethod*))List_1__ctor_m7734609AB0CE32B017F3FBC89E3A0D35323A5015_gshared)(__this, method);
+}
+inline void List_1__ctor_mC29D3D824786832A31096310B3B3016B8B42B802 (List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* __this, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918*, const RuntimeMethod*))List_1__ctor_mC29D3D824786832A31096310B3B3016B8B42B802_gshared)(__this, method);
+}
+inline void List_1_Clear_m8DD05D1390E2EDB26FCFD9F6E30A9CFECBFCB526_inline (List_1_t264DA9C475A0E3CF57148457209560CF2E2B6F27* __this, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t264DA9C475A0E3CF57148457209560CF2E2B6F27*, const RuntimeMethod*))List_1_Clear_m8DD05D1390E2EDB26FCFD9F6E30A9CFECBFCB526_gshared_inline)(__this, method);
+}
+inline void List_1_Clear_mF6795DE5F49C1D0B91D6A0955F448B22970D67A9_inline (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73*, const RuntimeMethod*))List_1_Clear_mF6795DE5F49C1D0B91D6A0955F448B22970D67A9_gshared_inline)(__this, method);
+}
+inline void List_1_Clear_m6CD2E5AAE6552A27AECCC57936767B4DCFC902B1_inline (List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* __this, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918*, const RuntimeMethod*))List_1_Clear_m6CD2E5AAE6552A27AECCC57936767B4DCFC902B1_gshared_inline)(__this, method);
+}
+inline void List_1_Add_m2F86E252D086E288E02FA1C830B7E86C0A431E51_inline (List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* __this, float ___0_item, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918*, float, const RuntimeMethod*))List_1_Add_m2F86E252D086E288E02FA1C830B7E86C0A431E51_gshared_inline)(__this, ___0_item, method);
+}
+inline void List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_inline (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, int32_t ___0_item, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73*, int32_t, const RuntimeMethod*))List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_gshared_inline)(__this, ___0_item, method);
+}
+inline float List_1_get_Item_mFE556F47C4CD09EAC6C898EF39D4A8EC112CFC50 (List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* __this, int32_t ___0_index, const RuntimeMethod* method)
+{
+	return ((  float (*) (List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918*, int32_t, const RuntimeMethod*))List_1_get_Item_mFE556F47C4CD09EAC6C898EF39D4A8EC112CFC50_gshared)(__this, ___0_index, method);
+}
+inline int32_t List_1_get_Count_m545762F67009314D9C63DD209B42FFF950569B05_inline (List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* __this, const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918*, const RuntimeMethod*))List_1_get_Count_m545762F67009314D9C63DD209B42FFF950569B05_gshared_inline)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ReferenceCPUOps_U3CNonMaxSuppressionU3Eg__GetRectFromCenterU7C143_3_m5C1E099D04485C240654BEE7A6EB57C0CC3E6151 (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_t, int32_t ___1_batch, int32_t ___2_index, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ReferenceCPUOps_U3CNonMaxSuppressionU3Eg__GetRectU7C143_2_m32D5DF34714D308D70EAE6AB4683251370DE68F0 (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_t, int32_t ___1_batch, int32_t ___2_index, const RuntimeMethod* method) ;
+inline void List_1_RemoveAt_m76C4CDACF47BA529BAFADFC8D5E13DB9587F4004 (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, int32_t ___0_index, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73*, int32_t, const RuntimeMethod*))List_1_RemoveAt_m76C4CDACF47BA529BAFADFC8D5E13DB9587F4004_gshared)(__this, ___0_index, method);
+}
+inline void List_1_RemoveAt_m02AAC9739BBFB220DD397843A7825154D07F2C93 (List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* __this, int32_t ___0_index, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918*, int32_t, const RuntimeMethod*))List_1_RemoveAt_m02AAC9739BBFB220DD397843A7825154D07F2C93_gshared)(__this, ___0_index, method);
+}
+inline Enumerator_t6C2C3126C98F6470FE4A695C9CEAE34CC520EA9C List_1_GetEnumerator_m9629AB804337109F506FAB180D7D94604F46CEB5 (List_1_t264DA9C475A0E3CF57148457209560CF2E2B6F27* __this, const RuntimeMethod* method)
+{
+	return ((  Enumerator_t6C2C3126C98F6470FE4A695C9CEAE34CC520EA9C (*) (List_1_t264DA9C475A0E3CF57148457209560CF2E2B6F27*, const RuntimeMethod*))List_1_GetEnumerator_m9629AB804337109F506FAB180D7D94604F46CEB5_gshared)(__this, method);
+}
+inline void Enumerator_Dispose_mA052BFC7D9C120BE726EFFA7FF5B9C4F76910699 (Enumerator_t6C2C3126C98F6470FE4A695C9CEAE34CC520EA9C* __this, const RuntimeMethod* method)
+{
+	((  void (*) (Enumerator_t6C2C3126C98F6470FE4A695C9CEAE34CC520EA9C*, const RuntimeMethod*))Enumerator_Dispose_mA052BFC7D9C120BE726EFFA7FF5B9C4F76910699_gshared)(__this, method);
+}
+inline ValueTuple_3_tBFE24970AFB182B3C77F4C747E3F1E7A7B4EBC57 Enumerator_get_Current_m8A8BF612D863FA9E7319E23A81F02181F66B51E1_inline (Enumerator_t6C2C3126C98F6470FE4A695C9CEAE34CC520EA9C* __this, const RuntimeMethod* method)
+{
+	return ((  ValueTuple_3_tBFE24970AFB182B3C77F4C747E3F1E7A7B4EBC57 (*) (Enumerator_t6C2C3126C98F6470FE4A695C9CEAE34CC520EA9C*, const RuntimeMethod*))Enumerator_get_Current_m8A8BF612D863FA9E7319E23A81F02181F66B51E1_gshared_inline)(__this, method);
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Rect_Overlaps_m5A540A24DAD3327006A3A2E209CC17992173B572_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___0_other, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ReferenceCPUOps_U3CNonMaxSuppressionU3Eg__GetIntersectionOverUnionAreaU7C143_0_m110CF2528A4DC4734AD36C36756F808AF47BB079 (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___0_a, Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___1_b, const RuntimeMethod* method) ;
+inline bool Enumerator_MoveNext_mA007B24B08FDEC0C997DC7296F133A7F127B12C6 (Enumerator_t6C2C3126C98F6470FE4A695C9CEAE34CC520EA9C* __this, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Enumerator_t6C2C3126C98F6470FE4A695C9CEAE34CC520EA9C*, const RuntimeMethod*))Enumerator_MoveNext_mA007B24B08FDEC0C997DC7296F133A7F127B12C6_gshared)(__this, method);
+}
+inline void ValueTuple_3__ctor_m0D7E698F23721325245996D0B8DED1C102559F60 (ValueTuple_3_tBFE24970AFB182B3C77F4C747E3F1E7A7B4EBC57* __this, int32_t ___0_item1, int32_t ___1_item2, int32_t ___2_item3, const RuntimeMethod* method)
+{
+	((  void (*) (ValueTuple_3_tBFE24970AFB182B3C77F4C747E3F1E7A7B4EBC57*, int32_t, int32_t, int32_t, const RuntimeMethod*))ValueTuple_3__ctor_m0D7E698F23721325245996D0B8DED1C102559F60_gshared)(__this, ___0_item1, ___1_item2, ___2_item3, method);
+}
+inline void List_1_Add_m716377944B1E88CBB1B269AA9CF38C525A41D367_inline (List_1_t264DA9C475A0E3CF57148457209560CF2E2B6F27* __this, ValueTuple_3_tBFE24970AFB182B3C77F4C747E3F1E7A7B4EBC57 ___0_item, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t264DA9C475A0E3CF57148457209560CF2E2B6F27*, ValueTuple_3_tBFE24970AFB182B3C77F4C747E3F1E7A7B4EBC57, const RuntimeMethod*))List_1_Add_m716377944B1E88CBB1B269AA9CF38C525A41D367_gshared_inline)(__this, ___0_item, method);
+}
+inline bool Enumerable_Any_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m1F745C2E29AD7260B441065DDB7957BC7090693C (RuntimeObject* ___0_source, const RuntimeMethod* method)
+{
+	return ((  bool (*) (RuntimeObject*, const RuntimeMethod*))Enumerable_Any_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m1F745C2E29AD7260B441065DDB7957BC7090693C_gshared)(___0_source, method);
+}
+inline int32_t List_1_get_Count_mD67F5478F4F639E87639CD28E2E5874679116DB2_inline (List_1_t264DA9C475A0E3CF57148457209560CF2E2B6F27* __this, const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (List_1_t264DA9C475A0E3CF57148457209560CF2E2B6F27*, const RuntimeMethod*))List_1_get_Count_mD67F5478F4F639E87639CD28E2E5874679116DB2_gshared_inline)(__this, method);
+}
+inline void List_1_AddRange_m176E3F9AEF07B831234D1D461309BEDCCB415464 (List_1_t264DA9C475A0E3CF57148457209560CF2E2B6F27* __this, RuntimeObject* ___0_collection, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t264DA9C475A0E3CF57148457209560CF2E2B6F27*, RuntimeObject*, const RuntimeMethod*))List_1_AddRange_m176E3F9AEF07B831234D1D461309BEDCCB415464_gshared)(__this, ___0_collection, method);
+}
+inline ValueTuple_3_tBFE24970AFB182B3C77F4C747E3F1E7A7B4EBC57 List_1_get_Item_m63FD20C67694792BD3237CE27670FD94DF753185 (List_1_t264DA9C475A0E3CF57148457209560CF2E2B6F27* __this, int32_t ___0_index, const RuntimeMethod* method)
+{
+	return ((  ValueTuple_3_tBFE24970AFB182B3C77F4C747E3F1E7A7B4EBC57 (*) (List_1_t264DA9C475A0E3CF57148457209560CF2E2B6F27*, int32_t, const RuntimeMethod*))List_1_get_Item_m63FD20C67694792BD3237CE27670FD94DF753185_gshared)(__this, ___0_index, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TensorExtensions_Fill_mFD0DC9D026783C26553D366D44203B9DE7F77056 (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, float ___1_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TensorShape_get_batch_m7965A4449ECCD583C1544F3DE854D58905F2371F (TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TensorScope__ctor_m5516EC2F851AF1E31A6E6FCB028C0D2EBDEEF8E6 (TensorScope_tEAFF048BDAA1CA8B1ED36BABBE9CACFB6421F4FE* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void F__ctor_m1C57D66ADFD855B49F57835986CEE5DA18C27122 (F_t0057DF9A2096B887F2CD030BD8B21AB93052E232* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* F_Invoke_mF9DE40521BFEBDFCA0F615EECF518CBDD6F3B581_inline (F_t0057DF9A2096B887F2CD030BD8B21AB93052E232* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_tensor, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* TensorExtensions_Get8DPermutationsForNHWCPermutationsAndShape_mE45436875456051EC29BC0B4ACC19340CB806A1E (TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 ___0_shape, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___1_permutations, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 TensorExtensions_Permute_m5B7A207CA82700EF3ECF35A5DFCB5A2EAB3DFAF0 (TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 ___0_shape, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___1_permutations, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tensor_set_Item_m1709795A52A1A1B65C7E09BFC9FCF25AE53E227C (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* __this, int32_t ___0_s, int32_t ___1_r, int32_t ___2_n, int32_t ___3_t, int32_t ___4_d, int32_t ___5_h, int32_t ___6_w, int32_t ___7_c, float ___8_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Tensor_PrepareCacheForAccess_m0A1B607B3A671C67A30A5DACE345079BEA55C0BC (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* __this, bool ___0_blocking, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReferenceCPUOps_ClampHWCToTensorShape_m3823687E0560CB403F02F66486CC37EA635EED71 (TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 ___0_shape, int32_t* ___1_height, int32_t* ___2_width, int32_t* ___3_channels, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ReferenceCPUOps_U3CNonMaxSuppressionU3Eg__GetIntersectionAreaU7C143_1_m571819DA634B7E661AD8EB875C50424986B9041F (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___0_a, Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___1_b, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Rect_get_width_m620D67551372073C9C32C4C4624C2A5713F7F9A9_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Rect_get_height_mE1AA6C6C725CCD2D317BD2157396D3CF7D47C9D8_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Rect_get_xMin_mE89C40702926D016A633399E20DB9501E251630D_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Rect_get_yMin_mB19848FB25DE61EDF958F7A22CFDD86DE103062F_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Rect_get_xMax_m2339C7D2FCDA98A9B007F815F6E2059BA6BE425F_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Rect_get_yMax_mBC37BEE1CD632AADD8B9EAF9FE3BA143F79CAF8E_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D Rect_MinMaxRect_m540D2DD8C255D276AD4AE06D9CCA2A667EFA39E5_inline (float ___0_xmin, float ___1_ymin, float ___2_xmax, float ___3_ymax, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Math_Max_mB55ACEA482E7F67E61496C4C7C54FE0BB7BE78EA (float ___0_val1, float ___1_val2, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, float ___0_x, float ___1_y, float ___2_width, float ___3_height, const RuntimeMethod* method) ;
+inline void List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4 (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D*, RuntimeObject*, const RuntimeMethod*))List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4_gshared)(__this, ___0_item, method);
+}
+inline void List_1_AddWithResize_m446487BF7F55E757E7D552B2436AD74AC354EA99 (List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* __this, float ___0_item, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918*, float, const RuntimeMethod*))List_1_AddWithResize_m446487BF7F55E757E7D552B2436AD74AC354EA99_gshared)(__this, ___0_item, method);
+}
+inline void List_1_AddWithResize_m378B392086AAB6F400944FA9839516326B3F7BB8 (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, int32_t ___0_item, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73*, int32_t, const RuntimeMethod*))List_1_AddWithResize_m378B392086AAB6F400944FA9839516326B3F7BB8_gshared)(__this, ___0_item, method);
+}
+inline void List_1_AddWithResize_m57F67F58816C738BD74A58DE0B5652DE01FDC8EC (List_1_t264DA9C475A0E3CF57148457209560CF2E2B6F27* __this, ValueTuple_3_tBFE24970AFB182B3C77F4C747E3F1E7A7B4EBC57 ___0_item, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t264DA9C475A0E3CF57148457209560CF2E2B6F27*, ValueTuple_3_tBFE24970AFB182B3C77F4C747E3F1E7A7B4EBC57, const RuntimeMethod*))List_1_AddWithResize_m57F67F58816C738BD74A58DE0B5652DE01FDC8EC_gshared)(__this, ___0_item, method);
+}
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReferenceCPUOps_PostLayerCleanup_mB4396B7C9E727EA7D7E995CD28913994A767E200 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ITensorAllocator_t553DDDB49ED44AEEF66ECF1C7CA6B532A76B0D74_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		RuntimeObject* L_0 = __this->___m_Allocator;
+		NullCheck(L_0);
+		InterfaceActionInvoker0::Invoke(2, ITensorAllocator_t553DDDB49ED44AEEF66ECF1C7CA6B532A76B0D74_il2cpp_TypeInfo_var, L_0);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReferenceCPUOps__ctor_m13597D3914B0A23CFE8E64D1C42D1D340EE6E343 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, RuntimeObject* ___0_allocator, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StringCache_t19E6724546A439DC87FC72475FCFE5AD02EC3E02_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TensorCachingAllocator_tBE0474DFC0656A0D4D19CDA54E5DEEEC9CD4E889_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	{
+		StringCache_t19E6724546A439DC87FC72475FCFE5AD02EC3E02* L_0 = (StringCache_t19E6724546A439DC87FC72475FCFE5AD02EC3E02*)il2cpp_codegen_object_new(StringCache_t19E6724546A439DC87FC72475FCFE5AD02EC3E02_il2cpp_TypeInfo_var);
+		StringCache__ctor_mEA993E7A38A48441B83987F7AA294C679D81F232(L_0, NULL);
+		__this->___m_StringCache = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_StringCache), (void*)L_0);
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		RuntimeObject* L_1 = ___0_allocator;
+		V_0 = (bool)((((RuntimeObject*)(RuntimeObject*)L_1) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
+		bool L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		TensorCachingAllocator_tBE0474DFC0656A0D4D19CDA54E5DEEEC9CD4E889* L_3 = (TensorCachingAllocator_tBE0474DFC0656A0D4D19CDA54E5DEEEC9CD4E889*)il2cpp_codegen_object_new(TensorCachingAllocator_tBE0474DFC0656A0D4D19CDA54E5DEEEC9CD4E889_il2cpp_TypeInfo_var);
+		TensorCachingAllocator__ctor_m6E9648282E6945F8791073B3F4E35252199F29E4(L_3, NULL);
+		___0_allocator = L_3;
+	}
+
+IL_0022:
+	{
+		RuntimeObject* L_4 = ___0_allocator;
+		__this->___m_Allocator = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Allocator), (void*)L_4);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_NewTensor_m74008D9C77785A62165EBEF61281FBB9CB42DAAF (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, int32_t ___0_dataType, TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 ___1_s, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		s_Il2CppMethodInitialized = true;
+	}
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_0 = NULL;
+	{
+		int32_t L_0 = ___0_dataType;
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_1 = ___1_s;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_2;
+		L_2 = ReferenceCPUOps_NewTensor_m28313580259C16669D150B6F478E9DDFBEF01AFD(__this, L_0, L_1, 0, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
+		V_0 = L_2;
+		goto IL_0012;
+	}
+
+IL_0012:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_3 = V_0;
+		return L_3;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_NewTensorLike_mE3067F6087FA22E7A01E136887210735B6DAE00D (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_t, const RuntimeMethod* method) 
+{
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_0 = NULL;
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_0 = ___0_t;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_1;
+		L_1 = ReferenceCPUOps_NewTensorLike_mFD7812C538D32C91820042603989181F9318A121(__this, L_0, 0, NULL);
+		V_0 = L_1;
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_2 = V_0;
+		return L_2;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_NewTensor_m549377E46F09536C70FA6CD0E663E9FF6735A53F (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, int32_t ___0_dataType, int32_t ___1_b, int32_t ___2_ch, String_t* ___3_name, const RuntimeMethod* method) 
+{
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_0 = NULL;
+	{
+		int32_t L_0 = ___0_dataType;
+		int32_t L_1 = ___1_b;
+		int32_t L_2 = ___2_ch;
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_3;
+		memset((&L_3), 0, sizeof(L_3));
+		TensorShape__ctor_m7AB7F54A3AAB95BB6BF985DD3F86B8B95B1C972D((&L_3), L_1, L_2, NULL);
+		String_t* L_4 = ___3_name;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_5;
+		L_5 = ReferenceCPUOps_NewTensor_m28313580259C16669D150B6F478E9DDFBEF01AFD(__this, L_0, L_3, 0, L_4, NULL);
+		V_0 = L_5;
+		goto IL_0015;
+	}
+
+IL_0015:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_6 = V_0;
+		return L_6;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_NewTensor_m3EF74B4420F55BBDE8F8C0FF99F0065052535404 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, int32_t ___0_dataType, int32_t ___1_b, int32_t ___2_h, int32_t ___3_w, int32_t ___4_ch, String_t* ___5_name, const RuntimeMethod* method) 
+{
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_0 = NULL;
+	{
+		int32_t L_0 = ___0_dataType;
+		int32_t L_1 = ___1_b;
+		int32_t L_2 = ___2_h;
+		int32_t L_3 = ___3_w;
+		int32_t L_4 = ___4_ch;
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_5;
+		memset((&L_5), 0, sizeof(L_5));
+		TensorShape__ctor_m0318587E59DA4D042BBC786E5B6CF255C773FA57((&L_5), L_1, L_2, L_3, L_4, NULL);
+		String_t* L_6 = ___5_name;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_7;
+		L_7 = ReferenceCPUOps_NewTensor_m28313580259C16669D150B6F478E9DDFBEF01AFD(__this, L_0, L_5, 0, L_6, NULL);
+		V_0 = L_7;
+		goto IL_0019;
+	}
+
+IL_0019:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_8 = V_0;
+		return L_8;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_NewTensor_m28313580259C16669D150B6F478E9DDFBEF01AFD (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, int32_t ___0_dataType, TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 ___1_s, int32_t ___2_scope, String_t* ___3_name, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ITensorAllocator_t553DDDB49ED44AEEF66ECF1C7CA6B532A76B0D74_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral31C4DA90A4713C0BB4D6AD715684CF57A9A0DD2A);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralFF09F3B368ED8A446AC4FE07CA39EE738A9B164D);
+		s_Il2CppMethodInitialized = true;
+	}
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_0 = NULL;
+	bool V_1 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_2 = NULL;
+	String_t* G_B4_0 = NULL;
+	{
+		String_t* L_0 = ___3_name;
+		bool L_1;
+		L_1 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_0, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
+		V_1 = L_1;
+		bool L_2 = V_1;
+		if (!L_2)
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		int32_t L_3 = ___2_scope;
+		if (!L_3)
+		{
+			goto IL_001b;
+		}
+	}
+	{
+		G_B4_0 = _stringLiteral31C4DA90A4713C0BB4D6AD715684CF57A9A0DD2A;
+		goto IL_0020;
+	}
+
+IL_001b:
+	{
+		G_B4_0 = _stringLiteralFF09F3B368ED8A446AC4FE07CA39EE738A9B164D;
+	}
+
+IL_0020:
+	{
+		___3_name = G_B4_0;
+	}
+
+IL_0022:
+	{
+		RuntimeObject* L_4 = __this->___m_Allocator;
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_5 = ___1_s;
+		int32_t L_6 = ___2_scope;
+		int32_t L_7 = ___0_dataType;
+		NullCheck(L_4);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_8;
+		L_8 = InterfaceFuncInvoker3< Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3, int32_t, int32_t >::Invoke(0, ITensorAllocator_t553DDDB49ED44AEEF66ECF1C7CA6B532A76B0D74_il2cpp_TypeInfo_var, L_4, L_5, L_6, L_7);
+		V_0 = L_8;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_9 = V_0;
+		String_t* L_10 = ___3_name;
+		NullCheck(L_9);
+		Tensor_set_name_mF6D65DDE34C5D8D4B6B0E771EEE6435346EC3954_inline(L_9, L_10, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_11 = V_0;
+		V_2 = L_11;
+		goto IL_003e;
+	}
+
+IL_003e:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_12 = V_2;
+		return L_12;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_NewTensorLike_mFD7812C538D32C91820042603989181F9318A121 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_t, int32_t ___1_scope, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		s_Il2CppMethodInitialized = true;
+	}
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_0 = NULL;
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_0 = ___0_t;
+		NullCheck(L_0);
+		int32_t L_1;
+		L_1 = Tensor_get_dataType_m57109C88C5386735035BB4066BAACD68228C3AB1(L_0, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_2 = ___0_t;
+		NullCheck(L_2);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_3;
+		L_3 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_2, NULL);
+		int32_t L_4 = ___1_scope;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_5;
+		L_5 = ReferenceCPUOps_NewTensor_m28313580259C16669D150B6F478E9DDFBEF01AFD(__this, L_1, L_3, L_4, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
+		V_0 = L_5;
+		goto IL_001c;
+	}
+
+IL_001c:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_6 = V_0;
+		return L_6;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_NewTensorLike_m2AC23001C620780970864EAB7BC88B7AD650C1D1 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* ___0_tensors, int32_t ___1_scope, bool ___2_validateType, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Assert_AreEqual_TisDataType_tE83C8A4B68ABD2625ED7E2AF230FBA22E9AB1A05_mDD454F101053A3D4D732E78929815828B19DECFE_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		s_Il2CppMethodInitialized = true;
+	}
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_0 = NULL;
+	TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* V_1 = NULL;
+	int32_t V_2 = 0;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_3 = NULL;
+	bool V_4 = false;
+	int32_t V_5 = 0;
+	TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 V_6;
+	memset((&V_6), 0, sizeof(V_6));
+	bool V_7 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_8 = NULL;
+	int32_t G_B7_0 = 0;
+	{
+		TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_0 = ___0_tensors;
+		NullCheck(L_0);
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_IsTrue_mE42C53B7220324D1FBAFB7AE48A7D8DD7796A663((bool)((!(((uint32_t)(((RuntimeArray*)L_0)->max_length)) <= ((uint32_t)0)))? 1 : 0), NULL);
+		TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_1 = ___0_tensors;
+		NullCheck(L_1);
+		int32_t L_2 = 0;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_3 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		NullCheck(L_3);
+		int32_t L_4;
+		L_4 = Tensor_get_dataType_m57109C88C5386735035BB4066BAACD68228C3AB1(L_3, NULL);
+		TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_5 = ___0_tensors;
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_6;
+		L_6 = TensorExtensions_MaxShape_m53F10A75EBA8FAF5EAC4855CD5E23627FF0CF741(L_5, NULL);
+		int32_t L_7 = ___1_scope;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_8;
+		L_8 = ReferenceCPUOps_NewTensor_m28313580259C16669D150B6F478E9DDFBEF01AFD(__this, L_4, L_6, L_7, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
+		V_0 = L_8;
+		TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_9 = ___0_tensors;
+		V_1 = L_9;
+		V_2 = 0;
+		goto IL_00aa;
+	}
+
+IL_002e:
+	{
+		TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_10 = V_1;
+		int32_t L_11 = V_2;
+		NullCheck(L_10);
+		int32_t L_12 = L_11;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_13 = (L_10)->GetAt(static_cast<il2cpp_array_size_t>(L_12));
+		V_3 = L_13;
+		bool L_14 = ___2_validateType;
+		V_4 = L_14;
+		bool L_15 = V_4;
+		if (!L_15)
+		{
+			goto IL_004c;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_16 = V_0;
+		NullCheck(L_16);
+		int32_t L_17;
+		L_17 = Tensor_get_dataType_m57109C88C5386735035BB4066BAACD68228C3AB1(L_16, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_18 = V_3;
+		NullCheck(L_18);
+		int32_t L_19;
+		L_19 = Tensor_get_dataType_m57109C88C5386735035BB4066BAACD68228C3AB1(L_18, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_AreEqual_TisDataType_tE83C8A4B68ABD2625ED7E2AF230FBA22E9AB1A05_mDD454F101053A3D4D732E78929815828B19DECFE(L_17, L_19, Assert_AreEqual_TisDataType_tE83C8A4B68ABD2625ED7E2AF230FBA22E9AB1A05_mDD454F101053A3D4D732E78929815828B19DECFE_RuntimeMethod_var);
+	}
+
+IL_004c:
+	{
+		V_5 = 0;
+		goto IL_009a;
+	}
+
+IL_0051:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_20 = V_3;
+		NullCheck(L_20);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_21;
+		L_21 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_20, NULL);
+		V_6 = L_21;
+		int32_t L_22 = V_5;
+		int32_t L_23;
+		L_23 = TensorShape_get_Item_m046FF56D8906EA7CD9D33486F778EBBCE949B33E((&V_6), L_22, NULL);
+		if ((((int32_t)L_23) == ((int32_t)1)))
+		{
+			goto IL_008c;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_24 = V_3;
+		NullCheck(L_24);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_25;
+		L_25 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_24, NULL);
+		V_6 = L_25;
+		int32_t L_26 = V_5;
+		int32_t L_27;
+		L_27 = TensorShape_get_Item_m046FF56D8906EA7CD9D33486F778EBBCE949B33E((&V_6), L_26, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_28 = V_0;
+		NullCheck(L_28);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_29;
+		L_29 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_28, NULL);
+		V_6 = L_29;
+		int32_t L_30 = V_5;
+		int32_t L_31;
+		L_31 = TensorShape_get_Item_m046FF56D8906EA7CD9D33486F778EBBCE949B33E((&V_6), L_30, NULL);
+		G_B7_0 = ((((int32_t)L_27) == ((int32_t)L_31))? 1 : 0);
+		goto IL_008d;
+	}
+
+IL_008c:
+	{
+		G_B7_0 = 1;
+	}
+
+IL_008d:
+	{
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_IsTrue_mE42C53B7220324D1FBAFB7AE48A7D8DD7796A663((bool)G_B7_0, NULL);
+		int32_t L_32 = V_5;
+		V_5 = ((int32_t)il2cpp_codegen_add(L_32, 1));
+	}
+
+IL_009a:
+	{
+		int32_t L_33 = V_5;
+		V_7 = (bool)((((int32_t)L_33) < ((int32_t)8))? 1 : 0);
+		bool L_34 = V_7;
+		if (L_34)
+		{
+			goto IL_0051;
+		}
+	}
+	{
+		int32_t L_35 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_35, 1));
+	}
+
+IL_00aa:
+	{
+		int32_t L_36 = V_2;
+		TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_37 = V_1;
+		NullCheck(L_37);
+		if ((((int32_t)L_36) < ((int32_t)((int32_t)(((RuntimeArray*)L_37)->max_length)))))
+		{
+			goto IL_002e;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_38 = V_0;
+		V_8 = L_38;
+		goto IL_00b8;
+	}
+
+IL_00b8:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_39 = V_8;
+		return L_39;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ReferenceCPUOps_IsFusedActivationSupported_m413201C8972866CF9A0DA44F27DE49A1B8A3D992 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, int32_t ___0_fusedActivation, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	bool V_2 = false;
+	{
+		int32_t L_0 = ___0_fusedActivation;
+		V_1 = L_0;
+		int32_t L_1 = V_1;
+		V_0 = L_1;
+		int32_t L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_000a;
+		}
+	}
+	{
+		goto IL_000e;
+	}
+
+IL_000a:
+	{
+		V_2 = (bool)1;
+		goto IL_0012;
+	}
+
+IL_000e:
+	{
+		V_2 = (bool)0;
+		goto IL_0012;
+	}
+
+IL_0012:
+	{
+		bool L_3 = V_2;
+		return L_3;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_NewTensorForFusedActivation_mA4F77FDC3A85F751DE60DAC9CC57B52CA0716DCB (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, int32_t ___0_dataType, TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 ___1_shape, int32_t ___2_fusedActivation, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_1 = NULL;
+	{
+		int32_t L_0 = ___2_fusedActivation;
+		bool L_1;
+		L_1 = VirtualFuncInvoker1< bool, int32_t >::Invoke(123, __this, L_0);
+		V_0 = L_1;
+		bool L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		int32_t L_3 = ___0_dataType;
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_4 = ___1_shape;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_5;
+		L_5 = ReferenceCPUOps_NewOutputTensor_m9A02521597BF2F0CA2519FD43C2333084204C429(__this, L_3, L_4, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
+		V_1 = L_5;
+		goto IL_002c;
+	}
+
+IL_001c:
+	{
+		int32_t L_6 = ___0_dataType;
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_7 = ___1_shape;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_8;
+		L_8 = ReferenceCPUOps_NewTempTensor_m52D1DD5FCDDC6B80A6440A678EFCC79482049B89(__this, L_6, L_7, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
+		V_1 = L_8;
+		goto IL_002c;
+	}
+
+IL_002c:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_9 = V_1;
+		return L_9;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_NewOutputTensor_m9A02521597BF2F0CA2519FD43C2333084204C429 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, int32_t ___0_type, TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 ___1_s, String_t* ___2_name, const RuntimeMethod* method) 
+{
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_0 = NULL;
+	{
+		int32_t L_0 = ___0_type;
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_1 = ___1_s;
+		String_t* L_2 = ___2_name;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_3;
+		L_3 = ReferenceCPUOps_NewTensor_m28313580259C16669D150B6F478E9DDFBEF01AFD(__this, L_0, L_1, 0, L_2, NULL);
+		V_0 = L_3;
+		goto IL_000e;
+	}
+
+IL_000e:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_4 = V_0;
+		return L_4;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_NewTempTensor_m52D1DD5FCDDC6B80A6440A678EFCC79482049B89 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, int32_t ___0_type, TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 ___1_s, String_t* ___2_name, const RuntimeMethod* method) 
+{
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_0 = NULL;
+	{
+		int32_t L_0 = ___0_type;
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_1 = ___1_s;
+		String_t* L_2 = ___2_name;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_3;
+		L_3 = ReferenceCPUOps_NewTensor_m28313580259C16669D150B6F478E9DDFBEF01AFD(__this, L_0, L_1, 1, L_2, NULL);
+		V_0 = L_3;
+		goto IL_000e;
+	}
+
+IL_000e:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_4 = V_0;
+		return L_4;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReferenceCPUOps_ResetAllocator_mB621F302929233F8F37AAAB69998D0F10FB987C2 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, bool ___0_keepCachedMemory, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ITensorAllocator_t553DDDB49ED44AEEF66ECF1C7CA6B532A76B0D74_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		RuntimeObject* L_0 = __this->___m_Allocator;
+		bool L_1 = ___0_keepCachedMemory;
+		NullCheck(L_0);
+		InterfaceActionInvoker1< bool >::Invoke(6, ITensorAllocator_t553DDDB49ED44AEEF66ECF1C7CA6B532A76B0D74_il2cpp_TypeInfo_var, L_0, L_1);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReferenceCPUOps_SetModelExecutionsReporter_m1F55479B5471BC93203DAC6E41343399C761C508 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, RuntimeObject* ___0_executionsReporter, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = ___0_executionsReporter;
+		__this->___m_ModelExecutionsReporter = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_ModelExecutionsReporter), (void*)L_0);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ReferenceCPUOps_GetModelExecutionsReporter_m103A7338CCA69EFE5060FAD377B9026621F97AE8 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, const RuntimeMethod* method) 
+{
+	RuntimeObject* V_0 = NULL;
+	{
+		RuntimeObject* L_0 = __this->___m_ModelExecutionsReporter;
+		V_0 = L_0;
+		goto IL_000a;
+	}
+
+IL_000a:
+	{
+		RuntimeObject* L_1 = V_0;
+		return L_1;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ReferenceCPUOps_ApplyFusedActivation_m3FD39FDE56BAEDC8AAE8C3FD36ED451648419621 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, float ___0_v, int32_t ___1_fusedActivation, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	float V_2 = 0.0f;
+	float V_3 = 0.0f;
+	float V_4 = 0.0f;
+	float V_5 = 0.0f;
+	float V_6 = 0.0f;
+	float V_7 = 0.0f;
+	float V_8 = 0.0f;
+	float V_9 = 0.0f;
+	float V_10 = 0.0f;
+	float V_11 = 0.0f;
+	float V_12 = 0.0f;
+	float V_13 = 0.0f;
+	float V_14 = 0.0f;
+	{
+		int32_t L_0 = ___1_fusedActivation;
+		V_1 = L_0;
+		int32_t L_1 = V_1;
+		V_0 = L_1;
+		int32_t L_2 = V_0;
+		if ((((int32_t)L_2) > ((int32_t)((int32_t)101))))
+		{
+			goto IL_004f;
+		}
+	}
+	{
+		int32_t L_3 = V_0;
+		switch (L_3)
+		{
+			case 0:
+			{
+				goto IL_00ab;
+			}
+			case 1:
+			{
+				goto IL_00b0;
+			}
+			case 2:
+			{
+				goto IL_02d6;
+			}
+			case 3:
+			{
+				goto IL_00c2;
+			}
+			case 4:
+			{
+				goto IL_00e7;
+			}
+			case 5:
+			{
+				goto IL_02d6;
+			}
+			case 6:
+			{
+				goto IL_0101;
+			}
+			case 7:
+			{
+				goto IL_02d6;
+			}
+			case 8:
+			{
+				goto IL_02d6;
+			}
+			case 9:
+			{
+				goto IL_011d;
+			}
+			case 10:
+			{
+				goto IL_02d6;
+			}
+			case 11:
+			{
+				goto IL_00cf;
+			}
+		}
+	}
+	{
+		goto IL_0042;
+	}
+
+IL_0042:
+	{
+		int32_t L_4 = V_0;
+		if ((((int32_t)L_4) == ((int32_t)((int32_t)101))))
+		{
+			goto IL_0133;
+		}
+	}
+	{
+		goto IL_02d6;
+	}
+
+IL_004f:
+	{
+		int32_t L_5 = V_0;
+		switch (((int32_t)il2cpp_codegen_subtract((int32_t)L_5, ((int32_t)111))))
+		{
+			case 0:
+			{
+				goto IL_013c;
+			}
+			case 1:
+			{
+				goto IL_02d6;
+			}
+			case 2:
+			{
+				goto IL_0149;
+			}
+			case 3:
+			{
+				goto IL_0156;
+			}
+		}
+	}
+	{
+		goto IL_006a;
+	}
+
+IL_006a:
+	{
+		int32_t L_6 = V_0;
+		switch (((int32_t)il2cpp_codegen_subtract((int32_t)L_6, ((int32_t)200))))
+		{
+			case 0:
+			{
+				goto IL_0163;
+			}
+			case 1:
+			{
+				goto IL_0170;
+			}
+			case 2:
+			{
+				goto IL_018c;
+			}
+			case 3:
+			{
+				goto IL_0199;
+			}
+			case 4:
+			{
+				goto IL_01b5;
+			}
+			case 5:
+			{
+				goto IL_01c2;
+			}
+			case 6:
+			{
+				goto IL_01e3;
+			}
+			case 7:
+			{
+				goto IL_01f0;
+			}
+			case 8:
+			{
+				goto IL_020b;
+			}
+			case 9:
+			{
+				goto IL_0218;
+			}
+			case 10:
+			{
+				goto IL_0233;
+			}
+			case 11:
+			{
+				goto IL_0240;
+			}
+		}
+	}
+	{
+		goto IL_02d6;
+	}
+
+IL_00ab:
+	{
+		goto IL_02dc;
+	}
+
+IL_00b0:
+	{
+		float L_7 = ___0_v;
+		float L_8;
+		L_8 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline(L_7, (0.0f), NULL);
+		___0_v = L_8;
+		goto IL_02dc;
+	}
+
+IL_00c2:
+	{
+		float L_9 = ___0_v;
+		float L_10;
+		L_10 = MathfEx_Tanh_mD886F38E2C989739750E15250B733E3D72A0F3E9(L_9, NULL);
+		___0_v = L_10;
+		goto IL_02dc;
+	}
+
+IL_00cf:
+	{
+		float L_11 = ___0_v;
+		float L_12;
+		L_12 = expf(L_11);
+		float L_13;
+		L_13 = logf(((float)il2cpp_codegen_add(L_12, (1.0f))));
+		___0_v = L_13;
+		goto IL_02dc;
+	}
+
+IL_00e7:
+	{
+		float L_14 = ___0_v;
+		float L_15;
+		L_15 = expf(((-L_14)));
+		___0_v = ((float)((1.0f)/((float)il2cpp_codegen_add((1.0f), L_15))));
+		goto IL_02dc;
+	}
+
+IL_0101:
+	{
+		float L_16 = ___0_v;
+		float L_17;
+		L_17 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline((0.0f), L_16, NULL);
+		float L_18;
+		L_18 = Mathf_Min_m747CA71A9483CDB394B13BD0AD048EE17E48FFE4_inline(L_17, (6.0f), NULL);
+		___0_v = L_18;
+		goto IL_02dc;
+	}
+
+IL_011d:
+	{
+		float L_19 = ___0_v;
+		float L_20 = ___0_v;
+		float L_21;
+		L_21 = expf(((-L_20)));
+		___0_v = ((float)(L_19/((float)il2cpp_codegen_add((1.0f), L_21))));
+		goto IL_02dc;
+	}
+
+IL_0133:
+	{
+		float L_22 = ___0_v;
+		___0_v = ((-L_22));
+		goto IL_02dc;
+	}
+
+IL_013c:
+	{
+		float L_23 = ___0_v;
+		float L_24;
+		L_24 = sqrtf(L_23);
+		___0_v = L_24;
+		goto IL_02dc;
+	}
+
+IL_0149:
+	{
+		float L_25 = ___0_v;
+		float L_26;
+		L_26 = expf(L_25);
+		___0_v = L_26;
+		goto IL_02dc;
+	}
+
+IL_0156:
+	{
+		float L_27 = ___0_v;
+		float L_28;
+		L_28 = logf(L_27);
+		___0_v = L_28;
+		goto IL_02dc;
+	}
+
+IL_0163:
+	{
+		float L_29 = ___0_v;
+		float L_30;
+		L_30 = acosf(L_29);
+		___0_v = L_30;
+		goto IL_02dc;
+	}
+
+IL_0170:
+	{
+		float L_31 = ___0_v;
+		float L_32 = ___0_v;
+		float L_33 = ___0_v;
+		float L_34;
+		L_34 = sqrtf(((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_multiply(L_32, L_33)), (1.0f))));
+		float L_35;
+		L_35 = logf(((float)il2cpp_codegen_add(L_31, L_34)));
+		___0_v = L_35;
+		goto IL_02dc;
+	}
+
+IL_018c:
+	{
+		float L_36 = ___0_v;
+		float L_37;
+		L_37 = asinf(L_36);
+		___0_v = L_37;
+		goto IL_02dc;
+	}
+
+IL_0199:
+	{
+		float L_38 = ___0_v;
+		float L_39 = ___0_v;
+		float L_40 = ___0_v;
+		float L_41;
+		L_41 = sqrtf(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_39, L_40)), (1.0f))));
+		float L_42;
+		L_42 = logf(((float)il2cpp_codegen_add(L_38, L_41)));
+		___0_v = L_42;
+		goto IL_02dc;
+	}
+
+IL_01b5:
+	{
+		float L_43 = ___0_v;
+		float L_44;
+		L_44 = atanf(L_43);
+		___0_v = L_44;
+		goto IL_02dc;
+	}
+
+IL_01c2:
+	{
+		float L_45 = ___0_v;
+		float L_46 = ___0_v;
+		float L_47;
+		L_47 = logf(((float)(((float)il2cpp_codegen_add((1.0f), L_45))/((float)il2cpp_codegen_subtract((1.0f), L_46)))));
+		___0_v = ((float)il2cpp_codegen_multiply((0.5f), L_47));
+		goto IL_02dc;
+	}
+
+IL_01e3:
+	{
+		float L_48 = ___0_v;
+		float L_49;
+		L_49 = cosf(L_48);
+		___0_v = L_49;
+		goto IL_02dc;
+	}
+
+IL_01f0:
+	{
+		float L_50 = ___0_v;
+		float L_51;
+		L_51 = expf(L_50);
+		float L_52 = ___0_v;
+		float L_53;
+		L_53 = expf(((-L_52)));
+		___0_v = ((float)il2cpp_codegen_multiply((0.5f), ((float)il2cpp_codegen_add(L_51, L_53))));
+		goto IL_02dc;
+	}
+
+IL_020b:
+	{
+		float L_54 = ___0_v;
+		float L_55;
+		L_55 = sinf(L_54);
+		___0_v = L_55;
+		goto IL_02dc;
+	}
+
+IL_0218:
+	{
+		float L_56 = ___0_v;
+		float L_57;
+		L_57 = expf(L_56);
+		float L_58 = ___0_v;
+		float L_59;
+		L_59 = expf(((-L_58)));
+		___0_v = ((float)il2cpp_codegen_multiply((0.5f), ((float)il2cpp_codegen_subtract(L_57, L_59))));
+		goto IL_02dc;
+	}
+
+IL_0233:
+	{
+		float L_60 = ___0_v;
+		float L_61;
+		L_61 = tanf(L_60);
+		___0_v = L_61;
+		goto IL_02dc;
+	}
+
+IL_0240:
+	{
+		float L_62 = ___0_v;
+		float L_63;
+		L_63 = fabsf(L_62);
+		V_2 = L_63;
+		V_3 = (0.327591091f);
+		V_4 = (0.254829586f);
+		V_5 = (-0.284496725f);
+		V_6 = (1.42141378f);
+		V_7 = (-1.45315206f);
+		V_8 = (1.06140542f);
+		float L_64 = V_3;
+		float L_65 = V_2;
+		V_9 = ((float)((1.0f)/((float)il2cpp_codegen_add((1.0f), ((float)il2cpp_codegen_multiply(L_64, L_65))))));
+		float L_66 = V_9;
+		float L_67 = V_9;
+		V_10 = ((float)il2cpp_codegen_multiply(L_66, L_67));
+		float L_68 = V_10;
+		float L_69 = V_9;
+		V_11 = ((float)il2cpp_codegen_multiply(L_68, L_69));
+		float L_70 = V_11;
+		float L_71 = V_9;
+		V_12 = ((float)il2cpp_codegen_multiply(L_70, L_71));
+		float L_72 = V_12;
+		float L_73 = V_9;
+		V_13 = ((float)il2cpp_codegen_multiply(L_72, L_73));
+		float L_74 = ___0_v;
+		float L_75;
+		L_75 = Mathf_Sign_m42EE1F0BC041AF14F89DED7F762BE996E2C50D8A_inline(L_74, NULL);
+		float L_76 = V_4;
+		float L_77 = V_9;
+		float L_78 = V_5;
+		float L_79 = V_10;
+		float L_80 = V_6;
+		float L_81 = V_11;
+		float L_82 = V_7;
+		float L_83 = V_12;
+		float L_84 = V_8;
+		float L_85 = V_13;
+		float L_86 = V_2;
+		float L_87 = V_2;
+		float L_88;
+		L_88 = expf(((float)il2cpp_codegen_multiply(((-L_86)), L_87)));
+		___0_v = ((float)il2cpp_codegen_multiply(L_75, ((float)il2cpp_codegen_subtract((1.0f), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_76, L_77)), ((float)il2cpp_codegen_multiply(L_78, L_79)))), ((float)il2cpp_codegen_multiply(L_80, L_81)))), ((float)il2cpp_codegen_multiply(L_82, L_83)))), ((float)il2cpp_codegen_multiply(L_84, L_85)))), L_88))))));
+		goto IL_02dc;
+	}
+
+IL_02d6:
+	{
+		NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8* L_89 = (NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8_il2cpp_TypeInfo_var)));
+		NotImplementedException__ctor_mDAB47BC6BD0E342E8F2171E5CABE3E67EA049F1C(L_89, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_89, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ReferenceCPUOps_ApplyFusedActivation_m3FD39FDE56BAEDC8AAE8C3FD36ED451648419621_RuntimeMethod_var)));
+	}
+
+IL_02dc:
+	{
+		float L_90 = ___0_v;
+		V_14 = L_90;
+		goto IL_02e1;
+	}
+
+IL_02e1:
+	{
+		float L_91 = V_14;
+		return L_91;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_Dense3_m585F2596E37186291F2CA7EBA04D4D7CF874421A (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___1_W, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___2_B, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_0 = NULL;
+	{
+		TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_0 = (TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81*)(TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81*)SZArrayNew(TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81_il2cpp_TypeInfo_var, (uint32_t)2);
+		TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_1 = L_0;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_2 = ___0_X;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_3 = ___1_W;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_4;
+		L_4 = VirtualFuncInvoker4< Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, int32_t, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, int32_t >::Invoke(126, __this, L_2, 3, L_3, 2);
+		NullCheck(L_1);
+		ArrayElementTypeCheck (L_1, L_4);
+		(L_1)->SetAt(static_cast<il2cpp_array_size_t>(0), (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*)L_4);
+		TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_5 = L_1;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_6 = ___2_B;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_7 = ___2_B;
+		NullCheck(L_7);
+		int32_t L_8;
+		L_8 = Tensor_get_length_m35C7DA71ED506DB11C0626A040E8A182CA25D5CA(L_7, NULL);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_9;
+		memset((&L_9), 0, sizeof(L_9));
+		TensorShape__ctor_m0318587E59DA4D042BBC786E5B6CF255C773FA57((&L_9), 1, 1, L_8, 1, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_10;
+		L_10 = VirtualFuncInvoker2< Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 >::Invoke(228, __this, L_6, L_9);
+		NullCheck(L_5);
+		ArrayElementTypeCheck (L_5, L_10);
+		(L_5)->SetAt(static_cast<il2cpp_array_size_t>(1), (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*)L_10);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_11;
+		L_11 = VirtualFuncInvoker1< Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* >::Invoke(199, __this, L_5);
+		V_0 = L_11;
+		goto IL_0035;
+	}
+
+IL_0035:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_12 = V_0;
+		return L_12;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_MatMul_mAC91310A9B5666FBC61E88A367ABA73CD084E96E (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, int32_t ___1_rankX, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___2_Y, int32_t ___3_rankY, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Insert_mC1B6D4E6CC94D8BA82A60B2F80CE9684D9345AAE_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_mD99081BEFA1AB3526715F489192B0F7F596C183D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t82B4091189C4C589DBBE88730C3BC7A9CF700151____1B897DDDD4C151E2A2E6E3E91B7EA0F7FC4FD5ED00EF1C9669E8566393A02586_FieldInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t82B4091189C4C589DBBE88730C3BC7A9CF700151____20A743E052C9D5CFD34446BB42D40E9113BD65A8E43D9E3D108793BF2162F73C_FieldInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t82B4091189C4C589DBBE88730C3BC7A9CF700151____81C1A5A2F482E82CA2C66653482AB24E6D90944BF183C8164E8F8F8D72DB60DB_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* V_0 = NULL;
+	List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* V_1 = NULL;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	int32_t V_4 = 0;
+	int32_t V_5 = 0;
+	int32_t V_6 = 0;
+	int32_t V_7 = 0;
+	int32_t V_8 = 0;
+	int32_t V_9 = 0;
+	int32_t V_10 = 0;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_11 = NULL;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_12 = NULL;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_13 = NULL;
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* V_14 = NULL;
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* V_15 = NULL;
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* V_16 = NULL;
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* V_17 = NULL;
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* V_18 = NULL;
+	bool V_19 = false;
+	bool V_20 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_21 = NULL;
+	int32_t V_22 = 0;
+	bool V_23 = false;
+	int32_t V_24 = 0;
+	bool V_25 = false;
+	bool V_26 = false;
+	bool V_27 = false;
+	bool V_28 = false;
+	bool V_29 = false;
+	bool V_30 = false;
+	int32_t V_31 = 0;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_32 = NULL;
+	bool V_33 = false;
+	bool V_34 = false;
+	int32_t V_35 = 0;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_36 = NULL;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_37 = NULL;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_38 = NULL;
+	bool V_39 = false;
+	bool V_40 = false;
+	bool V_41 = false;
+	bool V_42 = false;
+	bool V_43 = false;
+	bool V_44 = false;
+	bool V_45 = false;
+	bool V_46 = false;
+	bool V_47 = false;
+	bool V_48 = false;
+	int32_t G_B3_0 = 0;
+	{
+		int32_t L_0 = ___1_rankX;
+		if ((((int32_t)L_0) < ((int32_t)0)))
+		{
+			goto IL_000c;
+		}
+	}
+	{
+		int32_t L_1 = ___3_rankY;
+		G_B3_0 = ((((int32_t)L_1) < ((int32_t)0))? 1 : 0);
+		goto IL_000d;
+	}
+
+IL_000c:
+	{
+		G_B3_0 = 1;
+	}
+
+IL_000d:
+	{
+		V_19 = (bool)G_B3_0;
+		bool L_2 = V_19;
+		if (!L_2)
+		{
+			goto IL_0029;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_3 = ___0_X;
+		NullCheck(L_3);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_4;
+		L_4 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_3, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_5 = ___2_Y;
+		NullCheck(L_5);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_6;
+		L_6 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_5, NULL);
+		ModelAnalyzer_LegacyGetXYRanks_m4BDF7765F65AAD2117886609E3B9CA3F60D9FB16(L_4, L_6, (&___1_rankX), (&___3_rankY), NULL);
+	}
+
+IL_0029:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_7 = ___0_X;
+		NullCheck(L_7);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_8;
+		L_8 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_7, NULL);
+		int32_t L_9 = ___1_rankX;
+		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_10;
+		L_10 = ShapeInference_BarracudaShapeToOnnxLayout_m94C60CDBF3B7CD59D0FC9539192D1E155C4E8992(L_8, L_9, NULL);
+		V_0 = L_10;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_11 = ___2_Y;
+		NullCheck(L_11);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_12;
+		L_12 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_11, NULL);
+		int32_t L_13 = ___3_rankY;
+		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_14;
+		L_14 = ShapeInference_BarracudaShapeToOnnxLayout_m94C60CDBF3B7CD59D0FC9539192D1E155C4E8992(L_12, L_13, NULL);
+		V_1 = L_14;
+		int32_t L_15 = ___1_rankX;
+		int32_t L_16 = ___3_rankY;
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		int32_t L_17;
+		L_17 = Math_Max_m530EBA549AFD98CFC2BD29FE86C6376E67DF11CF(L_15, L_16, NULL);
+		V_2 = L_17;
+		int32_t L_18 = V_2;
+		V_20 = (bool)((((int32_t)((((int32_t)L_18) > ((int32_t)2))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_19 = V_20;
+		if (!L_19)
+		{
+			goto IL_006b;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_20 = ___0_X;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_21 = ___2_Y;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_22;
+		L_22 = VirtualFuncInvoker4< Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, bool, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, bool >::Invoke(127, __this, L_20, (bool)0, L_21, (bool)0);
+		V_21 = L_22;
+		goto IL_04f2;
+	}
+
+IL_006b:
+	{
+		int32_t L_23 = ___1_rankX;
+		V_22 = L_23;
+		goto IL_007f;
+	}
+
+IL_0070:
+	{
+		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_24 = V_0;
+		NullCheck(L_24);
+		List_1_Insert_mC1B6D4E6CC94D8BA82A60B2F80CE9684D9345AAE(L_24, 0, 1, List_1_Insert_mC1B6D4E6CC94D8BA82A60B2F80CE9684D9345AAE_RuntimeMethod_var);
+		int32_t L_25 = V_22;
+		V_22 = ((int32_t)il2cpp_codegen_add(L_25, 1));
+	}
+
+IL_007f:
+	{
+		int32_t L_26 = V_22;
+		int32_t L_27 = V_2;
+		V_23 = (bool)((((int32_t)L_26) < ((int32_t)L_27))? 1 : 0);
+		bool L_28 = V_23;
+		if (L_28)
+		{
+			goto IL_0070;
+		}
+	}
+	{
+		int32_t L_29 = ___3_rankY;
+		V_24 = L_29;
+		goto IL_009f;
+	}
+
+IL_0090:
+	{
+		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_30 = V_1;
+		NullCheck(L_30);
+		List_1_Insert_mC1B6D4E6CC94D8BA82A60B2F80CE9684D9345AAE(L_30, 0, 1, List_1_Insert_mC1B6D4E6CC94D8BA82A60B2F80CE9684D9345AAE_RuntimeMethod_var);
+		int32_t L_31 = V_24;
+		V_24 = ((int32_t)il2cpp_codegen_add(L_31, 1));
+	}
+
+IL_009f:
+	{
+		int32_t L_32 = V_24;
+		int32_t L_33 = V_2;
+		V_25 = (bool)((((int32_t)L_32) < ((int32_t)L_33))? 1 : 0);
+		bool L_34 = V_25;
+		if (L_34)
+		{
+			goto IL_0090;
+		}
+	}
+	{
+		V_3 = 1;
+		V_4 = 1;
+		V_5 = 1;
+		V_6 = 1;
+		V_7 = 1;
+		V_8 = 1;
+		V_9 = 1;
+		V_10 = 1;
+		int32_t L_35 = V_2;
+		V_26 = (bool)((((int32_t)L_35) == ((int32_t)3))? 1 : 0);
+		bool L_36 = V_26;
+		if (!L_36)
+		{
+			goto IL_0118;
+		}
+	}
+	{
+		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_37 = V_0;
+		NullCheck(L_37);
+		int32_t L_38;
+		L_38 = List_1_get_Item_mD99081BEFA1AB3526715F489192B0F7F596C183D(L_37, 0, List_1_get_Item_mD99081BEFA1AB3526715F489192B0F7F596C183D_RuntimeMethod_var);
+		V_5 = L_38;
+		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_39 = V_1;
+		NullCheck(L_39);
+		int32_t L_40;
+		L_40 = List_1_get_Item_mD99081BEFA1AB3526715F489192B0F7F596C183D(L_39, 0, List_1_get_Item_mD99081BEFA1AB3526715F489192B0F7F596C183D_RuntimeMethod_var);
+		V_6 = L_40;
+		int32_t L_41 = V_5;
+		int32_t L_42 = V_6;
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		int32_t L_43;
+		L_43 = Math_Max_m530EBA549AFD98CFC2BD29FE86C6376E67DF11CF(L_41, L_42, NULL);
+		V_8 = L_43;
+		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_44 = V_0;
+		NullCheck(L_44);
+		int32_t L_45;
+		L_45 = List_1_get_Item_mD99081BEFA1AB3526715F489192B0F7F596C183D(L_44, 1, List_1_get_Item_mD99081BEFA1AB3526715F489192B0F7F596C183D_RuntimeMethod_var);
+		V_9 = L_45;
+		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_46 = V_1;
+		NullCheck(L_46);
+		int32_t L_47;
+		L_47 = List_1_get_Item_mD99081BEFA1AB3526715F489192B0F7F596C183D(L_46, 2, List_1_get_Item_mD99081BEFA1AB3526715F489192B0F7F596C183D_RuntimeMethod_var);
+		V_10 = L_47;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_48 = ___0_X;
+		NullCheck(L_48);
+		int32_t L_49;
+		L_49 = Tensor_get_dataType_m57109C88C5386735035BB4066BAACD68228C3AB1(L_48, NULL);
+		int32_t L_50 = V_8;
+		int32_t L_51 = V_10;
+		int32_t L_52 = V_9;
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_53;
+		memset((&L_53), 0, sizeof(L_53));
+		TensorShape__ctor_m0318587E59DA4D042BBC786E5B6CF255C773FA57((&L_53), L_50, 1, L_51, L_52, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_54;
+		L_54 = ReferenceCPUOps_NewTensor_m74008D9C77785A62165EBEF61281FBB9CB42DAAF(__this, L_49, L_53, NULL);
+		V_11 = L_54;
+		goto IL_017f;
+	}
+
+IL_0118:
+	{
+		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_55 = V_0;
+		NullCheck(L_55);
+		int32_t L_56;
+		L_56 = List_1_get_Item_mD99081BEFA1AB3526715F489192B0F7F596C183D(L_55, 0, List_1_get_Item_mD99081BEFA1AB3526715F489192B0F7F596C183D_RuntimeMethod_var);
+		V_3 = L_56;
+		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_57 = V_1;
+		NullCheck(L_57);
+		int32_t L_58;
+		L_58 = List_1_get_Item_mD99081BEFA1AB3526715F489192B0F7F596C183D(L_57, 0, List_1_get_Item_mD99081BEFA1AB3526715F489192B0F7F596C183D_RuntimeMethod_var);
+		V_4 = L_58;
+		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_59 = V_0;
+		NullCheck(L_59);
+		int32_t L_60;
+		L_60 = List_1_get_Item_mD99081BEFA1AB3526715F489192B0F7F596C183D(L_59, 1, List_1_get_Item_mD99081BEFA1AB3526715F489192B0F7F596C183D_RuntimeMethod_var);
+		V_5 = L_60;
+		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_61 = V_1;
+		NullCheck(L_61);
+		int32_t L_62;
+		L_62 = List_1_get_Item_mD99081BEFA1AB3526715F489192B0F7F596C183D(L_61, 1, List_1_get_Item_mD99081BEFA1AB3526715F489192B0F7F596C183D_RuntimeMethod_var);
+		V_6 = L_62;
+		int32_t L_63 = V_3;
+		int32_t L_64 = V_4;
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		int32_t L_65;
+		L_65 = Math_Max_m530EBA549AFD98CFC2BD29FE86C6376E67DF11CF(L_63, L_64, NULL);
+		V_7 = L_65;
+		int32_t L_66 = V_5;
+		int32_t L_67 = V_6;
+		int32_t L_68;
+		L_68 = Math_Max_m530EBA549AFD98CFC2BD29FE86C6376E67DF11CF(L_66, L_67, NULL);
+		V_8 = L_68;
+		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_69 = V_0;
+		NullCheck(L_69);
+		int32_t L_70;
+		L_70 = List_1_get_Item_mD99081BEFA1AB3526715F489192B0F7F596C183D(L_69, 2, List_1_get_Item_mD99081BEFA1AB3526715F489192B0F7F596C183D_RuntimeMethod_var);
+		V_9 = L_70;
+		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_71 = V_1;
+		NullCheck(L_71);
+		int32_t L_72;
+		L_72 = List_1_get_Item_mD99081BEFA1AB3526715F489192B0F7F596C183D(L_71, 3, List_1_get_Item_mD99081BEFA1AB3526715F489192B0F7F596C183D_RuntimeMethod_var);
+		V_10 = L_72;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_73 = ___0_X;
+		NullCheck(L_73);
+		int32_t L_74;
+		L_74 = Tensor_get_dataType_m57109C88C5386735035BB4066BAACD68228C3AB1(L_73, NULL);
+		int32_t L_75 = V_7;
+		int32_t L_76 = V_9;
+		int32_t L_77 = V_10;
+		int32_t L_78 = V_8;
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_79;
+		memset((&L_79), 0, sizeof(L_79));
+		TensorShape__ctor_m0318587E59DA4D042BBC786E5B6CF255C773FA57((&L_79), L_75, L_76, L_77, L_78, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_80;
+		L_80 = ReferenceCPUOps_NewTensor_m74008D9C77785A62165EBEF61281FBB9CB42DAAF(__this, L_74, L_79, NULL);
+		V_11 = L_80;
+	}
+
+IL_017f:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_81 = ___0_X;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_82 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)SZArrayNew(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var, (uint32_t)4);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_83 = L_82;
+		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_84 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t82B4091189C4C589DBBE88730C3BC7A9CF700151____20A743E052C9D5CFD34446BB42D40E9113BD65A8E43D9E3D108793BF2162F73C_FieldInfo_var) };
+		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_83, L_84, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_85;
+		L_85 = VirtualFuncInvoker2< Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* >::Invoke(234, __this, L_81, L_83);
+		V_12 = L_85;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_86 = ___2_Y;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_87 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)SZArrayNew(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var, (uint32_t)4);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_88 = L_87;
+		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_89 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t82B4091189C4C589DBBE88730C3BC7A9CF700151____20A743E052C9D5CFD34446BB42D40E9113BD65A8E43D9E3D108793BF2162F73C_FieldInfo_var) };
+		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_88, L_89, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_90;
+		L_90 = VirtualFuncInvoker2< Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* >::Invoke(234, __this, L_86, L_88);
+		V_13 = L_90;
+		int32_t L_91 = ___1_rankX;
+		V_27 = (bool)((((int32_t)L_91) == ((int32_t)2))? 1 : 0);
+		bool L_92 = V_27;
+		if (!L_92)
+		{
+			goto IL_01de;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_93 = V_12;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_94 = V_12;
+		NullCheck(L_94);
+		int32_t L_95;
+		L_95 = Tensor_get_batch_m6CD93DCCD32D6A47FDEDEBFF16FF70AC9C586DD9(L_94, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_96 = V_12;
+		NullCheck(L_96);
+		int32_t L_97;
+		L_97 = Tensor_get_height_m0477A83109747FF1DA788569602DA2293D762AC1(L_96, NULL);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_98;
+		memset((&L_98), 0, sizeof(L_98));
+		TensorShape__ctor_m0318587E59DA4D042BBC786E5B6CF255C773FA57((&L_98), 1, 1, L_95, L_97, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_99;
+		L_99 = VirtualFuncInvoker2< Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 >::Invoke(228, __this, L_93, L_98);
+		V_12 = L_99;
+		goto IL_020d;
+	}
+
+IL_01de:
+	{
+		int32_t L_100 = ___1_rankX;
+		V_28 = (bool)((((int32_t)L_100) == ((int32_t)3))? 1 : 0);
+		bool L_101 = V_28;
+		if (!L_101)
+		{
+			goto IL_020d;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_102 = V_12;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_103 = V_12;
+		NullCheck(L_103);
+		int32_t L_104;
+		L_104 = Tensor_get_batch_m6CD93DCCD32D6A47FDEDEBFF16FF70AC9C586DD9(L_103, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_105 = V_12;
+		NullCheck(L_105);
+		int32_t L_106;
+		L_106 = Tensor_get_height_m0477A83109747FF1DA788569602DA2293D762AC1(L_105, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_107 = V_12;
+		NullCheck(L_107);
+		int32_t L_108;
+		L_108 = Tensor_get_channels_m9DA46CF71B1C47E059EA3417C6A652E1233B5D04(L_107, NULL);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_109;
+		memset((&L_109), 0, sizeof(L_109));
+		TensorShape__ctor_m0318587E59DA4D042BBC786E5B6CF255C773FA57((&L_109), 1, L_104, L_106, L_108, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_110;
+		L_110 = VirtualFuncInvoker2< Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 >::Invoke(228, __this, L_102, L_109);
+		V_12 = L_110;
+	}
+
+IL_020d:
+	{
+		int32_t L_111 = ___3_rankY;
+		V_29 = (bool)((((int32_t)L_111) == ((int32_t)2))? 1 : 0);
+		bool L_112 = V_29;
+		if (!L_112)
+		{
+			goto IL_0239;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_113 = V_13;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_114 = V_13;
+		NullCheck(L_114);
+		int32_t L_115;
+		L_115 = Tensor_get_batch_m6CD93DCCD32D6A47FDEDEBFF16FF70AC9C586DD9(L_114, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_116 = V_13;
+		NullCheck(L_116);
+		int32_t L_117;
+		L_117 = Tensor_get_height_m0477A83109747FF1DA788569602DA2293D762AC1(L_116, NULL);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_118;
+		memset((&L_118), 0, sizeof(L_118));
+		TensorShape__ctor_m0318587E59DA4D042BBC786E5B6CF255C773FA57((&L_118), 1, 1, L_115, L_117, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_119;
+		L_119 = VirtualFuncInvoker2< Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 >::Invoke(228, __this, L_113, L_118);
+		V_13 = L_119;
+		goto IL_0269;
+	}
+
+IL_0239:
+	{
+		int32_t L_120 = ___3_rankY;
+		V_30 = (bool)((((int32_t)L_120) == ((int32_t)3))? 1 : 0);
+		bool L_121 = V_30;
+		if (!L_121)
+		{
+			goto IL_0269;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_122 = V_13;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_123 = V_13;
+		NullCheck(L_123);
+		int32_t L_124;
+		L_124 = Tensor_get_batch_m6CD93DCCD32D6A47FDEDEBFF16FF70AC9C586DD9(L_123, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_125 = V_13;
+		NullCheck(L_125);
+		int32_t L_126;
+		L_126 = Tensor_get_height_m0477A83109747FF1DA788569602DA2293D762AC1(L_125, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_127 = V_13;
+		NullCheck(L_127);
+		int32_t L_128;
+		L_128 = Tensor_get_channels_m9DA46CF71B1C47E059EA3417C6A652E1233B5D04(L_127, NULL);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_129;
+		memset((&L_129), 0, sizeof(L_129));
+		TensorShape__ctor_m0318587E59DA4D042BBC786E5B6CF255C773FA57((&L_129), 1, L_124, L_126, L_128, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_130;
+		L_130 = VirtualFuncInvoker2< Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 >::Invoke(228, __this, L_122, L_129);
+		V_13 = L_130;
+	}
+
+IL_0269:
+	{
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_131 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)SZArrayNew(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var, (uint32_t)4);
+		V_14 = L_131;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_132 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)SZArrayNew(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var, (uint32_t)4);
+		V_15 = L_132;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_133 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)SZArrayNew(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var, (uint32_t)4);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_134 = L_133;
+		NullCheck(L_134);
+		(L_134)->SetAt(static_cast<il2cpp_array_size_t>(0), (int32_t)1);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_135 = L_134;
+		NullCheck(L_135);
+		(L_135)->SetAt(static_cast<il2cpp_array_size_t>(1), (int32_t)1);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_136 = L_135;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_137 = V_12;
+		NullCheck(L_137);
+		int32_t L_138;
+		L_138 = Tensor_get_width_m9E948C3769B41324EB12D54CE6E2E51DC18DC488(L_137, NULL);
+		NullCheck(L_136);
+		(L_136)->SetAt(static_cast<il2cpp_array_size_t>(2), (int32_t)L_138);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_139 = L_136;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_140 = V_12;
+		NullCheck(L_140);
+		int32_t L_141;
+		L_141 = Tensor_get_channels_m9DA46CF71B1C47E059EA3417C6A652E1233B5D04(L_140, NULL);
+		NullCheck(L_139);
+		(L_139)->SetAt(static_cast<il2cpp_array_size_t>(3), (int32_t)L_141);
+		V_16 = L_139;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_142 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)SZArrayNew(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var, (uint32_t)4);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_143 = L_142;
+		NullCheck(L_143);
+		(L_143)->SetAt(static_cast<il2cpp_array_size_t>(0), (int32_t)1);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_144 = L_143;
+		NullCheck(L_144);
+		(L_144)->SetAt(static_cast<il2cpp_array_size_t>(1), (int32_t)1);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_145 = L_144;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_146 = V_13;
+		NullCheck(L_146);
+		int32_t L_147;
+		L_147 = Tensor_get_width_m9E948C3769B41324EB12D54CE6E2E51DC18DC488(L_146, NULL);
+		NullCheck(L_145);
+		(L_145)->SetAt(static_cast<il2cpp_array_size_t>(2), (int32_t)L_147);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_148 = L_145;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_149 = V_13;
+		NullCheck(L_149);
+		int32_t L_150;
+		L_150 = Tensor_get_channels_m9DA46CF71B1C47E059EA3417C6A652E1233B5D04(L_149, NULL);
+		NullCheck(L_148);
+		(L_148)->SetAt(static_cast<il2cpp_array_size_t>(3), (int32_t)L_150);
+		V_17 = L_148;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_151 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)SZArrayNew(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var, (uint32_t)4);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_152 = L_151;
+		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_153 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t82B4091189C4C589DBBE88730C3BC7A9CF700151____1B897DDDD4C151E2A2E6E3E91B7EA0F7FC4FD5ED00EF1C9669E8566393A02586_FieldInfo_var) };
+		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_152, L_153, NULL);
+		V_18 = L_152;
+		V_31 = 0;
+		goto IL_04dd;
+	}
+
+IL_02dc:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_154 = V_11;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_155;
+		L_155 = ReferenceCPUOps_NewTensorLike_mE3067F6087FA22E7A01E136887210735B6DAE00D(__this, L_154, NULL);
+		V_32 = L_155;
+		int32_t L_156 = ___1_rankX;
+		V_33 = (bool)((((int32_t)L_156) == ((int32_t)4))? 1 : 0);
+		bool L_157 = V_33;
+		if (!L_157)
+		{
+			goto IL_0305;
+		}
+	}
+	{
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_158 = V_14;
+		int32_t L_159 = V_31;
+		int32_t L_160 = V_3;
+		NullCheck(L_158);
+		(L_158)->SetAt(static_cast<il2cpp_array_size_t>(0), (int32_t)((int32_t)(L_159%L_160)));
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_161 = V_16;
+		int32_t L_162 = V_31;
+		int32_t L_163 = V_3;
+		NullCheck(L_161);
+		(L_161)->SetAt(static_cast<il2cpp_array_size_t>(0), (int32_t)((int32_t)il2cpp_codegen_add(((int32_t)(L_162%L_163)), 1)));
+	}
+
+IL_0305:
+	{
+		int32_t L_164 = ___3_rankY;
+		V_34 = (bool)((((int32_t)L_164) == ((int32_t)4))? 1 : 0);
+		bool L_165 = V_34;
+		if (!L_165)
+		{
+			goto IL_0326;
+		}
+	}
+	{
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_166 = V_15;
+		int32_t L_167 = V_31;
+		int32_t L_168 = V_4;
+		NullCheck(L_166);
+		(L_166)->SetAt(static_cast<il2cpp_array_size_t>(0), (int32_t)((int32_t)(L_167%L_168)));
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_169 = V_17;
+		int32_t L_170 = V_31;
+		int32_t L_171 = V_4;
+		NullCheck(L_169);
+		(L_169)->SetAt(static_cast<il2cpp_array_size_t>(0), (int32_t)((int32_t)il2cpp_codegen_add(((int32_t)(L_170%L_171)), 1)));
+	}
+
+IL_0326:
+	{
+		V_35 = 0;
+		goto IL_049d;
+	}
+
+IL_032e:
+	{
+		int32_t L_172 = ___1_rankX;
+		V_39 = (bool)((((int32_t)((((int32_t)L_172) < ((int32_t)3))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_173 = V_39;
+		if (!L_173)
+		{
+			goto IL_0352;
+		}
+	}
+	{
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_174 = V_14;
+		int32_t L_175 = V_35;
+		int32_t L_176 = V_5;
+		NullCheck(L_174);
+		(L_174)->SetAt(static_cast<il2cpp_array_size_t>(1), (int32_t)((int32_t)(L_175%L_176)));
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_177 = V_16;
+		int32_t L_178 = V_35;
+		int32_t L_179 = V_5;
+		NullCheck(L_177);
+		(L_177)->SetAt(static_cast<il2cpp_array_size_t>(1), (int32_t)((int32_t)il2cpp_codegen_add(((int32_t)(L_178%L_179)), 1)));
+	}
+
+IL_0352:
+	{
+		int32_t L_180 = ___3_rankY;
+		V_40 = (bool)((((int32_t)((((int32_t)L_180) < ((int32_t)3))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_181 = V_40;
+		if (!L_181)
+		{
+			goto IL_0376;
+		}
+	}
+	{
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_182 = V_15;
+		int32_t L_183 = V_35;
+		int32_t L_184 = V_6;
+		NullCheck(L_182);
+		(L_182)->SetAt(static_cast<il2cpp_array_size_t>(1), (int32_t)((int32_t)(L_183%L_184)));
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_185 = V_17;
+		int32_t L_186 = V_35;
+		int32_t L_187 = V_6;
+		NullCheck(L_185);
+		(L_185)->SetAt(static_cast<il2cpp_array_size_t>(1), (int32_t)((int32_t)il2cpp_codegen_add(((int32_t)(L_186%L_187)), 1)));
+	}
+
+IL_0376:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_188 = V_12;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_189 = V_14;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_190 = V_16;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_191 = V_18;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_192;
+		L_192 = VirtualFuncInvoker4< Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* >::Invoke(196, __this, L_188, L_189, L_190, L_191);
+		V_36 = L_192;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_193 = V_36;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_194 = V_12;
+		NullCheck(L_194);
+		int32_t L_195;
+		L_195 = Tensor_get_width_m9E948C3769B41324EB12D54CE6E2E51DC18DC488(L_194, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_196 = V_12;
+		NullCheck(L_196);
+		int32_t L_197;
+		L_197 = Tensor_get_channels_m9DA46CF71B1C47E059EA3417C6A652E1233B5D04(L_196, NULL);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_198;
+		memset((&L_198), 0, sizeof(L_198));
+		TensorShape__ctor_m7AB7F54A3AAB95BB6BF985DD3F86B8B95B1C972D((&L_198), L_195, L_197, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_199;
+		L_199 = VirtualFuncInvoker2< Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 >::Invoke(228, __this, L_193, L_198);
+		V_36 = L_199;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_200 = V_13;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_201 = V_15;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_202 = V_17;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_203 = V_18;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_204;
+		L_204 = VirtualFuncInvoker4< Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* >::Invoke(196, __this, L_200, L_201, L_202, L_203);
+		V_37 = L_204;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_205 = V_37;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_206 = V_13;
+		NullCheck(L_206);
+		int32_t L_207;
+		L_207 = Tensor_get_width_m9E948C3769B41324EB12D54CE6E2E51DC18DC488(L_206, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_208 = V_13;
+		NullCheck(L_208);
+		int32_t L_209;
+		L_209 = Tensor_get_channels_m9DA46CF71B1C47E059EA3417C6A652E1233B5D04(L_208, NULL);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_210;
+		memset((&L_210), 0, sizeof(L_210));
+		TensorShape__ctor_m7AB7F54A3AAB95BB6BF985DD3F86B8B95B1C972D((&L_210), L_207, L_209, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_211;
+		L_211 = VirtualFuncInvoker2< Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 >::Invoke(228, __this, L_205, L_210);
+		V_37 = L_211;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_212 = V_36;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_213 = V_37;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_214;
+		L_214 = VirtualFuncInvoker4< Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, bool, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, bool >::Invoke(127, __this, L_212, (bool)0, L_213, (bool)0);
+		V_38 = L_214;
+		int32_t L_215 = V_2;
+		V_41 = (bool)((((int32_t)L_215) == ((int32_t)2))? 1 : 0);
+		bool L_216 = V_41;
+		if (!L_216)
+		{
+			goto IL_03ee;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_217 = V_38;
+		V_32 = L_217;
+	}
+
+IL_03ee:
+	{
+		int32_t L_218 = V_2;
+		V_42 = (bool)((((int32_t)L_218) == ((int32_t)3))? 1 : 0);
+		bool L_219 = V_42;
+		if (!L_219)
+		{
+			goto IL_0441;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_220 = V_38;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_221 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)SZArrayNew(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var, (uint32_t)4);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_222 = L_221;
+		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_223 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t82B4091189C4C589DBBE88730C3BC7A9CF700151____81C1A5A2F482E82CA2C66653482AB24E6D90944BF183C8164E8F8F8D72DB60DB_FieldInfo_var) };
+		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_222, L_223, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_224;
+		L_224 = VirtualFuncInvoker2< Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* >::Invoke(234, __this, L_220, L_222);
+		V_38 = L_224;
+		int32_t L_225 = V_35;
+		V_43 = (bool)((((int32_t)L_225) == ((int32_t)0))? 1 : 0);
+		bool L_226 = V_43;
+		if (!L_226)
+		{
+			goto IL_0425;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_227 = V_38;
+		V_32 = L_227;
+		goto IL_043e;
+	}
+
+IL_0425:
+	{
+		TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_228 = (TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81*)(TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81*)SZArrayNew(TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81_il2cpp_TypeInfo_var, (uint32_t)2);
+		TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_229 = L_228;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_230 = V_32;
+		NullCheck(L_229);
+		ArrayElementTypeCheck (L_229, L_230);
+		(L_229)->SetAt(static_cast<il2cpp_array_size_t>(0), (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*)L_230);
+		TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_231 = L_229;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_232 = V_38;
+		NullCheck(L_231);
+		ArrayElementTypeCheck (L_231, L_232);
+		(L_231)->SetAt(static_cast<il2cpp_array_size_t>(1), (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*)L_232);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_233;
+		L_233 = VirtualFuncInvoker2< Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81*, int32_t >::Invoke(195, __this, L_231, 2);
+		V_32 = L_233;
+	}
+
+IL_043e:
+	{
+		goto IL_0496;
+	}
+
+IL_0441:
+	{
+		int32_t L_234 = V_2;
+		V_44 = (bool)((((int32_t)L_234) == ((int32_t)4))? 1 : 0);
+		bool L_235 = V_44;
+		if (!L_235)
+		{
+			goto IL_0496;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_236 = V_38;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_237 = V_38;
+		NullCheck(L_237);
+		int32_t L_238;
+		L_238 = Tensor_get_batch_m6CD93DCCD32D6A47FDEDEBFF16FF70AC9C586DD9(L_237, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_239 = V_38;
+		NullCheck(L_239);
+		int32_t L_240;
+		L_240 = Tensor_get_channels_m9DA46CF71B1C47E059EA3417C6A652E1233B5D04(L_239, NULL);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_241;
+		memset((&L_241), 0, sizeof(L_241));
+		TensorShape__ctor_m0318587E59DA4D042BBC786E5B6CF255C773FA57((&L_241), 1, L_238, L_240, 1, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_242;
+		L_242 = VirtualFuncInvoker2< Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 >::Invoke(228, __this, L_236, L_241);
+		V_38 = L_242;
+		int32_t L_243 = V_35;
+		V_45 = (bool)((((int32_t)L_243) == ((int32_t)0))? 1 : 0);
+		bool L_244 = V_45;
+		if (!L_244)
+		{
+			goto IL_047c;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_245 = V_38;
+		V_32 = L_245;
+		goto IL_0495;
+	}
+
+IL_047c:
+	{
+		TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_246 = (TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81*)(TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81*)SZArrayNew(TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81_il2cpp_TypeInfo_var, (uint32_t)2);
+		TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_247 = L_246;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_248 = V_32;
+		NullCheck(L_247);
+		ArrayElementTypeCheck (L_247, L_248);
+		(L_247)->SetAt(static_cast<il2cpp_array_size_t>(0), (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*)L_248);
+		TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_249 = L_247;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_250 = V_38;
+		NullCheck(L_249);
+		ArrayElementTypeCheck (L_249, L_250);
+		(L_249)->SetAt(static_cast<il2cpp_array_size_t>(1), (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*)L_250);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_251;
+		L_251 = VirtualFuncInvoker2< Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81*, int32_t >::Invoke(195, __this, L_249, 7);
+		V_32 = L_251;
+	}
+
+IL_0495:
+	{
+	}
+
+IL_0496:
+	{
+		int32_t L_252 = V_35;
+		V_35 = ((int32_t)il2cpp_codegen_add(L_252, 1));
+	}
+
+IL_049d:
+	{
+		int32_t L_253 = V_35;
+		int32_t L_254 = V_8;
+		V_46 = (bool)((((int32_t)L_253) < ((int32_t)L_254))? 1 : 0);
+		bool L_255 = V_46;
+		if (L_255)
+		{
+			goto IL_032e;
+		}
+	}
+	{
+		int32_t L_256 = V_31;
+		V_47 = (bool)((((int32_t)L_256) == ((int32_t)0))? 1 : 0);
+		bool L_257 = V_47;
+		if (!L_257)
+		{
+			goto IL_04bd;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_258 = V_32;
+		V_11 = L_258;
+		goto IL_04d6;
+	}
+
+IL_04bd:
+	{
+		TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_259 = (TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81*)(TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81*)SZArrayNew(TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81_il2cpp_TypeInfo_var, (uint32_t)2);
+		TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_260 = L_259;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_261 = V_11;
+		NullCheck(L_260);
+		ArrayElementTypeCheck (L_260, L_261);
+		(L_260)->SetAt(static_cast<il2cpp_array_size_t>(0), (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*)L_261);
+		TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_262 = L_260;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_263 = V_32;
+		NullCheck(L_262);
+		ArrayElementTypeCheck (L_262, L_263);
+		(L_262)->SetAt(static_cast<il2cpp_array_size_t>(1), (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*)L_263);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_264;
+		L_264 = VirtualFuncInvoker2< Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81*, int32_t >::Invoke(195, __this, L_262, 2);
+		V_11 = L_264;
+	}
+
+IL_04d6:
+	{
+		int32_t L_265 = V_31;
+		V_31 = ((int32_t)il2cpp_codegen_add(L_265, 1));
+	}
+
+IL_04dd:
+	{
+		int32_t L_266 = V_31;
+		int32_t L_267 = V_7;
+		V_48 = (bool)((((int32_t)L_266) < ((int32_t)L_267))? 1 : 0);
+		bool L_268 = V_48;
+		if (L_268)
+		{
+			goto IL_02dc;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_269 = V_11;
+		V_21 = L_269;
+		goto IL_04f2;
+	}
+
+IL_04f2:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_270 = V_21;
+		return L_270;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_MatMul_m719F9854263BA82BE0921EDC31AE777277E71C2A (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, bool ___1_xTranspose, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___2_Y, bool ___3_yTranspose, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		s_Il2CppMethodInitialized = true;
+	}
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_0 = NULL;
+	bool V_1 = false;
+	bool V_2 = false;
+	int32_t V_3 = 0;
+	int32_t V_4 = 0;
+	float V_5 = 0.0f;
+	int32_t V_6 = 0;
+	bool V_7 = false;
+	bool V_8 = false;
+	bool V_9 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_10 = NULL;
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_0 = ___0_X;
+		NullCheck(L_0);
+		int32_t L_1;
+		L_1 = Tensor_get_dimensions_mD78E14F7C96D3C7E1F47BC20BFA4352E8C52E2BB(L_0, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_IsTrue_mE42C53B7220324D1FBAFB7AE48A7D8DD7796A663((bool)((((int32_t)((((int32_t)L_1) > ((int32_t)2))? 1 : 0)) == ((int32_t)0))? 1 : 0), NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_2 = ___2_Y;
+		NullCheck(L_2);
+		int32_t L_3;
+		L_3 = Tensor_get_dimensions_mD78E14F7C96D3C7E1F47BC20BFA4352E8C52E2BB(L_2, NULL);
+		Assert_IsTrue_mE42C53B7220324D1FBAFB7AE48A7D8DD7796A663((bool)((((int32_t)((((int32_t)L_3) > ((int32_t)2))? 1 : 0)) == ((int32_t)0))? 1 : 0), NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_4 = ___0_X;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_5;
+		L_5 = VirtualFuncInvoker1< Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* >::Invoke(227, __this, L_4);
+		___0_X = L_5;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_6 = ___2_Y;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_7;
+		L_7 = VirtualFuncInvoker1< Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* >::Invoke(227, __this, L_6);
+		___2_Y = L_7;
+		bool L_8 = ___1_xTranspose;
+		V_1 = L_8;
+		bool L_9 = V_1;
+		if (!L_9)
+		{
+			goto IL_0045;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_10 = ___0_X;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_11;
+		L_11 = VirtualFuncInvoker1< Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* >::Invoke(233, __this, L_10);
+		___0_X = L_11;
+	}
+
+IL_0045:
+	{
+		bool L_12 = ___3_yTranspose;
+		V_2 = L_12;
+		bool L_13 = V_2;
+		if (!L_13)
+		{
+			goto IL_0054;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_14 = ___2_Y;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_15;
+		L_15 = VirtualFuncInvoker1< Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* >::Invoke(233, __this, L_14);
+		___2_Y = L_15;
+	}
+
+IL_0054:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_16 = ___0_X;
+		NullCheck(L_16);
+		int32_t L_17;
+		L_17 = Tensor_get_flatWidth_m7B9AECCB1EF9799E625DD86147A2A3F92F440CC5(L_16, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_18 = ___2_Y;
+		NullCheck(L_18);
+		int32_t L_19;
+		L_19 = Tensor_get_flatHeight_m5A8183FF5C9A9FBDE2F8080B134CA91ABA0FC50D(L_18, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_AreEqual_m718BB4BD31FA3176A3A236F96BC5405EB750D6CF(L_17, L_19, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_20 = ___0_X;
+		NullCheck(L_20);
+		int32_t L_21;
+		L_21 = Tensor_get_dataType_m57109C88C5386735035BB4066BAACD68228C3AB1(L_20, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_22 = ___0_X;
+		NullCheck(L_22);
+		int32_t L_23;
+		L_23 = Tensor_get_flatHeight_m5A8183FF5C9A9FBDE2F8080B134CA91ABA0FC50D(L_22, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_24 = ___2_Y;
+		NullCheck(L_24);
+		int32_t L_25;
+		L_25 = Tensor_get_flatWidth_m7B9AECCB1EF9799E625DD86147A2A3F92F440CC5(L_24, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_26;
+		L_26 = ReferenceCPUOps_NewTensor_m549377E46F09536C70FA6CD0E663E9FF6735A53F(__this, L_21, L_23, L_25, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
+		V_0 = L_26;
+		V_3 = 0;
+		goto IL_00f2;
+	}
+
+IL_0088:
+	{
+		V_4 = 0;
+		goto IL_00de;
+	}
+
+IL_008d:
+	{
+		V_5 = (0.0f);
+		V_6 = 0;
+		goto IL_00bb;
+	}
+
+IL_009a:
+	{
+		float L_27 = V_5;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_28 = ___0_X;
+		int32_t L_29 = V_3;
+		int32_t L_30 = V_6;
+		NullCheck(L_28);
+		float L_31;
+		L_31 = Tensor_get_Item_mB3B371A025B020FBFB3A79C3375745EEA999829B(L_28, L_29, L_30, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_32 = ___2_Y;
+		int32_t L_33 = V_6;
+		int32_t L_34 = V_4;
+		NullCheck(L_32);
+		float L_35;
+		L_35 = Tensor_get_Item_mB3B371A025B020FBFB3A79C3375745EEA999829B(L_32, L_33, L_34, NULL);
+		V_5 = ((float)il2cpp_codegen_add(L_27, ((float)il2cpp_codegen_multiply(L_31, L_35))));
+		int32_t L_36 = V_6;
+		V_6 = ((int32_t)il2cpp_codegen_add(L_36, 1));
+	}
+
+IL_00bb:
+	{
+		int32_t L_37 = V_6;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_38 = ___0_X;
+		NullCheck(L_38);
+		int32_t L_39;
+		L_39 = Tensor_get_flatWidth_m7B9AECCB1EF9799E625DD86147A2A3F92F440CC5(L_38, NULL);
+		V_7 = (bool)((((int32_t)L_37) < ((int32_t)L_39))? 1 : 0);
+		bool L_40 = V_7;
+		if (L_40)
+		{
+			goto IL_009a;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_41 = V_0;
+		int32_t L_42 = V_3;
+		int32_t L_43 = V_4;
+		float L_44 = V_5;
+		NullCheck(L_41);
+		Tensor_set_Item_m3DDF7909FDDC72AE45128800669404B9A7151F87(L_41, L_42, L_43, L_44, NULL);
+		int32_t L_45 = V_4;
+		V_4 = ((int32_t)il2cpp_codegen_add(L_45, 1));
+	}
+
+IL_00de:
+	{
+		int32_t L_46 = V_4;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_47 = V_0;
+		NullCheck(L_47);
+		int32_t L_48;
+		L_48 = Tensor_get_flatWidth_m7B9AECCB1EF9799E625DD86147A2A3F92F440CC5(L_47, NULL);
+		V_8 = (bool)((((int32_t)L_46) < ((int32_t)L_48))? 1 : 0);
+		bool L_49 = V_8;
+		if (L_49)
+		{
+			goto IL_008d;
+		}
+	}
+	{
+		int32_t L_50 = V_3;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_50, 1));
+	}
+
+IL_00f2:
+	{
+		int32_t L_51 = V_3;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_52 = V_0;
+		NullCheck(L_52);
+		int32_t L_53;
+		L_53 = Tensor_get_flatHeight_m5A8183FF5C9A9FBDE2F8080B134CA91ABA0FC50D(L_52, NULL);
+		V_9 = (bool)((((int32_t)L_51) < ((int32_t)L_53))? 1 : 0);
+		bool L_54 = V_9;
+		if (L_54)
+		{
+			goto IL_0088;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_55 = V_0;
+		V_10 = L_55;
+		goto IL_0106;
+	}
+
+IL_0106:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_56 = V_10;
+		return L_56;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_Dense_mD5C687C286F68F124F9F182282D6B29A0E4C1729 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___1_W, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___2_B, int32_t ___3_fusedActivation, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		s_Il2CppMethodInitialized = true;
+	}
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_0 = NULL;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	float V_3 = 0.0f;
+	int32_t V_4 = 0;
+	bool V_5 = false;
+	bool V_6 = false;
+	bool V_7 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_8 = NULL;
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_0 = ___1_W;
+		NullCheck(L_0);
+		int32_t L_1;
+		L_1 = Tensor_get_dimensions_mD78E14F7C96D3C7E1F47BC20BFA4352E8C52E2BB(L_0, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_IsTrue_mE42C53B7220324D1FBAFB7AE48A7D8DD7796A663((bool)((((int32_t)((((int32_t)L_1) > ((int32_t)2))? 1 : 0)) == ((int32_t)0))? 1 : 0), NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_2 = ___2_B;
+		NullCheck(L_2);
+		int32_t L_3;
+		L_3 = Tensor_get_flatWidth_m7B9AECCB1EF9799E625DD86147A2A3F92F440CC5(L_2, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_4 = ___2_B;
+		NullCheck(L_4);
+		int32_t L_5;
+		L_5 = Tensor_get_length_m35C7DA71ED506DB11C0626A040E8A182CA25D5CA(L_4, NULL);
+		Assert_AreEqual_m718BB4BD31FA3176A3A236F96BC5405EB750D6CF(L_3, L_5, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_6 = ___0_X;
+		NullCheck(L_6);
+		int32_t L_7;
+		L_7 = Tensor_get_flatWidth_m7B9AECCB1EF9799E625DD86147A2A3F92F440CC5(L_6, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_8 = ___1_W;
+		NullCheck(L_8);
+		int32_t L_9;
+		L_9 = Tensor_get_flatHeight_m5A8183FF5C9A9FBDE2F8080B134CA91ABA0FC50D(L_8, NULL);
+		Assert_AreEqual_m718BB4BD31FA3176A3A236F96BC5405EB750D6CF(L_7, L_9, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_10 = ___0_X;
+		NullCheck(L_10);
+		int32_t L_11;
+		L_11 = Tensor_get_dataType_m57109C88C5386735035BB4066BAACD68228C3AB1(L_10, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_12 = ___0_X;
+		NullCheck(L_12);
+		int32_t L_13;
+		L_13 = Tensor_get_flatHeight_m5A8183FF5C9A9FBDE2F8080B134CA91ABA0FC50D(L_12, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_14 = ___1_W;
+		NullCheck(L_14);
+		int32_t L_15;
+		L_15 = Tensor_get_flatWidth_m7B9AECCB1EF9799E625DD86147A2A3F92F440CC5(L_14, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_16;
+		L_16 = ReferenceCPUOps_NewTensor_m549377E46F09536C70FA6CD0E663E9FF6735A53F(__this, L_11, L_13, L_15, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
+		V_0 = L_16;
+		V_1 = 0;
+		goto IL_00c3;
+	}
+
+IL_0059:
+	{
+		V_2 = 0;
+		goto IL_00b0;
+	}
+
+IL_005d:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_17 = ___2_B;
+		int32_t L_18 = V_2;
+		NullCheck(L_17);
+		float L_19;
+		L_19 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_17, L_18, NULL);
+		V_3 = L_19;
+		V_4 = 0;
+		goto IL_0089;
+	}
+
+IL_006b:
+	{
+		float L_20 = V_3;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_21 = ___0_X;
+		int32_t L_22 = V_1;
+		int32_t L_23 = V_4;
+		NullCheck(L_21);
+		float L_24;
+		L_24 = Tensor_get_Item_mB3B371A025B020FBFB3A79C3375745EEA999829B(L_21, L_22, L_23, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_25 = ___1_W;
+		int32_t L_26 = V_4;
+		int32_t L_27 = V_2;
+		NullCheck(L_25);
+		float L_28;
+		L_28 = Tensor_get_Item_mB3B371A025B020FBFB3A79C3375745EEA999829B(L_25, L_26, L_27, NULL);
+		V_3 = ((float)il2cpp_codegen_add(L_20, ((float)il2cpp_codegen_multiply(L_24, L_28))));
+		int32_t L_29 = V_4;
+		V_4 = ((int32_t)il2cpp_codegen_add(L_29, 1));
+	}
+
+IL_0089:
+	{
+		int32_t L_30 = V_4;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_31 = ___0_X;
+		NullCheck(L_31);
+		int32_t L_32;
+		L_32 = Tensor_get_flatWidth_m7B9AECCB1EF9799E625DD86147A2A3F92F440CC5(L_31, NULL);
+		V_5 = (bool)((((int32_t)L_30) < ((int32_t)L_32))? 1 : 0);
+		bool L_33 = V_5;
+		if (L_33)
+		{
+			goto IL_006b;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_34 = V_0;
+		int32_t L_35 = V_1;
+		int32_t L_36 = V_2;
+		float L_37 = V_3;
+		int32_t L_38 = ___3_fusedActivation;
+		float L_39;
+		L_39 = ReferenceCPUOps_ApplyFusedActivation_m3FD39FDE56BAEDC8AAE8C3FD36ED451648419621(__this, L_37, L_38, NULL);
+		NullCheck(L_34);
+		Tensor_set_Item_m3DDF7909FDDC72AE45128800669404B9A7151F87(L_34, L_35, L_36, L_39, NULL);
+		int32_t L_40 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_40, 1));
+	}
+
+IL_00b0:
+	{
+		int32_t L_41 = V_2;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_42 = V_0;
+		NullCheck(L_42);
+		int32_t L_43;
+		L_43 = Tensor_get_flatWidth_m7B9AECCB1EF9799E625DD86147A2A3F92F440CC5(L_42, NULL);
+		V_6 = (bool)((((int32_t)L_41) < ((int32_t)L_43))? 1 : 0);
+		bool L_44 = V_6;
+		if (L_44)
+		{
+			goto IL_005d;
+		}
+	}
+	{
+		int32_t L_45 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_45, 1));
+	}
+
+IL_00c3:
+	{
+		int32_t L_46 = V_1;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_47 = V_0;
+		NullCheck(L_47);
+		int32_t L_48;
+		L_48 = Tensor_get_flatHeight_m5A8183FF5C9A9FBDE2F8080B134CA91ABA0FC50D(L_47, NULL);
+		V_7 = (bool)((((int32_t)L_46) < ((int32_t)L_48))? 1 : 0);
+		bool L_49 = V_7;
+		if (L_49)
+		{
+			goto IL_0059;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_50 = V_0;
+		V_8 = L_50;
+		goto IL_00d7;
+	}
+
+IL_00d7:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_51 = V_8;
+		return L_51;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_Conv2D_m0E1492FCC7B8A1B89E3C64F0D3FA0D6F85BA5B4B (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___1_K, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___2_B, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___3_stride, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___4_pad, int32_t ___5_fusedActivation, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_0 = NULL;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	int32_t V_4 = 0;
+	float V_5 = 0.0f;
+	int32_t V_6 = 0;
+	int32_t V_7 = 0;
+	int32_t V_8 = 0;
+	int32_t V_9 = 0;
+	bool V_10 = false;
+	bool V_11 = false;
+	bool V_12 = false;
+	bool V_13 = false;
+	int32_t V_14 = 0;
+	float V_15 = 0.0f;
+	float V_16 = 0.0f;
+	bool V_17 = false;
+	bool V_18 = false;
+	bool V_19 = false;
+	bool V_20 = false;
+	bool V_21 = false;
+	bool V_22 = false;
+	bool V_23 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_24 = NULL;
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_0 = ___0_X;
+		NullCheck(L_0);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_1;
+		L_1 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_0, NULL);
+		bool L_2;
+		L_2 = TensorExtensions_Is4D_m1BB4A7DABDDBDB4046C16B6833336A64CD5A0C86(L_1, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_IsTrue_mE42C53B7220324D1FBAFB7AE48A7D8DD7796A663(L_2, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_3 = ___0_X;
+		NullCheck(L_3);
+		int32_t L_4;
+		L_4 = Tensor_get_channels_m9DA46CF71B1C47E059EA3417C6A652E1233B5D04(L_3, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_5 = ___1_K;
+		NullCheck(L_5);
+		int32_t L_6;
+		L_6 = Tensor_get_kernelDepth_mE44E66338E9291E470D4CB152E2F8F83890567E9(L_5, NULL);
+		Assert_AreEqual_m718BB4BD31FA3176A3A236F96BC5405EB750D6CF(L_4, L_6, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_7 = ___1_K;
+		NullCheck(L_7);
+		int32_t L_8;
+		L_8 = Tensor_get_kernelCount_m98E82502EEC69F11C14B0589D40710B818714722(L_7, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_9 = ___2_B;
+		NullCheck(L_9);
+		int32_t L_10;
+		L_10 = Tensor_get_flatWidth_m7B9AECCB1EF9799E625DD86147A2A3F92F440CC5(L_9, NULL);
+		Assert_AreEqual_m718BB4BD31FA3176A3A236F96BC5405EB750D6CF(L_8, L_10, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_11 = ___2_B;
+		NullCheck(L_11);
+		int32_t L_12;
+		L_12 = Tensor_get_flatWidth_m7B9AECCB1EF9799E625DD86147A2A3F92F440CC5(L_11, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_13 = ___2_B;
+		NullCheck(L_13);
+		int32_t L_14;
+		L_14 = Tensor_get_length_m35C7DA71ED506DB11C0626A040E8A182CA25D5CA(L_13, NULL);
+		Assert_AreEqual_m718BB4BD31FA3176A3A236F96BC5405EB750D6CF(L_12, L_14, NULL);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_15 = ___3_stride;
+		NullCheck(L_15);
+		Assert_AreEqual_m718BB4BD31FA3176A3A236F96BC5405EB750D6CF(((int32_t)(((RuntimeArray*)L_15)->max_length)), 2, NULL);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_16 = ___4_pad;
+		NullCheck(L_16);
+		Assert_AreEqual_m718BB4BD31FA3176A3A236F96BC5405EB750D6CF(((int32_t)(((RuntimeArray*)L_16)->max_length)), 4, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_17 = ___0_X;
+		NullCheck(L_17);
+		int32_t L_18;
+		L_18 = Tensor_get_dataType_m57109C88C5386735035BB4066BAACD68228C3AB1(L_17, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_19 = ___0_X;
+		NullCheck(L_19);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_20;
+		L_20 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_19, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_21 = ___1_K;
+		NullCheck(L_21);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_22;
+		L_22 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_21, NULL);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_23 = ___3_stride;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_24 = ___4_pad;
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_25;
+		L_25 = TensorExtensions_ApplyKernel_m6D52E32ED54F6097A1E104CCB8CC7FB09F240443(L_20, L_22, L_23, L_24, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_26;
+		L_26 = ReferenceCPUOps_NewTensor_m74008D9C77785A62165EBEF61281FBB9CB42DAAF(__this, L_18, L_25, NULL);
+		V_0 = L_26;
+		V_1 = 0;
+		goto IL_01f8;
+	}
+
+IL_0087:
+	{
+		V_2 = 0;
+		goto IL_01e2;
+	}
+
+IL_008e:
+	{
+		V_3 = 0;
+		goto IL_01cc;
+	}
+
+IL_0095:
+	{
+		V_4 = 0;
+		goto IL_01b5;
+	}
+
+IL_009d:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_27 = ___2_B;
+		int32_t L_28 = V_4;
+		NullCheck(L_27);
+		float L_29;
+		L_29 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_27, L_28, NULL);
+		V_5 = L_29;
+		V_6 = 0;
+		goto IL_0185;
+	}
+
+IL_00b0:
+	{
+		V_7 = 0;
+		goto IL_016b;
+	}
+
+IL_00b9:
+	{
+		int32_t L_30 = V_2;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_31 = ___3_stride;
+		NullCheck(L_31);
+		int32_t L_32 = 1;
+		int32_t L_33 = (L_31)->GetAt(static_cast<il2cpp_array_size_t>(L_32));
+		int32_t L_34 = V_6;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_35 = ___4_pad;
+		NullCheck(L_35);
+		int32_t L_36 = 1;
+		int32_t L_37 = (L_35)->GetAt(static_cast<il2cpp_array_size_t>(L_36));
+		V_8 = ((int32_t)il2cpp_codegen_subtract(((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_multiply(L_30, L_33)), L_34)), L_37));
+		int32_t L_38 = V_3;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_39 = ___3_stride;
+		NullCheck(L_39);
+		int32_t L_40 = 0;
+		int32_t L_41 = (L_39)->GetAt(static_cast<il2cpp_array_size_t>(L_40));
+		int32_t L_42 = V_7;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_43 = ___4_pad;
+		NullCheck(L_43);
+		int32_t L_44 = 0;
+		int32_t L_45 = (L_43)->GetAt(static_cast<il2cpp_array_size_t>(L_44));
+		V_9 = ((int32_t)il2cpp_codegen_subtract(((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_multiply(L_38, L_41)), L_42)), L_45));
+		int32_t L_46 = V_8;
+		V_10 = (bool)((((int32_t)L_46) < ((int32_t)0))? 1 : 0);
+		bool L_47 = V_10;
+		if (!L_47)
+		{
+			goto IL_00e7;
+		}
+	}
+	{
+		goto IL_0165;
+	}
+
+IL_00e7:
+	{
+		int32_t L_48 = V_8;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_49 = ___0_X;
+		NullCheck(L_49);
+		int32_t L_50;
+		L_50 = Tensor_get_height_m0477A83109747FF1DA788569602DA2293D762AC1(L_49, NULL);
+		V_11 = (bool)((((int32_t)((((int32_t)L_48) < ((int32_t)L_50))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_51 = V_11;
+		if (!L_51)
+		{
+			goto IL_00fc;
+		}
+	}
+	{
+		goto IL_0165;
+	}
+
+IL_00fc:
+	{
+		int32_t L_52 = V_9;
+		V_12 = (bool)((((int32_t)L_52) < ((int32_t)0))? 1 : 0);
+		bool L_53 = V_12;
+		if (!L_53)
+		{
+			goto IL_0109;
+		}
+	}
+	{
+		goto IL_0165;
+	}
+
+IL_0109:
+	{
+		int32_t L_54 = V_9;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_55 = ___0_X;
+		NullCheck(L_55);
+		int32_t L_56;
+		L_56 = Tensor_get_width_m9E948C3769B41324EB12D54CE6E2E51DC18DC488(L_55, NULL);
+		V_13 = (bool)((((int32_t)((((int32_t)L_54) < ((int32_t)L_56))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_57 = V_13;
+		if (!L_57)
+		{
+			goto IL_011e;
+		}
+	}
+	{
+		goto IL_0165;
+	}
+
+IL_011e:
+	{
+		V_14 = 0;
+		goto IL_0154;
+	}
+
+IL_0123:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_58 = ___0_X;
+		int32_t L_59 = V_1;
+		int32_t L_60 = V_8;
+		int32_t L_61 = V_9;
+		int32_t L_62 = V_14;
+		NullCheck(L_58);
+		float L_63;
+		L_63 = Tensor_get_Item_mA53C387CBDB9F0EA0D069DD7BFC45970172290C5(L_58, L_59, L_60, L_61, L_62, NULL);
+		V_15 = L_63;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_64 = ___1_K;
+		int32_t L_65 = V_6;
+		int32_t L_66 = V_7;
+		int32_t L_67 = V_14;
+		int32_t L_68 = V_4;
+		NullCheck(L_64);
+		float L_69;
+		L_69 = Tensor_get_Item_mA53C387CBDB9F0EA0D069DD7BFC45970172290C5(L_64, L_65, L_66, L_67, L_68, NULL);
+		V_16 = L_69;
+		float L_70 = V_5;
+		float L_71 = V_15;
+		float L_72 = V_16;
+		V_5 = ((float)il2cpp_codegen_add(L_70, ((float)il2cpp_codegen_multiply(L_71, L_72))));
+		int32_t L_73 = V_14;
+		V_14 = ((int32_t)il2cpp_codegen_add(L_73, 1));
+	}
+
+IL_0154:
+	{
+		int32_t L_74 = V_14;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_75 = ___0_X;
+		NullCheck(L_75);
+		int32_t L_76;
+		L_76 = Tensor_get_channels_m9DA46CF71B1C47E059EA3417C6A652E1233B5D04(L_75, NULL);
+		V_17 = (bool)((((int32_t)L_74) < ((int32_t)L_76))? 1 : 0);
+		bool L_77 = V_17;
+		if (L_77)
+		{
+			goto IL_0123;
+		}
+	}
+	{
+	}
+
+IL_0165:
+	{
+		int32_t L_78 = V_7;
+		V_7 = ((int32_t)il2cpp_codegen_add(L_78, 1));
+	}
+
+IL_016b:
+	{
+		int32_t L_79 = V_7;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_80 = ___1_K;
+		NullCheck(L_80);
+		int32_t L_81;
+		L_81 = Tensor_get_kernelWidth_m4CA0EF3AA1795E14C8C1B11F5D658188FAF6FB73(L_80, NULL);
+		V_18 = (bool)((((int32_t)L_79) < ((int32_t)L_81))? 1 : 0);
+		bool L_82 = V_18;
+		if (L_82)
+		{
+			goto IL_00b9;
+		}
+	}
+	{
+		int32_t L_83 = V_6;
+		V_6 = ((int32_t)il2cpp_codegen_add(L_83, 1));
+	}
+
+IL_0185:
+	{
+		int32_t L_84 = V_6;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_85 = ___1_K;
+		NullCheck(L_85);
+		int32_t L_86;
+		L_86 = Tensor_get_kernelHeight_m3BB900FD718F6156405ED93688816729B0BB80C6(L_85, NULL);
+		V_19 = (bool)((((int32_t)L_84) < ((int32_t)L_86))? 1 : 0);
+		bool L_87 = V_19;
+		if (L_87)
+		{
+			goto IL_00b0;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_88 = V_0;
+		int32_t L_89 = V_1;
+		int32_t L_90 = V_2;
+		int32_t L_91 = V_3;
+		int32_t L_92 = V_4;
+		float L_93 = V_5;
+		int32_t L_94 = ___5_fusedActivation;
+		float L_95;
+		L_95 = ReferenceCPUOps_ApplyFusedActivation_m3FD39FDE56BAEDC8AAE8C3FD36ED451648419621(__this, L_93, L_94, NULL);
+		NullCheck(L_88);
+		Tensor_set_Item_m7EF9E435A07905132E0C8C33A6C5A90E1E22BF58(L_88, L_89, L_90, L_91, L_92, L_95, NULL);
+		int32_t L_96 = V_4;
+		V_4 = ((int32_t)il2cpp_codegen_add(L_96, 1));
+	}
+
+IL_01b5:
+	{
+		int32_t L_97 = V_4;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_98 = ___1_K;
+		NullCheck(L_98);
+		int32_t L_99;
+		L_99 = Tensor_get_kernelCount_m98E82502EEC69F11C14B0589D40710B818714722(L_98, NULL);
+		V_20 = (bool)((((int32_t)L_97) < ((int32_t)L_99))? 1 : 0);
+		bool L_100 = V_20;
+		if (L_100)
+		{
+			goto IL_009d;
+		}
+	}
+	{
+		int32_t L_101 = V_3;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_101, 1));
+	}
+
+IL_01cc:
+	{
+		int32_t L_102 = V_3;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_103 = V_0;
+		NullCheck(L_103);
+		int32_t L_104;
+		L_104 = Tensor_get_width_m9E948C3769B41324EB12D54CE6E2E51DC18DC488(L_103, NULL);
+		V_21 = (bool)((((int32_t)L_102) < ((int32_t)L_104))? 1 : 0);
+		bool L_105 = V_21;
+		if (L_105)
+		{
+			goto IL_0095;
+		}
+	}
+	{
+		int32_t L_106 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_106, 1));
+	}
+
+IL_01e2:
+	{
+		int32_t L_107 = V_2;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_108 = V_0;
+		NullCheck(L_108);
+		int32_t L_109;
+		L_109 = Tensor_get_height_m0477A83109747FF1DA788569602DA2293D762AC1(L_108, NULL);
+		V_22 = (bool)((((int32_t)L_107) < ((int32_t)L_109))? 1 : 0);
+		bool L_110 = V_22;
+		if (L_110)
+		{
+			goto IL_008e;
+		}
+	}
+	{
+		int32_t L_111 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_111, 1));
+	}
+
+IL_01f8:
+	{
+		int32_t L_112 = V_1;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_113 = V_0;
+		NullCheck(L_113);
+		int32_t L_114;
+		L_114 = Tensor_get_batch_m6CD93DCCD32D6A47FDEDEBFF16FF70AC9C586DD9(L_113, NULL);
+		V_23 = (bool)((((int32_t)L_112) < ((int32_t)L_114))? 1 : 0);
+		bool L_115 = V_23;
+		if (L_115)
+		{
+			goto IL_0087;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_116 = V_0;
+		V_24 = L_116;
+		goto IL_020f;
+	}
+
+IL_020f:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_117 = V_24;
+		return L_117;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_Conv3D_mA7019FDC30E49E853562F98F2030475D2A7E389F (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___1_K, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___2_B, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___3_stride, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___4_pad, int32_t ___5_fusedActivation, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_0 = NULL;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	int32_t V_4 = 0;
+	int32_t V_5 = 0;
+	float V_6 = 0.0f;
+	int32_t V_7 = 0;
+	int32_t V_8 = 0;
+	int32_t V_9 = 0;
+	int32_t V_10 = 0;
+	int32_t V_11 = 0;
+	int32_t V_12 = 0;
+	bool V_13 = false;
+	bool V_14 = false;
+	bool V_15 = false;
+	bool V_16 = false;
+	bool V_17 = false;
+	bool V_18 = false;
+	int32_t V_19 = 0;
+	float V_20 = 0.0f;
+	float V_21 = 0.0f;
+	bool V_22 = false;
+	bool V_23 = false;
+	bool V_24 = false;
+	bool V_25 = false;
+	bool V_26 = false;
+	bool V_27 = false;
+	bool V_28 = false;
+	bool V_29 = false;
+	bool V_30 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_31 = NULL;
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_0 = ___0_X;
+		NullCheck(L_0);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_1;
+		L_1 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_0, NULL);
+		bool L_2;
+		L_2 = TensorExtensions_IsNDHWC_mAE6BCD15589A659050B19303629AD7252E90A49C(L_1, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_IsTrue_mE42C53B7220324D1FBAFB7AE48A7D8DD7796A663(L_2, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_3 = ___0_X;
+		NullCheck(L_3);
+		int32_t L_4;
+		L_4 = Tensor_get_channels_m9DA46CF71B1C47E059EA3417C6A652E1233B5D04(L_3, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_5 = ___1_K;
+		NullCheck(L_5);
+		int32_t L_6;
+		L_6 = Tensor_get_kernelDepth_mE44E66338E9291E470D4CB152E2F8F83890567E9(L_5, NULL);
+		Assert_AreEqual_m718BB4BD31FA3176A3A236F96BC5405EB750D6CF(L_4, L_6, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_7 = ___1_K;
+		NullCheck(L_7);
+		int32_t L_8;
+		L_8 = Tensor_get_kernelCount_m98E82502EEC69F11C14B0589D40710B818714722(L_7, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_9 = ___2_B;
+		NullCheck(L_9);
+		int32_t L_10;
+		L_10 = Tensor_get_flatWidth_m7B9AECCB1EF9799E625DD86147A2A3F92F440CC5(L_9, NULL);
+		Assert_AreEqual_m718BB4BD31FA3176A3A236F96BC5405EB750D6CF(L_8, L_10, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_11 = ___2_B;
+		NullCheck(L_11);
+		int32_t L_12;
+		L_12 = Tensor_get_flatWidth_m7B9AECCB1EF9799E625DD86147A2A3F92F440CC5(L_11, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_13 = ___2_B;
+		NullCheck(L_13);
+		int32_t L_14;
+		L_14 = Tensor_get_length_m35C7DA71ED506DB11C0626A040E8A182CA25D5CA(L_13, NULL);
+		Assert_AreEqual_m718BB4BD31FA3176A3A236F96BC5405EB750D6CF(L_12, L_14, NULL);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_15 = ___3_stride;
+		NullCheck(L_15);
+		Assert_AreEqual_m718BB4BD31FA3176A3A236F96BC5405EB750D6CF(((int32_t)(((RuntimeArray*)L_15)->max_length)), 3, NULL);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_16 = ___4_pad;
+		NullCheck(L_16);
+		Assert_AreEqual_m718BB4BD31FA3176A3A236F96BC5405EB750D6CF(((int32_t)(((RuntimeArray*)L_16)->max_length)), 6, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_17 = ___0_X;
+		NullCheck(L_17);
+		int32_t L_18;
+		L_18 = Tensor_get_dataType_m57109C88C5386735035BB4066BAACD68228C3AB1(L_17, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_19 = ___0_X;
+		NullCheck(L_19);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_20;
+		L_20 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_19, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_21 = ___1_K;
+		NullCheck(L_21);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_22;
+		L_22 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_21, NULL);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_23 = ___3_stride;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_24 = ___4_pad;
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_25;
+		L_25 = TensorExtensions_ApplyKernel_m6D52E32ED54F6097A1E104CCB8CC7FB09F240443(L_20, L_22, L_23, L_24, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_26;
+		L_26 = ReferenceCPUOps_NewTensor_m74008D9C77785A62165EBEF61281FBB9CB42DAAF(__this, L_18, L_25, NULL);
+		V_0 = L_26;
+		V_1 = 0;
+		goto IL_0281;
+	}
+
+IL_0087:
+	{
+		V_2 = 0;
+		goto IL_026b;
+	}
+
+IL_008e:
+	{
+		V_3 = 0;
+		goto IL_0255;
+	}
+
+IL_0095:
+	{
+		V_4 = 0;
+		goto IL_023e;
+	}
+
+IL_009d:
+	{
+		V_5 = 0;
+		goto IL_0225;
+	}
+
+IL_00a5:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_27 = ___2_B;
+		int32_t L_28 = V_5;
+		NullCheck(L_27);
+		float L_29;
+		L_29 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_27, L_28, NULL);
+		V_6 = L_29;
+		V_7 = 0;
+		goto IL_01f3;
+	}
+
+IL_00b8:
+	{
+		V_8 = 0;
+		goto IL_01d9;
+	}
+
+IL_00c1:
+	{
+		V_9 = 0;
+		goto IL_01bf;
+	}
+
+IL_00ca:
+	{
+		int32_t L_30 = V_2;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_31 = ___3_stride;
+		NullCheck(L_31);
+		int32_t L_32 = 2;
+		int32_t L_33 = (L_31)->GetAt(static_cast<il2cpp_array_size_t>(L_32));
+		int32_t L_34 = V_7;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_35 = ___4_pad;
+		NullCheck(L_35);
+		int32_t L_36 = 2;
+		int32_t L_37 = (L_35)->GetAt(static_cast<il2cpp_array_size_t>(L_36));
+		V_10 = ((int32_t)il2cpp_codegen_subtract(((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_multiply(L_30, L_33)), L_34)), L_37));
+		int32_t L_38 = V_3;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_39 = ___3_stride;
+		NullCheck(L_39);
+		int32_t L_40 = 1;
+		int32_t L_41 = (L_39)->GetAt(static_cast<il2cpp_array_size_t>(L_40));
+		int32_t L_42 = V_8;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_43 = ___4_pad;
+		NullCheck(L_43);
+		int32_t L_44 = 1;
+		int32_t L_45 = (L_43)->GetAt(static_cast<il2cpp_array_size_t>(L_44));
+		V_11 = ((int32_t)il2cpp_codegen_subtract(((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_multiply(L_38, L_41)), L_42)), L_45));
+		int32_t L_46 = V_4;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_47 = ___3_stride;
+		NullCheck(L_47);
+		int32_t L_48 = 0;
+		int32_t L_49 = (L_47)->GetAt(static_cast<il2cpp_array_size_t>(L_48));
+		int32_t L_50 = V_9;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_51 = ___4_pad;
+		NullCheck(L_51);
+		int32_t L_52 = 0;
+		int32_t L_53 = (L_51)->GetAt(static_cast<il2cpp_array_size_t>(L_52));
+		V_12 = ((int32_t)il2cpp_codegen_subtract(((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_multiply(L_46, L_49)), L_50)), L_53));
+		int32_t L_54 = V_10;
+		V_13 = (bool)((((int32_t)L_54) < ((int32_t)0))? 1 : 0);
+		bool L_55 = V_13;
+		if (!L_55)
+		{
+			goto IL_010c;
+		}
+	}
+	{
+		goto IL_01b9;
+	}
+
+IL_010c:
+	{
+		int32_t L_56 = V_10;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_57 = ___0_X;
+		NullCheck(L_57);
+		int32_t L_58;
+		L_58 = Tensor_get_depth_mCBD84F5F780C2550B3D41F0EE99DC72FD5D93B91(L_57, NULL);
+		V_14 = (bool)((((int32_t)((((int32_t)L_56) < ((int32_t)L_58))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_59 = V_14;
+		if (!L_59)
+		{
+			goto IL_0124;
+		}
+	}
+	{
+		goto IL_01b9;
+	}
+
+IL_0124:
+	{
+		int32_t L_60 = V_11;
+		V_15 = (bool)((((int32_t)L_60) < ((int32_t)0))? 1 : 0);
+		bool L_61 = V_15;
+		if (!L_61)
+		{
+			goto IL_0134;
+		}
+	}
+	{
+		goto IL_01b9;
+	}
+
+IL_0134:
+	{
+		int32_t L_62 = V_11;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_63 = ___0_X;
+		NullCheck(L_63);
+		int32_t L_64;
+		L_64 = Tensor_get_height_m0477A83109747FF1DA788569602DA2293D762AC1(L_63, NULL);
+		V_16 = (bool)((((int32_t)((((int32_t)L_62) < ((int32_t)L_64))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_65 = V_16;
+		if (!L_65)
+		{
+			goto IL_0149;
+		}
+	}
+	{
+		goto IL_01b9;
+	}
+
+IL_0149:
+	{
+		int32_t L_66 = V_12;
+		V_17 = (bool)((((int32_t)L_66) < ((int32_t)0))? 1 : 0);
+		bool L_67 = V_17;
+		if (!L_67)
+		{
+			goto IL_0156;
+		}
+	}
+	{
+		goto IL_01b9;
+	}
+
+IL_0156:
+	{
+		int32_t L_68 = V_12;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_69 = ___0_X;
+		NullCheck(L_69);
+		int32_t L_70;
+		L_70 = Tensor_get_width_m9E948C3769B41324EB12D54CE6E2E51DC18DC488(L_69, NULL);
+		V_18 = (bool)((((int32_t)((((int32_t)L_68) < ((int32_t)L_70))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_71 = V_18;
+		if (!L_71)
+		{
+			goto IL_016b;
+		}
+	}
+	{
+		goto IL_01b9;
+	}
+
+IL_016b:
+	{
+		V_19 = 0;
+		goto IL_01a8;
+	}
+
+IL_0170:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_72 = ___0_X;
+		int32_t L_73 = V_1;
+		int32_t L_74 = V_10;
+		int32_t L_75 = V_11;
+		int32_t L_76 = V_12;
+		int32_t L_77 = V_19;
+		NullCheck(L_72);
+		float L_78;
+		L_78 = Tensor_get_Item_mA5356D6E69A9A737CAAC9469CD796413667F784C(L_72, L_73, L_74, L_75, L_76, L_77, NULL);
+		V_20 = L_78;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_79 = ___1_K;
+		int32_t L_80 = V_7;
+		int32_t L_81 = V_8;
+		int32_t L_82 = V_9;
+		int32_t L_83 = V_19;
+		int32_t L_84 = V_5;
+		NullCheck(L_79);
+		float L_85;
+		L_85 = Tensor_get_Item_mEC07898861EE98ED01A447281200D4F26CEDA1A9(L_79, 0, L_80, L_81, 0, 0, L_82, L_83, L_84, NULL);
+		V_21 = L_85;
+		float L_86 = V_6;
+		float L_87 = V_20;
+		float L_88 = V_21;
+		V_6 = ((float)il2cpp_codegen_add(L_86, ((float)il2cpp_codegen_multiply(L_87, L_88))));
+		int32_t L_89 = V_19;
+		V_19 = ((int32_t)il2cpp_codegen_add(L_89, 1));
+	}
+
+IL_01a8:
+	{
+		int32_t L_90 = V_19;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_91 = ___0_X;
+		NullCheck(L_91);
+		int32_t L_92;
+		L_92 = Tensor_get_channels_m9DA46CF71B1C47E059EA3417C6A652E1233B5D04(L_91, NULL);
+		V_22 = (bool)((((int32_t)L_90) < ((int32_t)L_92))? 1 : 0);
+		bool L_93 = V_22;
+		if (L_93)
+		{
+			goto IL_0170;
+		}
+	}
+	{
+	}
+
+IL_01b9:
+	{
+		int32_t L_94 = V_9;
+		V_9 = ((int32_t)il2cpp_codegen_add(L_94, 1));
+	}
+
+IL_01bf:
+	{
+		int32_t L_95 = V_9;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_96 = ___1_K;
+		NullCheck(L_96);
+		int32_t L_97;
+		L_97 = Tensor_get_kernelWidth_m4CA0EF3AA1795E14C8C1B11F5D658188FAF6FB73(L_96, NULL);
+		V_23 = (bool)((((int32_t)L_95) < ((int32_t)L_97))? 1 : 0);
+		bool L_98 = V_23;
+		if (L_98)
+		{
+			goto IL_00ca;
+		}
+	}
+	{
+		int32_t L_99 = V_8;
+		V_8 = ((int32_t)il2cpp_codegen_add(L_99, 1));
+	}
+
+IL_01d9:
+	{
+		int32_t L_100 = V_8;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_101 = ___1_K;
+		NullCheck(L_101);
+		int32_t L_102;
+		L_102 = Tensor_get_kernelHeight_m3BB900FD718F6156405ED93688816729B0BB80C6(L_101, NULL);
+		V_24 = (bool)((((int32_t)L_100) < ((int32_t)L_102))? 1 : 0);
+		bool L_103 = V_24;
+		if (L_103)
+		{
+			goto IL_00c1;
+		}
+	}
+	{
+		int32_t L_104 = V_7;
+		V_7 = ((int32_t)il2cpp_codegen_add(L_104, 1));
+	}
+
+IL_01f3:
+	{
+		int32_t L_105 = V_7;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_106 = ___1_K;
+		NullCheck(L_106);
+		int32_t L_107;
+		L_107 = Tensor_get_kernelSpatialDepth_mBFFDA142CB543B96A8AB39819D5EFBFC415B8746(L_106, NULL);
+		V_25 = (bool)((((int32_t)L_105) < ((int32_t)L_107))? 1 : 0);
+		bool L_108 = V_25;
+		if (L_108)
+		{
+			goto IL_00b8;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_109 = V_0;
+		int32_t L_110 = V_1;
+		int32_t L_111 = V_2;
+		int32_t L_112 = V_3;
+		int32_t L_113 = V_4;
+		int32_t L_114 = V_5;
+		float L_115 = V_6;
+		int32_t L_116 = ___5_fusedActivation;
+		float L_117;
+		L_117 = ReferenceCPUOps_ApplyFusedActivation_m3FD39FDE56BAEDC8AAE8C3FD36ED451648419621(__this, L_115, L_116, NULL);
+		NullCheck(L_109);
+		Tensor_set_Item_m2DB3060AC1B6388733DCEBDBDA2FA5A27F40FB42(L_109, L_110, L_111, L_112, L_113, L_114, L_117, NULL);
+		int32_t L_118 = V_5;
+		V_5 = ((int32_t)il2cpp_codegen_add(L_118, 1));
+	}
+
+IL_0225:
+	{
+		int32_t L_119 = V_5;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_120 = ___1_K;
+		NullCheck(L_120);
+		int32_t L_121;
+		L_121 = Tensor_get_kernelCount_m98E82502EEC69F11C14B0589D40710B818714722(L_120, NULL);
+		V_26 = (bool)((((int32_t)L_119) < ((int32_t)L_121))? 1 : 0);
+		bool L_122 = V_26;
+		if (L_122)
+		{
+			goto IL_00a5;
+		}
+	}
+	{
+		int32_t L_123 = V_4;
+		V_4 = ((int32_t)il2cpp_codegen_add(L_123, 1));
+	}
+
+IL_023e:
+	{
+		int32_t L_124 = V_4;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_125 = V_0;
+		NullCheck(L_125);
+		int32_t L_126;
+		L_126 = Tensor_get_width_m9E948C3769B41324EB12D54CE6E2E51DC18DC488(L_125, NULL);
+		V_27 = (bool)((((int32_t)L_124) < ((int32_t)L_126))? 1 : 0);
+		bool L_127 = V_27;
+		if (L_127)
+		{
+			goto IL_009d;
+		}
+	}
+	{
+		int32_t L_128 = V_3;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_128, 1));
+	}
+
+IL_0255:
+	{
+		int32_t L_129 = V_3;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_130 = V_0;
+		NullCheck(L_130);
+		int32_t L_131;
+		L_131 = Tensor_get_height_m0477A83109747FF1DA788569602DA2293D762AC1(L_130, NULL);
+		V_28 = (bool)((((int32_t)L_129) < ((int32_t)L_131))? 1 : 0);
+		bool L_132 = V_28;
+		if (L_132)
+		{
+			goto IL_0095;
+		}
+	}
+	{
+		int32_t L_133 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_133, 1));
+	}
+
+IL_026b:
+	{
+		int32_t L_134 = V_2;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_135 = V_0;
+		NullCheck(L_135);
+		int32_t L_136;
+		L_136 = Tensor_get_depth_mCBD84F5F780C2550B3D41F0EE99DC72FD5D93B91(L_135, NULL);
+		V_29 = (bool)((((int32_t)L_134) < ((int32_t)L_136))? 1 : 0);
+		bool L_137 = V_29;
+		if (L_137)
+		{
+			goto IL_008e;
+		}
+	}
+	{
+		int32_t L_138 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_138, 1));
+	}
+
+IL_0281:
+	{
+		int32_t L_139 = V_1;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_140 = V_0;
+		NullCheck(L_140);
+		int32_t L_141;
+		L_141 = Tensor_get_batch_m6CD93DCCD32D6A47FDEDEBFF16FF70AC9C586DD9(L_140, NULL);
+		V_30 = (bool)((((int32_t)L_139) < ((int32_t)L_141))? 1 : 0);
+		bool L_142 = V_30;
+		if (L_142)
+		{
+			goto IL_0087;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_143 = V_0;
+		V_31 = L_143;
+		goto IL_0298;
+	}
+
+IL_0298:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_144 = V_31;
+		return L_144;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_DepthwiseConv2D_m269D0974A20B97FEFBC3144169FDB7F7BE7542E7 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___1_K, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___2_B, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___3_stride, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___4_pad, int32_t ___5_fusedActivation, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_0 = NULL;
+	bool V_1 = false;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	int32_t V_4 = 0;
+	int32_t V_5 = 0;
+	float V_6 = 0.0f;
+	int32_t V_7 = 0;
+	int32_t V_8 = 0;
+	int32_t V_9 = 0;
+	int32_t V_10 = 0;
+	float V_11 = 0.0f;
+	float V_12 = 0.0f;
+	bool V_13 = false;
+	bool V_14 = false;
+	bool V_15 = false;
+	bool V_16 = false;
+	bool V_17 = false;
+	bool V_18 = false;
+	bool V_19 = false;
+	bool V_20 = false;
+	bool V_21 = false;
+	bool V_22 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_23 = NULL;
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_0 = ___1_K;
+		NullCheck(L_0);
+		int32_t L_1;
+		L_1 = Tensor_get_kernelDepth_mE44E66338E9291E470D4CB152E2F8F83890567E9(L_0, NULL);
+		V_1 = (bool)((((int32_t)((((int32_t)L_1) == ((int32_t)1))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_2 = V_1;
+		if (!L_2)
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8* L_3 = (NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8_il2cpp_TypeInfo_var)));
+		NotImplementedException__ctor_m8339D1A685E8D77CAC9D3260C06B38B5C7CA7742(L_3, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral7D9F7E9BB536E4122AF4B4F6A880B67F5F65C5B4)), NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ReferenceCPUOps_DepthwiseConv2D_m269D0974A20B97FEFBC3144169FDB7F7BE7542E7_RuntimeMethod_var)));
+	}
+
+IL_001c:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_4 = ___0_X;
+		NullCheck(L_4);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_5;
+		L_5 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_4, NULL);
+		bool L_6;
+		L_6 = TensorExtensions_Is4D_m1BB4A7DABDDBDB4046C16B6833336A64CD5A0C86(L_5, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_IsTrue_mE42C53B7220324D1FBAFB7AE48A7D8DD7796A663(L_6, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_7 = ___1_K;
+		NullCheck(L_7);
+		int32_t L_8;
+		L_8 = Tensor_get_kernelDepth_mE44E66338E9291E470D4CB152E2F8F83890567E9(L_7, NULL);
+		Assert_AreEqual_m718BB4BD31FA3176A3A236F96BC5405EB750D6CF(L_8, 1, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_9 = ___1_K;
+		NullCheck(L_9);
+		int32_t L_10;
+		L_10 = Tensor_get_kernelCount_m98E82502EEC69F11C14B0589D40710B818714722(L_9, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_11 = ___0_X;
+		NullCheck(L_11);
+		int32_t L_12;
+		L_12 = Tensor_get_channels_m9DA46CF71B1C47E059EA3417C6A652E1233B5D04(L_11, NULL);
+		Assert_AreEqual_m718BB4BD31FA3176A3A236F96BC5405EB750D6CF(L_10, L_12, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_13 = ___1_K;
+		NullCheck(L_13);
+		int32_t L_14;
+		L_14 = Tensor_get_kernelCount_m98E82502EEC69F11C14B0589D40710B818714722(L_13, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_15 = ___2_B;
+		NullCheck(L_15);
+		int32_t L_16;
+		L_16 = Tensor_get_flatWidth_m7B9AECCB1EF9799E625DD86147A2A3F92F440CC5(L_15, NULL);
+		Assert_AreEqual_m718BB4BD31FA3176A3A236F96BC5405EB750D6CF(L_14, L_16, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_17 = ___2_B;
+		NullCheck(L_17);
+		int32_t L_18;
+		L_18 = Tensor_get_flatWidth_m7B9AECCB1EF9799E625DD86147A2A3F92F440CC5(L_17, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_19 = ___2_B;
+		NullCheck(L_19);
+		int32_t L_20;
+		L_20 = Tensor_get_length_m35C7DA71ED506DB11C0626A040E8A182CA25D5CA(L_19, NULL);
+		Assert_AreEqual_m718BB4BD31FA3176A3A236F96BC5405EB750D6CF(L_18, L_20, NULL);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_21 = ___3_stride;
+		NullCheck(L_21);
+		Assert_AreEqual_m718BB4BD31FA3176A3A236F96BC5405EB750D6CF(((int32_t)(((RuntimeArray*)L_21)->max_length)), 2, NULL);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_22 = ___4_pad;
+		NullCheck(L_22);
+		Assert_AreEqual_m718BB4BD31FA3176A3A236F96BC5405EB750D6CF(((int32_t)(((RuntimeArray*)L_22)->max_length)), 4, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_23 = ___0_X;
+		NullCheck(L_23);
+		int32_t L_24;
+		L_24 = Tensor_get_dataType_m57109C88C5386735035BB4066BAACD68228C3AB1(L_23, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_25 = ___0_X;
+		NullCheck(L_25);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_26;
+		L_26 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_25, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_27 = ___1_K;
+		NullCheck(L_27);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_28;
+		L_28 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_27, NULL);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_29 = ___3_stride;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_30 = ___4_pad;
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_31;
+		L_31 = TensorExtensions_ApplyKernel_m6D52E32ED54F6097A1E104CCB8CC7FB09F240443(L_26, L_28, L_29, L_30, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_32;
+		L_32 = ReferenceCPUOps_NewTensor_m74008D9C77785A62165EBEF61281FBB9CB42DAAF(__this, L_24, L_31, NULL);
+		V_0 = L_32;
+		V_2 = 0;
+		goto IL_0206;
+	}
+
+IL_00af:
+	{
+		V_3 = 0;
+		goto IL_01f0;
+	}
+
+IL_00b6:
+	{
+		V_4 = 0;
+		goto IL_01d9;
+	}
+
+IL_00be:
+	{
+		V_5 = 0;
+		goto IL_01c0;
+	}
+
+IL_00c6:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_33 = ___2_B;
+		int32_t L_34 = V_5;
+		NullCheck(L_33);
+		float L_35;
+		L_35 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_33, L_34, NULL);
+		V_6 = L_35;
+		V_7 = 0;
+		goto IL_018f;
+	}
+
+IL_00d9:
+	{
+		V_8 = 0;
+		goto IL_0176;
+	}
+
+IL_00e1:
+	{
+		int32_t L_36 = V_3;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_37 = ___3_stride;
+		NullCheck(L_37);
+		int32_t L_38 = 1;
+		int32_t L_39 = (L_37)->GetAt(static_cast<il2cpp_array_size_t>(L_38));
+		int32_t L_40 = V_7;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_41 = ___4_pad;
+		NullCheck(L_41);
+		int32_t L_42 = 1;
+		int32_t L_43 = (L_41)->GetAt(static_cast<il2cpp_array_size_t>(L_42));
+		V_9 = ((int32_t)il2cpp_codegen_subtract(((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_multiply(L_36, L_39)), L_40)), L_43));
+		int32_t L_44 = V_4;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_45 = ___3_stride;
+		NullCheck(L_45);
+		int32_t L_46 = 0;
+		int32_t L_47 = (L_45)->GetAt(static_cast<il2cpp_array_size_t>(L_46));
+		int32_t L_48 = V_8;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_49 = ___4_pad;
+		NullCheck(L_49);
+		int32_t L_50 = 0;
+		int32_t L_51 = (L_49)->GetAt(static_cast<il2cpp_array_size_t>(L_50));
+		V_10 = ((int32_t)il2cpp_codegen_subtract(((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_multiply(L_44, L_47)), L_48)), L_51));
+		int32_t L_52 = V_9;
+		V_13 = (bool)((((int32_t)L_52) < ((int32_t)0))? 1 : 0);
+		bool L_53 = V_13;
+		if (!L_53)
+		{
+			goto IL_0110;
+		}
+	}
+	{
+		goto IL_0170;
+	}
+
+IL_0110:
+	{
+		int32_t L_54 = V_9;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_55 = ___0_X;
+		NullCheck(L_55);
+		int32_t L_56;
+		L_56 = Tensor_get_height_m0477A83109747FF1DA788569602DA2293D762AC1(L_55, NULL);
+		V_14 = (bool)((((int32_t)((((int32_t)L_54) < ((int32_t)L_56))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_57 = V_14;
+		if (!L_57)
+		{
+			goto IL_0125;
+		}
+	}
+	{
+		goto IL_0170;
+	}
+
+IL_0125:
+	{
+		int32_t L_58 = V_10;
+		V_15 = (bool)((((int32_t)L_58) < ((int32_t)0))? 1 : 0);
+		bool L_59 = V_15;
+		if (!L_59)
+		{
+			goto IL_0132;
+		}
+	}
+	{
+		goto IL_0170;
+	}
+
+IL_0132:
+	{
+		int32_t L_60 = V_10;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_61 = ___0_X;
+		NullCheck(L_61);
+		int32_t L_62;
+		L_62 = Tensor_get_width_m9E948C3769B41324EB12D54CE6E2E51DC18DC488(L_61, NULL);
+		V_16 = (bool)((((int32_t)((((int32_t)L_60) < ((int32_t)L_62))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_63 = V_16;
+		if (!L_63)
+		{
+			goto IL_0147;
+		}
+	}
+	{
+		goto IL_0170;
+	}
+
+IL_0147:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_64 = ___0_X;
+		int32_t L_65 = V_2;
+		int32_t L_66 = V_9;
+		int32_t L_67 = V_10;
+		int32_t L_68 = V_5;
+		NullCheck(L_64);
+		float L_69;
+		L_69 = Tensor_get_Item_mA53C387CBDB9F0EA0D069DD7BFC45970172290C5(L_64, L_65, L_66, L_67, L_68, NULL);
+		V_11 = L_69;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_70 = ___1_K;
+		int32_t L_71 = V_7;
+		int32_t L_72 = V_8;
+		int32_t L_73 = V_5;
+		NullCheck(L_70);
+		float L_74;
+		L_74 = Tensor_get_Item_mA53C387CBDB9F0EA0D069DD7BFC45970172290C5(L_70, L_71, L_72, 0, L_73, NULL);
+		V_12 = L_74;
+		float L_75 = V_6;
+		float L_76 = V_11;
+		float L_77 = V_12;
+		V_6 = ((float)il2cpp_codegen_add(L_75, ((float)il2cpp_codegen_multiply(L_76, L_77))));
+	}
+
+IL_0170:
+	{
+		int32_t L_78 = V_8;
+		V_8 = ((int32_t)il2cpp_codegen_add(L_78, 1));
+	}
+
+IL_0176:
+	{
+		int32_t L_79 = V_8;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_80 = ___1_K;
+		NullCheck(L_80);
+		int32_t L_81;
+		L_81 = Tensor_get_kernelWidth_m4CA0EF3AA1795E14C8C1B11F5D658188FAF6FB73(L_80, NULL);
+		V_17 = (bool)((((int32_t)L_79) < ((int32_t)L_81))? 1 : 0);
+		bool L_82 = V_17;
+		if (L_82)
+		{
+			goto IL_00e1;
+		}
+	}
+	{
+		int32_t L_83 = V_7;
+		V_7 = ((int32_t)il2cpp_codegen_add(L_83, 1));
+	}
+
+IL_018f:
+	{
+		int32_t L_84 = V_7;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_85 = ___1_K;
+		NullCheck(L_85);
+		int32_t L_86;
+		L_86 = Tensor_get_kernelHeight_m3BB900FD718F6156405ED93688816729B0BB80C6(L_85, NULL);
+		V_18 = (bool)((((int32_t)L_84) < ((int32_t)L_86))? 1 : 0);
+		bool L_87 = V_18;
+		if (L_87)
+		{
+			goto IL_00d9;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_88 = V_0;
+		int32_t L_89 = V_2;
+		int32_t L_90 = V_3;
+		int32_t L_91 = V_4;
+		int32_t L_92 = V_5;
+		float L_93 = V_6;
+		int32_t L_94 = ___5_fusedActivation;
+		float L_95;
+		L_95 = ReferenceCPUOps_ApplyFusedActivation_m3FD39FDE56BAEDC8AAE8C3FD36ED451648419621(__this, L_93, L_94, NULL);
+		NullCheck(L_88);
+		Tensor_set_Item_m7EF9E435A07905132E0C8C33A6C5A90E1E22BF58(L_88, L_89, L_90, L_91, L_92, L_95, NULL);
+		int32_t L_96 = V_5;
+		V_5 = ((int32_t)il2cpp_codegen_add(L_96, 1));
+	}
+
+IL_01c0:
+	{
+		int32_t L_97 = V_5;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_98 = ___1_K;
+		NullCheck(L_98);
+		int32_t L_99;
+		L_99 = Tensor_get_kernelCount_m98E82502EEC69F11C14B0589D40710B818714722(L_98, NULL);
+		V_19 = (bool)((((int32_t)L_97) < ((int32_t)L_99))? 1 : 0);
+		bool L_100 = V_19;
+		if (L_100)
+		{
+			goto IL_00c6;
+		}
+	}
+	{
+		int32_t L_101 = V_4;
+		V_4 = ((int32_t)il2cpp_codegen_add(L_101, 1));
+	}
+
+IL_01d9:
+	{
+		int32_t L_102 = V_4;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_103 = V_0;
+		NullCheck(L_103);
+		int32_t L_104;
+		L_104 = Tensor_get_width_m9E948C3769B41324EB12D54CE6E2E51DC18DC488(L_103, NULL);
+		V_20 = (bool)((((int32_t)L_102) < ((int32_t)L_104))? 1 : 0);
+		bool L_105 = V_20;
+		if (L_105)
+		{
+			goto IL_00be;
+		}
+	}
+	{
+		int32_t L_106 = V_3;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_106, 1));
+	}
+
+IL_01f0:
+	{
+		int32_t L_107 = V_3;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_108 = V_0;
+		NullCheck(L_108);
+		int32_t L_109;
+		L_109 = Tensor_get_height_m0477A83109747FF1DA788569602DA2293D762AC1(L_108, NULL);
+		V_21 = (bool)((((int32_t)L_107) < ((int32_t)L_109))? 1 : 0);
+		bool L_110 = V_21;
+		if (L_110)
+		{
+			goto IL_00b6;
+		}
+	}
+	{
+		int32_t L_111 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_111, 1));
+	}
+
+IL_0206:
+	{
+		int32_t L_112 = V_2;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_113 = V_0;
+		NullCheck(L_113);
+		int32_t L_114;
+		L_114 = Tensor_get_batch_m6CD93DCCD32D6A47FDEDEBFF16FF70AC9C586DD9(L_113, NULL);
+		V_22 = (bool)((((int32_t)L_112) < ((int32_t)L_114))? 1 : 0);
+		bool L_115 = V_22;
+		if (L_115)
+		{
+			goto IL_00af;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_116 = V_0;
+		V_23 = L_116;
+		goto IL_021d;
+	}
+
+IL_021d:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_117 = V_23;
+		return L_117;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_Conv2DTrans_m189698C33407582BD45D63A2AF634E02FA0DD8FF (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___1_K, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___2_B, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___3_stride, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___4_pad, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___5_outputAdjustment, int32_t ___6_fusedActivation, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_0 = NULL;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	int32_t V_4 = 0;
+	int32_t V_5 = 0;
+	int32_t V_6 = 0;
+	int32_t V_7 = 0;
+	int32_t V_8 = 0;
+	float V_9 = 0.0f;
+	int32_t V_10 = 0;
+	int32_t V_11 = 0;
+	int32_t V_12 = 0;
+	int32_t V_13 = 0;
+	bool V_14 = false;
+	bool V_15 = false;
+	bool V_16 = false;
+	bool V_17 = false;
+	bool V_18 = false;
+	bool V_19 = false;
+	int32_t V_20 = 0;
+	float V_21 = 0.0f;
+	float V_22 = 0.0f;
+	bool V_23 = false;
+	bool V_24 = false;
+	bool V_25 = false;
+	bool V_26 = false;
+	bool V_27 = false;
+	bool V_28 = false;
+	bool V_29 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_30 = NULL;
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_0 = ___0_X;
+		NullCheck(L_0);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_1;
+		L_1 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_0, NULL);
+		bool L_2;
+		L_2 = TensorExtensions_Is4D_m1BB4A7DABDDBDB4046C16B6833336A64CD5A0C86(L_1, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_IsTrue_mE42C53B7220324D1FBAFB7AE48A7D8DD7796A663(L_2, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_3 = ___0_X;
+		NullCheck(L_3);
+		int32_t L_4;
+		L_4 = Tensor_get_channels_m9DA46CF71B1C47E059EA3417C6A652E1233B5D04(L_3, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_5 = ___1_K;
+		NullCheck(L_5);
+		int32_t L_6;
+		L_6 = Tensor_get_kernelDepth_mE44E66338E9291E470D4CB152E2F8F83890567E9(L_5, NULL);
+		Assert_AreEqual_m718BB4BD31FA3176A3A236F96BC5405EB750D6CF(L_4, L_6, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_7 = ___1_K;
+		NullCheck(L_7);
+		int32_t L_8;
+		L_8 = Tensor_get_kernelCount_m98E82502EEC69F11C14B0589D40710B818714722(L_7, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_9 = ___2_B;
+		NullCheck(L_9);
+		int32_t L_10;
+		L_10 = Tensor_get_flatWidth_m7B9AECCB1EF9799E625DD86147A2A3F92F440CC5(L_9, NULL);
+		Assert_AreEqual_m718BB4BD31FA3176A3A236F96BC5405EB750D6CF(L_8, L_10, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_11 = ___2_B;
+		NullCheck(L_11);
+		int32_t L_12;
+		L_12 = Tensor_get_flatWidth_m7B9AECCB1EF9799E625DD86147A2A3F92F440CC5(L_11, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_13 = ___2_B;
+		NullCheck(L_13);
+		int32_t L_14;
+		L_14 = Tensor_get_length_m35C7DA71ED506DB11C0626A040E8A182CA25D5CA(L_13, NULL);
+		Assert_AreEqual_m718BB4BD31FA3176A3A236F96BC5405EB750D6CF(L_12, L_14, NULL);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_15 = ___3_stride;
+		NullCheck(L_15);
+		Assert_AreEqual_m718BB4BD31FA3176A3A236F96BC5405EB750D6CF(((int32_t)(((RuntimeArray*)L_15)->max_length)), 2, NULL);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_16 = ___4_pad;
+		NullCheck(L_16);
+		Assert_AreEqual_m718BB4BD31FA3176A3A236F96BC5405EB750D6CF(((int32_t)(((RuntimeArray*)L_16)->max_length)), 4, NULL);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_17 = ___4_pad;
+		NullCheck(L_17);
+		int32_t L_18 = 0;
+		int32_t L_19 = (L_17)->GetAt(static_cast<il2cpp_array_size_t>(L_18));
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_20 = ___4_pad;
+		NullCheck(L_20);
+		int32_t L_21 = 2;
+		int32_t L_22 = (L_20)->GetAt(static_cast<il2cpp_array_size_t>(L_21));
+		Assert_AreEqual_m718BB4BD31FA3176A3A236F96BC5405EB750D6CF(L_19, L_22, NULL);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_23 = ___4_pad;
+		NullCheck(L_23);
+		int32_t L_24 = 1;
+		int32_t L_25 = (L_23)->GetAt(static_cast<il2cpp_array_size_t>(L_24));
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_26 = ___4_pad;
+		NullCheck(L_26);
+		int32_t L_27 = 3;
+		int32_t L_28 = (L_26)->GetAt(static_cast<il2cpp_array_size_t>(L_27));
+		Assert_AreEqual_m718BB4BD31FA3176A3A236F96BC5405EB750D6CF(L_25, L_28, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_29 = ___0_X;
+		NullCheck(L_29);
+		int32_t L_30;
+		L_30 = Tensor_get_dataType_m57109C88C5386735035BB4066BAACD68228C3AB1(L_29, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_31 = ___0_X;
+		NullCheck(L_31);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_32;
+		L_32 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_31, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_33 = ___1_K;
+		NullCheck(L_33);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_34;
+		L_34 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_33, NULL);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_35 = ___3_stride;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_36 = ___4_pad;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_37 = ___5_outputAdjustment;
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_38;
+		L_38 = TensorExtensions_ApplyKernelInverse_m35496E3C9A2647840F5C8B2297365F643D84701C(L_32, L_34, L_35, L_36, L_37, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_39;
+		L_39 = ReferenceCPUOps_NewTensor_m74008D9C77785A62165EBEF61281FBB9CB42DAAF(__this, L_30, L_38, NULL);
+		V_0 = L_39;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_40 = ___1_K;
+		NullCheck(L_40);
+		int32_t L_41;
+		L_41 = Tensor_get_kernelWidth_m4CA0EF3AA1795E14C8C1B11F5D658188FAF6FB73(L_40, NULL);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_42 = ___4_pad;
+		NullCheck(L_42);
+		int32_t L_43 = 0;
+		int32_t L_44 = (L_42)->GetAt(static_cast<il2cpp_array_size_t>(L_43));
+		V_1 = ((int32_t)il2cpp_codegen_subtract(((int32_t)il2cpp_codegen_subtract(L_41, L_44)), 1));
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_45 = ___1_K;
+		NullCheck(L_45);
+		int32_t L_46;
+		L_46 = Tensor_get_kernelHeight_m3BB900FD718F6156405ED93688816729B0BB80C6(L_45, NULL);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_47 = ___4_pad;
+		NullCheck(L_47);
+		int32_t L_48 = 1;
+		int32_t L_49 = (L_47)->GetAt(static_cast<il2cpp_array_size_t>(L_48));
+		V_2 = ((int32_t)il2cpp_codegen_subtract(((int32_t)il2cpp_codegen_subtract(L_46, L_49)), 1));
+		V_3 = 1;
+		V_4 = 1;
+		V_5 = 0;
+		goto IL_028a;
+	}
+
+IL_00c7:
+	{
+		V_6 = 0;
+		goto IL_0271;
+	}
+
+IL_00cf:
+	{
+		V_7 = 0;
+		goto IL_0258;
+	}
+
+IL_00d7:
+	{
+		V_8 = 0;
+		goto IL_023f;
+	}
+
+IL_00df:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_50 = ___2_B;
+		int32_t L_51 = V_8;
+		NullCheck(L_50);
+		float L_52;
+		L_52 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_50, L_51, NULL);
+		V_9 = L_52;
+		V_10 = 0;
+		goto IL_020c;
+	}
+
+IL_00f2:
+	{
+		V_11 = 0;
+		goto IL_01f3;
+	}
+
+IL_00fa:
+	{
+		int32_t L_53 = V_7;
+		int32_t L_54 = V_11;
+		int32_t L_55 = V_1;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_56 = ___3_stride;
+		NullCheck(L_56);
+		int32_t L_57 = 0;
+		int32_t L_58 = (L_56)->GetAt(static_cast<il2cpp_array_size_t>(L_57));
+		V_12 = ((int32_t)(((int32_t)il2cpp_codegen_subtract(((int32_t)il2cpp_codegen_add(L_53, L_54)), L_55))/L_58));
+		int32_t L_59 = V_6;
+		int32_t L_60 = V_10;
+		int32_t L_61 = V_2;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_62 = ___3_stride;
+		NullCheck(L_62);
+		int32_t L_63 = 1;
+		int32_t L_64 = (L_62)->GetAt(static_cast<il2cpp_array_size_t>(L_63));
+		V_13 = ((int32_t)(((int32_t)il2cpp_codegen_subtract(((int32_t)il2cpp_codegen_add(L_59, L_60)), L_61))/L_64));
+		int32_t L_65 = V_7;
+		int32_t L_66 = V_11;
+		int32_t L_67 = V_1;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_68 = ___3_stride;
+		NullCheck(L_68);
+		int32_t L_69 = 0;
+		int32_t L_70 = (L_68)->GetAt(static_cast<il2cpp_array_size_t>(L_69));
+		V_14 = (bool)((!(((uint32_t)((int32_t)(((int32_t)il2cpp_codegen_subtract(((int32_t)il2cpp_codegen_add(L_65, L_66)), L_67))%L_70))) <= ((uint32_t)0)))? 1 : 0);
+		bool L_71 = V_14;
+		if (!L_71)
+		{
+			goto IL_0131;
+		}
+	}
+	{
+		goto IL_01ec;
+	}
+
+IL_0131:
+	{
+		int32_t L_72 = V_6;
+		int32_t L_73 = V_10;
+		int32_t L_74 = V_2;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_75 = ___3_stride;
+		NullCheck(L_75);
+		int32_t L_76 = 0;
+		int32_t L_77 = (L_75)->GetAt(static_cast<il2cpp_array_size_t>(L_76));
+		V_15 = (bool)((!(((uint32_t)((int32_t)(((int32_t)il2cpp_codegen_subtract(((int32_t)il2cpp_codegen_add(L_72, L_73)), L_74))%L_77))) <= ((uint32_t)0)))? 1 : 0);
+		bool L_78 = V_15;
+		if (!L_78)
+		{
+			goto IL_014b;
+		}
+	}
+	{
+		goto IL_01ec;
+	}
+
+IL_014b:
+	{
+		int32_t L_79 = V_12;
+		V_16 = (bool)((((int32_t)L_79) < ((int32_t)0))? 1 : 0);
+		bool L_80 = V_16;
+		if (!L_80)
+		{
+			goto IL_015b;
+		}
+	}
+	{
+		goto IL_01ec;
+	}
+
+IL_015b:
+	{
+		int32_t L_81 = V_12;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_82 = ___0_X;
+		NullCheck(L_82);
+		int32_t L_83;
+		L_83 = Tensor_get_width_m9E948C3769B41324EB12D54CE6E2E51DC18DC488(L_82, NULL);
+		V_17 = (bool)((((int32_t)((((int32_t)L_81) < ((int32_t)L_83))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_84 = V_17;
+		if (!L_84)
+		{
+			goto IL_0170;
+		}
+	}
+	{
+		goto IL_01ec;
+	}
+
+IL_0170:
+	{
+		int32_t L_85 = V_13;
+		V_18 = (bool)((((int32_t)L_85) < ((int32_t)0))? 1 : 0);
+		bool L_86 = V_18;
+		if (!L_86)
+		{
+			goto IL_017d;
+		}
+	}
+	{
+		goto IL_01ec;
+	}
+
+IL_017d:
+	{
+		int32_t L_87 = V_13;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_88 = ___0_X;
+		NullCheck(L_88);
+		int32_t L_89;
+		L_89 = Tensor_get_height_m0477A83109747FF1DA788569602DA2293D762AC1(L_88, NULL);
+		V_19 = (bool)((((int32_t)((((int32_t)L_87) < ((int32_t)L_89))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_90 = V_19;
+		if (!L_90)
+		{
+			goto IL_0192;
+		}
+	}
+	{
+		goto IL_01ec;
+	}
+
+IL_0192:
+	{
+		V_20 = 0;
+		goto IL_01db;
+	}
+
+IL_0197:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_91 = ___0_X;
+		int32_t L_92 = V_5;
+		int32_t L_93 = V_13;
+		int32_t L_94 = V_12;
+		int32_t L_95 = V_20;
+		NullCheck(L_91);
+		float L_96;
+		L_96 = Tensor_get_Item_mA53C387CBDB9F0EA0D069DD7BFC45970172290C5(L_91, L_92, L_93, L_94, L_95, NULL);
+		V_21 = L_96;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_97 = ___1_K;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_98 = ___1_K;
+		NullCheck(L_98);
+		int32_t L_99;
+		L_99 = Tensor_get_kernelHeight_m3BB900FD718F6156405ED93688816729B0BB80C6(L_98, NULL);
+		int32_t L_100 = V_10;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_101 = ___1_K;
+		NullCheck(L_101);
+		int32_t L_102;
+		L_102 = Tensor_get_kernelWidth_m4CA0EF3AA1795E14C8C1B11F5D658188FAF6FB73(L_101, NULL);
+		int32_t L_103 = V_11;
+		int32_t L_104 = V_20;
+		int32_t L_105 = V_8;
+		NullCheck(L_97);
+		float L_106;
+		L_106 = Tensor_get_Item_mA53C387CBDB9F0EA0D069DD7BFC45970172290C5(L_97, ((int32_t)il2cpp_codegen_subtract(((int32_t)il2cpp_codegen_subtract(L_99, 1)), L_100)), ((int32_t)il2cpp_codegen_subtract(((int32_t)il2cpp_codegen_subtract(L_102, 1)), L_103)), L_104, L_105, NULL);
+		V_22 = L_106;
+		float L_107 = V_9;
+		float L_108 = V_21;
+		float L_109 = V_22;
+		V_9 = ((float)il2cpp_codegen_add(L_107, ((float)il2cpp_codegen_multiply(L_108, L_109))));
+		int32_t L_110 = V_20;
+		V_20 = ((int32_t)il2cpp_codegen_add(L_110, 1));
+	}
+
+IL_01db:
+	{
+		int32_t L_111 = V_20;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_112 = ___0_X;
+		NullCheck(L_112);
+		int32_t L_113;
+		L_113 = Tensor_get_channels_m9DA46CF71B1C47E059EA3417C6A652E1233B5D04(L_112, NULL);
+		V_23 = (bool)((((int32_t)L_111) < ((int32_t)L_113))? 1 : 0);
+		bool L_114 = V_23;
+		if (L_114)
+		{
+			goto IL_0197;
+		}
+	}
+	{
+	}
+
+IL_01ec:
+	{
+		int32_t L_115 = V_11;
+		int32_t L_116 = V_4;
+		V_11 = ((int32_t)il2cpp_codegen_add(L_115, L_116));
+	}
+
+IL_01f3:
+	{
+		int32_t L_117 = V_11;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_118 = ___1_K;
+		NullCheck(L_118);
+		int32_t L_119;
+		L_119 = Tensor_get_kernelWidth_m4CA0EF3AA1795E14C8C1B11F5D658188FAF6FB73(L_118, NULL);
+		V_24 = (bool)((((int32_t)L_117) < ((int32_t)L_119))? 1 : 0);
+		bool L_120 = V_24;
+		if (L_120)
+		{
+			goto IL_00fa;
+		}
+	}
+	{
+		int32_t L_121 = V_10;
+		int32_t L_122 = V_3;
+		V_10 = ((int32_t)il2cpp_codegen_add(L_121, L_122));
+	}
+
+IL_020c:
+	{
+		int32_t L_123 = V_10;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_124 = ___1_K;
+		NullCheck(L_124);
+		int32_t L_125;
+		L_125 = Tensor_get_kernelHeight_m3BB900FD718F6156405ED93688816729B0BB80C6(L_124, NULL);
+		V_25 = (bool)((((int32_t)L_123) < ((int32_t)L_125))? 1 : 0);
+		bool L_126 = V_25;
+		if (L_126)
+		{
+			goto IL_00f2;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_127 = V_0;
+		int32_t L_128 = V_5;
+		int32_t L_129 = V_6;
+		int32_t L_130 = V_7;
+		int32_t L_131 = V_8;
+		float L_132 = V_9;
+		int32_t L_133 = ___6_fusedActivation;
+		float L_134;
+		L_134 = ReferenceCPUOps_ApplyFusedActivation_m3FD39FDE56BAEDC8AAE8C3FD36ED451648419621(__this, L_132, L_133, NULL);
+		NullCheck(L_127);
+		Tensor_set_Item_m7EF9E435A07905132E0C8C33A6C5A90E1E22BF58(L_127, L_128, L_129, L_130, L_131, L_134, NULL);
+		int32_t L_135 = V_8;
+		V_8 = ((int32_t)il2cpp_codegen_add(L_135, 1));
+	}
+
+IL_023f:
+	{
+		int32_t L_136 = V_8;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_137 = ___1_K;
+		NullCheck(L_137);
+		int32_t L_138;
+		L_138 = Tensor_get_kernelCount_m98E82502EEC69F11C14B0589D40710B818714722(L_137, NULL);
+		V_26 = (bool)((((int32_t)L_136) < ((int32_t)L_138))? 1 : 0);
+		bool L_139 = V_26;
+		if (L_139)
+		{
+			goto IL_00df;
+		}
+	}
+	{
+		int32_t L_140 = V_7;
+		V_7 = ((int32_t)il2cpp_codegen_add(L_140, 1));
+	}
+
+IL_0258:
+	{
+		int32_t L_141 = V_7;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_142 = V_0;
+		NullCheck(L_142);
+		int32_t L_143;
+		L_143 = Tensor_get_width_m9E948C3769B41324EB12D54CE6E2E51DC18DC488(L_142, NULL);
+		V_27 = (bool)((((int32_t)L_141) < ((int32_t)L_143))? 1 : 0);
+		bool L_144 = V_27;
+		if (L_144)
+		{
+			goto IL_00d7;
+		}
+	}
+	{
+		int32_t L_145 = V_6;
+		V_6 = ((int32_t)il2cpp_codegen_add(L_145, 1));
+	}
+
+IL_0271:
+	{
+		int32_t L_146 = V_6;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_147 = V_0;
+		NullCheck(L_147);
+		int32_t L_148;
+		L_148 = Tensor_get_height_m0477A83109747FF1DA788569602DA2293D762AC1(L_147, NULL);
+		V_28 = (bool)((((int32_t)L_146) < ((int32_t)L_148))? 1 : 0);
+		bool L_149 = V_28;
+		if (L_149)
+		{
+			goto IL_00cf;
+		}
+	}
+	{
+		int32_t L_150 = V_5;
+		V_5 = ((int32_t)il2cpp_codegen_add(L_150, 1));
+	}
+
+IL_028a:
+	{
+		int32_t L_151 = V_5;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_152 = V_0;
+		NullCheck(L_152);
+		int32_t L_153;
+		L_153 = Tensor_get_batch_m6CD93DCCD32D6A47FDEDEBFF16FF70AC9C586DD9(L_152, NULL);
+		V_29 = (bool)((((int32_t)L_151) < ((int32_t)L_153))? 1 : 0);
+		bool L_154 = V_29;
+		if (L_154)
+		{
+			goto IL_00c7;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_155 = V_0;
+		V_30 = L_155;
+		goto IL_02a2;
+	}
+
+IL_02a2:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_156 = V_30;
+		return L_156;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ReferenceCPUOps_BilinearInterpolation_m97D4EC60D8E977855B34E62AF8CDD1752D9DC193 (float ___0_fracSrcPosX, float ___1_fracSrcPosY, float ___2_p00, float ___3_p01, float ___4_p10, float ___5_p11, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	float V_1 = 0.0f;
+	{
+		float L_0 = ___2_p00;
+		float L_1 = ___0_fracSrcPosX;
+		float L_2 = ___1_fracSrcPosY;
+		float L_3 = ___3_p01;
+		float L_4 = ___0_fracSrcPosX;
+		float L_5 = ___1_fracSrcPosY;
+		float L_6 = ___4_p10;
+		float L_7 = ___0_fracSrcPosX;
+		float L_8 = ___1_fracSrcPosY;
+		float L_9 = ___5_p11;
+		float L_10 = ___0_fracSrcPosX;
+		float L_11 = ___1_fracSrcPosY;
+		V_0 = ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_0, ((float)il2cpp_codegen_subtract((1.0f), L_1)))), ((float)il2cpp_codegen_subtract((1.0f), L_2)))), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_3, ((float)il2cpp_codegen_subtract((1.0f), L_4)))), L_5)))), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_6, L_7)), ((float)il2cpp_codegen_subtract((1.0f), L_8)))))), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_9, L_10)), L_11))));
+		float L_12 = V_0;
+		V_1 = L_12;
+		goto IL_0037;
+	}
+
+IL_0037:
+	{
+		float L_13 = V_1;
+		return L_13;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_Upsample3D_m0C88A49BAD26E31B2F30E502D41EAF0B4D7972BA (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___1_scale, bool ___2_trilinear, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	float V_1 = 0.0f;
+	float V_2 = 0.0f;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_3 = NULL;
+	int32_t V_4 = 0;
+	int32_t V_5 = 0;
+	int32_t V_6 = 0;
+	int32_t V_7 = 0;
+	int32_t V_8 = 0;
+	bool V_9 = false;
+	float V_10 = 0.0f;
+	float V_11 = 0.0f;
+	float V_12 = 0.0f;
+	float V_13 = 0.0f;
+	float V_14 = 0.0f;
+	float V_15 = 0.0f;
+	float V_16 = 0.0f;
+	float V_17 = 0.0f;
+	float V_18 = 0.0f;
+	float V_19 = 0.0f;
+	float V_20 = 0.0f;
+	float V_21 = 0.0f;
+	float V_22 = 0.0f;
+	float V_23 = 0.0f;
+	float V_24 = 0.0f;
+	float V_25 = 0.0f;
+	float V_26 = 0.0f;
+	float V_27 = 0.0f;
+	float V_28 = 0.0f;
+	float V_29 = 0.0f;
+	int32_t V_30 = 0;
+	int32_t V_31 = 0;
+	int32_t V_32 = 0;
+	bool V_33 = false;
+	bool V_34 = false;
+	bool V_35 = false;
+	bool V_36 = false;
+	bool V_37 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_38 = NULL;
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_0 = ___0_X;
+		NullCheck(L_0);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_1;
+		L_1 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_0, NULL);
+		bool L_2;
+		L_2 = TensorExtensions_IsNDHWC_mAE6BCD15589A659050B19303629AD7252E90A49C(L_1, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_IsTrue_mE42C53B7220324D1FBAFB7AE48A7D8DD7796A663(L_2, NULL);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_3 = ___1_scale;
+		NullCheck(L_3);
+		Assert_AreEqual_m718BB4BD31FA3176A3A236F96BC5405EB750D6CF(((int32_t)(((RuntimeArray*)L_3)->max_length)), 3, NULL);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_4 = ___1_scale;
+		NullCheck(L_4);
+		int32_t L_5 = 0;
+		int32_t L_6 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_5));
+		V_0 = ((float)L_6);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_7 = ___1_scale;
+		NullCheck(L_7);
+		int32_t L_8 = 1;
+		int32_t L_9 = (L_7)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		V_1 = ((float)L_9);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_10 = ___1_scale;
+		NullCheck(L_10);
+		int32_t L_11 = 2;
+		int32_t L_12 = (L_10)->GetAt(static_cast<il2cpp_array_size_t>(L_11));
+		V_2 = ((float)L_12);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_13 = ___0_X;
+		NullCheck(L_13);
+		int32_t L_14;
+		L_14 = Tensor_get_dataType_m57109C88C5386735035BB4066BAACD68228C3AB1(L_13, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_15 = ___0_X;
+		NullCheck(L_15);
+		int32_t L_16;
+		L_16 = Tensor_get_batch_m6CD93DCCD32D6A47FDEDEBFF16FF70AC9C586DD9(L_15, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_17 = ___0_X;
+		NullCheck(L_17);
+		int32_t L_18;
+		L_18 = Tensor_get_depth_mCBD84F5F780C2550B3D41F0EE99DC72FD5D93B91(L_17, NULL);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_19 = ___1_scale;
+		NullCheck(L_19);
+		int32_t L_20 = 2;
+		int32_t L_21 = (L_19)->GetAt(static_cast<il2cpp_array_size_t>(L_20));
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_22 = ___0_X;
+		NullCheck(L_22);
+		int32_t L_23;
+		L_23 = Tensor_get_height_m0477A83109747FF1DA788569602DA2293D762AC1(L_22, NULL);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_24 = ___1_scale;
+		NullCheck(L_24);
+		int32_t L_25 = 1;
+		int32_t L_26 = (L_24)->GetAt(static_cast<il2cpp_array_size_t>(L_25));
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_27 = ___0_X;
+		NullCheck(L_27);
+		int32_t L_28;
+		L_28 = Tensor_get_width_m9E948C3769B41324EB12D54CE6E2E51DC18DC488(L_27, NULL);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_29 = ___1_scale;
+		NullCheck(L_29);
+		int32_t L_30 = 0;
+		int32_t L_31 = (L_29)->GetAt(static_cast<il2cpp_array_size_t>(L_30));
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_32 = ___0_X;
+		NullCheck(L_32);
+		int32_t L_33;
+		L_33 = Tensor_get_channels_m9DA46CF71B1C47E059EA3417C6A652E1233B5D04(L_32, NULL);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_34;
+		memset((&L_34), 0, sizeof(L_34));
+		TensorShape__ctor_m3D0A670E59D0D5F0D13739F5C777DED331A7DAB6((&L_34), 1, 1, L_16, 1, ((int32_t)il2cpp_codegen_multiply(L_18, L_21)), ((int32_t)il2cpp_codegen_multiply(L_23, L_26)), ((int32_t)il2cpp_codegen_multiply(L_28, L_31)), L_33, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_35;
+		L_35 = ReferenceCPUOps_NewTensor_m74008D9C77785A62165EBEF61281FBB9CB42DAAF(__this, L_14, L_34, NULL);
+		V_3 = L_35;
+		V_4 = 0;
+		goto IL_02ec;
+	}
+
+IL_0072:
+	{
+		V_5 = 0;
+		goto IL_02d3;
+	}
+
+IL_007a:
+	{
+		V_6 = 0;
+		goto IL_02ba;
+	}
+
+IL_0082:
+	{
+		V_7 = 0;
+		goto IL_02a1;
+	}
+
+IL_008a:
+	{
+		V_8 = 0;
+		goto IL_0288;
+	}
+
+IL_0092:
+	{
+		bool L_36 = ___2_trilinear;
+		V_9 = L_36;
+		bool L_37 = V_9;
+		if (!L_37)
+		{
+			goto IL_0246;
+		}
+	}
+	{
+		int32_t L_38 = V_5;
+		float L_39 = V_2;
+		V_10 = ((float)il2cpp_codegen_subtract(((float)(((float)il2cpp_codegen_add(((float)L_38), (0.5f)))/L_39)), (0.5f)));
+		int32_t L_40 = V_7;
+		float L_41 = V_0;
+		V_11 = ((float)il2cpp_codegen_subtract(((float)(((float)il2cpp_codegen_add(((float)L_40), (0.5f)))/L_41)), (0.5f)));
+		int32_t L_42 = V_6;
+		float L_43 = V_1;
+		V_12 = ((float)il2cpp_codegen_subtract(((float)(((float)il2cpp_codegen_add(((float)L_42), (0.5f)))/L_43)), (0.5f)));
+		float L_44 = V_10;
+		float L_45;
+		L_45 = floorf(L_44);
+		V_13 = L_45;
+		float L_46 = V_11;
+		float L_47;
+		L_47 = floorf(L_46);
+		V_14 = L_47;
+		float L_48 = V_12;
+		float L_49;
+		L_49 = floorf(L_48);
+		V_15 = L_49;
+		float L_50 = V_10;
+		float L_51 = V_13;
+		V_16 = ((float)il2cpp_codegen_subtract(L_50, L_51));
+		float L_52 = V_11;
+		float L_53 = V_14;
+		V_17 = ((float)il2cpp_codegen_subtract(L_52, L_53));
+		float L_54 = V_12;
+		float L_55 = V_15;
+		V_18 = ((float)il2cpp_codegen_subtract(L_54, L_55));
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_56 = ___0_X;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_57 = ___0_X;
+		int32_t L_58 = V_4;
+		float L_59 = V_13;
+		float L_60 = V_15;
+		float L_61 = V_14;
+		int32_t L_62 = V_8;
+		NullCheck(L_57);
+		int32_t L_63;
+		L_63 = Tensor_IndexWithClamp_mEADD5A9E50B57ADD046A28383F03C846622CED93(L_57, L_58, il2cpp_codegen_cast_double_to_int<int32_t>(L_59), il2cpp_codegen_cast_double_to_int<int32_t>(L_60), il2cpp_codegen_cast_double_to_int<int32_t>(L_61), L_62, NULL);
+		NullCheck(L_56);
+		float L_64;
+		L_64 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_56, L_63, NULL);
+		V_19 = L_64;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_65 = ___0_X;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_66 = ___0_X;
+		int32_t L_67 = V_4;
+		float L_68 = V_13;
+		float L_69 = V_15;
+		float L_70 = V_14;
+		int32_t L_71 = V_8;
+		NullCheck(L_66);
+		int32_t L_72;
+		L_72 = Tensor_IndexWithClamp_mEADD5A9E50B57ADD046A28383F03C846622CED93(L_66, L_67, ((int32_t)il2cpp_codegen_add(il2cpp_codegen_cast_double_to_int<int32_t>(L_68), 1)), il2cpp_codegen_cast_double_to_int<int32_t>(L_69), il2cpp_codegen_cast_double_to_int<int32_t>(L_70), L_71, NULL);
+		NullCheck(L_65);
+		float L_73;
+		L_73 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_65, L_72, NULL);
+		V_20 = L_73;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_74 = ___0_X;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_75 = ___0_X;
+		int32_t L_76 = V_4;
+		float L_77 = V_13;
+		float L_78 = V_15;
+		float L_79 = V_14;
+		int32_t L_80 = V_8;
+		NullCheck(L_75);
+		int32_t L_81;
+		L_81 = Tensor_IndexWithClamp_mEADD5A9E50B57ADD046A28383F03C846622CED93(L_75, L_76, il2cpp_codegen_cast_double_to_int<int32_t>(L_77), ((int32_t)il2cpp_codegen_add(il2cpp_codegen_cast_double_to_int<int32_t>(L_78), 1)), il2cpp_codegen_cast_double_to_int<int32_t>(L_79), L_80, NULL);
+		NullCheck(L_74);
+		float L_82;
+		L_82 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_74, L_81, NULL);
+		V_21 = L_82;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_83 = ___0_X;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_84 = ___0_X;
+		int32_t L_85 = V_4;
+		float L_86 = V_13;
+		float L_87 = V_15;
+		float L_88 = V_14;
+		int32_t L_89 = V_8;
+		NullCheck(L_84);
+		int32_t L_90;
+		L_90 = Tensor_IndexWithClamp_mEADD5A9E50B57ADD046A28383F03C846622CED93(L_84, L_85, ((int32_t)il2cpp_codegen_add(il2cpp_codegen_cast_double_to_int<int32_t>(L_86), 1)), ((int32_t)il2cpp_codegen_add(il2cpp_codegen_cast_double_to_int<int32_t>(L_87), 1)), il2cpp_codegen_cast_double_to_int<int32_t>(L_88), L_89, NULL);
+		NullCheck(L_83);
+		float L_91;
+		L_91 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_83, L_90, NULL);
+		V_22 = L_91;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_92 = ___0_X;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_93 = ___0_X;
+		int32_t L_94 = V_4;
+		float L_95 = V_13;
+		float L_96 = V_15;
+		float L_97 = V_14;
+		int32_t L_98 = V_8;
+		NullCheck(L_93);
+		int32_t L_99;
+		L_99 = Tensor_IndexWithClamp_mEADD5A9E50B57ADD046A28383F03C846622CED93(L_93, L_94, il2cpp_codegen_cast_double_to_int<int32_t>(L_95), il2cpp_codegen_cast_double_to_int<int32_t>(L_96), ((int32_t)il2cpp_codegen_add(il2cpp_codegen_cast_double_to_int<int32_t>(L_97), 1)), L_98, NULL);
+		NullCheck(L_92);
+		float L_100;
+		L_100 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_92, L_99, NULL);
+		V_23 = L_100;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_101 = ___0_X;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_102 = ___0_X;
+		int32_t L_103 = V_4;
+		float L_104 = V_13;
+		float L_105 = V_15;
+		float L_106 = V_14;
+		int32_t L_107 = V_8;
+		NullCheck(L_102);
+		int32_t L_108;
+		L_108 = Tensor_IndexWithClamp_mEADD5A9E50B57ADD046A28383F03C846622CED93(L_102, L_103, ((int32_t)il2cpp_codegen_add(il2cpp_codegen_cast_double_to_int<int32_t>(L_104), 1)), il2cpp_codegen_cast_double_to_int<int32_t>(L_105), ((int32_t)il2cpp_codegen_add(il2cpp_codegen_cast_double_to_int<int32_t>(L_106), 1)), L_107, NULL);
+		NullCheck(L_101);
+		float L_109;
+		L_109 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_101, L_108, NULL);
+		V_24 = L_109;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_110 = ___0_X;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_111 = ___0_X;
+		int32_t L_112 = V_4;
+		float L_113 = V_13;
+		float L_114 = V_15;
+		float L_115 = V_14;
+		int32_t L_116 = V_8;
+		NullCheck(L_111);
+		int32_t L_117;
+		L_117 = Tensor_IndexWithClamp_mEADD5A9E50B57ADD046A28383F03C846622CED93(L_111, L_112, il2cpp_codegen_cast_double_to_int<int32_t>(L_113), ((int32_t)il2cpp_codegen_add(il2cpp_codegen_cast_double_to_int<int32_t>(L_114), 1)), ((int32_t)il2cpp_codegen_add(il2cpp_codegen_cast_double_to_int<int32_t>(L_115), 1)), L_116, NULL);
+		NullCheck(L_110);
+		float L_118;
+		L_118 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_110, L_117, NULL);
+		V_25 = L_118;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_119 = ___0_X;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_120 = ___0_X;
+		int32_t L_121 = V_4;
+		float L_122 = V_13;
+		float L_123 = V_15;
+		float L_124 = V_14;
+		int32_t L_125 = V_8;
+		NullCheck(L_120);
+		int32_t L_126;
+		L_126 = Tensor_IndexWithClamp_mEADD5A9E50B57ADD046A28383F03C846622CED93(L_120, L_121, ((int32_t)il2cpp_codegen_add(il2cpp_codegen_cast_double_to_int<int32_t>(L_122), 1)), ((int32_t)il2cpp_codegen_add(il2cpp_codegen_cast_double_to_int<int32_t>(L_123), 1)), ((int32_t)il2cpp_codegen_add(il2cpp_codegen_cast_double_to_int<int32_t>(L_124), 1)), L_125, NULL);
+		NullCheck(L_119);
+		float L_127;
+		L_127 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_119, L_126, NULL);
+		V_26 = L_127;
+		float L_128 = V_17;
+		float L_129 = V_18;
+		float L_130 = V_19;
+		float L_131 = V_20;
+		float L_132 = V_21;
+		float L_133 = V_22;
+		float L_134;
+		L_134 = ReferenceCPUOps_BilinearInterpolation_m97D4EC60D8E977855B34E62AF8CDD1752D9DC193(L_128, L_129, L_130, L_131, L_132, L_133, NULL);
+		V_27 = L_134;
+		float L_135 = V_17;
+		float L_136 = V_18;
+		float L_137 = V_23;
+		float L_138 = V_24;
+		float L_139 = V_25;
+		float L_140 = V_26;
+		float L_141;
+		L_141 = ReferenceCPUOps_BilinearInterpolation_m97D4EC60D8E977855B34E62AF8CDD1752D9DC193(L_135, L_136, L_137, L_138, L_139, L_140, NULL);
+		V_28 = L_141;
+		float L_142 = V_27;
+		float L_143 = V_16;
+		float L_144 = V_28;
+		float L_145 = V_16;
+		V_29 = ((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_142, ((float)il2cpp_codegen_subtract((1.0f), L_143)))), ((float)il2cpp_codegen_multiply(L_144, L_145))));
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_146 = V_3;
+		int32_t L_147 = V_4;
+		int32_t L_148 = V_5;
+		int32_t L_149 = V_6;
+		int32_t L_150 = V_7;
+		int32_t L_151 = V_8;
+		float L_152 = V_29;
+		NullCheck(L_146);
+		Tensor_set_Item_m2DB3060AC1B6388733DCEBDBDA2FA5A27F40FB42(L_146, L_147, L_148, L_149, L_150, L_151, L_152, NULL);
+		goto IL_0281;
+	}
+
+IL_0246:
+	{
+		int32_t L_153 = V_5;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_154 = ___1_scale;
+		NullCheck(L_154);
+		int32_t L_155 = 2;
+		int32_t L_156 = (L_154)->GetAt(static_cast<il2cpp_array_size_t>(L_155));
+		V_30 = ((int32_t)(L_153/L_156));
+		int32_t L_157 = V_6;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_158 = ___1_scale;
+		NullCheck(L_158);
+		int32_t L_159 = 1;
+		int32_t L_160 = (L_158)->GetAt(static_cast<il2cpp_array_size_t>(L_159));
+		V_31 = ((int32_t)(L_157/L_160));
+		int32_t L_161 = V_7;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_162 = ___1_scale;
+		NullCheck(L_162);
+		int32_t L_163 = 0;
+		int32_t L_164 = (L_162)->GetAt(static_cast<il2cpp_array_size_t>(L_163));
+		V_32 = ((int32_t)(L_161/L_164));
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_165 = V_3;
+		int32_t L_166 = V_4;
+		int32_t L_167 = V_5;
+		int32_t L_168 = V_6;
+		int32_t L_169 = V_7;
+		int32_t L_170 = V_8;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_171 = ___0_X;
+		int32_t L_172 = V_4;
+		int32_t L_173 = V_30;
+		int32_t L_174 = V_31;
+		int32_t L_175 = V_32;
+		int32_t L_176 = V_8;
+		NullCheck(L_171);
+		float L_177;
+		L_177 = Tensor_get_Item_mA5356D6E69A9A737CAAC9469CD796413667F784C(L_171, L_172, L_173, L_174, L_175, L_176, NULL);
+		NullCheck(L_165);
+		Tensor_set_Item_m2DB3060AC1B6388733DCEBDBDA2FA5A27F40FB42(L_165, L_166, L_167, L_168, L_169, L_170, L_177, NULL);
+	}
+
+IL_0281:
+	{
+		int32_t L_178 = V_8;
+		V_8 = ((int32_t)il2cpp_codegen_add(L_178, 1));
+	}
+
+IL_0288:
+	{
+		int32_t L_179 = V_8;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_180 = V_3;
+		NullCheck(L_180);
+		int32_t L_181;
+		L_181 = Tensor_get_channels_m9DA46CF71B1C47E059EA3417C6A652E1233B5D04(L_180, NULL);
+		V_33 = (bool)((((int32_t)L_179) < ((int32_t)L_181))? 1 : 0);
+		bool L_182 = V_33;
+		if (L_182)
+		{
+			goto IL_0092;
+		}
+	}
+	{
+		int32_t L_183 = V_7;
+		V_7 = ((int32_t)il2cpp_codegen_add(L_183, 1));
+	}
+
+IL_02a1:
+	{
+		int32_t L_184 = V_7;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_185 = V_3;
+		NullCheck(L_185);
+		int32_t L_186;
+		L_186 = Tensor_get_width_m9E948C3769B41324EB12D54CE6E2E51DC18DC488(L_185, NULL);
+		V_34 = (bool)((((int32_t)L_184) < ((int32_t)L_186))? 1 : 0);
+		bool L_187 = V_34;
+		if (L_187)
+		{
+			goto IL_008a;
+		}
+	}
+	{
+		int32_t L_188 = V_6;
+		V_6 = ((int32_t)il2cpp_codegen_add(L_188, 1));
+	}
+
+IL_02ba:
+	{
+		int32_t L_189 = V_6;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_190 = V_3;
+		NullCheck(L_190);
+		int32_t L_191;
+		L_191 = Tensor_get_height_m0477A83109747FF1DA788569602DA2293D762AC1(L_190, NULL);
+		V_35 = (bool)((((int32_t)L_189) < ((int32_t)L_191))? 1 : 0);
+		bool L_192 = V_35;
+		if (L_192)
+		{
+			goto IL_0082;
+		}
+	}
+	{
+		int32_t L_193 = V_5;
+		V_5 = ((int32_t)il2cpp_codegen_add(L_193, 1));
+	}
+
+IL_02d3:
+	{
+		int32_t L_194 = V_5;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_195 = V_3;
+		NullCheck(L_195);
+		int32_t L_196;
+		L_196 = Tensor_get_depth_mCBD84F5F780C2550B3D41F0EE99DC72FD5D93B91(L_195, NULL);
+		V_36 = (bool)((((int32_t)L_194) < ((int32_t)L_196))? 1 : 0);
+		bool L_197 = V_36;
+		if (L_197)
+		{
+			goto IL_007a;
+		}
+	}
+	{
+		int32_t L_198 = V_4;
+		V_4 = ((int32_t)il2cpp_codegen_add(L_198, 1));
+	}
+
+IL_02ec:
+	{
+		int32_t L_199 = V_4;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_200 = V_3;
+		NullCheck(L_200);
+		int32_t L_201;
+		L_201 = Tensor_get_batch_m6CD93DCCD32D6A47FDEDEBFF16FF70AC9C586DD9(L_200, NULL);
+		V_37 = (bool)((((int32_t)L_199) < ((int32_t)L_201))? 1 : 0);
+		bool L_202 = V_37;
+		if (L_202)
+		{
+			goto IL_0072;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_203 = V_3;
+		V_38 = L_203;
+		goto IL_0304;
+	}
+
+IL_0304:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_204 = V_38;
+		return L_204;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_Upsample2D_mEF861CC7080635D67E86D3CFAE8403E02ED51A50 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___1_scale, bool ___2_bilinear, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	float V_1 = 0.0f;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_2 = NULL;
+	int32_t V_3 = 0;
+	int32_t V_4 = 0;
+	int32_t V_5 = 0;
+	int32_t V_6 = 0;
+	bool V_7 = false;
+	float V_8 = 0.0f;
+	float V_9 = 0.0f;
+	float V_10 = 0.0f;
+	float V_11 = 0.0f;
+	float V_12 = 0.0f;
+	float V_13 = 0.0f;
+	float V_14 = 0.0f;
+	float V_15 = 0.0f;
+	float V_16 = 0.0f;
+	float V_17 = 0.0f;
+	int32_t V_18 = 0;
+	int32_t V_19 = 0;
+	bool V_20 = false;
+	bool V_21 = false;
+	bool V_22 = false;
+	bool V_23 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_24 = NULL;
+	{
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_0 = ___1_scale;
+		NullCheck(L_0);
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_AreEqual_m718BB4BD31FA3176A3A236F96BC5405EB750D6CF(((int32_t)(((RuntimeArray*)L_0)->max_length)), 2, NULL);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_1 = ___1_scale;
+		NullCheck(L_1);
+		int32_t L_2 = 0;
+		int32_t L_3 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		V_0 = ((float)L_3);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_4 = ___1_scale;
+		NullCheck(L_4);
+		int32_t L_5 = 1;
+		int32_t L_6 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_5));
+		V_1 = ((float)L_6);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_7 = ___0_X;
+		NullCheck(L_7);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_8;
+		L_8 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_7, NULL);
+		bool L_9;
+		L_9 = TensorExtensions_Is4D_m1BB4A7DABDDBDB4046C16B6833336A64CD5A0C86(L_8, NULL);
+		Assert_IsTrue_mE42C53B7220324D1FBAFB7AE48A7D8DD7796A663(L_9, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_10 = ___0_X;
+		NullCheck(L_10);
+		int32_t L_11;
+		L_11 = Tensor_get_dataType_m57109C88C5386735035BB4066BAACD68228C3AB1(L_10, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_12 = ___0_X;
+		NullCheck(L_12);
+		int32_t L_13;
+		L_13 = Tensor_get_batch_m6CD93DCCD32D6A47FDEDEBFF16FF70AC9C586DD9(L_12, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_14 = ___0_X;
+		NullCheck(L_14);
+		int32_t L_15;
+		L_15 = Tensor_get_height_m0477A83109747FF1DA788569602DA2293D762AC1(L_14, NULL);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_16 = ___1_scale;
+		NullCheck(L_16);
+		int32_t L_17 = 1;
+		int32_t L_18 = (L_16)->GetAt(static_cast<il2cpp_array_size_t>(L_17));
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_19 = ___0_X;
+		NullCheck(L_19);
+		int32_t L_20;
+		L_20 = Tensor_get_width_m9E948C3769B41324EB12D54CE6E2E51DC18DC488(L_19, NULL);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_21 = ___1_scale;
+		NullCheck(L_21);
+		int32_t L_22 = 0;
+		int32_t L_23 = (L_21)->GetAt(static_cast<il2cpp_array_size_t>(L_22));
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_24 = ___0_X;
+		NullCheck(L_24);
+		int32_t L_25;
+		L_25 = Tensor_get_channels_m9DA46CF71B1C47E059EA3417C6A652E1233B5D04(L_24, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_26;
+		L_26 = ReferenceCPUOps_NewTensor_m3EF74B4420F55BBDE8F8C0FF99F0065052535404(__this, L_11, L_13, ((int32_t)il2cpp_codegen_multiply(L_15, L_18)), ((int32_t)il2cpp_codegen_multiply(L_20, L_23)), L_25, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
+		V_2 = L_26;
+		V_3 = 0;
+		goto IL_01cc;
+	}
+
+IL_005f:
+	{
+		V_4 = 0;
+		goto IL_01b5;
+	}
+
+IL_0067:
+	{
+		V_5 = 0;
+		goto IL_019c;
+	}
+
+IL_006f:
+	{
+		V_6 = 0;
+		goto IL_0183;
+	}
+
+IL_0077:
+	{
+		bool L_27 = ___2_bilinear;
+		V_7 = L_27;
+		bool L_28 = V_7;
+		if (!L_28)
+		{
+			goto IL_014f;
+		}
+	}
+	{
+		int32_t L_29 = V_5;
+		float L_30 = V_0;
+		V_8 = ((float)il2cpp_codegen_subtract(((float)(((float)il2cpp_codegen_add(((float)L_29), (0.5f)))/L_30)), (0.5f)));
+		int32_t L_31 = V_4;
+		float L_32 = V_1;
+		V_9 = ((float)il2cpp_codegen_subtract(((float)(((float)il2cpp_codegen_add(((float)L_31), (0.5f)))/L_32)), (0.5f)));
+		float L_33 = V_8;
+		float L_34;
+		L_34 = floorf(L_33);
+		V_10 = L_34;
+		float L_35 = V_9;
+		float L_36;
+		L_36 = floorf(L_35);
+		V_11 = L_36;
+		float L_37 = V_8;
+		float L_38 = V_10;
+		V_12 = ((float)il2cpp_codegen_subtract(L_37, L_38));
+		float L_39 = V_9;
+		float L_40 = V_11;
+		V_13 = ((float)il2cpp_codegen_subtract(L_39, L_40));
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_41 = ___0_X;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_42 = ___0_X;
+		int32_t L_43 = V_3;
+		float L_44 = V_11;
+		float L_45 = V_10;
+		int32_t L_46 = V_6;
+		NullCheck(L_42);
+		int32_t L_47;
+		L_47 = Tensor_IndexWithClamp_m5AAE1870FAD159CC4608843CE836A1EAF8D8AE2C(L_42, L_43, il2cpp_codegen_cast_double_to_int<int32_t>(L_44), il2cpp_codegen_cast_double_to_int<int32_t>(L_45), L_46, NULL);
+		NullCheck(L_41);
+		float L_48;
+		L_48 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_41, L_47, NULL);
+		V_14 = L_48;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_49 = ___0_X;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_50 = ___0_X;
+		int32_t L_51 = V_3;
+		float L_52 = V_11;
+		float L_53 = V_10;
+		int32_t L_54 = V_6;
+		NullCheck(L_50);
+		int32_t L_55;
+		L_55 = Tensor_IndexWithClamp_m5AAE1870FAD159CC4608843CE836A1EAF8D8AE2C(L_50, L_51, ((int32_t)il2cpp_codegen_add(il2cpp_codegen_cast_double_to_int<int32_t>(L_52), 1)), il2cpp_codegen_cast_double_to_int<int32_t>(L_53), L_54, NULL);
+		NullCheck(L_49);
+		float L_56;
+		L_56 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_49, L_55, NULL);
+		V_15 = L_56;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_57 = ___0_X;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_58 = ___0_X;
+		int32_t L_59 = V_3;
+		float L_60 = V_11;
+		float L_61 = V_10;
+		int32_t L_62 = V_6;
+		NullCheck(L_58);
+		int32_t L_63;
+		L_63 = Tensor_IndexWithClamp_m5AAE1870FAD159CC4608843CE836A1EAF8D8AE2C(L_58, L_59, il2cpp_codegen_cast_double_to_int<int32_t>(L_60), ((int32_t)il2cpp_codegen_add(il2cpp_codegen_cast_double_to_int<int32_t>(L_61), 1)), L_62, NULL);
+		NullCheck(L_57);
+		float L_64;
+		L_64 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_57, L_63, NULL);
+		V_16 = L_64;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_65 = ___0_X;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_66 = ___0_X;
+		int32_t L_67 = V_3;
+		float L_68 = V_11;
+		float L_69 = V_10;
+		int32_t L_70 = V_6;
+		NullCheck(L_66);
+		int32_t L_71;
+		L_71 = Tensor_IndexWithClamp_m5AAE1870FAD159CC4608843CE836A1EAF8D8AE2C(L_66, L_67, ((int32_t)il2cpp_codegen_add(il2cpp_codegen_cast_double_to_int<int32_t>(L_68), 1)), ((int32_t)il2cpp_codegen_add(il2cpp_codegen_cast_double_to_int<int32_t>(L_69), 1)), L_70, NULL);
+		NullCheck(L_65);
+		float L_72;
+		L_72 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_65, L_71, NULL);
+		V_17 = L_72;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_73 = V_2;
+		int32_t L_74 = V_3;
+		int32_t L_75 = V_4;
+		int32_t L_76 = V_5;
+		int32_t L_77 = V_6;
+		float L_78 = V_12;
+		float L_79 = V_13;
+		float L_80 = V_14;
+		float L_81 = V_15;
+		float L_82 = V_16;
+		float L_83 = V_17;
+		float L_84;
+		L_84 = ReferenceCPUOps_BilinearInterpolation_m97D4EC60D8E977855B34E62AF8CDD1752D9DC193(L_78, L_79, L_80, L_81, L_82, L_83, NULL);
+		NullCheck(L_73);
+		Tensor_set_Item_m7EF9E435A07905132E0C8C33A6C5A90E1E22BF58(L_73, L_74, L_75, L_76, L_77, L_84, NULL);
+		goto IL_017c;
+	}
+
+IL_014f:
+	{
+		int32_t L_85 = V_4;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_86 = ___1_scale;
+		NullCheck(L_86);
+		int32_t L_87 = 1;
+		int32_t L_88 = (L_86)->GetAt(static_cast<il2cpp_array_size_t>(L_87));
+		V_18 = ((int32_t)(L_85/L_88));
+		int32_t L_89 = V_5;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_90 = ___1_scale;
+		NullCheck(L_90);
+		int32_t L_91 = 0;
+		int32_t L_92 = (L_90)->GetAt(static_cast<il2cpp_array_size_t>(L_91));
+		V_19 = ((int32_t)(L_89/L_92));
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_93 = V_2;
+		int32_t L_94 = V_3;
+		int32_t L_95 = V_4;
+		int32_t L_96 = V_5;
+		int32_t L_97 = V_6;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_98 = ___0_X;
+		int32_t L_99 = V_3;
+		int32_t L_100 = V_18;
+		int32_t L_101 = V_19;
+		int32_t L_102 = V_6;
+		NullCheck(L_98);
+		float L_103;
+		L_103 = Tensor_get_Item_mA53C387CBDB9F0EA0D069DD7BFC45970172290C5(L_98, L_99, L_100, L_101, L_102, NULL);
+		NullCheck(L_93);
+		Tensor_set_Item_m7EF9E435A07905132E0C8C33A6C5A90E1E22BF58(L_93, L_94, L_95, L_96, L_97, L_103, NULL);
+	}
+
+IL_017c:
+	{
+		int32_t L_104 = V_6;
+		V_6 = ((int32_t)il2cpp_codegen_add(L_104, 1));
+	}
+
+IL_0183:
+	{
+		int32_t L_105 = V_6;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_106 = V_2;
+		NullCheck(L_106);
+		int32_t L_107;
+		L_107 = Tensor_get_channels_m9DA46CF71B1C47E059EA3417C6A652E1233B5D04(L_106, NULL);
+		V_20 = (bool)((((int32_t)L_105) < ((int32_t)L_107))? 1 : 0);
+		bool L_108 = V_20;
+		if (L_108)
+		{
+			goto IL_0077;
+		}
+	}
+	{
+		int32_t L_109 = V_5;
+		V_5 = ((int32_t)il2cpp_codegen_add(L_109, 1));
+	}
+
+IL_019c:
+	{
+		int32_t L_110 = V_5;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_111 = V_2;
+		NullCheck(L_111);
+		int32_t L_112;
+		L_112 = Tensor_get_width_m9E948C3769B41324EB12D54CE6E2E51DC18DC488(L_111, NULL);
+		V_21 = (bool)((((int32_t)L_110) < ((int32_t)L_112))? 1 : 0);
+		bool L_113 = V_21;
+		if (L_113)
+		{
+			goto IL_006f;
+		}
+	}
+	{
+		int32_t L_114 = V_4;
+		V_4 = ((int32_t)il2cpp_codegen_add(L_114, 1));
+	}
+
+IL_01b5:
+	{
+		int32_t L_115 = V_4;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_116 = V_2;
+		NullCheck(L_116);
+		int32_t L_117;
+		L_117 = Tensor_get_height_m0477A83109747FF1DA788569602DA2293D762AC1(L_116, NULL);
+		V_22 = (bool)((((int32_t)L_115) < ((int32_t)L_117))? 1 : 0);
+		bool L_118 = V_22;
+		if (L_118)
+		{
+			goto IL_0067;
+		}
+	}
+	{
+		int32_t L_119 = V_3;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_119, 1));
+	}
+
+IL_01cc:
+	{
+		int32_t L_120 = V_3;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_121 = V_2;
+		NullCheck(L_121);
+		int32_t L_122;
+		L_122 = Tensor_get_batch_m6CD93DCCD32D6A47FDEDEBFF16FF70AC9C586DD9(L_121, NULL);
+		V_23 = (bool)((((int32_t)L_120) < ((int32_t)L_122))? 1 : 0);
+		bool L_123 = V_23;
+		if (L_123)
+		{
+			goto IL_005f;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_124 = V_2;
+		V_24 = L_124;
+		goto IL_01e3;
+	}
+
+IL_01e3:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_125 = V_24;
+		return L_125;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_Resample2D_m6B9D82B49E3D86D63CF5FC92B172BA8FDA0551D6 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___1_size, bool ___2_bilinear, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		s_Il2CppMethodInitialized = true;
+	}
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_0 = NULL;
+	float V_1 = 0.0f;
+	float V_2 = 0.0f;
+	int32_t V_3 = 0;
+	int32_t V_4 = 0;
+	int32_t V_5 = 0;
+	int32_t V_6 = 0;
+	bool V_7 = false;
+	float V_8 = 0.0f;
+	float V_9 = 0.0f;
+	float V_10 = 0.0f;
+	float V_11 = 0.0f;
+	float V_12 = 0.0f;
+	float V_13 = 0.0f;
+	float V_14 = 0.0f;
+	float V_15 = 0.0f;
+	float V_16 = 0.0f;
+	float V_17 = 0.0f;
+	float V_18 = 0.0f;
+	int32_t V_19 = 0;
+	int32_t V_20 = 0;
+	bool V_21 = false;
+	bool V_22 = false;
+	bool V_23 = false;
+	bool V_24 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_25 = NULL;
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_0 = ___0_X;
+		NullCheck(L_0);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_1;
+		L_1 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_0, NULL);
+		bool L_2;
+		L_2 = TensorExtensions_Is4D_m1BB4A7DABDDBDB4046C16B6833336A64CD5A0C86(L_1, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_IsTrue_mE42C53B7220324D1FBAFB7AE48A7D8DD7796A663(L_2, NULL);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_3 = ___1_size;
+		NullCheck(L_3);
+		Assert_AreEqual_m718BB4BD31FA3176A3A236F96BC5405EB750D6CF(((int32_t)(((RuntimeArray*)L_3)->max_length)), 2, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_4 = ___0_X;
+		NullCheck(L_4);
+		int32_t L_5;
+		L_5 = Tensor_get_dataType_m57109C88C5386735035BB4066BAACD68228C3AB1(L_4, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_6 = ___0_X;
+		NullCheck(L_6);
+		int32_t L_7;
+		L_7 = Tensor_get_batch_m6CD93DCCD32D6A47FDEDEBFF16FF70AC9C586DD9(L_6, NULL);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_8 = ___1_size;
+		NullCheck(L_8);
+		int32_t L_9 = 1;
+		int32_t L_10 = (L_8)->GetAt(static_cast<il2cpp_array_size_t>(L_9));
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_11 = ___1_size;
+		NullCheck(L_11);
+		int32_t L_12 = 0;
+		int32_t L_13 = (L_11)->GetAt(static_cast<il2cpp_array_size_t>(L_12));
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_14 = ___0_X;
+		NullCheck(L_14);
+		int32_t L_15;
+		L_15 = Tensor_get_channels_m9DA46CF71B1C47E059EA3417C6A652E1233B5D04(L_14, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_16;
+		L_16 = ReferenceCPUOps_NewTensor_m3EF74B4420F55BBDE8F8C0FF99F0065052535404(__this, L_5, L_7, L_10, L_13, L_15, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
+		V_0 = L_16;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_17 = V_0;
+		NullCheck(L_17);
+		int32_t L_18;
+		L_18 = Tensor_get_width_m9E948C3769B41324EB12D54CE6E2E51DC18DC488(L_17, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_19 = ___0_X;
+		NullCheck(L_19);
+		int32_t L_20;
+		L_20 = Tensor_get_width_m9E948C3769B41324EB12D54CE6E2E51DC18DC488(L_19, NULL);
+		V_1 = ((float)(((float)L_18)/((float)L_20)));
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_21 = V_0;
+		NullCheck(L_21);
+		int32_t L_22;
+		L_22 = Tensor_get_height_m0477A83109747FF1DA788569602DA2293D762AC1(L_21, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_23 = ___0_X;
+		NullCheck(L_23);
+		int32_t L_24;
+		L_24 = Tensor_get_height_m0477A83109747FF1DA788569602DA2293D762AC1(L_23, NULL);
+		V_2 = ((float)(((float)L_22)/((float)L_24)));
+		V_3 = 0;
+		goto IL_0210;
+	}
+
+IL_0067:
+	{
+		V_4 = 0;
+		goto IL_01f9;
+	}
+
+IL_006f:
+	{
+		V_5 = 0;
+		goto IL_01e0;
+	}
+
+IL_0077:
+	{
+		V_6 = 0;
+		goto IL_01c7;
+	}
+
+IL_007f:
+	{
+		bool L_25 = ___2_bilinear;
+		V_7 = L_25;
+		bool L_26 = V_7;
+		if (!L_26)
+		{
+			goto IL_0185;
+		}
+	}
+	{
+		int32_t L_27 = V_5;
+		float L_28 = V_1;
+		V_8 = ((float)il2cpp_codegen_subtract(((float)(((float)il2cpp_codegen_add(((float)L_27), (0.5f)))/L_28)), (0.5f)));
+		int32_t L_29 = V_4;
+		float L_30 = V_2;
+		V_9 = ((float)il2cpp_codegen_subtract(((float)(((float)il2cpp_codegen_add(((float)L_29), (0.5f)))/L_30)), (0.5f)));
+		float L_31 = V_8;
+		float L_32;
+		L_32 = floorf(L_31);
+		V_10 = L_32;
+		float L_33 = V_9;
+		float L_34;
+		L_34 = floorf(L_33);
+		V_11 = L_34;
+		float L_35 = V_8;
+		float L_36 = V_10;
+		V_12 = ((float)il2cpp_codegen_subtract(L_35, L_36));
+		float L_37 = V_9;
+		float L_38 = V_11;
+		V_13 = ((float)il2cpp_codegen_subtract(L_37, L_38));
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_39 = ___0_X;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_40 = ___0_X;
+		int32_t L_41 = V_3;
+		float L_42 = V_11;
+		float L_43 = V_10;
+		int32_t L_44 = V_6;
+		NullCheck(L_40);
+		int32_t L_45;
+		L_45 = Tensor_IndexWithClamp_m5AAE1870FAD159CC4608843CE836A1EAF8D8AE2C(L_40, L_41, il2cpp_codegen_cast_double_to_int<int32_t>(L_42), il2cpp_codegen_cast_double_to_int<int32_t>(L_43), L_44, NULL);
+		NullCheck(L_39);
+		float L_46;
+		L_46 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_39, L_45, NULL);
+		V_14 = L_46;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_47 = ___0_X;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_48 = ___0_X;
+		int32_t L_49 = V_3;
+		float L_50 = V_11;
+		float L_51 = V_10;
+		int32_t L_52 = V_6;
+		NullCheck(L_48);
+		int32_t L_53;
+		L_53 = Tensor_IndexWithClamp_m5AAE1870FAD159CC4608843CE836A1EAF8D8AE2C(L_48, L_49, ((int32_t)il2cpp_codegen_add(il2cpp_codegen_cast_double_to_int<int32_t>(L_50), 1)), il2cpp_codegen_cast_double_to_int<int32_t>(L_51), L_52, NULL);
+		NullCheck(L_47);
+		float L_54;
+		L_54 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_47, L_53, NULL);
+		V_15 = L_54;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_55 = ___0_X;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_56 = ___0_X;
+		int32_t L_57 = V_3;
+		float L_58 = V_11;
+		float L_59 = V_10;
+		int32_t L_60 = V_6;
+		NullCheck(L_56);
+		int32_t L_61;
+		L_61 = Tensor_IndexWithClamp_m5AAE1870FAD159CC4608843CE836A1EAF8D8AE2C(L_56, L_57, il2cpp_codegen_cast_double_to_int<int32_t>(L_58), ((int32_t)il2cpp_codegen_add(il2cpp_codegen_cast_double_to_int<int32_t>(L_59), 1)), L_60, NULL);
+		NullCheck(L_55);
+		float L_62;
+		L_62 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_55, L_61, NULL);
+		V_16 = L_62;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_63 = ___0_X;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_64 = ___0_X;
+		int32_t L_65 = V_3;
+		float L_66 = V_11;
+		float L_67 = V_10;
+		int32_t L_68 = V_6;
+		NullCheck(L_64);
+		int32_t L_69;
+		L_69 = Tensor_IndexWithClamp_m5AAE1870FAD159CC4608843CE836A1EAF8D8AE2C(L_64, L_65, ((int32_t)il2cpp_codegen_add(il2cpp_codegen_cast_double_to_int<int32_t>(L_66), 1)), ((int32_t)il2cpp_codegen_add(il2cpp_codegen_cast_double_to_int<int32_t>(L_67), 1)), L_68, NULL);
+		NullCheck(L_63);
+		float L_70;
+		L_70 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_63, L_69, NULL);
+		V_17 = L_70;
+		float L_71 = V_14;
+		float L_72 = V_12;
+		float L_73 = V_13;
+		float L_74 = V_15;
+		float L_75 = V_12;
+		float L_76 = V_13;
+		float L_77 = V_16;
+		float L_78 = V_12;
+		float L_79 = V_13;
+		float L_80 = V_17;
+		float L_81 = V_12;
+		float L_82 = V_13;
+		V_18 = ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_71, ((float)il2cpp_codegen_subtract((1.0f), L_72)))), ((float)il2cpp_codegen_subtract((1.0f), L_73)))), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_74, ((float)il2cpp_codegen_subtract((1.0f), L_75)))), L_76)))), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_77, L_78)), ((float)il2cpp_codegen_subtract((1.0f), L_79)))))), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_80, L_81)), L_82))));
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_83 = V_0;
+		int32_t L_84 = V_3;
+		int32_t L_85 = V_4;
+		int32_t L_86 = V_5;
+		int32_t L_87 = V_6;
+		float L_88 = V_18;
+		NullCheck(L_83);
+		Tensor_set_Item_m7EF9E435A07905132E0C8C33A6C5A90E1E22BF58(L_83, L_84, L_85, L_86, L_87, L_88, NULL);
+		goto IL_01c0;
+	}
+
+IL_0185:
+	{
+		int32_t L_89 = V_4;
+		float L_90 = V_2;
+		int32_t L_91;
+		L_91 = Mathf_FloorToInt_m2A39AE881CAEE6B6A4B3BFEF9CA1ED40625F5AB7_inline(((float)(((float)L_89)/L_90)), NULL);
+		V_19 = L_91;
+		int32_t L_92 = V_5;
+		float L_93 = V_1;
+		int32_t L_94;
+		L_94 = Mathf_FloorToInt_m2A39AE881CAEE6B6A4B3BFEF9CA1ED40625F5AB7_inline(((float)(((float)L_92)/L_93)), NULL);
+		V_20 = L_94;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_95 = V_0;
+		int32_t L_96 = V_3;
+		int32_t L_97 = V_4;
+		int32_t L_98 = V_5;
+		int32_t L_99 = V_6;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_100 = ___0_X;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_101 = ___0_X;
+		int32_t L_102 = V_3;
+		int32_t L_103 = V_19;
+		int32_t L_104 = V_20;
+		int32_t L_105 = V_6;
+		NullCheck(L_101);
+		int32_t L_106;
+		L_106 = Tensor_IndexWithClamp_m5AAE1870FAD159CC4608843CE836A1EAF8D8AE2C(L_101, L_102, L_103, L_104, L_105, NULL);
+		NullCheck(L_100);
+		float L_107;
+		L_107 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_100, L_106, NULL);
+		NullCheck(L_95);
+		Tensor_set_Item_m7EF9E435A07905132E0C8C33A6C5A90E1E22BF58(L_95, L_96, L_97, L_98, L_99, L_107, NULL);
+	}
+
+IL_01c0:
+	{
+		int32_t L_108 = V_6;
+		V_6 = ((int32_t)il2cpp_codegen_add(L_108, 1));
+	}
+
+IL_01c7:
+	{
+		int32_t L_109 = V_6;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_110 = V_0;
+		NullCheck(L_110);
+		int32_t L_111;
+		L_111 = Tensor_get_channels_m9DA46CF71B1C47E059EA3417C6A652E1233B5D04(L_110, NULL);
+		V_21 = (bool)((((int32_t)L_109) < ((int32_t)L_111))? 1 : 0);
+		bool L_112 = V_21;
+		if (L_112)
+		{
+			goto IL_007f;
+		}
+	}
+	{
+		int32_t L_113 = V_5;
+		V_5 = ((int32_t)il2cpp_codegen_add(L_113, 1));
+	}
+
+IL_01e0:
+	{
+		int32_t L_114 = V_5;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_115 = V_0;
+		NullCheck(L_115);
+		int32_t L_116;
+		L_116 = Tensor_get_width_m9E948C3769B41324EB12D54CE6E2E51DC18DC488(L_115, NULL);
+		V_22 = (bool)((((int32_t)L_114) < ((int32_t)L_116))? 1 : 0);
+		bool L_117 = V_22;
+		if (L_117)
+		{
+			goto IL_0077;
+		}
+	}
+	{
+		int32_t L_118 = V_4;
+		V_4 = ((int32_t)il2cpp_codegen_add(L_118, 1));
+	}
+
+IL_01f9:
+	{
+		int32_t L_119 = V_4;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_120 = V_0;
+		NullCheck(L_120);
+		int32_t L_121;
+		L_121 = Tensor_get_height_m0477A83109747FF1DA788569602DA2293D762AC1(L_120, NULL);
+		V_23 = (bool)((((int32_t)L_119) < ((int32_t)L_121))? 1 : 0);
+		bool L_122 = V_23;
+		if (L_122)
+		{
+			goto IL_006f;
+		}
+	}
+	{
+		int32_t L_123 = V_3;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_123, 1));
+	}
+
+IL_0210:
+	{
+		int32_t L_124 = V_3;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_125 = V_0;
+		NullCheck(L_125);
+		int32_t L_126;
+		L_126 = Tensor_get_batch_m6CD93DCCD32D6A47FDEDEBFF16FF70AC9C586DD9(L_125, NULL);
+		V_24 = (bool)((((int32_t)L_124) < ((int32_t)L_126))? 1 : 0);
+		bool L_127 = V_24;
+		if (L_127)
+		{
+			goto IL_0067;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_128 = V_0;
+		V_25 = L_128;
+		goto IL_0227;
+	}
+
+IL_0227:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_129 = V_25;
+		return L_129;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_DepthToSpace_m1DB560938D30B79AC219F1CEA59CC48801930B97 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___1_blocksize, int32_t ___2_mode, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_2 = NULL;
+	int32_t V_3 = 0;
+	int32_t V_4 = 0;
+	int32_t V_5 = 0;
+	int32_t V_6 = 0;
+	int32_t V_7 = 0;
+	int32_t V_8 = 0;
+	int32_t V_9 = 0;
+	int32_t V_10 = 0;
+	int32_t V_11 = 0;
+	int32_t V_12 = 0;
+	bool V_13 = false;
+	bool V_14 = false;
+	bool V_15 = false;
+	bool V_16 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_17 = NULL;
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_0 = ___0_X;
+		NullCheck(L_0);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_1;
+		L_1 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_0, NULL);
+		bool L_2;
+		L_2 = TensorExtensions_Is4D_m1BB4A7DABDDBDB4046C16B6833336A64CD5A0C86(L_1, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_IsTrue_mE42C53B7220324D1FBAFB7AE48A7D8DD7796A663(L_2, NULL);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_3 = ___1_blocksize;
+		NullCheck(L_3);
+		Assert_AreEqual_m718BB4BD31FA3176A3A236F96BC5405EB750D6CF(((int32_t)(((RuntimeArray*)L_3)->max_length)), 2, NULL);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_4 = ___1_blocksize;
+		NullCheck(L_4);
+		int32_t L_5 = 0;
+		int32_t L_6 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_5));
+		V_0 = L_6;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_7 = ___1_blocksize;
+		NullCheck(L_7);
+		int32_t L_8 = 1;
+		int32_t L_9 = (L_7)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		V_1 = L_9;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_10 = ___0_X;
+		NullCheck(L_10);
+		int32_t L_11;
+		L_11 = Tensor_get_channels_m9DA46CF71B1C47E059EA3417C6A652E1233B5D04(L_10, NULL);
+		int32_t L_12 = V_0;
+		int32_t L_13 = V_1;
+		Assert_AreEqual_m718BB4BD31FA3176A3A236F96BC5405EB750D6CF(((int32_t)(L_11%((int32_t)il2cpp_codegen_multiply(L_12, L_13)))), 0, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_14 = ___0_X;
+		NullCheck(L_14);
+		int32_t L_15;
+		L_15 = Tensor_get_dataType_m57109C88C5386735035BB4066BAACD68228C3AB1(L_14, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_16 = ___0_X;
+		NullCheck(L_16);
+		int32_t L_17;
+		L_17 = Tensor_get_batch_m6CD93DCCD32D6A47FDEDEBFF16FF70AC9C586DD9(L_16, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_18 = ___0_X;
+		NullCheck(L_18);
+		int32_t L_19;
+		L_19 = Tensor_get_height_m0477A83109747FF1DA788569602DA2293D762AC1(L_18, NULL);
+		int32_t L_20 = V_1;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_21 = ___0_X;
+		NullCheck(L_21);
+		int32_t L_22;
+		L_22 = Tensor_get_width_m9E948C3769B41324EB12D54CE6E2E51DC18DC488(L_21, NULL);
+		int32_t L_23 = V_0;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_24 = ___0_X;
+		NullCheck(L_24);
+		int32_t L_25;
+		L_25 = Tensor_get_channels_m9DA46CF71B1C47E059EA3417C6A652E1233B5D04(L_24, NULL);
+		int32_t L_26 = V_0;
+		int32_t L_27 = V_1;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_28;
+		L_28 = ReferenceCPUOps_NewTensor_m3EF74B4420F55BBDE8F8C0FF99F0065052535404(__this, L_15, L_17, ((int32_t)il2cpp_codegen_multiply(L_19, L_20)), ((int32_t)il2cpp_codegen_multiply(L_22, L_23)), ((int32_t)(L_25/((int32_t)il2cpp_codegen_multiply(L_26, L_27)))), _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
+		V_2 = L_28;
+		V_3 = 0;
+		goto IL_015f;
+	}
+
+IL_006e:
+	{
+		V_4 = 0;
+		goto IL_0148;
+	}
+
+IL_0076:
+	{
+		V_5 = 0;
+		goto IL_012f;
+	}
+
+IL_007e:
+	{
+		V_6 = 0;
+		goto IL_0116;
+	}
+
+IL_0086:
+	{
+		int32_t L_29 = V_4;
+		int32_t L_30 = V_1;
+		V_7 = ((int32_t)(L_29/L_30));
+		int32_t L_31 = V_4;
+		int32_t L_32 = V_1;
+		V_8 = ((int32_t)(L_31%L_32));
+		int32_t L_33 = V_5;
+		int32_t L_34 = V_0;
+		V_9 = ((int32_t)(L_33/L_34));
+		int32_t L_35 = V_5;
+		int32_t L_36 = V_0;
+		V_10 = ((int32_t)(L_35%L_36));
+		int32_t L_37 = ___2_mode;
+		V_12 = L_37;
+		int32_t L_38 = V_12;
+		V_11 = L_38;
+		int32_t L_39 = V_11;
+		if (!L_39)
+		{
+			goto IL_00dc;
+		}
+	}
+	{
+		goto IL_00ac;
+	}
+
+IL_00ac:
+	{
+		int32_t L_40 = V_11;
+		if ((((int32_t)L_40) == ((int32_t)1)))
+		{
+			goto IL_00b3;
+		}
+	}
+	{
+		goto IL_010f;
+	}
+
+IL_00b3:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_41 = V_2;
+		int32_t L_42 = V_3;
+		int32_t L_43 = V_4;
+		int32_t L_44 = V_5;
+		int32_t L_45 = V_6;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_46 = ___0_X;
+		int32_t L_47 = V_3;
+		int32_t L_48 = V_7;
+		int32_t L_49 = V_9;
+		int32_t L_50 = V_6;
+		int32_t L_51 = V_0;
+		int32_t L_52 = V_1;
+		int32_t L_53 = V_8;
+		int32_t L_54 = V_0;
+		int32_t L_55 = V_10;
+		NullCheck(L_46);
+		float L_56;
+		L_56 = Tensor_get_Item_mA53C387CBDB9F0EA0D069DD7BFC45970172290C5(L_46, L_47, L_48, L_49, ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_multiply(((int32_t)il2cpp_codegen_multiply(L_50, L_51)), L_52)), ((int32_t)il2cpp_codegen_multiply(L_53, L_54)))), L_55)), NULL);
+		NullCheck(L_41);
+		Tensor_set_Item_m7EF9E435A07905132E0C8C33A6C5A90E1E22BF58(L_41, L_42, L_43, L_44, L_45, L_56, NULL);
+		goto IL_010f;
+	}
+
+IL_00dc:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_57 = V_2;
+		int32_t L_58 = V_3;
+		int32_t L_59 = V_4;
+		int32_t L_60 = V_5;
+		int32_t L_61 = V_6;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_62 = ___0_X;
+		int32_t L_63 = V_3;
+		int32_t L_64 = V_7;
+		int32_t L_65 = V_9;
+		int32_t L_66 = V_8;
+		int32_t L_67 = V_0;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_68 = V_2;
+		NullCheck(L_68);
+		int32_t L_69;
+		L_69 = Tensor_get_channels_m9DA46CF71B1C47E059EA3417C6A652E1233B5D04(L_68, NULL);
+		int32_t L_70 = V_10;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_71 = V_2;
+		NullCheck(L_71);
+		int32_t L_72;
+		L_72 = Tensor_get_channels_m9DA46CF71B1C47E059EA3417C6A652E1233B5D04(L_71, NULL);
+		int32_t L_73 = V_6;
+		NullCheck(L_62);
+		float L_74;
+		L_74 = Tensor_get_Item_mA53C387CBDB9F0EA0D069DD7BFC45970172290C5(L_62, L_63, L_64, L_65, ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_multiply(((int32_t)il2cpp_codegen_multiply(L_66, L_67)), L_69)), ((int32_t)il2cpp_codegen_multiply(L_70, L_72)))), L_73)), NULL);
+		NullCheck(L_57);
+		Tensor_set_Item_m7EF9E435A07905132E0C8C33A6C5A90E1E22BF58(L_57, L_58, L_59, L_60, L_61, L_74, NULL);
+		goto IL_010f;
+	}
+
+IL_010f:
+	{
+		int32_t L_75 = V_6;
+		V_6 = ((int32_t)il2cpp_codegen_add(L_75, 1));
+	}
+
+IL_0116:
+	{
+		int32_t L_76 = V_6;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_77 = V_2;
+		NullCheck(L_77);
+		int32_t L_78;
+		L_78 = Tensor_get_channels_m9DA46CF71B1C47E059EA3417C6A652E1233B5D04(L_77, NULL);
+		V_13 = (bool)((((int32_t)L_76) < ((int32_t)L_78))? 1 : 0);
+		bool L_79 = V_13;
+		if (L_79)
+		{
+			goto IL_0086;
+		}
+	}
+	{
+		int32_t L_80 = V_5;
+		V_5 = ((int32_t)il2cpp_codegen_add(L_80, 1));
+	}
+
+IL_012f:
+	{
+		int32_t L_81 = V_5;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_82 = V_2;
+		NullCheck(L_82);
+		int32_t L_83;
+		L_83 = Tensor_get_width_m9E948C3769B41324EB12D54CE6E2E51DC18DC488(L_82, NULL);
+		V_14 = (bool)((((int32_t)L_81) < ((int32_t)L_83))? 1 : 0);
+		bool L_84 = V_14;
+		if (L_84)
+		{
+			goto IL_007e;
+		}
+	}
+	{
+		int32_t L_85 = V_4;
+		V_4 = ((int32_t)il2cpp_codegen_add(L_85, 1));
+	}
+
+IL_0148:
+	{
+		int32_t L_86 = V_4;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_87 = V_2;
+		NullCheck(L_87);
+		int32_t L_88;
+		L_88 = Tensor_get_height_m0477A83109747FF1DA788569602DA2293D762AC1(L_87, NULL);
+		V_15 = (bool)((((int32_t)L_86) < ((int32_t)L_88))? 1 : 0);
+		bool L_89 = V_15;
+		if (L_89)
+		{
+			goto IL_0076;
+		}
+	}
+	{
+		int32_t L_90 = V_3;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_90, 1));
+	}
+
+IL_015f:
+	{
+		int32_t L_91 = V_3;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_92 = V_2;
+		NullCheck(L_92);
+		int32_t L_93;
+		L_93 = Tensor_get_batch_m6CD93DCCD32D6A47FDEDEBFF16FF70AC9C586DD9(L_92, NULL);
+		V_16 = (bool)((((int32_t)L_91) < ((int32_t)L_93))? 1 : 0);
+		bool L_94 = V_16;
+		if (L_94)
+		{
+			goto IL_006e;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_95 = V_2;
+		V_17 = L_95;
+		goto IL_0176;
+	}
+
+IL_0176:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_96 = V_17;
+		return L_96;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_SpaceToDepth_mAA0FBCACEF5FA5ECFF0099D7A55DAC034248DF28 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___1_blocksize, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_2 = NULL;
+	int32_t V_3 = 0;
+	int32_t V_4 = 0;
+	int32_t V_5 = 0;
+	int32_t V_6 = 0;
+	int32_t V_7 = 0;
+	int32_t V_8 = 0;
+	int32_t V_9 = 0;
+	int32_t V_10 = 0;
+	int32_t V_11 = 0;
+	bool V_12 = false;
+	bool V_13 = false;
+	bool V_14 = false;
+	bool V_15 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_16 = NULL;
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_0 = ___0_X;
+		NullCheck(L_0);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_1;
+		L_1 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_0, NULL);
+		bool L_2;
+		L_2 = TensorExtensions_Is4D_m1BB4A7DABDDBDB4046C16B6833336A64CD5A0C86(L_1, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_IsTrue_mE42C53B7220324D1FBAFB7AE48A7D8DD7796A663(L_2, NULL);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_3 = ___1_blocksize;
+		NullCheck(L_3);
+		Assert_AreEqual_m718BB4BD31FA3176A3A236F96BC5405EB750D6CF(((int32_t)(((RuntimeArray*)L_3)->max_length)), 2, NULL);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_4 = ___1_blocksize;
+		NullCheck(L_4);
+		int32_t L_5 = 0;
+		int32_t L_6 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_5));
+		V_0 = L_6;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_7 = ___1_blocksize;
+		NullCheck(L_7);
+		int32_t L_8 = 1;
+		int32_t L_9 = (L_7)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		V_1 = L_9;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_10 = ___0_X;
+		NullCheck(L_10);
+		int32_t L_11;
+		L_11 = Tensor_get_height_m0477A83109747FF1DA788569602DA2293D762AC1(L_10, NULL);
+		int32_t L_12 = V_1;
+		Assert_AreEqual_m718BB4BD31FA3176A3A236F96BC5405EB750D6CF(((int32_t)(L_11%L_12)), 0, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_13 = ___0_X;
+		NullCheck(L_13);
+		int32_t L_14;
+		L_14 = Tensor_get_width_m9E948C3769B41324EB12D54CE6E2E51DC18DC488(L_13, NULL);
+		int32_t L_15 = V_0;
+		Assert_AreEqual_m718BB4BD31FA3176A3A236F96BC5405EB750D6CF(((int32_t)(L_14%L_15)), 0, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_16 = ___0_X;
+		NullCheck(L_16);
+		int32_t L_17;
+		L_17 = Tensor_get_dataType_m57109C88C5386735035BB4066BAACD68228C3AB1(L_16, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_18 = ___0_X;
+		NullCheck(L_18);
+		int32_t L_19;
+		L_19 = Tensor_get_batch_m6CD93DCCD32D6A47FDEDEBFF16FF70AC9C586DD9(L_18, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_20 = ___0_X;
+		NullCheck(L_20);
+		int32_t L_21;
+		L_21 = Tensor_get_height_m0477A83109747FF1DA788569602DA2293D762AC1(L_20, NULL);
+		int32_t L_22 = V_1;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_23 = ___0_X;
+		NullCheck(L_23);
+		int32_t L_24;
+		L_24 = Tensor_get_width_m9E948C3769B41324EB12D54CE6E2E51DC18DC488(L_23, NULL);
+		int32_t L_25 = V_0;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_26 = ___0_X;
+		NullCheck(L_26);
+		int32_t L_27;
+		L_27 = Tensor_get_channels_m9DA46CF71B1C47E059EA3417C6A652E1233B5D04(L_26, NULL);
+		int32_t L_28 = V_0;
+		int32_t L_29 = V_1;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_30;
+		L_30 = ReferenceCPUOps_NewTensor_m3EF74B4420F55BBDE8F8C0FF99F0065052535404(__this, L_17, L_19, ((int32_t)(L_21/L_22)), ((int32_t)(L_24/L_25)), ((int32_t)il2cpp_codegen_multiply(L_27, ((int32_t)il2cpp_codegen_multiply(L_28, L_29)))), _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
+		V_2 = L_30;
+		V_3 = 0;
+		goto IL_012d;
+	}
+
+IL_007b:
+	{
+		V_4 = 0;
+		goto IL_0116;
+	}
+
+IL_0083:
+	{
+		V_5 = 0;
+		goto IL_00fd;
+	}
+
+IL_0088:
+	{
+		V_6 = 0;
+		goto IL_00e7;
+	}
+
+IL_008d:
+	{
+		int32_t L_31 = V_6;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_32 = ___0_X;
+		NullCheck(L_32);
+		int32_t L_33;
+		L_33 = Tensor_get_channels_m9DA46CF71B1C47E059EA3417C6A652E1233B5D04(L_32, NULL);
+		V_7 = ((int32_t)(L_31%L_33));
+		int32_t L_34 = V_6;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_35 = ___0_X;
+		NullCheck(L_35);
+		int32_t L_36;
+		L_36 = Tensor_get_channels_m9DA46CF71B1C47E059EA3417C6A652E1233B5D04(L_35, NULL);
+		int32_t L_37 = V_0;
+		V_8 = ((int32_t)(((int32_t)(L_34/L_36))%L_37));
+		int32_t L_38 = V_6;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_39 = ___0_X;
+		NullCheck(L_39);
+		int32_t L_40;
+		L_40 = Tensor_get_channels_m9DA46CF71B1C47E059EA3417C6A652E1233B5D04(L_39, NULL);
+		int32_t L_41 = V_0;
+		V_9 = ((int32_t)(((int32_t)(L_38/L_40))/L_41));
+		int32_t L_42 = V_5;
+		int32_t L_43 = V_0;
+		int32_t L_44 = V_8;
+		V_10 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_multiply(L_42, L_43)), L_44));
+		int32_t L_45 = V_4;
+		int32_t L_46 = V_1;
+		int32_t L_47 = V_9;
+		V_11 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_multiply(L_45, L_46)), L_47));
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_48 = V_2;
+		int32_t L_49 = V_3;
+		int32_t L_50 = V_4;
+		int32_t L_51 = V_5;
+		int32_t L_52 = V_6;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_53 = ___0_X;
+		int32_t L_54 = V_3;
+		int32_t L_55 = V_11;
+		int32_t L_56 = V_10;
+		int32_t L_57 = V_7;
+		NullCheck(L_53);
+		float L_58;
+		L_58 = Tensor_get_Item_mA53C387CBDB9F0EA0D069DD7BFC45970172290C5(L_53, L_54, L_55, L_56, L_57, NULL);
+		NullCheck(L_48);
+		Tensor_set_Item_m7EF9E435A07905132E0C8C33A6C5A90E1E22BF58(L_48, L_49, L_50, L_51, L_52, L_58, NULL);
+		int32_t L_59 = V_6;
+		V_6 = ((int32_t)il2cpp_codegen_add(L_59, 1));
+	}
+
+IL_00e7:
+	{
+		int32_t L_60 = V_6;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_61 = V_2;
+		NullCheck(L_61);
+		int32_t L_62;
+		L_62 = Tensor_get_channels_m9DA46CF71B1C47E059EA3417C6A652E1233B5D04(L_61, NULL);
+		V_12 = (bool)((((int32_t)L_60) < ((int32_t)L_62))? 1 : 0);
+		bool L_63 = V_12;
+		if (L_63)
+		{
+			goto IL_008d;
+		}
+	}
+	{
+		int32_t L_64 = V_5;
+		V_5 = ((int32_t)il2cpp_codegen_add(L_64, 1));
+	}
+
+IL_00fd:
+	{
+		int32_t L_65 = V_5;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_66 = V_2;
+		NullCheck(L_66);
+		int32_t L_67;
+		L_67 = Tensor_get_width_m9E948C3769B41324EB12D54CE6E2E51DC18DC488(L_66, NULL);
+		V_13 = (bool)((((int32_t)L_65) < ((int32_t)L_67))? 1 : 0);
+		bool L_68 = V_13;
+		if (L_68)
+		{
+			goto IL_0088;
+		}
+	}
+	{
+		int32_t L_69 = V_4;
+		V_4 = ((int32_t)il2cpp_codegen_add(L_69, 1));
+	}
+
+IL_0116:
+	{
+		int32_t L_70 = V_4;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_71 = V_2;
+		NullCheck(L_71);
+		int32_t L_72;
+		L_72 = Tensor_get_height_m0477A83109747FF1DA788569602DA2293D762AC1(L_71, NULL);
+		V_14 = (bool)((((int32_t)L_70) < ((int32_t)L_72))? 1 : 0);
+		bool L_73 = V_14;
+		if (L_73)
+		{
+			goto IL_0083;
+		}
+	}
+	{
+		int32_t L_74 = V_3;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_74, 1));
+	}
+
+IL_012d:
+	{
+		int32_t L_75 = V_3;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_76 = V_2;
+		NullCheck(L_76);
+		int32_t L_77;
+		L_77 = Tensor_get_batch_m6CD93DCCD32D6A47FDEDEBFF16FF70AC9C586DD9(L_76, NULL);
+		V_15 = (bool)((((int32_t)L_75) < ((int32_t)L_77))? 1 : 0);
+		bool L_78 = V_15;
+		if (L_78)
+		{
+			goto IL_007b;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_79 = V_2;
+		V_16 = L_79;
+		goto IL_0144;
+	}
+
+IL_0144:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_80 = V_16;
+		return L_80;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_MaxPool2D_mAD55807B2F5440D592924C3CAE0782403267DF92 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___1_pool, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___2_stride, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___3_pad, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_0 = NULL;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	int32_t V_4 = 0;
+	float V_5 = 0.0f;
+	int32_t V_6 = 0;
+	int32_t V_7 = 0;
+	int32_t V_8 = 0;
+	int32_t V_9 = 0;
+	float V_10 = 0.0f;
+	bool V_11 = false;
+	bool V_12 = false;
+	bool V_13 = false;
+	bool V_14 = false;
+	bool V_15 = false;
+	bool V_16 = false;
+	bool V_17 = false;
+	bool V_18 = false;
+	bool V_19 = false;
+	bool V_20 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_21 = NULL;
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_0 = ___0_X;
+		NullCheck(L_0);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_1;
+		L_1 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_0, NULL);
+		bool L_2;
+		L_2 = TensorExtensions_Is4D_m1BB4A7DABDDBDB4046C16B6833336A64CD5A0C86(L_1, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_IsTrue_mE42C53B7220324D1FBAFB7AE48A7D8DD7796A663(L_2, NULL);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_3 = ___1_pool;
+		NullCheck(L_3);
+		Assert_AreEqual_m718BB4BD31FA3176A3A236F96BC5405EB750D6CF(((int32_t)(((RuntimeArray*)L_3)->max_length)), 2, NULL);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_4 = ___2_stride;
+		NullCheck(L_4);
+		Assert_AreEqual_m718BB4BD31FA3176A3A236F96BC5405EB750D6CF(((int32_t)(((RuntimeArray*)L_4)->max_length)), 2, NULL);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_5 = ___3_pad;
+		NullCheck(L_5);
+		Assert_AreEqual_m718BB4BD31FA3176A3A236F96BC5405EB750D6CF(((int32_t)(((RuntimeArray*)L_5)->max_length)), 4, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_6 = ___0_X;
+		NullCheck(L_6);
+		int32_t L_7;
+		L_7 = Tensor_get_dataType_m57109C88C5386735035BB4066BAACD68228C3AB1(L_6, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_8 = ___0_X;
+		NullCheck(L_8);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_9;
+		L_9 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_8, NULL);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_10 = ___1_pool;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_11 = ___2_stride;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_12 = ___3_pad;
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_13;
+		L_13 = TensorExtensions_ApplyPool_mB8C886661E283C591C554E99E632E67FAF2F084D(L_9, L_10, L_11, L_12, (bool)0, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_14;
+		L_14 = ReferenceCPUOps_NewTensor_m74008D9C77785A62165EBEF61281FBB9CB42DAAF(__this, L_7, L_13, NULL);
+		V_0 = L_14;
+		V_1 = 0;
+		goto IL_0185;
+	}
+
+IL_0055:
+	{
+		V_2 = 0;
+		goto IL_016f;
+	}
+
+IL_005c:
+	{
+		V_3 = 0;
+		goto IL_0159;
+	}
+
+IL_0063:
+	{
+		V_4 = 0;
+		goto IL_0142;
+	}
+
+IL_006b:
+	{
+		V_5 = (-(std::numeric_limits<float>::max)());
+		V_6 = 0;
+		goto IL_011d;
+	}
+
+IL_007b:
+	{
+		V_7 = 0;
+		goto IL_0107;
+	}
+
+IL_0083:
+	{
+		int32_t L_15 = V_2;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_16 = ___2_stride;
+		NullCheck(L_16);
+		int32_t L_17 = 1;
+		int32_t L_18 = (L_16)->GetAt(static_cast<il2cpp_array_size_t>(L_17));
+		int32_t L_19 = V_6;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_20 = ___3_pad;
+		NullCheck(L_20);
+		int32_t L_21 = 1;
+		int32_t L_22 = (L_20)->GetAt(static_cast<il2cpp_array_size_t>(L_21));
+		V_8 = ((int32_t)il2cpp_codegen_subtract(((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_multiply(L_15, L_18)), L_19)), L_22));
+		int32_t L_23 = V_3;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_24 = ___2_stride;
+		NullCheck(L_24);
+		int32_t L_25 = 0;
+		int32_t L_26 = (L_24)->GetAt(static_cast<il2cpp_array_size_t>(L_25));
+		int32_t L_27 = V_7;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_28 = ___3_pad;
+		NullCheck(L_28);
+		int32_t L_29 = 0;
+		int32_t L_30 = (L_28)->GetAt(static_cast<il2cpp_array_size_t>(L_29));
+		V_9 = ((int32_t)il2cpp_codegen_subtract(((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_multiply(L_23, L_26)), L_27)), L_30));
+		int32_t L_31 = V_8;
+		V_11 = (bool)((((int32_t)L_31) < ((int32_t)0))? 1 : 0);
+		bool L_32 = V_11;
+		if (!L_32)
+		{
+			goto IL_00af;
+		}
+	}
+	{
+		goto IL_0101;
+	}
+
+IL_00af:
+	{
+		int32_t L_33 = V_8;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_34 = ___0_X;
+		NullCheck(L_34);
+		int32_t L_35;
+		L_35 = Tensor_get_height_m0477A83109747FF1DA788569602DA2293D762AC1(L_34, NULL);
+		V_12 = (bool)((((int32_t)((((int32_t)L_33) < ((int32_t)L_35))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_36 = V_12;
+		if (!L_36)
+		{
+			goto IL_00c4;
+		}
+	}
+	{
+		goto IL_0101;
+	}
+
+IL_00c4:
+	{
+		int32_t L_37 = V_9;
+		V_13 = (bool)((((int32_t)L_37) < ((int32_t)0))? 1 : 0);
+		bool L_38 = V_13;
+		if (!L_38)
+		{
+			goto IL_00d1;
+		}
+	}
+	{
+		goto IL_0101;
+	}
+
+IL_00d1:
+	{
+		int32_t L_39 = V_9;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_40 = ___0_X;
+		NullCheck(L_40);
+		int32_t L_41;
+		L_41 = Tensor_get_width_m9E948C3769B41324EB12D54CE6E2E51DC18DC488(L_40, NULL);
+		V_14 = (bool)((((int32_t)((((int32_t)L_39) < ((int32_t)L_41))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_42 = V_14;
+		if (!L_42)
+		{
+			goto IL_00e6;
+		}
+	}
+	{
+		goto IL_0101;
+	}
+
+IL_00e6:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_43 = ___0_X;
+		int32_t L_44 = V_1;
+		int32_t L_45 = V_8;
+		int32_t L_46 = V_9;
+		int32_t L_47 = V_4;
+		NullCheck(L_43);
+		float L_48;
+		L_48 = Tensor_get_Item_mA53C387CBDB9F0EA0D069DD7BFC45970172290C5(L_43, L_44, L_45, L_46, L_47, NULL);
+		V_10 = L_48;
+		float L_49 = V_10;
+		float L_50 = V_5;
+		float L_51;
+		L_51 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline(L_49, L_50, NULL);
+		V_5 = L_51;
+	}
+
+IL_0101:
+	{
+		int32_t L_52 = V_7;
+		V_7 = ((int32_t)il2cpp_codegen_add(L_52, 1));
+	}
+
+IL_0107:
+	{
+		int32_t L_53 = V_7;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_54 = ___1_pool;
+		NullCheck(L_54);
+		int32_t L_55 = 0;
+		int32_t L_56 = (L_54)->GetAt(static_cast<il2cpp_array_size_t>(L_55));
+		V_15 = (bool)((((int32_t)L_53) < ((int32_t)L_56))? 1 : 0);
+		bool L_57 = V_15;
+		if (L_57)
+		{
+			goto IL_0083;
+		}
+	}
+	{
+		int32_t L_58 = V_6;
+		V_6 = ((int32_t)il2cpp_codegen_add(L_58, 1));
+	}
+
+IL_011d:
+	{
+		int32_t L_59 = V_6;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_60 = ___1_pool;
+		NullCheck(L_60);
+		int32_t L_61 = 1;
+		int32_t L_62 = (L_60)->GetAt(static_cast<il2cpp_array_size_t>(L_61));
+		V_16 = (bool)((((int32_t)L_59) < ((int32_t)L_62))? 1 : 0);
+		bool L_63 = V_16;
+		if (L_63)
+		{
+			goto IL_007b;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_64 = V_0;
+		int32_t L_65 = V_1;
+		int32_t L_66 = V_2;
+		int32_t L_67 = V_3;
+		int32_t L_68 = V_4;
+		float L_69 = V_5;
+		NullCheck(L_64);
+		Tensor_set_Item_m7EF9E435A07905132E0C8C33A6C5A90E1E22BF58(L_64, L_65, L_66, L_67, L_68, L_69, NULL);
+		int32_t L_70 = V_4;
+		V_4 = ((int32_t)il2cpp_codegen_add(L_70, 1));
+	}
+
+IL_0142:
+	{
+		int32_t L_71 = V_4;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_72 = V_0;
+		NullCheck(L_72);
+		int32_t L_73;
+		L_73 = Tensor_get_channels_m9DA46CF71B1C47E059EA3417C6A652E1233B5D04(L_72, NULL);
+		V_17 = (bool)((((int32_t)L_71) < ((int32_t)L_73))? 1 : 0);
+		bool L_74 = V_17;
+		if (L_74)
+		{
+			goto IL_006b;
+		}
+	}
+	{
+		int32_t L_75 = V_3;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_75, 1));
+	}
+
+IL_0159:
+	{
+		int32_t L_76 = V_3;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_77 = V_0;
+		NullCheck(L_77);
+		int32_t L_78;
+		L_78 = Tensor_get_width_m9E948C3769B41324EB12D54CE6E2E51DC18DC488(L_77, NULL);
+		V_18 = (bool)((((int32_t)L_76) < ((int32_t)L_78))? 1 : 0);
+		bool L_79 = V_18;
+		if (L_79)
+		{
+			goto IL_0063;
+		}
+	}
+	{
+		int32_t L_80 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_80, 1));
+	}
+
+IL_016f:
+	{
+		int32_t L_81 = V_2;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_82 = V_0;
+		NullCheck(L_82);
+		int32_t L_83;
+		L_83 = Tensor_get_height_m0477A83109747FF1DA788569602DA2293D762AC1(L_82, NULL);
+		V_19 = (bool)((((int32_t)L_81) < ((int32_t)L_83))? 1 : 0);
+		bool L_84 = V_19;
+		if (L_84)
+		{
+			goto IL_005c;
+		}
+	}
+	{
+		int32_t L_85 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_85, 1));
+	}
+
+IL_0185:
+	{
+		int32_t L_86 = V_1;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_87 = V_0;
+		NullCheck(L_87);
+		int32_t L_88;
+		L_88 = Tensor_get_batch_m6CD93DCCD32D6A47FDEDEBFF16FF70AC9C586DD9(L_87, NULL);
+		V_20 = (bool)((((int32_t)L_86) < ((int32_t)L_88))? 1 : 0);
+		bool L_89 = V_20;
+		if (L_89)
+		{
+			goto IL_0055;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_90 = V_0;
+		V_21 = L_90;
+		goto IL_019c;
+	}
+
+IL_019c:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_91 = V_21;
+		return L_91;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_AvgPool2D_mCA5C24141AC04D43CAA8E16264BF6ADC544420FB (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___1_pool, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___2_stride, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___3_pad, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_0 = NULL;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	int32_t V_4 = 0;
+	float V_5 = 0.0f;
+	float V_6 = 0.0f;
+	int32_t V_7 = 0;
+	int32_t V_8 = 0;
+	int32_t V_9 = 0;
+	int32_t V_10 = 0;
+	float V_11 = 0.0f;
+	bool V_12 = false;
+	bool V_13 = false;
+	bool V_14 = false;
+	bool V_15 = false;
+	bool V_16 = false;
+	bool V_17 = false;
+	bool V_18 = false;
+	bool V_19 = false;
+	bool V_20 = false;
+	bool V_21 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_22 = NULL;
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_0 = ___0_X;
+		NullCheck(L_0);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_1;
+		L_1 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_0, NULL);
+		bool L_2;
+		L_2 = TensorExtensions_Is4D_m1BB4A7DABDDBDB4046C16B6833336A64CD5A0C86(L_1, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_IsTrue_mE42C53B7220324D1FBAFB7AE48A7D8DD7796A663(L_2, NULL);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_3 = ___1_pool;
+		NullCheck(L_3);
+		Assert_AreEqual_m718BB4BD31FA3176A3A236F96BC5405EB750D6CF(((int32_t)(((RuntimeArray*)L_3)->max_length)), 2, NULL);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_4 = ___2_stride;
+		NullCheck(L_4);
+		Assert_AreEqual_m718BB4BD31FA3176A3A236F96BC5405EB750D6CF(((int32_t)(((RuntimeArray*)L_4)->max_length)), 2, NULL);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_5 = ___3_pad;
+		NullCheck(L_5);
+		Assert_AreEqual_m718BB4BD31FA3176A3A236F96BC5405EB750D6CF(((int32_t)(((RuntimeArray*)L_5)->max_length)), 4, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_6 = ___0_X;
+		NullCheck(L_6);
+		int32_t L_7;
+		L_7 = Tensor_get_dataType_m57109C88C5386735035BB4066BAACD68228C3AB1(L_6, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_8 = ___0_X;
+		NullCheck(L_8);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_9;
+		L_9 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_8, NULL);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_10 = ___1_pool;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_11 = ___2_stride;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_12 = ___3_pad;
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_13;
+		L_13 = TensorExtensions_ApplyPool_mB8C886661E283C591C554E99E632E67FAF2F084D(L_9, L_10, L_11, L_12, (bool)0, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_14;
+		L_14 = ReferenceCPUOps_NewTensor_m74008D9C77785A62165EBEF61281FBB9CB42DAAF(__this, L_7, L_13, NULL);
+		V_0 = L_14;
+		V_1 = 0;
+		goto IL_0195;
+	}
+
+IL_0055:
+	{
+		V_2 = 0;
+		goto IL_017f;
+	}
+
+IL_005c:
+	{
+		V_3 = 0;
+		goto IL_0169;
+	}
+
+IL_0063:
+	{
+		V_4 = 0;
+		goto IL_0152;
+	}
+
+IL_006b:
+	{
+		V_5 = (0.0f);
+		V_6 = (0.0f);
+		V_7 = 0;
+		goto IL_012a;
+	}
+
+IL_0082:
+	{
+		V_8 = 0;
+		goto IL_0114;
+	}
+
+IL_008a:
+	{
+		int32_t L_15 = V_2;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_16 = ___2_stride;
+		NullCheck(L_16);
+		int32_t L_17 = 1;
+		int32_t L_18 = (L_16)->GetAt(static_cast<il2cpp_array_size_t>(L_17));
+		int32_t L_19 = V_7;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_20 = ___3_pad;
+		NullCheck(L_20);
+		int32_t L_21 = 1;
+		int32_t L_22 = (L_20)->GetAt(static_cast<il2cpp_array_size_t>(L_21));
+		V_9 = ((int32_t)il2cpp_codegen_subtract(((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_multiply(L_15, L_18)), L_19)), L_22));
+		int32_t L_23 = V_3;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_24 = ___2_stride;
+		NullCheck(L_24);
+		int32_t L_25 = 0;
+		int32_t L_26 = (L_24)->GetAt(static_cast<il2cpp_array_size_t>(L_25));
+		int32_t L_27 = V_8;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_28 = ___3_pad;
+		NullCheck(L_28);
+		int32_t L_29 = 0;
+		int32_t L_30 = (L_28)->GetAt(static_cast<il2cpp_array_size_t>(L_29));
+		V_10 = ((int32_t)il2cpp_codegen_subtract(((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_multiply(L_23, L_26)), L_27)), L_30));
+		int32_t L_31 = V_9;
+		V_12 = (bool)((((int32_t)L_31) < ((int32_t)0))? 1 : 0);
+		bool L_32 = V_12;
+		if (!L_32)
+		{
+			goto IL_00b6;
+		}
+	}
+	{
+		goto IL_010e;
+	}
+
+IL_00b6:
+	{
+		int32_t L_33 = V_9;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_34 = ___0_X;
+		NullCheck(L_34);
+		int32_t L_35;
+		L_35 = Tensor_get_height_m0477A83109747FF1DA788569602DA2293D762AC1(L_34, NULL);
+		V_13 = (bool)((((int32_t)((((int32_t)L_33) < ((int32_t)L_35))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_36 = V_13;
+		if (!L_36)
+		{
+			goto IL_00cb;
+		}
+	}
+	{
+		goto IL_010e;
+	}
+
+IL_00cb:
+	{
+		int32_t L_37 = V_10;
+		V_14 = (bool)((((int32_t)L_37) < ((int32_t)0))? 1 : 0);
+		bool L_38 = V_14;
+		if (!L_38)
+		{
+			goto IL_00d8;
+		}
+	}
+	{
+		goto IL_010e;
+	}
+
+IL_00d8:
+	{
+		int32_t L_39 = V_10;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_40 = ___0_X;
+		NullCheck(L_40);
+		int32_t L_41;
+		L_41 = Tensor_get_width_m9E948C3769B41324EB12D54CE6E2E51DC18DC488(L_40, NULL);
+		V_15 = (bool)((((int32_t)((((int32_t)L_39) < ((int32_t)L_41))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_42 = V_15;
+		if (!L_42)
+		{
+			goto IL_00ed;
+		}
+	}
+	{
+		goto IL_010e;
+	}
+
+IL_00ed:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_43 = ___0_X;
+		int32_t L_44 = V_1;
+		int32_t L_45 = V_9;
+		int32_t L_46 = V_10;
+		int32_t L_47 = V_4;
+		NullCheck(L_43);
+		float L_48;
+		L_48 = Tensor_get_Item_mA53C387CBDB9F0EA0D069DD7BFC45970172290C5(L_43, L_44, L_45, L_46, L_47, NULL);
+		V_11 = L_48;
+		float L_49 = V_5;
+		float L_50 = V_11;
+		V_5 = ((float)il2cpp_codegen_add(L_49, L_50));
+		float L_51 = V_6;
+		V_6 = ((float)il2cpp_codegen_add(L_51, (1.0f)));
+	}
+
+IL_010e:
+	{
+		int32_t L_52 = V_8;
+		V_8 = ((int32_t)il2cpp_codegen_add(L_52, 1));
+	}
+
+IL_0114:
+	{
+		int32_t L_53 = V_8;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_54 = ___1_pool;
+		NullCheck(L_54);
+		int32_t L_55 = 0;
+		int32_t L_56 = (L_54)->GetAt(static_cast<il2cpp_array_size_t>(L_55));
+		V_16 = (bool)((((int32_t)L_53) < ((int32_t)L_56))? 1 : 0);
+		bool L_57 = V_16;
+		if (L_57)
+		{
+			goto IL_008a;
+		}
+	}
+	{
+		int32_t L_58 = V_7;
+		V_7 = ((int32_t)il2cpp_codegen_add(L_58, 1));
+	}
+
+IL_012a:
+	{
+		int32_t L_59 = V_7;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_60 = ___1_pool;
+		NullCheck(L_60);
+		int32_t L_61 = 1;
+		int32_t L_62 = (L_60)->GetAt(static_cast<il2cpp_array_size_t>(L_61));
+		V_17 = (bool)((((int32_t)L_59) < ((int32_t)L_62))? 1 : 0);
+		bool L_63 = V_17;
+		if (L_63)
+		{
+			goto IL_0082;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_64 = V_0;
+		int32_t L_65 = V_1;
+		int32_t L_66 = V_2;
+		int32_t L_67 = V_3;
+		int32_t L_68 = V_4;
+		float L_69 = V_5;
+		float L_70 = V_6;
+		NullCheck(L_64);
+		Tensor_set_Item_m7EF9E435A07905132E0C8C33A6C5A90E1E22BF58(L_64, L_65, L_66, L_67, L_68, ((float)(L_69/L_70)), NULL);
+		int32_t L_71 = V_4;
+		V_4 = ((int32_t)il2cpp_codegen_add(L_71, 1));
+	}
+
+IL_0152:
+	{
+		int32_t L_72 = V_4;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_73 = V_0;
+		NullCheck(L_73);
+		int32_t L_74;
+		L_74 = Tensor_get_channels_m9DA46CF71B1C47E059EA3417C6A652E1233B5D04(L_73, NULL);
+		V_18 = (bool)((((int32_t)L_72) < ((int32_t)L_74))? 1 : 0);
+		bool L_75 = V_18;
+		if (L_75)
+		{
+			goto IL_006b;
+		}
+	}
+	{
+		int32_t L_76 = V_3;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_76, 1));
+	}
+
+IL_0169:
+	{
+		int32_t L_77 = V_3;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_78 = V_0;
+		NullCheck(L_78);
+		int32_t L_79;
+		L_79 = Tensor_get_width_m9E948C3769B41324EB12D54CE6E2E51DC18DC488(L_78, NULL);
+		V_19 = (bool)((((int32_t)L_77) < ((int32_t)L_79))? 1 : 0);
+		bool L_80 = V_19;
+		if (L_80)
+		{
+			goto IL_0063;
+		}
+	}
+	{
+		int32_t L_81 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_81, 1));
+	}
+
+IL_017f:
+	{
+		int32_t L_82 = V_2;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_83 = V_0;
+		NullCheck(L_83);
+		int32_t L_84;
+		L_84 = Tensor_get_height_m0477A83109747FF1DA788569602DA2293D762AC1(L_83, NULL);
+		V_20 = (bool)((((int32_t)L_82) < ((int32_t)L_84))? 1 : 0);
+		bool L_85 = V_20;
+		if (L_85)
+		{
+			goto IL_005c;
+		}
+	}
+	{
+		int32_t L_86 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_86, 1));
+	}
+
+IL_0195:
+	{
+		int32_t L_87 = V_1;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_88 = V_0;
+		NullCheck(L_88);
+		int32_t L_89;
+		L_89 = Tensor_get_batch_m6CD93DCCD32D6A47FDEDEBFF16FF70AC9C586DD9(L_88, NULL);
+		V_21 = (bool)((((int32_t)L_87) < ((int32_t)L_89))? 1 : 0);
+		bool L_90 = V_21;
+		if (L_90)
+		{
+			goto IL_0055;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_91 = V_0;
+		V_22 = L_91;
+		goto IL_01ac;
+	}
+
+IL_01ac:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_92 = V_22;
+		return L_92;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_GlobalMaxPool2D_m3650ACFADCDDDE9492F0CFE4E99C0950CD46319C (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		s_Il2CppMethodInitialized = true;
+	}
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_0 = NULL;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	float V_3 = 0.0f;
+	int32_t V_4 = 0;
+	int32_t V_5 = 0;
+	float V_6 = 0.0f;
+	bool V_7 = false;
+	bool V_8 = false;
+	bool V_9 = false;
+	bool V_10 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_11 = NULL;
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_0 = ___0_X;
+		NullCheck(L_0);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_1;
+		L_1 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_0, NULL);
+		bool L_2;
+		L_2 = TensorExtensions_Is4D_m1BB4A7DABDDBDB4046C16B6833336A64CD5A0C86(L_1, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_IsTrue_mE42C53B7220324D1FBAFB7AE48A7D8DD7796A663(L_2, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_3 = ___0_X;
+		NullCheck(L_3);
+		int32_t L_4;
+		L_4 = Tensor_get_dataType_m57109C88C5386735035BB4066BAACD68228C3AB1(L_3, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_5 = ___0_X;
+		NullCheck(L_5);
+		int32_t L_6;
+		L_6 = Tensor_get_batch_m6CD93DCCD32D6A47FDEDEBFF16FF70AC9C586DD9(L_5, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_7 = ___0_X;
+		NullCheck(L_7);
+		int32_t L_8;
+		L_8 = Tensor_get_channels_m9DA46CF71B1C47E059EA3417C6A652E1233B5D04(L_7, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_9;
+		L_9 = ReferenceCPUOps_NewTensor_m3EF74B4420F55BBDE8F8C0FF99F0065052535404(__this, L_4, L_6, 1, 1, L_8, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
+		V_0 = L_9;
+		V_1 = 0;
+		goto IL_00b4;
+	}
+
+IL_0036:
+	{
+		V_2 = 0;
+		goto IL_00a1;
+	}
+
+IL_003a:
+	{
+		V_3 = (-(std::numeric_limits<float>::max)());
+		V_4 = 0;
+		goto IL_0080;
+	}
+
+IL_0046:
+	{
+		V_5 = 0;
+		goto IL_006a;
+	}
+
+IL_004b:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_10 = ___0_X;
+		int32_t L_11 = V_1;
+		int32_t L_12 = V_4;
+		int32_t L_13 = V_5;
+		int32_t L_14 = V_2;
+		NullCheck(L_10);
+		float L_15;
+		L_15 = Tensor_get_Item_mA53C387CBDB9F0EA0D069DD7BFC45970172290C5(L_10, L_11, L_12, L_13, L_14, NULL);
+		V_6 = L_15;
+		float L_16 = V_6;
+		float L_17 = V_3;
+		float L_18;
+		L_18 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline(L_16, L_17, NULL);
+		V_3 = L_18;
+		int32_t L_19 = V_5;
+		V_5 = ((int32_t)il2cpp_codegen_add(L_19, 1));
+	}
+
+IL_006a:
+	{
+		int32_t L_20 = V_5;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_21 = ___0_X;
+		NullCheck(L_21);
+		int32_t L_22;
+		L_22 = Tensor_get_width_m9E948C3769B41324EB12D54CE6E2E51DC18DC488(L_21, NULL);
+		V_7 = (bool)((((int32_t)L_20) < ((int32_t)L_22))? 1 : 0);
+		bool L_23 = V_7;
+		if (L_23)
+		{
+			goto IL_004b;
+		}
+	}
+	{
+		int32_t L_24 = V_4;
+		V_4 = ((int32_t)il2cpp_codegen_add(L_24, 1));
+	}
+
+IL_0080:
+	{
+		int32_t L_25 = V_4;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_26 = ___0_X;
+		NullCheck(L_26);
+		int32_t L_27;
+		L_27 = Tensor_get_height_m0477A83109747FF1DA788569602DA2293D762AC1(L_26, NULL);
+		V_8 = (bool)((((int32_t)L_25) < ((int32_t)L_27))? 1 : 0);
+		bool L_28 = V_8;
+		if (L_28)
+		{
+			goto IL_0046;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_29 = V_0;
+		int32_t L_30 = V_1;
+		int32_t L_31 = V_2;
+		float L_32 = V_3;
+		NullCheck(L_29);
+		Tensor_set_Item_m7EF9E435A07905132E0C8C33A6C5A90E1E22BF58(L_29, L_30, 0, 0, L_31, L_32, NULL);
+		int32_t L_33 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_33, 1));
+	}
+
+IL_00a1:
+	{
+		int32_t L_34 = V_2;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_35 = ___0_X;
+		NullCheck(L_35);
+		int32_t L_36;
+		L_36 = Tensor_get_channels_m9DA46CF71B1C47E059EA3417C6A652E1233B5D04(L_35, NULL);
+		V_9 = (bool)((((int32_t)L_34) < ((int32_t)L_36))? 1 : 0);
+		bool L_37 = V_9;
+		if (L_37)
+		{
+			goto IL_003a;
+		}
+	}
+	{
+		int32_t L_38 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_38, 1));
+	}
+
+IL_00b4:
+	{
+		int32_t L_39 = V_1;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_40 = ___0_X;
+		NullCheck(L_40);
+		int32_t L_41;
+		L_41 = Tensor_get_batch_m6CD93DCCD32D6A47FDEDEBFF16FF70AC9C586DD9(L_40, NULL);
+		V_10 = (bool)((((int32_t)L_39) < ((int32_t)L_41))? 1 : 0);
+		bool L_42 = V_10;
+		if (L_42)
+		{
+			goto IL_0036;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_43 = V_0;
+		V_11 = L_43;
+		goto IL_00cb;
+	}
+
+IL_00cb:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_44 = V_11;
+		return L_44;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_GlobalAvgPool2D_m1482525A95FF13FF03989651499BA3E0E95F2931 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		s_Il2CppMethodInitialized = true;
+	}
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_0 = NULL;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	float V_3 = 0.0f;
+	int32_t V_4 = 0;
+	int32_t V_5 = 0;
+	float V_6 = 0.0f;
+	bool V_7 = false;
+	bool V_8 = false;
+	bool V_9 = false;
+	bool V_10 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_11 = NULL;
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_0 = ___0_X;
+		NullCheck(L_0);
+		int32_t L_1;
+		L_1 = Tensor_get_dataType_m57109C88C5386735035BB4066BAACD68228C3AB1(L_0, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_2 = ___0_X;
+		NullCheck(L_2);
+		int32_t L_3;
+		L_3 = Tensor_get_batch_m6CD93DCCD32D6A47FDEDEBFF16FF70AC9C586DD9(L_2, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_4 = ___0_X;
+		NullCheck(L_4);
+		int32_t L_5;
+		L_5 = Tensor_get_channels_m9DA46CF71B1C47E059EA3417C6A652E1233B5D04(L_4, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_6;
+		L_6 = ReferenceCPUOps_NewTensor_m3EF74B4420F55BBDE8F8C0FF99F0065052535404(__this, L_1, L_3, 1, 1, L_5, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
+		V_0 = L_6;
+		V_1 = 0;
+		goto IL_00b4;
+	}
+
+IL_0028:
+	{
+		V_2 = 0;
+		goto IL_009e;
+	}
+
+IL_002c:
+	{
+		V_3 = (0.0f);
+		V_4 = 0;
+		goto IL_006e;
+	}
+
+IL_0038:
+	{
+		V_5 = 0;
+		goto IL_0058;
+	}
+
+IL_003d:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_7 = ___0_X;
+		int32_t L_8 = V_1;
+		int32_t L_9 = V_4;
+		int32_t L_10 = V_5;
+		int32_t L_11 = V_2;
+		NullCheck(L_7);
+		float L_12;
+		L_12 = Tensor_get_Item_mA53C387CBDB9F0EA0D069DD7BFC45970172290C5(L_7, L_8, L_9, L_10, L_11, NULL);
+		V_6 = L_12;
+		float L_13 = V_3;
+		float L_14 = V_6;
+		V_3 = ((float)il2cpp_codegen_add(L_13, L_14));
+		int32_t L_15 = V_5;
+		V_5 = ((int32_t)il2cpp_codegen_add(L_15, 1));
+	}
+
+IL_0058:
+	{
+		int32_t L_16 = V_5;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_17 = ___0_X;
+		NullCheck(L_17);
+		int32_t L_18;
+		L_18 = Tensor_get_width_m9E948C3769B41324EB12D54CE6E2E51DC18DC488(L_17, NULL);
+		V_7 = (bool)((((int32_t)L_16) < ((int32_t)L_18))? 1 : 0);
+		bool L_19 = V_7;
+		if (L_19)
+		{
+			goto IL_003d;
+		}
+	}
+	{
+		int32_t L_20 = V_4;
+		V_4 = ((int32_t)il2cpp_codegen_add(L_20, 1));
+	}
+
+IL_006e:
+	{
+		int32_t L_21 = V_4;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_22 = ___0_X;
+		NullCheck(L_22);
+		int32_t L_23;
+		L_23 = Tensor_get_height_m0477A83109747FF1DA788569602DA2293D762AC1(L_22, NULL);
+		V_8 = (bool)((((int32_t)L_21) < ((int32_t)L_23))? 1 : 0);
+		bool L_24 = V_8;
+		if (L_24)
+		{
+			goto IL_0038;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_25 = V_0;
+		int32_t L_26 = V_1;
+		int32_t L_27 = V_2;
+		float L_28 = V_3;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_29 = ___0_X;
+		NullCheck(L_29);
+		int32_t L_30;
+		L_30 = Tensor_get_width_m9E948C3769B41324EB12D54CE6E2E51DC18DC488(L_29, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_31 = ___0_X;
+		NullCheck(L_31);
+		int32_t L_32;
+		L_32 = Tensor_get_height_m0477A83109747FF1DA788569602DA2293D762AC1(L_31, NULL);
+		NullCheck(L_25);
+		Tensor_set_Item_m7EF9E435A07905132E0C8C33A6C5A90E1E22BF58(L_25, L_26, 0, 0, L_27, ((float)(L_28/((float)((int32_t)il2cpp_codegen_multiply(L_30, L_32))))), NULL);
+		int32_t L_33 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_33, 1));
+	}
+
+IL_009e:
+	{
+		int32_t L_34 = V_2;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_35 = ___0_X;
+		NullCheck(L_35);
+		int32_t L_36;
+		L_36 = Tensor_get_channels_m9DA46CF71B1C47E059EA3417C6A652E1233B5D04(L_35, NULL);
+		V_9 = (bool)((((int32_t)L_34) < ((int32_t)L_36))? 1 : 0);
+		bool L_37 = V_9;
+		if (L_37)
+		{
+			goto IL_002c;
+		}
+	}
+	{
+		int32_t L_38 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_38, 1));
+	}
+
+IL_00b4:
+	{
+		int32_t L_39 = V_1;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_40 = ___0_X;
+		NullCheck(L_40);
+		int32_t L_41;
+		L_41 = Tensor_get_batch_m6CD93DCCD32D6A47FDEDEBFF16FF70AC9C586DD9(L_40, NULL);
+		V_10 = (bool)((((int32_t)L_39) < ((int32_t)L_41))? 1 : 0);
+		bool L_42 = V_10;
+		if (L_42)
+		{
+			goto IL_0028;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_43 = V_0;
+		V_11 = L_43;
+		goto IL_00cb;
+	}
+
+IL_00cb:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_44 = V_11;
+		return L_44;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_GlobalAvgVariancePool2D_m34447A037F37712855F22CBF55B31F33796C1889 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		s_Il2CppMethodInitialized = true;
+	}
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_0 = NULL;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	float V_3 = 0.0f;
+	float V_4 = 0.0f;
+	int32_t V_5 = 0;
+	int32_t V_6 = 0;
+	float V_7 = 0.0f;
+	bool V_8 = false;
+	bool V_9 = false;
+	bool V_10 = false;
+	bool V_11 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_12 = NULL;
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_0 = ___0_X;
+		NullCheck(L_0);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_1;
+		L_1 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_0, NULL);
+		bool L_2;
+		L_2 = TensorExtensions_Is4D_m1BB4A7DABDDBDB4046C16B6833336A64CD5A0C86(L_1, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_IsTrue_mE42C53B7220324D1FBAFB7AE48A7D8DD7796A663(L_2, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_3 = ___0_X;
+		NullCheck(L_3);
+		int32_t L_4;
+		L_4 = Tensor_get_dataType_m57109C88C5386735035BB4066BAACD68228C3AB1(L_3, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_5 = ___0_X;
+		NullCheck(L_5);
+		int32_t L_6;
+		L_6 = Tensor_get_batch_m6CD93DCCD32D6A47FDEDEBFF16FF70AC9C586DD9(L_5, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_7 = ___0_X;
+		NullCheck(L_7);
+		int32_t L_8;
+		L_8 = Tensor_get_channels_m9DA46CF71B1C47E059EA3417C6A652E1233B5D04(L_7, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_9;
+		L_9 = ReferenceCPUOps_NewTensor_m3EF74B4420F55BBDE8F8C0FF99F0065052535404(__this, L_4, L_6, 2, 1, L_8, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
+		V_0 = L_9;
+		V_1 = 0;
+		goto IL_00ff;
+	}
+
+IL_0039:
+	{
+		V_2 = 0;
+		goto IL_00e9;
+	}
+
+IL_0040:
+	{
+		V_3 = (0.0f);
+		V_4 = (0.0f);
+		V_5 = 0;
+		goto IL_0093;
+	}
+
+IL_0053:
+	{
+		V_6 = 0;
+		goto IL_007d;
+	}
+
+IL_0058:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_10 = ___0_X;
+		int32_t L_11 = V_1;
+		int32_t L_12 = V_5;
+		int32_t L_13 = V_6;
+		int32_t L_14 = V_2;
+		NullCheck(L_10);
+		float L_15;
+		L_15 = Tensor_get_Item_mA53C387CBDB9F0EA0D069DD7BFC45970172290C5(L_10, L_11, L_12, L_13, L_14, NULL);
+		V_7 = L_15;
+		float L_16 = V_3;
+		float L_17 = V_7;
+		V_3 = ((float)il2cpp_codegen_add(L_16, L_17));
+		float L_18 = V_4;
+		float L_19 = V_7;
+		float L_20 = V_7;
+		V_4 = ((float)il2cpp_codegen_add(L_18, ((float)il2cpp_codegen_multiply(L_19, L_20))));
+		int32_t L_21 = V_6;
+		V_6 = ((int32_t)il2cpp_codegen_add(L_21, 1));
+	}
+
+IL_007d:
+	{
+		int32_t L_22 = V_6;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_23 = ___0_X;
+		NullCheck(L_23);
+		int32_t L_24;
+		L_24 = Tensor_get_width_m9E948C3769B41324EB12D54CE6E2E51DC18DC488(L_23, NULL);
+		V_8 = (bool)((((int32_t)L_22) < ((int32_t)L_24))? 1 : 0);
+		bool L_25 = V_8;
+		if (L_25)
+		{
+			goto IL_0058;
+		}
+	}
+	{
+		int32_t L_26 = V_5;
+		V_5 = ((int32_t)il2cpp_codegen_add(L_26, 1));
+	}
+
+IL_0093:
+	{
+		int32_t L_27 = V_5;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_28 = ___0_X;
+		NullCheck(L_28);
+		int32_t L_29;
+		L_29 = Tensor_get_height_m0477A83109747FF1DA788569602DA2293D762AC1(L_28, NULL);
+		V_9 = (bool)((((int32_t)L_27) < ((int32_t)L_29))? 1 : 0);
+		bool L_30 = V_9;
+		if (L_30)
+		{
+			goto IL_0053;
+		}
+	}
+	{
+		float L_31 = V_3;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_32 = ___0_X;
+		NullCheck(L_32);
+		int32_t L_33;
+		L_33 = Tensor_get_width_m9E948C3769B41324EB12D54CE6E2E51DC18DC488(L_32, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_34 = ___0_X;
+		NullCheck(L_34);
+		int32_t L_35;
+		L_35 = Tensor_get_height_m0477A83109747FF1DA788569602DA2293D762AC1(L_34, NULL);
+		V_3 = ((float)(L_31/((float)((int32_t)il2cpp_codegen_multiply(L_33, L_35)))));
+		float L_36 = V_4;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_37 = ___0_X;
+		NullCheck(L_37);
+		int32_t L_38;
+		L_38 = Tensor_get_width_m9E948C3769B41324EB12D54CE6E2E51DC18DC488(L_37, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_39 = ___0_X;
+		NullCheck(L_39);
+		int32_t L_40;
+		L_40 = Tensor_get_height_m0477A83109747FF1DA788569602DA2293D762AC1(L_39, NULL);
+		V_4 = ((float)(L_36/((float)((int32_t)il2cpp_codegen_multiply(L_38, L_40)))));
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_41 = V_0;
+		int32_t L_42 = V_1;
+		int32_t L_43 = V_2;
+		float L_44 = V_3;
+		NullCheck(L_41);
+		Tensor_set_Item_m7EF9E435A07905132E0C8C33A6C5A90E1E22BF58(L_41, L_42, 0, 0, L_43, L_44, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_45 = V_0;
+		int32_t L_46 = V_1;
+		int32_t L_47 = V_2;
+		float L_48 = V_4;
+		float L_49 = V_3;
+		float L_50 = V_3;
+		NullCheck(L_45);
+		Tensor_set_Item_m7EF9E435A07905132E0C8C33A6C5A90E1E22BF58(L_45, L_46, 1, 0, L_47, ((float)il2cpp_codegen_subtract(L_48, ((float)il2cpp_codegen_multiply(L_49, L_50)))), NULL);
+		int32_t L_51 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_51, 1));
+	}
+
+IL_00e9:
+	{
+		int32_t L_52 = V_2;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_53 = ___0_X;
+		NullCheck(L_53);
+		int32_t L_54;
+		L_54 = Tensor_get_channels_m9DA46CF71B1C47E059EA3417C6A652E1233B5D04(L_53, NULL);
+		V_10 = (bool)((((int32_t)L_52) < ((int32_t)L_54))? 1 : 0);
+		bool L_55 = V_10;
+		if (L_55)
+		{
+			goto IL_0040;
+		}
+	}
+	{
+		int32_t L_56 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_56, 1));
+	}
+
+IL_00ff:
+	{
+		int32_t L_57 = V_1;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_58 = ___0_X;
+		NullCheck(L_58);
+		int32_t L_59;
+		L_59 = Tensor_get_batch_m6CD93DCCD32D6A47FDEDEBFF16FF70AC9C586DD9(L_58, NULL);
+		V_11 = (bool)((((int32_t)L_57) < ((int32_t)L_59))? 1 : 0);
+		bool L_60 = V_11;
+		if (L_60)
+		{
+			goto IL_0039;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_61 = V_0;
+		V_12 = L_61;
+		goto IL_0116;
+	}
+
+IL_0116:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_62 = V_12;
+		return L_62;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_ApplyPadding_m525EE4A58B6DA3FCEF352C51BAB3DDF47ABEA64C (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___1_pad, Func_7_tAD061F9712D11BFA0CB2E1EBCCB7E4743E48EC77* ___2_paddingOp, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_0 = NULL;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	int32_t V_4 = 0;
+	int32_t V_5 = 0;
+	int32_t V_6 = 0;
+	int32_t V_7 = 0;
+	int32_t V_8 = 0;
+	int32_t V_9 = 0;
+	int32_t V_10 = 0;
+	int32_t V_11 = 0;
+	int32_t V_12 = 0;
+	int32_t V_13 = 0;
+	int32_t V_14 = 0;
+	int32_t V_15 = 0;
+	int32_t V_16 = 0;
+	int32_t V_17 = 0;
+	int32_t V_18 = 0;
+	int32_t V_19 = 0;
+	int32_t V_20 = 0;
+	int32_t V_21 = 0;
+	bool V_22 = false;
+	bool V_23 = false;
+	bool V_24 = false;
+	bool V_25 = false;
+	bool V_26 = false;
+	bool V_27 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_28 = NULL;
+	int32_t G_B3_0 = 0;
+	int32_t G_B6_0 = 0;
+	int32_t G_B9_0 = 0;
+	int32_t G_B12_0 = 0;
+	int32_t G_B15_0 = 0;
+	int32_t G_B18_0 = 0;
+	int32_t G_B21_0 = 0;
+	int32_t G_B35_0 = 0;
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_0 = ___0_X;
+		NullCheck(L_0);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_1;
+		L_1 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_0, NULL);
+		bool L_2;
+		L_2 = TensorExtensions_IsNDHWC_mAE6BCD15589A659050B19303629AD7252E90A49C(L_1, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_IsTrue_mE42C53B7220324D1FBAFB7AE48A7D8DD7796A663(L_2, NULL);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_3 = ___1_pad;
+		NullCheck(L_3);
+		if ((((int32_t)((int32_t)(((RuntimeArray*)L_3)->max_length))) == ((int32_t)6)))
+		{
+			goto IL_0020;
+		}
+	}
+	{
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_4 = ___1_pad;
+		NullCheck(L_4);
+		G_B3_0 = ((((int32_t)((int32_t)(((RuntimeArray*)L_4)->max_length))) == ((int32_t)8))? 1 : 0);
+		goto IL_0021;
+	}
+
+IL_0020:
+	{
+		G_B3_0 = 1;
+	}
+
+IL_0021:
+	{
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_IsTrue_mE42C53B7220324D1FBAFB7AE48A7D8DD7796A663((bool)G_B3_0, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_5 = ___0_X;
+		NullCheck(L_5);
+		int32_t L_6;
+		L_6 = Tensor_get_dataType_m57109C88C5386735035BB4066BAACD68228C3AB1(L_5, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_7 = ___0_X;
+		NullCheck(L_7);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_8;
+		L_8 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_7, NULL);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_9 = ___1_pad;
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_10;
+		L_10 = TensorExtensions_ApplyBorder_m9E9BBD248EA93738E1D3C05DA0140DFCCFF5B065(L_8, L_9, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_11;
+		L_11 = ReferenceCPUOps_NewTensor_m74008D9C77785A62165EBEF61281FBB9CB42DAAF(__this, L_6, L_10, NULL);
+		V_0 = L_11;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_12 = ___1_pad;
+		NullCheck(L_12);
+		int32_t L_13 = 0;
+		int32_t L_14 = (L_12)->GetAt(static_cast<il2cpp_array_size_t>(L_13));
+		V_1 = L_14;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_15 = ___1_pad;
+		NullCheck(L_15);
+		int32_t L_16 = 1;
+		int32_t L_17 = (L_15)->GetAt(static_cast<il2cpp_array_size_t>(L_16));
+		V_2 = L_17;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_18 = ___1_pad;
+		NullCheck(L_18);
+		if ((((int32_t)((int32_t)(((RuntimeArray*)L_18)->max_length))) == ((int32_t)6)))
+		{
+			goto IL_0053;
+		}
+	}
+	{
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_19 = ___1_pad;
+		NullCheck(L_19);
+		int32_t L_20 = 2;
+		int32_t L_21 = (L_19)->GetAt(static_cast<il2cpp_array_size_t>(L_20));
+		G_B6_0 = L_21;
+		goto IL_0054;
+	}
+
+IL_0053:
+	{
+		G_B6_0 = 0;
+	}
+
+IL_0054:
+	{
+		V_3 = G_B6_0;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_22 = ___1_pad;
+		NullCheck(L_22);
+		if ((((int32_t)((int32_t)(((RuntimeArray*)L_22)->max_length))) == ((int32_t)6)))
+		{
+			goto IL_0060;
+		}
+	}
+	{
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_23 = ___1_pad;
+		NullCheck(L_23);
+		int32_t L_24 = 3;
+		int32_t L_25 = (L_23)->GetAt(static_cast<il2cpp_array_size_t>(L_24));
+		G_B9_0 = L_25;
+		goto IL_0063;
+	}
+
+IL_0060:
+	{
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_26 = ___1_pad;
+		NullCheck(L_26);
+		int32_t L_27 = 2;
+		int32_t L_28 = (L_26)->GetAt(static_cast<il2cpp_array_size_t>(L_27));
+		G_B9_0 = L_28;
+	}
+
+IL_0063:
+	{
+		V_4 = G_B9_0;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_29 = ___1_pad;
+		NullCheck(L_29);
+		if ((((int32_t)((int32_t)(((RuntimeArray*)L_29)->max_length))) == ((int32_t)6)))
+		{
+			goto IL_0070;
+		}
+	}
+	{
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_30 = ___1_pad;
+		NullCheck(L_30);
+		int32_t L_31 = 4;
+		int32_t L_32 = (L_30)->GetAt(static_cast<il2cpp_array_size_t>(L_31));
+		G_B12_0 = L_32;
+		goto IL_0073;
+	}
+
+IL_0070:
+	{
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_33 = ___1_pad;
+		NullCheck(L_33);
+		int32_t L_34 = 3;
+		int32_t L_35 = (L_33)->GetAt(static_cast<il2cpp_array_size_t>(L_34));
+		G_B12_0 = L_35;
+	}
+
+IL_0073:
+	{
+		V_5 = G_B12_0;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_36 = ___1_pad;
+		NullCheck(L_36);
+		if ((((int32_t)((int32_t)(((RuntimeArray*)L_36)->max_length))) == ((int32_t)6)))
+		{
+			goto IL_0080;
+		}
+	}
+	{
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_37 = ___1_pad;
+		NullCheck(L_37);
+		int32_t L_38 = 5;
+		int32_t L_39 = (L_37)->GetAt(static_cast<il2cpp_array_size_t>(L_38));
+		G_B15_0 = L_39;
+		goto IL_0083;
+	}
+
+IL_0080:
+	{
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_40 = ___1_pad;
+		NullCheck(L_40);
+		int32_t L_41 = 4;
+		int32_t L_42 = (L_40)->GetAt(static_cast<il2cpp_array_size_t>(L_41));
+		G_B15_0 = L_42;
+	}
+
+IL_0083:
+	{
+		V_6 = G_B15_0;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_43 = ___1_pad;
+		NullCheck(L_43);
+		if ((((int32_t)((int32_t)(((RuntimeArray*)L_43)->max_length))) == ((int32_t)6)))
+		{
+			goto IL_0090;
+		}
+	}
+	{
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_44 = ___1_pad;
+		NullCheck(L_44);
+		int32_t L_45 = 6;
+		int32_t L_46 = (L_44)->GetAt(static_cast<il2cpp_array_size_t>(L_45));
+		G_B18_0 = L_46;
+		goto IL_0091;
+	}
+
+IL_0090:
+	{
+		G_B18_0 = 0;
+	}
+
+IL_0091:
+	{
+		V_7 = G_B18_0;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_47 = ___1_pad;
+		NullCheck(L_47);
+		if ((((int32_t)((int32_t)(((RuntimeArray*)L_47)->max_length))) == ((int32_t)6)))
+		{
+			goto IL_009e;
+		}
+	}
+	{
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_48 = ___1_pad;
+		NullCheck(L_48);
+		int32_t L_49 = 7;
+		int32_t L_50 = (L_48)->GetAt(static_cast<il2cpp_array_size_t>(L_49));
+		G_B21_0 = L_50;
+		goto IL_00a1;
+	}
+
+IL_009e:
+	{
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_51 = ___1_pad;
+		NullCheck(L_51);
+		int32_t L_52 = 5;
+		int32_t L_53 = (L_51)->GetAt(static_cast<il2cpp_array_size_t>(L_52));
+		G_B21_0 = L_53;
+	}
+
+IL_00a1:
+	{
+		V_8 = G_B21_0;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_54 = ___0_X;
+		NullCheck(L_54);
+		int32_t L_55;
+		L_55 = Tensor_get_width_m9E948C3769B41324EB12D54CE6E2E51DC18DC488(L_54, NULL);
+		int32_t L_56 = V_5;
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		int32_t L_57;
+		L_57 = Math_Max_m530EBA549AFD98CFC2BD29FE86C6376E67DF11CF(0, ((-L_56)), NULL);
+		V_9 = ((int32_t)il2cpp_codegen_subtract(L_55, L_57));
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_58 = ___0_X;
+		NullCheck(L_58);
+		int32_t L_59;
+		L_59 = Tensor_get_height_m0477A83109747FF1DA788569602DA2293D762AC1(L_58, NULL);
+		int32_t L_60 = V_6;
+		int32_t L_61;
+		L_61 = Math_Max_m530EBA549AFD98CFC2BD29FE86C6376E67DF11CF(0, ((-L_60)), NULL);
+		V_10 = ((int32_t)il2cpp_codegen_subtract(L_59, L_61));
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_62 = ___0_X;
+		NullCheck(L_62);
+		int32_t L_63;
+		L_63 = Tensor_get_depth_mCBD84F5F780C2550B3D41F0EE99DC72FD5D93B91(L_62, NULL);
+		int32_t L_64 = V_7;
+		int32_t L_65;
+		L_65 = Math_Max_m530EBA549AFD98CFC2BD29FE86C6376E67DF11CF(0, ((-L_64)), NULL);
+		V_11 = ((int32_t)il2cpp_codegen_subtract(L_63, L_65));
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_66 = ___0_X;
+		NullCheck(L_66);
+		int32_t L_67;
+		L_67 = Tensor_get_channels_m9DA46CF71B1C47E059EA3417C6A652E1233B5D04(L_66, NULL);
+		int32_t L_68 = V_8;
+		int32_t L_69;
+		L_69 = Math_Max_m530EBA549AFD98CFC2BD29FE86C6376E67DF11CF(0, ((-L_68)), NULL);
+		V_12 = ((int32_t)il2cpp_codegen_subtract(L_67, L_69));
+		V_13 = 0;
+		goto IL_0219;
+	}
+
+IL_00f3:
+	{
+		V_14 = 0;
+		goto IL_0200;
+	}
+
+IL_00fb:
+	{
+		V_15 = 0;
+		goto IL_01e7;
+	}
+
+IL_0103:
+	{
+		V_16 = 0;
+		goto IL_01ce;
+	}
+
+IL_010b:
+	{
+		V_17 = 0;
+		goto IL_01b5;
+	}
+
+IL_0113:
+	{
+		int32_t L_70 = V_16;
+		int32_t L_71 = V_1;
+		V_18 = ((int32_t)il2cpp_codegen_subtract(L_70, L_71));
+		int32_t L_72 = V_15;
+		int32_t L_73 = V_2;
+		V_19 = ((int32_t)il2cpp_codegen_subtract(L_72, L_73));
+		int32_t L_74 = V_14;
+		int32_t L_75 = V_3;
+		V_20 = ((int32_t)il2cpp_codegen_subtract(L_74, L_75));
+		int32_t L_76 = V_17;
+		int32_t L_77 = V_4;
+		V_21 = ((int32_t)il2cpp_codegen_subtract(L_76, L_77));
+		int32_t L_78 = V_18;
+		if ((((int32_t)L_78) < ((int32_t)0)))
+		{
+			goto IL_015e;
+		}
+	}
+	{
+		int32_t L_79 = V_18;
+		int32_t L_80 = V_9;
+		if ((((int32_t)L_79) >= ((int32_t)L_80)))
+		{
+			goto IL_015e;
+		}
+	}
+	{
+		int32_t L_81 = V_19;
+		if ((((int32_t)L_81) < ((int32_t)0)))
+		{
+			goto IL_015e;
+		}
+	}
+	{
+		int32_t L_82 = V_19;
+		int32_t L_83 = V_10;
+		if ((((int32_t)L_82) >= ((int32_t)L_83)))
+		{
+			goto IL_015e;
+		}
+	}
+	{
+		int32_t L_84 = V_20;
+		if ((((int32_t)L_84) < ((int32_t)0)))
+		{
+			goto IL_015e;
+		}
+	}
+	{
+		int32_t L_85 = V_20;
+		int32_t L_86 = V_11;
+		if ((((int32_t)L_85) >= ((int32_t)L_86)))
+		{
+			goto IL_015e;
+		}
+	}
+	{
+		int32_t L_87 = V_21;
+		if ((((int32_t)L_87) < ((int32_t)0)))
+		{
+			goto IL_015e;
+		}
+	}
+	{
+		int32_t L_88 = V_21;
+		int32_t L_89 = V_12;
+		G_B35_0 = ((((int32_t)((((int32_t)L_88) < ((int32_t)L_89))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		goto IL_015f;
+	}
+
+IL_015e:
+	{
+		G_B35_0 = 1;
+	}
+
+IL_015f:
+	{
+		V_22 = (bool)G_B35_0;
+		bool L_90 = V_22;
+		if (!L_90)
+		{
+			goto IL_018b;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_91 = V_0;
+		int32_t L_92 = V_13;
+		int32_t L_93 = V_14;
+		int32_t L_94 = V_15;
+		int32_t L_95 = V_16;
+		int32_t L_96 = V_17;
+		Func_7_tAD061F9712D11BFA0CB2E1EBCCB7E4743E48EC77* L_97 = ___2_paddingOp;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_98 = ___0_X;
+		int32_t L_99 = V_13;
+		int32_t L_100 = V_20;
+		int32_t L_101 = V_19;
+		int32_t L_102 = V_18;
+		int32_t L_103 = V_21;
+		NullCheck(L_97);
+		float L_104;
+		L_104 = Func_7_Invoke_m291CE77F6889BACD58F057269775193B4CD38682_inline(L_97, L_98, L_99, L_100, L_101, L_102, L_103, NULL);
+		NullCheck(L_91);
+		Tensor_set_Item_m2DB3060AC1B6388733DCEBDBDA2FA5A27F40FB42(L_91, L_92, L_93, L_94, L_95, L_96, L_104, NULL);
+		goto IL_01ae;
+	}
+
+IL_018b:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_105 = V_0;
+		int32_t L_106 = V_13;
+		int32_t L_107 = V_14;
+		int32_t L_108 = V_15;
+		int32_t L_109 = V_16;
+		int32_t L_110 = V_17;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_111 = ___0_X;
+		int32_t L_112 = V_13;
+		int32_t L_113 = V_20;
+		int32_t L_114 = V_19;
+		int32_t L_115 = V_18;
+		int32_t L_116 = V_21;
+		NullCheck(L_111);
+		float L_117;
+		L_117 = Tensor_get_Item_mA5356D6E69A9A737CAAC9469CD796413667F784C(L_111, L_112, L_113, L_114, L_115, L_116, NULL);
+		NullCheck(L_105);
+		Tensor_set_Item_m2DB3060AC1B6388733DCEBDBDA2FA5A27F40FB42(L_105, L_106, L_107, L_108, L_109, L_110, L_117, NULL);
+	}
+
+IL_01ae:
+	{
+		int32_t L_118 = V_17;
+		V_17 = ((int32_t)il2cpp_codegen_add(L_118, 1));
+	}
+
+IL_01b5:
+	{
+		int32_t L_119 = V_17;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_120 = V_0;
+		NullCheck(L_120);
+		int32_t L_121;
+		L_121 = Tensor_get_channels_m9DA46CF71B1C47E059EA3417C6A652E1233B5D04(L_120, NULL);
+		V_23 = (bool)((((int32_t)L_119) < ((int32_t)L_121))? 1 : 0);
+		bool L_122 = V_23;
+		if (L_122)
+		{
+			goto IL_0113;
+		}
+	}
+	{
+		int32_t L_123 = V_16;
+		V_16 = ((int32_t)il2cpp_codegen_add(L_123, 1));
+	}
+
+IL_01ce:
+	{
+		int32_t L_124 = V_16;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_125 = V_0;
+		NullCheck(L_125);
+		int32_t L_126;
+		L_126 = Tensor_get_width_m9E948C3769B41324EB12D54CE6E2E51DC18DC488(L_125, NULL);
+		V_24 = (bool)((((int32_t)L_124) < ((int32_t)L_126))? 1 : 0);
+		bool L_127 = V_24;
+		if (L_127)
+		{
+			goto IL_010b;
+		}
+	}
+	{
+		int32_t L_128 = V_15;
+		V_15 = ((int32_t)il2cpp_codegen_add(L_128, 1));
+	}
+
+IL_01e7:
+	{
+		int32_t L_129 = V_15;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_130 = V_0;
+		NullCheck(L_130);
+		int32_t L_131;
+		L_131 = Tensor_get_height_m0477A83109747FF1DA788569602DA2293D762AC1(L_130, NULL);
+		V_25 = (bool)((((int32_t)L_129) < ((int32_t)L_131))? 1 : 0);
+		bool L_132 = V_25;
+		if (L_132)
+		{
+			goto IL_0103;
+		}
+	}
+	{
+		int32_t L_133 = V_14;
+		V_14 = ((int32_t)il2cpp_codegen_add(L_133, 1));
+	}
+
+IL_0200:
+	{
+		int32_t L_134 = V_14;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_135 = V_0;
+		NullCheck(L_135);
+		int32_t L_136;
+		L_136 = Tensor_get_depth_mCBD84F5F780C2550B3D41F0EE99DC72FD5D93B91(L_135, NULL);
+		V_26 = (bool)((((int32_t)L_134) < ((int32_t)L_136))? 1 : 0);
+		bool L_137 = V_26;
+		if (L_137)
+		{
+			goto IL_00fb;
+		}
+	}
+	{
+		int32_t L_138 = V_13;
+		V_13 = ((int32_t)il2cpp_codegen_add(L_138, 1));
+	}
+
+IL_0219:
+	{
+		int32_t L_139 = V_13;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_140 = V_0;
+		NullCheck(L_140);
+		int32_t L_141;
+		L_141 = Tensor_get_batch_m6CD93DCCD32D6A47FDEDEBFF16FF70AC9C586DD9(L_140, NULL);
+		V_27 = (bool)((((int32_t)L_139) < ((int32_t)L_141))? 1 : 0);
+		bool L_142 = V_27;
+		if (L_142)
+		{
+			goto IL_00f3;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_143 = V_0;
+		V_28 = L_143;
+		goto IL_0231;
+	}
+
+IL_0231:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_144 = V_28;
+		return L_144;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_Border2D_m51D74B8557618EC6291FBCBE81AF7A79E5547AFD (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___1_pad, float ___2_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_7_tAD061F9712D11BFA0CB2E1EBCCB7E4743E48EC77_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass40_0_U3CBorder2DU3Eb__0_mD473AF0D077BECD2B95907D4BDFF3476AF609189_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass40_0_t07A00729CE63BCF16CFD5F329220101BCD59D875_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	U3CU3Ec__DisplayClass40_0_t07A00729CE63BCF16CFD5F329220101BCD59D875* V_0 = NULL;
+	Func_7_tAD061F9712D11BFA0CB2E1EBCCB7E4743E48EC77* V_1 = NULL;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_2 = NULL;
+	{
+		U3CU3Ec__DisplayClass40_0_t07A00729CE63BCF16CFD5F329220101BCD59D875* L_0 = (U3CU3Ec__DisplayClass40_0_t07A00729CE63BCF16CFD5F329220101BCD59D875*)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass40_0_t07A00729CE63BCF16CFD5F329220101BCD59D875_il2cpp_TypeInfo_var);
+		U3CU3Ec__DisplayClass40_0__ctor_m13F889BD1EF6E34911B6E6D2CDC143BD4B1CA017(L_0, NULL);
+		V_0 = L_0;
+		U3CU3Ec__DisplayClass40_0_t07A00729CE63BCF16CFD5F329220101BCD59D875* L_1 = V_0;
+		float L_2 = ___2_value;
+		NullCheck(L_1);
+		L_1->___value = L_2;
+		U3CU3Ec__DisplayClass40_0_t07A00729CE63BCF16CFD5F329220101BCD59D875* L_3 = V_0;
+		Func_7_tAD061F9712D11BFA0CB2E1EBCCB7E4743E48EC77* L_4 = (Func_7_tAD061F9712D11BFA0CB2E1EBCCB7E4743E48EC77*)il2cpp_codegen_object_new(Func_7_tAD061F9712D11BFA0CB2E1EBCCB7E4743E48EC77_il2cpp_TypeInfo_var);
+		Func_7__ctor_m8DB560F1A7DD403DF5451DEC6163508D9834A217(L_4, L_3, (intptr_t)((void*)U3CU3Ec__DisplayClass40_0_U3CBorder2DU3Eb__0_mD473AF0D077BECD2B95907D4BDFF3476AF609189_RuntimeMethod_var), NULL);
+		V_1 = L_4;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_5 = ___0_X;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_6 = ___1_pad;
+		Func_7_tAD061F9712D11BFA0CB2E1EBCCB7E4743E48EC77* L_7 = V_1;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_8;
+		L_8 = ReferenceCPUOps_ApplyPadding_m525EE4A58B6DA3FCEF352C51BAB3DDF47ABEA64C(__this, L_5, L_6, L_7, NULL);
+		V_2 = L_8;
+		goto IL_0027;
+	}
+
+IL_0027:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_9 = V_2;
+		return L_9;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_Border3D_m6B232ED9FA9B293D886A64C6F88542E33D9FB243 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___1_pad, float ___2_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_7_tAD061F9712D11BFA0CB2E1EBCCB7E4743E48EC77_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass41_0_U3CBorder3DU3Eb__0_m8EE6506648A8FF7C8FC37F3EF41F65EE368B4B64_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass41_0_t8C56DD2BCEDEF77FFE7DA63D521300C8D54F528D_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	U3CU3Ec__DisplayClass41_0_t8C56DD2BCEDEF77FFE7DA63D521300C8D54F528D* V_0 = NULL;
+	Func_7_tAD061F9712D11BFA0CB2E1EBCCB7E4743E48EC77* V_1 = NULL;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_2 = NULL;
+	{
+		U3CU3Ec__DisplayClass41_0_t8C56DD2BCEDEF77FFE7DA63D521300C8D54F528D* L_0 = (U3CU3Ec__DisplayClass41_0_t8C56DD2BCEDEF77FFE7DA63D521300C8D54F528D*)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass41_0_t8C56DD2BCEDEF77FFE7DA63D521300C8D54F528D_il2cpp_TypeInfo_var);
+		U3CU3Ec__DisplayClass41_0__ctor_m18FBB8A022814B0B3DE04498A48A52F290850F1A(L_0, NULL);
+		V_0 = L_0;
+		U3CU3Ec__DisplayClass41_0_t8C56DD2BCEDEF77FFE7DA63D521300C8D54F528D* L_1 = V_0;
+		float L_2 = ___2_value;
+		NullCheck(L_1);
+		L_1->___value = L_2;
+		U3CU3Ec__DisplayClass41_0_t8C56DD2BCEDEF77FFE7DA63D521300C8D54F528D* L_3 = V_0;
+		Func_7_tAD061F9712D11BFA0CB2E1EBCCB7E4743E48EC77* L_4 = (Func_7_tAD061F9712D11BFA0CB2E1EBCCB7E4743E48EC77*)il2cpp_codegen_object_new(Func_7_tAD061F9712D11BFA0CB2E1EBCCB7E4743E48EC77_il2cpp_TypeInfo_var);
+		Func_7__ctor_m8DB560F1A7DD403DF5451DEC6163508D9834A217(L_4, L_3, (intptr_t)((void*)U3CU3Ec__DisplayClass41_0_U3CBorder3DU3Eb__0_m8EE6506648A8FF7C8FC37F3EF41F65EE368B4B64_RuntimeMethod_var), NULL);
+		V_1 = L_4;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_5 = ___0_X;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_6 = ___1_pad;
+		Func_7_tAD061F9712D11BFA0CB2E1EBCCB7E4743E48EC77* L_7 = V_1;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_8;
+		L_8 = ReferenceCPUOps_ApplyPadding_m525EE4A58B6DA3FCEF352C51BAB3DDF47ABEA64C(__this, L_5, L_6, L_7, NULL);
+		V_2 = L_8;
+		goto IL_0027;
+	}
+
+IL_0027:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_9 = V_2;
+		return L_9;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReferenceCPUOps_ClampHWCToTensorShape_m3823687E0560CB403F02F66486CC37EA635EED71 (TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 ___0_shape, int32_t* ___1_height, int32_t* ___2_width, int32_t* ___3_channels, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int32_t* L_0 = ___2_width;
+		int32_t* L_1 = ___2_width;
+		int32_t L_2 = *((int32_t*)L_1);
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		int32_t L_3;
+		L_3 = Math_Max_m530EBA549AFD98CFC2BD29FE86C6376E67DF11CF(L_2, 0, NULL);
+		*((int32_t*)L_0) = (int32_t)L_3;
+		int32_t* L_4 = ___1_height;
+		int32_t* L_5 = ___1_height;
+		int32_t L_6 = *((int32_t*)L_5);
+		int32_t L_7;
+		L_7 = Math_Max_m530EBA549AFD98CFC2BD29FE86C6376E67DF11CF(L_6, 0, NULL);
+		*((int32_t*)L_4) = (int32_t)L_7;
+		int32_t* L_8 = ___3_channels;
+		int32_t* L_9 = ___3_channels;
+		int32_t L_10 = *((int32_t*)L_9);
+		int32_t L_11;
+		L_11 = Math_Max_m530EBA549AFD98CFC2BD29FE86C6376E67DF11CF(L_10, 0, NULL);
+		*((int32_t*)L_8) = (int32_t)L_11;
+		int32_t* L_12 = ___2_width;
+		int32_t* L_13 = ___2_width;
+		int32_t L_14 = *((int32_t*)L_13);
+		int32_t L_15;
+		L_15 = TensorShape_get_width_m56A7458F96AE9D7CA09EBD26818829F744B9535E((&___0_shape), NULL);
+		int32_t L_16;
+		L_16 = Math_Min_m53C488772A34D53917BCA2A491E79A0A5356ED52(L_14, ((int32_t)il2cpp_codegen_subtract(L_15, 1)), NULL);
+		*((int32_t*)L_12) = (int32_t)L_16;
+		int32_t* L_17 = ___1_height;
+		int32_t* L_18 = ___1_height;
+		int32_t L_19 = *((int32_t*)L_18);
+		int32_t L_20;
+		L_20 = TensorShape_get_height_m8B91777B58E0A3DA03D0D4321E808881FED66B49((&___0_shape), NULL);
+		int32_t L_21;
+		L_21 = Math_Min_m53C488772A34D53917BCA2A491E79A0A5356ED52(L_19, ((int32_t)il2cpp_codegen_subtract(L_20, 1)), NULL);
+		*((int32_t*)L_17) = (int32_t)L_21;
+		int32_t* L_22 = ___3_channels;
+		int32_t* L_23 = ___3_channels;
+		int32_t L_24 = *((int32_t*)L_23);
+		int32_t L_25;
+		L_25 = TensorShape_get_channels_m0E2F3816D81AD501AD029073DCE1355AE46EF52B((&___0_shape), NULL);
+		int32_t L_26;
+		L_26 = Math_Min_m53C488772A34D53917BCA2A491E79A0A5356ED52(L_24, ((int32_t)il2cpp_codegen_subtract(L_25, 1)), NULL);
+		*((int32_t*)L_22) = (int32_t)L_26;
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_Pad2DReflect_m6AC84F261342D4B153B7D5CC6B7A003121E9081B (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___1_pad, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_7_tAD061F9712D11BFA0CB2E1EBCCB7E4743E48EC77_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ReferenceCPUOps_U3CPad2DReflectU3Eg__GetReflectPaddingU7C43_0_m62B1564F667A3E7AB8FEC113D2D34AE039A2B2F2_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_0 = NULL;
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_0 = ___0_X;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_1 = ___1_pad;
+		Func_7_tAD061F9712D11BFA0CB2E1EBCCB7E4743E48EC77* L_2 = (Func_7_tAD061F9712D11BFA0CB2E1EBCCB7E4743E48EC77*)il2cpp_codegen_object_new(Func_7_tAD061F9712D11BFA0CB2E1EBCCB7E4743E48EC77_il2cpp_TypeInfo_var);
+		Func_7__ctor_m8DB560F1A7DD403DF5451DEC6163508D9834A217(L_2, NULL, (intptr_t)((void*)ReferenceCPUOps_U3CPad2DReflectU3Eg__GetReflectPaddingU7C43_0_m62B1564F667A3E7AB8FEC113D2D34AE039A2B2F2_RuntimeMethod_var), NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_3;
+		L_3 = ReferenceCPUOps_ApplyPadding_m525EE4A58B6DA3FCEF352C51BAB3DDF47ABEA64C(__this, L_0, L_1, L_2, NULL);
+		V_0 = L_3;
+		goto IL_0019;
+	}
+
+IL_0019:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_4 = V_0;
+		return L_4;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_Pad2DSymmetric_mC5DD920A5F53645B39CBD32E0BACC4B659E770AB (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___1_pad, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_7_tAD061F9712D11BFA0CB2E1EBCCB7E4743E48EC77_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ReferenceCPUOps_U3CPad2DSymmetricU3Eg__GetSymmetricPaddingU7C44_0_m4395D0F5D2DBBC53D8B652FE53D6B47317AEC67D_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_0 = NULL;
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_0 = ___0_X;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_1 = ___1_pad;
+		Func_7_tAD061F9712D11BFA0CB2E1EBCCB7E4743E48EC77* L_2 = (Func_7_tAD061F9712D11BFA0CB2E1EBCCB7E4743E48EC77*)il2cpp_codegen_object_new(Func_7_tAD061F9712D11BFA0CB2E1EBCCB7E4743E48EC77_il2cpp_TypeInfo_var);
+		Func_7__ctor_m8DB560F1A7DD403DF5451DEC6163508D9834A217(L_2, NULL, (intptr_t)((void*)ReferenceCPUOps_U3CPad2DSymmetricU3Eg__GetSymmetricPaddingU7C44_0_m4395D0F5D2DBBC53D8B652FE53D6B47317AEC67D_RuntimeMethod_var), NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_3;
+		L_3 = ReferenceCPUOps_ApplyPadding_m525EE4A58B6DA3FCEF352C51BAB3DDF47ABEA64C(__this, L_0, L_1, L_2, NULL);
+		V_0 = L_3;
+		goto IL_0019;
+	}
+
+IL_0019:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_4 = V_0;
+		return L_4;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_Pad2DEdge_m1C58897DA5D03A3E735DB496E8911A7643FCA6AC (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___1_pad, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_7_tAD061F9712D11BFA0CB2E1EBCCB7E4743E48EC77_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ReferenceCPUOps_U3CPad2DEdgeU3Eg__GetEdgePaddingU7C45_0_m40EBA0FBCB6CF59F3DBBF54DF21A476073001C02_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_0 = NULL;
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_0 = ___0_X;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_1 = ___1_pad;
+		Func_7_tAD061F9712D11BFA0CB2E1EBCCB7E4743E48EC77* L_2 = (Func_7_tAD061F9712D11BFA0CB2E1EBCCB7E4743E48EC77*)il2cpp_codegen_object_new(Func_7_tAD061F9712D11BFA0CB2E1EBCCB7E4743E48EC77_il2cpp_TypeInfo_var);
+		Func_7__ctor_m8DB560F1A7DD403DF5451DEC6163508D9834A217(L_2, NULL, (intptr_t)((void*)ReferenceCPUOps_U3CPad2DEdgeU3Eg__GetEdgePaddingU7C45_0_m40EBA0FBCB6CF59F3DBBF54DF21A476073001C02_RuntimeMethod_var), NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_3;
+		L_3 = ReferenceCPUOps_ApplyPadding_m525EE4A58B6DA3FCEF352C51BAB3DDF47ABEA64C(__this, L_0, L_1, L_2, NULL);
+		V_0 = L_3;
+		goto IL_0019;
+	}
+
+IL_0019:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_4 = V_0;
+		return L_4;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_ScaleBias_m2E0211C7CE819D728150AC4C8978C57CCDCB24CF (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___1_S, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___2_B, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_0 = NULL;
+	TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	float V_2 = 0.0f;
+	float V_3 = 0.0f;
+	float V_4 = 0.0f;
+	bool V_5 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_6 = NULL;
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_0 = ___0_X;
+		NullCheck(L_0);
+		int32_t L_1;
+		L_1 = Tensor_get_channels_m9DA46CF71B1C47E059EA3417C6A652E1233B5D04(L_0, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_2 = ___2_B;
+		NullCheck(L_2);
+		int32_t L_3;
+		L_3 = Tensor_get_channels_m9DA46CF71B1C47E059EA3417C6A652E1233B5D04(L_2, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_AreEqual_m718BB4BD31FA3176A3A236F96BC5405EB750D6CF(L_1, L_3, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_4 = ___0_X;
+		NullCheck(L_4);
+		int32_t L_5;
+		L_5 = Tensor_get_channels_m9DA46CF71B1C47E059EA3417C6A652E1233B5D04(L_4, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_6 = ___1_S;
+		NullCheck(L_6);
+		int32_t L_7;
+		L_7 = Tensor_get_channels_m9DA46CF71B1C47E059EA3417C6A652E1233B5D04(L_6, NULL);
+		Assert_AreEqual_m718BB4BD31FA3176A3A236F96BC5405EB750D6CF(L_5, L_7, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_8 = ___2_B;
+		NullCheck(L_8);
+		int32_t L_9;
+		L_9 = Tensor_get_length_m35C7DA71ED506DB11C0626A040E8A182CA25D5CA(L_8, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_10 = ___2_B;
+		NullCheck(L_10);
+		int32_t L_11;
+		L_11 = Tensor_get_channels_m9DA46CF71B1C47E059EA3417C6A652E1233B5D04(L_10, NULL);
+		Assert_AreEqual_m718BB4BD31FA3176A3A236F96BC5405EB750D6CF(L_9, L_11, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_12 = ___1_S;
+		NullCheck(L_12);
+		int32_t L_13;
+		L_13 = Tensor_get_length_m35C7DA71ED506DB11C0626A040E8A182CA25D5CA(L_12, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_14 = ___1_S;
+		NullCheck(L_14);
+		int32_t L_15;
+		L_15 = Tensor_get_channels_m9DA46CF71B1C47E059EA3417C6A652E1233B5D04(L_14, NULL);
+		Assert_AreEqual_m718BB4BD31FA3176A3A236F96BC5405EB750D6CF(L_13, L_15, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_16 = ___0_X;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_17;
+		L_17 = ReferenceCPUOps_NewTensorLike_mE3067F6087FA22E7A01E136887210735B6DAE00D(__this, L_16, NULL);
+		V_0 = L_17;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_18 = V_0;
+		TensorIterator__ctor_m6319470FAD9BD9F476FBCF1BB5B62700D21A0CD9((&V_1), L_18, 0, NULL);
+		goto IL_00a7;
+	}
+
+IL_005c:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_19 = ___2_B;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_20 = V_1;
+		int32_t L_21 = L_20.___d7;
+		NullCheck(L_19);
+		float L_22;
+		L_22 = Tensor_get_Item_mA53C387CBDB9F0EA0D069DD7BFC45970172290C5(L_19, 0, 0, 0, L_21, NULL);
+		V_2 = L_22;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_23 = ___1_S;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_24 = V_1;
+		int32_t L_25 = L_24.___d7;
+		NullCheck(L_23);
+		float L_26;
+		L_26 = Tensor_get_Item_mA53C387CBDB9F0EA0D069DD7BFC45970172290C5(L_23, 0, 0, 0, L_25, NULL);
+		V_3 = L_26;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_27 = ___0_X;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_28 = V_1;
+		int32_t L_29 = L_28.___index;
+		NullCheck(L_27);
+		float L_30;
+		L_30 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_27, L_29, NULL);
+		V_4 = L_30;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_31 = V_0;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_32 = V_1;
+		int32_t L_33 = L_32.___index;
+		float L_34 = V_4;
+		float L_35 = V_3;
+		float L_36 = V_2;
+		NullCheck(L_31);
+		Tensor_set_Item_m825AF5D1FC078421906298C6662565DF5C64817E(L_31, L_33, ((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_34, L_35)), L_36)), NULL);
+		TensorIterator_Next_m3BBE90015F10C99DBD4317583E5C8696E45865B1((&V_1), NULL);
+	}
+
+IL_00a7:
+	{
+		bool L_37;
+		L_37 = TensorIterator_IsValid_m35EB0AC3E815407848AFD55F95B88BF0093CC7A5((&V_1), NULL);
+		V_5 = L_37;
+		bool L_38 = V_5;
+		if (L_38)
+		{
+			goto IL_005c;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_39 = V_0;
+		V_6 = L_39;
+		goto IL_00b9;
+	}
+
+IL_00b9:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_40 = V_6;
+		return L_40;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_LRN_m4C4B6F33A1AE8FE2CFDD40FB3AB6C503B9487EFC (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, float ___1_alpha, float ___2_beta, float ___3_bias, int32_t ___4_size, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_0 = NULL;
+	float V_1 = 0.0f;
+	TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	int32_t V_3 = 0;
+	float V_4 = 0.0f;
+	int32_t V_5 = 0;
+	int32_t V_6 = 0;
+	float V_7 = 0.0f;
+	int32_t V_8 = 0;
+	float V_9 = 0.0f;
+	bool V_10 = false;
+	bool V_11 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_12 = NULL;
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_0 = ___0_X;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_1;
+		L_1 = ReferenceCPUOps_NewTensorLike_mE3067F6087FA22E7A01E136887210735B6DAE00D(__this, L_0, NULL);
+		V_0 = L_1;
+		int32_t L_2 = ___4_size;
+		V_1 = ((float)L_2);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_3 = V_0;
+		TensorIterator__ctor_m6319470FAD9BD9F476FBCF1BB5B62700D21A0CD9((&V_2), L_3, 0, NULL);
+		goto IL_00ee;
+	}
+
+IL_001b:
+	{
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_4 = V_2;
+		int32_t L_5 = L_4.___d7;
+		V_3 = L_5;
+		float L_6 = V_1;
+		V_4 = ((float)(((float)il2cpp_codegen_subtract(L_6, (1.0f)))/(2.0f)));
+		int32_t L_7 = V_3;
+		float L_8 = V_4;
+		float L_9;
+		L_9 = floorf(L_8);
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		int32_t L_10;
+		L_10 = Math_Max_m530EBA549AFD98CFC2BD29FE86C6376E67DF11CF(0, ((int32_t)il2cpp_codegen_subtract(L_7, il2cpp_codegen_cast_double_to_int<int32_t>(L_9))), NULL);
+		V_5 = L_10;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_11 = ___0_X;
+		NullCheck(L_11);
+		int32_t L_12;
+		L_12 = Tensor_get_channels_m9DA46CF71B1C47E059EA3417C6A652E1233B5D04(L_11, NULL);
+		int32_t L_13 = V_3;
+		float L_14 = V_4;
+		float L_15;
+		L_15 = ceilf(L_14);
+		int32_t L_16;
+		L_16 = Math_Min_m53C488772A34D53917BCA2A491E79A0A5356ED52(L_12, ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_add(L_13, il2cpp_codegen_cast_double_to_int<int32_t>(L_15))), 1)), NULL);
+		V_6 = L_16;
+		V_7 = (0.0f);
+		int32_t L_17 = V_5;
+		V_8 = L_17;
+		goto IL_00b0;
+	}
+
+IL_006a:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_18 = ___0_X;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_19 = V_2;
+		int32_t L_20 = L_19.___d0;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_21 = V_2;
+		int32_t L_22 = L_21.___d1;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_23 = V_2;
+		int32_t L_24 = L_23.___d2;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_25 = V_2;
+		int32_t L_26 = L_25.___d3;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_27 = V_2;
+		int32_t L_28 = L_27.___d4;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_29 = V_2;
+		int32_t L_30 = L_29.___d5;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_31 = V_2;
+		int32_t L_32 = L_31.___d6;
+		int32_t L_33 = V_8;
+		NullCheck(L_18);
+		float L_34;
+		L_34 = Tensor_get_Item_mEC07898861EE98ED01A447281200D4F26CEDA1A9(L_18, L_20, L_22, L_24, L_26, L_28, L_30, L_32, L_33, NULL);
+		V_9 = L_34;
+		float L_35 = V_7;
+		float L_36 = V_9;
+		float L_37 = V_9;
+		V_7 = ((float)il2cpp_codegen_add(L_35, ((float)il2cpp_codegen_multiply(L_36, L_37))));
+		int32_t L_38 = V_8;
+		V_8 = ((int32_t)il2cpp_codegen_add(L_38, 1));
+	}
+
+IL_00b0:
+	{
+		int32_t L_39 = V_8;
+		int32_t L_40 = V_6;
+		V_10 = (bool)((((int32_t)L_39) < ((int32_t)L_40))? 1 : 0);
+		bool L_41 = V_10;
+		if (L_41)
+		{
+			goto IL_006a;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_42 = V_0;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_43 = V_2;
+		int32_t L_44 = L_43.___index;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_45 = ___0_X;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_46 = V_2;
+		int32_t L_47 = L_46.___index;
+		NullCheck(L_45);
+		float L_48;
+		L_48 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_45, L_47, NULL);
+		float L_49 = ___3_bias;
+		float L_50 = ___1_alpha;
+		float L_51 = V_7;
+		float L_52 = V_1;
+		float L_53 = ___2_beta;
+		float L_54;
+		L_54 = powf(((float)il2cpp_codegen_add(L_49, ((float)(((float)il2cpp_codegen_multiply(L_50, L_51))/L_52)))), L_53);
+		NullCheck(L_42);
+		Tensor_set_Item_m825AF5D1FC078421906298C6662565DF5C64817E(L_42, L_44, ((float)(L_48/L_54)), NULL);
+		TensorIterator_Next_m3BBE90015F10C99DBD4317583E5C8696E45865B1((&V_2), NULL);
+	}
+
+IL_00ee:
+	{
+		bool L_55;
+		L_55 = TensorIterator_IsValid_m35EB0AC3E815407848AFD55F95B88BF0093CC7A5((&V_2), NULL);
+		V_11 = L_55;
+		bool L_56 = V_11;
+		if (L_56)
+		{
+			goto IL_001b;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_57 = V_0;
+		V_12 = L_57;
+		goto IL_0103;
+	}
+
+IL_0103:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_58 = V_12;
+		return L_58;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_Normalization_m4E07EA578ACD1808C19330488EAD0F0B9F25E567 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___1_S, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___2_B, int32_t ___3_pool, int32_t ___4_axis, float ___5_epsilon, int32_t ___6_fusedActivation, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_0 = NULL;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	bool V_4 = false;
+	bool V_5 = false;
+	bool V_6 = false;
+	int32_t V_7 = 0;
+	int32_t V_8 = 0;
+	int32_t V_9 = 0;
+	int32_t V_10 = 0;
+	float V_11 = 0.0f;
+	float V_12 = 0.0f;
+	double V_13 = 0.0;
+	double V_14 = 0.0;
+	double V_15 = 0.0;
+	int32_t V_16 = 0;
+	int32_t V_17 = 0;
+	int32_t V_18 = 0;
+	double V_19 = 0.0;
+	bool V_20 = false;
+	bool V_21 = false;
+	bool V_22 = false;
+	int32_t V_23 = 0;
+	int32_t V_24 = 0;
+	int32_t V_25 = 0;
+	double V_26 = 0.0;
+	bool V_27 = false;
+	bool V_28 = false;
+	bool V_29 = false;
+	int32_t V_30 = 0;
+	int32_t V_31 = 0;
+	int32_t V_32 = 0;
+	float V_33 = 0.0f;
+	bool V_34 = false;
+	bool V_35 = false;
+	bool V_36 = false;
+	bool V_37 = false;
+	bool V_38 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_39 = NULL;
+	int32_t G_B5_0 = 0;
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_0 = ___0_X;
+		NullCheck(L_0);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_1;
+		L_1 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_0, NULL);
+		bool L_2;
+		L_2 = TensorExtensions_Is4D_m1BB4A7DABDDBDB4046C16B6833336A64CD5A0C86(L_1, NULL);
+		V_4 = (bool)((((int32_t)L_2) == ((int32_t)0))? 1 : 0);
+		bool L_3 = V_4;
+		if (!L_3)
+		{
+			goto IL_001b;
+		}
+	}
+	{
+		NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8* L_4 = (NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8_il2cpp_TypeInfo_var)));
+		NotImplementedException__ctor_mDAB47BC6BD0E342E8F2171E5CABE3E67EA049F1C(L_4, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_4, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ReferenceCPUOps_Normalization_m4E07EA578ACD1808C19330488EAD0F0B9F25E567_RuntimeMethod_var)));
+	}
+
+IL_001b:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_5 = ___0_X;
+		NullCheck(L_5);
+		int32_t L_6;
+		L_6 = Tensor_get_channels_m9DA46CF71B1C47E059EA3417C6A652E1233B5D04(L_5, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_7 = ___2_B;
+		NullCheck(L_7);
+		int32_t L_8;
+		L_8 = Tensor_get_channels_m9DA46CF71B1C47E059EA3417C6A652E1233B5D04(L_7, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_AreEqual_m718BB4BD31FA3176A3A236F96BC5405EB750D6CF(L_6, L_8, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_9 = ___0_X;
+		NullCheck(L_9);
+		int32_t L_10;
+		L_10 = Tensor_get_channels_m9DA46CF71B1C47E059EA3417C6A652E1233B5D04(L_9, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_11 = ___1_S;
+		NullCheck(L_11);
+		int32_t L_12;
+		L_12 = Tensor_get_channels_m9DA46CF71B1C47E059EA3417C6A652E1233B5D04(L_11, NULL);
+		Assert_AreEqual_m718BB4BD31FA3176A3A236F96BC5405EB750D6CF(L_10, L_12, NULL);
+		int32_t L_13 = ___4_axis;
+		if ((((int32_t)L_13) == ((int32_t)7)))
+		{
+			goto IL_004e;
+		}
+	}
+	{
+		int32_t L_14 = ___4_axis;
+		G_B5_0 = ((((int32_t)((((int32_t)L_14) == ((int32_t)(-1)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		goto IL_004f;
+	}
+
+IL_004e:
+	{
+		G_B5_0 = 0;
+	}
+
+IL_004f:
+	{
+		V_5 = (bool)G_B5_0;
+		bool L_15 = V_5;
+		if (!L_15)
+		{
+			goto IL_005b;
+		}
+	}
+	{
+		NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8* L_16 = (NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8_il2cpp_TypeInfo_var)));
+		NotImplementedException__ctor_mDAB47BC6BD0E342E8F2171E5CABE3E67EA049F1C(L_16, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_16, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ReferenceCPUOps_Normalization_m4E07EA578ACD1808C19330488EAD0F0B9F25E567_RuntimeMethod_var)));
+	}
+
+IL_005b:
+	{
+		int32_t L_17 = ___3_pool;
+		V_6 = (bool)((((int32_t)((((int32_t)L_17) > ((int32_t)0))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_18 = V_6;
+		if (!L_18)
+		{
+			goto IL_0071;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_19 = ___0_X;
+		NullCheck(L_19);
+		int32_t L_20;
+		L_20 = Tensor_get_batch_m6CD93DCCD32D6A47FDEDEBFF16FF70AC9C586DD9(L_19, NULL);
+		___3_pool = L_20;
+	}
+
+IL_0071:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_21 = ___0_X;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_22;
+		L_22 = ReferenceCPUOps_NewTensorLike_mE3067F6087FA22E7A01E136887210735B6DAE00D(__this, L_21, NULL);
+		V_0 = L_22;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_23 = ___0_X;
+		NullCheck(L_23);
+		int32_t L_24;
+		L_24 = Tensor_get_channels_m9DA46CF71B1C47E059EA3417C6A652E1233B5D04(L_23, NULL);
+		V_1 = L_24;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_25 = ___0_X;
+		NullCheck(L_25);
+		int32_t L_26;
+		L_26 = Tensor_get_width_m9E948C3769B41324EB12D54CE6E2E51DC18DC488(L_25, NULL);
+		V_2 = L_26;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_27 = ___0_X;
+		NullCheck(L_27);
+		int32_t L_28;
+		L_28 = Tensor_get_height_m0477A83109747FF1DA788569602DA2293D762AC1(L_27, NULL);
+		V_3 = L_28;
+		V_7 = 0;
+		goto IL_0267;
+	}
+
+IL_0096:
+	{
+		V_8 = 0;
+		goto IL_0252;
+	}
+
+IL_009e:
+	{
+		int32_t L_29 = V_7;
+		V_9 = L_29;
+		int32_t L_30 = V_7;
+		int32_t L_31 = ___3_pool;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_32 = V_0;
+		NullCheck(L_32);
+		int32_t L_33;
+		L_33 = Tensor_get_batch_m6CD93DCCD32D6A47FDEDEBFF16FF70AC9C586DD9(L_32, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		int32_t L_34;
+		L_34 = Math_Min_m53C488772A34D53917BCA2A491E79A0A5356ED52(((int32_t)il2cpp_codegen_add(L_30, L_31)), L_33, NULL);
+		V_10 = L_34;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_35 = ___1_S;
+		int32_t L_36 = V_8;
+		NullCheck(L_35);
+		float L_37;
+		L_37 = Tensor_get_Item_mA53C387CBDB9F0EA0D069DD7BFC45970172290C5(L_35, 0, 0, 0, L_36, NULL);
+		V_11 = L_37;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_38 = ___2_B;
+		int32_t L_39 = V_8;
+		NullCheck(L_38);
+		float L_40;
+		L_40 = Tensor_get_Item_mA53C387CBDB9F0EA0D069DD7BFC45970172290C5(L_38, 0, 0, 0, L_39, NULL);
+		V_12 = L_40;
+		V_13 = (0.0);
+		int32_t L_41 = V_9;
+		V_16 = L_41;
+		goto IL_012c;
+	}
+
+IL_00e0:
+	{
+		V_17 = 0;
+		goto IL_011b;
+	}
+
+IL_00e5:
+	{
+		V_18 = 0;
+		goto IL_010a;
+	}
+
+IL_00ea:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_42 = ___0_X;
+		int32_t L_43 = V_16;
+		int32_t L_44 = V_17;
+		int32_t L_45 = V_18;
+		int32_t L_46 = V_8;
+		NullCheck(L_42);
+		float L_47;
+		L_47 = Tensor_get_Item_mA53C387CBDB9F0EA0D069DD7BFC45970172290C5(L_42, L_43, L_44, L_45, L_46, NULL);
+		V_19 = ((double)L_47);
+		double L_48 = V_13;
+		double L_49 = V_19;
+		V_13 = ((double)il2cpp_codegen_add(L_48, L_49));
+		int32_t L_50 = V_18;
+		V_18 = ((int32_t)il2cpp_codegen_add(L_50, 1));
+	}
+
+IL_010a:
+	{
+		int32_t L_51 = V_18;
+		int32_t L_52 = V_2;
+		V_20 = (bool)((((int32_t)L_51) < ((int32_t)L_52))? 1 : 0);
+		bool L_53 = V_20;
+		if (L_53)
+		{
+			goto IL_00ea;
+		}
+	}
+	{
+		int32_t L_54 = V_17;
+		V_17 = ((int32_t)il2cpp_codegen_add(L_54, 1));
+	}
+
+IL_011b:
+	{
+		int32_t L_55 = V_17;
+		int32_t L_56 = V_3;
+		V_21 = (bool)((((int32_t)L_55) < ((int32_t)L_56))? 1 : 0);
+		bool L_57 = V_21;
+		if (L_57)
+		{
+			goto IL_00e5;
+		}
+	}
+	{
+		int32_t L_58 = V_16;
+		V_16 = ((int32_t)il2cpp_codegen_add(L_58, 1));
+	}
+
+IL_012c:
+	{
+		int32_t L_59 = V_16;
+		int32_t L_60 = V_10;
+		V_22 = (bool)((((int32_t)L_59) < ((int32_t)L_60))? 1 : 0);
+		bool L_61 = V_22;
+		if (L_61)
+		{
+			goto IL_00e0;
+		}
+	}
+	{
+		double L_62 = V_13;
+		int32_t L_63 = V_2;
+		int32_t L_64 = V_3;
+		V_14 = ((double)(L_62/((double)((int32_t)il2cpp_codegen_multiply(L_63, L_64)))));
+		V_13 = (0.0);
+		int32_t L_65 = V_9;
+		V_23 = L_65;
+		goto IL_01a7;
+	}
+
+IL_0152:
+	{
+		V_24 = 0;
+		goto IL_0196;
+	}
+
+IL_0157:
+	{
+		V_25 = 0;
+		goto IL_0185;
+	}
+
+IL_015c:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_66 = ___0_X;
+		int32_t L_67 = V_23;
+		int32_t L_68 = V_24;
+		int32_t L_69 = V_25;
+		int32_t L_70 = V_8;
+		NullCheck(L_66);
+		float L_71;
+		L_71 = Tensor_get_Item_mA53C387CBDB9F0EA0D069DD7BFC45970172290C5(L_66, L_67, L_68, L_69, L_70, NULL);
+		V_26 = ((double)L_71);
+		double L_72 = V_13;
+		double L_73 = V_26;
+		double L_74 = V_14;
+		double L_75 = V_26;
+		double L_76 = V_14;
+		V_13 = ((double)il2cpp_codegen_add(L_72, ((double)il2cpp_codegen_multiply(((double)il2cpp_codegen_subtract(L_73, L_74)), ((double)il2cpp_codegen_subtract(L_75, L_76))))));
+		int32_t L_77 = V_25;
+		V_25 = ((int32_t)il2cpp_codegen_add(L_77, 1));
+	}
+
+IL_0185:
+	{
+		int32_t L_78 = V_25;
+		int32_t L_79 = V_2;
+		V_27 = (bool)((((int32_t)L_78) < ((int32_t)L_79))? 1 : 0);
+		bool L_80 = V_27;
+		if (L_80)
+		{
+			goto IL_015c;
+		}
+	}
+	{
+		int32_t L_81 = V_24;
+		V_24 = ((int32_t)il2cpp_codegen_add(L_81, 1));
+	}
+
+IL_0196:
+	{
+		int32_t L_82 = V_24;
+		int32_t L_83 = V_3;
+		V_28 = (bool)((((int32_t)L_82) < ((int32_t)L_83))? 1 : 0);
+		bool L_84 = V_28;
+		if (L_84)
+		{
+			goto IL_0157;
+		}
+	}
+	{
+		int32_t L_85 = V_23;
+		V_23 = ((int32_t)il2cpp_codegen_add(L_85, 1));
+	}
+
+IL_01a7:
+	{
+		int32_t L_86 = V_23;
+		int32_t L_87 = V_10;
+		V_29 = (bool)((((int32_t)L_86) < ((int32_t)L_87))? 1 : 0);
+		bool L_88 = V_29;
+		if (L_88)
+		{
+			goto IL_0152;
+		}
+	}
+	{
+		double L_89 = V_13;
+		int32_t L_90 = V_2;
+		int32_t L_91 = V_3;
+		V_15 = ((double)(L_89/((double)((int32_t)il2cpp_codegen_multiply(L_90, L_91)))));
+		int32_t L_92 = V_9;
+		V_30 = L_92;
+		goto IL_023c;
+	}
+
+IL_01c2:
+	{
+		V_31 = 0;
+		goto IL_022b;
+	}
+
+IL_01c7:
+	{
+		V_32 = 0;
+		goto IL_021a;
+	}
+
+IL_01cc:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_93 = ___0_X;
+		int32_t L_94 = V_30;
+		int32_t L_95 = V_31;
+		int32_t L_96 = V_32;
+		int32_t L_97 = V_8;
+		NullCheck(L_93);
+		float L_98;
+		L_98 = Tensor_get_Item_mA53C387CBDB9F0EA0D069DD7BFC45970172290C5(L_93, L_94, L_95, L_96, L_97, NULL);
+		V_33 = L_98;
+		float L_99 = V_11;
+		float L_100 = V_33;
+		double L_101 = V_14;
+		double L_102 = V_15;
+		float L_103 = ___5_epsilon;
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		double L_104;
+		L_104 = sqrt(((double)il2cpp_codegen_add(L_102, ((double)L_103))));
+		float L_105 = V_12;
+		V_33 = ((float)((double)il2cpp_codegen_add(((double)(((double)il2cpp_codegen_multiply(((double)L_99), ((double)il2cpp_codegen_subtract(((double)L_100), L_101))))/L_104)), ((double)L_105))));
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_106 = V_0;
+		int32_t L_107 = V_30;
+		int32_t L_108 = V_31;
+		int32_t L_109 = V_32;
+		int32_t L_110 = V_8;
+		float L_111 = V_33;
+		int32_t L_112 = ___6_fusedActivation;
+		float L_113;
+		L_113 = ReferenceCPUOps_ApplyFusedActivation_m3FD39FDE56BAEDC8AAE8C3FD36ED451648419621(__this, L_111, L_112, NULL);
+		NullCheck(L_106);
+		Tensor_set_Item_m7EF9E435A07905132E0C8C33A6C5A90E1E22BF58(L_106, L_107, L_108, L_109, L_110, L_113, NULL);
+		int32_t L_114 = V_32;
+		V_32 = ((int32_t)il2cpp_codegen_add(L_114, 1));
+	}
+
+IL_021a:
+	{
+		int32_t L_115 = V_32;
+		int32_t L_116 = V_2;
+		V_34 = (bool)((((int32_t)L_115) < ((int32_t)L_116))? 1 : 0);
+		bool L_117 = V_34;
+		if (L_117)
+		{
+			goto IL_01cc;
+		}
+	}
+	{
+		int32_t L_118 = V_31;
+		V_31 = ((int32_t)il2cpp_codegen_add(L_118, 1));
+	}
+
+IL_022b:
+	{
+		int32_t L_119 = V_31;
+		int32_t L_120 = V_3;
+		V_35 = (bool)((((int32_t)L_119) < ((int32_t)L_120))? 1 : 0);
+		bool L_121 = V_35;
+		if (L_121)
+		{
+			goto IL_01c7;
+		}
+	}
+	{
+		int32_t L_122 = V_30;
+		V_30 = ((int32_t)il2cpp_codegen_add(L_122, 1));
+	}
+
+IL_023c:
+	{
+		int32_t L_123 = V_30;
+		int32_t L_124 = V_10;
+		V_36 = (bool)((((int32_t)L_123) < ((int32_t)L_124))? 1 : 0);
+		bool L_125 = V_36;
+		if (L_125)
+		{
+			goto IL_01c2;
+		}
+	}
+	{
+		int32_t L_126 = V_8;
+		V_8 = ((int32_t)il2cpp_codegen_add(L_126, 1));
+	}
+
+IL_0252:
+	{
+		int32_t L_127 = V_8;
+		int32_t L_128 = V_1;
+		V_37 = (bool)((((int32_t)L_127) < ((int32_t)L_128))? 1 : 0);
+		bool L_129 = V_37;
+		if (L_129)
+		{
+			goto IL_009e;
+		}
+	}
+	{
+		int32_t L_130 = V_7;
+		int32_t L_131 = ___3_pool;
+		V_7 = ((int32_t)il2cpp_codegen_add(L_130, L_131));
+	}
+
+IL_0267:
+	{
+		int32_t L_132 = V_7;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_133 = V_0;
+		NullCheck(L_133);
+		int32_t L_134;
+		L_134 = Tensor_get_batch_m6CD93DCCD32D6A47FDEDEBFF16FF70AC9C586DD9(L_133, NULL);
+		V_38 = (bool)((((int32_t)L_132) < ((int32_t)L_134))? 1 : 0);
+		bool L_135 = V_38;
+		if (L_135)
+		{
+			goto IL_0096;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_136 = V_0;
+		V_39 = L_136;
+		goto IL_027f;
+	}
+
+IL_027f:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_137 = V_39;
+		return L_137;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ReferenceCPUOps_Bernoulli_m07BF2EF3475E0023F7C88725E69E974FBBB1F9BC (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, float ___0_p, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	float G_B3_0 = 0.0f;
+	{
+		float L_0;
+		L_0 = Random_get_value_m2CEA87FADF5222EF9E13D32695F15E2BA282E24B(NULL);
+		float L_1 = ___0_p;
+		if ((((float)L_0) <= ((float)L_1)))
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		G_B3_0 = (0.0f);
+		goto IL_0015;
+	}
+
+IL_0010:
+	{
+		G_B3_0 = (1.0f);
+	}
+
+IL_0015:
+	{
+		V_0 = G_B3_0;
+		goto IL_0018;
+	}
+
+IL_0018:
+	{
+		float L_2 = V_0;
+		return L_2;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ReferenceCPUOps_Gaussian_m9B0078341A66CF8EE9E4D239E44B6EC00C4D525D (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, float ___0_mean, float ___1_stdDev, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	float V_1 = 0.0f;
+	float V_2 = 0.0f;
+	float V_3 = 0.0f;
+	bool V_4 = false;
+	float V_5 = 0.0f;
+	int32_t G_B4_0 = 0;
+	{
+	}
+
+IL_0001:
+	{
+		float L_0;
+		L_0 = Random_get_value_m2CEA87FADF5222EF9E13D32695F15E2BA282E24B(NULL);
+		V_0 = ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_multiply(L_0, (2.0f))), (1.0f)));
+		float L_1;
+		L_1 = Random_get_value_m2CEA87FADF5222EF9E13D32695F15E2BA282E24B(NULL);
+		V_1 = ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_multiply(L_1, (2.0f))), (1.0f)));
+		float L_2 = V_0;
+		float L_3 = V_0;
+		float L_4 = V_1;
+		float L_5 = V_1;
+		V_2 = ((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_2, L_3)), ((float)il2cpp_codegen_multiply(L_4, L_5))));
+		float L_6 = V_2;
+		if ((((float)L_6) >= ((float)(1.0f))))
+		{
+			goto IL_0041;
+		}
+	}
+	{
+		float L_7 = V_2;
+		G_B4_0 = ((((float)L_7) == ((float)(0.0f)))? 1 : 0);
+		goto IL_0042;
+	}
+
+IL_0041:
+	{
+		G_B4_0 = 1;
+	}
+
+IL_0042:
+	{
+		V_4 = (bool)G_B4_0;
+		bool L_8 = V_4;
+		if (L_8)
+		{
+			goto IL_0001;
+		}
+	}
+	{
+		float L_9 = V_2;
+		float L_10;
+		L_10 = logf(L_9);
+		float L_11 = V_2;
+		float L_12;
+		L_12 = sqrtf(((float)(((float)il2cpp_codegen_multiply((-2.0f), L_10))/L_11)));
+		V_3 = L_12;
+		float L_13 = ___0_mean;
+		float L_14 = ___1_stdDev;
+		float L_15 = V_0;
+		float L_16 = V_3;
+		V_5 = ((float)il2cpp_codegen_add(L_13, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_14, L_15)), L_16))));
+		goto IL_0067;
+	}
+
+IL_0067:
+	{
+		float L_17 = V_5;
+		return L_17;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_Dropout_mA98DBD70B560C7FAF51E6383F65093EA1C215261 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, float ___1_alpha, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Seed_tCB3800330FC799B67001C34E4921C7A9845D0592_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_0 = NULL;
+	Seed_tCB3800330FC799B67001C34E4921C7A9845D0592* V_1 = NULL;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	float V_4 = 0.0f;
+	bool V_5 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_6 = NULL;
+	int32_t G_B3_0 = 0;
+	{
+		float L_0 = ___1_alpha;
+		if ((!(((float)L_0) >= ((float)(0.0f)))))
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		float L_1 = ___1_alpha;
+		G_B3_0 = ((((int32_t)((!(((float)L_1) <= ((float)(1.0f))))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		goto IL_0017;
+	}
+
+IL_0016:
+	{
+		G_B3_0 = 0;
+	}
+
+IL_0017:
+	{
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_IsTrue_mE42C53B7220324D1FBAFB7AE48A7D8DD7796A663((bool)G_B3_0, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_2 = ___0_X;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_3;
+		L_3 = ReferenceCPUOps_NewTensorLike_mE3067F6087FA22E7A01E136887210735B6DAE00D(__this, L_2, NULL);
+		V_0 = L_3;
+		StateU5BU5D_t582DB17A2F2961D87446D25E1C91EF394892D8A2** L_4 = (StateU5BU5D_t582DB17A2F2961D87446D25E1C91EF394892D8A2**)(&__this->___m_DropoutSeed);
+		Seed_tCB3800330FC799B67001C34E4921C7A9845D0592* L_5 = (Seed_tCB3800330FC799B67001C34E4921C7A9845D0592*)il2cpp_codegen_object_new(Seed_tCB3800330FC799B67001C34E4921C7A9845D0592_il2cpp_TypeInfo_var);
+		Seed__ctor_m5074B5C4B837D374E1EE716B55027B3C5008BAC2(L_5, L_4, ((int32_t)1337), NULL);
+		V_1 = L_5;
+	}
+	{
+		auto __finallyBlock = il2cpp::utils::Finally([&]
+		{
+
+FINALLY_0082:
+			{
+				{
+					Seed_tCB3800330FC799B67001C34E4921C7A9845D0592* L_6 = V_1;
+					if (!L_6)
+					{
+						goto IL_008c;
+					}
+				}
+				{
+					Seed_tCB3800330FC799B67001C34E4921C7A9845D0592* L_7 = V_1;
+					NullCheck(L_7);
+					InterfaceActionInvoker0::Invoke(0, IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var, L_7);
+				}
+
+IL_008c:
+				{
+					return;
+				}
+			}
+		});
+		try
+		{
+			{
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_8 = ___0_X;
+				NullCheck(L_8);
+				int32_t L_9;
+				L_9 = Tensor_get_length_m35C7DA71ED506DB11C0626A040E8A182CA25D5CA(L_8, NULL);
+				V_2 = L_9;
+				V_3 = 0;
+				goto IL_0075_1;
+			}
+
+IL_0042_1:
+			{
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_10 = ___0_X;
+				int32_t L_11 = V_3;
+				NullCheck(L_10);
+				float L_12;
+				L_12 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_10, L_11, NULL);
+				V_4 = L_12;
+				float L_13 = V_4;
+				float L_14 = ___1_alpha;
+				float L_15;
+				L_15 = ReferenceCPUOps_Bernoulli_m07BF2EF3475E0023F7C88725E69E974FBBB1F9BC(__this, ((float)il2cpp_codegen_subtract((1.0f), L_14)), NULL);
+				float L_16 = ___1_alpha;
+				V_4 = ((float)il2cpp_codegen_multiply(L_13, ((float)(L_15/((float)il2cpp_codegen_subtract((1.0f), L_16))))));
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_17 = V_0;
+				int32_t L_18 = V_3;
+				float L_19 = V_4;
+				NullCheck(L_17);
+				Tensor_set_Item_m825AF5D1FC078421906298C6662565DF5C64817E(L_17, L_18, L_19, NULL);
+				int32_t L_20 = V_3;
+				V_3 = ((int32_t)il2cpp_codegen_add(L_20, 1));
+			}
+
+IL_0075_1:
+			{
+				int32_t L_21 = V_3;
+				int32_t L_22 = V_2;
+				V_5 = (bool)((((int32_t)L_21) < ((int32_t)L_22))? 1 : 0);
+				bool L_23 = V_5;
+				if (L_23)
+				{
+					goto IL_0042_1;
+				}
+			}
+			{
+				goto IL_008d;
+			}
+		}
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_008d:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_24 = V_0;
+		V_6 = L_24;
+		goto IL_0092;
+	}
+
+IL_0092:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_25 = V_6;
+		return L_25;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_RandomNormal_m9BD27EDFBF6FBE9EBD8649C856633446F237A01B (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 ___0_s, float ___1_mean, float ___2_scale, int32_t ___3_seed, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Seed_tCB3800330FC799B67001C34E4921C7A9845D0592_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_0 = NULL;
+	Seed_tCB3800330FC799B67001C34E4921C7A9845D0592* V_1 = NULL;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	bool V_4 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_5 = NULL;
+	{
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_0 = ___0_s;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_1;
+		L_1 = ReferenceCPUOps_NewTensor_m74008D9C77785A62165EBEF61281FBB9CB42DAAF(__this, 0, L_0, NULL);
+		V_0 = L_1;
+		StateU5BU5D_t582DB17A2F2961D87446D25E1C91EF394892D8A2** L_2 = (StateU5BU5D_t582DB17A2F2961D87446D25E1C91EF394892D8A2**)(&__this->___m_RandomNormalSeed);
+		int32_t L_3 = ___3_seed;
+		Seed_tCB3800330FC799B67001C34E4921C7A9845D0592* L_4 = (Seed_tCB3800330FC799B67001C34E4921C7A9845D0592*)il2cpp_codegen_object_new(Seed_tCB3800330FC799B67001C34E4921C7A9845D0592_il2cpp_TypeInfo_var);
+		Seed__ctor_m5074B5C4B837D374E1EE716B55027B3C5008BAC2(L_4, L_2, L_3, NULL);
+		V_1 = L_4;
+	}
+	{
+		auto __finallyBlock = il2cpp::utils::Finally([&]
+		{
+
+FINALLY_0045:
+			{
+				{
+					Seed_tCB3800330FC799B67001C34E4921C7A9845D0592* L_5 = V_1;
+					if (!L_5)
+					{
+						goto IL_004f;
+					}
+				}
+				{
+					Seed_tCB3800330FC799B67001C34E4921C7A9845D0592* L_6 = V_1;
+					NullCheck(L_6);
+					InterfaceActionInvoker0::Invoke(0, IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var, L_6);
+				}
+
+IL_004f:
+				{
+					return;
+				}
+			}
+		});
+		try
+		{
+			{
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_7 = V_0;
+				NullCheck(L_7);
+				int32_t L_8;
+				L_8 = Tensor_get_length_m35C7DA71ED506DB11C0626A040E8A182CA25D5CA(L_7, NULL);
+				V_2 = L_8;
+				V_3 = 0;
+				goto IL_0038_1;
+			}
+
+IL_0024_1:
+			{
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_9 = V_0;
+				int32_t L_10 = V_3;
+				float L_11 = ___1_mean;
+				float L_12 = ___2_scale;
+				float L_13;
+				L_13 = ReferenceCPUOps_Gaussian_m9B0078341A66CF8EE9E4D239E44B6EC00C4D525D(__this, L_11, L_12, NULL);
+				NullCheck(L_9);
+				Tensor_set_Item_m825AF5D1FC078421906298C6662565DF5C64817E(L_9, L_10, L_13, NULL);
+				int32_t L_14 = V_3;
+				V_3 = ((int32_t)il2cpp_codegen_add(L_14, 1));
+			}
+
+IL_0038_1:
+			{
+				int32_t L_15 = V_3;
+				int32_t L_16 = V_2;
+				V_4 = (bool)((((int32_t)L_15) < ((int32_t)L_16))? 1 : 0);
+				bool L_17 = V_4;
+				if (L_17)
+				{
+					goto IL_0024_1;
+				}
+			}
+			{
+				goto IL_0050;
+			}
+		}
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_0050:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_18 = V_0;
+		V_5 = L_18;
+		goto IL_0055;
+	}
+
+IL_0055:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_19 = V_5;
+		return L_19;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_RandomUniform_mDC4A32F76EE83D116956B20F17C39384B04ABD49 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 ___0_s, float ___1_mean, float ___2_scale, int32_t ___3_seed, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Seed_tCB3800330FC799B67001C34E4921C7A9845D0592_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_0 = NULL;
+	Seed_tCB3800330FC799B67001C34E4921C7A9845D0592* V_1 = NULL;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	bool V_4 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_5 = NULL;
+	{
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_0 = ___0_s;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_1;
+		L_1 = ReferenceCPUOps_NewTensor_m74008D9C77785A62165EBEF61281FBB9CB42DAAF(__this, 0, L_0, NULL);
+		V_0 = L_1;
+		StateU5BU5D_t582DB17A2F2961D87446D25E1C91EF394892D8A2** L_2 = (StateU5BU5D_t582DB17A2F2961D87446D25E1C91EF394892D8A2**)(&__this->___m_RandomUniformSeed);
+		int32_t L_3 = ___3_seed;
+		Seed_tCB3800330FC799B67001C34E4921C7A9845D0592* L_4 = (Seed_tCB3800330FC799B67001C34E4921C7A9845D0592*)il2cpp_codegen_object_new(Seed_tCB3800330FC799B67001C34E4921C7A9845D0592_il2cpp_TypeInfo_var);
+		Seed__ctor_m5074B5C4B837D374E1EE716B55027B3C5008BAC2(L_4, L_2, L_3, NULL);
+		V_1 = L_4;
+	}
+	{
+		auto __finallyBlock = il2cpp::utils::Finally([&]
+		{
+
+FINALLY_0046:
+			{
+				{
+					Seed_tCB3800330FC799B67001C34E4921C7A9845D0592* L_5 = V_1;
+					if (!L_5)
+					{
+						goto IL_0050;
+					}
+				}
+				{
+					Seed_tCB3800330FC799B67001C34E4921C7A9845D0592* L_6 = V_1;
+					NullCheck(L_6);
+					InterfaceActionInvoker0::Invoke(0, IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var, L_6);
+				}
+
+IL_0050:
+				{
+					return;
+				}
+			}
+		});
+		try
+		{
+			{
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_7 = V_0;
+				NullCheck(L_7);
+				int32_t L_8;
+				L_8 = Tensor_get_length_m35C7DA71ED506DB11C0626A040E8A182CA25D5CA(L_7, NULL);
+				V_2 = L_8;
+				V_3 = 0;
+				goto IL_0039_1;
+			}
+
+IL_0024_1:
+			{
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_9 = V_0;
+				int32_t L_10 = V_3;
+				float L_11 = ___1_mean;
+				float L_12 = ___2_scale;
+				float L_13;
+				L_13 = Random_get_value_m2CEA87FADF5222EF9E13D32695F15E2BA282E24B(NULL);
+				NullCheck(L_9);
+				Tensor_set_Item_m825AF5D1FC078421906298C6662565DF5C64817E(L_9, L_10, ((float)il2cpp_codegen_add(L_11, ((float)il2cpp_codegen_multiply(L_12, L_13)))), NULL);
+				int32_t L_14 = V_3;
+				V_3 = ((int32_t)il2cpp_codegen_add(L_14, 1));
+			}
+
+IL_0039_1:
+			{
+				int32_t L_15 = V_3;
+				int32_t L_16 = V_2;
+				V_4 = (bool)((((int32_t)L_15) < ((int32_t)L_16))? 1 : 0);
+				bool L_17 = V_4;
+				if (L_17)
+				{
+					goto IL_0024_1;
+				}
+			}
+			{
+				goto IL_0051;
+			}
+		}
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_0051:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_18 = V_0;
+		V_5 = L_18;
+		goto IL_0056;
+	}
+
+IL_0056:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_19 = V_5;
+		return L_19;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_Multinomial_m22633BF7C23989C6E84290D1841BF58255E63FF4 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, int32_t ___1_count, int32_t ___2_seed, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Seed_tCB3800330FC799B67001C34E4921C7A9845D0592_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		s_Il2CppMethodInitialized = true;
+	}
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_0 = NULL;
+	bool V_1 = false;
+	TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	Seed_tCB3800330FC799B67001C34E4921C7A9845D0592* V_3 = NULL;
+	int32_t V_4 = 0;
+	float V_5 = 0.0f;
+	float V_6 = 0.0f;
+	int32_t V_7 = 0;
+	bool V_8 = false;
+	int32_t V_9 = 0;
+	bool V_10 = false;
+	int32_t V_11 = 0;
+	float V_12 = 0.0f;
+	int32_t V_13 = 0;
+	float V_14 = 0.0f;
+	bool V_15 = false;
+	bool V_16 = false;
+	bool V_17 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_18 = NULL;
+	int32_t G_B3_0 = 0;
+	int32_t G_B19_0 = 0;
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_0 = ___0_X;
+		NullCheck(L_0);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_1;
+		L_1 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_0, NULL);
+		V_2 = L_1;
+		int32_t L_2;
+		L_2 = TensorShape_get_sequenceLength_m5C087C678ABF06D5B2B51C228F8CB9F303116322((&V_2), NULL);
+		if ((!(((uint32_t)L_2) == ((uint32_t)1))))
+		{
+			goto IL_0028;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_3 = ___0_X;
+		NullCheck(L_3);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_4;
+		L_4 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_3, NULL);
+		V_2 = L_4;
+		int32_t L_5;
+		L_5 = TensorShape_get_numberOfDirections_m50DA3E7023E2EF50FD04578C7852D282823924EA((&V_2), NULL);
+		G_B3_0 = ((((int32_t)((((int32_t)L_5) == ((int32_t)1))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		goto IL_0029;
+	}
+
+IL_0028:
+	{
+		G_B3_0 = 1;
+	}
+
+IL_0029:
+	{
+		V_1 = (bool)G_B3_0;
+		bool L_6 = V_1;
+		if (!L_6)
+		{
+			goto IL_0033;
+		}
+	}
+	{
+		NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8* L_7 = (NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8_il2cpp_TypeInfo_var)));
+		NotImplementedException__ctor_mDAB47BC6BD0E342E8F2171E5CABE3E67EA049F1C(L_7, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_7, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ReferenceCPUOps_Multinomial_m22633BF7C23989C6E84290D1841BF58255E63FF4_RuntimeMethod_var)));
+	}
+
+IL_0033:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_8 = ___0_X;
+		NullCheck(L_8);
+		int32_t L_9;
+		L_9 = Tensor_get_dataType_m57109C88C5386735035BB4066BAACD68228C3AB1(L_8, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_10 = ___0_X;
+		NullCheck(L_10);
+		int32_t L_11;
+		L_11 = Tensor_get_flatHeight_m5A8183FF5C9A9FBDE2F8080B134CA91ABA0FC50D(L_10, NULL);
+		int32_t L_12 = ___1_count;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_13;
+		L_13 = ReferenceCPUOps_NewTensor_m549377E46F09536C70FA6CD0E663E9FF6735A53F(__this, L_9, L_11, L_12, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
+		V_0 = L_13;
+		StateU5BU5D_t582DB17A2F2961D87446D25E1C91EF394892D8A2** L_14 = (StateU5BU5D_t582DB17A2F2961D87446D25E1C91EF394892D8A2**)(&__this->___m_MultinomialSeed);
+		int32_t L_15 = ___2_seed;
+		Seed_tCB3800330FC799B67001C34E4921C7A9845D0592* L_16 = (Seed_tCB3800330FC799B67001C34E4921C7A9845D0592*)il2cpp_codegen_object_new(Seed_tCB3800330FC799B67001C34E4921C7A9845D0592_il2cpp_TypeInfo_var);
+		Seed__ctor_m5074B5C4B837D374E1EE716B55027B3C5008BAC2(L_16, L_14, L_15, NULL);
+		V_3 = L_16;
+	}
+	{
+		auto __finallyBlock = il2cpp::utils::Finally([&]
+		{
+
+FINALLY_016f:
+			{
+				{
+					Seed_tCB3800330FC799B67001C34E4921C7A9845D0592* L_17 = V_3;
+					if (!L_17)
+					{
+						goto IL_0179;
+					}
+				}
+				{
+					Seed_tCB3800330FC799B67001C34E4921C7A9845D0592* L_18 = V_3;
+					NullCheck(L_18);
+					InterfaceActionInvoker0::Invoke(0, IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var, L_18);
+				}
+
+IL_0179:
+				{
+					return;
+				}
+			}
+		});
+		try
+		{
+			{
+				V_4 = 0;
+				goto IL_0159_1;
+			}
+
+IL_0062_1:
+			{
+				V_5 = (-std::numeric_limits<float>::infinity());
+				V_7 = 0;
+				goto IL_0088_1;
+			}
+
+IL_006f_1:
+			{
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_19 = ___0_X;
+				int32_t L_20 = V_4;
+				int32_t L_21 = V_7;
+				NullCheck(L_19);
+				float L_22;
+				L_22 = Tensor_get_Item_mB3B371A025B020FBFB3A79C3375745EEA999829B(L_19, L_20, L_21, NULL);
+				float L_23 = V_5;
+				float L_24;
+				L_24 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline(L_22, L_23, NULL);
+				V_5 = L_24;
+				int32_t L_25 = V_7;
+				V_7 = ((int32_t)il2cpp_codegen_add(L_25, 1));
+			}
+
+IL_0088_1:
+			{
+				int32_t L_26 = V_7;
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_27 = ___0_X;
+				NullCheck(L_27);
+				int32_t L_28;
+				L_28 = Tensor_get_flatWidth_m7B9AECCB1EF9799E625DD86147A2A3F92F440CC5(L_27, NULL);
+				V_8 = (bool)((((int32_t)L_26) < ((int32_t)L_28))? 1 : 0);
+				bool L_29 = V_8;
+				if (L_29)
+				{
+					goto IL_006f_1;
+				}
+			}
+			{
+				V_6 = (0.0f);
+				V_9 = 0;
+				goto IL_00c1_1;
+			}
+
+IL_00a4_1:
+			{
+				float L_30 = V_6;
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_31 = ___0_X;
+				int32_t L_32 = V_4;
+				int32_t L_33 = V_9;
+				NullCheck(L_31);
+				float L_34;
+				L_34 = Tensor_get_Item_mB3B371A025B020FBFB3A79C3375745EEA999829B(L_31, L_32, L_33, NULL);
+				float L_35 = V_5;
+				float L_36;
+				L_36 = expf(((float)il2cpp_codegen_subtract(L_34, L_35)));
+				V_6 = ((float)il2cpp_codegen_add(L_30, L_36));
+				int32_t L_37 = V_9;
+				V_9 = ((int32_t)il2cpp_codegen_add(L_37, 1));
+			}
+
+IL_00c1_1:
+			{
+				int32_t L_38 = V_9;
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_39 = ___0_X;
+				NullCheck(L_39);
+				int32_t L_40;
+				L_40 = Tensor_get_flatWidth_m7B9AECCB1EF9799E625DD86147A2A3F92F440CC5(L_39, NULL);
+				V_10 = (bool)((((int32_t)L_38) < ((int32_t)L_40))? 1 : 0);
+				bool L_41 = V_10;
+				if (L_41)
+				{
+					goto IL_00a4_1;
+				}
+			}
+			{
+				V_11 = 0;
+				goto IL_0147_1;
+			}
+
+IL_00d6_1:
+			{
+				float L_42;
+				L_42 = Random_get_value_m2CEA87FADF5222EF9E13D32695F15E2BA282E24B(NULL);
+				float L_43 = V_6;
+				V_12 = ((float)il2cpp_codegen_multiply(L_42, L_43));
+				V_13 = 0;
+				V_14 = (0.0f);
+				goto IL_010c_1;
+			}
+
+IL_00ed_1:
+			{
+				float L_44 = V_14;
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_45 = ___0_X;
+				int32_t L_46 = V_4;
+				int32_t L_47 = V_13;
+				NullCheck(L_45);
+				float L_48;
+				L_48 = Tensor_get_Item_mB3B371A025B020FBFB3A79C3375745EEA999829B(L_45, L_46, L_47, NULL);
+				float L_49 = V_5;
+				float L_50;
+				L_50 = expf(((float)il2cpp_codegen_subtract(L_48, L_49)));
+				V_14 = ((float)il2cpp_codegen_add(L_44, L_50));
+				int32_t L_51 = V_13;
+				V_13 = ((int32_t)il2cpp_codegen_add(L_51, 1));
+			}
+
+IL_010c_1:
+			{
+				int32_t L_52 = V_13;
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_53 = ___0_X;
+				NullCheck(L_53);
+				int32_t L_54;
+				L_54 = Tensor_get_flatWidth_m7B9AECCB1EF9799E625DD86147A2A3F92F440CC5(L_53, NULL);
+				if ((((int32_t)L_52) >= ((int32_t)L_54)))
+				{
+					goto IL_011e_1;
+				}
+			}
+			{
+				float L_55 = V_12;
+				float L_56 = V_14;
+				G_B19_0 = ((((float)L_55) > ((float)L_56))? 1 : 0);
+				goto IL_011f_1;
+			}
+
+IL_011e_1:
+			{
+				G_B19_0 = 0;
+			}
+
+IL_011f_1:
+			{
+				V_15 = (bool)G_B19_0;
+				bool L_57 = V_15;
+				if (L_57)
+				{
+					goto IL_00ed_1;
+				}
+			}
+			{
+				int32_t L_58 = V_13;
+				il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+				Assert_IsTrue_mE42C53B7220324D1FBAFB7AE48A7D8DD7796A663((bool)((((int32_t)L_58) > ((int32_t)0))? 1 : 0), NULL);
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_59 = V_0;
+				int32_t L_60 = V_4;
+				int32_t L_61 = V_11;
+				int32_t L_62 = V_13;
+				NullCheck(L_59);
+				Tensor_set_Item_m3DDF7909FDDC72AE45128800669404B9A7151F87(L_59, L_60, L_61, ((float)((int32_t)il2cpp_codegen_subtract(L_62, 1))), NULL);
+				int32_t L_63 = V_11;
+				V_11 = ((int32_t)il2cpp_codegen_add(L_63, 1));
+			}
+
+IL_0147_1:
+			{
+				int32_t L_64 = V_11;
+				int32_t L_65 = ___1_count;
+				V_16 = (bool)((((int32_t)L_64) < ((int32_t)L_65))? 1 : 0);
+				bool L_66 = V_16;
+				if (L_66)
+				{
+					goto IL_00d6_1;
+				}
+			}
+			{
+				int32_t L_67 = V_4;
+				V_4 = ((int32_t)il2cpp_codegen_add(L_67, 1));
+			}
+
+IL_0159_1:
+			{
+				int32_t L_68 = V_4;
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_69 = ___0_X;
+				NullCheck(L_69);
+				int32_t L_70;
+				L_70 = Tensor_get_flatHeight_m5A8183FF5C9A9FBDE2F8080B134CA91ABA0FC50D(L_69, NULL);
+				V_17 = (bool)((((int32_t)L_68) < ((int32_t)L_70))? 1 : 0);
+				bool L_71 = V_17;
+				if (L_71)
+				{
+					goto IL_0062_1;
+				}
+			}
+			{
+				goto IL_017a;
+			}
+		}
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_017a:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_72 = V_0;
+		V_18 = L_72;
+		goto IL_017f;
+	}
+
+IL_017f:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_73 = V_18;
+		return L_73;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_OneHot_m82FA57C652ABF646CDB0B52F666ED527E9E8FD63 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, int32_t ___1_depth, float ___2_onValue, float ___3_offValue, int32_t ___4_inputRank, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		s_Il2CppMethodInitialized = true;
+	}
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_0 = NULL;
+	bool V_1 = false;
+	bool V_2 = false;
+	bool V_3 = false;
+	bool V_4 = false;
+	int32_t V_5 = 0;
+	int32_t V_6 = 0;
+	int32_t V_7 = 0;
+	int32_t V_8 = 0;
+	bool V_9 = false;
+	int32_t V_10 = 0;
+	float V_11 = 0.0f;
+	bool V_12 = false;
+	int32_t V_13 = 0;
+	float V_14 = 0.0f;
+	int32_t V_15 = 0;
+	float V_16 = 0.0f;
+	bool V_17 = false;
+	bool V_18 = false;
+	bool V_19 = false;
+	bool V_20 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_21 = NULL;
+	float G_B17_0 = 0.0f;
+	float G_B22_0 = 0.0f;
+	float G_B26_0 = 0.0f;
+	{
+		int32_t L_0 = ___4_inputRank;
+		V_1 = (bool)((((int32_t)L_0) == ((int32_t)(-1)))? 1 : 0);
+		bool L_1 = V_1;
+		if (!L_1)
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_2 = ___0_X;
+		NullCheck(L_2);
+		int32_t L_3;
+		L_3 = Tensor_get_dimensions_mD78E14F7C96D3C7E1F47BC20BFA4352E8C52E2BB(L_2, NULL);
+		___4_inputRank = L_3;
+	}
+
+IL_0012:
+	{
+		int32_t L_4 = ___4_inputRank;
+		V_2 = (bool)((((int32_t)((((int32_t)L_4) < ((int32_t)4))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_5 = V_2;
+		if (!L_5)
+		{
+			goto IL_0024;
+		}
+	}
+	{
+		NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8* L_6 = (NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8_il2cpp_TypeInfo_var)));
+		NotImplementedException__ctor_mDAB47BC6BD0E342E8F2171E5CABE3E67EA049F1C(L_6, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_6, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ReferenceCPUOps_OneHot_m82FA57C652ABF646CDB0B52F666ED527E9E8FD63_RuntimeMethod_var)));
+	}
+
+IL_0024:
+	{
+		int32_t L_7 = ___4_inputRank;
+		V_3 = (bool)((((int32_t)L_7) == ((int32_t)1))? 1 : 0);
+		bool L_8 = V_3;
+		if (!L_8)
+		{
+			goto IL_004d;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_9 = ___0_X;
+		NullCheck(L_9);
+		int32_t L_10;
+		L_10 = Tensor_get_dataType_m57109C88C5386735035BB4066BAACD68228C3AB1(L_9, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_11 = ___0_X;
+		NullCheck(L_11);
+		int32_t L_12;
+		L_12 = Tensor_get_flatHeight_m5A8183FF5C9A9FBDE2F8080B134CA91ABA0FC50D(L_11, NULL);
+		int32_t L_13 = ___1_depth;
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_14;
+		memset((&L_14), 0, sizeof(L_14));
+		TensorShape__ctor_m7AB7F54A3AAB95BB6BF985DD3F86B8B95B1C972D((&L_14), L_12, L_13, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_15;
+		L_15 = ReferenceCPUOps_NewOutputTensor_m9A02521597BF2F0CA2519FD43C2333084204C429(__this, L_10, L_14, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
+		V_0 = L_15;
+		goto IL_00a9;
+	}
+
+IL_004d:
+	{
+		int32_t L_16 = ___4_inputRank;
+		V_4 = (bool)((((int32_t)L_16) == ((int32_t)2))? 1 : 0);
+		bool L_17 = V_4;
+		if (!L_17)
+		{
+			goto IL_007f;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_18 = ___0_X;
+		NullCheck(L_18);
+		int32_t L_19;
+		L_19 = Tensor_get_dataType_m57109C88C5386735035BB4066BAACD68228C3AB1(L_18, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_20 = ___0_X;
+		NullCheck(L_20);
+		int32_t L_21;
+		L_21 = Tensor_get_flatHeight_m5A8183FF5C9A9FBDE2F8080B134CA91ABA0FC50D(L_20, NULL);
+		int32_t L_22 = ___1_depth;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_23 = ___0_X;
+		NullCheck(L_23);
+		int32_t L_24;
+		L_24 = Tensor_get_channels_m9DA46CF71B1C47E059EA3417C6A652E1233B5D04(L_23, NULL);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_25;
+		memset((&L_25), 0, sizeof(L_25));
+		TensorShape__ctor_m0318587E59DA4D042BBC786E5B6CF255C773FA57((&L_25), L_21, 1, L_22, L_24, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_26;
+		L_26 = ReferenceCPUOps_NewOutputTensor_m9A02521597BF2F0CA2519FD43C2333084204C429(__this, L_19, L_25, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
+		V_0 = L_26;
+		goto IL_00a9;
+	}
+
+IL_007f:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_27 = ___0_X;
+		NullCheck(L_27);
+		int32_t L_28;
+		L_28 = Tensor_get_dataType_m57109C88C5386735035BB4066BAACD68228C3AB1(L_27, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_29 = ___0_X;
+		NullCheck(L_29);
+		int32_t L_30;
+		L_30 = Tensor_get_batch_m6CD93DCCD32D6A47FDEDEBFF16FF70AC9C586DD9(L_29, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_31 = ___0_X;
+		NullCheck(L_31);
+		int32_t L_32;
+		L_32 = Tensor_get_width_m9E948C3769B41324EB12D54CE6E2E51DC18DC488(L_31, NULL);
+		int32_t L_33 = ___1_depth;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_34 = ___0_X;
+		NullCheck(L_34);
+		int32_t L_35;
+		L_35 = Tensor_get_channels_m9DA46CF71B1C47E059EA3417C6A652E1233B5D04(L_34, NULL);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_36;
+		memset((&L_36), 0, sizeof(L_36));
+		TensorShape__ctor_m0318587E59DA4D042BBC786E5B6CF255C773FA57((&L_36), L_30, L_32, L_33, L_35, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_37;
+		L_37 = ReferenceCPUOps_NewOutputTensor_m9A02521597BF2F0CA2519FD43C2333084204C429(__this, L_28, L_36, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
+		V_0 = L_37;
+	}
+
+IL_00a9:
+	{
+		V_5 = 0;
+		goto IL_01ba;
+	}
+
+IL_00b1:
+	{
+		V_6 = 0;
+		goto IL_01a5;
+	}
+
+IL_00ba:
+	{
+		V_7 = 0;
+		goto IL_018b;
+	}
+
+IL_00c3:
+	{
+		V_8 = 0;
+		goto IL_0171;
+	}
+
+IL_00cc:
+	{
+		int32_t L_38 = ___4_inputRank;
+		V_9 = (bool)((((int32_t)L_38) == ((int32_t)1))? 1 : 0);
+		bool L_39 = V_9;
+		if (!L_39)
+		{
+			goto IL_0101;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_40 = ___0_X;
+		int32_t L_41 = V_5;
+		NullCheck(L_40);
+		float L_42;
+		L_42 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_40, L_41, NULL);
+		V_10 = il2cpp_codegen_cast_double_to_int<int32_t>(L_42);
+		int32_t L_43 = V_6;
+		int32_t L_44 = V_10;
+		if ((((int32_t)L_43) == ((int32_t)L_44)))
+		{
+			goto IL_00ee;
+		}
+	}
+	{
+		float L_45 = ___3_offValue;
+		G_B17_0 = L_45;
+		goto IL_00ef;
+	}
+
+IL_00ee:
+	{
+		float L_46 = ___2_onValue;
+		G_B17_0 = L_46;
+	}
+
+IL_00ef:
+	{
+		V_11 = G_B17_0;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_47 = V_0;
+		int32_t L_48 = V_5;
+		int32_t L_49 = V_6;
+		float L_50 = V_11;
+		NullCheck(L_47);
+		Tensor_set_Item_m3DDF7909FDDC72AE45128800669404B9A7151F87(L_47, L_48, L_49, L_50, NULL);
+		goto IL_016a;
+	}
+
+IL_0101:
+	{
+		int32_t L_51 = ___4_inputRank;
+		V_12 = (bool)((((int32_t)L_51) == ((int32_t)2))? 1 : 0);
+		bool L_52 = V_12;
+		if (!L_52)
+		{
+			goto IL_013a;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_53 = ___0_X;
+		int32_t L_54 = V_5;
+		int32_t L_55 = V_8;
+		NullCheck(L_53);
+		float L_56;
+		L_56 = Tensor_get_Item_mB3B371A025B020FBFB3A79C3375745EEA999829B(L_53, L_54, L_55, NULL);
+		V_13 = il2cpp_codegen_cast_double_to_int<int32_t>(L_56);
+		int32_t L_57 = V_6;
+		int32_t L_58 = V_13;
+		if ((((int32_t)L_57) == ((int32_t)L_58)))
+		{
+			goto IL_0124;
+		}
+	}
+	{
+		float L_59 = ___3_offValue;
+		G_B22_0 = L_59;
+		goto IL_0125;
+	}
+
+IL_0124:
+	{
+		float L_60 = ___2_onValue;
+		G_B22_0 = L_60;
+	}
+
+IL_0125:
+	{
+		V_14 = G_B22_0;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_61 = V_0;
+		int32_t L_62 = V_5;
+		int32_t L_63 = V_6;
+		int32_t L_64 = V_8;
+		float L_65 = V_14;
+		NullCheck(L_61);
+		Tensor_set_Item_m7EF9E435A07905132E0C8C33A6C5A90E1E22BF58(L_61, L_62, 0, L_63, L_64, L_65, NULL);
+		goto IL_016a;
+	}
+
+IL_013a:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_66 = ___0_X;
+		int32_t L_67 = V_5;
+		int32_t L_68 = V_7;
+		int32_t L_69 = V_8;
+		NullCheck(L_66);
+		float L_70;
+		L_70 = Tensor_get_Item_mA53C387CBDB9F0EA0D069DD7BFC45970172290C5(L_66, L_67, 0, L_68, L_69, NULL);
+		V_15 = il2cpp_codegen_cast_double_to_int<int32_t>(L_70);
+		int32_t L_71 = V_6;
+		int32_t L_72 = V_15;
+		if ((((int32_t)L_71) == ((int32_t)L_72)))
+		{
+			goto IL_0155;
+		}
+	}
+	{
+		float L_73 = ___3_offValue;
+		G_B26_0 = L_73;
+		goto IL_0156;
+	}
+
+IL_0155:
+	{
+		float L_74 = ___2_onValue;
+		G_B26_0 = L_74;
+	}
+
+IL_0156:
+	{
+		V_16 = G_B26_0;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_75 = V_0;
+		int32_t L_76 = V_5;
+		int32_t L_77 = V_7;
+		int32_t L_78 = V_6;
+		int32_t L_79 = V_8;
+		float L_80 = V_16;
+		NullCheck(L_75);
+		Tensor_set_Item_m7EF9E435A07905132E0C8C33A6C5A90E1E22BF58(L_75, L_76, L_77, L_78, L_79, L_80, NULL);
+	}
+
+IL_016a:
+	{
+		int32_t L_81 = V_8;
+		V_8 = ((int32_t)il2cpp_codegen_add(L_81, 1));
+	}
+
+IL_0171:
+	{
+		int32_t L_82 = V_8;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_83 = ___0_X;
+		NullCheck(L_83);
+		int32_t L_84;
+		L_84 = Tensor_get_channels_m9DA46CF71B1C47E059EA3417C6A652E1233B5D04(L_83, NULL);
+		V_17 = (bool)((((int32_t)L_82) < ((int32_t)L_84))? 1 : 0);
+		bool L_85 = V_17;
+		if (L_85)
+		{
+			goto IL_00cc;
+		}
+	}
+	{
+		int32_t L_86 = V_7;
+		V_7 = ((int32_t)il2cpp_codegen_add(L_86, 1));
+	}
+
+IL_018b:
+	{
+		int32_t L_87 = V_7;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_88 = ___0_X;
+		NullCheck(L_88);
+		int32_t L_89;
+		L_89 = Tensor_get_width_m9E948C3769B41324EB12D54CE6E2E51DC18DC488(L_88, NULL);
+		V_18 = (bool)((((int32_t)L_87) < ((int32_t)L_89))? 1 : 0);
+		bool L_90 = V_18;
+		if (L_90)
+		{
+			goto IL_00c3;
+		}
+	}
+	{
+		int32_t L_91 = V_6;
+		V_6 = ((int32_t)il2cpp_codegen_add(L_91, 1));
+	}
+
+IL_01a5:
+	{
+		int32_t L_92 = V_6;
+		int32_t L_93 = ___1_depth;
+		V_19 = (bool)((((int32_t)L_92) < ((int32_t)L_93))? 1 : 0);
+		bool L_94 = V_19;
+		if (L_94)
+		{
+			goto IL_00ba;
+		}
+	}
+	{
+		int32_t L_95 = V_5;
+		V_5 = ((int32_t)il2cpp_codegen_add(L_95, 1));
+	}
+
+IL_01ba:
+	{
+		int32_t L_96 = V_5;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_97 = ___0_X;
+		NullCheck(L_97);
+		int32_t L_98;
+		L_98 = Tensor_get_batch_m6CD93DCCD32D6A47FDEDEBFF16FF70AC9C586DD9(L_97, NULL);
+		V_20 = (bool)((((int32_t)L_96) < ((int32_t)L_98))? 1 : 0);
+		bool L_99 = V_20;
+		if (L_99)
+		{
+			goto IL_00b1;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_100 = V_0;
+		V_21 = L_100;
+		goto IL_01d2;
+	}
+
+IL_01d2:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_101 = V_21;
+		return L_101;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ReferenceCPUOps_NearestNeighbourBilinearInterpolation_m29813BC3C60B20B19B56B7304C09FED7413D97C5 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, int32_t ___1_n, float ___2_y, float ___3_x, int32_t ___4_c, bool ___5_snapToBorder, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	float V_4 = 0.0f;
+	float V_5 = 0.0f;
+	float V_6 = 0.0f;
+	float V_7 = 0.0f;
+	float V_8 = 0.0f;
+	bool V_9 = false;
+	bool V_10 = false;
+	bool V_11 = false;
+	bool V_12 = false;
+	bool V_13 = false;
+	float V_14 = 0.0f;
+	int32_t G_B7_0 = 0;
+	int32_t G_B14_0 = 0;
+	int32_t G_B21_0 = 0;
+	int32_t G_B28_0 = 0;
+	{
+		bool L_0 = ___5_snapToBorder;
+		V_9 = L_0;
+		bool L_1 = V_9;
+		if (!L_1)
+		{
+			goto IL_0038;
+		}
+	}
+	{
+		float L_2 = ___2_y;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_3 = ___0_X;
+		NullCheck(L_3);
+		int32_t L_4;
+		L_4 = Tensor_get_height_m0477A83109747FF1DA788569602DA2293D762AC1(L_3, NULL);
+		float L_5;
+		L_5 = Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline(L_2, (0.0f), ((float)((int32_t)il2cpp_codegen_subtract(L_4, 1))), NULL);
+		___2_y = L_5;
+		float L_6 = ___3_x;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_7 = ___0_X;
+		NullCheck(L_7);
+		int32_t L_8;
+		L_8 = Tensor_get_width_m9E948C3769B41324EB12D54CE6E2E51DC18DC488(L_7, NULL);
+		float L_9;
+		L_9 = Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline(L_6, (0.0f), ((float)((int32_t)il2cpp_codegen_subtract(L_8, 1))), NULL);
+		___3_x = L_9;
+	}
+
+IL_0038:
+	{
+		float L_10 = ___2_y;
+		float L_11;
+		L_11 = floorf(L_10);
+		V_0 = il2cpp_codegen_cast_double_to_int<int32_t>(L_11);
+		float L_12 = ___3_x;
+		float L_13;
+		L_13 = floorf(L_12);
+		V_1 = il2cpp_codegen_cast_double_to_int<int32_t>(L_13);
+		int32_t L_14 = V_0;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_14, 1));
+		int32_t L_15 = V_1;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_15, 1));
+		float L_16 = ___2_y;
+		int32_t L_17 = V_0;
+		V_4 = ((float)il2cpp_codegen_subtract(L_16, ((float)L_17)));
+		float L_18 = ___3_x;
+		int32_t L_19 = V_1;
+		V_5 = ((float)il2cpp_codegen_subtract(L_18, ((float)L_19)));
+		float L_20 = V_4;
+		V_6 = ((float)il2cpp_codegen_subtract((1.0f), L_20));
+		float L_21 = V_5;
+		V_7 = ((float)il2cpp_codegen_subtract((1.0f), L_21));
+		V_8 = (0.0f);
+		int32_t L_22 = V_0;
+		if ((((int32_t)L_22) < ((int32_t)0)))
+		{
+			goto IL_0095;
+		}
+	}
+	{
+		int32_t L_23 = V_0;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_24 = ___0_X;
+		NullCheck(L_24);
+		int32_t L_25;
+		L_25 = Tensor_get_height_m0477A83109747FF1DA788569602DA2293D762AC1(L_24, NULL);
+		if ((((int32_t)L_23) >= ((int32_t)L_25)))
+		{
+			goto IL_0095;
+		}
+	}
+	{
+		int32_t L_26 = V_1;
+		if ((((int32_t)L_26) < ((int32_t)0)))
+		{
+			goto IL_0095;
+		}
+	}
+	{
+		int32_t L_27 = V_1;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_28 = ___0_X;
+		NullCheck(L_28);
+		int32_t L_29;
+		L_29 = Tensor_get_width_m9E948C3769B41324EB12D54CE6E2E51DC18DC488(L_28, NULL);
+		G_B7_0 = ((((int32_t)L_27) < ((int32_t)L_29))? 1 : 0);
+		goto IL_0096;
+	}
+
+IL_0095:
+	{
+		G_B7_0 = 0;
+	}
+
+IL_0096:
+	{
+		V_10 = (bool)G_B7_0;
+		bool L_30 = V_10;
+		if (!L_30)
+		{
+			goto IL_00b2;
+		}
+	}
+	{
+		float L_31 = V_8;
+		float L_32 = V_7;
+		float L_33 = V_6;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_34 = ___0_X;
+		int32_t L_35 = ___1_n;
+		int32_t L_36 = V_0;
+		int32_t L_37 = V_1;
+		int32_t L_38 = ___4_c;
+		NullCheck(L_34);
+		float L_39;
+		L_39 = Tensor_get_Item_mA53C387CBDB9F0EA0D069DD7BFC45970172290C5(L_34, L_35, L_36, L_37, L_38, NULL);
+		V_8 = ((float)il2cpp_codegen_add(L_31, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_32, L_33)), L_39))));
+	}
+
+IL_00b2:
+	{
+		int32_t L_40 = V_0;
+		if ((((int32_t)L_40) < ((int32_t)0)))
+		{
+			goto IL_00ce;
+		}
+	}
+	{
+		int32_t L_41 = V_0;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_42 = ___0_X;
+		NullCheck(L_42);
+		int32_t L_43;
+		L_43 = Tensor_get_height_m0477A83109747FF1DA788569602DA2293D762AC1(L_42, NULL);
+		if ((((int32_t)L_41) >= ((int32_t)L_43)))
+		{
+			goto IL_00ce;
+		}
+	}
+	{
+		int32_t L_44 = V_3;
+		if ((((int32_t)L_44) < ((int32_t)0)))
+		{
+			goto IL_00ce;
+		}
+	}
+	{
+		int32_t L_45 = V_3;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_46 = ___0_X;
+		NullCheck(L_46);
+		int32_t L_47;
+		L_47 = Tensor_get_width_m9E948C3769B41324EB12D54CE6E2E51DC18DC488(L_46, NULL);
+		G_B14_0 = ((((int32_t)L_45) < ((int32_t)L_47))? 1 : 0);
+		goto IL_00cf;
+	}
+
+IL_00ce:
+	{
+		G_B14_0 = 0;
+	}
+
+IL_00cf:
+	{
+		V_11 = (bool)G_B14_0;
+		bool L_48 = V_11;
+		if (!L_48)
+		{
+			goto IL_00eb;
+		}
+	}
+	{
+		float L_49 = V_8;
+		float L_50 = V_5;
+		float L_51 = V_6;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_52 = ___0_X;
+		int32_t L_53 = ___1_n;
+		int32_t L_54 = V_0;
+		int32_t L_55 = V_3;
+		int32_t L_56 = ___4_c;
+		NullCheck(L_52);
+		float L_57;
+		L_57 = Tensor_get_Item_mA53C387CBDB9F0EA0D069DD7BFC45970172290C5(L_52, L_53, L_54, L_55, L_56, NULL);
+		V_8 = ((float)il2cpp_codegen_add(L_49, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_50, L_51)), L_57))));
+	}
+
+IL_00eb:
+	{
+		int32_t L_58 = V_2;
+		if ((((int32_t)L_58) < ((int32_t)0)))
+		{
+			goto IL_0107;
+		}
+	}
+	{
+		int32_t L_59 = V_2;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_60 = ___0_X;
+		NullCheck(L_60);
+		int32_t L_61;
+		L_61 = Tensor_get_height_m0477A83109747FF1DA788569602DA2293D762AC1(L_60, NULL);
+		if ((((int32_t)L_59) >= ((int32_t)L_61)))
+		{
+			goto IL_0107;
+		}
+	}
+	{
+		int32_t L_62 = V_1;
+		if ((((int32_t)L_62) < ((int32_t)0)))
+		{
+			goto IL_0107;
+		}
+	}
+	{
+		int32_t L_63 = V_1;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_64 = ___0_X;
+		NullCheck(L_64);
+		int32_t L_65;
+		L_65 = Tensor_get_width_m9E948C3769B41324EB12D54CE6E2E51DC18DC488(L_64, NULL);
+		G_B21_0 = ((((int32_t)L_63) < ((int32_t)L_65))? 1 : 0);
+		goto IL_0108;
+	}
+
+IL_0107:
+	{
+		G_B21_0 = 0;
+	}
+
+IL_0108:
+	{
+		V_12 = (bool)G_B21_0;
+		bool L_66 = V_12;
+		if (!L_66)
+		{
+			goto IL_0124;
+		}
+	}
+	{
+		float L_67 = V_8;
+		float L_68 = V_7;
+		float L_69 = V_4;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_70 = ___0_X;
+		int32_t L_71 = ___1_n;
+		int32_t L_72 = V_2;
+		int32_t L_73 = V_1;
+		int32_t L_74 = ___4_c;
+		NullCheck(L_70);
+		float L_75;
+		L_75 = Tensor_get_Item_mA53C387CBDB9F0EA0D069DD7BFC45970172290C5(L_70, L_71, L_72, L_73, L_74, NULL);
+		V_8 = ((float)il2cpp_codegen_add(L_67, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_68, L_69)), L_75))));
+	}
+
+IL_0124:
+	{
+		int32_t L_76 = V_2;
+		if ((((int32_t)L_76) < ((int32_t)0)))
+		{
+			goto IL_0140;
+		}
+	}
+	{
+		int32_t L_77 = V_2;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_78 = ___0_X;
+		NullCheck(L_78);
+		int32_t L_79;
+		L_79 = Tensor_get_height_m0477A83109747FF1DA788569602DA2293D762AC1(L_78, NULL);
+		if ((((int32_t)L_77) >= ((int32_t)L_79)))
+		{
+			goto IL_0140;
+		}
+	}
+	{
+		int32_t L_80 = V_3;
+		if ((((int32_t)L_80) < ((int32_t)0)))
+		{
+			goto IL_0140;
+		}
+	}
+	{
+		int32_t L_81 = V_3;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_82 = ___0_X;
+		NullCheck(L_82);
+		int32_t L_83;
+		L_83 = Tensor_get_width_m9E948C3769B41324EB12D54CE6E2E51DC18DC488(L_82, NULL);
+		G_B28_0 = ((((int32_t)L_81) < ((int32_t)L_83))? 1 : 0);
+		goto IL_0141;
+	}
+
+IL_0140:
+	{
+		G_B28_0 = 0;
+	}
+
+IL_0141:
+	{
+		V_13 = (bool)G_B28_0;
+		bool L_84 = V_13;
+		if (!L_84)
+		{
+			goto IL_015d;
+		}
+	}
+	{
+		float L_85 = V_8;
+		float L_86 = V_5;
+		float L_87 = V_4;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_88 = ___0_X;
+		int32_t L_89 = ___1_n;
+		int32_t L_90 = V_2;
+		int32_t L_91 = V_3;
+		int32_t L_92 = ___4_c;
+		NullCheck(L_88);
+		float L_93;
+		L_93 = Tensor_get_Item_mA53C387CBDB9F0EA0D069DD7BFC45970172290C5(L_88, L_89, L_90, L_91, L_92, NULL);
+		V_8 = ((float)il2cpp_codegen_add(L_85, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_86, L_87)), L_93))));
+	}
+
+IL_015d:
+	{
+		float L_94 = V_8;
+		V_14 = L_94;
+		goto IL_0163;
+	}
+
+IL_0163:
+	{
+		float L_95 = V_14;
+		return L_95;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_RoiAlign_mB310F950CC5AD4498BC0B80B11371F14EF17AF62 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___1_Rois, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___2_Indices, int32_t ___3_outputHeight, int32_t ___4_outputWidth, int32_t ___5_samplingRatio, float ___6_spatialScale, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		s_Il2CppMethodInitialized = true;
+	}
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_0 = NULL;
+	bool V_1 = false;
+	float V_2 = 0.0f;
+	int32_t V_3 = 0;
+	float V_4 = 0.0f;
+	float V_5 = 0.0f;
+	float V_6 = 0.0f;
+	float V_7 = 0.0f;
+	float V_8 = 0.0f;
+	float V_9 = 0.0f;
+	float V_10 = 0.0f;
+	float V_11 = 0.0f;
+	int32_t V_12 = 0;
+	int32_t V_13 = 0;
+	int32_t V_14 = 0;
+	float V_15 = 0.0f;
+	float V_16 = 0.0f;
+	float V_17 = 0.0f;
+	float V_18 = 0.0f;
+	int32_t V_19 = 0;
+	float V_20 = 0.0f;
+	int32_t V_21 = 0;
+	int32_t V_22 = 0;
+	float V_23 = 0.0f;
+	float V_24 = 0.0f;
+	bool V_25 = false;
+	bool V_26 = false;
+	bool V_27 = false;
+	bool V_28 = false;
+	bool V_29 = false;
+	bool V_30 = false;
+	bool V_31 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_32 = NULL;
+	float G_B3_0 = 0.0f;
+	float G_B9_0 = 0.0f;
+	float G_B12_0 = 0.0f;
+	int32_t G_B20_0 = 0;
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_0 = ___0_X;
+		NullCheck(L_0);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_1;
+		L_1 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_0, NULL);
+		bool L_2;
+		L_2 = TensorExtensions_Is4D_m1BB4A7DABDDBDB4046C16B6833336A64CD5A0C86(L_1, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_IsTrue_mE42C53B7220324D1FBAFB7AE48A7D8DD7796A663(L_2, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_3 = ___1_Rois;
+		NullCheck(L_3);
+		int32_t L_4;
+		L_4 = Tensor_get_flatHeight_m5A8183FF5C9A9FBDE2F8080B134CA91ABA0FC50D(L_3, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_5 = ___2_Indices;
+		NullCheck(L_5);
+		int32_t L_6;
+		L_6 = Tensor_get_batch_m6CD93DCCD32D6A47FDEDEBFF16FF70AC9C586DD9(L_5, NULL);
+		Assert_AreEqual_m718BB4BD31FA3176A3A236F96BC5405EB750D6CF(L_4, L_6, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_7 = ___1_Rois;
+		NullCheck(L_7);
+		int32_t L_8;
+		L_8 = Tensor_get_flatWidth_m7B9AECCB1EF9799E625DD86147A2A3F92F440CC5(L_7, NULL);
+		Assert_AreEqual_m718BB4BD31FA3176A3A236F96BC5405EB750D6CF(L_8, 4, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_9 = ___0_X;
+		NullCheck(L_9);
+		int32_t L_10;
+		L_10 = Tensor_get_dataType_m57109C88C5386735035BB4066BAACD68228C3AB1(L_9, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_11 = ___1_Rois;
+		NullCheck(L_11);
+		int32_t L_12;
+		L_12 = Tensor_get_flatHeight_m5A8183FF5C9A9FBDE2F8080B134CA91ABA0FC50D(L_11, NULL);
+		int32_t L_13 = ___3_outputHeight;
+		int32_t L_14 = ___4_outputWidth;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_15 = ___0_X;
+		NullCheck(L_15);
+		int32_t L_16;
+		L_16 = Tensor_get_channels_m9DA46CF71B1C47E059EA3417C6A652E1233B5D04(L_15, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_17;
+		L_17 = ReferenceCPUOps_NewTensor_m3EF74B4420F55BBDE8F8C0FF99F0065052535404(__this, L_10, L_12, L_13, L_14, L_16, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
+		V_0 = L_17;
+		V_1 = (bool)0;
+		bool L_18 = V_1;
+		if (L_18)
+		{
+			goto IL_005f;
+		}
+	}
+	{
+		G_B3_0 = (0.0f);
+		goto IL_0064;
+	}
+
+IL_005f:
+	{
+		G_B3_0 = (0.5f);
+	}
+
+IL_0064:
+	{
+		V_2 = G_B3_0;
+		V_3 = 0;
+		goto IL_024a;
+	}
+
+IL_006c:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_19 = ___1_Rois;
+		int32_t L_20 = V_3;
+		NullCheck(L_19);
+		float L_21;
+		L_21 = Tensor_get_Item_mB3B371A025B020FBFB3A79C3375745EEA999829B(L_19, L_20, 0, NULL);
+		float L_22 = ___6_spatialScale;
+		float L_23 = V_2;
+		V_4 = ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_multiply(L_21, L_22)), L_23));
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_24 = ___1_Rois;
+		int32_t L_25 = V_3;
+		NullCheck(L_24);
+		float L_26;
+		L_26 = Tensor_get_Item_mB3B371A025B020FBFB3A79C3375745EEA999829B(L_24, L_25, 1, NULL);
+		float L_27 = ___6_spatialScale;
+		float L_28 = V_2;
+		V_5 = ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_multiply(L_26, L_27)), L_28));
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_29 = ___1_Rois;
+		int32_t L_30 = V_3;
+		NullCheck(L_29);
+		float L_31;
+		L_31 = Tensor_get_Item_mB3B371A025B020FBFB3A79C3375745EEA999829B(L_29, L_30, 2, NULL);
+		float L_32 = ___6_spatialScale;
+		float L_33 = V_2;
+		V_6 = ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_multiply(L_31, L_32)), L_33));
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_34 = ___1_Rois;
+		int32_t L_35 = V_3;
+		NullCheck(L_34);
+		float L_36;
+		L_36 = Tensor_get_Item_mB3B371A025B020FBFB3A79C3375745EEA999829B(L_34, L_35, 3, NULL);
+		float L_37 = ___6_spatialScale;
+		float L_38 = V_2;
+		V_7 = ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_multiply(L_36, L_37)), L_38));
+		float L_39 = V_7;
+		float L_40 = V_5;
+		V_8 = ((float)il2cpp_codegen_subtract(L_39, L_40));
+		float L_41 = V_6;
+		float L_42 = V_4;
+		V_9 = ((float)il2cpp_codegen_subtract(L_41, L_42));
+		float L_43 = V_8;
+		int32_t L_44 = ___3_outputHeight;
+		V_10 = ((float)(L_43/((float)L_44)));
+		float L_45 = V_9;
+		int32_t L_46 = ___4_outputWidth;
+		V_11 = ((float)(L_45/((float)L_46)));
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_47 = ___2_Indices;
+		int32_t L_48 = V_3;
+		NullCheck(L_47);
+		float L_49;
+		L_49 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_47, L_48, NULL);
+		V_12 = il2cpp_codegen_cast_double_to_int<int32_t>(L_49);
+		V_13 = 0;
+		goto IL_0236;
+	}
+
+IL_00d9:
+	{
+		V_14 = 0;
+		goto IL_0221;
+	}
+
+IL_00e1:
+	{
+		float L_50 = V_5;
+		int32_t L_51 = V_13;
+		float L_52 = V_10;
+		V_15 = ((float)il2cpp_codegen_add(L_50, ((float)il2cpp_codegen_multiply(((float)L_51), L_52))));
+		int32_t L_53 = ___5_samplingRatio;
+		if ((((int32_t)L_53) > ((int32_t)0)))
+		{
+			goto IL_00fb;
+		}
+	}
+	{
+		float L_54 = V_10;
+		float L_55;
+		L_55 = ceilf(L_54);
+		G_B9_0 = L_55;
+		goto IL_00fe;
+	}
+
+IL_00fb:
+	{
+		int32_t L_56 = ___5_samplingRatio;
+		G_B9_0 = ((float)L_56);
+	}
+
+IL_00fe:
+	{
+		V_16 = G_B9_0;
+		float L_57 = V_4;
+		int32_t L_58 = V_14;
+		float L_59 = V_11;
+		V_17 = ((float)il2cpp_codegen_add(L_57, ((float)il2cpp_codegen_multiply(((float)L_58), L_59))));
+		int32_t L_60 = ___5_samplingRatio;
+		if ((((int32_t)L_60) > ((int32_t)0)))
+		{
+			goto IL_0119;
+		}
+	}
+	{
+		float L_61 = V_11;
+		float L_62;
+		L_62 = ceilf(L_61);
+		G_B12_0 = L_62;
+		goto IL_011c;
+	}
+
+IL_0119:
+	{
+		int32_t L_63 = ___5_samplingRatio;
+		G_B12_0 = ((float)L_63);
+	}
+
+IL_011c:
+	{
+		V_18 = G_B12_0;
+		V_19 = 0;
+		goto IL_0207;
+	}
+
+IL_0126:
+	{
+		V_20 = (0.0f);
+		V_21 = 0;
+		goto IL_01d6;
+	}
+
+IL_0136:
+	{
+		V_22 = 0;
+		goto IL_01c0;
+	}
+
+IL_013e:
+	{
+		float L_64 = V_15;
+		int32_t L_65 = V_21;
+		float L_66 = V_10;
+		float L_67 = V_16;
+		V_23 = ((float)il2cpp_codegen_add(L_64, ((float)(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_add(((float)L_65), (0.5f))), L_66))/L_67))));
+		float L_68 = V_17;
+		int32_t L_69 = V_22;
+		float L_70 = V_11;
+		float L_71 = V_18;
+		V_24 = ((float)il2cpp_codegen_add(L_68, ((float)(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_add(((float)L_69), (0.5f))), L_70))/L_71))));
+		float L_72 = V_24;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_73 = ___0_X;
+		NullCheck(L_73);
+		int32_t L_74;
+		L_74 = Tensor_get_width_m9E948C3769B41324EB12D54CE6E2E51DC18DC488(L_73, NULL);
+		if ((((float)L_72) >= ((float)((float)L_74))))
+		{
+			goto IL_0191;
+		}
+	}
+	{
+		float L_75 = V_24;
+		if ((((float)L_75) < ((float)(0.0f))))
+		{
+			goto IL_0191;
+		}
+	}
+	{
+		float L_76 = V_23;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_77 = ___0_X;
+		NullCheck(L_77);
+		int32_t L_78;
+		L_78 = Tensor_get_height_m0477A83109747FF1DA788569602DA2293D762AC1(L_77, NULL);
+		if ((((float)L_76) >= ((float)((float)L_78))))
+		{
+			goto IL_0191;
+		}
+	}
+	{
+		float L_79 = V_23;
+		G_B20_0 = ((((float)L_79) < ((float)(0.0f)))? 1 : 0);
+		goto IL_0192;
+	}
+
+IL_0191:
+	{
+		G_B20_0 = 1;
+	}
+
+IL_0192:
+	{
+		V_25 = (bool)G_B20_0;
+		bool L_80 = V_25;
+		if (!L_80)
+		{
+			goto IL_01a4;
+		}
+	}
+	{
+		float L_81 = V_20;
+		V_20 = ((float)il2cpp_codegen_add(L_81, (0.0f)));
+		goto IL_01b9;
+	}
+
+IL_01a4:
+	{
+		float L_82 = V_20;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_83 = ___0_X;
+		int32_t L_84 = V_12;
+		float L_85 = V_23;
+		float L_86 = V_24;
+		int32_t L_87 = V_19;
+		float L_88;
+		L_88 = ReferenceCPUOps_NearestNeighbourBilinearInterpolation_m29813BC3C60B20B19B56B7304C09FED7413D97C5(__this, L_83, L_84, L_85, L_86, L_87, (bool)1, NULL);
+		V_20 = ((float)il2cpp_codegen_add(L_82, L_88));
+	}
+
+IL_01b9:
+	{
+		int32_t L_89 = V_22;
+		V_22 = ((int32_t)il2cpp_codegen_add(L_89, 1));
+	}
+
+IL_01c0:
+	{
+		int32_t L_90 = V_22;
+		float L_91 = V_18;
+		V_26 = (bool)((((int32_t)L_90) < ((int32_t)il2cpp_codegen_cast_double_to_int<int32_t>(L_91)))? 1 : 0);
+		bool L_92 = V_26;
+		if (L_92)
+		{
+			goto IL_013e;
+		}
+	}
+	{
+		int32_t L_93 = V_21;
+		V_21 = ((int32_t)il2cpp_codegen_add(L_93, 1));
+	}
+
+IL_01d6:
+	{
+		int32_t L_94 = V_21;
+		float L_95 = V_16;
+		V_27 = (bool)((((int32_t)L_94) < ((int32_t)il2cpp_codegen_cast_double_to_int<int32_t>(L_95)))? 1 : 0);
+		bool L_96 = V_27;
+		if (L_96)
+		{
+			goto IL_0136;
+		}
+	}
+	{
+		float L_97 = V_20;
+		float L_98 = V_16;
+		float L_99 = V_18;
+		V_20 = ((float)(L_97/((float)il2cpp_codegen_multiply(L_98, L_99))));
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_100 = V_0;
+		int32_t L_101 = V_3;
+		int32_t L_102 = V_13;
+		int32_t L_103 = V_14;
+		int32_t L_104 = V_19;
+		float L_105 = V_20;
+		NullCheck(L_100);
+		Tensor_set_Item_m7EF9E435A07905132E0C8C33A6C5A90E1E22BF58(L_100, L_101, L_102, L_103, L_104, L_105, NULL);
+		int32_t L_106 = V_19;
+		V_19 = ((int32_t)il2cpp_codegen_add(L_106, 1));
+	}
+
+IL_0207:
+	{
+		int32_t L_107 = V_19;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_108 = ___0_X;
+		NullCheck(L_108);
+		int32_t L_109;
+		L_109 = Tensor_get_channels_m9DA46CF71B1C47E059EA3417C6A652E1233B5D04(L_108, NULL);
+		V_28 = (bool)((((int32_t)L_107) < ((int32_t)L_109))? 1 : 0);
+		bool L_110 = V_28;
+		if (L_110)
+		{
+			goto IL_0126;
+		}
+	}
+	{
+		int32_t L_111 = V_14;
+		V_14 = ((int32_t)il2cpp_codegen_add(L_111, 1));
+	}
+
+IL_0221:
+	{
+		int32_t L_112 = V_14;
+		int32_t L_113 = ___4_outputWidth;
+		V_29 = (bool)((((int32_t)L_112) < ((int32_t)L_113))? 1 : 0);
+		bool L_114 = V_29;
+		if (L_114)
+		{
+			goto IL_00e1;
+		}
+	}
+	{
+		int32_t L_115 = V_13;
+		V_13 = ((int32_t)il2cpp_codegen_add(L_115, 1));
+	}
+
+IL_0236:
+	{
+		int32_t L_116 = V_13;
+		int32_t L_117 = ___3_outputHeight;
+		V_30 = (bool)((((int32_t)L_116) < ((int32_t)L_117))? 1 : 0);
+		bool L_118 = V_30;
+		if (L_118)
+		{
+			goto IL_00d9;
+		}
+	}
+	{
+		int32_t L_119 = V_3;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_119, 1));
+	}
+
+IL_024a:
+	{
+		int32_t L_120 = V_3;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_121 = ___1_Rois;
+		NullCheck(L_121);
+		int32_t L_122;
+		L_122 = Tensor_get_flatHeight_m5A8183FF5C9A9FBDE2F8080B134CA91ABA0FC50D(L_121, NULL);
+		V_31 = (bool)((((int32_t)L_120) < ((int32_t)L_122))? 1 : 0);
+		bool L_123 = V_31;
+		if (L_123)
+		{
+			goto IL_006c;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_124 = V_0;
+		V_32 = L_124;
+		goto IL_0261;
+	}
+
+IL_0261:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_125 = V_32;
+		return L_125;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_TopKIndices_m56C2E731868D216FD87B5AB7E8E6996E62ACDEA6 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, int32_t ___1_k, int32_t ___2_axis, bool ___3_largest, bool ___4_sorted, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerable_Reverse_TisKeyValuePair_2_tF9681614985AA4D11569AFA8747D722D1447A120_mD4D5923D68842B99CE3D61E339A4F1EAA650B808_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerable_Take_TisKeyValuePair_2_tF9681614985AA4D11569AFA8747D722D1447A120_mA225C8CD4BFF51A92F4A7F2221E0A244948F6353_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IEnumerable_1_t0FF2D4C164C0AEAD50C6E6E6C6D2700CD5CBD11E_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IEnumerator_1_tE0227A96BB4E9337196B34798A58A07327372EFE_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&KeyValuePair_2_get_Value_mAB1FC5832CB06EEF53C3A3E9C2A67258EAC6048E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SortedList_2_Clear_mF4F051FB1CB7767BA1ABECA569FD1523FB240978_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SortedList_2_TryGetValue_mED60BAF7AF8424D5F7EE5ACBAC765D3B347FE0E6_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SortedList_2__ctor_m29C71F4CF169F5211D57AA2929A763CDFB073929_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SortedList_2_set_Item_mD0789CC8848F1E2413C9545F7DC27349CA416F7F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SortedList_2_t770BD8AE327207D1B7D419DCA907B232D45C9FE4_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* V_1 = NULL;
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* V_2 = NULL;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_3 = NULL;
+	TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* V_5 = NULL;
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* V_6 = NULL;
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* V_7 = NULL;
+	int32_t V_8 = 0;
+	SortedList_2_t770BD8AE327207D1B7D419DCA907B232D45C9FE4* V_9 = NULL;
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* V_10 = NULL;
+	bool V_11 = false;
+	int32_t V_12 = 0;
+	bool V_13 = false;
+	RuntimeObject* V_14 = NULL;
+	int32_t V_15 = 0;
+	int32_t V_16 = 0;
+	int32_t V_17 = 0;
+	int32_t V_18 = 0;
+	int32_t V_19 = 0;
+	int32_t V_20 = 0;
+	float V_21 = 0.0f;
+	int32_t V_22 = 0;
+	bool V_23 = false;
+	bool V_24 = false;
+	RuntimeObject* V_25 = NULL;
+	KeyValuePair_2_tF9681614985AA4D11569AFA8747D722D1447A120 V_26;
+	memset((&V_26), 0, sizeof(V_26));
+	int32_t V_27 = 0;
+	int32_t V_28 = 0;
+	int32_t V_29 = 0;
+	int32_t V_30 = 0;
+	int32_t V_31 = 0;
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* V_32 = NULL;
+	int32_t V_33 = 0;
+	bool V_34 = false;
+	bool V_35 = false;
+	bool V_36 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_37 = NULL;
+	RuntimeObject* G_B16_0 = NULL;
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_0 = ___0_X;
+		NullCheck(L_0);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_1;
+		L_1 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_0, NULL);
+		bool L_2;
+		L_2 = TensorExtensions_Is4D_m1BB4A7DABDDBDB4046C16B6833336A64CD5A0C86(L_1, NULL);
+		V_11 = (bool)((((int32_t)L_2) == ((int32_t)0))? 1 : 0);
+		bool L_3 = V_11;
+		if (!L_3)
+		{
+			goto IL_001b;
+		}
+	}
+	{
+		NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8* L_4 = (NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8_il2cpp_TypeInfo_var)));
+		NotImplementedException__ctor_mDAB47BC6BD0E342E8F2171E5CABE3E67EA049F1C(L_4, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_4, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ReferenceCPUOps_TopKIndices_m56C2E731868D216FD87B5AB7E8E6996E62ACDEA6_RuntimeMethod_var)));
+	}
+
+IL_001b:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_5 = ___0_X;
+		NullCheck(L_5);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_6;
+		L_6 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_5, NULL);
+		V_0 = L_6;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_7;
+		L_7 = TensorShape_ToArray_m6F504949F53EAB92C210A4B52F7F53BE104E8637((&V_0), NULL);
+		V_1 = L_7;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_8;
+		L_8 = TensorShape_ToArray_m6F504949F53EAB92C210A4B52F7F53BE104E8637((&V_0), NULL);
+		V_2 = L_8;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_9 = V_2;
+		int32_t L_10 = ___2_axis;
+		int32_t L_11 = ___1_k;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_12 = V_2;
+		int32_t L_13 = ___2_axis;
+		NullCheck(L_12);
+		int32_t L_14 = L_13;
+		int32_t L_15 = (L_12)->GetAt(static_cast<il2cpp_array_size_t>(L_14));
+		int32_t L_16;
+		L_16 = Mathf_Min_m888083F74FF5655778F0403BB5E9608BEFDEA8CB_inline(L_11, L_15, NULL);
+		NullCheck(L_9);
+		(L_9)->SetAt(static_cast<il2cpp_array_size_t>(L_10), (int32_t)L_16);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_17 = ___0_X;
+		NullCheck(L_17);
+		int32_t L_18;
+		L_18 = Tensor_get_dataType_m57109C88C5386735035BB4066BAACD68228C3AB1(L_17, NULL);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_19 = V_2;
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_20;
+		memset((&L_20), 0, sizeof(L_20));
+		TensorShape__ctor_m9DE68F3346972692FB3BA10C9DD28ABFDAE09173((&L_20), L_19, (bool)0, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_21;
+		L_21 = ReferenceCPUOps_NewTensor_m74008D9C77785A62165EBEF61281FBB9CB42DAAF(__this, L_18, L_20, NULL);
+		V_3 = L_21;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_22 = V_3;
+		NullCheck(L_22);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_23;
+		L_23 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_22, NULL);
+		V_4 = L_23;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_24 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)SZArrayNew(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var, (uint32_t)4);
+		V_5 = L_24;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_25 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)SZArrayNew(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var, (uint32_t)4);
+		V_6 = L_25;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_26 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)SZArrayNew(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var, (uint32_t)4);
+		V_7 = L_26;
+		int32_t L_27 = ___2_axis;
+		int32_t L_28;
+		L_28 = TensorExtensions_Convert8DAxisTo4D_m4B4356063BCD46AA320F6603E5CC8A14C81A39B2(L_27, NULL);
+		___2_axis = L_28;
+		int32_t L_29 = ___2_axis;
+		V_8 = L_29;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_30 = V_6;
+		NullCheck(L_30);
+		V_12 = ((int32_t)il2cpp_codegen_subtract(((int32_t)(((RuntimeArray*)L_30)->max_length)), 1));
+		goto IL_00b0;
+	}
+
+IL_0087:
+	{
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_31 = V_6;
+		int32_t L_32 = V_12;
+		int32_t L_33 = V_8;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_34 = V_6;
+		NullCheck(L_34);
+		NullCheck(L_31);
+		(L_31)->SetAt(static_cast<il2cpp_array_size_t>(L_32), (int32_t)((int32_t)(L_33%((int32_t)(((RuntimeArray*)L_34)->max_length)))));
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_35 = V_7;
+		int32_t L_36 = V_12;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_37 = V_6;
+		int32_t L_38 = V_12;
+		NullCheck(L_37);
+		int32_t L_39 = L_38;
+		int32_t L_40 = (L_37)->GetAt(static_cast<il2cpp_array_size_t>(L_39));
+		int32_t L_41;
+		L_41 = TensorExtensions_Convert4DTo8DAxis_mF1E59D0EAA74487291EAF4FB9ED1218F9FF99E8D(L_40, NULL);
+		NullCheck(L_35);
+		(L_35)->SetAt(static_cast<il2cpp_array_size_t>(L_36), (int32_t)L_41);
+		int32_t L_42 = V_8;
+		V_8 = ((int32_t)il2cpp_codegen_add(L_42, 1));
+		int32_t L_43 = V_12;
+		V_12 = ((int32_t)il2cpp_codegen_subtract(L_43, 1));
+	}
+
+IL_00b0:
+	{
+		int32_t L_44 = V_12;
+		V_13 = (bool)((((int32_t)((((int32_t)L_44) < ((int32_t)0))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_45 = V_13;
+		if (L_45)
+		{
+			goto IL_0087;
+		}
+	}
+	{
+		SortedList_2_t770BD8AE327207D1B7D419DCA907B232D45C9FE4* L_46 = (SortedList_2_t770BD8AE327207D1B7D419DCA907B232D45C9FE4*)il2cpp_codegen_object_new(SortedList_2_t770BD8AE327207D1B7D419DCA907B232D45C9FE4_il2cpp_TypeInfo_var);
+		SortedList_2__ctor_m29C71F4CF169F5211D57AA2929A763CDFB073929(L_46, SortedList_2__ctor_m29C71F4CF169F5211D57AA2929A763CDFB073929_RuntimeMethod_var);
+		V_9 = L_46;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_47 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)SZArrayNew(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var, (uint32_t)4);
+		V_10 = L_47;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_48 = V_5;
+		NullCheck(L_48);
+		(L_48)->SetAt(static_cast<il2cpp_array_size_t>(0), (int32_t)0);
+		goto IL_02ee;
+	}
+
+IL_00d7:
+	{
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_49 = V_5;
+		NullCheck(L_49);
+		(L_49)->SetAt(static_cast<il2cpp_array_size_t>(1), (int32_t)0);
+		goto IL_02cb;
+	}
+
+IL_00e2:
+	{
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_50 = V_5;
+		NullCheck(L_50);
+		(L_50)->SetAt(static_cast<il2cpp_array_size_t>(2), (int32_t)0);
+		goto IL_02a8;
+	}
+
+IL_00ed:
+	{
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_51 = V_5;
+		NullCheck(L_51);
+		(L_51)->SetAt(static_cast<il2cpp_array_size_t>(3), (int32_t)0);
+		goto IL_018e;
+	}
+
+IL_00f8:
+	{
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_52 = V_10;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_53 = V_6;
+		NullCheck(L_53);
+		int32_t L_54 = 0;
+		int32_t L_55 = (L_53)->GetAt(static_cast<il2cpp_array_size_t>(L_54));
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_56 = V_5;
+		NullCheck(L_56);
+		int32_t L_57 = 0;
+		int32_t L_58 = (L_56)->GetAt(static_cast<il2cpp_array_size_t>(L_57));
+		NullCheck(L_52);
+		(L_52)->SetAt(static_cast<il2cpp_array_size_t>(L_55), (int32_t)L_58);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_59 = V_10;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_60 = V_6;
+		NullCheck(L_60);
+		int32_t L_61 = 1;
+		int32_t L_62 = (L_60)->GetAt(static_cast<il2cpp_array_size_t>(L_61));
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_63 = V_5;
+		NullCheck(L_63);
+		int32_t L_64 = 1;
+		int32_t L_65 = (L_63)->GetAt(static_cast<il2cpp_array_size_t>(L_64));
+		NullCheck(L_59);
+		(L_59)->SetAt(static_cast<il2cpp_array_size_t>(L_62), (int32_t)L_65);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_66 = V_10;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_67 = V_6;
+		NullCheck(L_67);
+		int32_t L_68 = 2;
+		int32_t L_69 = (L_67)->GetAt(static_cast<il2cpp_array_size_t>(L_68));
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_70 = V_5;
+		NullCheck(L_70);
+		int32_t L_71 = 2;
+		int32_t L_72 = (L_70)->GetAt(static_cast<il2cpp_array_size_t>(L_71));
+		NullCheck(L_66);
+		(L_66)->SetAt(static_cast<il2cpp_array_size_t>(L_69), (int32_t)L_72);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_73 = V_10;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_74 = V_6;
+		NullCheck(L_74);
+		int32_t L_75 = 3;
+		int32_t L_76 = (L_74)->GetAt(static_cast<il2cpp_array_size_t>(L_75));
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_77 = V_5;
+		NullCheck(L_77);
+		int32_t L_78 = 3;
+		int32_t L_79 = (L_77)->GetAt(static_cast<il2cpp_array_size_t>(L_78));
+		NullCheck(L_73);
+		(L_73)->SetAt(static_cast<il2cpp_array_size_t>(L_76), (int32_t)L_79);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_80 = V_10;
+		NullCheck(L_80);
+		int32_t L_81 = 0;
+		int32_t L_82 = (L_80)->GetAt(static_cast<il2cpp_array_size_t>(L_81));
+		V_16 = L_82;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_83 = V_10;
+		NullCheck(L_83);
+		int32_t L_84 = 1;
+		int32_t L_85 = (L_83)->GetAt(static_cast<il2cpp_array_size_t>(L_84));
+		V_17 = L_85;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_86 = V_10;
+		NullCheck(L_86);
+		int32_t L_87 = 2;
+		int32_t L_88 = (L_86)->GetAt(static_cast<il2cpp_array_size_t>(L_87));
+		V_18 = L_88;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_89 = V_10;
+		NullCheck(L_89);
+		int32_t L_90 = 3;
+		int32_t L_91 = (L_89)->GetAt(static_cast<il2cpp_array_size_t>(L_90));
+		V_19 = L_91;
+		int32_t L_92 = V_16;
+		int32_t L_93 = V_17;
+		int32_t L_94 = V_18;
+		int32_t L_95 = V_19;
+		int32_t L_96;
+		L_96 = TensorShape_Index_mBC2A1602541E21AE2919F39C2424580F06A7402E((&V_0), L_92, L_93, L_94, L_95, NULL);
+		V_20 = L_96;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_97 = ___0_X;
+		int32_t L_98 = V_20;
+		NullCheck(L_97);
+		float L_99;
+		L_99 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_97, L_98, NULL);
+		V_21 = L_99;
+		SortedList_2_t770BD8AE327207D1B7D419DCA907B232D45C9FE4* L_100 = V_9;
+		float L_101 = V_21;
+		NullCheck(L_100);
+		bool L_102;
+		L_102 = SortedList_2_TryGetValue_mED60BAF7AF8424D5F7EE5ACBAC765D3B347FE0E6(L_100, L_101, (&V_22), SortedList_2_TryGetValue_mED60BAF7AF8424D5F7EE5ACBAC765D3B347FE0E6_RuntimeMethod_var);
+		V_23 = L_102;
+		bool L_103 = V_23;
+		if (!L_103)
+		{
+			goto IL_0174;
+		}
+	}
+	{
+		int32_t L_104 = V_20;
+		int32_t L_105 = V_22;
+		int32_t L_106;
+		L_106 = Mathf_Min_m888083F74FF5655778F0403BB5E9608BEFDEA8CB_inline(L_104, L_105, NULL);
+		V_20 = L_106;
+	}
+
+IL_0174:
+	{
+		SortedList_2_t770BD8AE327207D1B7D419DCA907B232D45C9FE4* L_107 = V_9;
+		float L_108 = V_21;
+		int32_t L_109 = V_20;
+		NullCheck(L_107);
+		SortedList_2_set_Item_mD0789CC8848F1E2413C9545F7DC27349CA416F7F(L_107, L_108, L_109, SortedList_2_set_Item_mD0789CC8848F1E2413C9545F7DC27349CA416F7F_RuntimeMethod_var);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_110 = V_5;
+		NullCheck(L_110);
+		int32_t* L_111 = ((L_110)->GetAddressAt(static_cast<il2cpp_array_size_t>(3)));
+		int32_t L_112 = *((int32_t*)L_111);
+		*((int32_t*)L_111) = (int32_t)((int32_t)il2cpp_codegen_add(L_112, 1));
+	}
+
+IL_018e:
+	{
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_113 = V_5;
+		NullCheck(L_113);
+		int32_t L_114 = 3;
+		int32_t L_115 = (L_113)->GetAt(static_cast<il2cpp_array_size_t>(L_114));
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_116 = V_1;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_117 = V_7;
+		NullCheck(L_117);
+		int32_t L_118 = 3;
+		int32_t L_119 = (L_117)->GetAt(static_cast<il2cpp_array_size_t>(L_118));
+		NullCheck(L_116);
+		int32_t L_120 = L_119;
+		int32_t L_121 = (L_116)->GetAt(static_cast<il2cpp_array_size_t>(L_120));
+		V_24 = (bool)((((int32_t)L_115) < ((int32_t)L_121))? 1 : 0);
+		bool L_122 = V_24;
+		if (L_122)
+		{
+			goto IL_00f8;
+		}
+	}
+	{
+		bool L_123 = ___3_largest;
+		if (L_123)
+		{
+			goto IL_01b1;
+		}
+	}
+	{
+		SortedList_2_t770BD8AE327207D1B7D419DCA907B232D45C9FE4* L_124 = V_9;
+		int32_t L_125 = ___1_k;
+		RuntimeObject* L_126;
+		L_126 = Enumerable_Take_TisKeyValuePair_2_tF9681614985AA4D11569AFA8747D722D1447A120_mA225C8CD4BFF51A92F4A7F2221E0A244948F6353(L_124, L_125, Enumerable_Take_TisKeyValuePair_2_tF9681614985AA4D11569AFA8747D722D1447A120_mA225C8CD4BFF51A92F4A7F2221E0A244948F6353_RuntimeMethod_var);
+		G_B16_0 = L_126;
+		goto IL_01be;
+	}
+
+IL_01b1:
+	{
+		SortedList_2_t770BD8AE327207D1B7D419DCA907B232D45C9FE4* L_127 = V_9;
+		RuntimeObject* L_128;
+		L_128 = Enumerable_Reverse_TisKeyValuePair_2_tF9681614985AA4D11569AFA8747D722D1447A120_mD4D5923D68842B99CE3D61E339A4F1EAA650B808(L_127, Enumerable_Reverse_TisKeyValuePair_2_tF9681614985AA4D11569AFA8747D722D1447A120_mD4D5923D68842B99CE3D61E339A4F1EAA650B808_RuntimeMethod_var);
+		int32_t L_129 = ___1_k;
+		RuntimeObject* L_130;
+		L_130 = Enumerable_Take_TisKeyValuePair_2_tF9681614985AA4D11569AFA8747D722D1447A120_mA225C8CD4BFF51A92F4A7F2221E0A244948F6353(L_128, L_129, Enumerable_Take_TisKeyValuePair_2_tF9681614985AA4D11569AFA8747D722D1447A120_mA225C8CD4BFF51A92F4A7F2221E0A244948F6353_RuntimeMethod_var);
+		G_B16_0 = L_130;
+	}
+
+IL_01be:
+	{
+		V_14 = G_B16_0;
+		V_15 = 0;
+		RuntimeObject* L_131 = V_14;
+		NullCheck(L_131);
+		RuntimeObject* L_132;
+		L_132 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(0, IEnumerable_1_t0FF2D4C164C0AEAD50C6E6E6C6D2700CD5CBD11E_il2cpp_TypeInfo_var, L_131);
+		V_25 = L_132;
+	}
+	{
+		auto __finallyBlock = il2cpp::utils::Finally([&]
+		{
+
+FINALLY_0285:
+			{
+				{
+					RuntimeObject* L_133 = V_25;
+					if (!L_133)
+					{
+						goto IL_0291;
+					}
+				}
+				{
+					RuntimeObject* L_134 = V_25;
+					NullCheck(L_134);
+					InterfaceActionInvoker0::Invoke(0, IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var, L_134);
+				}
+
+IL_0291:
+				{
+					return;
+				}
+			}
+		});
+		try
+		{
+			{
+				goto IL_0277_1;
+			}
+
+IL_01d2_1:
+			{
+				RuntimeObject* L_135 = V_25;
+				NullCheck(L_135);
+				KeyValuePair_2_tF9681614985AA4D11569AFA8747D722D1447A120 L_136;
+				L_136 = InterfaceFuncInvoker0< KeyValuePair_2_tF9681614985AA4D11569AFA8747D722D1447A120 >::Invoke(0, IEnumerator_1_tE0227A96BB4E9337196B34798A58A07327372EFE_il2cpp_TypeInfo_var, L_135);
+				V_26 = L_136;
+				int32_t L_137;
+				L_137 = KeyValuePair_2_get_Value_mAB1FC5832CB06EEF53C3A3E9C2A67258EAC6048E_inline((&V_26), KeyValuePair_2_get_Value_mAB1FC5832CB06EEF53C3A3E9C2A67258EAC6048E_RuntimeMethod_var);
+				V_27 = L_137;
+				int32_t L_138 = V_27;
+				Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_139 = V_10;
+				NullCheck(L_139);
+				Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_140 = V_10;
+				NullCheck(L_140);
+				Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_141 = V_10;
+				NullCheck(L_141);
+				Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_142 = V_10;
+				NullCheck(L_142);
+				TensorShape_GetPositionsFromIndex_m1D0BFA271F02E131FD139905B80656D42BA3D3A9((&V_0), L_138, ((L_139)->GetAddressAt(static_cast<il2cpp_array_size_t>(0))), ((L_140)->GetAddressAt(static_cast<il2cpp_array_size_t>(1))), ((L_141)->GetAddressAt(static_cast<il2cpp_array_size_t>(2))), ((L_142)->GetAddressAt(static_cast<il2cpp_array_size_t>(3))), NULL);
+				Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_143 = V_10;
+				NullCheck(L_143);
+				int32_t L_144 = 0;
+				int32_t L_145 = (L_143)->GetAt(static_cast<il2cpp_array_size_t>(L_144));
+				V_28 = L_145;
+				Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_146 = V_10;
+				NullCheck(L_146);
+				int32_t L_147 = 1;
+				int32_t L_148 = (L_146)->GetAt(static_cast<il2cpp_array_size_t>(L_147));
+				V_29 = L_148;
+				Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_149 = V_10;
+				NullCheck(L_149);
+				int32_t L_150 = 2;
+				int32_t L_151 = (L_149)->GetAt(static_cast<il2cpp_array_size_t>(L_150));
+				V_30 = L_151;
+				Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_152 = V_10;
+				NullCheck(L_152);
+				int32_t L_153 = 3;
+				int32_t L_154 = (L_152)->GetAt(static_cast<il2cpp_array_size_t>(L_153));
+				V_31 = L_154;
+				Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_155 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)SZArrayNew(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var, (uint32_t)4);
+				Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_156 = L_155;
+				int32_t L_157 = V_28;
+				NullCheck(L_156);
+				(L_156)->SetAt(static_cast<il2cpp_array_size_t>(0), (int32_t)L_157);
+				Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_158 = L_156;
+				int32_t L_159 = V_29;
+				NullCheck(L_158);
+				(L_158)->SetAt(static_cast<il2cpp_array_size_t>(1), (int32_t)L_159);
+				Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_160 = L_158;
+				int32_t L_161 = V_30;
+				NullCheck(L_160);
+				(L_160)->SetAt(static_cast<il2cpp_array_size_t>(2), (int32_t)L_161);
+				Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_162 = L_160;
+				int32_t L_163 = V_31;
+				NullCheck(L_162);
+				(L_162)->SetAt(static_cast<il2cpp_array_size_t>(3), (int32_t)L_163);
+				V_32 = L_162;
+				Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_164 = V_32;
+				int32_t L_165 = ___2_axis;
+				int32_t L_166 = V_15;
+				NullCheck(L_164);
+				(L_164)->SetAt(static_cast<il2cpp_array_size_t>(L_165), (int32_t)L_166);
+				Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_167 = V_32;
+				NullCheck(L_167);
+				int32_t L_168 = 0;
+				int32_t L_169 = (L_167)->GetAt(static_cast<il2cpp_array_size_t>(L_168));
+				Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_170 = V_32;
+				NullCheck(L_170);
+				int32_t L_171 = 1;
+				int32_t L_172 = (L_170)->GetAt(static_cast<il2cpp_array_size_t>(L_171));
+				Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_173 = V_32;
+				NullCheck(L_173);
+				int32_t L_174 = 2;
+				int32_t L_175 = (L_173)->GetAt(static_cast<il2cpp_array_size_t>(L_174));
+				Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_176 = V_32;
+				NullCheck(L_176);
+				int32_t L_177 = 3;
+				int32_t L_178 = (L_176)->GetAt(static_cast<il2cpp_array_size_t>(L_177));
+				int32_t L_179;
+				L_179 = TensorShape_Index_mBC2A1602541E21AE2919F39C2424580F06A7402E((&V_4), L_169, L_172, L_175, L_178, NULL);
+				V_33 = L_179;
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_180 = V_3;
+				int32_t L_181 = V_33;
+				Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_182 = V_10;
+				int32_t L_183 = ___2_axis;
+				NullCheck(L_182);
+				int32_t L_184 = L_183;
+				int32_t L_185 = (L_182)->GetAt(static_cast<il2cpp_array_size_t>(L_184));
+				NullCheck(L_180);
+				Tensor_set_Item_m825AF5D1FC078421906298C6662565DF5C64817E(L_180, L_181, ((float)L_185), NULL);
+				int32_t L_186 = V_15;
+				V_15 = ((int32_t)il2cpp_codegen_add(L_186, 1));
+			}
+
+IL_0277_1:
+			{
+				RuntimeObject* L_187 = V_25;
+				NullCheck(L_187);
+				bool L_188;
+				L_188 = InterfaceFuncInvoker0< bool >::Invoke(0, IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var, L_187);
+				if (L_188)
+				{
+					goto IL_01d2_1;
+				}
+			}
+			{
+				goto IL_0292;
+			}
+		}
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_0292:
+	{
+		SortedList_2_t770BD8AE327207D1B7D419DCA907B232D45C9FE4* L_189 = V_9;
+		NullCheck(L_189);
+		SortedList_2_Clear_mF4F051FB1CB7767BA1ABECA569FD1523FB240978(L_189, SortedList_2_Clear_mF4F051FB1CB7767BA1ABECA569FD1523FB240978_RuntimeMethod_var);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_190 = V_5;
+		NullCheck(L_190);
+		int32_t* L_191 = ((L_190)->GetAddressAt(static_cast<il2cpp_array_size_t>(2)));
+		int32_t L_192 = *((int32_t*)L_191);
+		*((int32_t*)L_191) = (int32_t)((int32_t)il2cpp_codegen_add(L_192, 1));
+	}
+
+IL_02a8:
+	{
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_193 = V_5;
+		NullCheck(L_193);
+		int32_t L_194 = 2;
+		int32_t L_195 = (L_193)->GetAt(static_cast<il2cpp_array_size_t>(L_194));
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_196 = V_1;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_197 = V_7;
+		NullCheck(L_197);
+		int32_t L_198 = 2;
+		int32_t L_199 = (L_197)->GetAt(static_cast<il2cpp_array_size_t>(L_198));
+		NullCheck(L_196);
+		int32_t L_200 = L_199;
+		int32_t L_201 = (L_196)->GetAt(static_cast<il2cpp_array_size_t>(L_200));
+		V_34 = (bool)((((int32_t)L_195) < ((int32_t)L_201))? 1 : 0);
+		bool L_202 = V_34;
+		if (L_202)
+		{
+			goto IL_00ed;
+		}
+	}
+	{
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_203 = V_5;
+		NullCheck(L_203);
+		int32_t* L_204 = ((L_203)->GetAddressAt(static_cast<il2cpp_array_size_t>(1)));
+		int32_t L_205 = *((int32_t*)L_204);
+		*((int32_t*)L_204) = (int32_t)((int32_t)il2cpp_codegen_add(L_205, 1));
+	}
+
+IL_02cb:
+	{
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_206 = V_5;
+		NullCheck(L_206);
+		int32_t L_207 = 1;
+		int32_t L_208 = (L_206)->GetAt(static_cast<il2cpp_array_size_t>(L_207));
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_209 = V_1;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_210 = V_7;
+		NullCheck(L_210);
+		int32_t L_211 = 1;
+		int32_t L_212 = (L_210)->GetAt(static_cast<il2cpp_array_size_t>(L_211));
+		NullCheck(L_209);
+		int32_t L_213 = L_212;
+		int32_t L_214 = (L_209)->GetAt(static_cast<il2cpp_array_size_t>(L_213));
+		V_35 = (bool)((((int32_t)L_208) < ((int32_t)L_214))? 1 : 0);
+		bool L_215 = V_35;
+		if (L_215)
+		{
+			goto IL_00e2;
+		}
+	}
+	{
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_216 = V_5;
+		NullCheck(L_216);
+		int32_t* L_217 = ((L_216)->GetAddressAt(static_cast<il2cpp_array_size_t>(0)));
+		int32_t L_218 = *((int32_t*)L_217);
+		*((int32_t*)L_217) = (int32_t)((int32_t)il2cpp_codegen_add(L_218, 1));
+	}
+
+IL_02ee:
+	{
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_219 = V_5;
+		NullCheck(L_219);
+		int32_t L_220 = 0;
+		int32_t L_221 = (L_219)->GetAt(static_cast<il2cpp_array_size_t>(L_220));
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_222 = V_1;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_223 = V_7;
+		NullCheck(L_223);
+		int32_t L_224 = 0;
+		int32_t L_225 = (L_223)->GetAt(static_cast<il2cpp_array_size_t>(L_224));
+		NullCheck(L_222);
+		int32_t L_226 = L_225;
+		int32_t L_227 = (L_222)->GetAt(static_cast<il2cpp_array_size_t>(L_226));
+		V_36 = (bool)((((int32_t)L_221) < ((int32_t)L_227))? 1 : 0);
+		bool L_228 = V_36;
+		if (L_228)
+		{
+			goto IL_00d7;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_229 = V_3;
+		V_37 = L_229;
+		goto IL_0308;
+	}
+
+IL_0308:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_230 = V_37;
+		return L_230;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_NonZero_mEDA250C1C790914D94CCF738688D679C90C2268A (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_mC2AEA78982ECE580E4329735D062D1B5F1A12B94_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1__ctor_mC423242B9593865CFAF5099E70E72BF837C18D2A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Count_m49F98C7CDE40A86E99CE80339BB0941F04189395_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_m79F3E2B859433E0B67E7E6B3EA0005F9FE9B12B6_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_tDEC4119E22EFA9DBE2F6B6C4F3ACD2FD0849215C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	List_1_tDEC4119E22EFA9DBE2F6B6C4F3ACD2FD0849215C* V_0 = NULL;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_1 = NULL;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	int32_t V_4 = 0;
+	int32_t V_5 = 0;
+	int32_t V_6 = 0;
+	int32_t V_7 = 0;
+	int32_t V_8 = 0;
+	int32_t V_9 = 0;
+	bool V_10 = false;
+	bool V_11 = false;
+	TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 V_12;
+	memset((&V_12), 0, sizeof(V_12));
+	bool V_13 = false;
+	bool V_14 = false;
+	bool V_15 = false;
+	bool V_16 = false;
+	bool V_17 = false;
+	bool V_18 = false;
+	bool V_19 = false;
+	int32_t V_20 = 0;
+	int32_t V_21 = 0;
+	int32_t V_22 = 0;
+	bool V_23 = false;
+	bool V_24 = false;
+	bool V_25 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_26 = NULL;
+	{
+		List_1_tDEC4119E22EFA9DBE2F6B6C4F3ACD2FD0849215C* L_0 = (List_1_tDEC4119E22EFA9DBE2F6B6C4F3ACD2FD0849215C*)il2cpp_codegen_object_new(List_1_tDEC4119E22EFA9DBE2F6B6C4F3ACD2FD0849215C_il2cpp_TypeInfo_var);
+		List_1__ctor_mC423242B9593865CFAF5099E70E72BF837C18D2A(L_0, List_1__ctor_mC423242B9593865CFAF5099E70E72BF837C18D2A_RuntimeMethod_var);
+		V_0 = L_0;
+		V_2 = 0;
+		goto IL_0192;
+	}
+
+IL_000e:
+	{
+		V_3 = 0;
+		goto IL_0172;
+	}
+
+IL_0015:
+	{
+		V_4 = 0;
+		goto IL_0151;
+	}
+
+IL_001d:
+	{
+		V_5 = 0;
+		goto IL_012e;
+	}
+
+IL_0025:
+	{
+		V_6 = 0;
+		goto IL_010b;
+	}
+
+IL_002d:
+	{
+		V_7 = 0;
+		goto IL_00e8;
+	}
+
+IL_0035:
+	{
+		V_8 = 0;
+		goto IL_00c5;
+	}
+
+IL_003d:
+	{
+		V_9 = 0;
+		goto IL_00a5;
+	}
+
+IL_0042:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_1 = ___0_X;
+		int32_t L_2 = V_2;
+		int32_t L_3 = V_3;
+		int32_t L_4 = V_4;
+		int32_t L_5 = V_6;
+		int32_t L_6 = V_7;
+		int32_t L_7 = V_8;
+		int32_t L_8 = V_9;
+		int32_t L_9 = V_5;
+		NullCheck(L_1);
+		float L_10;
+		L_10 = Tensor_get_Item_mEC07898861EE98ED01A447281200D4F26CEDA1A9(L_1, L_2, L_3, L_4, L_5, L_6, L_7, L_8, L_9, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		float L_11;
+		L_11 = fabsf(L_10);
+		V_10 = (bool)((((float)L_11) > ((float)(1.40129846E-45f)))? 1 : 0);
+		bool L_12 = V_10;
+		if (!L_12)
+		{
+			goto IL_009e;
+		}
+	}
+	{
+		List_1_tDEC4119E22EFA9DBE2F6B6C4F3ACD2FD0849215C* L_13 = V_0;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_14 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)SZArrayNew(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var, (uint32_t)8);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_15 = L_14;
+		int32_t L_16 = V_2;
+		NullCheck(L_15);
+		(L_15)->SetAt(static_cast<il2cpp_array_size_t>(0), (int32_t)L_16);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_17 = L_15;
+		int32_t L_18 = V_3;
+		NullCheck(L_17);
+		(L_17)->SetAt(static_cast<il2cpp_array_size_t>(1), (int32_t)L_18);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_19 = L_17;
+		int32_t L_20 = V_4;
+		NullCheck(L_19);
+		(L_19)->SetAt(static_cast<il2cpp_array_size_t>(2), (int32_t)L_20);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_21 = L_19;
+		int32_t L_22 = V_6;
+		NullCheck(L_21);
+		(L_21)->SetAt(static_cast<il2cpp_array_size_t>(3), (int32_t)L_22);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_23 = L_21;
+		int32_t L_24 = V_7;
+		NullCheck(L_23);
+		(L_23)->SetAt(static_cast<il2cpp_array_size_t>(4), (int32_t)L_24);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_25 = L_23;
+		int32_t L_26 = V_8;
+		NullCheck(L_25);
+		(L_25)->SetAt(static_cast<il2cpp_array_size_t>(5), (int32_t)L_26);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_27 = L_25;
+		int32_t L_28 = V_9;
+		NullCheck(L_27);
+		(L_27)->SetAt(static_cast<il2cpp_array_size_t>(6), (int32_t)L_28);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_29 = L_27;
+		int32_t L_30 = V_5;
+		NullCheck(L_29);
+		(L_29)->SetAt(static_cast<il2cpp_array_size_t>(7), (int32_t)L_30);
+		NullCheck(L_13);
+		List_1_Add_mC2AEA78982ECE580E4329735D062D1B5F1A12B94_inline(L_13, L_29, List_1_Add_mC2AEA78982ECE580E4329735D062D1B5F1A12B94_RuntimeMethod_var);
+	}
+
+IL_009e:
+	{
+		int32_t L_31 = V_9;
+		V_9 = ((int32_t)il2cpp_codegen_add(L_31, 1));
+	}
+
+IL_00a5:
+	{
+		int32_t L_32 = V_9;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_33 = ___0_X;
+		NullCheck(L_33);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_34;
+		L_34 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_33, NULL);
+		V_12 = L_34;
+		int32_t L_35;
+		L_35 = TensorShape_get_Item_m046FF56D8906EA7CD9D33486F778EBBCE949B33E((&V_12), 6, NULL);
+		V_11 = (bool)((((int32_t)L_32) < ((int32_t)L_35))? 1 : 0);
+		bool L_36 = V_11;
+		if (L_36)
+		{
+			goto IL_0042;
+		}
+	}
+	{
+		int32_t L_37 = V_8;
+		V_8 = ((int32_t)il2cpp_codegen_add(L_37, 1));
+	}
+
+IL_00c5:
+	{
+		int32_t L_38 = V_8;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_39 = ___0_X;
+		NullCheck(L_39);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_40;
+		L_40 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_39, NULL);
+		V_12 = L_40;
+		int32_t L_41;
+		L_41 = TensorShape_get_Item_m046FF56D8906EA7CD9D33486F778EBBCE949B33E((&V_12), 5, NULL);
+		V_13 = (bool)((((int32_t)L_38) < ((int32_t)L_41))? 1 : 0);
+		bool L_42 = V_13;
+		if (L_42)
+		{
+			goto IL_003d;
+		}
+	}
+	{
+		int32_t L_43 = V_7;
+		V_7 = ((int32_t)il2cpp_codegen_add(L_43, 1));
+	}
+
+IL_00e8:
+	{
+		int32_t L_44 = V_7;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_45 = ___0_X;
+		NullCheck(L_45);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_46;
+		L_46 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_45, NULL);
+		V_12 = L_46;
+		int32_t L_47;
+		L_47 = TensorShape_get_Item_m046FF56D8906EA7CD9D33486F778EBBCE949B33E((&V_12), 4, NULL);
+		V_14 = (bool)((((int32_t)L_44) < ((int32_t)L_47))? 1 : 0);
+		bool L_48 = V_14;
+		if (L_48)
+		{
+			goto IL_0035;
+		}
+	}
+	{
+		int32_t L_49 = V_6;
+		V_6 = ((int32_t)il2cpp_codegen_add(L_49, 1));
+	}
+
+IL_010b:
+	{
+		int32_t L_50 = V_6;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_51 = ___0_X;
+		NullCheck(L_51);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_52;
+		L_52 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_51, NULL);
+		V_12 = L_52;
+		int32_t L_53;
+		L_53 = TensorShape_get_Item_m046FF56D8906EA7CD9D33486F778EBBCE949B33E((&V_12), 3, NULL);
+		V_15 = (bool)((((int32_t)L_50) < ((int32_t)L_53))? 1 : 0);
+		bool L_54 = V_15;
+		if (L_54)
+		{
+			goto IL_002d;
+		}
+	}
+	{
+		int32_t L_55 = V_5;
+		V_5 = ((int32_t)il2cpp_codegen_add(L_55, 1));
+	}
+
+IL_012e:
+	{
+		int32_t L_56 = V_5;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_57 = ___0_X;
+		NullCheck(L_57);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_58;
+		L_58 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_57, NULL);
+		V_12 = L_58;
+		int32_t L_59;
+		L_59 = TensorShape_get_Item_m046FF56D8906EA7CD9D33486F778EBBCE949B33E((&V_12), 7, NULL);
+		V_16 = (bool)((((int32_t)L_56) < ((int32_t)L_59))? 1 : 0);
+		bool L_60 = V_16;
+		if (L_60)
+		{
+			goto IL_0025;
+		}
+	}
+	{
+		int32_t L_61 = V_4;
+		V_4 = ((int32_t)il2cpp_codegen_add(L_61, 1));
+	}
+
+IL_0151:
+	{
+		int32_t L_62 = V_4;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_63 = ___0_X;
+		NullCheck(L_63);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_64;
+		L_64 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_63, NULL);
+		V_12 = L_64;
+		int32_t L_65;
+		L_65 = TensorShape_get_Item_m046FF56D8906EA7CD9D33486F778EBBCE949B33E((&V_12), 2, NULL);
+		V_17 = (bool)((((int32_t)L_62) < ((int32_t)L_65))? 1 : 0);
+		bool L_66 = V_17;
+		if (L_66)
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		int32_t L_67 = V_3;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_67, 1));
+	}
+
+IL_0172:
+	{
+		int32_t L_68 = V_3;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_69 = ___0_X;
+		NullCheck(L_69);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_70;
+		L_70 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_69, NULL);
+		V_12 = L_70;
+		int32_t L_71;
+		L_71 = TensorShape_get_Item_m046FF56D8906EA7CD9D33486F778EBBCE949B33E((&V_12), 1, NULL);
+		V_18 = (bool)((((int32_t)L_68) < ((int32_t)L_71))? 1 : 0);
+		bool L_72 = V_18;
+		if (L_72)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		int32_t L_73 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_73, 1));
+	}
+
+IL_0192:
+	{
+		int32_t L_74 = V_2;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_75 = ___0_X;
+		NullCheck(L_75);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_76;
+		L_76 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_75, NULL);
+		V_12 = L_76;
+		int32_t L_77;
+		L_77 = TensorShape_get_Item_m046FF56D8906EA7CD9D33486F778EBBCE949B33E((&V_12), 0, NULL);
+		V_19 = (bool)((((int32_t)L_74) < ((int32_t)L_77))? 1 : 0);
+		bool L_78 = V_19;
+		if (L_78)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_79 = ___0_X;
+		NullCheck(L_79);
+		int32_t L_80;
+		L_80 = Tensor_get_dataType_m57109C88C5386735035BB4066BAACD68228C3AB1(L_79, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_81 = ___0_X;
+		NullCheck(L_81);
+		int32_t L_82;
+		L_82 = Tensor_get_dimensions_mD78E14F7C96D3C7E1F47BC20BFA4352E8C52E2BB(L_81, NULL);
+		List_1_tDEC4119E22EFA9DBE2F6B6C4F3ACD2FD0849215C* L_83 = V_0;
+		NullCheck(L_83);
+		int32_t L_84;
+		L_84 = List_1_get_Count_m49F98C7CDE40A86E99CE80339BB0941F04189395_inline(L_83, List_1_get_Count_m49F98C7CDE40A86E99CE80339BB0941F04189395_RuntimeMethod_var);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_85;
+		memset((&L_85), 0, sizeof(L_85));
+		TensorShape__ctor_m7AB7F54A3AAB95BB6BF985DD3F86B8B95B1C972D((&L_85), L_82, L_84, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_86;
+		L_86 = ReferenceCPUOps_NewTensor_m74008D9C77785A62165EBEF61281FBB9CB42DAAF(__this, L_80, L_85, NULL);
+		V_1 = L_86;
+		V_20 = 0;
+		goto IL_022d;
+	}
+
+IL_01d1:
+	{
+		V_21 = 0;
+		V_22 = 0;
+		goto IL_021b;
+	}
+
+IL_01da:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_87 = ___0_X;
+		NullCheck(L_87);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_88;
+		L_88 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_87, NULL);
+		V_12 = L_88;
+		int32_t L_89 = V_22;
+		int32_t L_90;
+		L_90 = TensorShape_get_Item_m046FF56D8906EA7CD9D33486F778EBBCE949B33E((&V_12), L_89, NULL);
+		V_23 = (bool)((((int32_t)L_90) > ((int32_t)1))? 1 : 0);
+		bool L_91 = V_23;
+		if (!L_91)
+		{
+			goto IL_0214;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_92 = V_1;
+		int32_t L_93 = V_21;
+		int32_t L_94 = V_20;
+		List_1_tDEC4119E22EFA9DBE2F6B6C4F3ACD2FD0849215C* L_95 = V_0;
+		int32_t L_96 = V_20;
+		NullCheck(L_95);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_97;
+		L_97 = List_1_get_Item_m79F3E2B859433E0B67E7E6B3EA0005F9FE9B12B6(L_95, L_96, List_1_get_Item_m79F3E2B859433E0B67E7E6B3EA0005F9FE9B12B6_RuntimeMethod_var);
+		int32_t L_98 = V_22;
+		NullCheck(L_97);
+		int32_t L_99 = L_98;
+		int32_t L_100 = (L_97)->GetAt(static_cast<il2cpp_array_size_t>(L_99));
+		NullCheck(L_92);
+		Tensor_set_Item_m3DDF7909FDDC72AE45128800669404B9A7151F87(L_92, L_93, L_94, ((float)L_100), NULL);
+		int32_t L_101 = V_21;
+		V_21 = ((int32_t)il2cpp_codegen_add(L_101, 1));
+	}
+
+IL_0214:
+	{
+		int32_t L_102 = V_22;
+		V_22 = ((int32_t)il2cpp_codegen_add(L_102, 1));
+	}
+
+IL_021b:
+	{
+		int32_t L_103 = V_22;
+		V_24 = (bool)((((int32_t)L_103) < ((int32_t)8))? 1 : 0);
+		bool L_104 = V_24;
+		if (L_104)
+		{
+			goto IL_01da;
+		}
+	}
+	{
+		int32_t L_105 = V_20;
+		V_20 = ((int32_t)il2cpp_codegen_add(L_105, 1));
+	}
+
+IL_022d:
+	{
+		int32_t L_106 = V_20;
+		List_1_tDEC4119E22EFA9DBE2F6B6C4F3ACD2FD0849215C* L_107 = V_0;
+		NullCheck(L_107);
+		int32_t L_108;
+		L_108 = List_1_get_Count_m49F98C7CDE40A86E99CE80339BB0941F04189395_inline(L_107, List_1_get_Count_m49F98C7CDE40A86E99CE80339BB0941F04189395_RuntimeMethod_var);
+		V_25 = (bool)((((int32_t)L_106) < ((int32_t)L_108))? 1 : 0);
+		bool L_109 = V_25;
+		if (L_109)
+		{
+			goto IL_01d1;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_110 = V_1;
+		V_26 = L_110;
+		goto IL_0242;
+	}
+
+IL_0242:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_111 = V_26;
+		return L_111;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_TopKValues_m13BF79A919F3446B55691F9794CE5FEA76F29386 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___1_I, int32_t ___2_axis, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* V_2 = NULL;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_3 = NULL;
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* V_4 = NULL;
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* V_5 = NULL;
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* V_6 = NULL;
+	int32_t V_7 = 0;
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* V_8 = NULL;
+	bool V_9 = false;
+	int32_t V_10 = 0;
+	bool V_11 = false;
+	int32_t V_12 = 0;
+	int32_t V_13 = 0;
+	int32_t V_14 = 0;
+	int32_t V_15 = 0;
+	int32_t V_16 = 0;
+	int32_t V_17 = 0;
+	int32_t V_18 = 0;
+	bool V_19 = false;
+	bool V_20 = false;
+	bool V_21 = false;
+	bool V_22 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_23 = NULL;
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_0 = ___0_X;
+		NullCheck(L_0);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_1;
+		L_1 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_0, NULL);
+		bool L_2;
+		L_2 = TensorExtensions_Is4D_m1BB4A7DABDDBDB4046C16B6833336A64CD5A0C86(L_1, NULL);
+		V_9 = (bool)((((int32_t)L_2) == ((int32_t)0))? 1 : 0);
+		bool L_3 = V_9;
+		if (!L_3)
+		{
+			goto IL_001b;
+		}
+	}
+	{
+		NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8* L_4 = (NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8_il2cpp_TypeInfo_var)));
+		NotImplementedException__ctor_mDAB47BC6BD0E342E8F2171E5CABE3E67EA049F1C(L_4, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_4, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ReferenceCPUOps_TopKValues_m13BF79A919F3446B55691F9794CE5FEA76F29386_RuntimeMethod_var)));
+	}
+
+IL_001b:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_5 = ___0_X;
+		NullCheck(L_5);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_6;
+		L_6 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_5, NULL);
+		V_0 = L_6;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_7 = ___1_I;
+		NullCheck(L_7);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_8;
+		L_8 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_7, NULL);
+		V_1 = L_8;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_9;
+		L_9 = TensorShape_ToArray_m6F504949F53EAB92C210A4B52F7F53BE104E8637((&V_1), NULL);
+		V_2 = L_9;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_10 = ___0_X;
+		NullCheck(L_10);
+		int32_t L_11;
+		L_11 = Tensor_get_dataType_m57109C88C5386735035BB4066BAACD68228C3AB1(L_10, NULL);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_12 = V_1;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_13;
+		L_13 = ReferenceCPUOps_NewTensor_m74008D9C77785A62165EBEF61281FBB9CB42DAAF(__this, L_11, L_12, NULL);
+		V_3 = L_13;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_14 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)SZArrayNew(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var, (uint32_t)4);
+		V_4 = L_14;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_15 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)SZArrayNew(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var, (uint32_t)4);
+		V_5 = L_15;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_16 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)SZArrayNew(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var, (uint32_t)4);
+		V_6 = L_16;
+		int32_t L_17 = ___2_axis;
+		int32_t L_18;
+		L_18 = TensorExtensions_Convert8DAxisTo4D_m4B4356063BCD46AA320F6603E5CC8A14C81A39B2(L_17, NULL);
+		___2_axis = L_18;
+		int32_t L_19 = ___2_axis;
+		V_7 = L_19;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_20 = V_5;
+		NullCheck(L_20);
+		V_10 = ((int32_t)il2cpp_codegen_subtract(((int32_t)(((RuntimeArray*)L_20)->max_length)), 1));
+		goto IL_0095;
+	}
+
+IL_006c:
+	{
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_21 = V_5;
+		int32_t L_22 = V_10;
+		int32_t L_23 = V_7;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_24 = V_5;
+		NullCheck(L_24);
+		NullCheck(L_21);
+		(L_21)->SetAt(static_cast<il2cpp_array_size_t>(L_22), (int32_t)((int32_t)(L_23%((int32_t)(((RuntimeArray*)L_24)->max_length)))));
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_25 = V_6;
+		int32_t L_26 = V_10;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_27 = V_5;
+		int32_t L_28 = V_10;
+		NullCheck(L_27);
+		int32_t L_29 = L_28;
+		int32_t L_30 = (L_27)->GetAt(static_cast<il2cpp_array_size_t>(L_29));
+		int32_t L_31;
+		L_31 = TensorExtensions_Convert4DTo8DAxis_mF1E59D0EAA74487291EAF4FB9ED1218F9FF99E8D(L_30, NULL);
+		NullCheck(L_25);
+		(L_25)->SetAt(static_cast<il2cpp_array_size_t>(L_26), (int32_t)L_31);
+		int32_t L_32 = V_7;
+		V_7 = ((int32_t)il2cpp_codegen_add(L_32, 1));
+		int32_t L_33 = V_10;
+		V_10 = ((int32_t)il2cpp_codegen_subtract(L_33, 1));
+	}
+
+IL_0095:
+	{
+		int32_t L_34 = V_10;
+		V_11 = (bool)((((int32_t)((((int32_t)L_34) < ((int32_t)0))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_35 = V_11;
+		if (L_35)
+		{
+			goto IL_006c;
+		}
+	}
+	{
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_36 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)SZArrayNew(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var, (uint32_t)4);
+		V_8 = L_36;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_37 = V_4;
+		NullCheck(L_37);
+		(L_37)->SetAt(static_cast<il2cpp_array_size_t>(0), (int32_t)0);
+		goto IL_01f1;
+	}
+
+IL_00b5:
+	{
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_38 = V_4;
+		NullCheck(L_38);
+		(L_38)->SetAt(static_cast<il2cpp_array_size_t>(1), (int32_t)0);
+		goto IL_01ce;
+	}
+
+IL_00c0:
+	{
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_39 = V_4;
+		NullCheck(L_39);
+		(L_39)->SetAt(static_cast<il2cpp_array_size_t>(2), (int32_t)0);
+		goto IL_01ab;
+	}
+
+IL_00cb:
+	{
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_40 = V_4;
+		NullCheck(L_40);
+		(L_40)->SetAt(static_cast<il2cpp_array_size_t>(3), (int32_t)0);
+		goto IL_0188;
+	}
+
+IL_00d6:
+	{
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_41 = V_8;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_42 = V_5;
+		NullCheck(L_42);
+		int32_t L_43 = 0;
+		int32_t L_44 = (L_42)->GetAt(static_cast<il2cpp_array_size_t>(L_43));
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_45 = V_4;
+		NullCheck(L_45);
+		int32_t L_46 = 0;
+		int32_t L_47 = (L_45)->GetAt(static_cast<il2cpp_array_size_t>(L_46));
+		NullCheck(L_41);
+		(L_41)->SetAt(static_cast<il2cpp_array_size_t>(L_44), (int32_t)L_47);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_48 = V_8;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_49 = V_5;
+		NullCheck(L_49);
+		int32_t L_50 = 1;
+		int32_t L_51 = (L_49)->GetAt(static_cast<il2cpp_array_size_t>(L_50));
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_52 = V_4;
+		NullCheck(L_52);
+		int32_t L_53 = 1;
+		int32_t L_54 = (L_52)->GetAt(static_cast<il2cpp_array_size_t>(L_53));
+		NullCheck(L_48);
+		(L_48)->SetAt(static_cast<il2cpp_array_size_t>(L_51), (int32_t)L_54);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_55 = V_8;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_56 = V_5;
+		NullCheck(L_56);
+		int32_t L_57 = 2;
+		int32_t L_58 = (L_56)->GetAt(static_cast<il2cpp_array_size_t>(L_57));
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_59 = V_4;
+		NullCheck(L_59);
+		int32_t L_60 = 2;
+		int32_t L_61 = (L_59)->GetAt(static_cast<il2cpp_array_size_t>(L_60));
+		NullCheck(L_55);
+		(L_55)->SetAt(static_cast<il2cpp_array_size_t>(L_58), (int32_t)L_61);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_62 = V_8;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_63 = V_5;
+		NullCheck(L_63);
+		int32_t L_64 = 3;
+		int32_t L_65 = (L_63)->GetAt(static_cast<il2cpp_array_size_t>(L_64));
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_66 = V_4;
+		NullCheck(L_66);
+		int32_t L_67 = 3;
+		int32_t L_68 = (L_66)->GetAt(static_cast<il2cpp_array_size_t>(L_67));
+		NullCheck(L_62);
+		(L_62)->SetAt(static_cast<il2cpp_array_size_t>(L_65), (int32_t)L_68);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_69 = V_8;
+		NullCheck(L_69);
+		int32_t L_70 = 0;
+		int32_t L_71 = (L_69)->GetAt(static_cast<il2cpp_array_size_t>(L_70));
+		V_12 = L_71;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_72 = V_8;
+		NullCheck(L_72);
+		int32_t L_73 = 1;
+		int32_t L_74 = (L_72)->GetAt(static_cast<il2cpp_array_size_t>(L_73));
+		V_13 = L_74;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_75 = V_8;
+		NullCheck(L_75);
+		int32_t L_76 = 2;
+		int32_t L_77 = (L_75)->GetAt(static_cast<il2cpp_array_size_t>(L_76));
+		V_14 = L_77;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_78 = V_8;
+		NullCheck(L_78);
+		int32_t L_79 = 3;
+		int32_t L_80 = (L_78)->GetAt(static_cast<il2cpp_array_size_t>(L_79));
+		V_15 = L_80;
+		int32_t L_81 = V_12;
+		int32_t L_82 = V_13;
+		int32_t L_83 = V_14;
+		int32_t L_84 = V_15;
+		int32_t L_85;
+		L_85 = TensorShape_Index_mBC2A1602541E21AE2919F39C2424580F06A7402E((&V_1), L_81, L_82, L_83, L_84, NULL);
+		V_16 = L_85;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_86 = ___1_I;
+		int32_t L_87 = V_16;
+		NullCheck(L_86);
+		float L_88;
+		L_88 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_86, L_87, NULL);
+		V_17 = il2cpp_codegen_cast_double_to_int<int32_t>(L_88);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_89 = V_8;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_90 = V_5;
+		NullCheck(L_90);
+		int32_t L_91 = 3;
+		int32_t L_92 = (L_90)->GetAt(static_cast<il2cpp_array_size_t>(L_91));
+		int32_t L_93 = V_17;
+		NullCheck(L_89);
+		(L_89)->SetAt(static_cast<il2cpp_array_size_t>(L_92), (int32_t)L_93);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_94 = V_8;
+		NullCheck(L_94);
+		int32_t L_95 = 0;
+		int32_t L_96 = (L_94)->GetAt(static_cast<il2cpp_array_size_t>(L_95));
+		V_12 = L_96;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_97 = V_8;
+		NullCheck(L_97);
+		int32_t L_98 = 1;
+		int32_t L_99 = (L_97)->GetAt(static_cast<il2cpp_array_size_t>(L_98));
+		V_13 = L_99;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_100 = V_8;
+		NullCheck(L_100);
+		int32_t L_101 = 2;
+		int32_t L_102 = (L_100)->GetAt(static_cast<il2cpp_array_size_t>(L_101));
+		V_14 = L_102;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_103 = V_8;
+		NullCheck(L_103);
+		int32_t L_104 = 3;
+		int32_t L_105 = (L_103)->GetAt(static_cast<il2cpp_array_size_t>(L_104));
+		V_15 = L_105;
+		int32_t L_106 = V_12;
+		int32_t L_107 = V_13;
+		int32_t L_108 = V_14;
+		int32_t L_109 = V_15;
+		int32_t L_110;
+		L_110 = TensorShape_Index_mBC2A1602541E21AE2919F39C2424580F06A7402E((&V_0), L_106, L_107, L_108, L_109, NULL);
+		V_18 = L_110;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_111 = V_3;
+		int32_t L_112 = V_16;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_113 = ___0_X;
+		int32_t L_114 = V_18;
+		NullCheck(L_113);
+		float L_115;
+		L_115 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_113, L_114, NULL);
+		NullCheck(L_111);
+		Tensor_set_Item_m825AF5D1FC078421906298C6662565DF5C64817E(L_111, L_112, L_115, NULL);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_116 = V_4;
+		NullCheck(L_116);
+		int32_t* L_117 = ((L_116)->GetAddressAt(static_cast<il2cpp_array_size_t>(3)));
+		int32_t L_118 = *((int32_t*)L_117);
+		*((int32_t*)L_117) = (int32_t)((int32_t)il2cpp_codegen_add(L_118, 1));
+	}
+
+IL_0188:
+	{
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_119 = V_4;
+		NullCheck(L_119);
+		int32_t L_120 = 3;
+		int32_t L_121 = (L_119)->GetAt(static_cast<il2cpp_array_size_t>(L_120));
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_122 = V_2;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_123 = V_6;
+		NullCheck(L_123);
+		int32_t L_124 = 3;
+		int32_t L_125 = (L_123)->GetAt(static_cast<il2cpp_array_size_t>(L_124));
+		NullCheck(L_122);
+		int32_t L_126 = L_125;
+		int32_t L_127 = (L_122)->GetAt(static_cast<il2cpp_array_size_t>(L_126));
+		V_19 = (bool)((((int32_t)L_121) < ((int32_t)L_127))? 1 : 0);
+		bool L_128 = V_19;
+		if (L_128)
+		{
+			goto IL_00d6;
+		}
+	}
+	{
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_129 = V_4;
+		NullCheck(L_129);
+		int32_t* L_130 = ((L_129)->GetAddressAt(static_cast<il2cpp_array_size_t>(2)));
+		int32_t L_131 = *((int32_t*)L_130);
+		*((int32_t*)L_130) = (int32_t)((int32_t)il2cpp_codegen_add(L_131, 1));
+	}
+
+IL_01ab:
+	{
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_132 = V_4;
+		NullCheck(L_132);
+		int32_t L_133 = 2;
+		int32_t L_134 = (L_132)->GetAt(static_cast<il2cpp_array_size_t>(L_133));
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_135 = V_2;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_136 = V_6;
+		NullCheck(L_136);
+		int32_t L_137 = 2;
+		int32_t L_138 = (L_136)->GetAt(static_cast<il2cpp_array_size_t>(L_137));
+		NullCheck(L_135);
+		int32_t L_139 = L_138;
+		int32_t L_140 = (L_135)->GetAt(static_cast<il2cpp_array_size_t>(L_139));
+		V_20 = (bool)((((int32_t)L_134) < ((int32_t)L_140))? 1 : 0);
+		bool L_141 = V_20;
+		if (L_141)
+		{
+			goto IL_00cb;
+		}
+	}
+	{
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_142 = V_4;
+		NullCheck(L_142);
+		int32_t* L_143 = ((L_142)->GetAddressAt(static_cast<il2cpp_array_size_t>(1)));
+		int32_t L_144 = *((int32_t*)L_143);
+		*((int32_t*)L_143) = (int32_t)((int32_t)il2cpp_codegen_add(L_144, 1));
+	}
+
+IL_01ce:
+	{
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_145 = V_4;
+		NullCheck(L_145);
+		int32_t L_146 = 1;
+		int32_t L_147 = (L_145)->GetAt(static_cast<il2cpp_array_size_t>(L_146));
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_148 = V_2;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_149 = V_6;
+		NullCheck(L_149);
+		int32_t L_150 = 1;
+		int32_t L_151 = (L_149)->GetAt(static_cast<il2cpp_array_size_t>(L_150));
+		NullCheck(L_148);
+		int32_t L_152 = L_151;
+		int32_t L_153 = (L_148)->GetAt(static_cast<il2cpp_array_size_t>(L_152));
+		V_21 = (bool)((((int32_t)L_147) < ((int32_t)L_153))? 1 : 0);
+		bool L_154 = V_21;
+		if (L_154)
+		{
+			goto IL_00c0;
+		}
+	}
+	{
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_155 = V_4;
+		NullCheck(L_155);
+		int32_t* L_156 = ((L_155)->GetAddressAt(static_cast<il2cpp_array_size_t>(0)));
+		int32_t L_157 = *((int32_t*)L_156);
+		*((int32_t*)L_156) = (int32_t)((int32_t)il2cpp_codegen_add(L_157, 1));
+	}
+
+IL_01f1:
+	{
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_158 = V_4;
+		NullCheck(L_158);
+		int32_t L_159 = 0;
+		int32_t L_160 = (L_158)->GetAt(static_cast<il2cpp_array_size_t>(L_159));
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_161 = V_2;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_162 = V_6;
+		NullCheck(L_162);
+		int32_t L_163 = 0;
+		int32_t L_164 = (L_162)->GetAt(static_cast<il2cpp_array_size_t>(L_163));
+		NullCheck(L_161);
+		int32_t L_165 = L_164;
+		int32_t L_166 = (L_161)->GetAt(static_cast<il2cpp_array_size_t>(L_165));
+		V_22 = (bool)((((int32_t)L_160) < ((int32_t)L_166))? 1 : 0);
+		bool L_167 = V_22;
+		if (L_167)
+		{
+			goto IL_00b5;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_168 = V_3;
+		V_23 = L_168;
+		goto IL_020b;
+	}
+
+IL_020b:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_169 = V_23;
+		return L_169;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_Relu_m9F16A4BCF3F669C0212E1B1A9A37B05C5C6ED281 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, const RuntimeMethod* method) 
+{
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_0 = NULL;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	float V_3 = 0.0f;
+	bool V_4 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_5 = NULL;
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_0 = ___0_X;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_1;
+		L_1 = ReferenceCPUOps_NewTensorLike_mE3067F6087FA22E7A01E136887210735B6DAE00D(__this, L_0, NULL);
+		V_0 = L_1;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_2 = ___0_X;
+		NullCheck(L_2);
+		int32_t L_3;
+		L_3 = Tensor_get_length_m35C7DA71ED506DB11C0626A040E8A182CA25D5CA(L_2, NULL);
+		V_1 = L_3;
+		V_2 = 0;
+		goto IL_0037;
+	}
+
+IL_0014:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_4 = ___0_X;
+		int32_t L_5 = V_2;
+		NullCheck(L_4);
+		float L_6;
+		L_6 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_4, L_5, NULL);
+		V_3 = L_6;
+		float L_7 = V_3;
+		float L_8;
+		L_8 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline(L_7, (0.0f), NULL);
+		V_3 = L_8;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_9 = V_0;
+		int32_t L_10 = V_2;
+		float L_11 = V_3;
+		NullCheck(L_9);
+		Tensor_set_Item_m825AF5D1FC078421906298C6662565DF5C64817E(L_9, L_10, L_11, NULL);
+		int32_t L_12 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_12, 1));
+	}
+
+IL_0037:
+	{
+		int32_t L_13 = V_2;
+		int32_t L_14 = V_1;
+		V_4 = (bool)((((int32_t)L_13) < ((int32_t)L_14))? 1 : 0);
+		bool L_15 = V_4;
+		if (L_15)
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_16 = V_0;
+		V_5 = L_16;
+		goto IL_0046;
+	}
+
+IL_0046:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_17 = V_5;
+		return L_17;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_PRelu_mD66A33739F40728092AD8785B9CBBE1361C6E5F5 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___1_S, const RuntimeMethod* method) 
+{
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_0 = NULL;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	float V_3 = 0.0f;
+	float V_4 = 0.0f;
+	bool V_5 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_6 = NULL;
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_0 = ___0_X;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_1;
+		L_1 = ReferenceCPUOps_NewTensorLike_mE3067F6087FA22E7A01E136887210735B6DAE00D(__this, L_0, NULL);
+		V_0 = L_1;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_2 = ___0_X;
+		NullCheck(L_2);
+		int32_t L_3;
+		L_3 = Tensor_get_length_m35C7DA71ED506DB11C0626A040E8A182CA25D5CA(L_2, NULL);
+		V_1 = L_3;
+		V_2 = 0;
+		goto IL_0056;
+	}
+
+IL_0014:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_4 = ___0_X;
+		int32_t L_5 = V_2;
+		NullCheck(L_4);
+		float L_6;
+		L_6 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_4, L_5, NULL);
+		V_3 = L_6;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_7 = ___1_S;
+		int32_t L_8 = V_2;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_9 = ___1_S;
+		NullCheck(L_9);
+		int32_t L_10;
+		L_10 = Tensor_get_length_m35C7DA71ED506DB11C0626A040E8A182CA25D5CA(L_9, NULL);
+		NullCheck(L_7);
+		float L_11;
+		L_11 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_7, ((int32_t)(L_8%L_10)), NULL);
+		V_4 = L_11;
+		float L_12 = V_3;
+		float L_13;
+		L_13 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline((0.0f), L_12, NULL);
+		float L_14 = V_4;
+		float L_15 = V_3;
+		float L_16;
+		L_16 = Mathf_Min_m747CA71A9483CDB394B13BD0AD048EE17E48FFE4_inline((0.0f), L_15, NULL);
+		V_3 = ((float)il2cpp_codegen_add(L_13, ((float)il2cpp_codegen_multiply(L_14, L_16))));
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_17 = V_0;
+		int32_t L_18 = V_2;
+		float L_19 = V_3;
+		NullCheck(L_17);
+		Tensor_set_Item_m825AF5D1FC078421906298C6662565DF5C64817E(L_17, L_18, L_19, NULL);
+		int32_t L_20 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_20, 1));
+	}
+
+IL_0056:
+	{
+		int32_t L_21 = V_2;
+		int32_t L_22 = V_1;
+		V_5 = (bool)((((int32_t)L_21) < ((int32_t)L_22))? 1 : 0);
+		bool L_23 = V_5;
+		if (L_23)
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_24 = V_0;
+		V_6 = L_24;
+		goto IL_0065;
+	}
+
+IL_0065:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_25 = V_6;
+		return L_25;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_Softmax_mB7AAE486546649CC2DE3180A6B528936145B0009 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, int32_t ___1_axis, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_1 = NULL;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	int32_t V_4 = 0;
+	int32_t V_5 = 0;
+	int32_t V_6 = 0;
+	bool V_7 = false;
+	int32_t V_8 = 0;
+	bool V_9 = false;
+	int32_t V_10 = 0;
+	int32_t V_11 = 0;
+	float V_12 = 0.0f;
+	float V_13 = 0.0f;
+	int32_t V_14 = 0;
+	float V_15 = 0.0f;
+	bool V_16 = false;
+	bool V_17 = false;
+	int32_t V_18 = 0;
+	float V_19 = 0.0f;
+	bool V_20 = false;
+	int32_t V_21 = 0;
+	float V_22 = 0.0f;
+	bool V_23 = false;
+	bool V_24 = false;
+	bool V_25 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_26 = NULL;
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_0 = ___0_X;
+		NullCheck(L_0);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_1;
+		L_1 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_0, NULL);
+		V_0 = L_1;
+		int32_t L_2 = ___1_axis;
+		int32_t L_3;
+		L_3 = TensorShape_Axis_m9540333825C44D41F1A057AFCD2248193A1EA1D7((&V_0), L_2, NULL);
+		___1_axis = L_3;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_4 = ___0_X;
+		NullCheck(L_4);
+		int32_t L_5;
+		L_5 = Tensor_get_dataType_m57109C88C5386735035BB4066BAACD68228C3AB1(L_4, NULL);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_6 = V_0;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_7;
+		L_7 = ReferenceCPUOps_NewTensor_m74008D9C77785A62165EBEF61281FBB9CB42DAAF(__this, L_5, L_6, NULL);
+		V_1 = L_7;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_8 = V_1;
+		NullCheck(L_8);
+		int32_t L_9;
+		L_9 = Tensor_get_flatWidth_m7B9AECCB1EF9799E625DD86147A2A3F92F440CC5(L_8, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_10 = ___0_X;
+		NullCheck(L_10);
+		int32_t L_11;
+		L_11 = Tensor_get_flatWidth_m7B9AECCB1EF9799E625DD86147A2A3F92F440CC5(L_10, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_AreEqual_m718BB4BD31FA3176A3A236F96BC5405EB750D6CF(L_9, L_11, NULL);
+		V_2 = 1;
+		int32_t L_12 = ___1_axis;
+		V_3 = L_12;
+		V_6 = 0;
+		goto IL_004f;
+	}
+
+IL_003b:
+	{
+		int32_t L_13 = V_2;
+		int32_t L_14 = V_6;
+		int32_t L_15;
+		L_15 = TensorShape_get_Item_m046FF56D8906EA7CD9D33486F778EBBCE949B33E((&V_0), L_14, NULL);
+		V_2 = ((int32_t)il2cpp_codegen_multiply(L_13, L_15));
+		int32_t L_16 = V_6;
+		V_6 = ((int32_t)il2cpp_codegen_add(L_16, 1));
+	}
+
+IL_004f:
+	{
+		int32_t L_17 = V_6;
+		int32_t L_18 = V_3;
+		V_7 = (bool)((((int32_t)L_17) < ((int32_t)L_18))? 1 : 0);
+		bool L_19 = V_7;
+		if (L_19)
+		{
+			goto IL_003b;
+		}
+	}
+	{
+		V_4 = 1;
+		int32_t L_20 = V_3;
+		V_8 = ((int32_t)il2cpp_codegen_add(L_20, 1));
+		goto IL_007a;
+	}
+
+IL_0064:
+	{
+		int32_t L_21 = V_4;
+		int32_t L_22 = V_8;
+		int32_t L_23;
+		L_23 = TensorShape_get_Item_m046FF56D8906EA7CD9D33486F778EBBCE949B33E((&V_0), L_22, NULL);
+		V_4 = ((int32_t)il2cpp_codegen_multiply(L_21, L_23));
+		int32_t L_24 = V_8;
+		V_8 = ((int32_t)il2cpp_codegen_add(L_24, 1));
+	}
+
+IL_007a:
+	{
+		int32_t L_25 = V_8;
+		V_9 = (bool)((((int32_t)L_25) < ((int32_t)8))? 1 : 0);
+		bool L_26 = V_9;
+		if (L_26)
+		{
+			goto IL_0064;
+		}
+	}
+	{
+		int32_t L_27 = V_3;
+		int32_t L_28;
+		L_28 = TensorShape_get_Item_m046FF56D8906EA7CD9D33486F778EBBCE949B33E((&V_0), L_27, NULL);
+		V_5 = L_28;
+		V_10 = 0;
+		goto IL_01aa;
+	}
+
+IL_0097:
+	{
+		V_11 = 0;
+		goto IL_0194;
+	}
+
+IL_00a0:
+	{
+		V_12 = (-std::numeric_limits<float>::infinity());
+		V_14 = 0;
+		goto IL_00de;
+	}
+
+IL_00ad:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_29 = ___0_X;
+		int32_t L_30 = V_10;
+		int32_t L_31 = V_4;
+		int32_t L_32 = V_5;
+		int32_t L_33 = V_14;
+		int32_t L_34 = V_4;
+		int32_t L_35 = V_11;
+		NullCheck(L_29);
+		float L_36;
+		L_36 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_29, ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_multiply(((int32_t)il2cpp_codegen_multiply(L_30, L_31)), L_32)), ((int32_t)il2cpp_codegen_multiply(L_33, L_34)))), L_35)), NULL);
+		V_15 = L_36;
+		float L_37 = V_15;
+		float L_38 = V_12;
+		V_16 = (bool)((((float)L_37) > ((float)L_38))? 1 : 0);
+		bool L_39 = V_16;
+		if (!L_39)
+		{
+			goto IL_00d7;
+		}
+	}
+	{
+		float L_40 = V_15;
+		V_12 = L_40;
+	}
+
+IL_00d7:
+	{
+		int32_t L_41 = V_14;
+		V_14 = ((int32_t)il2cpp_codegen_add(L_41, 1));
+	}
+
+IL_00de:
+	{
+		int32_t L_42 = V_14;
+		int32_t L_43 = V_5;
+		V_17 = (bool)((((int32_t)L_42) < ((int32_t)L_43))? 1 : 0);
+		bool L_44 = V_17;
+		if (L_44)
+		{
+			goto IL_00ad;
+		}
+	}
+	{
+		V_13 = (0.0f);
+		V_18 = 0;
+		goto IL_0126;
+	}
+
+IL_00f6:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_45 = ___0_X;
+		int32_t L_46 = V_10;
+		int32_t L_47 = V_4;
+		int32_t L_48 = V_5;
+		int32_t L_49 = V_18;
+		int32_t L_50 = V_4;
+		int32_t L_51 = V_11;
+		NullCheck(L_45);
+		float L_52;
+		L_52 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_45, ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_multiply(((int32_t)il2cpp_codegen_multiply(L_46, L_47)), L_48)), ((int32_t)il2cpp_codegen_multiply(L_49, L_50)))), L_51)), NULL);
+		V_19 = L_52;
+		float L_53 = V_13;
+		float L_54 = V_19;
+		float L_55 = V_12;
+		float L_56;
+		L_56 = expf(((float)il2cpp_codegen_subtract(L_54, L_55)));
+		V_13 = ((float)il2cpp_codegen_add(L_53, L_56));
+		int32_t L_57 = V_18;
+		V_18 = ((int32_t)il2cpp_codegen_add(L_57, 1));
+	}
+
+IL_0126:
+	{
+		int32_t L_58 = V_18;
+		int32_t L_59 = V_5;
+		V_20 = (bool)((((int32_t)L_58) < ((int32_t)L_59))? 1 : 0);
+		bool L_60 = V_20;
+		if (L_60)
+		{
+			goto IL_00f6;
+		}
+	}
+	{
+		V_21 = 0;
+		goto IL_0181;
+	}
+
+IL_0137:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_61 = ___0_X;
+		int32_t L_62 = V_10;
+		int32_t L_63 = V_4;
+		int32_t L_64 = V_5;
+		int32_t L_65 = V_21;
+		int32_t L_66 = V_4;
+		int32_t L_67 = V_11;
+		NullCheck(L_61);
+		float L_68;
+		L_68 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_61, ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_multiply(((int32_t)il2cpp_codegen_multiply(L_62, L_63)), L_64)), ((int32_t)il2cpp_codegen_multiply(L_65, L_66)))), L_67)), NULL);
+		V_22 = L_68;
+		float L_69 = V_22;
+		float L_70 = V_12;
+		float L_71;
+		L_71 = expf(((float)il2cpp_codegen_subtract(L_69, L_70)));
+		float L_72 = V_13;
+		V_22 = ((float)(L_71/L_72));
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_73 = V_1;
+		int32_t L_74 = V_10;
+		int32_t L_75 = V_4;
+		int32_t L_76 = V_5;
+		int32_t L_77 = V_21;
+		int32_t L_78 = V_4;
+		int32_t L_79 = V_11;
+		float L_80 = V_22;
+		NullCheck(L_73);
+		Tensor_set_Item_m825AF5D1FC078421906298C6662565DF5C64817E(L_73, ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_multiply(((int32_t)il2cpp_codegen_multiply(L_74, L_75)), L_76)), ((int32_t)il2cpp_codegen_multiply(L_77, L_78)))), L_79)), L_80, NULL);
+		int32_t L_81 = V_21;
+		V_21 = ((int32_t)il2cpp_codegen_add(L_81, 1));
+	}
+
+IL_0181:
+	{
+		int32_t L_82 = V_21;
+		int32_t L_83 = V_5;
+		V_23 = (bool)((((int32_t)L_82) < ((int32_t)L_83))? 1 : 0);
+		bool L_84 = V_23;
+		if (L_84)
+		{
+			goto IL_0137;
+		}
+	}
+	{
+		int32_t L_85 = V_11;
+		V_11 = ((int32_t)il2cpp_codegen_add(L_85, 1));
+	}
+
+IL_0194:
+	{
+		int32_t L_86 = V_11;
+		int32_t L_87 = V_4;
+		V_24 = (bool)((((int32_t)L_86) < ((int32_t)L_87))? 1 : 0);
+		bool L_88 = V_24;
+		if (L_88)
+		{
+			goto IL_00a0;
+		}
+	}
+	{
+		int32_t L_89 = V_10;
+		V_10 = ((int32_t)il2cpp_codegen_add(L_89, 1));
+	}
+
+IL_01aa:
+	{
+		int32_t L_90 = V_10;
+		int32_t L_91 = V_2;
+		V_25 = (bool)((((int32_t)L_90) < ((int32_t)L_91))? 1 : 0);
+		bool L_92 = V_25;
+		if (L_92)
+		{
+			goto IL_0097;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_93 = V_1;
+		V_26 = L_93;
+		goto IL_01bd;
+	}
+
+IL_01bd:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_94 = V_26;
+		return L_94;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_LogSoftmax_m2561BD3199059380502625912C0FAB721B391A39 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, int32_t ___1_axis, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_1 = NULL;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	int32_t V_4 = 0;
+	int32_t V_5 = 0;
+	int32_t V_6 = 0;
+	bool V_7 = false;
+	int32_t V_8 = 0;
+	bool V_9 = false;
+	int32_t V_10 = 0;
+	int32_t V_11 = 0;
+	float V_12 = 0.0f;
+	float V_13 = 0.0f;
+	int32_t V_14 = 0;
+	float V_15 = 0.0f;
+	bool V_16 = false;
+	bool V_17 = false;
+	int32_t V_18 = 0;
+	float V_19 = 0.0f;
+	bool V_20 = false;
+	int32_t V_21 = 0;
+	float V_22 = 0.0f;
+	bool V_23 = false;
+	bool V_24 = false;
+	bool V_25 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_26 = NULL;
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_0 = ___0_X;
+		NullCheck(L_0);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_1;
+		L_1 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_0, NULL);
+		V_0 = L_1;
+		int32_t L_2 = ___1_axis;
+		int32_t L_3;
+		L_3 = TensorShape_Axis_m9540333825C44D41F1A057AFCD2248193A1EA1D7((&V_0), L_2, NULL);
+		___1_axis = L_3;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_4 = ___0_X;
+		NullCheck(L_4);
+		int32_t L_5;
+		L_5 = Tensor_get_dataType_m57109C88C5386735035BB4066BAACD68228C3AB1(L_4, NULL);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_6 = V_0;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_7;
+		L_7 = ReferenceCPUOps_NewTensor_m74008D9C77785A62165EBEF61281FBB9CB42DAAF(__this, L_5, L_6, NULL);
+		V_1 = L_7;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_8 = V_1;
+		NullCheck(L_8);
+		int32_t L_9;
+		L_9 = Tensor_get_flatWidth_m7B9AECCB1EF9799E625DD86147A2A3F92F440CC5(L_8, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_10 = ___0_X;
+		NullCheck(L_10);
+		int32_t L_11;
+		L_11 = Tensor_get_flatWidth_m7B9AECCB1EF9799E625DD86147A2A3F92F440CC5(L_10, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_AreEqual_m718BB4BD31FA3176A3A236F96BC5405EB750D6CF(L_9, L_11, NULL);
+		V_2 = 1;
+		int32_t L_12 = ___1_axis;
+		V_3 = L_12;
+		V_6 = 0;
+		goto IL_004f;
+	}
+
+IL_003b:
+	{
+		int32_t L_13 = V_2;
+		int32_t L_14 = V_6;
+		int32_t L_15;
+		L_15 = TensorShape_get_Item_m046FF56D8906EA7CD9D33486F778EBBCE949B33E((&V_0), L_14, NULL);
+		V_2 = ((int32_t)il2cpp_codegen_multiply(L_13, L_15));
+		int32_t L_16 = V_6;
+		V_6 = ((int32_t)il2cpp_codegen_add(L_16, 1));
+	}
+
+IL_004f:
+	{
+		int32_t L_17 = V_6;
+		int32_t L_18 = V_3;
+		V_7 = (bool)((((int32_t)L_17) < ((int32_t)L_18))? 1 : 0);
+		bool L_19 = V_7;
+		if (L_19)
+		{
+			goto IL_003b;
+		}
+	}
+	{
+		V_4 = 1;
+		int32_t L_20 = V_3;
+		V_8 = ((int32_t)il2cpp_codegen_add(L_20, 1));
+		goto IL_007a;
+	}
+
+IL_0064:
+	{
+		int32_t L_21 = V_4;
+		int32_t L_22 = V_8;
+		int32_t L_23;
+		L_23 = TensorShape_get_Item_m046FF56D8906EA7CD9D33486F778EBBCE949B33E((&V_0), L_22, NULL);
+		V_4 = ((int32_t)il2cpp_codegen_multiply(L_21, L_23));
+		int32_t L_24 = V_8;
+		V_8 = ((int32_t)il2cpp_codegen_add(L_24, 1));
+	}
+
+IL_007a:
+	{
+		int32_t L_25 = V_8;
+		V_9 = (bool)((((int32_t)L_25) < ((int32_t)8))? 1 : 0);
+		bool L_26 = V_9;
+		if (L_26)
+		{
+			goto IL_0064;
+		}
+	}
+	{
+		int32_t L_27 = V_3;
+		int32_t L_28;
+		L_28 = TensorShape_get_Item_m046FF56D8906EA7CD9D33486F778EBBCE949B33E((&V_0), L_27, NULL);
+		V_5 = L_28;
+		V_10 = 0;
+		goto IL_01aa;
+	}
+
+IL_0097:
+	{
+		V_11 = 0;
+		goto IL_0194;
+	}
+
+IL_00a0:
+	{
+		V_12 = (-std::numeric_limits<float>::infinity());
+		V_14 = 0;
+		goto IL_00de;
+	}
+
+IL_00ad:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_29 = ___0_X;
+		int32_t L_30 = V_10;
+		int32_t L_31 = V_4;
+		int32_t L_32 = V_5;
+		int32_t L_33 = V_14;
+		int32_t L_34 = V_4;
+		int32_t L_35 = V_11;
+		NullCheck(L_29);
+		float L_36;
+		L_36 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_29, ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_multiply(((int32_t)il2cpp_codegen_multiply(L_30, L_31)), L_32)), ((int32_t)il2cpp_codegen_multiply(L_33, L_34)))), L_35)), NULL);
+		V_15 = L_36;
+		float L_37 = V_15;
+		float L_38 = V_12;
+		V_16 = (bool)((((float)L_37) > ((float)L_38))? 1 : 0);
+		bool L_39 = V_16;
+		if (!L_39)
+		{
+			goto IL_00d7;
+		}
+	}
+	{
+		float L_40 = V_15;
+		V_12 = L_40;
+	}
+
+IL_00d7:
+	{
+		int32_t L_41 = V_14;
+		V_14 = ((int32_t)il2cpp_codegen_add(L_41, 1));
+	}
+
+IL_00de:
+	{
+		int32_t L_42 = V_14;
+		int32_t L_43 = V_5;
+		V_17 = (bool)((((int32_t)L_42) < ((int32_t)L_43))? 1 : 0);
+		bool L_44 = V_17;
+		if (L_44)
+		{
+			goto IL_00ad;
+		}
+	}
+	{
+		V_13 = (0.0f);
+		V_18 = 0;
+		goto IL_0126;
+	}
+
+IL_00f6:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_45 = ___0_X;
+		int32_t L_46 = V_10;
+		int32_t L_47 = V_4;
+		int32_t L_48 = V_5;
+		int32_t L_49 = V_18;
+		int32_t L_50 = V_4;
+		int32_t L_51 = V_11;
+		NullCheck(L_45);
+		float L_52;
+		L_52 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_45, ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_multiply(((int32_t)il2cpp_codegen_multiply(L_46, L_47)), L_48)), ((int32_t)il2cpp_codegen_multiply(L_49, L_50)))), L_51)), NULL);
+		V_19 = L_52;
+		float L_53 = V_13;
+		float L_54 = V_19;
+		float L_55 = V_12;
+		float L_56;
+		L_56 = expf(((float)il2cpp_codegen_subtract(L_54, L_55)));
+		V_13 = ((float)il2cpp_codegen_add(L_53, L_56));
+		int32_t L_57 = V_18;
+		V_18 = ((int32_t)il2cpp_codegen_add(L_57, 1));
+	}
+
+IL_0126:
+	{
+		int32_t L_58 = V_18;
+		int32_t L_59 = V_5;
+		V_20 = (bool)((((int32_t)L_58) < ((int32_t)L_59))? 1 : 0);
+		bool L_60 = V_20;
+		if (L_60)
+		{
+			goto IL_00f6;
+		}
+	}
+	{
+		V_21 = 0;
+		goto IL_0181;
+	}
+
+IL_0137:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_61 = ___0_X;
+		int32_t L_62 = V_10;
+		int32_t L_63 = V_4;
+		int32_t L_64 = V_5;
+		int32_t L_65 = V_21;
+		int32_t L_66 = V_4;
+		int32_t L_67 = V_11;
+		NullCheck(L_61);
+		float L_68;
+		L_68 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_61, ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_multiply(((int32_t)il2cpp_codegen_multiply(L_62, L_63)), L_64)), ((int32_t)il2cpp_codegen_multiply(L_65, L_66)))), L_67)), NULL);
+		V_22 = L_68;
+		float L_69 = V_22;
+		float L_70 = V_12;
+		float L_71 = V_13;
+		float L_72;
+		L_72 = logf(L_71);
+		V_22 = ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_subtract(L_69, L_70)), L_72));
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_73 = V_1;
+		int32_t L_74 = V_10;
+		int32_t L_75 = V_4;
+		int32_t L_76 = V_5;
+		int32_t L_77 = V_21;
+		int32_t L_78 = V_4;
+		int32_t L_79 = V_11;
+		float L_80 = V_22;
+		NullCheck(L_73);
+		Tensor_set_Item_m825AF5D1FC078421906298C6662565DF5C64817E(L_73, ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_multiply(((int32_t)il2cpp_codegen_multiply(L_74, L_75)), L_76)), ((int32_t)il2cpp_codegen_multiply(L_77, L_78)))), L_79)), L_80, NULL);
+		int32_t L_81 = V_21;
+		V_21 = ((int32_t)il2cpp_codegen_add(L_81, 1));
+	}
+
+IL_0181:
+	{
+		int32_t L_82 = V_21;
+		int32_t L_83 = V_5;
+		V_23 = (bool)((((int32_t)L_82) < ((int32_t)L_83))? 1 : 0);
+		bool L_84 = V_23;
+		if (L_84)
+		{
+			goto IL_0137;
+		}
+	}
+	{
+		int32_t L_85 = V_11;
+		V_11 = ((int32_t)il2cpp_codegen_add(L_85, 1));
+	}
+
+IL_0194:
+	{
+		int32_t L_86 = V_11;
+		int32_t L_87 = V_4;
+		V_24 = (bool)((((int32_t)L_86) < ((int32_t)L_87))? 1 : 0);
+		bool L_88 = V_24;
+		if (L_88)
+		{
+			goto IL_00a0;
+		}
+	}
+	{
+		int32_t L_89 = V_10;
+		V_10 = ((int32_t)il2cpp_codegen_add(L_89, 1));
+	}
+
+IL_01aa:
+	{
+		int32_t L_90 = V_10;
+		int32_t L_91 = V_2;
+		V_25 = (bool)((((int32_t)L_90) < ((int32_t)L_91))? 1 : 0);
+		bool L_92 = V_25;
+		if (L_92)
+		{
+			goto IL_0097;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_93 = V_1;
+		V_26 = L_93;
+		goto IL_01bd;
+	}
+
+IL_01bd:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_94 = V_26;
+		return L_94;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_Tanh_mD03873E686348879CED3A1C1353163E96902A498 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, const RuntimeMethod* method) 
+{
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_0 = NULL;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	bool V_3 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_4 = NULL;
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_0 = ___0_X;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_1;
+		L_1 = ReferenceCPUOps_NewTensorLike_mE3067F6087FA22E7A01E136887210735B6DAE00D(__this, L_0, NULL);
+		V_0 = L_1;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_2 = ___0_X;
+		NullCheck(L_2);
+		int32_t L_3;
+		L_3 = Tensor_get_length_m35C7DA71ED506DB11C0626A040E8A182CA25D5CA(L_2, NULL);
+		V_1 = L_3;
+		V_2 = 0;
+		goto IL_002e;
+	}
+
+IL_0014:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_4 = V_0;
+		int32_t L_5 = V_2;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_6 = ___0_X;
+		int32_t L_7 = V_2;
+		NullCheck(L_6);
+		float L_8;
+		L_8 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_6, L_7, NULL);
+		float L_9;
+		L_9 = MathfEx_Tanh_mD886F38E2C989739750E15250B733E3D72A0F3E9(L_8, NULL);
+		NullCheck(L_4);
+		Tensor_set_Item_m825AF5D1FC078421906298C6662565DF5C64817E(L_4, L_5, L_9, NULL);
+		int32_t L_10 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_10, 1));
+	}
+
+IL_002e:
+	{
+		int32_t L_11 = V_2;
+		int32_t L_12 = V_1;
+		V_3 = (bool)((((int32_t)L_11) < ((int32_t)L_12))? 1 : 0);
+		bool L_13 = V_3;
+		if (L_13)
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_14 = V_0;
+		V_4 = L_14;
+		goto IL_003b;
+	}
+
+IL_003b:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_15 = V_4;
+		return L_15;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_Softplus_mA40C1354AA7D856DFC786849206AB063E50925B5 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, const RuntimeMethod* method) 
+{
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_0 = NULL;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	float V_3 = 0.0f;
+	bool V_4 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_5 = NULL;
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_0 = ___0_X;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_1;
+		L_1 = ReferenceCPUOps_NewTensorLike_mE3067F6087FA22E7A01E136887210735B6DAE00D(__this, L_0, NULL);
+		V_0 = L_1;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_2 = ___0_X;
+		NullCheck(L_2);
+		int32_t L_3;
+		L_3 = Tensor_get_length_m35C7DA71ED506DB11C0626A040E8A182CA25D5CA(L_2, NULL);
+		V_1 = L_3;
+		V_2 = 0;
+		goto IL_003d;
+	}
+
+IL_0014:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_4 = ___0_X;
+		int32_t L_5 = V_2;
+		NullCheck(L_4);
+		float L_6;
+		L_6 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_4, L_5, NULL);
+		V_3 = L_6;
+		float L_7 = V_3;
+		float L_8;
+		L_8 = expf(L_7);
+		float L_9;
+		L_9 = logf(((float)il2cpp_codegen_add(L_8, (1.0f))));
+		V_3 = L_9;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_10 = V_0;
+		int32_t L_11 = V_2;
+		float L_12 = V_3;
+		NullCheck(L_10);
+		Tensor_set_Item_m825AF5D1FC078421906298C6662565DF5C64817E(L_10, L_11, L_12, NULL);
+		int32_t L_13 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_13, 1));
+	}
+
+IL_003d:
+	{
+		int32_t L_14 = V_2;
+		int32_t L_15 = V_1;
+		V_4 = (bool)((((int32_t)L_14) < ((int32_t)L_15))? 1 : 0);
+		bool L_16 = V_4;
+		if (L_16)
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_17 = V_0;
+		V_5 = L_17;
+		goto IL_004c;
+	}
+
+IL_004c:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_18 = V_5;
+		return L_18;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_Sigmoid_mF4F9DF029D6C5A955CAA34828EDA05CF4AB76524 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, const RuntimeMethod* method) 
+{
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_0 = NULL;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	float V_3 = 0.0f;
+	bool V_4 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_5 = NULL;
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_0 = ___0_X;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_1;
+		L_1 = ReferenceCPUOps_NewTensorLike_mE3067F6087FA22E7A01E136887210735B6DAE00D(__this, L_0, NULL);
+		V_0 = L_1;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_2 = ___0_X;
+		NullCheck(L_2);
+		int32_t L_3;
+		L_3 = Tensor_get_length_m35C7DA71ED506DB11C0626A040E8A182CA25D5CA(L_2, NULL);
+		V_1 = L_3;
+		V_2 = 0;
+		goto IL_003f;
+	}
+
+IL_0014:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_4 = ___0_X;
+		int32_t L_5 = V_2;
+		NullCheck(L_4);
+		float L_6;
+		L_6 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_4, L_5, NULL);
+		V_3 = L_6;
+		float L_7 = V_3;
+		float L_8;
+		L_8 = expf(((-L_7)));
+		V_3 = ((float)((1.0f)/((float)il2cpp_codegen_add((1.0f), L_8))));
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_9 = V_0;
+		int32_t L_10 = V_2;
+		float L_11 = V_3;
+		NullCheck(L_9);
+		Tensor_set_Item_m825AF5D1FC078421906298C6662565DF5C64817E(L_9, L_10, L_11, NULL);
+		int32_t L_12 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_12, 1));
+	}
+
+IL_003f:
+	{
+		int32_t L_13 = V_2;
+		int32_t L_14 = V_1;
+		V_4 = (bool)((((int32_t)L_13) < ((int32_t)L_14))? 1 : 0);
+		bool L_15 = V_4;
+		if (L_15)
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_16 = V_0;
+		V_5 = L_16;
+		goto IL_004e;
+	}
+
+IL_004e:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_17 = V_5;
+		return L_17;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_HardSigmoid_m352EA9AE5522B3519F106EEE7C87CE5C1A85289E (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, float ___1_alpha, float ___2_beta, const RuntimeMethod* method) 
+{
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_0 = NULL;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	float V_3 = 0.0f;
+	bool V_4 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_5 = NULL;
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_0 = ___0_X;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_1;
+		L_1 = ReferenceCPUOps_NewTensorLike_mE3067F6087FA22E7A01E136887210735B6DAE00D(__this, L_0, NULL);
+		V_0 = L_1;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_2 = ___0_X;
+		NullCheck(L_2);
+		int32_t L_3;
+		L_3 = Tensor_get_length_m35C7DA71ED506DB11C0626A040E8A182CA25D5CA(L_2, NULL);
+		V_1 = L_3;
+		V_2 = 0;
+		goto IL_0045;
+	}
+
+IL_0014:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_4 = ___0_X;
+		int32_t L_5 = V_2;
+		NullCheck(L_4);
+		float L_6;
+		L_6 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_4, L_5, NULL);
+		V_3 = L_6;
+		float L_7 = ___1_alpha;
+		float L_8 = V_3;
+		float L_9 = ___2_beta;
+		float L_10;
+		L_10 = Mathf_Min_m747CA71A9483CDB394B13BD0AD048EE17E48FFE4_inline((1.0f), ((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_7, L_8)), L_9)), NULL);
+		float L_11;
+		L_11 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline((0.0f), L_10, NULL);
+		V_3 = L_11;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_12 = V_0;
+		int32_t L_13 = V_2;
+		float L_14 = V_3;
+		NullCheck(L_12);
+		Tensor_set_Item_m825AF5D1FC078421906298C6662565DF5C64817E(L_12, L_13, L_14, NULL);
+		int32_t L_15 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_15, 1));
+	}
+
+IL_0045:
+	{
+		int32_t L_16 = V_2;
+		int32_t L_17 = V_1;
+		V_4 = (bool)((((int32_t)L_16) < ((int32_t)L_17))? 1 : 0);
+		bool L_18 = V_4;
+		if (L_18)
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_19 = V_0;
+		V_5 = L_19;
+		goto IL_0054;
+	}
+
+IL_0054:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_20 = V_5;
+		return L_20;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_Relu6_m7E9C001DBCECE473CEB7DD4E11AE4ACC8118E59E (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, const RuntimeMethod* method) 
+{
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_0 = NULL;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	float V_3 = 0.0f;
+	bool V_4 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_5 = NULL;
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_0 = ___0_X;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_1;
+		L_1 = ReferenceCPUOps_NewTensorLike_mE3067F6087FA22E7A01E136887210735B6DAE00D(__this, L_0, NULL);
+		V_0 = L_1;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_2 = ___0_X;
+		NullCheck(L_2);
+		int32_t L_3;
+		L_3 = Tensor_get_length_m35C7DA71ED506DB11C0626A040E8A182CA25D5CA(L_2, NULL);
+		V_1 = L_3;
+		V_2 = 0;
+		goto IL_0041;
+	}
+
+IL_0014:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_4 = ___0_X;
+		int32_t L_5 = V_2;
+		NullCheck(L_4);
+		float L_6;
+		L_6 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_4, L_5, NULL);
+		V_3 = L_6;
+		float L_7 = V_3;
+		float L_8;
+		L_8 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline((0.0f), L_7, NULL);
+		float L_9;
+		L_9 = Mathf_Min_m747CA71A9483CDB394B13BD0AD048EE17E48FFE4_inline(L_8, (6.0f), NULL);
+		V_3 = L_9;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_10 = V_0;
+		int32_t L_11 = V_2;
+		float L_12 = V_3;
+		NullCheck(L_10);
+		Tensor_set_Item_m825AF5D1FC078421906298C6662565DF5C64817E(L_10, L_11, L_12, NULL);
+		int32_t L_13 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_13, 1));
+	}
+
+IL_0041:
+	{
+		int32_t L_14 = V_2;
+		int32_t L_15 = V_1;
+		V_4 = (bool)((((int32_t)L_14) < ((int32_t)L_15))? 1 : 0);
+		bool L_16 = V_4;
+		if (L_16)
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_17 = V_0;
+		V_5 = L_17;
+		goto IL_0050;
+	}
+
+IL_0050:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_18 = V_5;
+		return L_18;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_Elu_m78390E2FB4A096B5B8E0EEF60AFCDFF8129BDA12 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, float ___1_alpha, const RuntimeMethod* method) 
+{
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_0 = NULL;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	float V_3 = 0.0f;
+	bool V_4 = false;
+	bool V_5 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_6 = NULL;
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_0 = ___0_X;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_1;
+		L_1 = ReferenceCPUOps_NewTensorLike_mE3067F6087FA22E7A01E136887210735B6DAE00D(__this, L_0, NULL);
+		V_0 = L_1;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_2 = ___0_X;
+		NullCheck(L_2);
+		int32_t L_3;
+		L_3 = Tensor_get_length_m35C7DA71ED506DB11C0626A040E8A182CA25D5CA(L_2, NULL);
+		V_1 = L_3;
+		V_2 = 0;
+		goto IL_004b;
+	}
+
+IL_0014:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_4 = ___0_X;
+		int32_t L_5 = V_2;
+		NullCheck(L_4);
+		float L_6;
+		L_6 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_4, L_5, NULL);
+		V_3 = L_6;
+		float L_7 = V_3;
+		V_4 = (bool)((((int32_t)((!(((float)L_7) <= ((float)(0.0f))))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_8 = V_4;
+		if (!L_8)
+		{
+			goto IL_003d;
+		}
+	}
+	{
+		float L_9 = ___1_alpha;
+		float L_10 = V_3;
+		float L_11;
+		L_11 = expf(L_10);
+		V_3 = ((float)il2cpp_codegen_multiply(L_9, ((float)il2cpp_codegen_subtract(L_11, (1.0f)))));
+	}
+
+IL_003d:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_12 = V_0;
+		int32_t L_13 = V_2;
+		float L_14 = V_3;
+		NullCheck(L_12);
+		Tensor_set_Item_m825AF5D1FC078421906298C6662565DF5C64817E(L_12, L_13, L_14, NULL);
+		int32_t L_15 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_15, 1));
+	}
+
+IL_004b:
+	{
+		int32_t L_16 = V_2;
+		int32_t L_17 = V_1;
+		V_5 = (bool)((((int32_t)L_16) < ((int32_t)L_17))? 1 : 0);
+		bool L_18 = V_5;
+		if (L_18)
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_19 = V_0;
+		V_6 = L_19;
+		goto IL_005a;
+	}
+
+IL_005a:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_20 = V_6;
+		return L_20;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_LeakyRelu_mB2CF2E89A5FA4945E69F714852EF3B9685EABCB0 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, float ___1_alpha, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_0 = NULL;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	float V_3 = 0.0f;
+	bool V_4 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_5 = NULL;
+	{
+		float L_0 = ___1_alpha;
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_IsTrue_mE42C53B7220324D1FBAFB7AE48A7D8DD7796A663((bool)((((int32_t)((!(((float)L_0) <= ((float)(1.0f))))? 1 : 0)) == ((int32_t)0))? 1 : 0), NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_1 = ___0_X;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_2;
+		L_2 = ReferenceCPUOps_NewTensorLike_mE3067F6087FA22E7A01E136887210735B6DAE00D(__this, L_1, NULL);
+		V_0 = L_2;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_3 = ___0_X;
+		NullCheck(L_3);
+		int32_t L_4;
+		L_4 = Tensor_get_length_m35C7DA71ED506DB11C0626A040E8A182CA25D5CA(L_3, NULL);
+		V_1 = L_4;
+		V_2 = 0;
+		goto IL_0046;
+	}
+
+IL_0025:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_5 = ___0_X;
+		int32_t L_6 = V_2;
+		NullCheck(L_5);
+		float L_7;
+		L_7 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_5, L_6, NULL);
+		V_3 = L_7;
+		float L_8 = V_3;
+		float L_9 = ___1_alpha;
+		float L_10 = V_3;
+		float L_11;
+		L_11 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline(L_8, ((float)il2cpp_codegen_multiply(L_9, L_10)), NULL);
+		V_3 = L_11;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_12 = V_0;
+		int32_t L_13 = V_2;
+		float L_14 = V_3;
+		NullCheck(L_12);
+		Tensor_set_Item_m825AF5D1FC078421906298C6662565DF5C64817E(L_12, L_13, L_14, NULL);
+		int32_t L_15 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_15, 1));
+	}
+
+IL_0046:
+	{
+		int32_t L_16 = V_2;
+		int32_t L_17 = V_1;
+		V_4 = (bool)((((int32_t)L_16) < ((int32_t)L_17))? 1 : 0);
+		bool L_18 = V_4;
+		if (L_18)
+		{
+			goto IL_0025;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_19 = V_0;
+		V_5 = L_19;
+		goto IL_0055;
+	}
+
+IL_0055:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_20 = V_5;
+		return L_20;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_Selu_m2EA87D9FF861C9D83F871BDAD1F4DD236236DB26 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, float ___1_alpha, float ___2_gamma, const RuntimeMethod* method) 
+{
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_0 = NULL;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	float V_3 = 0.0f;
+	bool V_4 = false;
+	bool V_5 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_6 = NULL;
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_0 = ___0_X;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_1;
+		L_1 = ReferenceCPUOps_NewTensorLike_mE3067F6087FA22E7A01E136887210735B6DAE00D(__this, L_0, NULL);
+		V_0 = L_1;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_2 = ___0_X;
+		NullCheck(L_2);
+		int32_t L_3;
+		L_3 = Tensor_get_length_m35C7DA71ED506DB11C0626A040E8A182CA25D5CA(L_2, NULL);
+		V_1 = L_3;
+		V_2 = 0;
+		goto IL_004f;
+	}
+
+IL_0014:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_4 = ___0_X;
+		int32_t L_5 = V_2;
+		NullCheck(L_4);
+		float L_6;
+		L_6 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_4, L_5, NULL);
+		V_3 = L_6;
+		float L_7 = V_3;
+		V_4 = (bool)((((int32_t)((!(((float)L_7) <= ((float)(0.0f))))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_8 = V_4;
+		if (!L_8)
+		{
+			goto IL_003d;
+		}
+	}
+	{
+		float L_9 = ___2_gamma;
+		float L_10 = ___1_alpha;
+		float L_11 = V_3;
+		float L_12;
+		L_12 = expf(L_11);
+		float L_13 = ___1_alpha;
+		V_3 = ((float)il2cpp_codegen_multiply(L_9, ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_multiply(L_10, L_12)), L_13))));
+		goto IL_0041;
+	}
+
+IL_003d:
+	{
+		float L_14 = ___2_gamma;
+		float L_15 = V_3;
+		V_3 = ((float)il2cpp_codegen_multiply(L_14, L_15));
+	}
+
+IL_0041:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_16 = V_0;
+		int32_t L_17 = V_2;
+		float L_18 = V_3;
+		NullCheck(L_16);
+		Tensor_set_Item_m825AF5D1FC078421906298C6662565DF5C64817E(L_16, L_17, L_18, NULL);
+		int32_t L_19 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_19, 1));
+	}
+
+IL_004f:
+	{
+		int32_t L_20 = V_2;
+		int32_t L_21 = V_1;
+		V_5 = (bool)((((int32_t)L_20) < ((int32_t)L_21))? 1 : 0);
+		bool L_22 = V_5;
+		if (L_22)
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_23 = V_0;
+		V_6 = L_23;
+		goto IL_005e;
+	}
+
+IL_005e:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_24 = V_6;
+		return L_24;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_Swish_m9CB9C463C72B67D3652F1EE19763028B21BF8AD9 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, const RuntimeMethod* method) 
+{
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_0 = NULL;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	float V_3 = 0.0f;
+	bool V_4 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_5 = NULL;
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_0 = ___0_X;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_1;
+		L_1 = ReferenceCPUOps_NewTensorLike_mE3067F6087FA22E7A01E136887210735B6DAE00D(__this, L_0, NULL);
+		V_0 = L_1;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_2 = ___0_X;
+		NullCheck(L_2);
+		int32_t L_3;
+		L_3 = Tensor_get_length_m35C7DA71ED506DB11C0626A040E8A182CA25D5CA(L_2, NULL);
+		V_1 = L_3;
+		V_2 = 0;
+		goto IL_003b;
+	}
+
+IL_0014:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_4 = ___0_X;
+		int32_t L_5 = V_2;
+		NullCheck(L_4);
+		float L_6;
+		L_6 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_4, L_5, NULL);
+		V_3 = L_6;
+		float L_7 = V_3;
+		float L_8 = V_3;
+		float L_9;
+		L_9 = expf(((-L_8)));
+		V_3 = ((float)(L_7/((float)il2cpp_codegen_add((1.0f), L_9))));
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_10 = V_0;
+		int32_t L_11 = V_2;
+		float L_12 = V_3;
+		NullCheck(L_10);
+		Tensor_set_Item_m825AF5D1FC078421906298C6662565DF5C64817E(L_10, L_11, L_12, NULL);
+		int32_t L_13 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_13, 1));
+	}
+
+IL_003b:
+	{
+		int32_t L_14 = V_2;
+		int32_t L_15 = V_1;
+		V_4 = (bool)((((int32_t)L_14) < ((int32_t)L_15))? 1 : 0);
+		bool L_16 = V_4;
+		if (L_16)
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_17 = V_0;
+		V_5 = L_17;
+		goto IL_004a;
+	}
+
+IL_004a:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_18 = V_5;
+		return L_18;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_Abs_m6040C63A1B0982F2D4969C04E9AE98AD1548B408 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, const RuntimeMethod* method) 
+{
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_0 = NULL;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	float V_3 = 0.0f;
+	bool V_4 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_5 = NULL;
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_0 = ___0_X;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_1;
+		L_1 = ReferenceCPUOps_NewTensorLike_mE3067F6087FA22E7A01E136887210735B6DAE00D(__this, L_0, NULL);
+		V_0 = L_1;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_2 = ___0_X;
+		NullCheck(L_2);
+		int32_t L_3;
+		L_3 = Tensor_get_length_m35C7DA71ED506DB11C0626A040E8A182CA25D5CA(L_2, NULL);
+		V_1 = L_3;
+		V_2 = 0;
+		goto IL_0032;
+	}
+
+IL_0014:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_4 = ___0_X;
+		int32_t L_5 = V_2;
+		NullCheck(L_4);
+		float L_6;
+		L_6 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_4, L_5, NULL);
+		V_3 = L_6;
+		float L_7 = V_3;
+		float L_8;
+		L_8 = fabsf(L_7);
+		V_3 = L_8;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_9 = V_0;
+		int32_t L_10 = V_2;
+		float L_11 = V_3;
+		NullCheck(L_9);
+		Tensor_set_Item_m825AF5D1FC078421906298C6662565DF5C64817E(L_9, L_10, L_11, NULL);
+		int32_t L_12 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_12, 1));
+	}
+
+IL_0032:
+	{
+		int32_t L_13 = V_2;
+		int32_t L_14 = V_1;
+		V_4 = (bool)((((int32_t)L_13) < ((int32_t)L_14))? 1 : 0);
+		bool L_15 = V_4;
+		if (L_15)
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_16 = V_0;
+		V_5 = L_16;
+		goto IL_0041;
+	}
+
+IL_0041:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_17 = V_5;
+		return L_17;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_Neg_m71B20F96A3761A424754E43F246026E26304B386 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, const RuntimeMethod* method) 
+{
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_0 = NULL;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	float V_3 = 0.0f;
+	bool V_4 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_5 = NULL;
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_0 = ___0_X;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_1;
+		L_1 = ReferenceCPUOps_NewTensorLike_mE3067F6087FA22E7A01E136887210735B6DAE00D(__this, L_0, NULL);
+		V_0 = L_1;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_2 = ___0_X;
+		NullCheck(L_2);
+		int32_t L_3;
+		L_3 = Tensor_get_length_m35C7DA71ED506DB11C0626A040E8A182CA25D5CA(L_2, NULL);
+		V_1 = L_3;
+		V_2 = 0;
+		goto IL_002e;
+	}
+
+IL_0014:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_4 = ___0_X;
+		int32_t L_5 = V_2;
+		NullCheck(L_4);
+		float L_6;
+		L_6 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_4, L_5, NULL);
+		V_3 = L_6;
+		float L_7 = V_3;
+		V_3 = ((-L_7));
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_8 = V_0;
+		int32_t L_9 = V_2;
+		float L_10 = V_3;
+		NullCheck(L_8);
+		Tensor_set_Item_m825AF5D1FC078421906298C6662565DF5C64817E(L_8, L_9, L_10, NULL);
+		int32_t L_11 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_11, 1));
+	}
+
+IL_002e:
+	{
+		int32_t L_12 = V_2;
+		int32_t L_13 = V_1;
+		V_4 = (bool)((((int32_t)L_12) < ((int32_t)L_13))? 1 : 0);
+		bool L_14 = V_4;
+		if (L_14)
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_15 = V_0;
+		V_5 = L_15;
+		goto IL_003d;
+	}
+
+IL_003d:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_16 = V_5;
+		return L_16;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_Ceil_m89B535BBC1B751DBF8AE264DAB18095E8BDF8292 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, const RuntimeMethod* method) 
+{
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_0 = NULL;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	float V_3 = 0.0f;
+	bool V_4 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_5 = NULL;
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_0 = ___0_X;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_1;
+		L_1 = ReferenceCPUOps_NewTensorLike_mE3067F6087FA22E7A01E136887210735B6DAE00D(__this, L_0, NULL);
+		V_0 = L_1;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_2 = ___0_X;
+		NullCheck(L_2);
+		int32_t L_3;
+		L_3 = Tensor_get_length_m35C7DA71ED506DB11C0626A040E8A182CA25D5CA(L_2, NULL);
+		V_1 = L_3;
+		V_2 = 0;
+		goto IL_0032;
+	}
+
+IL_0014:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_4 = ___0_X;
+		int32_t L_5 = V_2;
+		NullCheck(L_4);
+		float L_6;
+		L_6 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_4, L_5, NULL);
+		V_3 = L_6;
+		float L_7 = V_3;
+		float L_8;
+		L_8 = ceilf(L_7);
+		V_3 = L_8;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_9 = V_0;
+		int32_t L_10 = V_2;
+		float L_11 = V_3;
+		NullCheck(L_9);
+		Tensor_set_Item_m825AF5D1FC078421906298C6662565DF5C64817E(L_9, L_10, L_11, NULL);
+		int32_t L_12 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_12, 1));
+	}
+
+IL_0032:
+	{
+		int32_t L_13 = V_2;
+		int32_t L_14 = V_1;
+		V_4 = (bool)((((int32_t)L_13) < ((int32_t)L_14))? 1 : 0);
+		bool L_15 = V_4;
+		if (L_15)
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_16 = V_0;
+		V_5 = L_16;
+		goto IL_0041;
+	}
+
+IL_0041:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_17 = V_5;
+		return L_17;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_Clip_m70F2BF95312DC80359B1C01A336ECFF03354B66B (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, float ___1_min, float ___2_max, const RuntimeMethod* method) 
+{
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_0 = NULL;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	float V_3 = 0.0f;
+	bool V_4 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_5 = NULL;
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_0 = ___0_X;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_1;
+		L_1 = ReferenceCPUOps_NewTensorLike_mE3067F6087FA22E7A01E136887210735B6DAE00D(__this, L_0, NULL);
+		V_0 = L_1;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_2 = ___0_X;
+		NullCheck(L_2);
+		int32_t L_3;
+		L_3 = Tensor_get_length_m35C7DA71ED506DB11C0626A040E8A182CA25D5CA(L_2, NULL);
+		V_1 = L_3;
+		V_2 = 0;
+		goto IL_0034;
+	}
+
+IL_0014:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_4 = ___0_X;
+		int32_t L_5 = V_2;
+		NullCheck(L_4);
+		float L_6;
+		L_6 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_4, L_5, NULL);
+		V_3 = L_6;
+		float L_7 = V_3;
+		float L_8 = ___1_min;
+		float L_9 = ___2_max;
+		float L_10;
+		L_10 = Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline(L_7, L_8, L_9, NULL);
+		V_3 = L_10;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_11 = V_0;
+		int32_t L_12 = V_2;
+		float L_13 = V_3;
+		NullCheck(L_11);
+		Tensor_set_Item_m825AF5D1FC078421906298C6662565DF5C64817E(L_11, L_12, L_13, NULL);
+		int32_t L_14 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_14, 1));
+	}
+
+IL_0034:
+	{
+		int32_t L_15 = V_2;
+		int32_t L_16 = V_1;
+		V_4 = (bool)((((int32_t)L_15) < ((int32_t)L_16))? 1 : 0);
+		bool L_17 = V_4;
+		if (L_17)
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_18 = V_0;
+		V_5 = L_18;
+		goto IL_0043;
+	}
+
+IL_0043:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_19 = V_5;
+		return L_19;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_Floor_m643432B1B7DB877B354F1537281872D6D9300BA1 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, const RuntimeMethod* method) 
+{
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_0 = NULL;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	float V_3 = 0.0f;
+	bool V_4 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_5 = NULL;
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_0 = ___0_X;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_1;
+		L_1 = ReferenceCPUOps_NewTensorLike_mE3067F6087FA22E7A01E136887210735B6DAE00D(__this, L_0, NULL);
+		V_0 = L_1;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_2 = ___0_X;
+		NullCheck(L_2);
+		int32_t L_3;
+		L_3 = Tensor_get_length_m35C7DA71ED506DB11C0626A040E8A182CA25D5CA(L_2, NULL);
+		V_1 = L_3;
+		V_2 = 0;
+		goto IL_0032;
+	}
+
+IL_0014:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_4 = ___0_X;
+		int32_t L_5 = V_2;
+		NullCheck(L_4);
+		float L_6;
+		L_6 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_4, L_5, NULL);
+		V_3 = L_6;
+		float L_7 = V_3;
+		float L_8;
+		L_8 = floorf(L_7);
+		V_3 = L_8;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_9 = V_0;
+		int32_t L_10 = V_2;
+		float L_11 = V_3;
+		NullCheck(L_9);
+		Tensor_set_Item_m825AF5D1FC078421906298C6662565DF5C64817E(L_9, L_10, L_11, NULL);
+		int32_t L_12 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_12, 1));
+	}
+
+IL_0032:
+	{
+		int32_t L_13 = V_2;
+		int32_t L_14 = V_1;
+		V_4 = (bool)((((int32_t)L_13) < ((int32_t)L_14))? 1 : 0);
+		bool L_15 = V_4;
+		if (L_15)
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_16 = V_0;
+		V_5 = L_16;
+		goto IL_0041;
+	}
+
+IL_0041:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_17 = V_5;
+		return L_17;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_Round_m9195EE82C2B02539D5F8FD178FBAF3F4FF416A33 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, const RuntimeMethod* method) 
+{
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_0 = NULL;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	float V_3 = 0.0f;
+	bool V_4 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_5 = NULL;
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_0 = ___0_X;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_1;
+		L_1 = ReferenceCPUOps_NewTensorLike_mE3067F6087FA22E7A01E136887210735B6DAE00D(__this, L_0, NULL);
+		V_0 = L_1;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_2 = ___0_X;
+		NullCheck(L_2);
+		int32_t L_3;
+		L_3 = Tensor_get_length_m35C7DA71ED506DB11C0626A040E8A182CA25D5CA(L_2, NULL);
+		V_1 = L_3;
+		V_2 = 0;
+		goto IL_0032;
+	}
+
+IL_0014:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_4 = ___0_X;
+		int32_t L_5 = V_2;
+		NullCheck(L_4);
+		float L_6;
+		L_6 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_4, L_5, NULL);
+		V_3 = L_6;
+		float L_7 = V_3;
+		float L_8;
+		L_8 = bankers_roundf(L_7);
+		V_3 = L_8;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_9 = V_0;
+		int32_t L_10 = V_2;
+		float L_11 = V_3;
+		NullCheck(L_9);
+		Tensor_set_Item_m825AF5D1FC078421906298C6662565DF5C64817E(L_9, L_10, L_11, NULL);
+		int32_t L_12 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_12, 1));
+	}
+
+IL_0032:
+	{
+		int32_t L_13 = V_2;
+		int32_t L_14 = V_1;
+		V_4 = (bool)((((int32_t)L_13) < ((int32_t)L_14))? 1 : 0);
+		bool L_15 = V_4;
+		if (L_15)
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_16 = V_0;
+		V_5 = L_16;
+		goto IL_0041;
+	}
+
+IL_0041:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_17 = V_5;
+		return L_17;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_Reciprocal_mD0D819E231BBCC121D98C0C5A7EFF0EDFEA2458D (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, const RuntimeMethod* method) 
+{
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_0 = NULL;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	float V_3 = 0.0f;
+	bool V_4 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_5 = NULL;
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_0 = ___0_X;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_1;
+		L_1 = ReferenceCPUOps_NewTensorLike_mE3067F6087FA22E7A01E136887210735B6DAE00D(__this, L_0, NULL);
+		V_0 = L_1;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_2 = ___0_X;
+		NullCheck(L_2);
+		int32_t L_3;
+		L_3 = Tensor_get_length_m35C7DA71ED506DB11C0626A040E8A182CA25D5CA(L_2, NULL);
+		V_1 = L_3;
+		V_2 = 0;
+		goto IL_0033;
+	}
+
+IL_0014:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_4 = ___0_X;
+		int32_t L_5 = V_2;
+		NullCheck(L_4);
+		float L_6;
+		L_6 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_4, L_5, NULL);
+		V_3 = L_6;
+		float L_7 = V_3;
+		V_3 = ((float)((1.0f)/L_7));
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_8 = V_0;
+		int32_t L_9 = V_2;
+		float L_10 = V_3;
+		NullCheck(L_8);
+		Tensor_set_Item_m825AF5D1FC078421906298C6662565DF5C64817E(L_8, L_9, L_10, NULL);
+		int32_t L_11 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_11, 1));
+	}
+
+IL_0033:
+	{
+		int32_t L_12 = V_2;
+		int32_t L_13 = V_1;
+		V_4 = (bool)((((int32_t)L_12) < ((int32_t)L_13))? 1 : 0);
+		bool L_14 = V_4;
+		if (L_14)
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_15 = V_0;
+		V_5 = L_15;
+		goto IL_0042;
+	}
+
+IL_0042:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_16 = V_5;
+		return L_16;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_Pow_mA198056A26762880727FDE3D38E9070E9CDF3A1E (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, float ___1_alpha, const RuntimeMethod* method) 
+{
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_0 = NULL;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	float V_3 = 0.0f;
+	bool V_4 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_5 = NULL;
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_0 = ___0_X;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_1;
+		L_1 = ReferenceCPUOps_NewTensorLike_mE3067F6087FA22E7A01E136887210735B6DAE00D(__this, L_0, NULL);
+		V_0 = L_1;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_2 = ___0_X;
+		NullCheck(L_2);
+		int32_t L_3;
+		L_3 = Tensor_get_length_m35C7DA71ED506DB11C0626A040E8A182CA25D5CA(L_2, NULL);
+		V_1 = L_3;
+		V_2 = 0;
+		goto IL_0033;
+	}
+
+IL_0014:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_4 = ___0_X;
+		int32_t L_5 = V_2;
+		NullCheck(L_4);
+		float L_6;
+		L_6 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_4, L_5, NULL);
+		V_3 = L_6;
+		float L_7 = V_3;
+		float L_8 = ___1_alpha;
+		float L_9;
+		L_9 = powf(L_7, L_8);
+		V_3 = L_9;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_10 = V_0;
+		int32_t L_11 = V_2;
+		float L_12 = V_3;
+		NullCheck(L_10);
+		Tensor_set_Item_m825AF5D1FC078421906298C6662565DF5C64817E(L_10, L_11, L_12, NULL);
+		int32_t L_13 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_13, 1));
+	}
+
+IL_0033:
+	{
+		int32_t L_14 = V_2;
+		int32_t L_15 = V_1;
+		V_4 = (bool)((((int32_t)L_14) < ((int32_t)L_15))? 1 : 0);
+		bool L_16 = V_4;
+		if (L_16)
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_17 = V_0;
+		V_5 = L_17;
+		goto IL_0042;
+	}
+
+IL_0042:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_18 = V_5;
+		return L_18;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_Exp_m03A6B0CB8B636F5A301968683195E04ABAD74C2A (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, const RuntimeMethod* method) 
+{
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_0 = NULL;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	float V_3 = 0.0f;
+	bool V_4 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_5 = NULL;
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_0 = ___0_X;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_1;
+		L_1 = ReferenceCPUOps_NewTensorLike_mE3067F6087FA22E7A01E136887210735B6DAE00D(__this, L_0, NULL);
+		V_0 = L_1;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_2 = ___0_X;
+		NullCheck(L_2);
+		int32_t L_3;
+		L_3 = Tensor_get_length_m35C7DA71ED506DB11C0626A040E8A182CA25D5CA(L_2, NULL);
+		V_1 = L_3;
+		V_2 = 0;
+		goto IL_0032;
+	}
+
+IL_0014:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_4 = ___0_X;
+		int32_t L_5 = V_2;
+		NullCheck(L_4);
+		float L_6;
+		L_6 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_4, L_5, NULL);
+		V_3 = L_6;
+		float L_7 = V_3;
+		float L_8;
+		L_8 = expf(L_7);
+		V_3 = L_8;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_9 = V_0;
+		int32_t L_10 = V_2;
+		float L_11 = V_3;
+		NullCheck(L_9);
+		Tensor_set_Item_m825AF5D1FC078421906298C6662565DF5C64817E(L_9, L_10, L_11, NULL);
+		int32_t L_12 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_12, 1));
+	}
+
+IL_0032:
+	{
+		int32_t L_13 = V_2;
+		int32_t L_14 = V_1;
+		V_4 = (bool)((((int32_t)L_13) < ((int32_t)L_14))? 1 : 0);
+		bool L_15 = V_4;
+		if (L_15)
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_16 = V_0;
+		V_5 = L_16;
+		goto IL_0041;
+	}
+
+IL_0041:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_17 = V_5;
+		return L_17;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_Log_mC8E947FCE61355F03646286CEC3A75E060597C47 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, const RuntimeMethod* method) 
+{
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_0 = NULL;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	float V_3 = 0.0f;
+	bool V_4 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_5 = NULL;
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_0 = ___0_X;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_1;
+		L_1 = ReferenceCPUOps_NewTensorLike_mE3067F6087FA22E7A01E136887210735B6DAE00D(__this, L_0, NULL);
+		V_0 = L_1;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_2 = ___0_X;
+		NullCheck(L_2);
+		int32_t L_3;
+		L_3 = Tensor_get_length_m35C7DA71ED506DB11C0626A040E8A182CA25D5CA(L_2, NULL);
+		V_1 = L_3;
+		V_2 = 0;
+		goto IL_0032;
+	}
+
+IL_0014:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_4 = ___0_X;
+		int32_t L_5 = V_2;
+		NullCheck(L_4);
+		float L_6;
+		L_6 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_4, L_5, NULL);
+		V_3 = L_6;
+		float L_7 = V_3;
+		float L_8;
+		L_8 = logf(L_7);
+		V_3 = L_8;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_9 = V_0;
+		int32_t L_10 = V_2;
+		float L_11 = V_3;
+		NullCheck(L_9);
+		Tensor_set_Item_m825AF5D1FC078421906298C6662565DF5C64817E(L_9, L_10, L_11, NULL);
+		int32_t L_12 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_12, 1));
+	}
+
+IL_0032:
+	{
+		int32_t L_13 = V_2;
+		int32_t L_14 = V_1;
+		V_4 = (bool)((((int32_t)L_13) < ((int32_t)L_14))? 1 : 0);
+		bool L_15 = V_4;
+		if (L_15)
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_16 = V_0;
+		V_5 = L_16;
+		goto IL_0041;
+	}
+
+IL_0041:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_17 = V_5;
+		return L_17;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_Sqrt_m9FE461D2700CF2B498587926627CF89A709BC8A9 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, const RuntimeMethod* method) 
+{
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_0 = NULL;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	float V_3 = 0.0f;
+	bool V_4 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_5 = NULL;
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_0 = ___0_X;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_1;
+		L_1 = ReferenceCPUOps_NewTensorLike_mE3067F6087FA22E7A01E136887210735B6DAE00D(__this, L_0, NULL);
+		V_0 = L_1;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_2 = ___0_X;
+		NullCheck(L_2);
+		int32_t L_3;
+		L_3 = Tensor_get_length_m35C7DA71ED506DB11C0626A040E8A182CA25D5CA(L_2, NULL);
+		V_1 = L_3;
+		V_2 = 0;
+		goto IL_0032;
+	}
+
+IL_0014:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_4 = ___0_X;
+		int32_t L_5 = V_2;
+		NullCheck(L_4);
+		float L_6;
+		L_6 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_4, L_5, NULL);
+		V_3 = L_6;
+		float L_7 = V_3;
+		float L_8;
+		L_8 = sqrtf(L_7);
+		V_3 = L_8;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_9 = V_0;
+		int32_t L_10 = V_2;
+		float L_11 = V_3;
+		NullCheck(L_9);
+		Tensor_set_Item_m825AF5D1FC078421906298C6662565DF5C64817E(L_9, L_10, L_11, NULL);
+		int32_t L_12 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_12, 1));
+	}
+
+IL_0032:
+	{
+		int32_t L_13 = V_2;
+		int32_t L_14 = V_1;
+		V_4 = (bool)((((int32_t)L_13) < ((int32_t)L_14))? 1 : 0);
+		bool L_15 = V_4;
+		if (L_15)
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_16 = V_0;
+		V_5 = L_16;
+		goto IL_0041;
+	}
+
+IL_0041:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_17 = V_5;
+		return L_17;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_Acos_mB9938A250EB504ED35D293A37A42130DC9144060 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, const RuntimeMethod* method) 
+{
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_0 = NULL;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	float V_3 = 0.0f;
+	bool V_4 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_5 = NULL;
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_0 = ___0_X;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_1;
+		L_1 = ReferenceCPUOps_NewTensorLike_mE3067F6087FA22E7A01E136887210735B6DAE00D(__this, L_0, NULL);
+		V_0 = L_1;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_2 = ___0_X;
+		NullCheck(L_2);
+		int32_t L_3;
+		L_3 = Tensor_get_length_m35C7DA71ED506DB11C0626A040E8A182CA25D5CA(L_2, NULL);
+		V_1 = L_3;
+		V_2 = 0;
+		goto IL_0032;
+	}
+
+IL_0014:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_4 = ___0_X;
+		int32_t L_5 = V_2;
+		NullCheck(L_4);
+		float L_6;
+		L_6 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_4, L_5, NULL);
+		V_3 = L_6;
+		float L_7 = V_3;
+		float L_8;
+		L_8 = acosf(L_7);
+		V_3 = L_8;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_9 = V_0;
+		int32_t L_10 = V_2;
+		float L_11 = V_3;
+		NullCheck(L_9);
+		Tensor_set_Item_m825AF5D1FC078421906298C6662565DF5C64817E(L_9, L_10, L_11, NULL);
+		int32_t L_12 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_12, 1));
+	}
+
+IL_0032:
+	{
+		int32_t L_13 = V_2;
+		int32_t L_14 = V_1;
+		V_4 = (bool)((((int32_t)L_13) < ((int32_t)L_14))? 1 : 0);
+		bool L_15 = V_4;
+		if (L_15)
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_16 = V_0;
+		V_5 = L_16;
+		goto IL_0041;
+	}
+
+IL_0041:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_17 = V_5;
+		return L_17;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_Acosh_m9B03BDF09AA939DA3B7C65E4A81FF6A1BA14C826 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, const RuntimeMethod* method) 
+{
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_0 = NULL;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	float V_3 = 0.0f;
+	bool V_4 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_5 = NULL;
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_0 = ___0_X;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_1;
+		L_1 = ReferenceCPUOps_NewTensorLike_mE3067F6087FA22E7A01E136887210735B6DAE00D(__this, L_0, NULL);
+		V_0 = L_1;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_2 = ___0_X;
+		NullCheck(L_2);
+		int32_t L_3;
+		L_3 = Tensor_get_length_m35C7DA71ED506DB11C0626A040E8A182CA25D5CA(L_2, NULL);
+		V_1 = L_3;
+		V_2 = 0;
+		goto IL_0041;
+	}
+
+IL_0014:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_4 = ___0_X;
+		int32_t L_5 = V_2;
+		NullCheck(L_4);
+		float L_6;
+		L_6 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_4, L_5, NULL);
+		V_3 = L_6;
+		float L_7 = V_3;
+		float L_8 = V_3;
+		float L_9 = V_3;
+		float L_10;
+		L_10 = sqrtf(((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_multiply(L_8, L_9)), (1.0f))));
+		float L_11;
+		L_11 = logf(((float)il2cpp_codegen_add(L_7, L_10)));
+		V_3 = L_11;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_12 = V_0;
+		int32_t L_13 = V_2;
+		float L_14 = V_3;
+		NullCheck(L_12);
+		Tensor_set_Item_m825AF5D1FC078421906298C6662565DF5C64817E(L_12, L_13, L_14, NULL);
+		int32_t L_15 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_15, 1));
+	}
+
+IL_0041:
+	{
+		int32_t L_16 = V_2;
+		int32_t L_17 = V_1;
+		V_4 = (bool)((((int32_t)L_16) < ((int32_t)L_17))? 1 : 0);
+		bool L_18 = V_4;
+		if (L_18)
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_19 = V_0;
+		V_5 = L_19;
+		goto IL_0050;
+	}
+
+IL_0050:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_20 = V_5;
+		return L_20;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_Asin_mCC86505AA3550D7693C322329ED6535EB0336749 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, const RuntimeMethod* method) 
+{
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_0 = NULL;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	float V_3 = 0.0f;
+	bool V_4 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_5 = NULL;
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_0 = ___0_X;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_1;
+		L_1 = ReferenceCPUOps_NewTensorLike_mE3067F6087FA22E7A01E136887210735B6DAE00D(__this, L_0, NULL);
+		V_0 = L_1;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_2 = ___0_X;
+		NullCheck(L_2);
+		int32_t L_3;
+		L_3 = Tensor_get_length_m35C7DA71ED506DB11C0626A040E8A182CA25D5CA(L_2, NULL);
+		V_1 = L_3;
+		V_2 = 0;
+		goto IL_0032;
+	}
+
+IL_0014:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_4 = ___0_X;
+		int32_t L_5 = V_2;
+		NullCheck(L_4);
+		float L_6;
+		L_6 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_4, L_5, NULL);
+		V_3 = L_6;
+		float L_7 = V_3;
+		float L_8;
+		L_8 = asinf(L_7);
+		V_3 = L_8;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_9 = V_0;
+		int32_t L_10 = V_2;
+		float L_11 = V_3;
+		NullCheck(L_9);
+		Tensor_set_Item_m825AF5D1FC078421906298C6662565DF5C64817E(L_9, L_10, L_11, NULL);
+		int32_t L_12 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_12, 1));
+	}
+
+IL_0032:
+	{
+		int32_t L_13 = V_2;
+		int32_t L_14 = V_1;
+		V_4 = (bool)((((int32_t)L_13) < ((int32_t)L_14))? 1 : 0);
+		bool L_15 = V_4;
+		if (L_15)
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_16 = V_0;
+		V_5 = L_16;
+		goto IL_0041;
+	}
+
+IL_0041:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_17 = V_5;
+		return L_17;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_Asinh_m03F3368DBE67DD1CB46F6989E03C72FB91BCE9E7 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, const RuntimeMethod* method) 
+{
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_0 = NULL;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	float V_3 = 0.0f;
+	bool V_4 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_5 = NULL;
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_0 = ___0_X;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_1;
+		L_1 = ReferenceCPUOps_NewTensorLike_mE3067F6087FA22E7A01E136887210735B6DAE00D(__this, L_0, NULL);
+		V_0 = L_1;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_2 = ___0_X;
+		NullCheck(L_2);
+		int32_t L_3;
+		L_3 = Tensor_get_length_m35C7DA71ED506DB11C0626A040E8A182CA25D5CA(L_2, NULL);
+		V_1 = L_3;
+		V_2 = 0;
+		goto IL_0041;
+	}
+
+IL_0014:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_4 = ___0_X;
+		int32_t L_5 = V_2;
+		NullCheck(L_4);
+		float L_6;
+		L_6 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_4, L_5, NULL);
+		V_3 = L_6;
+		float L_7 = V_3;
+		float L_8 = V_3;
+		float L_9 = V_3;
+		float L_10;
+		L_10 = sqrtf(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_8, L_9)), (1.0f))));
+		float L_11;
+		L_11 = logf(((float)il2cpp_codegen_add(L_7, L_10)));
+		V_3 = L_11;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_12 = V_0;
+		int32_t L_13 = V_2;
+		float L_14 = V_3;
+		NullCheck(L_12);
+		Tensor_set_Item_m825AF5D1FC078421906298C6662565DF5C64817E(L_12, L_13, L_14, NULL);
+		int32_t L_15 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_15, 1));
+	}
+
+IL_0041:
+	{
+		int32_t L_16 = V_2;
+		int32_t L_17 = V_1;
+		V_4 = (bool)((((int32_t)L_16) < ((int32_t)L_17))? 1 : 0);
+		bool L_18 = V_4;
+		if (L_18)
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_19 = V_0;
+		V_5 = L_19;
+		goto IL_0050;
+	}
+
+IL_0050:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_20 = V_5;
+		return L_20;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_Atan_m69A60172462260656DA2E2DCF590E086F1690D0F (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, const RuntimeMethod* method) 
+{
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_0 = NULL;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	float V_3 = 0.0f;
+	bool V_4 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_5 = NULL;
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_0 = ___0_X;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_1;
+		L_1 = ReferenceCPUOps_NewTensorLike_mE3067F6087FA22E7A01E136887210735B6DAE00D(__this, L_0, NULL);
+		V_0 = L_1;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_2 = ___0_X;
+		NullCheck(L_2);
+		int32_t L_3;
+		L_3 = Tensor_get_length_m35C7DA71ED506DB11C0626A040E8A182CA25D5CA(L_2, NULL);
+		V_1 = L_3;
+		V_2 = 0;
+		goto IL_0032;
+	}
+
+IL_0014:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_4 = ___0_X;
+		int32_t L_5 = V_2;
+		NullCheck(L_4);
+		float L_6;
+		L_6 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_4, L_5, NULL);
+		V_3 = L_6;
+		float L_7 = V_3;
+		float L_8;
+		L_8 = atanf(L_7);
+		V_3 = L_8;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_9 = V_0;
+		int32_t L_10 = V_2;
+		float L_11 = V_3;
+		NullCheck(L_9);
+		Tensor_set_Item_m825AF5D1FC078421906298C6662565DF5C64817E(L_9, L_10, L_11, NULL);
+		int32_t L_12 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_12, 1));
+	}
+
+IL_0032:
+	{
+		int32_t L_13 = V_2;
+		int32_t L_14 = V_1;
+		V_4 = (bool)((((int32_t)L_13) < ((int32_t)L_14))? 1 : 0);
+		bool L_15 = V_4;
+		if (L_15)
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_16 = V_0;
+		V_5 = L_16;
+		goto IL_0041;
+	}
+
+IL_0041:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_17 = V_5;
+		return L_17;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_Atanh_mED920167218BD4D71FEFBF4C62673366FC3F7A44 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, const RuntimeMethod* method) 
+{
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_0 = NULL;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	float V_3 = 0.0f;
+	bool V_4 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_5 = NULL;
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_0 = ___0_X;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_1;
+		L_1 = ReferenceCPUOps_NewTensorLike_mE3067F6087FA22E7A01E136887210735B6DAE00D(__this, L_0, NULL);
+		V_0 = L_1;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_2 = ___0_X;
+		NullCheck(L_2);
+		int32_t L_3;
+		L_3 = Tensor_get_length_m35C7DA71ED506DB11C0626A040E8A182CA25D5CA(L_2, NULL);
+		V_1 = L_3;
+		V_2 = 0;
+		goto IL_0046;
+	}
+
+IL_0014:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_4 = ___0_X;
+		int32_t L_5 = V_2;
+		NullCheck(L_4);
+		float L_6;
+		L_6 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_4, L_5, NULL);
+		V_3 = L_6;
+		float L_7 = V_3;
+		float L_8 = V_3;
+		float L_9;
+		L_9 = logf(((float)(((float)il2cpp_codegen_add((1.0f), L_7))/((float)il2cpp_codegen_subtract((1.0f), L_8)))));
+		V_3 = ((float)il2cpp_codegen_multiply((0.5f), L_9));
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_10 = V_0;
+		int32_t L_11 = V_2;
+		float L_12 = V_3;
+		NullCheck(L_10);
+		Tensor_set_Item_m825AF5D1FC078421906298C6662565DF5C64817E(L_10, L_11, L_12, NULL);
+		int32_t L_13 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_13, 1));
+	}
+
+IL_0046:
+	{
+		int32_t L_14 = V_2;
+		int32_t L_15 = V_1;
+		V_4 = (bool)((((int32_t)L_14) < ((int32_t)L_15))? 1 : 0);
+		bool L_16 = V_4;
+		if (L_16)
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_17 = V_0;
+		V_5 = L_17;
+		goto IL_0055;
+	}
+
+IL_0055:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_18 = V_5;
+		return L_18;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_Cos_mFD16261C9F4ED5875C0C37992C28FFCF09952C43 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, const RuntimeMethod* method) 
+{
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_0 = NULL;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	float V_3 = 0.0f;
+	bool V_4 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_5 = NULL;
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_0 = ___0_X;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_1;
+		L_1 = ReferenceCPUOps_NewTensorLike_mE3067F6087FA22E7A01E136887210735B6DAE00D(__this, L_0, NULL);
+		V_0 = L_1;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_2 = ___0_X;
+		NullCheck(L_2);
+		int32_t L_3;
+		L_3 = Tensor_get_length_m35C7DA71ED506DB11C0626A040E8A182CA25D5CA(L_2, NULL);
+		V_1 = L_3;
+		V_2 = 0;
+		goto IL_0032;
+	}
+
+IL_0014:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_4 = ___0_X;
+		int32_t L_5 = V_2;
+		NullCheck(L_4);
+		float L_6;
+		L_6 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_4, L_5, NULL);
+		V_3 = L_6;
+		float L_7 = V_3;
+		float L_8;
+		L_8 = cosf(L_7);
+		V_3 = L_8;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_9 = V_0;
+		int32_t L_10 = V_2;
+		float L_11 = V_3;
+		NullCheck(L_9);
+		Tensor_set_Item_m825AF5D1FC078421906298C6662565DF5C64817E(L_9, L_10, L_11, NULL);
+		int32_t L_12 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_12, 1));
+	}
+
+IL_0032:
+	{
+		int32_t L_13 = V_2;
+		int32_t L_14 = V_1;
+		V_4 = (bool)((((int32_t)L_13) < ((int32_t)L_14))? 1 : 0);
+		bool L_15 = V_4;
+		if (L_15)
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_16 = V_0;
+		V_5 = L_16;
+		goto IL_0041;
+	}
+
+IL_0041:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_17 = V_5;
+		return L_17;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_Cosh_m4FD826E1D2379F09563F4218366C560F91BBA825 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, const RuntimeMethod* method) 
+{
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_0 = NULL;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	float V_3 = 0.0f;
+	bool V_4 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_5 = NULL;
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_0 = ___0_X;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_1;
+		L_1 = ReferenceCPUOps_NewTensorLike_mE3067F6087FA22E7A01E136887210735B6DAE00D(__this, L_0, NULL);
+		V_0 = L_1;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_2 = ___0_X;
+		NullCheck(L_2);
+		int32_t L_3;
+		L_3 = Tensor_get_length_m35C7DA71ED506DB11C0626A040E8A182CA25D5CA(L_2, NULL);
+		V_1 = L_3;
+		V_2 = 0;
+		goto IL_0040;
+	}
+
+IL_0014:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_4 = ___0_X;
+		int32_t L_5 = V_2;
+		NullCheck(L_4);
+		float L_6;
+		L_6 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_4, L_5, NULL);
+		V_3 = L_6;
+		float L_7 = V_3;
+		float L_8;
+		L_8 = expf(L_7);
+		float L_9 = V_3;
+		float L_10;
+		L_10 = expf(((-L_9)));
+		V_3 = ((float)il2cpp_codegen_multiply((0.5f), ((float)il2cpp_codegen_add(L_8, L_10))));
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_11 = V_0;
+		int32_t L_12 = V_2;
+		float L_13 = V_3;
+		NullCheck(L_11);
+		Tensor_set_Item_m825AF5D1FC078421906298C6662565DF5C64817E(L_11, L_12, L_13, NULL);
+		int32_t L_14 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_14, 1));
+	}
+
+IL_0040:
+	{
+		int32_t L_15 = V_2;
+		int32_t L_16 = V_1;
+		V_4 = (bool)((((int32_t)L_15) < ((int32_t)L_16))? 1 : 0);
+		bool L_17 = V_4;
+		if (L_17)
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_18 = V_0;
+		V_5 = L_18;
+		goto IL_004f;
+	}
+
+IL_004f:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_19 = V_5;
+		return L_19;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_Sin_m9A04FE2D7A3CD79E8ED864D9266A45D85A7C8127 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, const RuntimeMethod* method) 
+{
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_0 = NULL;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	float V_3 = 0.0f;
+	bool V_4 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_5 = NULL;
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_0 = ___0_X;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_1;
+		L_1 = ReferenceCPUOps_NewTensorLike_mE3067F6087FA22E7A01E136887210735B6DAE00D(__this, L_0, NULL);
+		V_0 = L_1;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_2 = ___0_X;
+		NullCheck(L_2);
+		int32_t L_3;
+		L_3 = Tensor_get_length_m35C7DA71ED506DB11C0626A040E8A182CA25D5CA(L_2, NULL);
+		V_1 = L_3;
+		V_2 = 0;
+		goto IL_0032;
+	}
+
+IL_0014:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_4 = ___0_X;
+		int32_t L_5 = V_2;
+		NullCheck(L_4);
+		float L_6;
+		L_6 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_4, L_5, NULL);
+		V_3 = L_6;
+		float L_7 = V_3;
+		float L_8;
+		L_8 = sinf(L_7);
+		V_3 = L_8;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_9 = V_0;
+		int32_t L_10 = V_2;
+		float L_11 = V_3;
+		NullCheck(L_9);
+		Tensor_set_Item_m825AF5D1FC078421906298C6662565DF5C64817E(L_9, L_10, L_11, NULL);
+		int32_t L_12 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_12, 1));
+	}
+
+IL_0032:
+	{
+		int32_t L_13 = V_2;
+		int32_t L_14 = V_1;
+		V_4 = (bool)((((int32_t)L_13) < ((int32_t)L_14))? 1 : 0);
+		bool L_15 = V_4;
+		if (L_15)
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_16 = V_0;
+		V_5 = L_16;
+		goto IL_0041;
+	}
+
+IL_0041:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_17 = V_5;
+		return L_17;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_Sinh_m5113C4C0B7EF376A0B1152925712EE01B35C5305 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, const RuntimeMethod* method) 
+{
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_0 = NULL;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	float V_3 = 0.0f;
+	bool V_4 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_5 = NULL;
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_0 = ___0_X;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_1;
+		L_1 = ReferenceCPUOps_NewTensorLike_mE3067F6087FA22E7A01E136887210735B6DAE00D(__this, L_0, NULL);
+		V_0 = L_1;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_2 = ___0_X;
+		NullCheck(L_2);
+		int32_t L_3;
+		L_3 = Tensor_get_length_m35C7DA71ED506DB11C0626A040E8A182CA25D5CA(L_2, NULL);
+		V_1 = L_3;
+		V_2 = 0;
+		goto IL_0040;
+	}
+
+IL_0014:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_4 = ___0_X;
+		int32_t L_5 = V_2;
+		NullCheck(L_4);
+		float L_6;
+		L_6 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_4, L_5, NULL);
+		V_3 = L_6;
+		float L_7 = V_3;
+		float L_8;
+		L_8 = expf(L_7);
+		float L_9 = V_3;
+		float L_10;
+		L_10 = expf(((-L_9)));
+		V_3 = ((float)il2cpp_codegen_multiply((0.5f), ((float)il2cpp_codegen_subtract(L_8, L_10))));
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_11 = V_0;
+		int32_t L_12 = V_2;
+		float L_13 = V_3;
+		NullCheck(L_11);
+		Tensor_set_Item_m825AF5D1FC078421906298C6662565DF5C64817E(L_11, L_12, L_13, NULL);
+		int32_t L_14 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_14, 1));
+	}
+
+IL_0040:
+	{
+		int32_t L_15 = V_2;
+		int32_t L_16 = V_1;
+		V_4 = (bool)((((int32_t)L_15) < ((int32_t)L_16))? 1 : 0);
+		bool L_17 = V_4;
+		if (L_17)
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_18 = V_0;
+		V_5 = L_18;
+		goto IL_004f;
+	}
+
+IL_004f:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_19 = V_5;
+		return L_19;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_Tan_m04D12768E5FF3F0EC4FF0CD42AADBC34FD634902 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, const RuntimeMethod* method) 
+{
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_0 = NULL;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	float V_3 = 0.0f;
+	bool V_4 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_5 = NULL;
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_0 = ___0_X;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_1;
+		L_1 = ReferenceCPUOps_NewTensorLike_mE3067F6087FA22E7A01E136887210735B6DAE00D(__this, L_0, NULL);
+		V_0 = L_1;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_2 = ___0_X;
+		NullCheck(L_2);
+		int32_t L_3;
+		L_3 = Tensor_get_length_m35C7DA71ED506DB11C0626A040E8A182CA25D5CA(L_2, NULL);
+		V_1 = L_3;
+		V_2 = 0;
+		goto IL_0032;
+	}
+
+IL_0014:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_4 = ___0_X;
+		int32_t L_5 = V_2;
+		NullCheck(L_4);
+		float L_6;
+		L_6 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_4, L_5, NULL);
+		V_3 = L_6;
+		float L_7 = V_3;
+		float L_8;
+		L_8 = tanf(L_7);
+		V_3 = L_8;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_9 = V_0;
+		int32_t L_10 = V_2;
+		float L_11 = V_3;
+		NullCheck(L_9);
+		Tensor_set_Item_m825AF5D1FC078421906298C6662565DF5C64817E(L_9, L_10, L_11, NULL);
+		int32_t L_12 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_12, 1));
+	}
+
+IL_0032:
+	{
+		int32_t L_13 = V_2;
+		int32_t L_14 = V_1;
+		V_4 = (bool)((((int32_t)L_13) < ((int32_t)L_14))? 1 : 0);
+		bool L_15 = V_4;
+		if (L_15)
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_16 = V_0;
+		V_5 = L_16;
+		goto IL_0041;
+	}
+
+IL_0041:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_17 = V_5;
+		return L_17;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_Erf_m38757793ACBFDC310A830D114DFE63FA63A960FD (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, const RuntimeMethod* method) 
+{
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_0 = NULL;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	float V_3 = 0.0f;
+	float V_4 = 0.0f;
+	float V_5 = 0.0f;
+	float V_6 = 0.0f;
+	float V_7 = 0.0f;
+	float V_8 = 0.0f;
+	float V_9 = 0.0f;
+	float V_10 = 0.0f;
+	float V_11 = 0.0f;
+	float V_12 = 0.0f;
+	float V_13 = 0.0f;
+	float V_14 = 0.0f;
+	float V_15 = 0.0f;
+	bool V_16 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_17 = NULL;
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_0 = ___0_X;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_1;
+		L_1 = ReferenceCPUOps_NewTensorLike_mE3067F6087FA22E7A01E136887210735B6DAE00D(__this, L_0, NULL);
+		V_0 = L_1;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_2 = ___0_X;
+		NullCheck(L_2);
+		int32_t L_3;
+		L_3 = Tensor_get_length_m35C7DA71ED506DB11C0626A040E8A182CA25D5CA(L_2, NULL);
+		V_1 = L_3;
+		V_2 = 0;
+		goto IL_00c6;
+	}
+
+IL_0017:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_4 = ___0_X;
+		int32_t L_5 = V_2;
+		NullCheck(L_4);
+		float L_6;
+		L_6 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_4, L_5, NULL);
+		V_3 = L_6;
+		float L_7 = V_3;
+		float L_8;
+		L_8 = fabsf(L_7);
+		V_4 = L_8;
+		V_5 = (0.327591091f);
+		V_6 = (0.254829586f);
+		V_7 = (-0.284496725f);
+		V_8 = (1.42141378f);
+		V_9 = (-1.45315206f);
+		V_10 = (1.06140542f);
+		float L_9 = V_5;
+		float L_10 = V_4;
+		V_11 = ((float)((1.0f)/((float)il2cpp_codegen_add((1.0f), ((float)il2cpp_codegen_multiply(L_9, L_10))))));
+		float L_11 = V_11;
+		float L_12 = V_11;
+		V_12 = ((float)il2cpp_codegen_multiply(L_11, L_12));
+		float L_13 = V_12;
+		float L_14 = V_11;
+		V_13 = ((float)il2cpp_codegen_multiply(L_13, L_14));
+		float L_15 = V_13;
+		float L_16 = V_11;
+		V_14 = ((float)il2cpp_codegen_multiply(L_15, L_16));
+		float L_17 = V_14;
+		float L_18 = V_11;
+		V_15 = ((float)il2cpp_codegen_multiply(L_17, L_18));
+		float L_19 = V_3;
+		float L_20;
+		L_20 = Mathf_Sign_m42EE1F0BC041AF14F89DED7F762BE996E2C50D8A_inline(L_19, NULL);
+		float L_21 = V_6;
+		float L_22 = V_11;
+		float L_23 = V_7;
+		float L_24 = V_12;
+		float L_25 = V_8;
+		float L_26 = V_13;
+		float L_27 = V_9;
+		float L_28 = V_14;
+		float L_29 = V_10;
+		float L_30 = V_15;
+		float L_31 = V_4;
+		float L_32 = V_4;
+		float L_33;
+		L_33 = expf(((float)il2cpp_codegen_multiply(((-L_31)), L_32)));
+		V_3 = ((float)il2cpp_codegen_multiply(L_20, ((float)il2cpp_codegen_subtract((1.0f), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_21, L_22)), ((float)il2cpp_codegen_multiply(L_23, L_24)))), ((float)il2cpp_codegen_multiply(L_25, L_26)))), ((float)il2cpp_codegen_multiply(L_27, L_28)))), ((float)il2cpp_codegen_multiply(L_29, L_30)))), L_33))))));
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_34 = V_0;
+		int32_t L_35 = V_2;
+		float L_36 = V_3;
+		NullCheck(L_34);
+		Tensor_set_Item_m825AF5D1FC078421906298C6662565DF5C64817E(L_34, L_35, L_36, NULL);
+		int32_t L_37 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_37, 1));
+	}
+
+IL_00c6:
+	{
+		int32_t L_38 = V_2;
+		int32_t L_39 = V_1;
+		V_16 = (bool)((((int32_t)L_38) < ((int32_t)L_39))? 1 : 0);
+		bool L_40 = V_16;
+		if (L_40)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_41 = V_0;
+		V_17 = L_41;
+		goto IL_00d8;
+	}
+
+IL_00d8:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_42 = V_17;
+		return L_42;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t ReferenceCPUOps_GetAggregatedDimLength_mFC6A2CF70A4D19E8E3ED72B7CE6A5AD20F325BD8 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 ___0_shape, int32_t ___1_startDim, int32_t ___2_endDim, const RuntimeMethod* method) 
+{
+	int64_t V_0 = 0;
+	int32_t V_1 = 0;
+	bool V_2 = false;
+	int64_t V_3 = 0;
+	{
+		V_0 = ((int64_t)1);
+		int32_t L_0 = ___1_startDim;
+		V_1 = L_0;
+		goto IL_0018;
+	}
+
+IL_0008:
+	{
+		int64_t L_1 = V_0;
+		int32_t L_2 = V_1;
+		int32_t L_3;
+		L_3 = TensorShape_get_Item_m046FF56D8906EA7CD9D33486F778EBBCE949B33E((&___0_shape), L_2, NULL);
+		V_0 = ((int64_t)il2cpp_codegen_multiply(L_1, ((int64_t)L_3)));
+		int32_t L_4 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_4, 1));
+	}
+
+IL_0018:
+	{
+		int32_t L_5 = V_1;
+		int32_t L_6 = ___2_endDim;
+		V_2 = (bool)((((int32_t)L_5) < ((int32_t)L_6))? 1 : 0);
+		bool L_7 = V_2;
+		if (L_7)
+		{
+			goto IL_0008;
+		}
+	}
+	{
+		int64_t L_8 = V_0;
+		V_3 = L_8;
+		goto IL_0024;
+	}
+
+IL_0024:
+	{
+		int64_t L_9 = V_3;
+		return L_9;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_Concat_mF5E102F6C04B89D9F47075978AB44D212F85FC11 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* ___0_tensors, int32_t ___1_axis, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ITensorData_t3A6F17AB959FF04A40F1CAF3FE450AA42855F8A2_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Marshal_SizeOf_TisInt64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_m4E05DA55D87CA8C80EABA53ECB8511113C81442F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Marshal_tD976A56A90263C3CE2B780D4B1CADADE2E70B4A7_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ReferenceCPUOps_Concat_mF5E102F6C04B89D9F47075978AB44D212F85FC11_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	int32_t V_1 = 0;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_2 = NULL;
+	int64_t* V_3 = NULL;
+	int64_t* V_4 = NULL;
+	int32_t V_5 = 0;
+	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* V_6 = NULL;
+	int64_t V_7 = 0;
+	int64_t V_8 = 0;
+	int32_t V_9 = 0;
+	TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	bool V_11 = false;
+	int32_t V_12 = 0;
+	int32_t V_13 = 0;
+	int64_t V_14 = 0;
+	bool V_15 = false;
+	bool V_16 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_17 = NULL;
+	int32_t G_B3_0 = 0;
+	{
+		TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_0 = ___0_tensors;
+		int32_t L_1 = ___1_axis;
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_2;
+		L_2 = TensorExtensions_Concat_m75BFAF346DDA62D560A4674C4B7DA3F0A9137F79(L_0, L_1, NULL);
+		V_0 = L_2;
+		TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_3 = ___0_tensors;
+		NullCheck(L_3);
+		if ((((RuntimeArray*)L_3)->max_length))
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		G_B3_0 = 0;
+		goto IL_0018;
+	}
+
+IL_0010:
+	{
+		TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_4 = ___0_tensors;
+		NullCheck(L_4);
+		int32_t L_5 = 0;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_6 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_5));
+		NullCheck(L_6);
+		int32_t L_7;
+		L_7 = Tensor_get_dataType_m57109C88C5386735035BB4066BAACD68228C3AB1(L_6, NULL);
+		G_B3_0 = ((int32_t)(L_7));
+	}
+
+IL_0018:
+	{
+		V_1 = G_B3_0;
+		int32_t L_8 = V_1;
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_9 = V_0;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_10;
+		L_10 = ReferenceCPUOps_NewTensor_m74008D9C77785A62165EBEF61281FBB9CB42DAAF(__this, L_8, L_9, NULL);
+		V_2 = L_10;
+		TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_11 = ___0_tensors;
+		NullCheck(L_11);
+		if ((uintptr_t)((uintptr_t)((int32_t)(((RuntimeArray*)L_11)->max_length))) * (uintptr_t)8 > (uintptr_t)kIl2CppUIntPtrMax)
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_overflow_exception(), ReferenceCPUOps_Concat_mF5E102F6C04B89D9F47075978AB44D212F85FC11_RuntimeMethod_var);
+		intptr_t L_12 = ((intptr_t)il2cpp_codegen_multiply((intptr_t)((uintptr_t)((int32_t)(((RuntimeArray*)L_11)->max_length))), 8));
+		int8_t* L_13 = (int8_t*) (L_12 ? alloca(L_12) : NULL);
+		memset(L_13, 0, L_12);
+		V_3 = (int64_t*)(L_13);
+		int64_t* L_14 = V_3;
+		TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_15 = ___0_tensors;
+		NullCheck(L_15);
+		il2cpp_codegen_runtime_class_init_inline(Marshal_tD976A56A90263C3CE2B780D4B1CADADE2E70B4A7_il2cpp_TypeInfo_var);
+		int32_t L_16;
+		L_16 = Marshal_SizeOf_TisInt64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_m4E05DA55D87CA8C80EABA53ECB8511113C81442F(Marshal_SizeOf_TisInt64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_m4E05DA55D87CA8C80EABA53ECB8511113C81442F_RuntimeMethod_var);
+		UnsafeUtility_MemClear_m6C4377117084A11A667A567BC2F5E606A632A7C1((void*)L_14, ((int64_t)((int32_t)il2cpp_codegen_multiply(((int32_t)(((RuntimeArray*)L_15)->max_length)), L_16))), NULL);
+		TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_17 = ___0_tensors;
+		NullCheck(L_17);
+		if ((uintptr_t)((uintptr_t)((int32_t)(((RuntimeArray*)L_17)->max_length))) * (uintptr_t)8 > (uintptr_t)kIl2CppUIntPtrMax)
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_overflow_exception(), ReferenceCPUOps_Concat_mF5E102F6C04B89D9F47075978AB44D212F85FC11_RuntimeMethod_var);
+		intptr_t L_18 = ((intptr_t)il2cpp_codegen_multiply((intptr_t)((uintptr_t)((int32_t)(((RuntimeArray*)L_17)->max_length))), 8));
+		int8_t* L_19 = (int8_t*) (L_18 ? alloca(L_18) : NULL);
+		memset(L_19, 0, L_18);
+		V_4 = (int64_t*)(L_19);
+		V_9 = 0;
+		goto IL_007e;
+	}
+
+IL_004c:
+	{
+		int64_t* L_20 = V_4;
+		int32_t L_21 = V_9;
+		TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_22 = ___0_tensors;
+		int32_t L_23 = V_9;
+		NullCheck(L_22);
+		int32_t L_24 = L_23;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_25 = (L_22)->GetAt(static_cast<il2cpp_array_size_t>(L_24));
+		NullCheck(L_25);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_26;
+		L_26 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_25, NULL);
+		TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_27 = ___0_tensors;
+		int32_t L_28 = V_9;
+		NullCheck(L_27);
+		int32_t L_29 = L_28;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_30 = (L_27)->GetAt(static_cast<il2cpp_array_size_t>(L_29));
+		NullCheck(L_30);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_31;
+		L_31 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_30, NULL);
+		V_10 = L_31;
+		int32_t L_32 = ___1_axis;
+		int32_t L_33;
+		L_33 = TensorShape_Axis_m9540333825C44D41F1A057AFCD2248193A1EA1D7((&V_10), L_32, NULL);
+		int64_t L_34;
+		L_34 = ReferenceCPUOps_GetAggregatedDimLength_mFC6A2CF70A4D19E8E3ED72B7CE6A5AD20F325BD8(__this, L_26, L_33, 8, NULL);
+		*((int64_t*)((int64_t*)il2cpp_codegen_add((intptr_t)L_20, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_21), 8))))) = (int64_t)L_34;
+		int32_t L_35 = V_9;
+		V_9 = ((int32_t)il2cpp_codegen_add(L_35, 1));
+	}
+
+IL_007e:
+	{
+		int32_t L_36 = V_9;
+		TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_37 = ___0_tensors;
+		NullCheck(L_37);
+		V_11 = (bool)((((int32_t)L_36) < ((int32_t)((int32_t)(((RuntimeArray*)L_37)->max_length))))? 1 : 0);
+		bool L_38 = V_11;
+		if (L_38)
+		{
+			goto IL_004c;
+		}
+	}
+	{
+		V_5 = 0;
+		int32_t L_39;
+		L_39 = TensorShape_get_length_m42D935AC99F95A1C8DE6B04AEC4DB9C96EDE7608((&V_0), NULL);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_40 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)L_39);
+		V_6 = L_40;
+		int32_t L_41 = V_5;
+		V_7 = ((int64_t)L_41);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_42 = V_0;
+		int32_t L_43 = ___1_axis;
+		int32_t L_44;
+		L_44 = TensorShape_Axis_m9540333825C44D41F1A057AFCD2248193A1EA1D7((&V_0), L_43, NULL);
+		int64_t L_45;
+		L_45 = ReferenceCPUOps_GetAggregatedDimLength_mFC6A2CF70A4D19E8E3ED72B7CE6A5AD20F325BD8(__this, L_42, 0, L_44, NULL);
+		V_8 = L_45;
+		V_12 = 0;
+		goto IL_0114;
+	}
+
+IL_00b8:
+	{
+		V_13 = 0;
+		goto IL_0101;
+	}
+
+IL_00bd:
+	{
+		int64_t* L_46 = V_4;
+		int32_t L_47 = V_13;
+		int64_t L_48 = *((int64_t*)((int64_t*)il2cpp_codegen_add((intptr_t)L_46, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_47), 8)))));
+		V_14 = L_48;
+		TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_49 = ___0_tensors;
+		int32_t L_50 = V_13;
+		NullCheck(L_49);
+		int32_t L_51 = L_50;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_52 = (L_49)->GetAt(static_cast<il2cpp_array_size_t>(L_51));
+		NullCheck(L_52);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_53;
+		L_53 = Tensor_ToReadOnlyArray_mDCBBEF11F36C4B4D0B2F994C5648EA822A759D2A(L_52, NULL);
+		int64_t* L_54 = V_3;
+		int32_t L_55 = V_13;
+		int64_t L_56 = *((int64_t*)((int64_t*)il2cpp_codegen_add((intptr_t)L_54, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_55), 8)))));
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_57 = V_6;
+		int64_t L_58 = V_7;
+		int64_t L_59 = V_14;
+		Array_Copy_m4C8D50AF6A1886B553D019FDE15A1F03D145B8F0((RuntimeArray*)L_53, L_56, (RuntimeArray*)L_57, L_58, L_59, NULL);
+		int64_t* L_60 = V_3;
+		int32_t L_61 = V_13;
+		int64_t* L_62 = ((int64_t*)il2cpp_codegen_add((intptr_t)L_60, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_61), 8))));
+		int64_t L_63 = *((int64_t*)L_62);
+		int64_t L_64 = V_14;
+		*((int64_t*)L_62) = (int64_t)((int64_t)il2cpp_codegen_add(L_63, L_64));
+		int64_t L_65 = V_7;
+		int64_t L_66 = V_14;
+		V_7 = ((int64_t)il2cpp_codegen_add(L_65, L_66));
+		int32_t L_67 = V_13;
+		V_13 = ((int32_t)il2cpp_codegen_add(L_67, 1));
+	}
+
+IL_0101:
+	{
+		int32_t L_68 = V_13;
+		TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_69 = ___0_tensors;
+		NullCheck(L_69);
+		V_15 = (bool)((((int32_t)L_68) < ((int32_t)((int32_t)(((RuntimeArray*)L_69)->max_length))))? 1 : 0);
+		bool L_70 = V_15;
+		if (L_70)
+		{
+			goto IL_00bd;
+		}
+	}
+	{
+		int32_t L_71 = V_12;
+		V_12 = ((int32_t)il2cpp_codegen_add(L_71, 1));
+	}
+
+IL_0114:
+	{
+		int32_t L_72 = V_12;
+		int64_t L_73 = V_8;
+		V_16 = (bool)((((int64_t)((int64_t)L_72)) < ((int64_t)L_73))? 1 : 0);
+		bool L_74 = V_16;
+		if (L_74)
+		{
+			goto IL_00b8;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_75 = V_2;
+		NullCheck(L_75);
+		RuntimeObject* L_76;
+		L_76 = Tensor_get_data_m02BB8F7F1185C6AF1A8192A63DFBD7CF29B3B59A(L_75, NULL);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_77 = V_6;
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_78 = V_0;
+		NullCheck(L_76);
+		InterfaceActionInvoker3< SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*, TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3, int32_t >::Invoke(1, ITensorData_t3A6F17AB959FF04A40F1CAF3FE450AA42855F8A2_il2cpp_TypeInfo_var, L_76, L_77, L_78, 0);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_79 = V_2;
+		V_17 = L_79;
+		goto IL_0137;
+	}
+
+IL_0137:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_80 = V_17;
+		return L_80;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_StridedSlice_m36E2A848556CFA62A8444DCD1979468A34BD8874 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___1_starts4Dor8D, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___2_ends4Dor8D, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___3_strides4Dor8D, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t* V_0 = NULL;
+	int32_t* V_1 = NULL;
+	int32_t* V_2 = NULL;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_3 = NULL;
+	int32_t* V_4 = NULL;
+	int32_t V_5 = 0;
+	TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 V_6;
+	memset((&V_6), 0, sizeof(V_6));
+	bool V_7 = false;
+	TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 V_8;
+	memset((&V_8), 0, sizeof(V_8));
+	bool V_9 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_10 = NULL;
+	{
+		uintptr_t L_0 = ((uintptr_t)((int32_t)32));
+		int8_t* L_1 = (int8_t*) (L_0 ? alloca(L_0) : NULL);
+		memset(L_1, 0, L_0);
+		V_0 = (int32_t*)(L_1);
+		uintptr_t L_2 = ((uintptr_t)((int32_t)32));
+		int8_t* L_3 = (int8_t*) (L_2 ? alloca(L_2) : NULL);
+		memset(L_3, 0, L_2);
+		V_1 = (int32_t*)(L_3);
+		uintptr_t L_4 = ((uintptr_t)((int32_t)32));
+		int8_t* L_5 = (int8_t*) (L_4 ? alloca(L_4) : NULL);
+		memset(L_5, 0, L_4);
+		V_2 = (int32_t*)(L_5);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_6 = ___0_X;
+		NullCheck(L_6);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_7;
+		L_7 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_6, NULL);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_8 = ___1_starts4Dor8D;
+		int32_t* L_9 = V_0;
+		TensorExtensions_Get8DParametersNoAlloc_m8BABE0CC703EED646CB20B460C69C30E81C1FBED(L_7, L_8, L_9, 0, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_10 = ___0_X;
+		NullCheck(L_10);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_11;
+		L_11 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_10, NULL);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_12 = ___2_ends4Dor8D;
+		int32_t* L_13 = V_1;
+		TensorExtensions_Get8DParametersNoAlloc_m8BABE0CC703EED646CB20B460C69C30E81C1FBED(L_11, L_12, L_13, 1, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_14 = ___0_X;
+		NullCheck(L_14);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_15;
+		L_15 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_14, NULL);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_16 = ___3_strides4Dor8D;
+		int32_t* L_17 = V_2;
+		TensorExtensions_Get8DParametersNoAlloc_m8BABE0CC703EED646CB20B460C69C30E81C1FBED(L_15, L_16, L_17, 1, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_18 = ___0_X;
+		NullCheck(L_18);
+		int32_t L_19;
+		L_19 = Tensor_get_dataType_m57109C88C5386735035BB4066BAACD68228C3AB1(L_18, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_20 = ___0_X;
+		NullCheck(L_20);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_21;
+		L_21 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_20, NULL);
+		int32_t* L_22 = V_0;
+		int32_t* L_23 = V_1;
+		int32_t* L_24 = V_2;
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_25;
+		L_25 = TensorExtensions_ApplyStridedSlice8DUnsafeNoAlloc_mB133DE734B3023D4D5B5C9B6E5290634EF6BC90A(L_21, L_22, L_23, L_24, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_26;
+		L_26 = ReferenceCPUOps_NewTensor_m74008D9C77785A62165EBEF61281FBB9CB42DAAF(__this, L_19, L_25, NULL);
+		V_3 = L_26;
+		int32_t* L_27 = V_1;
+		V_4 = L_27;
+		V_5 = 0;
+		goto IL_00aa;
+	}
+
+IL_0065:
+	{
+		int32_t* L_28 = V_4;
+		int32_t L_29 = V_5;
+		int32_t* L_30 = V_0;
+		int32_t L_31 = V_5;
+		int32_t L_32 = *((int32_t*)((int32_t*)il2cpp_codegen_add((intptr_t)L_30, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_31), 4)))));
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_33 = ___0_X;
+		NullCheck(L_33);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_34;
+		L_34 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_33, NULL);
+		V_6 = L_34;
+		int32_t L_35 = V_5;
+		int32_t L_36;
+		L_36 = TensorShape_get_Item_m046FF56D8906EA7CD9D33486F778EBBCE949B33E((&V_6), L_35, NULL);
+		int32_t L_37;
+		L_37 = TensorExtensions_WrapIndex_m2CB48399E65FC2F88306940433EF6E260F9A31F5(L_32, L_36, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_38 = ___0_X;
+		NullCheck(L_38);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_39;
+		L_39 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_38, NULL);
+		V_6 = L_39;
+		int32_t L_40 = V_5;
+		int32_t L_41;
+		L_41 = TensorShape_get_Item_m046FF56D8906EA7CD9D33486F778EBBCE949B33E((&V_6), L_40, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		int32_t L_42;
+		L_42 = Math_Min_m53C488772A34D53917BCA2A491E79A0A5356ED52(L_37, ((int32_t)il2cpp_codegen_subtract(L_41, 1)), NULL);
+		*((int32_t*)((int32_t*)il2cpp_codegen_add((intptr_t)L_28, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_29), 4))))) = (int32_t)L_42;
+		int32_t L_43 = V_5;
+		V_5 = ((int32_t)il2cpp_codegen_add(L_43, 1));
+	}
+
+IL_00aa:
+	{
+		int32_t L_44 = V_5;
+		V_7 = (bool)((((int32_t)L_44) < ((int32_t)8))? 1 : 0);
+		bool L_45 = V_7;
+		if (L_45)
+		{
+			goto IL_0065;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_AreEqual_m718BB4BD31FA3176A3A236F96BC5405EB750D6CF(8, 8, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_46 = V_3;
+		TensorIterator__ctor_m6319470FAD9BD9F476FBCF1BB5B62700D21A0CD9((&V_8), L_46, 0, NULL);
+		goto IL_0199;
+	}
+
+IL_00cb:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_47 = V_3;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_48 = V_8;
+		int32_t L_49 = L_48.___index;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_50 = ___0_X;
+		int32_t* L_51 = V_4;
+		int32_t L_52 = *((int32_t*)L_51);
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_53 = V_8;
+		int32_t L_54 = L_53.___d0;
+		int32_t* L_55 = V_2;
+		int32_t L_56 = *((int32_t*)L_55);
+		int32_t* L_57 = V_4;
+		int32_t L_58 = *((int32_t*)((int32_t*)il2cpp_codegen_add((intptr_t)L_57, 4)));
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_59 = V_8;
+		int32_t L_60 = L_59.___d1;
+		int32_t* L_61 = V_2;
+		int32_t L_62 = *((int32_t*)((int32_t*)il2cpp_codegen_add((intptr_t)L_61, 4)));
+		int32_t* L_63 = V_4;
+		int32_t L_64 = *((int32_t*)((int32_t*)il2cpp_codegen_add((intptr_t)L_63, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), 4)))));
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_65 = V_8;
+		int32_t L_66 = L_65.___d2;
+		int32_t* L_67 = V_2;
+		int32_t L_68 = *((int32_t*)((int32_t*)il2cpp_codegen_add((intptr_t)L_67, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)2), 4)))));
+		int32_t* L_69 = V_4;
+		int32_t L_70 = *((int32_t*)((int32_t*)il2cpp_codegen_add((intptr_t)L_69, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)3), 4)))));
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_71 = V_8;
+		int32_t L_72 = L_71.___d3;
+		int32_t* L_73 = V_2;
+		int32_t L_74 = *((int32_t*)((int32_t*)il2cpp_codegen_add((intptr_t)L_73, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)3), 4)))));
+		int32_t* L_75 = V_4;
+		int32_t L_76 = *((int32_t*)((int32_t*)il2cpp_codegen_add((intptr_t)L_75, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)4), 4)))));
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_77 = V_8;
+		int32_t L_78 = L_77.___d4;
+		int32_t* L_79 = V_2;
+		int32_t L_80 = *((int32_t*)((int32_t*)il2cpp_codegen_add((intptr_t)L_79, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)4), 4)))));
+		int32_t* L_81 = V_4;
+		int32_t L_82 = *((int32_t*)((int32_t*)il2cpp_codegen_add((intptr_t)L_81, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)5), 4)))));
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_83 = V_8;
+		int32_t L_84 = L_83.___d5;
+		int32_t* L_85 = V_2;
+		int32_t L_86 = *((int32_t*)((int32_t*)il2cpp_codegen_add((intptr_t)L_85, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)5), 4)))));
+		int32_t* L_87 = V_4;
+		int32_t L_88 = *((int32_t*)((int32_t*)il2cpp_codegen_add((intptr_t)L_87, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)6), 4)))));
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_89 = V_8;
+		int32_t L_90 = L_89.___d6;
+		int32_t* L_91 = V_2;
+		int32_t L_92 = *((int32_t*)((int32_t*)il2cpp_codegen_add((intptr_t)L_91, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)6), 4)))));
+		int32_t* L_93 = V_4;
+		int32_t L_94 = *((int32_t*)((int32_t*)il2cpp_codegen_add((intptr_t)L_93, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)7), 4)))));
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_95 = V_8;
+		int32_t L_96 = L_95.___d7;
+		int32_t* L_97 = V_2;
+		int32_t L_98 = *((int32_t*)((int32_t*)il2cpp_codegen_add((intptr_t)L_97, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)7), 4)))));
+		NullCheck(L_50);
+		float L_99;
+		L_99 = Tensor_get_Item_mEC07898861EE98ED01A447281200D4F26CEDA1A9(L_50, ((int32_t)il2cpp_codegen_add(L_52, ((int32_t)il2cpp_codegen_multiply(L_54, L_56)))), ((int32_t)il2cpp_codegen_add(L_58, ((int32_t)il2cpp_codegen_multiply(L_60, L_62)))), ((int32_t)il2cpp_codegen_add(L_64, ((int32_t)il2cpp_codegen_multiply(L_66, L_68)))), ((int32_t)il2cpp_codegen_add(L_70, ((int32_t)il2cpp_codegen_multiply(L_72, L_74)))), ((int32_t)il2cpp_codegen_add(L_76, ((int32_t)il2cpp_codegen_multiply(L_78, L_80)))), ((int32_t)il2cpp_codegen_add(L_82, ((int32_t)il2cpp_codegen_multiply(L_84, L_86)))), ((int32_t)il2cpp_codegen_add(L_88, ((int32_t)il2cpp_codegen_multiply(L_90, L_92)))), ((int32_t)il2cpp_codegen_add(L_94, ((int32_t)il2cpp_codegen_multiply(L_96, L_98)))), NULL);
+		NullCheck(L_47);
+		Tensor_set_Item_m825AF5D1FC078421906298C6662565DF5C64817E(L_47, L_49, L_99, NULL);
+		TensorIterator_Next_m3BBE90015F10C99DBD4317583E5C8696E45865B1((&V_8), NULL);
+	}
+
+IL_0199:
+	{
+		bool L_100;
+		L_100 = TensorIterator_IsValid_m35EB0AC3E815407848AFD55F95B88BF0093CC7A5((&V_8), NULL);
+		V_9 = L_100;
+		bool L_101 = V_9;
+		if (L_101)
+		{
+			goto IL_00cb;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_102 = V_3;
+		V_10 = L_102;
+		goto IL_01ae;
+	}
+
+IL_01ae:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_103 = V_10;
+		return L_103;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_Tile_m3042A060A796DEEBC610ECD2657F59701EDC87CD (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___1_repeats, const RuntimeMethod* method) 
+{
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_0 = NULL;
+	TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	bool V_3 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_4 = NULL;
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_0 = ___0_X;
+		NullCheck(L_0);
+		int32_t L_1;
+		L_1 = Tensor_get_dataType_m57109C88C5386735035BB4066BAACD68228C3AB1(L_0, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_2 = ___0_X;
+		NullCheck(L_2);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_3;
+		L_3 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_2, NULL);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_4 = ___1_repeats;
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_5;
+		L_5 = TensorExtensions_Scale_m7FD866CB7B971A1BB0E281E211C7F41AB781F73A(L_3, L_4, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_6;
+		L_6 = ReferenceCPUOps_NewTensor_m74008D9C77785A62165EBEF61281FBB9CB42DAAF(__this, L_1, L_5, NULL);
+		V_0 = L_6;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_7 = V_0;
+		TensorIterator__ctor_m6319470FAD9BD9F476FBCF1BB5B62700D21A0CD9((&V_1), L_7, 0, NULL);
+		goto IL_00f5;
+	}
+
+IL_0028:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_8 = V_0;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_9 = V_1;
+		int32_t L_10 = L_9.___index;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_11 = ___0_X;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_12 = V_1;
+		int32_t L_13 = L_12.___d0;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_14 = ___0_X;
+		NullCheck(L_14);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_15;
+		L_15 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_14, NULL);
+		V_2 = L_15;
+		int32_t L_16;
+		L_16 = TensorShape_get_Item_m046FF56D8906EA7CD9D33486F778EBBCE949B33E((&V_2), 0, NULL);
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_17 = V_1;
+		int32_t L_18 = L_17.___d1;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_19 = ___0_X;
+		NullCheck(L_19);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_20;
+		L_20 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_19, NULL);
+		V_2 = L_20;
+		int32_t L_21;
+		L_21 = TensorShape_get_Item_m046FF56D8906EA7CD9D33486F778EBBCE949B33E((&V_2), 1, NULL);
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_22 = V_1;
+		int32_t L_23 = L_22.___d2;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_24 = ___0_X;
+		NullCheck(L_24);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_25;
+		L_25 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_24, NULL);
+		V_2 = L_25;
+		int32_t L_26;
+		L_26 = TensorShape_get_Item_m046FF56D8906EA7CD9D33486F778EBBCE949B33E((&V_2), 2, NULL);
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_27 = V_1;
+		int32_t L_28 = L_27.___d3;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_29 = ___0_X;
+		NullCheck(L_29);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_30;
+		L_30 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_29, NULL);
+		V_2 = L_30;
+		int32_t L_31;
+		L_31 = TensorShape_get_Item_m046FF56D8906EA7CD9D33486F778EBBCE949B33E((&V_2), 3, NULL);
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_32 = V_1;
+		int32_t L_33 = L_32.___d4;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_34 = ___0_X;
+		NullCheck(L_34);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_35;
+		L_35 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_34, NULL);
+		V_2 = L_35;
+		int32_t L_36;
+		L_36 = TensorShape_get_Item_m046FF56D8906EA7CD9D33486F778EBBCE949B33E((&V_2), 4, NULL);
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_37 = V_1;
+		int32_t L_38 = L_37.___d5;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_39 = ___0_X;
+		NullCheck(L_39);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_40;
+		L_40 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_39, NULL);
+		V_2 = L_40;
+		int32_t L_41;
+		L_41 = TensorShape_get_Item_m046FF56D8906EA7CD9D33486F778EBBCE949B33E((&V_2), 5, NULL);
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_42 = V_1;
+		int32_t L_43 = L_42.___d6;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_44 = ___0_X;
+		NullCheck(L_44);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_45;
+		L_45 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_44, NULL);
+		V_2 = L_45;
+		int32_t L_46;
+		L_46 = TensorShape_get_Item_m046FF56D8906EA7CD9D33486F778EBBCE949B33E((&V_2), 6, NULL);
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_47 = V_1;
+		int32_t L_48 = L_47.___d7;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_49 = ___0_X;
+		NullCheck(L_49);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_50;
+		L_50 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_49, NULL);
+		V_2 = L_50;
+		int32_t L_51;
+		L_51 = TensorShape_get_Item_m046FF56D8906EA7CD9D33486F778EBBCE949B33E((&V_2), 7, NULL);
+		NullCheck(L_11);
+		float L_52;
+		L_52 = Tensor_get_Item_mEC07898861EE98ED01A447281200D4F26CEDA1A9(L_11, ((int32_t)(L_13%L_16)), ((int32_t)(L_18%L_21)), ((int32_t)(L_23%L_26)), ((int32_t)(L_28%L_31)), ((int32_t)(L_33%L_36)), ((int32_t)(L_38%L_41)), ((int32_t)(L_43%L_46)), ((int32_t)(L_48%L_51)), NULL);
+		NullCheck(L_8);
+		Tensor_set_Item_m825AF5D1FC078421906298C6662565DF5C64817E(L_8, L_10, L_52, NULL);
+		TensorIterator_Next_m3BBE90015F10C99DBD4317583E5C8696E45865B1((&V_1), NULL);
+	}
+
+IL_00f5:
+	{
+		bool L_53;
+		L_53 = TensorIterator_IsValid_m35EB0AC3E815407848AFD55F95B88BF0093CC7A5((&V_1), NULL);
+		V_3 = L_53;
+		bool L_54 = V_3;
+		if (L_54)
+		{
+			goto IL_0028;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_55 = V_0;
+		V_4 = L_55;
+		goto IL_0108;
+	}
+
+IL_0108:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_56 = V_4;
+		return L_56;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_ConstantOfShape_m72B03B1F0B4527CF51955148D626F9EFFA27FC3A (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 ___0_X, int32_t ___1_type, float ___2_value, const RuntimeMethod* method) 
+{
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_0 = NULL;
+	int32_t V_1 = 0;
+	bool V_2 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_3 = NULL;
+	{
+		int32_t L_0 = ___1_type;
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_1 = ___0_X;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_2;
+		L_2 = ReferenceCPUOps_NewTensor_m74008D9C77785A62165EBEF61281FBB9CB42DAAF(__this, L_0, L_1, NULL);
+		V_0 = L_2;
+		V_1 = 0;
+		goto IL_001b;
+	}
+
+IL_000e:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_3 = V_0;
+		int32_t L_4 = V_1;
+		float L_5 = ___2_value;
+		NullCheck(L_3);
+		Tensor_set_Item_m825AF5D1FC078421906298C6662565DF5C64817E(L_3, L_4, L_5, NULL);
+		int32_t L_6 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_6, 1));
+	}
+
+IL_001b:
+	{
+		int32_t L_7 = V_1;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_8 = V_0;
+		NullCheck(L_8);
+		int32_t L_9;
+		L_9 = Tensor_get_length_m35C7DA71ED506DB11C0626A040E8A182CA25D5CA(L_8, NULL);
+		V_2 = (bool)((((int32_t)L_7) < ((int32_t)L_9))? 1 : 0);
+		bool L_10 = V_2;
+		if (L_10)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_11 = V_0;
+		V_3 = L_11;
+		goto IL_002c;
+	}
+
+IL_002c:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_12 = V_3;
+		return L_12;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_Shape_mA0B2C93A9B0D7250A395DD38438346239240BB07 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, int32_t ___1_axis, const RuntimeMethod* method) 
+{
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* V_0 = NULL;
+	int32_t V_1 = 0;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_2 = NULL;
+	TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	bool V_4 = false;
+	int32_t V_5 = 0;
+	bool V_6 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_7 = NULL;
+	int32_t G_B3_0 = 0;
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_0 = ___0_X;
+		NullCheck(L_0);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_1;
+		L_1 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_0, NULL);
+		V_3 = L_1;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_2;
+		L_2 = TensorShape_ToArray_m6F504949F53EAB92C210A4B52F7F53BE104E8637((&V_3), NULL);
+		V_0 = L_2;
+		int32_t L_3 = ___1_axis;
+		if ((((int32_t)L_3) > ((int32_t)0)))
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_4 = V_0;
+		NullCheck(L_4);
+		G_B3_0 = ((int32_t)(((RuntimeArray*)L_4)->max_length));
+		goto IL_001a;
+	}
+
+IL_0019:
+	{
+		G_B3_0 = 1;
+	}
+
+IL_001a:
+	{
+		V_1 = G_B3_0;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_5 = ___0_X;
+		NullCheck(L_5);
+		int32_t L_6;
+		L_6 = Tensor_get_dataType_m57109C88C5386735035BB4066BAACD68228C3AB1(L_5, NULL);
+		int32_t L_7 = V_1;
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_8;
+		memset((&L_8), 0, sizeof(L_8));
+		TensorShape__ctor_m0318587E59DA4D042BBC786E5B6CF255C773FA57((&L_8), L_7, 1, 1, 1, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_9;
+		L_9 = ReferenceCPUOps_NewTensor_m74008D9C77785A62165EBEF61281FBB9CB42DAAF(__this, L_6, L_8, NULL);
+		V_2 = L_9;
+		int32_t L_10 = ___1_axis;
+		V_4 = (bool)((((int32_t)L_10) > ((int32_t)0))? 1 : 0);
+		bool L_11 = V_4;
+		if (!L_11)
+		{
+			goto IL_004b;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_12 = V_2;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_13 = V_0;
+		int32_t L_14 = ___1_axis;
+		NullCheck(L_13);
+		int32_t L_15 = L_14;
+		int32_t L_16 = (L_13)->GetAt(static_cast<il2cpp_array_size_t>(L_15));
+		NullCheck(L_12);
+		Tensor_set_Item_m825AF5D1FC078421906298C6662565DF5C64817E(L_12, 0, ((float)L_16), NULL);
+		goto IL_0075;
+	}
+
+IL_004b:
+	{
+		V_5 = 0;
+		goto IL_0067;
+	}
+
+IL_0051:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_17 = V_2;
+		int32_t L_18 = V_5;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_19 = V_0;
+		int32_t L_20 = V_5;
+		NullCheck(L_19);
+		int32_t L_21 = L_20;
+		int32_t L_22 = (L_19)->GetAt(static_cast<il2cpp_array_size_t>(L_21));
+		NullCheck(L_17);
+		Tensor_set_Item_m825AF5D1FC078421906298C6662565DF5C64817E(L_17, L_18, ((float)L_22), NULL);
+		int32_t L_23 = V_5;
+		V_5 = ((int32_t)il2cpp_codegen_add(L_23, 1));
+	}
+
+IL_0067:
+	{
+		int32_t L_24 = V_5;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_25 = V_0;
+		NullCheck(L_25);
+		V_6 = (bool)((((int32_t)L_24) < ((int32_t)((int32_t)(((RuntimeArray*)L_25)->max_length))))? 1 : 0);
+		bool L_26 = V_6;
+		if (L_26)
+		{
+			goto IL_0051;
+		}
+	}
+	{
+	}
+
+IL_0075:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_27 = V_2;
+		V_7 = L_27;
+		goto IL_007a;
+	}
+
+IL_007a:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_28 = V_7;
+		return L_28;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_ApplyElementwiseWithBroadcast_mDE4B2864B1CCDAF5C25F38D03EDD3B2F2EB6A0B0 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* ___0_tensors, Func_3_t112E81BD9C60E0186076895800369606BCF590FB* ___1_operation, const RuntimeMethod* method) 
+{
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_0 = NULL;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_1 = NULL;
+	int32_t V_2 = 0;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_3 = NULL;
+	TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	float V_5 = 0.0f;
+	float V_6 = 0.0f;
+	bool V_7 = false;
+	bool V_8 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_9 = NULL;
+	{
+		TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_0 = ___0_tensors;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_1;
+		L_1 = ReferenceCPUOps_NewTensorLike_m2AC23001C620780970864EAB7BC88B7AD650C1D1(__this, L_0, 0, (bool)0, NULL);
+		V_0 = L_1;
+		TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_2 = ___0_tensors;
+		NullCheck(L_2);
+		int32_t L_3 = 0;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_4 = (L_2)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
+		V_1 = L_4;
+		V_2 = 1;
+		goto IL_00f3;
+	}
+
+IL_0016:
+	{
+		TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_5 = ___0_tensors;
+		int32_t L_6 = V_2;
+		NullCheck(L_5);
+		int32_t L_7 = L_6;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_8 = (L_5)->GetAt(static_cast<il2cpp_array_size_t>(L_7));
+		V_3 = L_8;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_9 = V_0;
+		NullCheck(L_9);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_10;
+		L_10 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_9, NULL);
+		TensorIterator__ctor_m155A791924246F4E780FA39C05FA2E78AE8DDFAC((&V_4), L_10, 0, NULL);
+		goto IL_00dc;
+	}
+
+IL_002e:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_11 = V_1;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_12 = V_1;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_13 = V_4;
+		int32_t L_14 = L_13.___d0;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_15 = V_4;
+		int32_t L_16 = L_15.___d1;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_17 = V_4;
+		int32_t L_18 = L_17.___d2;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_19 = V_4;
+		int32_t L_20 = L_19.___d3;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_21 = V_4;
+		int32_t L_22 = L_21.___d4;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_23 = V_4;
+		int32_t L_24 = L_23.___d5;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_25 = V_4;
+		int32_t L_26 = L_25.___d6;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_27 = V_4;
+		int32_t L_28 = L_27.___d7;
+		NullCheck(L_12);
+		int32_t L_29;
+		L_29 = Tensor_IndexWithBroadcast_m143CB5EAE64D94906777F9CA075F1FF0F83C5154(L_12, L_14, L_16, L_18, L_20, L_22, L_24, L_26, L_28, NULL);
+		NullCheck(L_11);
+		float L_30;
+		L_30 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_11, L_29, NULL);
+		V_5 = L_30;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_31 = V_3;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_32 = V_3;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_33 = V_4;
+		int32_t L_34 = L_33.___d0;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_35 = V_4;
+		int32_t L_36 = L_35.___d1;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_37 = V_4;
+		int32_t L_38 = L_37.___d2;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_39 = V_4;
+		int32_t L_40 = L_39.___d3;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_41 = V_4;
+		int32_t L_42 = L_41.___d4;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_43 = V_4;
+		int32_t L_44 = L_43.___d5;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_45 = V_4;
+		int32_t L_46 = L_45.___d6;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_47 = V_4;
+		int32_t L_48 = L_47.___d7;
+		NullCheck(L_32);
+		int32_t L_49;
+		L_49 = Tensor_IndexWithBroadcast_m143CB5EAE64D94906777F9CA075F1FF0F83C5154(L_32, L_34, L_36, L_38, L_40, L_42, L_44, L_46, L_48, NULL);
+		NullCheck(L_31);
+		float L_50;
+		L_50 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_31, L_49, NULL);
+		V_6 = L_50;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_51 = V_0;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_52 = V_4;
+		int32_t L_53 = L_52.___index;
+		Func_3_t112E81BD9C60E0186076895800369606BCF590FB* L_54 = ___1_operation;
+		float L_55 = V_5;
+		float L_56 = V_6;
+		NullCheck(L_54);
+		float L_57;
+		L_57 = Func_3_Invoke_mC8193F9BE436AD10B0F1279771862679CB5813AD_inline(L_54, L_55, L_56, NULL);
+		NullCheck(L_51);
+		Tensor_set_Item_m825AF5D1FC078421906298C6662565DF5C64817E(L_51, L_53, L_57, NULL);
+		TensorIterator_Next_m3BBE90015F10C99DBD4317583E5C8696E45865B1((&V_4), NULL);
+	}
+
+IL_00dc:
+	{
+		bool L_58;
+		L_58 = TensorIterator_IsValid_m35EB0AC3E815407848AFD55F95B88BF0093CC7A5((&V_4), NULL);
+		V_7 = L_58;
+		bool L_59 = V_7;
+		if (L_59)
+		{
+			goto IL_002e;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_60 = V_0;
+		V_1 = L_60;
+		int32_t L_61 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_61, 1));
+	}
+
+IL_00f3:
+	{
+		int32_t L_62 = V_2;
+		TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_63 = ___0_tensors;
+		NullCheck(L_63);
+		V_8 = (bool)((((int32_t)L_62) < ((int32_t)((int32_t)(((RuntimeArray*)L_63)->max_length))))? 1 : 0);
+		bool L_64 = V_8;
+		if (L_64)
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_65 = V_0;
+		V_9 = L_65;
+		goto IL_0107;
+	}
+
+IL_0107:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_66 = V_9;
+		return L_66;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_Add_m7E20D8BFCA5269B881CD8C677E6389F3C71E8044 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* ___0_tensors, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_3_t112E81BD9C60E0186076895800369606BCF590FB_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_U3CAddU3Eb__109_0_m9E16169437A4EB07F4DF747F6A2C11B9BE8E3345_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Func_3_t112E81BD9C60E0186076895800369606BCF590FB* V_0 = NULL;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_1 = NULL;
+	Func_3_t112E81BD9C60E0186076895800369606BCF590FB* G_B2_0 = NULL;
+	Func_3_t112E81BD9C60E0186076895800369606BCF590FB* G_B1_0 = NULL;
+	{
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var);
+		Func_3_t112E81BD9C60E0186076895800369606BCF590FB* L_0 = ((U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var))->___U3CU3E9__109_0;
+		Func_3_t112E81BD9C60E0186076895800369606BCF590FB* L_1 = L_0;
+		if (L_1)
+		{
+			G_B2_0 = L_1;
+			goto IL_0020;
+		}
+		G_B1_0 = L_1;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var);
+		U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3* L_2 = ((U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var))->___U3CU3E9;
+		Func_3_t112E81BD9C60E0186076895800369606BCF590FB* L_3 = (Func_3_t112E81BD9C60E0186076895800369606BCF590FB*)il2cpp_codegen_object_new(Func_3_t112E81BD9C60E0186076895800369606BCF590FB_il2cpp_TypeInfo_var);
+		Func_3__ctor_m5B9A75AB0F71A31F8F0F009E95D514DB82314D18(L_3, L_2, (intptr_t)((void*)U3CU3Ec_U3CAddU3Eb__109_0_m9E16169437A4EB07F4DF747F6A2C11B9BE8E3345_RuntimeMethod_var), NULL);
+		Func_3_t112E81BD9C60E0186076895800369606BCF590FB* L_4 = L_3;
+		((U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var))->___U3CU3E9__109_0 = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var))->___U3CU3E9__109_0), (void*)L_4);
+		G_B2_0 = L_4;
+	}
+
+IL_0020:
+	{
+		V_0 = G_B2_0;
+		TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_5 = ___0_tensors;
+		Func_3_t112E81BD9C60E0186076895800369606BCF590FB* L_6 = V_0;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_7;
+		L_7 = ReferenceCPUOps_ApplyElementwiseWithBroadcast_mDE4B2864B1CCDAF5C25F38D03EDD3B2F2EB6A0B0(__this, L_5, L_6, NULL);
+		V_1 = L_7;
+		goto IL_002c;
+	}
+
+IL_002c:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_8 = V_1;
+		return L_8;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_Sub_m9CA89DCB43FA325A28A344E39DD3C0B482EE56BD (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* ___0_tensors, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_3_t112E81BD9C60E0186076895800369606BCF590FB_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_U3CSubU3Eb__110_0_m4F1375BF5C959EE91FC9D68FA45F71C1FAE0719B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Func_3_t112E81BD9C60E0186076895800369606BCF590FB* V_0 = NULL;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_1 = NULL;
+	Func_3_t112E81BD9C60E0186076895800369606BCF590FB* G_B2_0 = NULL;
+	Func_3_t112E81BD9C60E0186076895800369606BCF590FB* G_B1_0 = NULL;
+	{
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var);
+		Func_3_t112E81BD9C60E0186076895800369606BCF590FB* L_0 = ((U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var))->___U3CU3E9__110_0;
+		Func_3_t112E81BD9C60E0186076895800369606BCF590FB* L_1 = L_0;
+		if (L_1)
+		{
+			G_B2_0 = L_1;
+			goto IL_0020;
+		}
+		G_B1_0 = L_1;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var);
+		U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3* L_2 = ((U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var))->___U3CU3E9;
+		Func_3_t112E81BD9C60E0186076895800369606BCF590FB* L_3 = (Func_3_t112E81BD9C60E0186076895800369606BCF590FB*)il2cpp_codegen_object_new(Func_3_t112E81BD9C60E0186076895800369606BCF590FB_il2cpp_TypeInfo_var);
+		Func_3__ctor_m5B9A75AB0F71A31F8F0F009E95D514DB82314D18(L_3, L_2, (intptr_t)((void*)U3CU3Ec_U3CSubU3Eb__110_0_m4F1375BF5C959EE91FC9D68FA45F71C1FAE0719B_RuntimeMethod_var), NULL);
+		Func_3_t112E81BD9C60E0186076895800369606BCF590FB* L_4 = L_3;
+		((U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var))->___U3CU3E9__110_0 = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var))->___U3CU3E9__110_0), (void*)L_4);
+		G_B2_0 = L_4;
+	}
+
+IL_0020:
+	{
+		V_0 = G_B2_0;
+		TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_5 = ___0_tensors;
+		Func_3_t112E81BD9C60E0186076895800369606BCF590FB* L_6 = V_0;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_7;
+		L_7 = ReferenceCPUOps_ApplyElementwiseWithBroadcast_mDE4B2864B1CCDAF5C25F38D03EDD3B2F2EB6A0B0(__this, L_5, L_6, NULL);
+		V_1 = L_7;
+		goto IL_002c;
+	}
+
+IL_002c:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_8 = V_1;
+		return L_8;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_Mul_mCBEF13680A4DB2BDF37E76F7D4A4AD82881D0A29 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* ___0_tensors, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_3_t112E81BD9C60E0186076895800369606BCF590FB_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_U3CMulU3Eb__111_0_m220D39F2780C8D6F9F9B6B89FEE630F1A7DBE324_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Func_3_t112E81BD9C60E0186076895800369606BCF590FB* V_0 = NULL;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_1 = NULL;
+	Func_3_t112E81BD9C60E0186076895800369606BCF590FB* G_B2_0 = NULL;
+	Func_3_t112E81BD9C60E0186076895800369606BCF590FB* G_B1_0 = NULL;
+	{
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var);
+		Func_3_t112E81BD9C60E0186076895800369606BCF590FB* L_0 = ((U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var))->___U3CU3E9__111_0;
+		Func_3_t112E81BD9C60E0186076895800369606BCF590FB* L_1 = L_0;
+		if (L_1)
+		{
+			G_B2_0 = L_1;
+			goto IL_0020;
+		}
+		G_B1_0 = L_1;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var);
+		U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3* L_2 = ((U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var))->___U3CU3E9;
+		Func_3_t112E81BD9C60E0186076895800369606BCF590FB* L_3 = (Func_3_t112E81BD9C60E0186076895800369606BCF590FB*)il2cpp_codegen_object_new(Func_3_t112E81BD9C60E0186076895800369606BCF590FB_il2cpp_TypeInfo_var);
+		Func_3__ctor_m5B9A75AB0F71A31F8F0F009E95D514DB82314D18(L_3, L_2, (intptr_t)((void*)U3CU3Ec_U3CMulU3Eb__111_0_m220D39F2780C8D6F9F9B6B89FEE630F1A7DBE324_RuntimeMethod_var), NULL);
+		Func_3_t112E81BD9C60E0186076895800369606BCF590FB* L_4 = L_3;
+		((U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var))->___U3CU3E9__111_0 = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var))->___U3CU3E9__111_0), (void*)L_4);
+		G_B2_0 = L_4;
+	}
+
+IL_0020:
+	{
+		V_0 = G_B2_0;
+		TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_5 = ___0_tensors;
+		Func_3_t112E81BD9C60E0186076895800369606BCF590FB* L_6 = V_0;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_7;
+		L_7 = ReferenceCPUOps_ApplyElementwiseWithBroadcast_mDE4B2864B1CCDAF5C25F38D03EDD3B2F2EB6A0B0(__this, L_5, L_6, NULL);
+		V_1 = L_7;
+		goto IL_002c;
+	}
+
+IL_002c:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_8 = V_1;
+		return L_8;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_Div_mBC6C9C293BA89993C528D4FF748317D6492801EB (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* ___0_tensors, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_3_t112E81BD9C60E0186076895800369606BCF590FB_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_U3CDivU3Eb__112_0_mED0A86B776C51B531A58A1D5752C58A0CC86CB54_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Func_3_t112E81BD9C60E0186076895800369606BCF590FB* V_0 = NULL;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_1 = NULL;
+	Func_3_t112E81BD9C60E0186076895800369606BCF590FB* G_B2_0 = NULL;
+	Func_3_t112E81BD9C60E0186076895800369606BCF590FB* G_B1_0 = NULL;
+	{
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var);
+		Func_3_t112E81BD9C60E0186076895800369606BCF590FB* L_0 = ((U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var))->___U3CU3E9__112_0;
+		Func_3_t112E81BD9C60E0186076895800369606BCF590FB* L_1 = L_0;
+		if (L_1)
+		{
+			G_B2_0 = L_1;
+			goto IL_0020;
+		}
+		G_B1_0 = L_1;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var);
+		U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3* L_2 = ((U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var))->___U3CU3E9;
+		Func_3_t112E81BD9C60E0186076895800369606BCF590FB* L_3 = (Func_3_t112E81BD9C60E0186076895800369606BCF590FB*)il2cpp_codegen_object_new(Func_3_t112E81BD9C60E0186076895800369606BCF590FB_il2cpp_TypeInfo_var);
+		Func_3__ctor_m5B9A75AB0F71A31F8F0F009E95D514DB82314D18(L_3, L_2, (intptr_t)((void*)U3CU3Ec_U3CDivU3Eb__112_0_mED0A86B776C51B531A58A1D5752C58A0CC86CB54_RuntimeMethod_var), NULL);
+		Func_3_t112E81BD9C60E0186076895800369606BCF590FB* L_4 = L_3;
+		((U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var))->___U3CU3E9__112_0 = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var))->___U3CU3E9__112_0), (void*)L_4);
+		G_B2_0 = L_4;
+	}
+
+IL_0020:
+	{
+		V_0 = G_B2_0;
+		TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_5 = ___0_tensors;
+		Func_3_t112E81BD9C60E0186076895800369606BCF590FB* L_6 = V_0;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_7;
+		L_7 = ReferenceCPUOps_ApplyElementwiseWithBroadcast_mDE4B2864B1CCDAF5C25F38D03EDD3B2F2EB6A0B0(__this, L_5, L_6, NULL);
+		V_1 = L_7;
+		goto IL_002c;
+	}
+
+IL_002c:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_8 = V_1;
+		return L_8;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_Pow_m8D6EBA259F5E4CDDC711E4E54B0E35306A973ECC (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* ___0_tensors, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_3_t112E81BD9C60E0186076895800369606BCF590FB_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_U3CPowU3Eb__113_0_mB668D0245CF8A948086A29F5360E96C53158F308_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Func_3_t112E81BD9C60E0186076895800369606BCF590FB* V_0 = NULL;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_1 = NULL;
+	Func_3_t112E81BD9C60E0186076895800369606BCF590FB* G_B2_0 = NULL;
+	Func_3_t112E81BD9C60E0186076895800369606BCF590FB* G_B1_0 = NULL;
+	{
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var);
+		Func_3_t112E81BD9C60E0186076895800369606BCF590FB* L_0 = ((U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var))->___U3CU3E9__113_0;
+		Func_3_t112E81BD9C60E0186076895800369606BCF590FB* L_1 = L_0;
+		if (L_1)
+		{
+			G_B2_0 = L_1;
+			goto IL_0020;
+		}
+		G_B1_0 = L_1;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var);
+		U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3* L_2 = ((U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var))->___U3CU3E9;
+		Func_3_t112E81BD9C60E0186076895800369606BCF590FB* L_3 = (Func_3_t112E81BD9C60E0186076895800369606BCF590FB*)il2cpp_codegen_object_new(Func_3_t112E81BD9C60E0186076895800369606BCF590FB_il2cpp_TypeInfo_var);
+		Func_3__ctor_m5B9A75AB0F71A31F8F0F009E95D514DB82314D18(L_3, L_2, (intptr_t)((void*)U3CU3Ec_U3CPowU3Eb__113_0_mB668D0245CF8A948086A29F5360E96C53158F308_RuntimeMethod_var), NULL);
+		Func_3_t112E81BD9C60E0186076895800369606BCF590FB* L_4 = L_3;
+		((U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var))->___U3CU3E9__113_0 = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var))->___U3CU3E9__113_0), (void*)L_4);
+		G_B2_0 = L_4;
+	}
+
+IL_0020:
+	{
+		V_0 = G_B2_0;
+		TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_5 = ___0_tensors;
+		Func_3_t112E81BD9C60E0186076895800369606BCF590FB* L_6 = V_0;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_7;
+		L_7 = ReferenceCPUOps_ApplyElementwiseWithBroadcast_mDE4B2864B1CCDAF5C25F38D03EDD3B2F2EB6A0B0(__this, L_5, L_6, NULL);
+		V_1 = L_7;
+		goto IL_002c;
+	}
+
+IL_002c:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_8 = V_1;
+		return L_8;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_Min_mA10514622D59DA380E252C5FC0BCD3B3591AE17D (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* ___0_tensors, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_3_t112E81BD9C60E0186076895800369606BCF590FB_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_U3CMinU3Eb__114_0_m128D39687CC4DFD5CFDD49BBFC96775DC562578D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Func_3_t112E81BD9C60E0186076895800369606BCF590FB* V_0 = NULL;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_1 = NULL;
+	Func_3_t112E81BD9C60E0186076895800369606BCF590FB* G_B2_0 = NULL;
+	Func_3_t112E81BD9C60E0186076895800369606BCF590FB* G_B1_0 = NULL;
+	{
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var);
+		Func_3_t112E81BD9C60E0186076895800369606BCF590FB* L_0 = ((U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var))->___U3CU3E9__114_0;
+		Func_3_t112E81BD9C60E0186076895800369606BCF590FB* L_1 = L_0;
+		if (L_1)
+		{
+			G_B2_0 = L_1;
+			goto IL_0020;
+		}
+		G_B1_0 = L_1;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var);
+		U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3* L_2 = ((U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var))->___U3CU3E9;
+		Func_3_t112E81BD9C60E0186076895800369606BCF590FB* L_3 = (Func_3_t112E81BD9C60E0186076895800369606BCF590FB*)il2cpp_codegen_object_new(Func_3_t112E81BD9C60E0186076895800369606BCF590FB_il2cpp_TypeInfo_var);
+		Func_3__ctor_m5B9A75AB0F71A31F8F0F009E95D514DB82314D18(L_3, L_2, (intptr_t)((void*)U3CU3Ec_U3CMinU3Eb__114_0_m128D39687CC4DFD5CFDD49BBFC96775DC562578D_RuntimeMethod_var), NULL);
+		Func_3_t112E81BD9C60E0186076895800369606BCF590FB* L_4 = L_3;
+		((U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var))->___U3CU3E9__114_0 = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var))->___U3CU3E9__114_0), (void*)L_4);
+		G_B2_0 = L_4;
+	}
+
+IL_0020:
+	{
+		V_0 = G_B2_0;
+		TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_5 = ___0_tensors;
+		Func_3_t112E81BD9C60E0186076895800369606BCF590FB* L_6 = V_0;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_7;
+		L_7 = ReferenceCPUOps_ApplyElementwiseWithBroadcast_mDE4B2864B1CCDAF5C25F38D03EDD3B2F2EB6A0B0(__this, L_5, L_6, NULL);
+		V_1 = L_7;
+		goto IL_002c;
+	}
+
+IL_002c:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_8 = V_1;
+		return L_8;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_Max_mFF458489F145E41FB903BE4C798EB77F09619320 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* ___0_tensors, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_3_t112E81BD9C60E0186076895800369606BCF590FB_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_U3CMaxU3Eb__115_0_m84DD44AEBD3FE2198EA835961019D4D07C0879E9_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Func_3_t112E81BD9C60E0186076895800369606BCF590FB* V_0 = NULL;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_1 = NULL;
+	Func_3_t112E81BD9C60E0186076895800369606BCF590FB* G_B2_0 = NULL;
+	Func_3_t112E81BD9C60E0186076895800369606BCF590FB* G_B1_0 = NULL;
+	{
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var);
+		Func_3_t112E81BD9C60E0186076895800369606BCF590FB* L_0 = ((U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var))->___U3CU3E9__115_0;
+		Func_3_t112E81BD9C60E0186076895800369606BCF590FB* L_1 = L_0;
+		if (L_1)
+		{
+			G_B2_0 = L_1;
+			goto IL_0020;
+		}
+		G_B1_0 = L_1;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var);
+		U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3* L_2 = ((U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var))->___U3CU3E9;
+		Func_3_t112E81BD9C60E0186076895800369606BCF590FB* L_3 = (Func_3_t112E81BD9C60E0186076895800369606BCF590FB*)il2cpp_codegen_object_new(Func_3_t112E81BD9C60E0186076895800369606BCF590FB_il2cpp_TypeInfo_var);
+		Func_3__ctor_m5B9A75AB0F71A31F8F0F009E95D514DB82314D18(L_3, L_2, (intptr_t)((void*)U3CU3Ec_U3CMaxU3Eb__115_0_m84DD44AEBD3FE2198EA835961019D4D07C0879E9_RuntimeMethod_var), NULL);
+		Func_3_t112E81BD9C60E0186076895800369606BCF590FB* L_4 = L_3;
+		((U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var))->___U3CU3E9__115_0 = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var))->___U3CU3E9__115_0), (void*)L_4);
+		G_B2_0 = L_4;
+	}
+
+IL_0020:
+	{
+		V_0 = G_B2_0;
+		TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_5 = ___0_tensors;
+		Func_3_t112E81BD9C60E0186076895800369606BCF590FB* L_6 = V_0;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_7;
+		L_7 = ReferenceCPUOps_ApplyElementwiseWithBroadcast_mDE4B2864B1CCDAF5C25F38D03EDD3B2F2EB6A0B0(__this, L_5, L_6, NULL);
+		V_1 = L_7;
+		goto IL_002c;
+	}
+
+IL_002c:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_8 = V_1;
+		return L_8;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_Mean_mAF0FB7BBA8A048FA5BC9AAFC4023067277E72BF2 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* ___0_tensors, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_3_t112E81BD9C60E0186076895800369606BCF590FB_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_U3CMeanU3Eb__116_0_m89E7615B86EE480B9C35D4DAA67815B2DD972F91_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Func_3_t112E81BD9C60E0186076895800369606BCF590FB* V_0 = NULL;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_1 = NULL;
+	float V_2 = 0.0f;
+	int32_t V_3 = 0;
+	int32_t V_4 = 0;
+	float V_5 = 0.0f;
+	bool V_6 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_7 = NULL;
+	Func_3_t112E81BD9C60E0186076895800369606BCF590FB* G_B2_0 = NULL;
+	Func_3_t112E81BD9C60E0186076895800369606BCF590FB* G_B1_0 = NULL;
+	{
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var);
+		Func_3_t112E81BD9C60E0186076895800369606BCF590FB* L_0 = ((U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var))->___U3CU3E9__116_0;
+		Func_3_t112E81BD9C60E0186076895800369606BCF590FB* L_1 = L_0;
+		if (L_1)
+		{
+			G_B2_0 = L_1;
+			goto IL_0020;
+		}
+		G_B1_0 = L_1;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var);
+		U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3* L_2 = ((U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var))->___U3CU3E9;
+		Func_3_t112E81BD9C60E0186076895800369606BCF590FB* L_3 = (Func_3_t112E81BD9C60E0186076895800369606BCF590FB*)il2cpp_codegen_object_new(Func_3_t112E81BD9C60E0186076895800369606BCF590FB_il2cpp_TypeInfo_var);
+		Func_3__ctor_m5B9A75AB0F71A31F8F0F009E95D514DB82314D18(L_3, L_2, (intptr_t)((void*)U3CU3Ec_U3CMeanU3Eb__116_0_m89E7615B86EE480B9C35D4DAA67815B2DD972F91_RuntimeMethod_var), NULL);
+		Func_3_t112E81BD9C60E0186076895800369606BCF590FB* L_4 = L_3;
+		((U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var))->___U3CU3E9__116_0 = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var))->___U3CU3E9__116_0), (void*)L_4);
+		G_B2_0 = L_4;
+	}
+
+IL_0020:
+	{
+		V_0 = G_B2_0;
+		TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_5 = ___0_tensors;
+		Func_3_t112E81BD9C60E0186076895800369606BCF590FB* L_6 = V_0;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_7;
+		L_7 = ReferenceCPUOps_ApplyElementwiseWithBroadcast_mDE4B2864B1CCDAF5C25F38D03EDD3B2F2EB6A0B0(__this, L_5, L_6, NULL);
+		V_1 = L_7;
+		TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_8 = ___0_tensors;
+		NullCheck(L_8);
+		V_2 = ((float)((1.0f)/((float)((int32_t)(((RuntimeArray*)L_8)->max_length)))));
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_9 = V_1;
+		NullCheck(L_9);
+		int32_t L_10;
+		L_10 = Tensor_get_length_m35C7DA71ED506DB11C0626A040E8A182CA25D5CA(L_9, NULL);
+		V_3 = L_10;
+		V_4 = 0;
+		goto IL_0064;
+	}
+
+IL_0041:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_11 = V_1;
+		int32_t L_12 = V_4;
+		NullCheck(L_11);
+		float L_13;
+		L_13 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_11, L_12, NULL);
+		V_5 = L_13;
+		float L_14 = V_5;
+		float L_15 = V_2;
+		V_5 = ((float)il2cpp_codegen_multiply(L_14, L_15));
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_16 = V_1;
+		int32_t L_17 = V_4;
+		float L_18 = V_5;
+		NullCheck(L_16);
+		Tensor_set_Item_m825AF5D1FC078421906298C6662565DF5C64817E(L_16, L_17, L_18, NULL);
+		int32_t L_19 = V_4;
+		V_4 = ((int32_t)il2cpp_codegen_add(L_19, 1));
+	}
+
+IL_0064:
+	{
+		int32_t L_20 = V_4;
+		int32_t L_21 = V_3;
+		V_6 = (bool)((((int32_t)L_20) < ((int32_t)L_21))? 1 : 0);
+		bool L_22 = V_6;
+		if (L_22)
+		{
+			goto IL_0041;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_23 = V_1;
+		V_7 = L_23;
+		goto IL_0074;
+	}
+
+IL_0074:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_24 = V_7;
+		return L_24;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_ReduceMin_mE4A2FDF71425AC3BC1D5A8B7C717B5D36E06FC97 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, int32_t ___1_axis, const RuntimeMethod* method) 
+{
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_0 = NULL;
+	TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	bool V_2 = false;
+	TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	int32_t V_4 = 0;
+	bool V_5 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_6 = NULL;
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_0 = ___0_X;
+		NullCheck(L_0);
+		int32_t L_1;
+		L_1 = Tensor_get_dataType_m57109C88C5386735035BB4066BAACD68228C3AB1(L_0, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_2 = ___0_X;
+		NullCheck(L_2);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_3;
+		L_3 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_2, NULL);
+		int32_t L_4 = ___1_axis;
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_5;
+		L_5 = TensorExtensions_Reduce_m560987AF34398CEE85412B1B5DCE11AB22B6712F(L_3, L_4, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_6;
+		L_6 = ReferenceCPUOps_NewTensor_m74008D9C77785A62165EBEF61281FBB9CB42DAAF(__this, L_1, L_5, NULL);
+		V_0 = L_6;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_7 = V_0;
+		NullCheck(L_7);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_8;
+		L_8 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_7, NULL);
+		TensorIterator__ctor_m155A791924246F4E780FA39C05FA2E78AE8DDFAC((&V_1), L_8, 0, NULL);
+		goto IL_0046;
+	}
+
+IL_002a:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_9 = V_0;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_10 = V_1;
+		int32_t L_11 = L_10.___index;
+		NullCheck(L_9);
+		Tensor_set_Item_m825AF5D1FC078421906298C6662565DF5C64817E(L_9, L_11, ((std::numeric_limits<float>::max)()), NULL);
+		TensorIterator_Next_m3BBE90015F10C99DBD4317583E5C8696E45865B1((&V_1), NULL);
+	}
+
+IL_0046:
+	{
+		bool L_12;
+		L_12 = TensorIterator_IsValid_m35EB0AC3E815407848AFD55F95B88BF0093CC7A5((&V_1), NULL);
+		V_2 = L_12;
+		bool L_13 = V_2;
+		if (L_13)
+		{
+			goto IL_002a;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_14 = ___0_X;
+		NullCheck(L_14);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_15;
+		L_15 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_14, NULL);
+		TensorIterator__ctor_m155A791924246F4E780FA39C05FA2E78AE8DDFAC((&V_3), L_15, 0, NULL);
+		goto IL_009c;
+	}
+
+IL_0061:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_16 = V_0;
+		NullCheck(L_16);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_17;
+		L_17 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_16, NULL);
+		int32_t L_18;
+		L_18 = TensorIterator_IndexInReducedShape_mC61CB8FA82E20218BE6DB90DF92EE42F734DD260((&V_3), L_17, NULL);
+		V_4 = L_18;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_19 = V_0;
+		int32_t L_20 = V_4;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_21 = V_0;
+		int32_t L_22 = V_4;
+		NullCheck(L_21);
+		float L_23;
+		L_23 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_21, L_22, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_24 = ___0_X;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_25 = V_3;
+		int32_t L_26 = L_25.___index;
+		NullCheck(L_24);
+		float L_27;
+		L_27 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_24, L_26, NULL);
+		float L_28;
+		L_28 = Mathf_Min_m747CA71A9483CDB394B13BD0AD048EE17E48FFE4_inline(L_23, L_27, NULL);
+		NullCheck(L_19);
+		Tensor_set_Item_m825AF5D1FC078421906298C6662565DF5C64817E(L_19, L_20, L_28, NULL);
+		TensorIterator_Next_m3BBE90015F10C99DBD4317583E5C8696E45865B1((&V_3), NULL);
+	}
+
+IL_009c:
+	{
+		bool L_29;
+		L_29 = TensorIterator_IsValid_m35EB0AC3E815407848AFD55F95B88BF0093CC7A5((&V_3), NULL);
+		V_5 = L_29;
+		bool L_30 = V_5;
+		if (L_30)
+		{
+			goto IL_0061;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_31 = V_0;
+		V_6 = L_31;
+		goto IL_00ae;
+	}
+
+IL_00ae:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_32 = V_6;
+		return L_32;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_ReduceMax_m41945722DDACCDB9293AD5B3EBB3CA0AC5F4FB7B (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, int32_t ___1_axis, const RuntimeMethod* method) 
+{
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_0 = NULL;
+	TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	bool V_2 = false;
+	TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	int32_t V_4 = 0;
+	bool V_5 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_6 = NULL;
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_0 = ___0_X;
+		NullCheck(L_0);
+		int32_t L_1;
+		L_1 = Tensor_get_dataType_m57109C88C5386735035BB4066BAACD68228C3AB1(L_0, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_2 = ___0_X;
+		NullCheck(L_2);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_3;
+		L_3 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_2, NULL);
+		int32_t L_4 = ___1_axis;
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_5;
+		L_5 = TensorExtensions_Reduce_m560987AF34398CEE85412B1B5DCE11AB22B6712F(L_3, L_4, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_6;
+		L_6 = ReferenceCPUOps_NewTensor_m74008D9C77785A62165EBEF61281FBB9CB42DAAF(__this, L_1, L_5, NULL);
+		V_0 = L_6;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_7 = V_0;
+		NullCheck(L_7);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_8;
+		L_8 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_7, NULL);
+		TensorIterator__ctor_m155A791924246F4E780FA39C05FA2E78AE8DDFAC((&V_1), L_8, 0, NULL);
+		goto IL_0046;
+	}
+
+IL_002a:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_9 = V_0;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_10 = V_1;
+		int32_t L_11 = L_10.___index;
+		NullCheck(L_9);
+		Tensor_set_Item_m825AF5D1FC078421906298C6662565DF5C64817E(L_9, L_11, (-(std::numeric_limits<float>::max)()), NULL);
+		TensorIterator_Next_m3BBE90015F10C99DBD4317583E5C8696E45865B1((&V_1), NULL);
+	}
+
+IL_0046:
+	{
+		bool L_12;
+		L_12 = TensorIterator_IsValid_m35EB0AC3E815407848AFD55F95B88BF0093CC7A5((&V_1), NULL);
+		V_2 = L_12;
+		bool L_13 = V_2;
+		if (L_13)
+		{
+			goto IL_002a;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_14 = ___0_X;
+		NullCheck(L_14);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_15;
+		L_15 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_14, NULL);
+		TensorIterator__ctor_m155A791924246F4E780FA39C05FA2E78AE8DDFAC((&V_3), L_15, 0, NULL);
+		goto IL_009c;
+	}
+
+IL_0061:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_16 = V_0;
+		NullCheck(L_16);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_17;
+		L_17 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_16, NULL);
+		int32_t L_18;
+		L_18 = TensorIterator_IndexInReducedShape_mC61CB8FA82E20218BE6DB90DF92EE42F734DD260((&V_3), L_17, NULL);
+		V_4 = L_18;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_19 = V_0;
+		int32_t L_20 = V_4;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_21 = V_0;
+		int32_t L_22 = V_4;
+		NullCheck(L_21);
+		float L_23;
+		L_23 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_21, L_22, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_24 = ___0_X;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_25 = V_3;
+		int32_t L_26 = L_25.___index;
+		NullCheck(L_24);
+		float L_27;
+		L_27 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_24, L_26, NULL);
+		float L_28;
+		L_28 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline(L_23, L_27, NULL);
+		NullCheck(L_19);
+		Tensor_set_Item_m825AF5D1FC078421906298C6662565DF5C64817E(L_19, L_20, L_28, NULL);
+		TensorIterator_Next_m3BBE90015F10C99DBD4317583E5C8696E45865B1((&V_3), NULL);
+	}
+
+IL_009c:
+	{
+		bool L_29;
+		L_29 = TensorIterator_IsValid_m35EB0AC3E815407848AFD55F95B88BF0093CC7A5((&V_3), NULL);
+		V_5 = L_29;
+		bool L_30 = V_5;
+		if (L_30)
+		{
+			goto IL_0061;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_31 = V_0;
+		V_6 = L_31;
+		goto IL_00ae;
+	}
+
+IL_00ae:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_32 = V_6;
+		return L_32;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_ArgMax_m07D0E7E6593FE7252B6F907D7AAAC83549B4E6BE (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, int32_t ___1_axis, const RuntimeMethod* method) 
+{
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_0 = NULL;
+	TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	bool V_2 = false;
+	TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	int32_t V_4 = 0;
+	int32_t V_5 = 0;
+	bool V_6 = false;
+	bool V_7 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_8 = NULL;
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_0 = ___0_X;
+		NullCheck(L_0);
+		int32_t L_1;
+		L_1 = Tensor_get_dataType_m57109C88C5386735035BB4066BAACD68228C3AB1(L_0, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_2 = ___0_X;
+		NullCheck(L_2);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_3;
+		L_3 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_2, NULL);
+		int32_t L_4 = ___1_axis;
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_5;
+		L_5 = TensorExtensions_Reduce_m560987AF34398CEE85412B1B5DCE11AB22B6712F(L_3, L_4, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_6;
+		L_6 = ReferenceCPUOps_NewTensor_m74008D9C77785A62165EBEF61281FBB9CB42DAAF(__this, L_1, L_5, NULL);
+		V_0 = L_6;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_7 = V_0;
+		NullCheck(L_7);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_8;
+		L_8 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_7, NULL);
+		TensorIterator__ctor_m155A791924246F4E780FA39C05FA2E78AE8DDFAC((&V_1), L_8, 0, NULL);
+		goto IL_0046;
+	}
+
+IL_002a:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_9 = V_0;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_10 = V_1;
+		int32_t L_11 = L_10.___index;
+		NullCheck(L_9);
+		Tensor_set_Item_m825AF5D1FC078421906298C6662565DF5C64817E(L_9, L_11, (0.0f), NULL);
+		TensorIterator_Next_m3BBE90015F10C99DBD4317583E5C8696E45865B1((&V_1), NULL);
+	}
+
+IL_0046:
+	{
+		bool L_12;
+		L_12 = TensorIterator_IsValid_m35EB0AC3E815407848AFD55F95B88BF0093CC7A5((&V_1), NULL);
+		V_2 = L_12;
+		bool L_13 = V_2;
+		if (L_13)
+		{
+			goto IL_002a;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_14 = ___0_X;
+		NullCheck(L_14);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_15;
+		L_15 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_14, NULL);
+		TensorIterator__ctor_m155A791924246F4E780FA39C05FA2E78AE8DDFAC((&V_3), L_15, 0, NULL);
+		goto IL_00bb;
+	}
+
+IL_0061:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_16 = V_0;
+		NullCheck(L_16);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_17;
+		L_17 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_16, NULL);
+		int32_t L_18;
+		L_18 = TensorIterator_IndexInReducedShape_mC61CB8FA82E20218BE6DB90DF92EE42F734DD260((&V_3), L_17, NULL);
+		V_4 = L_18;
+		int32_t L_19 = ___1_axis;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_20 = V_0;
+		int32_t L_21 = V_4;
+		NullCheck(L_20);
+		float L_22;
+		L_22 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_20, L_21, NULL);
+		int32_t L_23;
+		L_23 = TensorIterator_IndexWithReplacedAxis_m5CC893C8253AC414C1BED1B7602E85EF4A01A50C((&V_3), L_19, il2cpp_codegen_cast_double_to_int<int32_t>(L_22), NULL);
+		V_5 = L_23;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_24 = ___0_X;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_25 = V_3;
+		int32_t L_26 = L_25.___index;
+		NullCheck(L_24);
+		float L_27;
+		L_27 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_24, L_26, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_28 = ___0_X;
+		int32_t L_29 = V_5;
+		NullCheck(L_28);
+		float L_30;
+		L_30 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_28, L_29, NULL);
+		V_6 = (bool)((((float)L_27) > ((float)L_30))? 1 : 0);
+		bool L_31 = V_6;
+		if (!L_31)
+		{
+			goto IL_00b2;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_32 = V_0;
+		int32_t L_33 = V_4;
+		int32_t L_34 = ___1_axis;
+		int32_t L_35;
+		L_35 = TensorIterator_get_Item_m63E891C7B085A16BE0673E4A6AE6D26B08DAA97D((&V_3), L_34, NULL);
+		NullCheck(L_32);
+		Tensor_set_Item_m825AF5D1FC078421906298C6662565DF5C64817E(L_32, L_33, ((float)L_35), NULL);
+	}
+
+IL_00b2:
+	{
+		TensorIterator_Next_m3BBE90015F10C99DBD4317583E5C8696E45865B1((&V_3), NULL);
+	}
+
+IL_00bb:
+	{
+		bool L_36;
+		L_36 = TensorIterator_IsValid_m35EB0AC3E815407848AFD55F95B88BF0093CC7A5((&V_3), NULL);
+		V_7 = L_36;
+		bool L_37 = V_7;
+		if (L_37)
+		{
+			goto IL_0061;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_38 = V_0;
+		V_8 = L_38;
+		goto IL_00cd;
+	}
+
+IL_00cd:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_39 = V_8;
+		return L_39;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_ArgMin_m2FD54FFF4BBB8216C2B7E13CDAA290EE7D0D734B (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, int32_t ___1_axis, const RuntimeMethod* method) 
+{
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_0 = NULL;
+	TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	bool V_2 = false;
+	TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	int32_t V_4 = 0;
+	int32_t V_5 = 0;
+	bool V_6 = false;
+	bool V_7 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_8 = NULL;
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_0 = ___0_X;
+		NullCheck(L_0);
+		int32_t L_1;
+		L_1 = Tensor_get_dataType_m57109C88C5386735035BB4066BAACD68228C3AB1(L_0, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_2 = ___0_X;
+		NullCheck(L_2);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_3;
+		L_3 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_2, NULL);
+		int32_t L_4 = ___1_axis;
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_5;
+		L_5 = TensorExtensions_Reduce_m560987AF34398CEE85412B1B5DCE11AB22B6712F(L_3, L_4, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_6;
+		L_6 = ReferenceCPUOps_NewTensor_m74008D9C77785A62165EBEF61281FBB9CB42DAAF(__this, L_1, L_5, NULL);
+		V_0 = L_6;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_7 = V_0;
+		NullCheck(L_7);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_8;
+		L_8 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_7, NULL);
+		TensorIterator__ctor_m155A791924246F4E780FA39C05FA2E78AE8DDFAC((&V_1), L_8, 0, NULL);
+		goto IL_0046;
+	}
+
+IL_002a:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_9 = V_0;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_10 = V_1;
+		int32_t L_11 = L_10.___index;
+		NullCheck(L_9);
+		Tensor_set_Item_m825AF5D1FC078421906298C6662565DF5C64817E(L_9, L_11, (0.0f), NULL);
+		TensorIterator_Next_m3BBE90015F10C99DBD4317583E5C8696E45865B1((&V_1), NULL);
+	}
+
+IL_0046:
+	{
+		bool L_12;
+		L_12 = TensorIterator_IsValid_m35EB0AC3E815407848AFD55F95B88BF0093CC7A5((&V_1), NULL);
+		V_2 = L_12;
+		bool L_13 = V_2;
+		if (L_13)
+		{
+			goto IL_002a;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_14 = ___0_X;
+		NullCheck(L_14);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_15;
+		L_15 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_14, NULL);
+		TensorIterator__ctor_m155A791924246F4E780FA39C05FA2E78AE8DDFAC((&V_3), L_15, 0, NULL);
+		goto IL_00bb;
+	}
+
+IL_0061:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_16 = V_0;
+		NullCheck(L_16);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_17;
+		L_17 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_16, NULL);
+		int32_t L_18;
+		L_18 = TensorIterator_IndexInReducedShape_mC61CB8FA82E20218BE6DB90DF92EE42F734DD260((&V_3), L_17, NULL);
+		V_4 = L_18;
+		int32_t L_19 = ___1_axis;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_20 = V_0;
+		int32_t L_21 = V_4;
+		NullCheck(L_20);
+		float L_22;
+		L_22 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_20, L_21, NULL);
+		int32_t L_23;
+		L_23 = TensorIterator_IndexWithReplacedAxis_m5CC893C8253AC414C1BED1B7602E85EF4A01A50C((&V_3), L_19, il2cpp_codegen_cast_double_to_int<int32_t>(L_22), NULL);
+		V_5 = L_23;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_24 = ___0_X;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_25 = V_3;
+		int32_t L_26 = L_25.___index;
+		NullCheck(L_24);
+		float L_27;
+		L_27 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_24, L_26, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_28 = ___0_X;
+		int32_t L_29 = V_5;
+		NullCheck(L_28);
+		float L_30;
+		L_30 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_28, L_29, NULL);
+		V_6 = (bool)((((float)L_27) < ((float)L_30))? 1 : 0);
+		bool L_31 = V_6;
+		if (!L_31)
+		{
+			goto IL_00b2;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_32 = V_0;
+		int32_t L_33 = V_4;
+		int32_t L_34 = ___1_axis;
+		int32_t L_35;
+		L_35 = TensorIterator_get_Item_m63E891C7B085A16BE0673E4A6AE6D26B08DAA97D((&V_3), L_34, NULL);
+		NullCheck(L_32);
+		Tensor_set_Item_m825AF5D1FC078421906298C6662565DF5C64817E(L_32, L_33, ((float)L_35), NULL);
+	}
+
+IL_00b2:
+	{
+		TensorIterator_Next_m3BBE90015F10C99DBD4317583E5C8696E45865B1((&V_3), NULL);
+	}
+
+IL_00bb:
+	{
+		bool L_36;
+		L_36 = TensorIterator_IsValid_m35EB0AC3E815407848AFD55F95B88BF0093CC7A5((&V_3), NULL);
+		V_7 = L_36;
+		bool L_37 = V_7;
+		if (L_37)
+		{
+			goto IL_0061;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_38 = V_0;
+		V_8 = L_38;
+		goto IL_00cd;
+	}
+
+IL_00cd:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_39 = V_8;
+		return L_39;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_ReduceSum_mC3C26EE2935ACE5CBA6C6F501FB29CCB62FA52A7 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, int32_t ___1_axis, const RuntimeMethod* method) 
+{
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_0 = NULL;
+	TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	bool V_2 = false;
+	TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_4 = NULL;
+	int32_t V_5 = 0;
+	bool V_6 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_7 = NULL;
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_0 = ___0_X;
+		NullCheck(L_0);
+		int32_t L_1;
+		L_1 = Tensor_get_dataType_m57109C88C5386735035BB4066BAACD68228C3AB1(L_0, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_2 = ___0_X;
+		NullCheck(L_2);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_3;
+		L_3 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_2, NULL);
+		int32_t L_4 = ___1_axis;
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_5;
+		L_5 = TensorExtensions_Reduce_m560987AF34398CEE85412B1B5DCE11AB22B6712F(L_3, L_4, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_6;
+		L_6 = ReferenceCPUOps_NewTensor_m74008D9C77785A62165EBEF61281FBB9CB42DAAF(__this, L_1, L_5, NULL);
+		V_0 = L_6;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_7 = V_0;
+		NullCheck(L_7);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_8;
+		L_8 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_7, NULL);
+		TensorIterator__ctor_m155A791924246F4E780FA39C05FA2E78AE8DDFAC((&V_1), L_8, 0, NULL);
+		goto IL_0046;
+	}
+
+IL_002a:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_9 = V_0;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_10 = V_1;
+		int32_t L_11 = L_10.___index;
+		NullCheck(L_9);
+		Tensor_set_Item_m825AF5D1FC078421906298C6662565DF5C64817E(L_9, L_11, (0.0f), NULL);
+		TensorIterator_Next_m3BBE90015F10C99DBD4317583E5C8696E45865B1((&V_1), NULL);
+	}
+
+IL_0046:
+	{
+		bool L_12;
+		L_12 = TensorIterator_IsValid_m35EB0AC3E815407848AFD55F95B88BF0093CC7A5((&V_1), NULL);
+		V_2 = L_12;
+		bool L_13 = V_2;
+		if (L_13)
+		{
+			goto IL_002a;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_14 = ___0_X;
+		NullCheck(L_14);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_15;
+		L_15 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_14, NULL);
+		TensorIterator__ctor_m155A791924246F4E780FA39C05FA2E78AE8DDFAC((&V_3), L_15, 0, NULL);
+		goto IL_009d;
+	}
+
+IL_0061:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_16 = V_0;
+		V_4 = L_16;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_17 = V_0;
+		NullCheck(L_17);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_18;
+		L_18 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_17, NULL);
+		int32_t L_19;
+		L_19 = TensorIterator_IndexInReducedShape_mC61CB8FA82E20218BE6DB90DF92EE42F734DD260((&V_3), L_18, NULL);
+		V_5 = L_19;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_20 = V_4;
+		int32_t L_21 = V_5;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_22 = V_4;
+		int32_t L_23 = V_5;
+		NullCheck(L_22);
+		float L_24;
+		L_24 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_22, L_23, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_25 = ___0_X;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_26 = V_3;
+		int32_t L_27 = L_26.___index;
+		NullCheck(L_25);
+		float L_28;
+		L_28 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_25, L_27, NULL);
+		NullCheck(L_20);
+		Tensor_set_Item_m825AF5D1FC078421906298C6662565DF5C64817E(L_20, L_21, ((float)il2cpp_codegen_add(L_24, L_28)), NULL);
+		TensorIterator_Next_m3BBE90015F10C99DBD4317583E5C8696E45865B1((&V_3), NULL);
+	}
+
+IL_009d:
+	{
+		bool L_29;
+		L_29 = TensorIterator_IsValid_m35EB0AC3E815407848AFD55F95B88BF0093CC7A5((&V_3), NULL);
+		V_6 = L_29;
+		bool L_30 = V_6;
+		if (L_30)
+		{
+			goto IL_0061;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_31 = V_0;
+		V_7 = L_31;
+		goto IL_00af;
+	}
+
+IL_00af:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_32 = V_7;
+		return L_32;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_ReduceMean_m522E9355B441283ACCE5924C5C1E3DFF03C37291 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, int32_t ___1_axis, const RuntimeMethod* method) 
+{
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_0 = NULL;
+	TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	bool V_2 = false;
+	TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_4 = NULL;
+	int32_t V_5 = 0;
+	bool V_6 = false;
+	TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 V_7;
+	memset((&V_7), 0, sizeof(V_7));
+	TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 V_8;
+	memset((&V_8), 0, sizeof(V_8));
+	bool V_9 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_10 = NULL;
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_0 = ___0_X;
+		NullCheck(L_0);
+		int32_t L_1;
+		L_1 = Tensor_get_dataType_m57109C88C5386735035BB4066BAACD68228C3AB1(L_0, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_2 = ___0_X;
+		NullCheck(L_2);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_3;
+		L_3 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_2, NULL);
+		int32_t L_4 = ___1_axis;
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_5;
+		L_5 = TensorExtensions_Reduce_m560987AF34398CEE85412B1B5DCE11AB22B6712F(L_3, L_4, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_6;
+		L_6 = ReferenceCPUOps_NewTensor_m74008D9C77785A62165EBEF61281FBB9CB42DAAF(__this, L_1, L_5, NULL);
+		V_0 = L_6;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_7 = V_0;
+		NullCheck(L_7);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_8;
+		L_8 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_7, NULL);
+		TensorIterator__ctor_m155A791924246F4E780FA39C05FA2E78AE8DDFAC((&V_1), L_8, 0, NULL);
+		goto IL_0046;
+	}
+
+IL_002a:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_9 = V_0;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_10 = V_1;
+		int32_t L_11 = L_10.___index;
+		NullCheck(L_9);
+		Tensor_set_Item_m825AF5D1FC078421906298C6662565DF5C64817E(L_9, L_11, (0.0f), NULL);
+		TensorIterator_Next_m3BBE90015F10C99DBD4317583E5C8696E45865B1((&V_1), NULL);
+	}
+
+IL_0046:
+	{
+		bool L_12;
+		L_12 = TensorIterator_IsValid_m35EB0AC3E815407848AFD55F95B88BF0093CC7A5((&V_1), NULL);
+		V_2 = L_12;
+		bool L_13 = V_2;
+		if (L_13)
+		{
+			goto IL_002a;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_14 = ___0_X;
+		NullCheck(L_14);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_15;
+		L_15 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_14, NULL);
+		TensorIterator__ctor_m155A791924246F4E780FA39C05FA2E78AE8DDFAC((&V_3), L_15, 0, NULL);
+		goto IL_009d;
+	}
+
+IL_0061:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_16 = V_0;
+		V_4 = L_16;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_17 = V_0;
+		NullCheck(L_17);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_18;
+		L_18 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_17, NULL);
+		int32_t L_19;
+		L_19 = TensorIterator_IndexInReducedShape_mC61CB8FA82E20218BE6DB90DF92EE42F734DD260((&V_3), L_18, NULL);
+		V_5 = L_19;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_20 = V_4;
+		int32_t L_21 = V_5;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_22 = V_4;
+		int32_t L_23 = V_5;
+		NullCheck(L_22);
+		float L_24;
+		L_24 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_22, L_23, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_25 = ___0_X;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_26 = V_3;
+		int32_t L_27 = L_26.___index;
+		NullCheck(L_25);
+		float L_28;
+		L_28 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_25, L_27, NULL);
+		NullCheck(L_20);
+		Tensor_set_Item_m825AF5D1FC078421906298C6662565DF5C64817E(L_20, L_21, ((float)il2cpp_codegen_add(L_24, L_28)), NULL);
+		TensorIterator_Next_m3BBE90015F10C99DBD4317583E5C8696E45865B1((&V_3), NULL);
+	}
+
+IL_009d:
+	{
+		bool L_29;
+		L_29 = TensorIterator_IsValid_m35EB0AC3E815407848AFD55F95B88BF0093CC7A5((&V_3), NULL);
+		V_6 = L_29;
+		bool L_30 = V_6;
+		if (L_30)
+		{
+			goto IL_0061;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_31 = V_0;
+		NullCheck(L_31);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_32;
+		L_32 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_31, NULL);
+		TensorIterator__ctor_m155A791924246F4E780FA39C05FA2E78AE8DDFAC((&V_7), L_32, 0, NULL);
+		goto IL_00f5;
+	}
+
+IL_00ba:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_33 = V_0;
+		V_4 = L_33;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_34 = V_7;
+		int32_t L_35 = L_34.___index;
+		V_5 = L_35;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_36 = V_4;
+		int32_t L_37 = V_5;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_38 = V_4;
+		int32_t L_39 = V_5;
+		NullCheck(L_38);
+		float L_40;
+		L_40 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_38, L_39, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_41 = ___0_X;
+		NullCheck(L_41);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_42;
+		L_42 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_41, NULL);
+		V_8 = L_42;
+		int32_t L_43 = ___1_axis;
+		int32_t L_44;
+		L_44 = TensorShape_get_Item_m046FF56D8906EA7CD9D33486F778EBBCE949B33E((&V_8), L_43, NULL);
+		NullCheck(L_36);
+		Tensor_set_Item_m825AF5D1FC078421906298C6662565DF5C64817E(L_36, L_37, ((float)(L_40/((float)L_44))), NULL);
+		TensorIterator_Next_m3BBE90015F10C99DBD4317583E5C8696E45865B1((&V_7), NULL);
+	}
+
+IL_00f5:
+	{
+		bool L_45;
+		L_45 = TensorIterator_IsValid_m35EB0AC3E815407848AFD55F95B88BF0093CC7A5((&V_7), NULL);
+		V_9 = L_45;
+		bool L_46 = V_9;
+		if (L_46)
+		{
+			goto IL_00ba;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_47 = V_0;
+		V_10 = L_47;
+		goto IL_0107;
+	}
+
+IL_0107:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_48 = V_10;
+		return L_48;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_ReduceProd_mBCAD632C99EFF393D1640930EC72AE4E9C28E9E9 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, int32_t ___1_axis, const RuntimeMethod* method) 
+{
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_0 = NULL;
+	TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	bool V_2 = false;
+	TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_4 = NULL;
+	int32_t V_5 = 0;
+	bool V_6 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_7 = NULL;
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_0 = ___0_X;
+		NullCheck(L_0);
+		int32_t L_1;
+		L_1 = Tensor_get_dataType_m57109C88C5386735035BB4066BAACD68228C3AB1(L_0, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_2 = ___0_X;
+		NullCheck(L_2);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_3;
+		L_3 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_2, NULL);
+		int32_t L_4 = ___1_axis;
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_5;
+		L_5 = TensorExtensions_Reduce_m560987AF34398CEE85412B1B5DCE11AB22B6712F(L_3, L_4, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_6;
+		L_6 = ReferenceCPUOps_NewTensor_m74008D9C77785A62165EBEF61281FBB9CB42DAAF(__this, L_1, L_5, NULL);
+		V_0 = L_6;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_7 = V_0;
+		NullCheck(L_7);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_8;
+		L_8 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_7, NULL);
+		TensorIterator__ctor_m155A791924246F4E780FA39C05FA2E78AE8DDFAC((&V_1), L_8, 0, NULL);
+		goto IL_0046;
+	}
+
+IL_002a:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_9 = V_0;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_10 = V_1;
+		int32_t L_11 = L_10.___index;
+		NullCheck(L_9);
+		Tensor_set_Item_m825AF5D1FC078421906298C6662565DF5C64817E(L_9, L_11, (1.0f), NULL);
+		TensorIterator_Next_m3BBE90015F10C99DBD4317583E5C8696E45865B1((&V_1), NULL);
+	}
+
+IL_0046:
+	{
+		bool L_12;
+		L_12 = TensorIterator_IsValid_m35EB0AC3E815407848AFD55F95B88BF0093CC7A5((&V_1), NULL);
+		V_2 = L_12;
+		bool L_13 = V_2;
+		if (L_13)
+		{
+			goto IL_002a;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_14 = ___0_X;
+		NullCheck(L_14);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_15;
+		L_15 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_14, NULL);
+		TensorIterator__ctor_m155A791924246F4E780FA39C05FA2E78AE8DDFAC((&V_3), L_15, 0, NULL);
+		goto IL_009d;
+	}
+
+IL_0061:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_16 = V_0;
+		V_4 = L_16;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_17 = V_0;
+		NullCheck(L_17);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_18;
+		L_18 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_17, NULL);
+		int32_t L_19;
+		L_19 = TensorIterator_IndexInReducedShape_mC61CB8FA82E20218BE6DB90DF92EE42F734DD260((&V_3), L_18, NULL);
+		V_5 = L_19;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_20 = V_4;
+		int32_t L_21 = V_5;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_22 = V_4;
+		int32_t L_23 = V_5;
+		NullCheck(L_22);
+		float L_24;
+		L_24 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_22, L_23, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_25 = ___0_X;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_26 = V_3;
+		int32_t L_27 = L_26.___index;
+		NullCheck(L_25);
+		float L_28;
+		L_28 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_25, L_27, NULL);
+		NullCheck(L_20);
+		Tensor_set_Item_m825AF5D1FC078421906298C6662565DF5C64817E(L_20, L_21, ((float)il2cpp_codegen_multiply(L_24, L_28)), NULL);
+		TensorIterator_Next_m3BBE90015F10C99DBD4317583E5C8696E45865B1((&V_3), NULL);
+	}
+
+IL_009d:
+	{
+		bool L_29;
+		L_29 = TensorIterator_IsValid_m35EB0AC3E815407848AFD55F95B88BF0093CC7A5((&V_3), NULL);
+		V_6 = L_29;
+		bool L_30 = V_6;
+		if (L_30)
+		{
+			goto IL_0061;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_31 = V_0;
+		V_7 = L_31;
+		goto IL_00af;
+	}
+
+IL_00af:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_32 = V_7;
+		return L_32;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_ApplyLogicalOperator_mEAD34540E2E1E45B67B8E7CA1EF132C62D2DD4DC (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_tensorA, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___1_tensorB, Func_3_t112E81BD9C60E0186076895800369606BCF590FB* ___2_logicOp, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_0 = NULL;
+	TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	float V_2 = 0.0f;
+	float V_3 = 0.0f;
+	bool V_4 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_5 = NULL;
+	{
+		TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_0 = (TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81*)(TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81*)SZArrayNew(TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81_il2cpp_TypeInfo_var, (uint32_t)2);
+		TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_1 = L_0;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_2 = ___0_tensorA;
+		NullCheck(L_1);
+		ArrayElementTypeCheck (L_1, L_2);
+		(L_1)->SetAt(static_cast<il2cpp_array_size_t>(0), (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*)L_2);
+		TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_3 = L_1;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_4 = ___1_tensorB;
+		NullCheck(L_3);
+		ArrayElementTypeCheck (L_3, L_4);
+		(L_3)->SetAt(static_cast<il2cpp_array_size_t>(1), (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*)L_4);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_5;
+		L_5 = ReferenceCPUOps_NewTensorLike_m2AC23001C620780970864EAB7BC88B7AD650C1D1(__this, L_3, 0, (bool)0, NULL);
+		V_0 = L_5;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_6 = V_0;
+		NullCheck(L_6);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_7;
+		L_7 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_6, NULL);
+		TensorIterator__ctor_m155A791924246F4E780FA39C05FA2E78AE8DDFAC((&V_1), L_7, 0, NULL);
+		goto IL_00c4;
+	}
+
+IL_002b:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_8 = ___0_tensorA;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_9 = ___0_tensorA;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_10 = V_1;
+		int32_t L_11 = L_10.___d0;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_12 = V_1;
+		int32_t L_13 = L_12.___d1;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_14 = V_1;
+		int32_t L_15 = L_14.___d2;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_16 = V_1;
+		int32_t L_17 = L_16.___d3;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_18 = V_1;
+		int32_t L_19 = L_18.___d4;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_20 = V_1;
+		int32_t L_21 = L_20.___d5;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_22 = V_1;
+		int32_t L_23 = L_22.___d6;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_24 = V_1;
+		int32_t L_25 = L_24.___d7;
+		NullCheck(L_9);
+		int32_t L_26;
+		L_26 = Tensor_IndexWithBroadcast_m143CB5EAE64D94906777F9CA075F1FF0F83C5154(L_9, L_11, L_13, L_15, L_17, L_19, L_21, L_23, L_25, NULL);
+		NullCheck(L_8);
+		float L_27;
+		L_27 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_8, L_26, NULL);
+		V_2 = L_27;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_28 = ___1_tensorB;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_29 = ___1_tensorB;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_30 = V_1;
+		int32_t L_31 = L_30.___d0;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_32 = V_1;
+		int32_t L_33 = L_32.___d1;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_34 = V_1;
+		int32_t L_35 = L_34.___d2;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_36 = V_1;
+		int32_t L_37 = L_36.___d3;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_38 = V_1;
+		int32_t L_39 = L_38.___d4;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_40 = V_1;
+		int32_t L_41 = L_40.___d5;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_42 = V_1;
+		int32_t L_43 = L_42.___d6;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_44 = V_1;
+		int32_t L_45 = L_44.___d7;
+		NullCheck(L_29);
+		int32_t L_46;
+		L_46 = Tensor_IndexWithBroadcast_m143CB5EAE64D94906777F9CA075F1FF0F83C5154(L_29, L_31, L_33, L_35, L_37, L_39, L_41, L_43, L_45, NULL);
+		NullCheck(L_28);
+		float L_47;
+		L_47 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_28, L_46, NULL);
+		V_3 = L_47;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_48 = V_0;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_49 = V_1;
+		int32_t L_50 = L_49.___index;
+		Func_3_t112E81BD9C60E0186076895800369606BCF590FB* L_51 = ___2_logicOp;
+		float L_52 = V_2;
+		float L_53 = V_3;
+		NullCheck(L_51);
+		float L_54;
+		L_54 = Func_3_Invoke_mC8193F9BE436AD10B0F1279771862679CB5813AD_inline(L_51, L_52, L_53, NULL);
+		NullCheck(L_48);
+		Tensor_set_Item_m825AF5D1FC078421906298C6662565DF5C64817E(L_48, L_50, L_54, NULL);
+		TensorIterator_Next_m3BBE90015F10C99DBD4317583E5C8696E45865B1((&V_1), NULL);
+	}
+
+IL_00c4:
+	{
+		bool L_55;
+		L_55 = TensorIterator_IsValid_m35EB0AC3E815407848AFD55F95B88BF0093CC7A5((&V_1), NULL);
+		V_4 = L_55;
+		bool L_56 = V_4;
+		if (L_56)
+		{
+			goto IL_002b;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_57 = V_0;
+		V_5 = L_57;
+		goto IL_00d9;
+	}
+
+IL_00d9:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_58 = V_5;
+		return L_58;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_Greater_m1FDCE19F53ED4D8AFFF08CE61806289242011E05 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_A, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___1_B, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_3_t112E81BD9C60E0186076895800369606BCF590FB_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_U3CGreaterU3Eb__125_0_m9BE6C77619B2D83CEFD2194D700CAA521BEDA724_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Func_3_t112E81BD9C60E0186076895800369606BCF590FB* V_0 = NULL;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_1 = NULL;
+	Func_3_t112E81BD9C60E0186076895800369606BCF590FB* G_B2_0 = NULL;
+	Func_3_t112E81BD9C60E0186076895800369606BCF590FB* G_B1_0 = NULL;
+	{
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var);
+		Func_3_t112E81BD9C60E0186076895800369606BCF590FB* L_0 = ((U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var))->___U3CU3E9__125_0;
+		Func_3_t112E81BD9C60E0186076895800369606BCF590FB* L_1 = L_0;
+		if (L_1)
+		{
+			G_B2_0 = L_1;
+			goto IL_0020;
+		}
+		G_B1_0 = L_1;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var);
+		U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3* L_2 = ((U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var))->___U3CU3E9;
+		Func_3_t112E81BD9C60E0186076895800369606BCF590FB* L_3 = (Func_3_t112E81BD9C60E0186076895800369606BCF590FB*)il2cpp_codegen_object_new(Func_3_t112E81BD9C60E0186076895800369606BCF590FB_il2cpp_TypeInfo_var);
+		Func_3__ctor_m5B9A75AB0F71A31F8F0F009E95D514DB82314D18(L_3, L_2, (intptr_t)((void*)U3CU3Ec_U3CGreaterU3Eb__125_0_m9BE6C77619B2D83CEFD2194D700CAA521BEDA724_RuntimeMethod_var), NULL);
+		Func_3_t112E81BD9C60E0186076895800369606BCF590FB* L_4 = L_3;
+		((U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var))->___U3CU3E9__125_0 = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var))->___U3CU3E9__125_0), (void*)L_4);
+		G_B2_0 = L_4;
+	}
+
+IL_0020:
+	{
+		V_0 = G_B2_0;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_5 = ___0_A;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_6 = ___1_B;
+		Func_3_t112E81BD9C60E0186076895800369606BCF590FB* L_7 = V_0;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_8;
+		L_8 = ReferenceCPUOps_ApplyLogicalOperator_mEAD34540E2E1E45B67B8E7CA1EF132C62D2DD4DC(__this, L_5, L_6, L_7, NULL);
+		V_1 = L_8;
+		goto IL_002d;
+	}
+
+IL_002d:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_9 = V_1;
+		return L_9;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_GreaterEqual_mBF5842368F5780649D120856EA396D3938C0017A (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_A, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___1_B, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_3_t112E81BD9C60E0186076895800369606BCF590FB_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_U3CGreaterEqualU3Eb__126_0_mD7324FDDD9DBADBFE177C5E923D57DFA6098BECF_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Func_3_t112E81BD9C60E0186076895800369606BCF590FB* V_0 = NULL;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_1 = NULL;
+	Func_3_t112E81BD9C60E0186076895800369606BCF590FB* G_B2_0 = NULL;
+	Func_3_t112E81BD9C60E0186076895800369606BCF590FB* G_B1_0 = NULL;
+	{
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var);
+		Func_3_t112E81BD9C60E0186076895800369606BCF590FB* L_0 = ((U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var))->___U3CU3E9__126_0;
+		Func_3_t112E81BD9C60E0186076895800369606BCF590FB* L_1 = L_0;
+		if (L_1)
+		{
+			G_B2_0 = L_1;
+			goto IL_0020;
+		}
+		G_B1_0 = L_1;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var);
+		U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3* L_2 = ((U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var))->___U3CU3E9;
+		Func_3_t112E81BD9C60E0186076895800369606BCF590FB* L_3 = (Func_3_t112E81BD9C60E0186076895800369606BCF590FB*)il2cpp_codegen_object_new(Func_3_t112E81BD9C60E0186076895800369606BCF590FB_il2cpp_TypeInfo_var);
+		Func_3__ctor_m5B9A75AB0F71A31F8F0F009E95D514DB82314D18(L_3, L_2, (intptr_t)((void*)U3CU3Ec_U3CGreaterEqualU3Eb__126_0_mD7324FDDD9DBADBFE177C5E923D57DFA6098BECF_RuntimeMethod_var), NULL);
+		Func_3_t112E81BD9C60E0186076895800369606BCF590FB* L_4 = L_3;
+		((U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var))->___U3CU3E9__126_0 = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var))->___U3CU3E9__126_0), (void*)L_4);
+		G_B2_0 = L_4;
+	}
+
+IL_0020:
+	{
+		V_0 = G_B2_0;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_5 = ___0_A;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_6 = ___1_B;
+		Func_3_t112E81BD9C60E0186076895800369606BCF590FB* L_7 = V_0;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_8;
+		L_8 = ReferenceCPUOps_ApplyLogicalOperator_mEAD34540E2E1E45B67B8E7CA1EF132C62D2DD4DC(__this, L_5, L_6, L_7, NULL);
+		V_1 = L_8;
+		goto IL_002d;
+	}
+
+IL_002d:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_9 = V_1;
+		return L_9;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_Less_mB91B406F1377F6F39C4F30C14E37D3926FE82528 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_A, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___1_B, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_3_t112E81BD9C60E0186076895800369606BCF590FB_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_U3CLessU3Eb__127_0_mE933A42F1D21B84A346AD8BFA74F0992205D25B6_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Func_3_t112E81BD9C60E0186076895800369606BCF590FB* V_0 = NULL;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_1 = NULL;
+	Func_3_t112E81BD9C60E0186076895800369606BCF590FB* G_B2_0 = NULL;
+	Func_3_t112E81BD9C60E0186076895800369606BCF590FB* G_B1_0 = NULL;
+	{
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var);
+		Func_3_t112E81BD9C60E0186076895800369606BCF590FB* L_0 = ((U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var))->___U3CU3E9__127_0;
+		Func_3_t112E81BD9C60E0186076895800369606BCF590FB* L_1 = L_0;
+		if (L_1)
+		{
+			G_B2_0 = L_1;
+			goto IL_0020;
+		}
+		G_B1_0 = L_1;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var);
+		U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3* L_2 = ((U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var))->___U3CU3E9;
+		Func_3_t112E81BD9C60E0186076895800369606BCF590FB* L_3 = (Func_3_t112E81BD9C60E0186076895800369606BCF590FB*)il2cpp_codegen_object_new(Func_3_t112E81BD9C60E0186076895800369606BCF590FB_il2cpp_TypeInfo_var);
+		Func_3__ctor_m5B9A75AB0F71A31F8F0F009E95D514DB82314D18(L_3, L_2, (intptr_t)((void*)U3CU3Ec_U3CLessU3Eb__127_0_mE933A42F1D21B84A346AD8BFA74F0992205D25B6_RuntimeMethod_var), NULL);
+		Func_3_t112E81BD9C60E0186076895800369606BCF590FB* L_4 = L_3;
+		((U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var))->___U3CU3E9__127_0 = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var))->___U3CU3E9__127_0), (void*)L_4);
+		G_B2_0 = L_4;
+	}
+
+IL_0020:
+	{
+		V_0 = G_B2_0;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_5 = ___0_A;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_6 = ___1_B;
+		Func_3_t112E81BD9C60E0186076895800369606BCF590FB* L_7 = V_0;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_8;
+		L_8 = ReferenceCPUOps_ApplyLogicalOperator_mEAD34540E2E1E45B67B8E7CA1EF132C62D2DD4DC(__this, L_5, L_6, L_7, NULL);
+		V_1 = L_8;
+		goto IL_002d;
+	}
+
+IL_002d:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_9 = V_1;
+		return L_9;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_LessEqual_m93BDA253150A27CC933A00082FFECEE953DAFAF7 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_A, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___1_B, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_3_t112E81BD9C60E0186076895800369606BCF590FB_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_U3CLessEqualU3Eb__128_0_m082FC34D210F052D02944B38A56E2D5523503DBA_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Func_3_t112E81BD9C60E0186076895800369606BCF590FB* V_0 = NULL;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_1 = NULL;
+	Func_3_t112E81BD9C60E0186076895800369606BCF590FB* G_B2_0 = NULL;
+	Func_3_t112E81BD9C60E0186076895800369606BCF590FB* G_B1_0 = NULL;
+	{
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var);
+		Func_3_t112E81BD9C60E0186076895800369606BCF590FB* L_0 = ((U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var))->___U3CU3E9__128_0;
+		Func_3_t112E81BD9C60E0186076895800369606BCF590FB* L_1 = L_0;
+		if (L_1)
+		{
+			G_B2_0 = L_1;
+			goto IL_0020;
+		}
+		G_B1_0 = L_1;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var);
+		U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3* L_2 = ((U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var))->___U3CU3E9;
+		Func_3_t112E81BD9C60E0186076895800369606BCF590FB* L_3 = (Func_3_t112E81BD9C60E0186076895800369606BCF590FB*)il2cpp_codegen_object_new(Func_3_t112E81BD9C60E0186076895800369606BCF590FB_il2cpp_TypeInfo_var);
+		Func_3__ctor_m5B9A75AB0F71A31F8F0F009E95D514DB82314D18(L_3, L_2, (intptr_t)((void*)U3CU3Ec_U3CLessEqualU3Eb__128_0_m082FC34D210F052D02944B38A56E2D5523503DBA_RuntimeMethod_var), NULL);
+		Func_3_t112E81BD9C60E0186076895800369606BCF590FB* L_4 = L_3;
+		((U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var))->___U3CU3E9__128_0 = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var))->___U3CU3E9__128_0), (void*)L_4);
+		G_B2_0 = L_4;
+	}
+
+IL_0020:
+	{
+		V_0 = G_B2_0;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_5 = ___0_A;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_6 = ___1_B;
+		Func_3_t112E81BD9C60E0186076895800369606BCF590FB* L_7 = V_0;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_8;
+		L_8 = ReferenceCPUOps_ApplyLogicalOperator_mEAD34540E2E1E45B67B8E7CA1EF132C62D2DD4DC(__this, L_5, L_6, L_7, NULL);
+		V_1 = L_8;
+		goto IL_002d;
+	}
+
+IL_002d:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_9 = V_1;
+		return L_9;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_Equal_m2D16728B3A7AC24209E111DAB1C63FB86861E69D (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_A, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___1_B, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_3_t112E81BD9C60E0186076895800369606BCF590FB_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_U3CEqualU3Eb__129_0_m681B59DE00573245699011864635167B3B6C7C20_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Func_3_t112E81BD9C60E0186076895800369606BCF590FB* V_0 = NULL;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_1 = NULL;
+	Func_3_t112E81BD9C60E0186076895800369606BCF590FB* G_B2_0 = NULL;
+	Func_3_t112E81BD9C60E0186076895800369606BCF590FB* G_B1_0 = NULL;
+	{
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var);
+		Func_3_t112E81BD9C60E0186076895800369606BCF590FB* L_0 = ((U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var))->___U3CU3E9__129_0;
+		Func_3_t112E81BD9C60E0186076895800369606BCF590FB* L_1 = L_0;
+		if (L_1)
+		{
+			G_B2_0 = L_1;
+			goto IL_0020;
+		}
+		G_B1_0 = L_1;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var);
+		U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3* L_2 = ((U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var))->___U3CU3E9;
+		Func_3_t112E81BD9C60E0186076895800369606BCF590FB* L_3 = (Func_3_t112E81BD9C60E0186076895800369606BCF590FB*)il2cpp_codegen_object_new(Func_3_t112E81BD9C60E0186076895800369606BCF590FB_il2cpp_TypeInfo_var);
+		Func_3__ctor_m5B9A75AB0F71A31F8F0F009E95D514DB82314D18(L_3, L_2, (intptr_t)((void*)U3CU3Ec_U3CEqualU3Eb__129_0_m681B59DE00573245699011864635167B3B6C7C20_RuntimeMethod_var), NULL);
+		Func_3_t112E81BD9C60E0186076895800369606BCF590FB* L_4 = L_3;
+		((U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var))->___U3CU3E9__129_0 = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var))->___U3CU3E9__129_0), (void*)L_4);
+		G_B2_0 = L_4;
+	}
+
+IL_0020:
+	{
+		V_0 = G_B2_0;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_5 = ___0_A;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_6 = ___1_B;
+		Func_3_t112E81BD9C60E0186076895800369606BCF590FB* L_7 = V_0;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_8;
+		L_8 = ReferenceCPUOps_ApplyLogicalOperator_mEAD34540E2E1E45B67B8E7CA1EF132C62D2DD4DC(__this, L_5, L_6, L_7, NULL);
+		V_1 = L_8;
+		goto IL_002d;
+	}
+
+IL_002d:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_9 = V_1;
+		return L_9;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_LogicalOr_m913F5D7A49AAA2D4755319EF617FC626E3E87D92 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_A, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___1_B, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_3_t112E81BD9C60E0186076895800369606BCF590FB_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_U3CLogicalOrU3Eb__130_0_m6FBDE504DB02405544E04CF3B1500F6D39E051DB_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Func_3_t112E81BD9C60E0186076895800369606BCF590FB* V_0 = NULL;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_1 = NULL;
+	Func_3_t112E81BD9C60E0186076895800369606BCF590FB* G_B2_0 = NULL;
+	Func_3_t112E81BD9C60E0186076895800369606BCF590FB* G_B1_0 = NULL;
+	{
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var);
+		Func_3_t112E81BD9C60E0186076895800369606BCF590FB* L_0 = ((U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var))->___U3CU3E9__130_0;
+		Func_3_t112E81BD9C60E0186076895800369606BCF590FB* L_1 = L_0;
+		if (L_1)
+		{
+			G_B2_0 = L_1;
+			goto IL_0020;
+		}
+		G_B1_0 = L_1;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var);
+		U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3* L_2 = ((U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var))->___U3CU3E9;
+		Func_3_t112E81BD9C60E0186076895800369606BCF590FB* L_3 = (Func_3_t112E81BD9C60E0186076895800369606BCF590FB*)il2cpp_codegen_object_new(Func_3_t112E81BD9C60E0186076895800369606BCF590FB_il2cpp_TypeInfo_var);
+		Func_3__ctor_m5B9A75AB0F71A31F8F0F009E95D514DB82314D18(L_3, L_2, (intptr_t)((void*)U3CU3Ec_U3CLogicalOrU3Eb__130_0_m6FBDE504DB02405544E04CF3B1500F6D39E051DB_RuntimeMethod_var), NULL);
+		Func_3_t112E81BD9C60E0186076895800369606BCF590FB* L_4 = L_3;
+		((U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var))->___U3CU3E9__130_0 = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var))->___U3CU3E9__130_0), (void*)L_4);
+		G_B2_0 = L_4;
+	}
+
+IL_0020:
+	{
+		V_0 = G_B2_0;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_5 = ___0_A;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_6 = ___1_B;
+		Func_3_t112E81BD9C60E0186076895800369606BCF590FB* L_7 = V_0;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_8;
+		L_8 = ReferenceCPUOps_ApplyLogicalOperator_mEAD34540E2E1E45B67B8E7CA1EF132C62D2DD4DC(__this, L_5, L_6, L_7, NULL);
+		V_1 = L_8;
+		goto IL_002d;
+	}
+
+IL_002d:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_9 = V_1;
+		return L_9;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_LogicalAnd_m1B221CFDA7DB934561CDEDE9B3D0C58FEDAC6C9C (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_A, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___1_B, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_3_t112E81BD9C60E0186076895800369606BCF590FB_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_U3CLogicalAndU3Eb__131_0_m65152C1E1804763224E27275D600B308ACA1D54D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Func_3_t112E81BD9C60E0186076895800369606BCF590FB* V_0 = NULL;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_1 = NULL;
+	Func_3_t112E81BD9C60E0186076895800369606BCF590FB* G_B2_0 = NULL;
+	Func_3_t112E81BD9C60E0186076895800369606BCF590FB* G_B1_0 = NULL;
+	{
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var);
+		Func_3_t112E81BD9C60E0186076895800369606BCF590FB* L_0 = ((U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var))->___U3CU3E9__131_0;
+		Func_3_t112E81BD9C60E0186076895800369606BCF590FB* L_1 = L_0;
+		if (L_1)
+		{
+			G_B2_0 = L_1;
+			goto IL_0020;
+		}
+		G_B1_0 = L_1;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var);
+		U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3* L_2 = ((U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var))->___U3CU3E9;
+		Func_3_t112E81BD9C60E0186076895800369606BCF590FB* L_3 = (Func_3_t112E81BD9C60E0186076895800369606BCF590FB*)il2cpp_codegen_object_new(Func_3_t112E81BD9C60E0186076895800369606BCF590FB_il2cpp_TypeInfo_var);
+		Func_3__ctor_m5B9A75AB0F71A31F8F0F009E95D514DB82314D18(L_3, L_2, (intptr_t)((void*)U3CU3Ec_U3CLogicalAndU3Eb__131_0_m65152C1E1804763224E27275D600B308ACA1D54D_RuntimeMethod_var), NULL);
+		Func_3_t112E81BD9C60E0186076895800369606BCF590FB* L_4 = L_3;
+		((U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var))->___U3CU3E9__131_0 = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var))->___U3CU3E9__131_0), (void*)L_4);
+		G_B2_0 = L_4;
+	}
+
+IL_0020:
+	{
+		V_0 = G_B2_0;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_5 = ___0_A;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_6 = ___1_B;
+		Func_3_t112E81BD9C60E0186076895800369606BCF590FB* L_7 = V_0;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_8;
+		L_8 = ReferenceCPUOps_ApplyLogicalOperator_mEAD34540E2E1E45B67B8E7CA1EF132C62D2DD4DC(__this, L_5, L_6, L_7, NULL);
+		V_1 = L_8;
+		goto IL_002d;
+	}
+
+IL_002d:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_9 = V_1;
+		return L_9;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_LogicalXor_m8C82A444020054F5A445109C1B0D9D640435C4F4 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_A, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___1_B, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_3_t112E81BD9C60E0186076895800369606BCF590FB_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_U3CLogicalXorU3Eb__132_0_mD0B776DA4EB8709769077198269D34AF7875BAD8_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Func_3_t112E81BD9C60E0186076895800369606BCF590FB* V_0 = NULL;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_1 = NULL;
+	Func_3_t112E81BD9C60E0186076895800369606BCF590FB* G_B2_0 = NULL;
+	Func_3_t112E81BD9C60E0186076895800369606BCF590FB* G_B1_0 = NULL;
+	{
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var);
+		Func_3_t112E81BD9C60E0186076895800369606BCF590FB* L_0 = ((U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var))->___U3CU3E9__132_0;
+		Func_3_t112E81BD9C60E0186076895800369606BCF590FB* L_1 = L_0;
+		if (L_1)
+		{
+			G_B2_0 = L_1;
+			goto IL_0020;
+		}
+		G_B1_0 = L_1;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var);
+		U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3* L_2 = ((U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var))->___U3CU3E9;
+		Func_3_t112E81BD9C60E0186076895800369606BCF590FB* L_3 = (Func_3_t112E81BD9C60E0186076895800369606BCF590FB*)il2cpp_codegen_object_new(Func_3_t112E81BD9C60E0186076895800369606BCF590FB_il2cpp_TypeInfo_var);
+		Func_3__ctor_m5B9A75AB0F71A31F8F0F009E95D514DB82314D18(L_3, L_2, (intptr_t)((void*)U3CU3Ec_U3CLogicalXorU3Eb__132_0_mD0B776DA4EB8709769077198269D34AF7875BAD8_RuntimeMethod_var), NULL);
+		Func_3_t112E81BD9C60E0186076895800369606BCF590FB* L_4 = L_3;
+		((U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var))->___U3CU3E9__132_0 = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tC2C0E440A89082DA785B00F723E99A816937E9A3_il2cpp_TypeInfo_var))->___U3CU3E9__132_0), (void*)L_4);
+		G_B2_0 = L_4;
+	}
+
+IL_0020:
+	{
+		V_0 = G_B2_0;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_5 = ___0_A;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_6 = ___1_B;
+		Func_3_t112E81BD9C60E0186076895800369606BCF590FB* L_7 = V_0;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_8;
+		L_8 = ReferenceCPUOps_ApplyLogicalOperator_mEAD34540E2E1E45B67B8E7CA1EF132C62D2DD4DC(__this, L_5, L_6, L_7, NULL);
+		V_1 = L_8;
+		goto IL_002d;
+	}
+
+IL_002d:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_9 = V_1;
+		return L_9;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_LogicalNot_mFAA75A49EBE730F81A4B862D47F076D0AD87E546 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_0 = NULL;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	bool V_3 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_4 = NULL;
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_0 = ___0_X;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_1;
+		L_1 = ReferenceCPUOps_NewTensorLike_mE3067F6087FA22E7A01E136887210735B6DAE00D(__this, L_0, NULL);
+		V_0 = L_1;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_2 = V_0;
+		NullCheck(L_2);
+		int32_t L_3;
+		L_3 = Tensor_get_length_m35C7DA71ED506DB11C0626A040E8A182CA25D5CA(L_2, NULL);
+		V_1 = L_3;
+		V_2 = 0;
+		goto IL_0034;
+	}
+
+IL_0014:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_4 = V_0;
+		int32_t L_5 = V_2;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_6 = ___0_X;
+		int32_t L_7 = V_2;
+		NullCheck(L_6);
+		float L_8;
+		L_8 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_6, L_7, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		bool L_9;
+		L_9 = Convert_ToBoolean_m73A44AA68F53847BAC4B938953612587F8FBF61B(L_8, NULL);
+		float L_10;
+		L_10 = Convert_ToSingle_mDB62EDFD0197B14286A6DEA482361F6FCD101237((bool)((((int32_t)L_9) == ((int32_t)0))? 1 : 0), NULL);
+		NullCheck(L_4);
+		Tensor_set_Item_m825AF5D1FC078421906298C6662565DF5C64817E(L_4, L_5, L_10, NULL);
+		int32_t L_11 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_11, 1));
+	}
+
+IL_0034:
+	{
+		int32_t L_12 = V_2;
+		int32_t L_13 = V_1;
+		V_3 = (bool)((((int32_t)L_12) < ((int32_t)L_13))? 1 : 0);
+		bool L_14 = V_3;
+		if (L_14)
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_15 = V_0;
+		V_4 = L_15;
+		goto IL_0041;
+	}
+
+IL_0041:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_16 = V_4;
+		return L_16;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_Sign_mB482588A184E4E44EC5C74036A81D9C6F7F0C463 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, const RuntimeMethod* method) 
+{
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_0 = NULL;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	bool V_3 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_4 = NULL;
+	int32_t G_B6_0 = 0;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* G_B6_1 = NULL;
+	int32_t G_B2_0 = 0;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* G_B2_1 = NULL;
+	int32_t G_B4_0 = 0;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* G_B4_1 = NULL;
+	int32_t G_B3_0 = 0;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* G_B3_1 = NULL;
+	float G_B5_0 = 0.0f;
+	int32_t G_B5_1 = 0;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* G_B5_2 = NULL;
+	float G_B7_0 = 0.0f;
+	int32_t G_B7_1 = 0;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* G_B7_2 = NULL;
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_0 = ___0_X;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_1;
+		L_1 = ReferenceCPUOps_NewTensorLike_mE3067F6087FA22E7A01E136887210735B6DAE00D(__this, L_0, NULL);
+		V_0 = L_1;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_2 = V_0;
+		NullCheck(L_2);
+		int32_t L_3;
+		L_3 = Tensor_get_length_m35C7DA71ED506DB11C0626A040E8A182CA25D5CA(L_2, NULL);
+		V_1 = L_3;
+		V_2 = 0;
+		goto IL_004f;
+	}
+
+IL_0014:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_4 = V_0;
+		int32_t L_5 = V_2;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_6 = ___0_X;
+		int32_t L_7 = V_2;
+		NullCheck(L_6);
+		float L_8;
+		L_8 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_6, L_7, NULL);
+		if ((((float)L_8) > ((float)(0.0f))))
+		{
+			G_B6_0 = L_5;
+			G_B6_1 = L_4;
+			goto IL_0040;
+		}
+		G_B2_0 = L_5;
+		G_B2_1 = L_4;
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_9 = ___0_X;
+		int32_t L_10 = V_2;
+		NullCheck(L_9);
+		float L_11;
+		L_11 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_9, L_10, NULL);
+		if ((((float)L_11) < ((float)(0.0f))))
+		{
+			G_B4_0 = G_B2_0;
+			G_B4_1 = G_B2_1;
+			goto IL_0039;
+		}
+		G_B3_0 = G_B2_0;
+		G_B3_1 = G_B2_1;
+	}
+	{
+		G_B5_0 = (0.0f);
+		G_B5_1 = G_B3_0;
+		G_B5_2 = G_B3_1;
+		goto IL_003e;
+	}
+
+IL_0039:
+	{
+		G_B5_0 = (-1.0f);
+		G_B5_1 = G_B4_0;
+		G_B5_2 = G_B4_1;
+	}
+
+IL_003e:
+	{
+		G_B7_0 = G_B5_0;
+		G_B7_1 = G_B5_1;
+		G_B7_2 = G_B5_2;
+		goto IL_0045;
+	}
+
+IL_0040:
+	{
+		G_B7_0 = (1.0f);
+		G_B7_1 = G_B6_0;
+		G_B7_2 = G_B6_1;
+	}
+
+IL_0045:
+	{
+		NullCheck(G_B7_2);
+		Tensor_set_Item_m825AF5D1FC078421906298C6662565DF5C64817E(G_B7_2, G_B7_1, G_B7_0, NULL);
+		int32_t L_12 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_12, 1));
+	}
+
+IL_004f:
+	{
+		int32_t L_13 = V_2;
+		int32_t L_14 = V_1;
+		V_3 = (bool)((((int32_t)L_13) < ((int32_t)L_14))? 1 : 0);
+		bool L_15 = V_3;
+		if (L_15)
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_16 = V_0;
+		V_4 = L_16;
+		goto IL_005c;
+	}
+
+IL_005c:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_17 = V_4;
+		return L_17;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_Where_m8248201EE4728ADB559F4BBAA27B6A6836B75BB2 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_C, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___1_A, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___2_B, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_0 = NULL;
+	TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	float V_2 = 0.0f;
+	float V_3 = 0.0f;
+	float V_4 = 0.0f;
+	bool V_5 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_6 = NULL;
+	int32_t G_B3_0 = 0;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* G_B3_1 = NULL;
+	int32_t G_B2_0 = 0;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* G_B2_1 = NULL;
+	float G_B4_0 = 0.0f;
+	int32_t G_B4_1 = 0;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* G_B4_2 = NULL;
+	{
+		TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_0 = (TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81*)(TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81*)SZArrayNew(TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81_il2cpp_TypeInfo_var, (uint32_t)3);
+		TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_1 = L_0;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_2 = ___0_C;
+		NullCheck(L_1);
+		ArrayElementTypeCheck (L_1, L_2);
+		(L_1)->SetAt(static_cast<il2cpp_array_size_t>(0), (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*)L_2);
+		TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_3 = L_1;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_4 = ___1_A;
+		NullCheck(L_3);
+		ArrayElementTypeCheck (L_3, L_4);
+		(L_3)->SetAt(static_cast<il2cpp_array_size_t>(1), (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*)L_4);
+		TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_5 = L_3;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_6 = ___2_B;
+		NullCheck(L_5);
+		ArrayElementTypeCheck (L_5, L_6);
+		(L_5)->SetAt(static_cast<il2cpp_array_size_t>(2), (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*)L_6);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_7;
+		L_7 = ReferenceCPUOps_NewTensorLike_m2AC23001C620780970864EAB7BC88B7AD650C1D1(__this, L_5, 0, (bool)0, NULL);
+		V_0 = L_7;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_8 = V_0;
+		NullCheck(L_8);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_9;
+		L_9 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_8, NULL);
+		TensorIterator__ctor_m155A791924246F4E780FA39C05FA2E78AE8DDFAC((&V_1), L_9, 0, NULL);
+		goto IL_010b;
+	}
+
+IL_002f:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_10 = ___1_A;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_11 = ___1_A;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_12 = V_1;
+		int32_t L_13 = L_12.___d0;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_14 = V_1;
+		int32_t L_15 = L_14.___d1;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_16 = V_1;
+		int32_t L_17 = L_16.___d2;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_18 = V_1;
+		int32_t L_19 = L_18.___d3;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_20 = V_1;
+		int32_t L_21 = L_20.___d4;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_22 = V_1;
+		int32_t L_23 = L_22.___d5;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_24 = V_1;
+		int32_t L_25 = L_24.___d6;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_26 = V_1;
+		int32_t L_27 = L_26.___d7;
+		NullCheck(L_11);
+		int32_t L_28;
+		L_28 = Tensor_IndexWithBroadcast_m143CB5EAE64D94906777F9CA075F1FF0F83C5154(L_11, L_13, L_15, L_17, L_19, L_21, L_23, L_25, L_27, NULL);
+		NullCheck(L_10);
+		float L_29;
+		L_29 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_10, L_28, NULL);
+		V_2 = L_29;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_30 = ___2_B;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_31 = ___2_B;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_32 = V_1;
+		int32_t L_33 = L_32.___d0;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_34 = V_1;
+		int32_t L_35 = L_34.___d1;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_36 = V_1;
+		int32_t L_37 = L_36.___d2;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_38 = V_1;
+		int32_t L_39 = L_38.___d3;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_40 = V_1;
+		int32_t L_41 = L_40.___d4;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_42 = V_1;
+		int32_t L_43 = L_42.___d5;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_44 = V_1;
+		int32_t L_45 = L_44.___d6;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_46 = V_1;
+		int32_t L_47 = L_46.___d7;
+		NullCheck(L_31);
+		int32_t L_48;
+		L_48 = Tensor_IndexWithBroadcast_m143CB5EAE64D94906777F9CA075F1FF0F83C5154(L_31, L_33, L_35, L_37, L_39, L_41, L_43, L_45, L_47, NULL);
+		NullCheck(L_30);
+		float L_49;
+		L_49 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_30, L_48, NULL);
+		V_3 = L_49;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_50 = ___0_C;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_51 = ___0_C;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_52 = V_1;
+		int32_t L_53 = L_52.___d0;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_54 = V_1;
+		int32_t L_55 = L_54.___d1;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_56 = V_1;
+		int32_t L_57 = L_56.___d2;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_58 = V_1;
+		int32_t L_59 = L_58.___d3;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_60 = V_1;
+		int32_t L_61 = L_60.___d4;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_62 = V_1;
+		int32_t L_63 = L_62.___d5;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_64 = V_1;
+		int32_t L_65 = L_64.___d6;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_66 = V_1;
+		int32_t L_67 = L_66.___d7;
+		NullCheck(L_51);
+		int32_t L_68;
+		L_68 = Tensor_IndexWithBroadcast_m143CB5EAE64D94906777F9CA075F1FF0F83C5154(L_51, L_53, L_55, L_57, L_59, L_61, L_63, L_65, L_67, NULL);
+		NullCheck(L_50);
+		float L_69;
+		L_69 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_50, L_68, NULL);
+		V_4 = L_69;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_70 = V_0;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_71 = V_1;
+		int32_t L_72 = L_71.___index;
+		float L_73 = V_4;
+		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		bool L_74;
+		L_74 = Convert_ToBoolean_m73A44AA68F53847BAC4B938953612587F8FBF61B(L_73, NULL);
+		if (L_74)
+		{
+			G_B3_0 = L_72;
+			G_B3_1 = L_70;
+			goto IL_00fb;
+		}
+		G_B2_0 = L_72;
+		G_B2_1 = L_70;
+	}
+	{
+		float L_75 = V_3;
+		G_B4_0 = L_75;
+		G_B4_1 = G_B2_0;
+		G_B4_2 = G_B2_1;
+		goto IL_00fc;
+	}
+
+IL_00fb:
+	{
+		float L_76 = V_2;
+		G_B4_0 = L_76;
+		G_B4_1 = G_B3_0;
+		G_B4_2 = G_B3_1;
+	}
+
+IL_00fc:
+	{
+		NullCheck(G_B4_2);
+		Tensor_set_Item_m825AF5D1FC078421906298C6662565DF5C64817E(G_B4_2, G_B4_1, G_B4_0, NULL);
+		TensorIterator_Next_m3BBE90015F10C99DBD4317583E5C8696E45865B1((&V_1), NULL);
+	}
+
+IL_010b:
+	{
+		bool L_77;
+		L_77 = TensorIterator_IsValid_m35EB0AC3E815407848AFD55F95B88BF0093CC7A5((&V_1), NULL);
+		V_5 = L_77;
+		bool L_78 = V_5;
+		if (L_78)
+		{
+			goto IL_002f;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_79 = V_0;
+		V_6 = L_79;
+		goto IL_0120;
+	}
+
+IL_0120:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_80 = V_6;
+		return L_80;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_CopyAndReshape_mB3BC9D1C8C85F13291CE0D557836920310AE835C (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 ___1_shape, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_0 = NULL;
+	int32_t V_1 = 0;
+	bool V_2 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_3 = NULL;
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_0 = ___0_X;
+		NullCheck(L_0);
+		int32_t L_1;
+		L_1 = Tensor_get_length_m35C7DA71ED506DB11C0626A040E8A182CA25D5CA(L_0, NULL);
+		int32_t L_2;
+		L_2 = TensorShape_get_length_m42D935AC99F95A1C8DE6B04AEC4DB9C96EDE7608((&___1_shape), NULL);
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_AreEqual_m718BB4BD31FA3176A3A236F96BC5405EB750D6CF(L_1, L_2, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_3 = ___0_X;
+		NullCheck(L_3);
+		int32_t L_4;
+		L_4 = Tensor_get_dataType_m57109C88C5386735035BB4066BAACD68228C3AB1(L_3, NULL);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_5 = ___1_shape;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_6;
+		L_6 = ReferenceCPUOps_NewTensor_m74008D9C77785A62165EBEF61281FBB9CB42DAAF(__this, L_4, L_5, NULL);
+		V_0 = L_6;
+		V_1 = 0;
+		goto IL_0039;
+	}
+
+IL_0026:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_7 = V_0;
+		int32_t L_8 = V_1;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_9 = ___0_X;
+		int32_t L_10 = V_1;
+		NullCheck(L_9);
+		float L_11;
+		L_11 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_9, L_10, NULL);
+		NullCheck(L_7);
+		Tensor_set_Item_m825AF5D1FC078421906298C6662565DF5C64817E(L_7, L_8, L_11, NULL);
+		int32_t L_12 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_12, 1));
+	}
+
+IL_0039:
+	{
+		int32_t L_13 = V_1;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_14 = ___0_X;
+		NullCheck(L_14);
+		int32_t L_15;
+		L_15 = Tensor_get_length_m35C7DA71ED506DB11C0626A040E8A182CA25D5CA(L_14, NULL);
+		V_2 = (bool)((((int32_t)L_13) < ((int32_t)L_15))? 1 : 0);
+		bool L_16 = V_2;
+		if (L_16)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_17 = V_0;
+		V_3 = L_17;
+		goto IL_004a;
+	}
+
+IL_004a:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_18 = V_3;
+		return L_18;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_Copy_mB909BF48C5BB1A0B6DC45EFED08188183D0266F8 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE189FF4E020095B5B318626A1461DFD5F8B8410C);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_1 = NULL;
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_0 = ___0_X;
+		NullCheck(L_0);
+		RuntimeObject* L_1;
+		L_1 = Tensor_get_allocator_m4B48DE0DCE9B90635E95EE1C0C1056D36B653CE6(L_0, NULL);
+		V_0 = (bool)((!(((RuntimeObject*)(RuntimeObject*)L_1) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		bool L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_002d;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_3 = ___0_X;
+		StringCache_t19E6724546A439DC87FC72475FCFE5AD02EC3E02* L_4 = __this->___m_StringCache;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_5 = ___0_X;
+		NullCheck(L_5);
+		String_t* L_6;
+		L_6 = Tensor_get_name_mFFE192D8C6C752B333D635CE813BAAA9294F374F_inline(L_5, NULL);
+		NullCheck(L_4);
+		String_t* L_7;
+		L_7 = StringCache_Lookup_m80EE1FF42C651AF290481EDC8A58496A14CCFFB4(L_4, _stringLiteralE189FF4E020095B5B318626A1461DFD5F8B8410C, L_6, NULL);
+		NullCheck(L_3);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_8;
+		L_8 = Tensor_ShallowCopy_m13DFFFBB76E57DD9E8B57EABE6E98BEFF869BFEB(L_3, L_7, NULL);
+		V_1 = L_8;
+		goto IL_003d;
+	}
+
+IL_002d:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_9 = ___0_X;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_10 = ___0_X;
+		NullCheck(L_10);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_11;
+		L_11 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_10, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_12;
+		L_12 = VirtualFuncInvoker2< Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 >::Invoke(225, __this, L_9, L_11);
+		V_1 = L_12;
+		goto IL_003d;
+	}
+
+IL_003d:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_13 = V_1;
+		return L_13;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_Flatten_m9CB3A8A10306D254AFE2A0BD3D6E233D7A65FD71 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral50B34A4F98B75FA73BA7589AF784FC011ACD67B1);
+		s_Il2CppMethodInitialized = true;
+	}
+	TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	bool V_1 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_2 = NULL;
+	TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_0 = ___0_X;
+		NullCheck(L_0);
+		RuntimeObject* L_1;
+		L_1 = Tensor_get_allocator_m4B48DE0DCE9B90635E95EE1C0C1056D36B653CE6(L_0, NULL);
+		V_1 = (bool)((!(((RuntimeObject*)(RuntimeObject*)L_1) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		bool L_2 = V_1;
+		if (!L_2)
+		{
+			goto IL_002d;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_3 = ___0_X;
+		StringCache_t19E6724546A439DC87FC72475FCFE5AD02EC3E02* L_4 = __this->___m_StringCache;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_5 = ___0_X;
+		NullCheck(L_5);
+		String_t* L_6;
+		L_6 = Tensor_get_name_mFFE192D8C6C752B333D635CE813BAAA9294F374F_inline(L_5, NULL);
+		NullCheck(L_4);
+		String_t* L_7;
+		L_7 = StringCache_Lookup_m80EE1FF42C651AF290481EDC8A58496A14CCFFB4(L_4, _stringLiteral50B34A4F98B75FA73BA7589AF784FC011ACD67B1, L_6, NULL);
+		NullCheck(L_3);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_8;
+		L_8 = Tensor_Flatten_m2C87C9097269B973D3D7C759A2209B0BF55D7476(L_3, L_7, NULL);
+		V_2 = L_8;
+		goto IL_0047;
+	}
+
+IL_002d:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_9 = ___0_X;
+		NullCheck(L_9);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_10;
+		L_10 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_9, NULL);
+		V_3 = L_10;
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_11;
+		L_11 = TensorShape_Flatten_m071EF526832C3614F714121763E93C1951D73D79((&V_3), NULL);
+		V_0 = L_11;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_12 = ___0_X;
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_13 = V_0;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_14;
+		L_14 = VirtualFuncInvoker2< Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 >::Invoke(225, __this, L_12, L_13);
+		V_2 = L_14;
+		goto IL_0047;
+	}
+
+IL_0047:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_15 = V_2;
+		return L_15;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_Reshape_mE52E1BEBE4D5A008CF2D76D4ADE38ABA72696F98 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 ___1_newShape, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ComputeTensorData_tA37942E94AA7D2B7D35DDF8973562A7CEA327540_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GenericVarsWithReuse_t67229848B6AEB3967FFA740AB2EF2257976FEDF9_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral13B231D7682384871CE73ED7B3E82983BC4C7EEA);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	GenericVarsWithReuse_t67229848B6AEB3967FFA740AB2EF2257976FEDF9* V_1 = NULL;
+	ComputeTensorData_tA37942E94AA7D2B7D35DDF8973562A7CEA327540* V_2 = NULL;
+	bool V_3 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_4 = NULL;
+	bool G_B2_0 = false;
+	bool G_B1_0 = false;
+	int32_t G_B3_0 = 0;
+	bool G_B3_1 = false;
+	bool G_B5_0 = false;
+	bool G_B4_0 = false;
+	int32_t G_B6_0 = 0;
+	bool G_B6_1 = false;
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_0 = ___0_X;
+		NullCheck(L_0);
+		RuntimeObject* L_1;
+		L_1 = Tensor_get_allocator_m4B48DE0DCE9B90635E95EE1C0C1056D36B653CE6(L_0, NULL);
+		V_0 = (bool)((!(((RuntimeObject*)(RuntimeObject*)L_1) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		RuntimeObject* L_2 = __this->___m_Allocator;
+		V_1 = ((GenericVarsWithReuse_t67229848B6AEB3967FFA740AB2EF2257976FEDF9*)IsInstClass((RuntimeObject*)L_2, GenericVarsWithReuse_t67229848B6AEB3967FFA740AB2EF2257976FEDF9_il2cpp_TypeInfo_var));
+		bool L_3 = V_0;
+		GenericVarsWithReuse_t67229848B6AEB3967FFA740AB2EF2257976FEDF9* L_4 = V_1;
+		if (!L_4)
+		{
+			G_B2_0 = L_3;
+			goto IL_0026;
+		}
+		G_B1_0 = L_3;
+	}
+	{
+		GenericVarsWithReuse_t67229848B6AEB3967FFA740AB2EF2257976FEDF9* L_5 = V_1;
+		NullCheck(L_5);
+		bool L_6;
+		L_6 = GenericVarsWithReuse_get_layerRequiresStorage_mCF1E6873474FCD0F4E808771A1B9E7FC06B6E7A6(L_5, NULL);
+		G_B3_0 = ((((int32_t)L_6) == ((int32_t)0))? 1 : 0);
+		G_B3_1 = G_B1_0;
+		goto IL_0027;
+	}
+
+IL_0026:
+	{
+		G_B3_0 = 0;
+		G_B3_1 = G_B2_0;
+	}
+
+IL_0027:
+	{
+		V_0 = (bool)((int32_t)((int32_t)G_B3_1&G_B3_0));
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_7 = ___0_X;
+		NullCheck(L_7);
+		RuntimeObject* L_8;
+		L_8 = Tensor_get_tensorOnDevice_m3869D45C1126A5C95288140B0A9705D772322E6D(L_7, NULL);
+		V_2 = ((ComputeTensorData_tA37942E94AA7D2B7D35DDF8973562A7CEA327540*)IsInstClass((RuntimeObject*)L_8, ComputeTensorData_tA37942E94AA7D2B7D35DDF8973562A7CEA327540_il2cpp_TypeInfo_var));
+		bool L_9 = V_0;
+		ComputeTensorData_tA37942E94AA7D2B7D35DDF8973562A7CEA327540* L_10 = V_2;
+		if (!L_10)
+		{
+			G_B5_0 = L_9;
+			goto IL_0044;
+		}
+		G_B4_0 = L_9;
+	}
+	{
+		ComputeTensorData_tA37942E94AA7D2B7D35DDF8973562A7CEA327540* L_11 = V_2;
+		NullCheck(L_11);
+		int32_t L_12;
+		L_12 = ComputeTensorData_get_channelsOrder_m0EB81830CF353AD02ECF1B766BD7E3643954137D(L_11, NULL);
+		G_B6_0 = ((((int32_t)L_12) == ((int32_t)0))? 1 : 0);
+		G_B6_1 = G_B4_0;
+		goto IL_0045;
+	}
+
+IL_0044:
+	{
+		G_B6_0 = 1;
+		G_B6_1 = G_B5_0;
+	}
+
+IL_0045:
+	{
+		V_0 = (bool)((int32_t)((int32_t)G_B6_1&G_B6_0));
+		bool L_13 = V_0;
+		V_3 = L_13;
+		bool L_14 = V_3;
+		if (!L_14)
+		{
+			goto IL_006d;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_15 = ___0_X;
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_16 = ___1_newShape;
+		StringCache_t19E6724546A439DC87FC72475FCFE5AD02EC3E02* L_17 = __this->___m_StringCache;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_18 = ___0_X;
+		NullCheck(L_18);
+		String_t* L_19;
+		L_19 = Tensor_get_name_mFFE192D8C6C752B333D635CE813BAAA9294F374F_inline(L_18, NULL);
+		NullCheck(L_17);
+		String_t* L_20;
+		L_20 = StringCache_Lookup_m80EE1FF42C651AF290481EDC8A58496A14CCFFB4(L_17, _stringLiteral13B231D7682384871CE73ED7B3E82983BC4C7EEA, L_19, NULL);
+		NullCheck(L_15);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_21;
+		L_21 = Tensor_Reshape_mA4BAB390E389DD469BE918BD7698107CC35C6B55(L_15, L_16, L_20, NULL);
+		V_4 = L_21;
+		goto IL_0079;
+	}
+
+IL_006d:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_22 = ___0_X;
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_23 = ___1_newShape;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_24;
+		L_24 = VirtualFuncInvoker2< Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 >::Invoke(225, __this, L_22, L_23);
+		V_4 = L_24;
+		goto IL_0079;
+	}
+
+IL_0079:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_25 = V_4;
+		return L_25;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_Expand_m00577D390D4CDD4ADAC5657C04B05C8075DA8CAA (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 ___1_newShape, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* V_0 = NULL;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_1 = NULL;
+	int32_t V_2 = 0;
+	TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	bool V_4 = false;
+	int32_t V_5 = 0;
+	bool V_6 = false;
+	TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 V_7;
+	memset((&V_7), 0, sizeof(V_7));
+	bool V_8 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_9 = NULL;
+	int32_t G_B7_0 = 0;
+	int32_t G_B10_0 = 0;
+	{
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_0 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)SZArrayNew(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var, (uint32_t)8);
+		V_0 = L_0;
+		V_2 = 0;
+		goto IL_002b;
+	}
+
+IL_000c:
+	{
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_1 = V_0;
+		int32_t L_2 = V_2;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_3 = ___0_X;
+		NullCheck(L_3);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_4;
+		L_4 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_3, NULL);
+		V_3 = L_4;
+		int32_t L_5 = V_2;
+		int32_t L_6;
+		L_6 = TensorShape_get_Item_m046FF56D8906EA7CD9D33486F778EBBCE949B33E((&V_3), L_5, NULL);
+		int32_t L_7 = V_2;
+		int32_t L_8;
+		L_8 = TensorShape_get_Item_m046FF56D8906EA7CD9D33486F778EBBCE949B33E((&___1_newShape), L_7, NULL);
+		NullCheck(L_1);
+		(L_1)->SetAt(static_cast<il2cpp_array_size_t>(L_2), (int32_t)((int32_t)(L_6/L_8)));
+		int32_t L_9 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_9, 1));
+	}
+
+IL_002b:
+	{
+		int32_t L_10 = V_2;
+		V_4 = (bool)((((int32_t)L_10) < ((int32_t)8))? 1 : 0);
+		bool L_11 = V_4;
+		if (L_11)
+		{
+			goto IL_000c;
+		}
+	}
+	{
+		V_5 = 0;
+		goto IL_008f;
+	}
+
+IL_003a:
+	{
+		int32_t L_12 = V_5;
+		int32_t L_13;
+		L_13 = TensorShape_get_Item_m046FF56D8906EA7CD9D33486F778EBBCE949B33E((&___1_newShape), L_12, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_14 = ___0_X;
+		NullCheck(L_14);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_15;
+		L_15 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_14, NULL);
+		V_3 = L_15;
+		int32_t L_16 = V_5;
+		int32_t L_17;
+		L_17 = TensorShape_get_Item_m046FF56D8906EA7CD9D33486F778EBBCE949B33E((&V_3), L_16, NULL);
+		if ((((int32_t)L_13) == ((int32_t)L_17)))
+		{
+			goto IL_006b;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_18 = ___0_X;
+		NullCheck(L_18);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_19;
+		L_19 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_18, NULL);
+		V_3 = L_19;
+		int32_t L_20 = V_5;
+		int32_t L_21;
+		L_21 = TensorShape_get_Item_m046FF56D8906EA7CD9D33486F778EBBCE949B33E((&V_3), L_20, NULL);
+		G_B7_0 = ((((int32_t)L_21) == ((int32_t)1))? 1 : 0);
+		goto IL_006c;
+	}
+
+IL_006b:
+	{
+		G_B7_0 = 1;
+	}
+
+IL_006c:
+	{
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_IsTrue_mE42C53B7220324D1FBAFB7AE48A7D8DD7796A663((bool)G_B7_0, NULL);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_22 = V_0;
+		int32_t L_23 = V_5;
+		NullCheck(L_22);
+		int32_t L_24 = L_23;
+		int32_t L_25 = (L_22)->GetAt(static_cast<il2cpp_array_size_t>(L_24));
+		if (!L_25)
+		{
+			goto IL_0081;
+		}
+	}
+	{
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_26 = V_0;
+		int32_t L_27 = V_5;
+		NullCheck(L_26);
+		int32_t L_28 = L_27;
+		int32_t L_29 = (L_26)->GetAt(static_cast<il2cpp_array_size_t>(L_28));
+		G_B10_0 = ((((int32_t)L_29) == ((int32_t)1))? 1 : 0);
+		goto IL_0082;
+	}
+
+IL_0081:
+	{
+		G_B10_0 = 1;
+	}
+
+IL_0082:
+	{
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_IsTrue_mE42C53B7220324D1FBAFB7AE48A7D8DD7796A663((bool)G_B10_0, NULL);
+		int32_t L_30 = V_5;
+		V_5 = ((int32_t)il2cpp_codegen_add(L_30, 1));
+	}
+
+IL_008f:
+	{
+		int32_t L_31 = V_5;
+		V_6 = (bool)((((int32_t)L_31) < ((int32_t)8))? 1 : 0);
+		bool L_32 = V_6;
+		if (L_32)
+		{
+			goto IL_003a;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_33 = ___0_X;
+		NullCheck(L_33);
+		int32_t L_34;
+		L_34 = Tensor_get_dataType_m57109C88C5386735035BB4066BAACD68228C3AB1(L_33, NULL);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_35 = ___1_newShape;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_36;
+		L_36 = ReferenceCPUOps_NewTensor_m74008D9C77785A62165EBEF61281FBB9CB42DAAF(__this, L_34, L_35, NULL);
+		V_1 = L_36;
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_AreEqual_m718BB4BD31FA3176A3A236F96BC5405EB750D6CF(8, 8, NULL);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_37 = ___1_newShape;
+		TensorIterator__ctor_m155A791924246F4E780FA39C05FA2E78AE8DDFAC((&V_7), L_37, 0, NULL);
+		goto IL_0131;
+	}
+
+IL_00bb:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_38 = V_1;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_39 = V_7;
+		int32_t L_40 = L_39.___index;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_41 = ___0_X;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_42 = V_0;
+		NullCheck(L_42);
+		int32_t L_43 = 0;
+		int32_t L_44 = (L_42)->GetAt(static_cast<il2cpp_array_size_t>(L_43));
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_45 = V_7;
+		int32_t L_46 = L_45.___d0;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_47 = V_0;
+		NullCheck(L_47);
+		int32_t L_48 = 1;
+		int32_t L_49 = (L_47)->GetAt(static_cast<il2cpp_array_size_t>(L_48));
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_50 = V_7;
+		int32_t L_51 = L_50.___d1;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_52 = V_0;
+		NullCheck(L_52);
+		int32_t L_53 = 2;
+		int32_t L_54 = (L_52)->GetAt(static_cast<il2cpp_array_size_t>(L_53));
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_55 = V_7;
+		int32_t L_56 = L_55.___d2;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_57 = V_0;
+		NullCheck(L_57);
+		int32_t L_58 = 3;
+		int32_t L_59 = (L_57)->GetAt(static_cast<il2cpp_array_size_t>(L_58));
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_60 = V_7;
+		int32_t L_61 = L_60.___d3;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_62 = V_0;
+		NullCheck(L_62);
+		int32_t L_63 = 4;
+		int32_t L_64 = (L_62)->GetAt(static_cast<il2cpp_array_size_t>(L_63));
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_65 = V_7;
+		int32_t L_66 = L_65.___d4;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_67 = V_0;
+		NullCheck(L_67);
+		int32_t L_68 = 5;
+		int32_t L_69 = (L_67)->GetAt(static_cast<il2cpp_array_size_t>(L_68));
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_70 = V_7;
+		int32_t L_71 = L_70.___d5;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_72 = V_0;
+		NullCheck(L_72);
+		int32_t L_73 = 6;
+		int32_t L_74 = (L_72)->GetAt(static_cast<il2cpp_array_size_t>(L_73));
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_75 = V_7;
+		int32_t L_76 = L_75.___d6;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_77 = V_0;
+		NullCheck(L_77);
+		int32_t L_78 = 7;
+		int32_t L_79 = (L_77)->GetAt(static_cast<il2cpp_array_size_t>(L_78));
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_80 = V_7;
+		int32_t L_81 = L_80.___d7;
+		NullCheck(L_41);
+		float L_82;
+		L_82 = Tensor_get_Item_mEC07898861EE98ED01A447281200D4F26CEDA1A9(L_41, ((int32_t)il2cpp_codegen_multiply(L_44, L_46)), ((int32_t)il2cpp_codegen_multiply(L_49, L_51)), ((int32_t)il2cpp_codegen_multiply(L_54, L_56)), ((int32_t)il2cpp_codegen_multiply(L_59, L_61)), ((int32_t)il2cpp_codegen_multiply(L_64, L_66)), ((int32_t)il2cpp_codegen_multiply(L_69, L_71)), ((int32_t)il2cpp_codegen_multiply(L_74, L_76)), ((int32_t)il2cpp_codegen_multiply(L_79, L_81)), NULL);
+		NullCheck(L_38);
+		Tensor_set_Item_m825AF5D1FC078421906298C6662565DF5C64817E(L_38, L_40, L_82, NULL);
+		TensorIterator_Next_m3BBE90015F10C99DBD4317583E5C8696E45865B1((&V_7), NULL);
+	}
+
+IL_0131:
+	{
+		bool L_83;
+		L_83 = TensorIterator_IsValid_m35EB0AC3E815407848AFD55F95B88BF0093CC7A5((&V_7), NULL);
+		V_8 = L_83;
+		bool L_84 = V_8;
+		if (L_84)
+		{
+			goto IL_00bb;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_85 = V_1;
+		V_9 = L_85;
+		goto IL_0146;
+	}
+
+IL_0146:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_86 = V_9;
+		return L_86;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_Gather_m8514EE1410EEA405CC97D716BDBE5F7BC624ED66 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* ___0_tensors, int32_t ___1_axis, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_0 = NULL;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_1 = NULL;
+	TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_3 = NULL;
+	TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	int32_t V_5 = 0;
+	int32_t V_6 = 0;
+	int32_t V_7 = 0;
+	int32_t V_8 = 0;
+	int32_t V_9 = 0;
+	int32_t V_10 = 0;
+	int32_t V_11 = 0;
+	int32_t V_12 = 0;
+	bool V_13 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_14 = NULL;
+	int32_t G_B4_0 = 0;
+	int32_t G_B7_0 = 0;
+	int32_t G_B10_0 = 0;
+	int32_t G_B13_0 = 0;
+	int32_t G_B16_0 = 0;
+	int32_t G_B19_0 = 0;
+	int32_t G_B22_0 = 0;
+	int32_t G_B25_0 = 0;
+	{
+		TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_0 = ___0_tensors;
+		NullCheck(L_0);
+		int32_t L_1 = 0;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_2 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_1));
+		V_0 = L_2;
+		TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_3 = ___0_tensors;
+		NullCheck(L_3);
+		int32_t L_4 = 1;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_5 = (L_3)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
+		V_1 = L_5;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_6 = V_0;
+		NullCheck(L_6);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_7;
+		L_7 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_6, NULL);
+		V_2 = L_7;
+		int32_t L_8 = ___1_axis;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_9 = V_1;
+		NullCheck(L_9);
+		int32_t L_10;
+		L_10 = Tensor_get_length_m35C7DA71ED506DB11C0626A040E8A182CA25D5CA(L_9, NULL);
+		TensorShape_set_Item_m3E04172058C8855DBEE7B00941B909FF48D824A9((&V_2), L_8, L_10, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_11 = V_0;
+		NullCheck(L_11);
+		int32_t L_12;
+		L_12 = Tensor_get_dataType_m57109C88C5386735035BB4066BAACD68228C3AB1(L_11, NULL);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_13 = V_2;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_14;
+		L_14 = ReferenceCPUOps_NewTensor_m74008D9C77785A62165EBEF61281FBB9CB42DAAF(__this, L_12, L_13, NULL);
+		V_3 = L_14;
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_AreEqual_m718BB4BD31FA3176A3A236F96BC5405EB750D6CF(8, 8, NULL);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_15 = V_2;
+		TensorIterator__ctor_m155A791924246F4E780FA39C05FA2E78AE8DDFAC((&V_4), L_15, 0, NULL);
+		goto IL_0158;
+	}
+
+IL_0043:
+	{
+		int32_t L_16 = ___1_axis;
+		if (!L_16)
+		{
+			goto IL_0050;
+		}
+	}
+	{
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_17 = V_4;
+		int32_t L_18 = L_17.___d0;
+		G_B4_0 = L_18;
+		goto IL_005e;
+	}
+
+IL_0050:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_19 = V_1;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_20 = V_4;
+		int32_t L_21 = L_20.___d0;
+		NullCheck(L_19);
+		float L_22;
+		L_22 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_19, L_21, NULL);
+		G_B4_0 = il2cpp_codegen_cast_double_to_int<int32_t>(L_22);
+	}
+
+IL_005e:
+	{
+		V_5 = G_B4_0;
+		int32_t L_23 = ___1_axis;
+		if ((((int32_t)L_23) == ((int32_t)1)))
+		{
+			goto IL_006d;
+		}
+	}
+	{
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_24 = V_4;
+		int32_t L_25 = L_24.___d1;
+		G_B7_0 = L_25;
+		goto IL_007b;
+	}
+
+IL_006d:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_26 = V_1;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_27 = V_4;
+		int32_t L_28 = L_27.___d1;
+		NullCheck(L_26);
+		float L_29;
+		L_29 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_26, L_28, NULL);
+		G_B7_0 = il2cpp_codegen_cast_double_to_int<int32_t>(L_29);
+	}
+
+IL_007b:
+	{
+		V_6 = G_B7_0;
+		int32_t L_30 = ___1_axis;
+		if ((((int32_t)L_30) == ((int32_t)2)))
+		{
+			goto IL_008a;
+		}
+	}
+	{
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_31 = V_4;
+		int32_t L_32 = L_31.___d2;
+		G_B10_0 = L_32;
+		goto IL_0098;
+	}
+
+IL_008a:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_33 = V_1;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_34 = V_4;
+		int32_t L_35 = L_34.___d2;
+		NullCheck(L_33);
+		float L_36;
+		L_36 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_33, L_35, NULL);
+		G_B10_0 = il2cpp_codegen_cast_double_to_int<int32_t>(L_36);
+	}
+
+IL_0098:
+	{
+		V_7 = G_B10_0;
+		int32_t L_37 = ___1_axis;
+		if ((((int32_t)L_37) == ((int32_t)3)))
+		{
+			goto IL_00a7;
+		}
+	}
+	{
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_38 = V_4;
+		int32_t L_39 = L_38.___d3;
+		G_B13_0 = L_39;
+		goto IL_00b5;
+	}
+
+IL_00a7:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_40 = V_1;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_41 = V_4;
+		int32_t L_42 = L_41.___d3;
+		NullCheck(L_40);
+		float L_43;
+		L_43 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_40, L_42, NULL);
+		G_B13_0 = il2cpp_codegen_cast_double_to_int<int32_t>(L_43);
+	}
+
+IL_00b5:
+	{
+		V_8 = G_B13_0;
+		int32_t L_44 = ___1_axis;
+		if ((((int32_t)L_44) == ((int32_t)4)))
+		{
+			goto IL_00c4;
+		}
+	}
+	{
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_45 = V_4;
+		int32_t L_46 = L_45.___d4;
+		G_B16_0 = L_46;
+		goto IL_00d2;
+	}
+
+IL_00c4:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_47 = V_1;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_48 = V_4;
+		int32_t L_49 = L_48.___d4;
+		NullCheck(L_47);
+		float L_50;
+		L_50 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_47, L_49, NULL);
+		G_B16_0 = il2cpp_codegen_cast_double_to_int<int32_t>(L_50);
+	}
+
+IL_00d2:
+	{
+		V_9 = G_B16_0;
+		int32_t L_51 = ___1_axis;
+		if ((((int32_t)L_51) == ((int32_t)5)))
+		{
+			goto IL_00e1;
+		}
+	}
+	{
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_52 = V_4;
+		int32_t L_53 = L_52.___d5;
+		G_B19_0 = L_53;
+		goto IL_00ef;
+	}
+
+IL_00e1:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_54 = V_1;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_55 = V_4;
+		int32_t L_56 = L_55.___d5;
+		NullCheck(L_54);
+		float L_57;
+		L_57 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_54, L_56, NULL);
+		G_B19_0 = il2cpp_codegen_cast_double_to_int<int32_t>(L_57);
+	}
+
+IL_00ef:
+	{
+		V_10 = G_B19_0;
+		int32_t L_58 = ___1_axis;
+		if ((((int32_t)L_58) == ((int32_t)6)))
+		{
+			goto IL_00fe;
+		}
+	}
+	{
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_59 = V_4;
+		int32_t L_60 = L_59.___d6;
+		G_B22_0 = L_60;
+		goto IL_010c;
+	}
+
+IL_00fe:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_61 = V_1;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_62 = V_4;
+		int32_t L_63 = L_62.___d6;
+		NullCheck(L_61);
+		float L_64;
+		L_64 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_61, L_63, NULL);
+		G_B22_0 = il2cpp_codegen_cast_double_to_int<int32_t>(L_64);
+	}
+
+IL_010c:
+	{
+		V_11 = G_B22_0;
+		int32_t L_65 = ___1_axis;
+		if ((((int32_t)L_65) == ((int32_t)7)))
+		{
+			goto IL_011b;
+		}
+	}
+	{
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_66 = V_4;
+		int32_t L_67 = L_66.___d7;
+		G_B25_0 = L_67;
+		goto IL_0129;
+	}
+
+IL_011b:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_68 = V_1;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_69 = V_4;
+		int32_t L_70 = L_69.___d7;
+		NullCheck(L_68);
+		float L_71;
+		L_71 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_68, L_70, NULL);
+		G_B25_0 = il2cpp_codegen_cast_double_to_int<int32_t>(L_71);
+	}
+
+IL_0129:
+	{
+		V_12 = G_B25_0;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_72 = V_3;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_73 = V_4;
+		int32_t L_74 = L_73.___index;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_75 = V_0;
+		int32_t L_76 = V_5;
+		int32_t L_77 = V_6;
+		int32_t L_78 = V_7;
+		int32_t L_79 = V_8;
+		int32_t L_80 = V_9;
+		int32_t L_81 = V_10;
+		int32_t L_82 = V_11;
+		int32_t L_83 = V_12;
+		NullCheck(L_75);
+		float L_84;
+		L_84 = Tensor_get_Item_mEC07898861EE98ED01A447281200D4F26CEDA1A9(L_75, L_76, L_77, L_78, L_79, L_80, L_81, L_82, L_83, NULL);
+		NullCheck(L_72);
+		Tensor_set_Item_m825AF5D1FC078421906298C6662565DF5C64817E(L_72, L_74, L_84, NULL);
+		TensorIterator_Next_m3BBE90015F10C99DBD4317583E5C8696E45865B1((&V_4), NULL);
+	}
+
+IL_0158:
+	{
+		bool L_85;
+		L_85 = TensorIterator_IsValid_m35EB0AC3E815407848AFD55F95B88BF0093CC7A5((&V_4), NULL);
+		V_13 = L_85;
+		bool L_86 = V_13;
+		if (L_86)
+		{
+			goto IL_0043;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_87 = V_3;
+		V_14 = L_87;
+		goto IL_016d;
+	}
+
+IL_016d:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_88 = V_14;
+		return L_88;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_ScatterND_m61609DFE23804E9BF99602ED4E8FE31DF80ED278 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___1_indices, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___2_updates, int32_t ___3_reduction, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_1 = NULL;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	int32_t V_4 = 0;
+	int32_t V_5 = 0;
+	float V_6 = 0.0f;
+	int32_t V_7 = 0;
+	int32_t V_8 = 0;
+	float V_9 = 0.0f;
+	int32_t V_10 = 0;
+	bool V_11 = false;
+	bool V_12 = false;
+	bool V_13 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_14 = NULL;
+	int32_t V_15 = 0;
+	bool V_16 = false;
+	bool V_17 = false;
+	bool V_18 = false;
+	bool V_19 = false;
+	bool V_20 = false;
+	bool V_21 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_22 = NULL;
+	int32_t G_B3_0 = 0;
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_0 = ___1_indices;
+		NullCheck(L_0);
+		int32_t L_1;
+		L_1 = Tensor_get_batch_m6CD93DCCD32D6A47FDEDEBFF16FF70AC9C586DD9(L_0, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_2 = ___0_X;
+		NullCheck(L_2);
+		int32_t L_3;
+		L_3 = Tensor_get_batch_m6CD93DCCD32D6A47FDEDEBFF16FF70AC9C586DD9(L_2, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_IsTrue_mE42C53B7220324D1FBAFB7AE48A7D8DD7796A663((bool)((((int32_t)L_1) == ((int32_t)L_3))? 1 : 0), NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_4 = ___2_updates;
+		NullCheck(L_4);
+		int32_t L_5;
+		L_5 = Tensor_get_width_m9E948C3769B41324EB12D54CE6E2E51DC18DC488(L_4, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_6 = ___0_X;
+		NullCheck(L_6);
+		int32_t L_7;
+		L_7 = Tensor_get_width_m9E948C3769B41324EB12D54CE6E2E51DC18DC488(L_6, NULL);
+		if ((!(((uint32_t)L_5) == ((uint32_t)L_7))))
+		{
+			goto IL_0033;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_8 = ___2_updates;
+		NullCheck(L_8);
+		int32_t L_9;
+		L_9 = Tensor_get_height_m0477A83109747FF1DA788569602DA2293D762AC1(L_8, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_10 = ___0_X;
+		NullCheck(L_10);
+		int32_t L_11;
+		L_11 = Tensor_get_height_m0477A83109747FF1DA788569602DA2293D762AC1(L_10, NULL);
+		G_B3_0 = ((((int32_t)L_9) == ((int32_t)L_11))? 1 : 0);
+		goto IL_0034;
+	}
+
+IL_0033:
+	{
+		G_B3_0 = 0;
+	}
+
+IL_0034:
+	{
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_IsTrue_mE42C53B7220324D1FBAFB7AE48A7D8DD7796A663((bool)G_B3_0, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_12 = ___0_X;
+		NullCheck(L_12);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_13;
+		L_13 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_12, NULL);
+		V_0 = L_13;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_14 = ___0_X;
+		NullCheck(L_14);
+		int32_t L_15;
+		L_15 = Tensor_get_dataType_m57109C88C5386735035BB4066BAACD68228C3AB1(L_14, NULL);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_16 = V_0;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_17;
+		L_17 = ReferenceCPUOps_NewTensor_m74008D9C77785A62165EBEF61281FBB9CB42DAAF(__this, L_15, L_16, NULL);
+		V_1 = L_17;
+		V_2 = 0;
+		goto IL_01c2;
+	}
+
+IL_0056:
+	{
+		V_3 = 0;
+		goto IL_01ac;
+	}
+
+IL_005d:
+	{
+		V_4 = 0;
+		goto IL_0195;
+	}
+
+IL_0065:
+	{
+		V_5 = 0;
+		goto IL_017c;
+	}
+
+IL_006d:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_18 = ___0_X;
+		int32_t L_19 = V_2;
+		int32_t L_20 = V_3;
+		int32_t L_21 = V_4;
+		int32_t L_22 = V_5;
+		NullCheck(L_18);
+		float L_23;
+		L_23 = Tensor_get_Item_mA53C387CBDB9F0EA0D069DD7BFC45970172290C5(L_18, L_19, L_20, L_21, L_22, NULL);
+		V_6 = L_23;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_24 = V_1;
+		int32_t L_25 = V_2;
+		int32_t L_26 = V_3;
+		int32_t L_27 = V_4;
+		int32_t L_28 = V_5;
+		float L_29 = V_6;
+		NullCheck(L_24);
+		Tensor_set_Item_m7EF9E435A07905132E0C8C33A6C5A90E1E22BF58(L_24, L_25, L_26, L_27, L_28, L_29, NULL);
+		V_7 = 0;
+		goto IL_0162;
+	}
+
+IL_0093:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_30 = ___1_indices;
+		int32_t L_31 = V_7;
+		NullCheck(L_30);
+		float L_32;
+		L_32 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_30, L_31, NULL);
+		V_8 = il2cpp_codegen_cast_double_to_int<int32_t>(L_32);
+		int32_t L_33 = V_5;
+		int32_t L_34 = V_8;
+		V_11 = (bool)((((int32_t)((((int32_t)L_33) == ((int32_t)L_34))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_35 = V_11;
+		if (!L_35)
+		{
+			goto IL_00b3;
+		}
+	}
+	{
+		goto IL_015c;
+	}
+
+IL_00b3:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_36 = ___2_updates;
+		int32_t L_37 = V_2;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_38 = ___2_updates;
+		NullCheck(L_38);
+		int32_t L_39;
+		L_39 = Tensor_get_batch_m6CD93DCCD32D6A47FDEDEBFF16FF70AC9C586DD9(L_38, NULL);
+		int32_t L_40 = V_3;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_41 = ___2_updates;
+		NullCheck(L_41);
+		int32_t L_42;
+		L_42 = Tensor_get_height_m0477A83109747FF1DA788569602DA2293D762AC1(L_41, NULL);
+		int32_t L_43 = V_4;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_44 = ___2_updates;
+		NullCheck(L_44);
+		int32_t L_45;
+		L_45 = Tensor_get_width_m9E948C3769B41324EB12D54CE6E2E51DC18DC488(L_44, NULL);
+		int32_t L_46 = V_7;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_47 = ___2_updates;
+		NullCheck(L_47);
+		int32_t L_48;
+		L_48 = Tensor_get_channels_m9DA46CF71B1C47E059EA3417C6A652E1233B5D04(L_47, NULL);
+		NullCheck(L_36);
+		float L_49;
+		L_49 = Tensor_get_Item_mA53C387CBDB9F0EA0D069DD7BFC45970172290C5(L_36, ((int32_t)(L_37%L_39)), ((int32_t)(L_40%L_42)), ((int32_t)(L_43%L_45)), ((int32_t)(L_46%L_48)), NULL);
+		V_9 = L_49;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_50 = V_1;
+		int32_t L_51 = V_2;
+		int32_t L_52 = V_3;
+		int32_t L_53 = V_4;
+		int32_t L_54 = V_8;
+		NullCheck(L_50);
+		int32_t L_55;
+		L_55 = Tensor_Index_m9B79771242BEBFD7DABE460CA621983475E1F40E(L_50, L_51, L_52, L_53, L_54, NULL);
+		V_10 = L_55;
+		int32_t L_56 = ___3_reduction;
+		V_12 = (bool)((((int32_t)L_56) == ((int32_t)0))? 1 : 0);
+		bool L_57 = V_12;
+		if (!L_57)
+		{
+			goto IL_0105;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_58 = V_1;
+		int32_t L_59 = V_10;
+		float L_60 = V_9;
+		NullCheck(L_58);
+		Tensor_set_Item_m825AF5D1FC078421906298C6662565DF5C64817E(L_58, L_59, L_60, NULL);
+		goto IL_015b;
+	}
+
+IL_0105:
+	{
+		int32_t L_61 = ___3_reduction;
+		V_13 = (bool)((((int32_t)L_61) == ((int32_t)1))? 1 : 0);
+		bool L_62 = V_13;
+		if (!L_62)
+		{
+			goto IL_0131;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_63 = V_1;
+		V_14 = L_63;
+		int32_t L_64 = V_10;
+		V_15 = L_64;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_65 = V_14;
+		int32_t L_66 = V_15;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_67 = V_14;
+		int32_t L_68 = V_15;
+		NullCheck(L_67);
+		float L_69;
+		L_69 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_67, L_68, NULL);
+		float L_70 = V_9;
+		NullCheck(L_65);
+		Tensor_set_Item_m825AF5D1FC078421906298C6662565DF5C64817E(L_65, L_66, ((float)il2cpp_codegen_add(L_69, L_70)), NULL);
+		goto IL_015b;
+	}
+
+IL_0131:
+	{
+		int32_t L_71 = ___3_reduction;
+		V_16 = (bool)((((int32_t)L_71) == ((int32_t)2))? 1 : 0);
+		bool L_72 = V_16;
+		if (!L_72)
+		{
+			goto IL_015b;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_73 = V_1;
+		V_14 = L_73;
+		int32_t L_74 = V_10;
+		V_15 = L_74;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_75 = V_14;
+		int32_t L_76 = V_15;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_77 = V_14;
+		int32_t L_78 = V_15;
+		NullCheck(L_77);
+		float L_79;
+		L_79 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_77, L_78, NULL);
+		float L_80 = V_9;
+		NullCheck(L_75);
+		Tensor_set_Item_m825AF5D1FC078421906298C6662565DF5C64817E(L_75, L_76, ((float)il2cpp_codegen_multiply(L_79, L_80)), NULL);
+	}
+
+IL_015b:
+	{
+	}
+
+IL_015c:
+	{
+		int32_t L_81 = V_7;
+		V_7 = ((int32_t)il2cpp_codegen_add(L_81, 1));
+	}
+
+IL_0162:
+	{
+		int32_t L_82 = V_7;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_83 = ___1_indices;
+		NullCheck(L_83);
+		int32_t L_84;
+		L_84 = Tensor_get_flatWidth_m7B9AECCB1EF9799E625DD86147A2A3F92F440CC5(L_83, NULL);
+		V_17 = (bool)((((int32_t)L_82) < ((int32_t)L_84))? 1 : 0);
+		bool L_85 = V_17;
+		if (L_85)
+		{
+			goto IL_0093;
+		}
+	}
+	{
+		int32_t L_86 = V_5;
+		V_5 = ((int32_t)il2cpp_codegen_add(L_86, 1));
+	}
+
+IL_017c:
+	{
+		int32_t L_87 = V_5;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_88 = V_1;
+		NullCheck(L_88);
+		int32_t L_89;
+		L_89 = Tensor_get_channels_m9DA46CF71B1C47E059EA3417C6A652E1233B5D04(L_88, NULL);
+		V_18 = (bool)((((int32_t)L_87) < ((int32_t)L_89))? 1 : 0);
+		bool L_90 = V_18;
+		if (L_90)
+		{
+			goto IL_006d;
+		}
+	}
+	{
+		int32_t L_91 = V_4;
+		V_4 = ((int32_t)il2cpp_codegen_add(L_91, 1));
+	}
+
+IL_0195:
+	{
+		int32_t L_92 = V_4;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_93 = V_1;
+		NullCheck(L_93);
+		int32_t L_94;
+		L_94 = Tensor_get_width_m9E948C3769B41324EB12D54CE6E2E51DC18DC488(L_93, NULL);
+		V_19 = (bool)((((int32_t)L_92) < ((int32_t)L_94))? 1 : 0);
+		bool L_95 = V_19;
+		if (L_95)
+		{
+			goto IL_0065;
+		}
+	}
+	{
+		int32_t L_96 = V_3;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_96, 1));
+	}
+
+IL_01ac:
+	{
+		int32_t L_97 = V_3;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_98 = V_1;
+		NullCheck(L_98);
+		int32_t L_99;
+		L_99 = Tensor_get_height_m0477A83109747FF1DA788569602DA2293D762AC1(L_98, NULL);
+		V_20 = (bool)((((int32_t)L_97) < ((int32_t)L_99))? 1 : 0);
+		bool L_100 = V_20;
+		if (L_100)
+		{
+			goto IL_005d;
+		}
+	}
+	{
+		int32_t L_101 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_101, 1));
+	}
+
+IL_01c2:
+	{
+		int32_t L_102 = V_2;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_103 = V_1;
+		NullCheck(L_103);
+		int32_t L_104;
+		L_104 = Tensor_get_batch_m6CD93DCCD32D6A47FDEDEBFF16FF70AC9C586DD9(L_103, NULL);
+		V_21 = (bool)((((int32_t)L_102) < ((int32_t)L_104))? 1 : 0);
+		bool L_105 = V_21;
+		if (L_105)
+		{
+			goto IL_0056;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_106 = V_1;
+		V_22 = L_106;
+		goto IL_01d9;
+	}
+
+IL_01d9:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_107 = V_22;
+		return L_107;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_NonMaxSuppression_mE9E39D3F80D2FEBD4934550BDBB61D99940FFE0D (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* ___0_tensors, int32_t ___1_maxOutputBoxesPerClass, float ___2_iouThreshold, float ___3_scoreThreshold, int32_t ___4_centerPointBox, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerable_Any_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m1F745C2E29AD7260B441065DDB7957BC7090693C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_Dispose_mA052BFC7D9C120BE726EFFA7FF5B9C4F76910699_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_MoveNext_mA007B24B08FDEC0C997DC7296F133A7F127B12C6_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_get_Current_m8A8BF612D863FA9E7319E23A81F02181F66B51E1_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_AddRange_m176E3F9AEF07B831234D1D461309BEDCCB415464_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_m2F86E252D086E288E02FA1C830B7E86C0A431E51_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_m716377944B1E88CBB1B269AA9CF38C525A41D367_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Clear_m6CD2E5AAE6552A27AECCC57936767B4DCFC902B1_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Clear_m8DD05D1390E2EDB26FCFD9F6E30A9CFECBFCB526_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Clear_mF6795DE5F49C1D0B91D6A0955F448B22970D67A9_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_GetEnumerator_m9629AB804337109F506FAB180D7D94604F46CEB5_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_RemoveAt_m02AAC9739BBFB220DD397843A7825154D07F2C93_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_RemoveAt_m76C4CDACF47BA529BAFADFC8D5E13DB9587F4004_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1__ctor_m30DD6F0F8DFBA9856BF7220A3CDB1C89ECEC0D98_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1__ctor_m7734609AB0CE32B017F3FBC89E3A0D35323A5015_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1__ctor_mC29D3D824786832A31096310B3B3016B8B42B802_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Count_m545762F67009314D9C63DD209B42FFF950569B05_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Count_mD67F5478F4F639E87639CD28E2E5874679116DB2_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_m63FD20C67694792BD3237CE27670FD94DF753185_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_mD99081BEFA1AB3526715F489192B0F7F596C183D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_mFE556F47C4CD09EAC6C898EF39D4A8EC112CFC50_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_t264DA9C475A0E3CF57148457209560CF2E2B6F27_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t82B4091189C4C589DBBE88730C3BC7A9CF700151____57BFF0102124E656FC853E9B99CCBD1F69009EFD41875725308CB212E246A77E_FieldInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ValueTuple_3__ctor_m0D7E698F23721325245996D0B8DED1C102559F60_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_0 = NULL;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_1 = NULL;
+	int32_t V_2 = 0;
+	List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* V_3 = NULL;
+	List_1_t264DA9C475A0E3CF57148457209560CF2E2B6F27* V_4 = NULL;
+	List_1_t264DA9C475A0E3CF57148457209560CF2E2B6F27* V_5 = NULL;
+	List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* V_6 = NULL;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_7 = NULL;
+	int32_t V_8 = 0;
+	int32_t V_9 = 0;
+	int32_t V_10 = 0;
+	float V_11 = 0.0f;
+	bool V_12 = false;
+	bool V_13 = false;
+	float V_14 = 0.0f;
+	int32_t V_15 = 0;
+	int32_t V_16 = 0;
+	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D V_17;
+	memset((&V_17), 0, sizeof(V_17));
+	bool V_18 = false;
+	int32_t V_19 = 0;
+	float V_20 = 0.0f;
+	bool V_21 = false;
+	bool V_22 = false;
+	Enumerator_t6C2C3126C98F6470FE4A695C9CEAE34CC520EA9C V_23;
+	memset((&V_23), 0, sizeof(V_23));
+	int32_t V_24 = 0;
+	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D V_25;
+	memset((&V_25), 0, sizeof(V_25));
+	bool V_26 = false;
+	bool V_27 = false;
+	bool V_28 = false;
+	bool V_29 = false;
+	bool V_30 = false;
+	bool V_31 = false;
+	int32_t V_32 = 0;
+	int32_t V_33 = 0;
+	int32_t V_34 = 0;
+	int32_t V_35 = 0;
+	bool V_36 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_37 = NULL;
+	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D G_B16_0;
+	memset((&G_B16_0), 0, sizeof(G_B16_0));
+	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D G_B21_0;
+	memset((&G_B21_0), 0, sizeof(G_B21_0));
+	int32_t G_B24_0 = 0;
+	int32_t G_B36_0 = 0;
+	{
+		TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_0 = ___0_tensors;
+		NullCheck(L_0);
+		int32_t L_1 = 0;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_2 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_1));
+		V_0 = L_2;
+		TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_3 = ___0_tensors;
+		NullCheck(L_3);
+		int32_t L_4 = 1;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_5 = (L_3)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
+		V_1 = L_5;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_6 = V_0;
+		NullCheck(L_6);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_7;
+		L_7 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_6, NULL);
+		bool L_8;
+		L_8 = TensorExtensions_Is4D_m1BB4A7DABDDBDB4046C16B6833336A64CD5A0C86(L_7, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_IsTrue_mE42C53B7220324D1FBAFB7AE48A7D8DD7796A663(L_8, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_9 = V_1;
+		NullCheck(L_9);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_10;
+		L_10 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_9, NULL);
+		bool L_11;
+		L_11 = TensorExtensions_Is4D_m1BB4A7DABDDBDB4046C16B6833336A64CD5A0C86(L_10, NULL);
+		Assert_IsTrue_mE42C53B7220324D1FBAFB7AE48A7D8DD7796A663(L_11, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_12 = V_0;
+		NullCheck(L_12);
+		int32_t L_13;
+		L_13 = Tensor_get_channels_m9DA46CF71B1C47E059EA3417C6A652E1233B5D04(L_12, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_14 = V_1;
+		NullCheck(L_14);
+		int32_t L_15;
+		L_15 = Tensor_get_width_m9E948C3769B41324EB12D54CE6E2E51DC18DC488(L_14, NULL);
+		int32_t L_16;
+		L_16 = Mathf_Min_m888083F74FF5655778F0403BB5E9608BEFDEA8CB_inline(L_13, L_15, NULL);
+		V_2 = L_16;
+		int32_t L_17 = V_2;
+		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_18 = (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73*)il2cpp_codegen_object_new(List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73_il2cpp_TypeInfo_var);
+		List_1__ctor_m30DD6F0F8DFBA9856BF7220A3CDB1C89ECEC0D98(L_18, L_17, List_1__ctor_m30DD6F0F8DFBA9856BF7220A3CDB1C89ECEC0D98_RuntimeMethod_var);
+		V_3 = L_18;
+		List_1_t264DA9C475A0E3CF57148457209560CF2E2B6F27* L_19 = (List_1_t264DA9C475A0E3CF57148457209560CF2E2B6F27*)il2cpp_codegen_object_new(List_1_t264DA9C475A0E3CF57148457209560CF2E2B6F27_il2cpp_TypeInfo_var);
+		List_1__ctor_m7734609AB0CE32B017F3FBC89E3A0D35323A5015(L_19, List_1__ctor_m7734609AB0CE32B017F3FBC89E3A0D35323A5015_RuntimeMethod_var);
+		V_4 = L_19;
+		List_1_t264DA9C475A0E3CF57148457209560CF2E2B6F27* L_20 = (List_1_t264DA9C475A0E3CF57148457209560CF2E2B6F27*)il2cpp_codegen_object_new(List_1_t264DA9C475A0E3CF57148457209560CF2E2B6F27_il2cpp_TypeInfo_var);
+		List_1__ctor_m7734609AB0CE32B017F3FBC89E3A0D35323A5015(L_20, List_1__ctor_m7734609AB0CE32B017F3FBC89E3A0D35323A5015_RuntimeMethod_var);
+		V_5 = L_20;
+		List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* L_21 = (List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918*)il2cpp_codegen_object_new(List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918_il2cpp_TypeInfo_var);
+		List_1__ctor_mC29D3D824786832A31096310B3B3016B8B42B802(L_21, List_1__ctor_mC29D3D824786832A31096310B3B3016B8B42B802_RuntimeMethod_var);
+		V_6 = L_21;
+		V_8 = 0;
+		goto IL_0232;
+	}
+
+IL_0061:
+	{
+		V_9 = 0;
+		goto IL_0218;
+	}
+
+IL_006a:
+	{
+		List_1_t264DA9C475A0E3CF57148457209560CF2E2B6F27* L_22 = V_5;
+		NullCheck(L_22);
+		List_1_Clear_m8DD05D1390E2EDB26FCFD9F6E30A9CFECBFCB526_inline(L_22, List_1_Clear_m8DD05D1390E2EDB26FCFD9F6E30A9CFECBFCB526_RuntimeMethod_var);
+		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_23 = V_3;
+		NullCheck(L_23);
+		List_1_Clear_mF6795DE5F49C1D0B91D6A0955F448B22970D67A9_inline(L_23, List_1_Clear_mF6795DE5F49C1D0B91D6A0955F448B22970D67A9_RuntimeMethod_var);
+		List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* L_24 = V_6;
+		NullCheck(L_24);
+		List_1_Clear_m6CD2E5AAE6552A27AECCC57936767B4DCFC902B1_inline(L_24, List_1_Clear_m6CD2E5AAE6552A27AECCC57936767B4DCFC902B1_RuntimeMethod_var);
+		V_10 = 0;
+		goto IL_00bf;
+	}
+
+IL_0087:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_25 = V_1;
+		int32_t L_26 = V_8;
+		int32_t L_27 = V_10;
+		int32_t L_28 = V_9;
+		NullCheck(L_25);
+		float L_29;
+		L_29 = Tensor_get_Item_mA53C387CBDB9F0EA0D069DD7BFC45970172290C5(L_25, L_26, 0, L_27, L_28, NULL);
+		V_11 = L_29;
+		float L_30 = V_11;
+		float L_31 = ___3_scoreThreshold;
+		V_12 = (bool)((((float)L_30) > ((float)L_31))? 1 : 0);
+		bool L_32 = V_12;
+		if (!L_32)
+		{
+			goto IL_00b8;
+		}
+	}
+	{
+		List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* L_33 = V_6;
+		float L_34 = V_11;
+		NullCheck(L_33);
+		List_1_Add_m2F86E252D086E288E02FA1C830B7E86C0A431E51_inline(L_33, L_34, List_1_Add_m2F86E252D086E288E02FA1C830B7E86C0A431E51_RuntimeMethod_var);
+		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_35 = V_3;
+		int32_t L_36 = V_10;
+		NullCheck(L_35);
+		List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_inline(L_35, L_36, List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_RuntimeMethod_var);
+	}
+
+IL_00b8:
+	{
+		int32_t L_37 = V_10;
+		V_10 = ((int32_t)il2cpp_codegen_add(L_37, 1));
+	}
+
+IL_00bf:
+	{
+		int32_t L_38 = V_10;
+		int32_t L_39 = V_2;
+		V_13 = (bool)((((int32_t)L_38) < ((int32_t)L_39))? 1 : 0);
+		bool L_40 = V_13;
+		if (L_40)
+		{
+			goto IL_0087;
+		}
+	}
+	{
+		goto IL_01e9;
+	}
+
+IL_00cf:
+	{
+		V_14 = (-(std::numeric_limits<float>::max)());
+		V_15 = 0;
+		V_19 = 0;
+		goto IL_0108;
+	}
+
+IL_00df:
+	{
+		List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* L_41 = V_6;
+		int32_t L_42 = V_19;
+		NullCheck(L_41);
+		float L_43;
+		L_43 = List_1_get_Item_mFE556F47C4CD09EAC6C898EF39D4A8EC112CFC50(L_41, L_42, List_1_get_Item_mFE556F47C4CD09EAC6C898EF39D4A8EC112CFC50_RuntimeMethod_var);
+		V_20 = L_43;
+		float L_44 = V_20;
+		float L_45 = V_14;
+		V_21 = (bool)((((float)L_44) > ((float)L_45))? 1 : 0);
+		bool L_46 = V_21;
+		if (!L_46)
+		{
+			goto IL_0101;
+		}
+	}
+	{
+		float L_47 = V_20;
+		V_14 = L_47;
+		int32_t L_48 = V_19;
+		V_15 = L_48;
+	}
+
+IL_0101:
+	{
+		int32_t L_49 = V_19;
+		V_19 = ((int32_t)il2cpp_codegen_add(L_49, 1));
+	}
+
+IL_0108:
+	{
+		int32_t L_50 = V_19;
+		List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* L_51 = V_6;
+		NullCheck(L_51);
+		int32_t L_52;
+		L_52 = List_1_get_Count_m545762F67009314D9C63DD209B42FFF950569B05_inline(L_51, List_1_get_Count_m545762F67009314D9C63DD209B42FFF950569B05_RuntimeMethod_var);
+		V_22 = (bool)((((int32_t)L_50) < ((int32_t)L_52))? 1 : 0);
+		bool L_53 = V_22;
+		if (L_53)
+		{
+			goto IL_00df;
+		}
+	}
+	{
+		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_54 = V_3;
+		int32_t L_55 = V_15;
+		NullCheck(L_54);
+		int32_t L_56;
+		L_56 = List_1_get_Item_mD99081BEFA1AB3526715F489192B0F7F596C183D(L_54, L_55, List_1_get_Item_mD99081BEFA1AB3526715F489192B0F7F596C183D_RuntimeMethod_var);
+		V_16 = L_56;
+		int32_t L_57 = ___4_centerPointBox;
+		if (!L_57)
+		{
+			goto IL_0133;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_58 = V_0;
+		int32_t L_59 = V_8;
+		int32_t L_60 = V_16;
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_61;
+		L_61 = ReferenceCPUOps_U3CNonMaxSuppressionU3Eg__GetRectFromCenterU7C143_3_m5C1E099D04485C240654BEE7A6EB57C0CC3E6151(L_58, L_59, L_60, NULL);
+		G_B16_0 = L_61;
+		goto IL_013d;
+	}
+
+IL_0133:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_62 = V_0;
+		int32_t L_63 = V_8;
+		int32_t L_64 = V_16;
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_65;
+		L_65 = ReferenceCPUOps_U3CNonMaxSuppressionU3Eg__GetRectU7C143_2_m32D5DF34714D308D70EAE6AB4683251370DE68F0(L_62, L_63, L_64, NULL);
+		G_B16_0 = L_65;
+	}
+
+IL_013d:
+	{
+		V_17 = G_B16_0;
+		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_66 = V_3;
+		int32_t L_67 = V_15;
+		NullCheck(L_66);
+		List_1_RemoveAt_m76C4CDACF47BA529BAFADFC8D5E13DB9587F4004(L_66, L_67, List_1_RemoveAt_m76C4CDACF47BA529BAFADFC8D5E13DB9587F4004_RuntimeMethod_var);
+		List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* L_68 = V_6;
+		int32_t L_69 = V_15;
+		NullCheck(L_68);
+		List_1_RemoveAt_m02AAC9739BBFB220DD397843A7825154D07F2C93(L_68, L_69, List_1_RemoveAt_m02AAC9739BBFB220DD397843A7825154D07F2C93_RuntimeMethod_var);
+		V_18 = (bool)1;
+		List_1_t264DA9C475A0E3CF57148457209560CF2E2B6F27* L_70 = V_5;
+		NullCheck(L_70);
+		Enumerator_t6C2C3126C98F6470FE4A695C9CEAE34CC520EA9C L_71;
+		L_71 = List_1_GetEnumerator_m9629AB804337109F506FAB180D7D94604F46CEB5(L_70, List_1_GetEnumerator_m9629AB804337109F506FAB180D7D94604F46CEB5_RuntimeMethod_var);
+		V_23 = L_71;
+	}
+	{
+		auto __finallyBlock = il2cpp::utils::Finally([&]
+		{
+
+FINALLY_01be:
+			{
+				Enumerator_Dispose_mA052BFC7D9C120BE726EFFA7FF5B9C4F76910699((&V_23), Enumerator_Dispose_mA052BFC7D9C120BE726EFFA7FF5B9C4F76910699_RuntimeMethod_var);
+				return;
+			}
+		});
+		try
+		{
+			{
+				goto IL_01b3_1;
+			}
+
+IL_0161_1:
+			{
+				ValueTuple_3_tBFE24970AFB182B3C77F4C747E3F1E7A7B4EBC57 L_72;
+				L_72 = Enumerator_get_Current_m8A8BF612D863FA9E7319E23A81F02181F66B51E1_inline((&V_23), Enumerator_get_Current_m8A8BF612D863FA9E7319E23A81F02181F66B51E1_RuntimeMethod_var);
+				int32_t L_73 = L_72.___Item3;
+				V_24 = L_73;
+				int32_t L_74 = ___4_centerPointBox;
+				if (!L_74)
+				{
+					goto IL_0180_1;
+				}
+			}
+			{
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_75 = V_0;
+				int32_t L_76 = V_8;
+				int32_t L_77 = V_24;
+				Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_78;
+				L_78 = ReferenceCPUOps_U3CNonMaxSuppressionU3Eg__GetRectFromCenterU7C143_3_m5C1E099D04485C240654BEE7A6EB57C0CC3E6151(L_75, L_76, L_77, NULL);
+				G_B21_0 = L_78;
+				goto IL_018a_1;
+			}
+
+IL_0180_1:
+			{
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_79 = V_0;
+				int32_t L_80 = V_8;
+				int32_t L_81 = V_24;
+				Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_82;
+				L_82 = ReferenceCPUOps_U3CNonMaxSuppressionU3Eg__GetRectU7C143_2_m32D5DF34714D308D70EAE6AB4683251370DE68F0(L_79, L_80, L_81, NULL);
+				G_B21_0 = L_82;
+			}
+
+IL_018a_1:
+			{
+				V_25 = G_B21_0;
+				Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_83 = V_25;
+				bool L_84;
+				L_84 = Rect_Overlaps_m5A540A24DAD3327006A3A2E209CC17992173B572_inline((&V_17), L_83, NULL);
+				if (!L_84)
+				{
+					goto IL_01a5_1;
+				}
+			}
+			{
+				Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_85 = V_17;
+				Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_86 = V_25;
+				float L_87;
+				L_87 = ReferenceCPUOps_U3CNonMaxSuppressionU3Eg__GetIntersectionOverUnionAreaU7C143_0_m110CF2528A4DC4734AD36C36756F808AF47BB079(L_85, L_86, NULL);
+				float L_88 = ___2_iouThreshold;
+				G_B24_0 = ((((float)L_87) > ((float)L_88))? 1 : 0);
+				goto IL_01a6_1;
+			}
+
+IL_01a5_1:
+			{
+				G_B24_0 = 0;
+			}
+
+IL_01a6_1:
+			{
+				V_26 = (bool)G_B24_0;
+				bool L_89 = V_26;
+				if (!L_89)
+				{
+					goto IL_01b2_1;
+				}
+			}
+			{
+				V_18 = (bool)0;
+				goto IL_01bc_1;
+			}
+
+IL_01b2_1:
+			{
+			}
+
+IL_01b3_1:
+			{
+				bool L_90;
+				L_90 = Enumerator_MoveNext_mA007B24B08FDEC0C997DC7296F133A7F127B12C6((&V_23), Enumerator_MoveNext_mA007B24B08FDEC0C997DC7296F133A7F127B12C6_RuntimeMethod_var);
+				if (L_90)
+				{
+					goto IL_0161_1;
+				}
+			}
+
+IL_01bc_1:
+			{
+				goto IL_01cd;
+			}
+		}
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_01cd:
+	{
+		bool L_91 = V_18;
+		V_27 = L_91;
+		bool L_92 = V_27;
+		if (!L_92)
+		{
+			goto IL_01e8;
+		}
+	}
+	{
+		List_1_t264DA9C475A0E3CF57148457209560CF2E2B6F27* L_93 = V_5;
+		int32_t L_94 = V_8;
+		int32_t L_95 = V_9;
+		int32_t L_96 = V_16;
+		ValueTuple_3_tBFE24970AFB182B3C77F4C747E3F1E7A7B4EBC57 L_97;
+		memset((&L_97), 0, sizeof(L_97));
+		ValueTuple_3__ctor_m0D7E698F23721325245996D0B8DED1C102559F60((&L_97), L_94, L_95, L_96, ValueTuple_3__ctor_m0D7E698F23721325245996D0B8DED1C102559F60_RuntimeMethod_var);
+		NullCheck(L_93);
+		List_1_Add_m716377944B1E88CBB1B269AA9CF38C525A41D367_inline(L_93, L_97, List_1_Add_m716377944B1E88CBB1B269AA9CF38C525A41D367_RuntimeMethod_var);
+	}
+
+IL_01e8:
+	{
+	}
+
+IL_01e9:
+	{
+		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_98 = V_3;
+		bool L_99;
+		L_99 = Enumerable_Any_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m1F745C2E29AD7260B441065DDB7957BC7090693C(L_98, Enumerable_Any_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m1F745C2E29AD7260B441065DDB7957BC7090693C_RuntimeMethod_var);
+		if (!L_99)
+		{
+			goto IL_01fd;
+		}
+	}
+	{
+		List_1_t264DA9C475A0E3CF57148457209560CF2E2B6F27* L_100 = V_5;
+		NullCheck(L_100);
+		int32_t L_101;
+		L_101 = List_1_get_Count_mD67F5478F4F639E87639CD28E2E5874679116DB2_inline(L_100, List_1_get_Count_mD67F5478F4F639E87639CD28E2E5874679116DB2_RuntimeMethod_var);
+		int32_t L_102 = ___1_maxOutputBoxesPerClass;
+		G_B36_0 = ((((int32_t)L_101) < ((int32_t)L_102))? 1 : 0);
+		goto IL_01fe;
+	}
+
+IL_01fd:
+	{
+		G_B36_0 = 0;
+	}
+
+IL_01fe:
+	{
+		V_28 = (bool)G_B36_0;
+		bool L_103 = V_28;
+		if (L_103)
+		{
+			goto IL_00cf;
+		}
+	}
+	{
+		List_1_t264DA9C475A0E3CF57148457209560CF2E2B6F27* L_104 = V_4;
+		List_1_t264DA9C475A0E3CF57148457209560CF2E2B6F27* L_105 = V_5;
+		NullCheck(L_104);
+		List_1_AddRange_m176E3F9AEF07B831234D1D461309BEDCCB415464(L_104, L_105, List_1_AddRange_m176E3F9AEF07B831234D1D461309BEDCCB415464_RuntimeMethod_var);
+		int32_t L_106 = V_9;
+		V_9 = ((int32_t)il2cpp_codegen_add(L_106, 1));
+	}
+
+IL_0218:
+	{
+		int32_t L_107 = V_9;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_108 = V_1;
+		NullCheck(L_108);
+		int32_t L_109;
+		L_109 = Tensor_get_channels_m9DA46CF71B1C47E059EA3417C6A652E1233B5D04(L_108, NULL);
+		V_29 = (bool)((((int32_t)L_107) < ((int32_t)L_109))? 1 : 0);
+		bool L_110 = V_29;
+		if (L_110)
+		{
+			goto IL_006a;
+		}
+	}
+	{
+		int32_t L_111 = V_8;
+		V_8 = ((int32_t)il2cpp_codegen_add(L_111, 1));
+	}
+
+IL_0232:
+	{
+		int32_t L_112 = V_8;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_113 = V_1;
+		NullCheck(L_113);
+		int32_t L_114;
+		L_114 = Tensor_get_batch_m6CD93DCCD32D6A47FDEDEBFF16FF70AC9C586DD9(L_113, NULL);
+		V_30 = (bool)((((int32_t)L_112) < ((int32_t)L_114))? 1 : 0);
+		bool L_115 = V_30;
+		if (L_115)
+		{
+			goto IL_0061;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_116 = V_0;
+		NullCheck(L_116);
+		int32_t L_117;
+		L_117 = Tensor_get_dataType_m57109C88C5386735035BB4066BAACD68228C3AB1(L_116, NULL);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_118 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)SZArrayNew(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var, (uint32_t)4);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_119 = L_118;
+		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_120 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t82B4091189C4C589DBBE88730C3BC7A9CF700151____57BFF0102124E656FC853E9B99CCBD1F69009EFD41875725308CB212E246A77E_FieldInfo_var) };
+		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_119, L_120, NULL);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_121 = L_119;
+		List_1_t264DA9C475A0E3CF57148457209560CF2E2B6F27* L_122 = V_4;
+		NullCheck(L_122);
+		int32_t L_123;
+		L_123 = List_1_get_Count_mD67F5478F4F639E87639CD28E2E5874679116DB2_inline(L_122, List_1_get_Count_mD67F5478F4F639E87639CD28E2E5874679116DB2_RuntimeMethod_var);
+		NullCheck(L_121);
+		(L_121)->SetAt(static_cast<il2cpp_array_size_t>(0), (int32_t)L_123);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_124;
+		memset((&L_124), 0, sizeof(L_124));
+		TensorShape__ctor_m9DE68F3346972692FB3BA10C9DD28ABFDAE09173((&L_124), L_121, (bool)0, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_125;
+		L_125 = ReferenceCPUOps_NewTensor_m74008D9C77785A62165EBEF61281FBB9CB42DAAF(__this, L_117, L_124, NULL);
+		V_7 = L_125;
+		List_1_t264DA9C475A0E3CF57148457209560CF2E2B6F27* L_126 = V_4;
+		NullCheck(L_126);
+		int32_t L_127;
+		L_127 = List_1_get_Count_mD67F5478F4F639E87639CD28E2E5874679116DB2_inline(L_126, List_1_get_Count_mD67F5478F4F639E87639CD28E2E5874679116DB2_RuntimeMethod_var);
+		V_31 = (bool)((((int32_t)L_127) > ((int32_t)0))? 1 : 0);
+		bool L_128 = V_31;
+		if (!L_128)
+		{
+			goto IL_02f0;
+		}
+	}
+	{
+		V_32 = 0;
+		goto IL_02dc;
+	}
+
+IL_028a:
+	{
+		List_1_t264DA9C475A0E3CF57148457209560CF2E2B6F27* L_129 = V_4;
+		int32_t L_130 = V_32;
+		NullCheck(L_129);
+		ValueTuple_3_tBFE24970AFB182B3C77F4C747E3F1E7A7B4EBC57 L_131;
+		L_131 = List_1_get_Item_m63FD20C67694792BD3237CE27670FD94DF753185(L_129, L_130, List_1_get_Item_m63FD20C67694792BD3237CE27670FD94DF753185_RuntimeMethod_var);
+		ValueTuple_3_tBFE24970AFB182B3C77F4C747E3F1E7A7B4EBC57 L_132 = L_131;
+		int32_t L_133 = L_132.___Item1;
+		V_33 = L_133;
+		ValueTuple_3_tBFE24970AFB182B3C77F4C747E3F1E7A7B4EBC57 L_134 = L_132;
+		int32_t L_135 = L_134.___Item2;
+		V_34 = L_135;
+		int32_t L_136 = L_134.___Item3;
+		V_35 = L_136;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_137 = V_7;
+		int32_t L_138 = V_32;
+		int32_t L_139 = V_33;
+		NullCheck(L_137);
+		Tensor_set_Item_m3DDF7909FDDC72AE45128800669404B9A7151F87(L_137, L_138, 0, ((float)L_139), NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_140 = V_7;
+		int32_t L_141 = V_32;
+		int32_t L_142 = V_34;
+		NullCheck(L_140);
+		Tensor_set_Item_m3DDF7909FDDC72AE45128800669404B9A7151F87(L_140, L_141, 1, ((float)L_142), NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_143 = V_7;
+		int32_t L_144 = V_32;
+		int32_t L_145 = V_35;
+		NullCheck(L_143);
+		Tensor_set_Item_m3DDF7909FDDC72AE45128800669404B9A7151F87(L_143, L_144, 2, ((float)L_145), NULL);
+		int32_t L_146 = V_32;
+		V_32 = ((int32_t)il2cpp_codegen_add(L_146, 1));
+	}
+
+IL_02dc:
+	{
+		int32_t L_147 = V_32;
+		List_1_t264DA9C475A0E3CF57148457209560CF2E2B6F27* L_148 = V_4;
+		NullCheck(L_148);
+		int32_t L_149;
+		L_149 = List_1_get_Count_mD67F5478F4F639E87639CD28E2E5874679116DB2_inline(L_148, List_1_get_Count_mD67F5478F4F639E87639CD28E2E5874679116DB2_RuntimeMethod_var);
+		V_36 = (bool)((((int32_t)L_147) < ((int32_t)L_149))? 1 : 0);
+		bool L_150 = V_36;
+		if (L_150)
+		{
+			goto IL_028a;
+		}
+	}
+	{
+		goto IL_02ff;
+	}
+
+IL_02f0:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_151 = V_7;
+		TensorExtensions_Fill_mFD0DC9D026783C26553D366D44203B9DE7F77056(L_151, (-1.0f), NULL);
+	}
+
+IL_02ff:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_152 = V_7;
+		V_37 = L_152;
+		goto IL_0305;
+	}
+
+IL_0305:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_153 = V_37;
+		return L_153;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* ReferenceCPUOps_LSTM_m3DFFBD495AA5E73FB061164BC667B3BBEDE1E462 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* ___1_W, TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* ___2_R, TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* ___3_Wb, TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* ___4_Rb, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___5_hidden, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___6_cell, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&F_t0057DF9A2096B887F2CD030BD8B21AB93052E232_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TensorScope___m1C05DF203215BAC9784F5C565FD7E6BE30C264CF_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TensorScope_tEAFF048BDAA1CA8B1ED36BABBE9CACFB6421F4FE_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t82B4091189C4C589DBBE88730C3BC7A9CF700151____1B897DDDD4C151E2A2E6E3E91B7EA0F7FC4FD5ED00EF1C9669E8566393A02586_FieldInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t82B4091189C4C589DBBE88730C3BC7A9CF700151____6256A4B0BE4127B6FF9FA076FE7595961BC296521BD01220F64C6F95768C1FDD_FieldInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t82B4091189C4C589DBBE88730C3BC7A9CF700151____DD0FB97FED5EB759F894A67CA31875F364B4CB5C0D709AD25626C9BCBC8321C6_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	int32_t V_1 = 0;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_2 = NULL;
+	int32_t V_3 = 0;
+	TensorScope_tEAFF048BDAA1CA8B1ED36BABBE9CACFB6421F4FE* V_4 = NULL;
+	F_t0057DF9A2096B887F2CD030BD8B21AB93052E232* V_5 = NULL;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_6 = NULL;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_7 = NULL;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_8 = NULL;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_9 = NULL;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_10 = NULL;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_11 = NULL;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_12 = NULL;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_13 = NULL;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_14 = NULL;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_15 = NULL;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_16 = NULL;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_17 = NULL;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_18 = NULL;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_19 = NULL;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_20 = NULL;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_21 = NULL;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_22 = NULL;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_23 = NULL;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_24 = NULL;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_25 = NULL;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_26 = NULL;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_27 = NULL;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_28 = NULL;
+	bool V_29 = false;
+	bool V_30 = false;
+	bool V_31 = false;
+	TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* V_32 = NULL;
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_0 = ___0_X;
+		NullCheck(L_0);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_1;
+		L_1 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_0, NULL);
+		V_0 = L_1;
+		int32_t L_2;
+		L_2 = TensorShape_get_batch_m7965A4449ECCD583C1544F3DE854D58905F2371F((&V_0), NULL);
+		V_1 = L_2;
+		V_2 = (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*)NULL;
+		V_3 = 0;
+		goto IL_03fc;
+	}
+
+IL_0019:
+	{
+		TensorScope_tEAFF048BDAA1CA8B1ED36BABBE9CACFB6421F4FE* L_3 = (TensorScope_tEAFF048BDAA1CA8B1ED36BABBE9CACFB6421F4FE*)il2cpp_codegen_object_new(TensorScope_tEAFF048BDAA1CA8B1ED36BABBE9CACFB6421F4FE_il2cpp_TypeInfo_var);
+		TensorScope__ctor_m5516EC2F851AF1E31A6E6FCB028C0D2EBDEEF8E6(L_3, NULL);
+		V_4 = L_3;
+	}
+	{
+		auto __finallyBlock = il2cpp::utils::Finally([&]
+		{
+
+FINALLY_03ea:
+			{
+				{
+					TensorScope_tEAFF048BDAA1CA8B1ED36BABBE9CACFB6421F4FE* L_4 = V_4;
+					if (!L_4)
+					{
+						goto IL_03f6;
+					}
+				}
+				{
+					TensorScope_tEAFF048BDAA1CA8B1ED36BABBE9CACFB6421F4FE* L_5 = V_4;
+					NullCheck(L_5);
+					InterfaceActionInvoker0::Invoke(0, IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var, L_5);
+				}
+
+IL_03f6:
+				{
+					return;
+				}
+			}
+		});
+		try
+		{
+			{
+				TensorScope_tEAFF048BDAA1CA8B1ED36BABBE9CACFB6421F4FE* L_6 = V_4;
+				F_t0057DF9A2096B887F2CD030BD8B21AB93052E232* L_7 = (F_t0057DF9A2096B887F2CD030BD8B21AB93052E232*)il2cpp_codegen_object_new(F_t0057DF9A2096B887F2CD030BD8B21AB93052E232_il2cpp_TypeInfo_var);
+				F__ctor_m1C57D66ADFD855B49F57835986CEE5DA18C27122(L_7, L_6, (intptr_t)((void*)TensorScope___m1C05DF203215BAC9784F5C565FD7E6BE30C264CF_RuntimeMethod_var), NULL);
+				V_5 = L_7;
+				F_t0057DF9A2096B887F2CD030BD8B21AB93052E232* L_8 = V_5;
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_9 = ___0_X;
+				Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_10 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)SZArrayNew(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var, (uint32_t)4);
+				Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_11 = L_10;
+				int32_t L_12 = V_3;
+				NullCheck(L_11);
+				(L_11)->SetAt(static_cast<il2cpp_array_size_t>(0), (int32_t)L_12);
+				Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_13 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)SZArrayNew(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var, (uint32_t)4);
+				Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_14 = L_13;
+				RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_15 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t82B4091189C4C589DBBE88730C3BC7A9CF700151____DD0FB97FED5EB759F894A67CA31875F364B4CB5C0D709AD25626C9BCBC8321C6_FieldInfo_var) };
+				RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_14, L_15, NULL);
+				Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_16 = L_14;
+				int32_t L_17 = V_3;
+				NullCheck(L_16);
+				(L_16)->SetAt(static_cast<il2cpp_array_size_t>(0), (int32_t)((int32_t)il2cpp_codegen_add(L_17, 1)));
+				Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_18 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)SZArrayNew(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var, (uint32_t)4);
+				Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_19 = L_18;
+				RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_20 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t82B4091189C4C589DBBE88730C3BC7A9CF700151____1B897DDDD4C151E2A2E6E3E91B7EA0F7FC4FD5ED00EF1C9669E8566393A02586_FieldInfo_var) };
+				RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_19, L_20, NULL);
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_21;
+				L_21 = VirtualFuncInvoker4< Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* >::Invoke(196, __this, L_9, L_11, L_16, L_19);
+				NullCheck(L_8);
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_22;
+				L_22 = F_Invoke_mF9DE40521BFEBDFCA0F615EECF518CBDD6F3B581_inline(L_8, L_21, NULL);
+				V_6 = L_22;
+				F_t0057DF9A2096B887F2CD030BD8B21AB93052E232* L_23 = V_5;
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_24 = V_6;
+				Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_25 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)SZArrayNew(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var, (uint32_t)4);
+				Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_26 = L_25;
+				RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_27 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t82B4091189C4C589DBBE88730C3BC7A9CF700151____6256A4B0BE4127B6FF9FA076FE7595961BC296521BD01220F64C6F95768C1FDD_FieldInfo_var) };
+				RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_26, L_27, NULL);
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_28;
+				L_28 = VirtualFuncInvoker2< Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* >::Invoke(234, __this, L_24, L_26);
+				NullCheck(L_23);
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_29;
+				L_29 = F_Invoke_mF9DE40521BFEBDFCA0F615EECF518CBDD6F3B581_inline(L_23, L_28, NULL);
+				V_6 = L_29;
+				F_t0057DF9A2096B887F2CD030BD8B21AB93052E232* L_30 = V_5;
+				TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_31 = (TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81*)(TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81*)SZArrayNew(TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81_il2cpp_TypeInfo_var, (uint32_t)2);
+				TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_32 = L_31;
+				F_t0057DF9A2096B887F2CD030BD8B21AB93052E232* L_33 = V_5;
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_34 = V_6;
+				TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_35 = ___1_W;
+				NullCheck(L_35);
+				int32_t L_36 = 0;
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_37 = (L_35)->GetAt(static_cast<il2cpp_array_size_t>(L_36));
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_38;
+				L_38 = VirtualFuncInvoker4< Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, bool, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, bool >::Invoke(127, __this, L_34, (bool)0, L_37, (bool)0);
+				NullCheck(L_33);
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_39;
+				L_39 = F_Invoke_mF9DE40521BFEBDFCA0F615EECF518CBDD6F3B581_inline(L_33, L_38, NULL);
+				NullCheck(L_32);
+				ArrayElementTypeCheck (L_32, L_39);
+				(L_32)->SetAt(static_cast<il2cpp_array_size_t>(0), (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*)L_39);
+				TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_40 = L_32;
+				TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_41 = ___3_Wb;
+				NullCheck(L_41);
+				int32_t L_42 = 0;
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_43 = (L_41)->GetAt(static_cast<il2cpp_array_size_t>(L_42));
+				NullCheck(L_40);
+				ArrayElementTypeCheck (L_40, L_43);
+				(L_40)->SetAt(static_cast<il2cpp_array_size_t>(1), (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*)L_43);
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_44;
+				L_44 = VirtualFuncInvoker1< Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* >::Invoke(199, __this, L_40);
+				NullCheck(L_30);
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_45;
+				L_45 = F_Invoke_mF9DE40521BFEBDFCA0F615EECF518CBDD6F3B581_inline(L_30, L_44, NULL);
+				V_7 = L_45;
+				F_t0057DF9A2096B887F2CD030BD8B21AB93052E232* L_46 = V_5;
+				TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_47 = (TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81*)(TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81*)SZArrayNew(TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81_il2cpp_TypeInfo_var, (uint32_t)2);
+				TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_48 = L_47;
+				F_t0057DF9A2096B887F2CD030BD8B21AB93052E232* L_49 = V_5;
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_50 = ___5_hidden;
+				TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_51 = ___2_R;
+				NullCheck(L_51);
+				int32_t L_52 = 0;
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_53 = (L_51)->GetAt(static_cast<il2cpp_array_size_t>(L_52));
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_54;
+				L_54 = VirtualFuncInvoker4< Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, bool, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, bool >::Invoke(127, __this, L_50, (bool)0, L_53, (bool)0);
+				NullCheck(L_49);
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_55;
+				L_55 = F_Invoke_mF9DE40521BFEBDFCA0F615EECF518CBDD6F3B581_inline(L_49, L_54, NULL);
+				NullCheck(L_48);
+				ArrayElementTypeCheck (L_48, L_55);
+				(L_48)->SetAt(static_cast<il2cpp_array_size_t>(0), (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*)L_55);
+				TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_56 = L_48;
+				TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_57 = ___4_Rb;
+				NullCheck(L_57);
+				int32_t L_58 = 0;
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_59 = (L_57)->GetAt(static_cast<il2cpp_array_size_t>(L_58));
+				NullCheck(L_56);
+				ArrayElementTypeCheck (L_56, L_59);
+				(L_56)->SetAt(static_cast<il2cpp_array_size_t>(1), (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*)L_59);
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_60;
+				L_60 = VirtualFuncInvoker1< Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* >::Invoke(199, __this, L_56);
+				NullCheck(L_46);
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_61;
+				L_61 = F_Invoke_mF9DE40521BFEBDFCA0F615EECF518CBDD6F3B581_inline(L_46, L_60, NULL);
+				V_8 = L_61;
+				F_t0057DF9A2096B887F2CD030BD8B21AB93052E232* L_62 = V_5;
+				TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_63 = (TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81*)(TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81*)SZArrayNew(TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81_il2cpp_TypeInfo_var, (uint32_t)2);
+				TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_64 = L_63;
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_65 = V_7;
+				NullCheck(L_64);
+				ArrayElementTypeCheck (L_64, L_65);
+				(L_64)->SetAt(static_cast<il2cpp_array_size_t>(0), (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*)L_65);
+				TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_66 = L_64;
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_67 = V_8;
+				NullCheck(L_66);
+				ArrayElementTypeCheck (L_66, L_67);
+				(L_66)->SetAt(static_cast<il2cpp_array_size_t>(1), (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*)L_67);
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_68;
+				L_68 = VirtualFuncInvoker1< Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* >::Invoke(199, __this, L_66);
+				NullCheck(L_62);
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_69;
+				L_69 = F_Invoke_mF9DE40521BFEBDFCA0F615EECF518CBDD6F3B581_inline(L_62, L_68, NULL);
+				V_9 = L_69;
+				F_t0057DF9A2096B887F2CD030BD8B21AB93052E232* L_70 = V_5;
+				TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_71 = (TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81*)(TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81*)SZArrayNew(TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81_il2cpp_TypeInfo_var, (uint32_t)2);
+				TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_72 = L_71;
+				F_t0057DF9A2096B887F2CD030BD8B21AB93052E232* L_73 = V_5;
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_74 = V_6;
+				TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_75 = ___1_W;
+				NullCheck(L_75);
+				int32_t L_76 = 3;
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_77 = (L_75)->GetAt(static_cast<il2cpp_array_size_t>(L_76));
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_78;
+				L_78 = VirtualFuncInvoker4< Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, bool, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, bool >::Invoke(127, __this, L_74, (bool)0, L_77, (bool)0);
+				NullCheck(L_73);
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_79;
+				L_79 = F_Invoke_mF9DE40521BFEBDFCA0F615EECF518CBDD6F3B581_inline(L_73, L_78, NULL);
+				NullCheck(L_72);
+				ArrayElementTypeCheck (L_72, L_79);
+				(L_72)->SetAt(static_cast<il2cpp_array_size_t>(0), (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*)L_79);
+				TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_80 = L_72;
+				TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_81 = ___3_Wb;
+				NullCheck(L_81);
+				int32_t L_82 = 3;
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_83 = (L_81)->GetAt(static_cast<il2cpp_array_size_t>(L_82));
+				NullCheck(L_80);
+				ArrayElementTypeCheck (L_80, L_83);
+				(L_80)->SetAt(static_cast<il2cpp_array_size_t>(1), (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*)L_83);
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_84;
+				L_84 = VirtualFuncInvoker1< Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* >::Invoke(199, __this, L_80);
+				NullCheck(L_70);
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_85;
+				L_85 = F_Invoke_mF9DE40521BFEBDFCA0F615EECF518CBDD6F3B581_inline(L_70, L_84, NULL);
+				V_10 = L_85;
+				F_t0057DF9A2096B887F2CD030BD8B21AB93052E232* L_86 = V_5;
+				TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_87 = (TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81*)(TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81*)SZArrayNew(TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81_il2cpp_TypeInfo_var, (uint32_t)2);
+				TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_88 = L_87;
+				F_t0057DF9A2096B887F2CD030BD8B21AB93052E232* L_89 = V_5;
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_90 = ___5_hidden;
+				TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_91 = ___2_R;
+				NullCheck(L_91);
+				int32_t L_92 = 3;
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_93 = (L_91)->GetAt(static_cast<il2cpp_array_size_t>(L_92));
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_94;
+				L_94 = VirtualFuncInvoker4< Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, bool, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, bool >::Invoke(127, __this, L_90, (bool)0, L_93, (bool)0);
+				NullCheck(L_89);
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_95;
+				L_95 = F_Invoke_mF9DE40521BFEBDFCA0F615EECF518CBDD6F3B581_inline(L_89, L_94, NULL);
+				NullCheck(L_88);
+				ArrayElementTypeCheck (L_88, L_95);
+				(L_88)->SetAt(static_cast<il2cpp_array_size_t>(0), (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*)L_95);
+				TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_96 = L_88;
+				TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_97 = ___4_Rb;
+				NullCheck(L_97);
+				int32_t L_98 = 3;
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_99 = (L_97)->GetAt(static_cast<il2cpp_array_size_t>(L_98));
+				NullCheck(L_96);
+				ArrayElementTypeCheck (L_96, L_99);
+				(L_96)->SetAt(static_cast<il2cpp_array_size_t>(1), (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*)L_99);
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_100;
+				L_100 = VirtualFuncInvoker1< Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* >::Invoke(199, __this, L_96);
+				NullCheck(L_86);
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_101;
+				L_101 = F_Invoke_mF9DE40521BFEBDFCA0F615EECF518CBDD6F3B581_inline(L_86, L_100, NULL);
+				V_11 = L_101;
+				F_t0057DF9A2096B887F2CD030BD8B21AB93052E232* L_102 = V_5;
+				TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_103 = (TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81*)(TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81*)SZArrayNew(TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81_il2cpp_TypeInfo_var, (uint32_t)2);
+				TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_104 = L_103;
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_105 = V_10;
+				NullCheck(L_104);
+				ArrayElementTypeCheck (L_104, L_105);
+				(L_104)->SetAt(static_cast<il2cpp_array_size_t>(0), (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*)L_105);
+				TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_106 = L_104;
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_107 = V_11;
+				NullCheck(L_106);
+				ArrayElementTypeCheck (L_106, L_107);
+				(L_106)->SetAt(static_cast<il2cpp_array_size_t>(1), (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*)L_107);
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_108;
+				L_108 = VirtualFuncInvoker1< Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* >::Invoke(199, __this, L_106);
+				NullCheck(L_102);
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_109;
+				L_109 = F_Invoke_mF9DE40521BFEBDFCA0F615EECF518CBDD6F3B581_inline(L_102, L_108, NULL);
+				V_12 = L_109;
+				F_t0057DF9A2096B887F2CD030BD8B21AB93052E232* L_110 = V_5;
+				TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_111 = (TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81*)(TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81*)SZArrayNew(TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81_il2cpp_TypeInfo_var, (uint32_t)2);
+				TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_112 = L_111;
+				F_t0057DF9A2096B887F2CD030BD8B21AB93052E232* L_113 = V_5;
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_114 = V_6;
+				TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_115 = ___1_W;
+				NullCheck(L_115);
+				int32_t L_116 = 2;
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_117 = (L_115)->GetAt(static_cast<il2cpp_array_size_t>(L_116));
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_118;
+				L_118 = VirtualFuncInvoker4< Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, bool, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, bool >::Invoke(127, __this, L_114, (bool)0, L_117, (bool)0);
+				NullCheck(L_113);
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_119;
+				L_119 = F_Invoke_mF9DE40521BFEBDFCA0F615EECF518CBDD6F3B581_inline(L_113, L_118, NULL);
+				NullCheck(L_112);
+				ArrayElementTypeCheck (L_112, L_119);
+				(L_112)->SetAt(static_cast<il2cpp_array_size_t>(0), (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*)L_119);
+				TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_120 = L_112;
+				TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_121 = ___3_Wb;
+				NullCheck(L_121);
+				int32_t L_122 = 2;
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_123 = (L_121)->GetAt(static_cast<il2cpp_array_size_t>(L_122));
+				NullCheck(L_120);
+				ArrayElementTypeCheck (L_120, L_123);
+				(L_120)->SetAt(static_cast<il2cpp_array_size_t>(1), (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*)L_123);
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_124;
+				L_124 = VirtualFuncInvoker1< Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* >::Invoke(199, __this, L_120);
+				NullCheck(L_110);
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_125;
+				L_125 = F_Invoke_mF9DE40521BFEBDFCA0F615EECF518CBDD6F3B581_inline(L_110, L_124, NULL);
+				V_13 = L_125;
+				F_t0057DF9A2096B887F2CD030BD8B21AB93052E232* L_126 = V_5;
+				TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_127 = (TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81*)(TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81*)SZArrayNew(TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81_il2cpp_TypeInfo_var, (uint32_t)2);
+				TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_128 = L_127;
+				F_t0057DF9A2096B887F2CD030BD8B21AB93052E232* L_129 = V_5;
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_130 = ___5_hidden;
+				TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_131 = ___2_R;
+				NullCheck(L_131);
+				int32_t L_132 = 2;
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_133 = (L_131)->GetAt(static_cast<il2cpp_array_size_t>(L_132));
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_134;
+				L_134 = VirtualFuncInvoker4< Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, bool, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, bool >::Invoke(127, __this, L_130, (bool)0, L_133, (bool)0);
+				NullCheck(L_129);
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_135;
+				L_135 = F_Invoke_mF9DE40521BFEBDFCA0F615EECF518CBDD6F3B581_inline(L_129, L_134, NULL);
+				NullCheck(L_128);
+				ArrayElementTypeCheck (L_128, L_135);
+				(L_128)->SetAt(static_cast<il2cpp_array_size_t>(0), (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*)L_135);
+				TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_136 = L_128;
+				TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_137 = ___4_Rb;
+				NullCheck(L_137);
+				int32_t L_138 = 2;
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_139 = (L_137)->GetAt(static_cast<il2cpp_array_size_t>(L_138));
+				NullCheck(L_136);
+				ArrayElementTypeCheck (L_136, L_139);
+				(L_136)->SetAt(static_cast<il2cpp_array_size_t>(1), (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*)L_139);
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_140;
+				L_140 = VirtualFuncInvoker1< Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* >::Invoke(199, __this, L_136);
+				NullCheck(L_126);
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_141;
+				L_141 = F_Invoke_mF9DE40521BFEBDFCA0F615EECF518CBDD6F3B581_inline(L_126, L_140, NULL);
+				V_14 = L_141;
+				F_t0057DF9A2096B887F2CD030BD8B21AB93052E232* L_142 = V_5;
+				TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_143 = (TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81*)(TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81*)SZArrayNew(TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81_il2cpp_TypeInfo_var, (uint32_t)2);
+				TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_144 = L_143;
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_145 = V_13;
+				NullCheck(L_144);
+				ArrayElementTypeCheck (L_144, L_145);
+				(L_144)->SetAt(static_cast<il2cpp_array_size_t>(0), (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*)L_145);
+				TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_146 = L_144;
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_147 = V_14;
+				NullCheck(L_146);
+				ArrayElementTypeCheck (L_146, L_147);
+				(L_146)->SetAt(static_cast<il2cpp_array_size_t>(1), (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*)L_147);
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_148;
+				L_148 = VirtualFuncInvoker1< Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* >::Invoke(199, __this, L_146);
+				NullCheck(L_142);
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_149;
+				L_149 = F_Invoke_mF9DE40521BFEBDFCA0F615EECF518CBDD6F3B581_inline(L_142, L_148, NULL);
+				V_15 = L_149;
+				F_t0057DF9A2096B887F2CD030BD8B21AB93052E232* L_150 = V_5;
+				TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_151 = (TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81*)(TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81*)SZArrayNew(TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81_il2cpp_TypeInfo_var, (uint32_t)2);
+				TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_152 = L_151;
+				F_t0057DF9A2096B887F2CD030BD8B21AB93052E232* L_153 = V_5;
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_154 = V_6;
+				TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_155 = ___1_W;
+				NullCheck(L_155);
+				int32_t L_156 = 1;
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_157 = (L_155)->GetAt(static_cast<il2cpp_array_size_t>(L_156));
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_158;
+				L_158 = VirtualFuncInvoker4< Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, bool, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, bool >::Invoke(127, __this, L_154, (bool)0, L_157, (bool)0);
+				NullCheck(L_153);
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_159;
+				L_159 = F_Invoke_mF9DE40521BFEBDFCA0F615EECF518CBDD6F3B581_inline(L_153, L_158, NULL);
+				NullCheck(L_152);
+				ArrayElementTypeCheck (L_152, L_159);
+				(L_152)->SetAt(static_cast<il2cpp_array_size_t>(0), (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*)L_159);
+				TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_160 = L_152;
+				TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_161 = ___3_Wb;
+				NullCheck(L_161);
+				int32_t L_162 = 1;
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_163 = (L_161)->GetAt(static_cast<il2cpp_array_size_t>(L_162));
+				NullCheck(L_160);
+				ArrayElementTypeCheck (L_160, L_163);
+				(L_160)->SetAt(static_cast<il2cpp_array_size_t>(1), (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*)L_163);
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_164;
+				L_164 = VirtualFuncInvoker1< Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* >::Invoke(199, __this, L_160);
+				NullCheck(L_150);
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_165;
+				L_165 = F_Invoke_mF9DE40521BFEBDFCA0F615EECF518CBDD6F3B581_inline(L_150, L_164, NULL);
+				V_16 = L_165;
+				F_t0057DF9A2096B887F2CD030BD8B21AB93052E232* L_166 = V_5;
+				TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_167 = (TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81*)(TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81*)SZArrayNew(TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81_il2cpp_TypeInfo_var, (uint32_t)2);
+				TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_168 = L_167;
+				F_t0057DF9A2096B887F2CD030BD8B21AB93052E232* L_169 = V_5;
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_170 = ___5_hidden;
+				TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_171 = ___2_R;
+				NullCheck(L_171);
+				int32_t L_172 = 1;
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_173 = (L_171)->GetAt(static_cast<il2cpp_array_size_t>(L_172));
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_174;
+				L_174 = VirtualFuncInvoker4< Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, bool, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, bool >::Invoke(127, __this, L_170, (bool)0, L_173, (bool)0);
+				NullCheck(L_169);
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_175;
+				L_175 = F_Invoke_mF9DE40521BFEBDFCA0F615EECF518CBDD6F3B581_inline(L_169, L_174, NULL);
+				NullCheck(L_168);
+				ArrayElementTypeCheck (L_168, L_175);
+				(L_168)->SetAt(static_cast<il2cpp_array_size_t>(0), (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*)L_175);
+				TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_176 = L_168;
+				TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_177 = ___4_Rb;
+				NullCheck(L_177);
+				int32_t L_178 = 1;
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_179 = (L_177)->GetAt(static_cast<il2cpp_array_size_t>(L_178));
+				NullCheck(L_176);
+				ArrayElementTypeCheck (L_176, L_179);
+				(L_176)->SetAt(static_cast<il2cpp_array_size_t>(1), (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*)L_179);
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_180;
+				L_180 = VirtualFuncInvoker1< Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* >::Invoke(199, __this, L_176);
+				NullCheck(L_166);
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_181;
+				L_181 = F_Invoke_mF9DE40521BFEBDFCA0F615EECF518CBDD6F3B581_inline(L_166, L_180, NULL);
+				V_17 = L_181;
+				F_t0057DF9A2096B887F2CD030BD8B21AB93052E232* L_182 = V_5;
+				TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_183 = (TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81*)(TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81*)SZArrayNew(TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81_il2cpp_TypeInfo_var, (uint32_t)2);
+				TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_184 = L_183;
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_185 = V_16;
+				NullCheck(L_184);
+				ArrayElementTypeCheck (L_184, L_185);
+				(L_184)->SetAt(static_cast<il2cpp_array_size_t>(0), (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*)L_185);
+				TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_186 = L_184;
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_187 = V_17;
+				NullCheck(L_186);
+				ArrayElementTypeCheck (L_186, L_187);
+				(L_186)->SetAt(static_cast<il2cpp_array_size_t>(1), (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*)L_187);
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_188;
+				L_188 = VirtualFuncInvoker1< Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* >::Invoke(199, __this, L_186);
+				NullCheck(L_182);
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_189;
+				L_189 = F_Invoke_mF9DE40521BFEBDFCA0F615EECF518CBDD6F3B581_inline(L_182, L_188, NULL);
+				V_18 = L_189;
+				F_t0057DF9A2096B887F2CD030BD8B21AB93052E232* L_190 = V_5;
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_191 = V_9;
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_192;
+				L_192 = VirtualFuncInvoker1< Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* >::Invoke(165, __this, L_191);
+				NullCheck(L_190);
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_193;
+				L_193 = F_Invoke_mF9DE40521BFEBDFCA0F615EECF518CBDD6F3B581_inline(L_190, L_192, NULL);
+				V_19 = L_193;
+				F_t0057DF9A2096B887F2CD030BD8B21AB93052E232* L_194 = V_5;
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_195 = V_12;
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_196;
+				L_196 = VirtualFuncInvoker1< Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* >::Invoke(163, __this, L_195);
+				NullCheck(L_194);
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_197;
+				L_197 = F_Invoke_mF9DE40521BFEBDFCA0F615EECF518CBDD6F3B581_inline(L_194, L_196, NULL);
+				V_20 = L_197;
+				F_t0057DF9A2096B887F2CD030BD8B21AB93052E232* L_198 = V_5;
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_199 = V_15;
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_200;
+				L_200 = VirtualFuncInvoker1< Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* >::Invoke(165, __this, L_199);
+				NullCheck(L_198);
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_201;
+				L_201 = F_Invoke_mF9DE40521BFEBDFCA0F615EECF518CBDD6F3B581_inline(L_198, L_200, NULL);
+				V_21 = L_201;
+				F_t0057DF9A2096B887F2CD030BD8B21AB93052E232* L_202 = V_5;
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_203 = V_18;
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_204;
+				L_204 = VirtualFuncInvoker1< Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* >::Invoke(165, __this, L_203);
+				NullCheck(L_202);
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_205;
+				L_205 = F_Invoke_mF9DE40521BFEBDFCA0F615EECF518CBDD6F3B581_inline(L_202, L_204, NULL);
+				V_22 = L_205;
+				F_t0057DF9A2096B887F2CD030BD8B21AB93052E232* L_206 = V_5;
+				TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_207 = (TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81*)(TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81*)SZArrayNew(TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81_il2cpp_TypeInfo_var, (uint32_t)2);
+				TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_208 = L_207;
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_209 = ___6_cell;
+				NullCheck(L_208);
+				ArrayElementTypeCheck (L_208, L_209);
+				(L_208)->SetAt(static_cast<il2cpp_array_size_t>(0), (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*)L_209);
+				TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_210 = L_208;
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_211 = V_21;
+				NullCheck(L_210);
+				ArrayElementTypeCheck (L_210, L_211);
+				(L_210)->SetAt(static_cast<il2cpp_array_size_t>(1), (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*)L_211);
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_212;
+				L_212 = VirtualFuncInvoker1< Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* >::Invoke(201, __this, L_210);
+				NullCheck(L_206);
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_213;
+				L_213 = F_Invoke_mF9DE40521BFEBDFCA0F615EECF518CBDD6F3B581_inline(L_206, L_212, NULL);
+				V_23 = L_213;
+				F_t0057DF9A2096B887F2CD030BD8B21AB93052E232* L_214 = V_5;
+				TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_215 = (TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81*)(TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81*)SZArrayNew(TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81_il2cpp_TypeInfo_var, (uint32_t)2);
+				TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_216 = L_215;
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_217 = V_19;
+				NullCheck(L_216);
+				ArrayElementTypeCheck (L_216, L_217);
+				(L_216)->SetAt(static_cast<il2cpp_array_size_t>(0), (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*)L_217);
+				TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_218 = L_216;
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_219 = V_20;
+				NullCheck(L_218);
+				ArrayElementTypeCheck (L_218, L_219);
+				(L_218)->SetAt(static_cast<il2cpp_array_size_t>(1), (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*)L_219);
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_220;
+				L_220 = VirtualFuncInvoker1< Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* >::Invoke(201, __this, L_218);
+				NullCheck(L_214);
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_221;
+				L_221 = F_Invoke_mF9DE40521BFEBDFCA0F615EECF518CBDD6F3B581_inline(L_214, L_220, NULL);
+				V_24 = L_221;
+				TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_222 = (TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81*)(TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81*)SZArrayNew(TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81_il2cpp_TypeInfo_var, (uint32_t)2);
+				TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_223 = L_222;
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_224 = V_23;
+				NullCheck(L_223);
+				ArrayElementTypeCheck (L_223, L_224);
+				(L_223)->SetAt(static_cast<il2cpp_array_size_t>(0), (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*)L_224);
+				TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_225 = L_223;
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_226 = V_24;
+				NullCheck(L_225);
+				ArrayElementTypeCheck (L_225, L_226);
+				(L_225)->SetAt(static_cast<il2cpp_array_size_t>(1), (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*)L_226);
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_227;
+				L_227 = VirtualFuncInvoker1< Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* >::Invoke(199, __this, L_225);
+				V_25 = L_227;
+				F_t0057DF9A2096B887F2CD030BD8B21AB93052E232* L_228 = V_5;
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_229 = V_25;
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_230;
+				L_230 = VirtualFuncInvoker1< Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* >::Invoke(163, __this, L_229);
+				NullCheck(L_228);
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_231;
+				L_231 = F_Invoke_mF9DE40521BFEBDFCA0F615EECF518CBDD6F3B581_inline(L_228, L_230, NULL);
+				V_26 = L_231;
+				TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_232 = (TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81*)(TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81*)SZArrayNew(TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81_il2cpp_TypeInfo_var, (uint32_t)2);
+				TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_233 = L_232;
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_234 = V_22;
+				NullCheck(L_233);
+				ArrayElementTypeCheck (L_233, L_234);
+				(L_233)->SetAt(static_cast<il2cpp_array_size_t>(0), (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*)L_234);
+				TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_235 = L_233;
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_236 = V_26;
+				NullCheck(L_235);
+				ArrayElementTypeCheck (L_235, L_236);
+				(L_235)->SetAt(static_cast<il2cpp_array_size_t>(1), (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*)L_236);
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_237;
+				L_237 = VirtualFuncInvoker1< Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* >::Invoke(201, __this, L_235);
+				V_27 = L_237;
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_238 = V_27;
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_239 = V_27;
+				NullCheck(L_239);
+				int32_t L_240;
+				L_240 = Tensor_get_batch_m6CD93DCCD32D6A47FDEDEBFF16FF70AC9C586DD9(L_239, NULL);
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_241 = V_27;
+				NullCheck(L_241);
+				int32_t L_242;
+				L_242 = Tensor_get_channels_m9DA46CF71B1C47E059EA3417C6A652E1233B5D04(L_241, NULL);
+				TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_243;
+				memset((&L_243), 0, sizeof(L_243));
+				TensorShape__ctor_m0318587E59DA4D042BBC786E5B6CF255C773FA57((&L_243), 1, L_240, L_242, 1, NULL);
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_244;
+				L_244 = VirtualFuncInvoker2< Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 >::Invoke(228, __this, L_238, L_243);
+				V_28 = L_244;
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_245 = V_2;
+				V_29 = (bool)((((RuntimeObject*)(Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*)L_245) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
+				bool L_246 = V_29;
+				if (!L_246)
+				{
+					goto IL_039a_1;
+				}
+			}
+			{
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_247 = V_28;
+				V_2 = L_247;
+				goto IL_03bf_1;
+			}
+
+IL_039a_1:
+			{
+				TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_248 = (TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81*)(TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81*)SZArrayNew(TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81_il2cpp_TypeInfo_var, (uint32_t)2);
+				TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_249 = L_248;
+				F_t0057DF9A2096B887F2CD030BD8B21AB93052E232* L_250 = V_5;
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_251 = V_2;
+				NullCheck(L_250);
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_252;
+				L_252 = F_Invoke_mF9DE40521BFEBDFCA0F615EECF518CBDD6F3B581_inline(L_250, L_251, NULL);
+				NullCheck(L_249);
+				ArrayElementTypeCheck (L_249, L_252);
+				(L_249)->SetAt(static_cast<il2cpp_array_size_t>(0), (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*)L_252);
+				TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_253 = L_249;
+				F_t0057DF9A2096B887F2CD030BD8B21AB93052E232* L_254 = V_5;
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_255 = V_28;
+				NullCheck(L_254);
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_256;
+				L_256 = F_Invoke_mF9DE40521BFEBDFCA0F615EECF518CBDD6F3B581_inline(L_254, L_255, NULL);
+				NullCheck(L_253);
+				ArrayElementTypeCheck (L_253, L_256);
+				(L_253)->SetAt(static_cast<il2cpp_array_size_t>(1), (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*)L_256);
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_257;
+				L_257 = VirtualFuncInvoker2< Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81*, int32_t >::Invoke(195, __this, L_253, 2);
+				V_2 = L_257;
+			}
+
+IL_03bf_1:
+			{
+				int32_t L_258 = V_3;
+				V_30 = (bool)((!(((uint32_t)L_258) <= ((uint32_t)0)))? 1 : 0);
+				bool L_259 = V_30;
+				if (!L_259)
+				{
+					goto IL_03df_1;
+				}
+			}
+			{
+				F_t0057DF9A2096B887F2CD030BD8B21AB93052E232* L_260 = V_5;
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_261 = ___5_hidden;
+				NullCheck(L_260);
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_262;
+				L_262 = F_Invoke_mF9DE40521BFEBDFCA0F615EECF518CBDD6F3B581_inline(L_260, L_261, NULL);
+				F_t0057DF9A2096B887F2CD030BD8B21AB93052E232* L_263 = V_5;
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_264 = ___6_cell;
+				NullCheck(L_263);
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_265;
+				L_265 = F_Invoke_mF9DE40521BFEBDFCA0F615EECF518CBDD6F3B581_inline(L_263, L_264, NULL);
+			}
+
+IL_03df_1:
+			{
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_266 = V_27;
+				___5_hidden = L_266;
+				Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_267 = V_25;
+				___6_cell = L_267;
+				goto IL_03f7;
+			}
+		}
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_03f7:
+	{
+		int32_t L_268 = V_3;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_268, 1));
+	}
+
+IL_03fc:
+	{
+		int32_t L_269 = V_3;
+		int32_t L_270 = V_1;
+		V_31 = (bool)((((int32_t)L_269) < ((int32_t)L_270))? 1 : 0);
+		bool L_271 = V_31;
+		if (L_271)
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_272 = (TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81*)(TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81*)SZArrayNew(TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81_il2cpp_TypeInfo_var, (uint32_t)3);
+		TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_273 = L_272;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_274 = V_2;
+		NullCheck(L_273);
+		ArrayElementTypeCheck (L_273, L_274);
+		(L_273)->SetAt(static_cast<il2cpp_array_size_t>(0), (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*)L_274);
+		TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_275 = L_273;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_276 = ___5_hidden;
+		NullCheck(L_275);
+		ArrayElementTypeCheck (L_275, L_276);
+		(L_275)->SetAt(static_cast<il2cpp_array_size_t>(1), (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*)L_276);
+		TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_277 = L_275;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_278 = ___6_cell;
+		NullCheck(L_277);
+		ArrayElementTypeCheck (L_277, L_278);
+		(L_277)->SetAt(static_cast<il2cpp_array_size_t>(2), (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*)L_278);
+		V_32 = L_277;
+		goto IL_0421;
+	}
+
+IL_0421:
+	{
+		TensorU5BU5D_t4F93EDE796E50CD52F98A8642B4C8BE824CBEC81* L_279 = V_32;
+		return L_279;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_Transpose_m984AEE6B18B22C7CCFC631F425C363E4264719FA (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		s_Il2CppMethodInitialized = true;
+	}
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_0 = NULL;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	bool V_3 = false;
+	bool V_4 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_5 = NULL;
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_0 = ___0_X;
+		NullCheck(L_0);
+		int32_t L_1;
+		L_1 = Tensor_get_dimensions_mD78E14F7C96D3C7E1F47BC20BFA4352E8C52E2BB(L_0, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_IsTrue_mE42C53B7220324D1FBAFB7AE48A7D8DD7796A663((bool)((((int32_t)((((int32_t)L_1) > ((int32_t)2))? 1 : 0)) == ((int32_t)0))? 1 : 0), NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_2 = ___0_X;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_3;
+		L_3 = VirtualFuncInvoker1< Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* >::Invoke(227, __this, L_2);
+		___0_X = L_3;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_4 = ___0_X;
+		NullCheck(L_4);
+		int32_t L_5;
+		L_5 = Tensor_get_dataType_m57109C88C5386735035BB4066BAACD68228C3AB1(L_4, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_6 = ___0_X;
+		NullCheck(L_6);
+		int32_t L_7;
+		L_7 = Tensor_get_flatWidth_m7B9AECCB1EF9799E625DD86147A2A3F92F440CC5(L_6, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_8 = ___0_X;
+		NullCheck(L_8);
+		int32_t L_9;
+		L_9 = Tensor_get_flatHeight_m5A8183FF5C9A9FBDE2F8080B134CA91ABA0FC50D(L_8, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_10;
+		L_10 = ReferenceCPUOps_NewTensor_m549377E46F09536C70FA6CD0E663E9FF6735A53F(__this, L_5, L_7, L_9, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
+		V_0 = L_10;
+		V_1 = 0;
+		goto IL_0068;
+	}
+
+IL_003e:
+	{
+		V_2 = 0;
+		goto IL_0057;
+	}
+
+IL_0042:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_11 = V_0;
+		int32_t L_12 = V_1;
+		int32_t L_13 = V_2;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_14 = ___0_X;
+		int32_t L_15 = V_2;
+		int32_t L_16 = V_1;
+		NullCheck(L_14);
+		float L_17;
+		L_17 = Tensor_get_Item_mB3B371A025B020FBFB3A79C3375745EEA999829B(L_14, L_15, L_16, NULL);
+		NullCheck(L_11);
+		Tensor_set_Item_m3DDF7909FDDC72AE45128800669404B9A7151F87(L_11, L_12, L_13, L_17, NULL);
+		int32_t L_18 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_18, 1));
+	}
+
+IL_0057:
+	{
+		int32_t L_19 = V_2;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_20 = V_0;
+		NullCheck(L_20);
+		int32_t L_21;
+		L_21 = Tensor_get_flatWidth_m7B9AECCB1EF9799E625DD86147A2A3F92F440CC5(L_20, NULL);
+		V_3 = (bool)((((int32_t)L_19) < ((int32_t)L_21))? 1 : 0);
+		bool L_22 = V_3;
+		if (L_22)
+		{
+			goto IL_0042;
+		}
+	}
+	{
+		int32_t L_23 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_23, 1));
+	}
+
+IL_0068:
+	{
+		int32_t L_24 = V_1;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_25 = V_0;
+		NullCheck(L_25);
+		int32_t L_26;
+		L_26 = Tensor_get_flatHeight_m5A8183FF5C9A9FBDE2F8080B134CA91ABA0FC50D(L_25, NULL);
+		V_4 = (bool)((((int32_t)L_24) < ((int32_t)L_26))? 1 : 0);
+		bool L_27 = V_4;
+		if (L_27)
+		{
+			goto IL_003e;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_28 = V_0;
+		V_5 = L_28;
+		goto IL_007c;
+	}
+
+IL_007c:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_29 = V_5;
+		return L_29;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_Transpose_m6AE5DEED3A3CC4A8DCBA49E4EBEBCD3368C5B015 (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___1_permutations, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_0 = NULL;
+	TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	bool V_2 = false;
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_3 = NULL;
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_0 = ___0_X;
+		NullCheck(L_0);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_1;
+		L_1 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_0, NULL);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_2 = ___1_permutations;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_3;
+		L_3 = TensorExtensions_Get8DPermutationsForNHWCPermutationsAndShape_mE45436875456051EC29BC0B4ACC19340CB806A1E(L_1, L_2, NULL);
+		___1_permutations = L_3;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_4 = ___0_X;
+		NullCheck(L_4);
+		int32_t L_5;
+		L_5 = Tensor_get_dataType_m57109C88C5386735035BB4066BAACD68228C3AB1(L_4, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_6 = ___0_X;
+		NullCheck(L_6);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_7;
+		L_7 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_6, NULL);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_8 = ___1_permutations;
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_9;
+		L_9 = TensorExtensions_Permute_m5B7A207CA82700EF3ECF35A5DFCB5A2EAB3DFAF0(L_7, L_8, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_10;
+		L_10 = ReferenceCPUOps_NewTensor_m74008D9C77785A62165EBEF61281FBB9CB42DAAF(__this, L_5, L_9, NULL);
+		V_0 = L_10;
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_AreEqual_m718BB4BD31FA3176A3A236F96BC5405EB750D6CF(8, 8, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_11 = ___0_X;
+		TensorIterator__ctor_m6319470FAD9BD9F476FBCF1BB5B62700D21A0CD9((&V_1), L_11, 0, NULL);
+		goto IL_00a8;
+	}
+
+IL_003b:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_12 = V_0;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_13 = ___1_permutations;
+		NullCheck(L_13);
+		int32_t L_14 = 0;
+		int32_t L_15 = (L_13)->GetAt(static_cast<il2cpp_array_size_t>(L_14));
+		int32_t L_16;
+		L_16 = TensorIterator_get_Item_m63E891C7B085A16BE0673E4A6AE6D26B08DAA97D((&V_1), L_15, NULL);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_17 = ___1_permutations;
+		NullCheck(L_17);
+		int32_t L_18 = 1;
+		int32_t L_19 = (L_17)->GetAt(static_cast<il2cpp_array_size_t>(L_18));
+		int32_t L_20;
+		L_20 = TensorIterator_get_Item_m63E891C7B085A16BE0673E4A6AE6D26B08DAA97D((&V_1), L_19, NULL);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_21 = ___1_permutations;
+		NullCheck(L_21);
+		int32_t L_22 = 2;
+		int32_t L_23 = (L_21)->GetAt(static_cast<il2cpp_array_size_t>(L_22));
+		int32_t L_24;
+		L_24 = TensorIterator_get_Item_m63E891C7B085A16BE0673E4A6AE6D26B08DAA97D((&V_1), L_23, NULL);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_25 = ___1_permutations;
+		NullCheck(L_25);
+		int32_t L_26 = 3;
+		int32_t L_27 = (L_25)->GetAt(static_cast<il2cpp_array_size_t>(L_26));
+		int32_t L_28;
+		L_28 = TensorIterator_get_Item_m63E891C7B085A16BE0673E4A6AE6D26B08DAA97D((&V_1), L_27, NULL);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_29 = ___1_permutations;
+		NullCheck(L_29);
+		int32_t L_30 = 4;
+		int32_t L_31 = (L_29)->GetAt(static_cast<il2cpp_array_size_t>(L_30));
+		int32_t L_32;
+		L_32 = TensorIterator_get_Item_m63E891C7B085A16BE0673E4A6AE6D26B08DAA97D((&V_1), L_31, NULL);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_33 = ___1_permutations;
+		NullCheck(L_33);
+		int32_t L_34 = 5;
+		int32_t L_35 = (L_33)->GetAt(static_cast<il2cpp_array_size_t>(L_34));
+		int32_t L_36;
+		L_36 = TensorIterator_get_Item_m63E891C7B085A16BE0673E4A6AE6D26B08DAA97D((&V_1), L_35, NULL);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_37 = ___1_permutations;
+		NullCheck(L_37);
+		int32_t L_38 = 6;
+		int32_t L_39 = (L_37)->GetAt(static_cast<il2cpp_array_size_t>(L_38));
+		int32_t L_40;
+		L_40 = TensorIterator_get_Item_m63E891C7B085A16BE0673E4A6AE6D26B08DAA97D((&V_1), L_39, NULL);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_41 = ___1_permutations;
+		NullCheck(L_41);
+		int32_t L_42 = 7;
+		int32_t L_43 = (L_41)->GetAt(static_cast<il2cpp_array_size_t>(L_42));
+		int32_t L_44;
+		L_44 = TensorIterator_get_Item_m63E891C7B085A16BE0673E4A6AE6D26B08DAA97D((&V_1), L_43, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_45 = ___0_X;
+		TensorIterator_tE39D82DA78F49DF5F69570F620B140CC03F5BE78 L_46 = V_1;
+		int32_t L_47 = L_46.___index;
+		NullCheck(L_45);
+		float L_48;
+		L_48 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_45, L_47, NULL);
+		NullCheck(L_12);
+		Tensor_set_Item_m1709795A52A1A1B65C7E09BFC9FCF25AE53E227C(L_12, L_16, L_20, L_24, L_28, L_32, L_36, L_40, L_44, L_48, NULL);
+		TensorIterator_Next_m3BBE90015F10C99DBD4317583E5C8696E45865B1((&V_1), NULL);
+	}
+
+IL_00a8:
+	{
+		bool L_49;
+		L_49 = TensorIterator_IsValid_m35EB0AC3E815407848AFD55F95B88BF0093CC7A5((&V_1), NULL);
+		V_2 = L_49;
+		bool L_50 = V_2;
+		if (L_50)
+		{
+			goto IL_003b;
+		}
+	}
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_51 = V_0;
+		V_3 = L_51;
+		goto IL_00b7;
+	}
+
+IL_00b7:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_52 = V_3;
+		return L_52;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_Prepare_m5EC4B6A0CF7E4FEDA2960E9809D8DD987450DA4E (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, const RuntimeMethod* method) 
+{
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_0 = NULL;
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_0 = ___0_X;
+		NullCheck(L_0);
+		bool L_1;
+		L_1 = Tensor_PrepareCacheForAccess_m0A1B607B3A671C67A30A5DACE345079BEA55C0BC(L_0, (bool)1, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_2 = ___0_X;
+		V_0 = L_2;
+		goto IL_000d;
+	}
+
+IL_000d:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_3 = V_0;
+		return L_3;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ReferenceCPUOps_PrepareNoAlloc_m6AC2ACE8056AA048EDAD46CD7901E9CD1F39EECB (ReferenceCPUOps_tD4FDB932A38302FD6AB1A4CCD570737109B26659* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_X, const RuntimeMethod* method) 
+{
+	Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* V_0 = NULL;
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_0 = ___0_X;
+		NullCheck(L_0);
+		bool L_1;
+		L_1 = Tensor_PrepareCacheForAccess_m0A1B607B3A671C67A30A5DACE345079BEA55C0BC(L_0, (bool)1, NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_2 = ___0_X;
+		V_0 = L_2;
+		goto IL_000d;
+	}
+
+IL_000d:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_3 = V_0;
+		return L_3;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ReferenceCPUOps_U3CPad2DReflectU3Eg__GetReflectPaddingU7C43_0_m62B1564F667A3E7AB8FEC113D2D34AE039A2B2F2 (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_tensorX, int32_t ___1_b, int32_t ___2_readD, int32_t ___3_readY, int32_t ___4_readX, int32_t ___5_readC, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	bool V_4 = false;
+	bool V_5 = false;
+	bool V_6 = false;
+	bool V_7 = false;
+	bool V_8 = false;
+	bool V_9 = false;
+	float V_10 = 0.0f;
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_0 = ___0_tensorX;
+		NullCheck(L_0);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_1;
+		L_1 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_0, NULL);
+		V_3 = L_1;
+		int32_t L_2;
+		L_2 = TensorShape_get_width_m56A7458F96AE9D7CA09EBD26818829F744B9535E((&V_3), NULL);
+		V_0 = ((int32_t)il2cpp_codegen_subtract(L_2, 1));
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_3 = ___0_tensorX;
+		NullCheck(L_3);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_4;
+		L_4 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_3, NULL);
+		V_3 = L_4;
+		int32_t L_5;
+		L_5 = TensorShape_get_height_m8B91777B58E0A3DA03D0D4321E808881FED66B49((&V_3), NULL);
+		V_1 = ((int32_t)il2cpp_codegen_subtract(L_5, 1));
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_6 = ___0_tensorX;
+		NullCheck(L_6);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_7;
+		L_7 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_6, NULL);
+		V_3 = L_7;
+		int32_t L_8;
+		L_8 = TensorShape_get_channels_m0E2F3816D81AD501AD029073DCE1355AE46EF52B((&V_3), NULL);
+		V_2 = ((int32_t)il2cpp_codegen_subtract(L_8, 1));
+		int32_t L_9 = ___4_readX;
+		V_4 = (bool)((((int32_t)L_9) < ((int32_t)0))? 1 : 0);
+		bool L_10 = V_4;
+		if (!L_10)
+		{
+			goto IL_0046;
+		}
+	}
+	{
+		int32_t L_11 = ___4_readX;
+		___4_readX = ((-L_11));
+		goto IL_0059;
+	}
+
+IL_0046:
+	{
+		int32_t L_12 = ___4_readX;
+		int32_t L_13 = V_0;
+		V_5 = (bool)((((int32_t)L_12) > ((int32_t)L_13))? 1 : 0);
+		bool L_14 = V_5;
+		if (!L_14)
+		{
+			goto IL_0059;
+		}
+	}
+	{
+		int32_t L_15 = V_0;
+		int32_t L_16 = ___4_readX;
+		int32_t L_17 = V_0;
+		___4_readX = ((int32_t)il2cpp_codegen_subtract(L_15, ((int32_t)il2cpp_codegen_subtract(L_16, L_17))));
+	}
+
+IL_0059:
+	{
+		int32_t L_18 = ___3_readY;
+		V_6 = (bool)((((int32_t)L_18) < ((int32_t)0))? 1 : 0);
+		bool L_19 = V_6;
+		if (!L_19)
+		{
+			goto IL_0069;
+		}
+	}
+	{
+		int32_t L_20 = ___3_readY;
+		___3_readY = ((-L_20));
+		goto IL_007a;
+	}
+
+IL_0069:
+	{
+		int32_t L_21 = ___3_readY;
+		int32_t L_22 = V_1;
+		V_7 = (bool)((((int32_t)L_21) > ((int32_t)L_22))? 1 : 0);
+		bool L_23 = V_7;
+		if (!L_23)
+		{
+			goto IL_007a;
+		}
+	}
+	{
+		int32_t L_24 = V_1;
+		int32_t L_25 = ___3_readY;
+		int32_t L_26 = V_1;
+		___3_readY = ((int32_t)il2cpp_codegen_subtract(L_24, ((int32_t)il2cpp_codegen_subtract(L_25, L_26))));
+	}
+
+IL_007a:
+	{
+		int32_t L_27 = ___5_readC;
+		V_8 = (bool)((((int32_t)L_27) < ((int32_t)0))? 1 : 0);
+		bool L_28 = V_8;
+		if (!L_28)
+		{
+			goto IL_008c;
+		}
+	}
+	{
+		int32_t L_29 = ___5_readC;
+		___5_readC = ((-L_29));
+		goto IL_009f;
+	}
+
+IL_008c:
+	{
+		int32_t L_30 = ___5_readC;
+		int32_t L_31 = V_2;
+		V_9 = (bool)((((int32_t)L_30) > ((int32_t)L_31))? 1 : 0);
+		bool L_32 = V_9;
+		if (!L_32)
+		{
+			goto IL_009f;
+		}
+	}
+	{
+		int32_t L_33 = V_2;
+		int32_t L_34 = ___5_readC;
+		int32_t L_35 = V_2;
+		___5_readC = ((int32_t)il2cpp_codegen_subtract(L_33, ((int32_t)il2cpp_codegen_subtract(L_34, L_35))));
+	}
+
+IL_009f:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_36 = ___0_tensorX;
+		NullCheck(L_36);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_37;
+		L_37 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_36, NULL);
+		ReferenceCPUOps_ClampHWCToTensorShape_m3823687E0560CB403F02F66486CC37EA635EED71(L_37, (&___3_readY), (&___4_readX), (&___5_readC), NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_38 = ___0_tensorX;
+		int32_t L_39 = ___1_b;
+		int32_t L_40 = ___3_readY;
+		int32_t L_41 = ___4_readX;
+		int32_t L_42 = ___5_readC;
+		NullCheck(L_38);
+		float L_43;
+		L_43 = Tensor_get_Item_mA53C387CBDB9F0EA0D069DD7BFC45970172290C5(L_38, L_39, L_40, L_41, L_42, NULL);
+		V_10 = L_43;
+		goto IL_00c1;
+	}
+
+IL_00c1:
+	{
+		float L_44 = V_10;
+		return L_44;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ReferenceCPUOps_U3CPad2DSymmetricU3Eg__GetSymmetricPaddingU7C44_0_m4395D0F5D2DBBC53D8B652FE53D6B47317AEC67D (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_tensorX, int32_t ___1_b, int32_t ___2_readD, int32_t ___3_readY, int32_t ___4_readX, int32_t ___5_readC, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	bool V_4 = false;
+	bool V_5 = false;
+	bool V_6 = false;
+	bool V_7 = false;
+	bool V_8 = false;
+	bool V_9 = false;
+	float V_10 = 0.0f;
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_0 = ___0_tensorX;
+		NullCheck(L_0);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_1;
+		L_1 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_0, NULL);
+		V_3 = L_1;
+		int32_t L_2;
+		L_2 = TensorShape_get_width_m56A7458F96AE9D7CA09EBD26818829F744B9535E((&V_3), NULL);
+		V_0 = ((int32_t)il2cpp_codegen_subtract(L_2, 1));
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_3 = ___0_tensorX;
+		NullCheck(L_3);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_4;
+		L_4 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_3, NULL);
+		V_3 = L_4;
+		int32_t L_5;
+		L_5 = TensorShape_get_height_m8B91777B58E0A3DA03D0D4321E808881FED66B49((&V_3), NULL);
+		V_1 = ((int32_t)il2cpp_codegen_subtract(L_5, 1));
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_6 = ___0_tensorX;
+		NullCheck(L_6);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_7;
+		L_7 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_6, NULL);
+		V_3 = L_7;
+		int32_t L_8;
+		L_8 = TensorShape_get_channels_m0E2F3816D81AD501AD029073DCE1355AE46EF52B((&V_3), NULL);
+		V_2 = ((int32_t)il2cpp_codegen_subtract(L_8, 1));
+		int32_t L_9 = ___4_readX;
+		V_4 = (bool)((((int32_t)L_9) < ((int32_t)0))? 1 : 0);
+		bool L_10 = V_4;
+		if (!L_10)
+		{
+			goto IL_0048;
+		}
+	}
+	{
+		int32_t L_11 = ___4_readX;
+		___4_readX = ((int32_t)il2cpp_codegen_subtract(((-L_11)), 1));
+		goto IL_005d;
+	}
+
+IL_0048:
+	{
+		int32_t L_12 = ___4_readX;
+		int32_t L_13 = V_0;
+		V_5 = (bool)((((int32_t)L_12) > ((int32_t)L_13))? 1 : 0);
+		bool L_14 = V_5;
+		if (!L_14)
+		{
+			goto IL_005d;
+		}
+	}
+	{
+		int32_t L_15 = V_0;
+		int32_t L_16 = ___4_readX;
+		int32_t L_17 = V_0;
+		___4_readX = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_subtract(L_15, ((int32_t)il2cpp_codegen_subtract(L_16, L_17)))), 1));
+	}
+
+IL_005d:
+	{
+		int32_t L_18 = ___3_readY;
+		V_6 = (bool)((((int32_t)L_18) < ((int32_t)0))? 1 : 0);
+		bool L_19 = V_6;
+		if (!L_19)
+		{
+			goto IL_006f;
+		}
+	}
+	{
+		int32_t L_20 = ___3_readY;
+		___3_readY = ((int32_t)il2cpp_codegen_subtract(((-L_20)), 1));
+		goto IL_0082;
+	}
+
+IL_006f:
+	{
+		int32_t L_21 = ___3_readY;
+		int32_t L_22 = V_1;
+		V_7 = (bool)((((int32_t)L_21) > ((int32_t)L_22))? 1 : 0);
+		bool L_23 = V_7;
+		if (!L_23)
+		{
+			goto IL_0082;
+		}
+	}
+	{
+		int32_t L_24 = V_1;
+		int32_t L_25 = ___3_readY;
+		int32_t L_26 = V_1;
+		___3_readY = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_subtract(L_24, ((int32_t)il2cpp_codegen_subtract(L_25, L_26)))), 1));
+	}
+
+IL_0082:
+	{
+		int32_t L_27 = ___5_readC;
+		V_8 = (bool)((((int32_t)L_27) < ((int32_t)0))? 1 : 0);
+		bool L_28 = V_8;
+		if (!L_28)
+		{
+			goto IL_0096;
+		}
+	}
+	{
+		int32_t L_29 = ___5_readC;
+		___5_readC = ((int32_t)il2cpp_codegen_subtract(((-L_29)), 1));
+		goto IL_00ab;
+	}
+
+IL_0096:
+	{
+		int32_t L_30 = ___5_readC;
+		int32_t L_31 = V_2;
+		V_9 = (bool)((((int32_t)L_30) > ((int32_t)L_31))? 1 : 0);
+		bool L_32 = V_9;
+		if (!L_32)
+		{
+			goto IL_00ab;
+		}
+	}
+	{
+		int32_t L_33 = V_2;
+		int32_t L_34 = ___5_readC;
+		int32_t L_35 = V_2;
+		___5_readC = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_subtract(L_33, ((int32_t)il2cpp_codegen_subtract(L_34, L_35)))), 1));
+	}
+
+IL_00ab:
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_36 = ___0_tensorX;
+		NullCheck(L_36);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_37;
+		L_37 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_36, NULL);
+		ReferenceCPUOps_ClampHWCToTensorShape_m3823687E0560CB403F02F66486CC37EA635EED71(L_37, (&___3_readY), (&___4_readX), (&___5_readC), NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_38 = ___0_tensorX;
+		int32_t L_39 = ___1_b;
+		int32_t L_40 = ___3_readY;
+		int32_t L_41 = ___4_readX;
+		int32_t L_42 = ___5_readC;
+		NullCheck(L_38);
+		float L_43;
+		L_43 = Tensor_get_Item_mA53C387CBDB9F0EA0D069DD7BFC45970172290C5(L_38, L_39, L_40, L_41, L_42, NULL);
+		V_10 = L_43;
+		goto IL_00cd;
+	}
+
+IL_00cd:
+	{
+		float L_44 = V_10;
+		return L_44;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ReferenceCPUOps_U3CPad2DEdgeU3Eg__GetEdgePaddingU7C45_0_m40EBA0FBCB6CF59F3DBBF54DF21A476073001C02 (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_tensorX, int32_t ___1_b, int32_t ___2_readD, int32_t ___3_readY, int32_t ___4_readX, int32_t ___5_readC, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_0 = ___0_tensorX;
+		NullCheck(L_0);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_1;
+		L_1 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_0, NULL);
+		ReferenceCPUOps_ClampHWCToTensorShape_m3823687E0560CB403F02F66486CC37EA635EED71(L_1, (&___3_readY), (&___4_readX), (&___5_readC), NULL);
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_2 = ___0_tensorX;
+		int32_t L_3 = ___1_b;
+		int32_t L_4 = ___3_readY;
+		int32_t L_5 = ___4_readX;
+		int32_t L_6 = ___5_readC;
+		NullCheck(L_2);
+		float L_7;
+		L_7 = Tensor_get_Item_mA53C387CBDB9F0EA0D069DD7BFC45970172290C5(L_2, L_3, L_4, L_5, L_6, NULL);
+		V_0 = L_7;
+		goto IL_0022;
+	}
+
+IL_0022:
+	{
+		float L_8 = V_0;
+		return L_8;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ReferenceCPUOps_U3CNonMaxSuppressionU3Eg__GetIntersectionOverUnionAreaU7C143_0_m110CF2528A4DC4734AD36C36756F808AF47BB079 (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___0_a, Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___1_b, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	float V_1 = 0.0f;
+	{
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_0 = ___0_a;
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_1 = ___1_b;
+		float L_2;
+		L_2 = ReferenceCPUOps_U3CNonMaxSuppressionU3Eg__GetIntersectionAreaU7C143_1_m571819DA634B7E661AD8EB875C50424986B9041F(L_0, L_1, NULL);
+		V_0 = L_2;
+		float L_3 = V_0;
+		float L_4;
+		L_4 = Rect_get_width_m620D67551372073C9C32C4C4624C2A5713F7F9A9_inline((&___0_a), NULL);
+		float L_5;
+		L_5 = Rect_get_height_mE1AA6C6C725CCD2D317BD2157396D3CF7D47C9D8_inline((&___0_a), NULL);
+		float L_6;
+		L_6 = Rect_get_width_m620D67551372073C9C32C4C4624C2A5713F7F9A9_inline((&___1_b), NULL);
+		float L_7;
+		L_7 = Rect_get_height_mE1AA6C6C725CCD2D317BD2157396D3CF7D47C9D8_inline((&___1_b), NULL);
+		float L_8 = V_0;
+		V_1 = ((float)(L_3/((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_4, L_5)), ((float)il2cpp_codegen_multiply(L_6, L_7)))), L_8))));
+		goto IL_002f;
+	}
+
+IL_002f:
+	{
+		float L_9 = V_1;
+		return L_9;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ReferenceCPUOps_U3CNonMaxSuppressionU3Eg__GetIntersectionAreaU7C143_1_m571819DA634B7E661AD8EB875C50424986B9041F (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___0_a, Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___1_b, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	float V_1 = 0.0f;
+	float V_2 = 0.0f;
+	float V_3 = 0.0f;
+	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	float V_5 = 0.0f;
+	{
+		float L_0;
+		L_0 = Rect_get_xMin_mE89C40702926D016A633399E20DB9501E251630D_inline((&___0_a), NULL);
+		float L_1;
+		L_1 = Rect_get_xMin_mE89C40702926D016A633399E20DB9501E251630D_inline((&___1_b), NULL);
+		float L_2;
+		L_2 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline(L_0, L_1, NULL);
+		V_0 = L_2;
+		float L_3;
+		L_3 = Rect_get_yMin_mB19848FB25DE61EDF958F7A22CFDD86DE103062F_inline((&___0_a), NULL);
+		float L_4;
+		L_4 = Rect_get_yMin_mB19848FB25DE61EDF958F7A22CFDD86DE103062F_inline((&___1_b), NULL);
+		float L_5;
+		L_5 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline(L_3, L_4, NULL);
+		V_1 = L_5;
+		float L_6;
+		L_6 = Rect_get_xMax_m2339C7D2FCDA98A9B007F815F6E2059BA6BE425F_inline((&___0_a), NULL);
+		float L_7;
+		L_7 = Rect_get_xMax_m2339C7D2FCDA98A9B007F815F6E2059BA6BE425F_inline((&___1_b), NULL);
+		float L_8;
+		L_8 = Mathf_Min_m747CA71A9483CDB394B13BD0AD048EE17E48FFE4_inline(L_6, L_7, NULL);
+		V_2 = L_8;
+		float L_9;
+		L_9 = Rect_get_yMax_mBC37BEE1CD632AADD8B9EAF9FE3BA143F79CAF8E_inline((&___0_a), NULL);
+		float L_10;
+		L_10 = Rect_get_yMax_mBC37BEE1CD632AADD8B9EAF9FE3BA143F79CAF8E_inline((&___1_b), NULL);
+		float L_11;
+		L_11 = Mathf_Min_m747CA71A9483CDB394B13BD0AD048EE17E48FFE4_inline(L_9, L_10, NULL);
+		V_3 = L_11;
+		float L_12 = V_0;
+		float L_13 = V_1;
+		float L_14 = V_2;
+		float L_15 = V_3;
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_16;
+		L_16 = Rect_MinMaxRect_m540D2DD8C255D276AD4AE06D9CCA2A667EFA39E5_inline(L_12, L_13, L_14, L_15, NULL);
+		V_4 = L_16;
+		float L_17;
+		L_17 = Rect_get_width_m620D67551372073C9C32C4C4624C2A5713F7F9A9_inline((&V_4), NULL);
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		float L_18;
+		L_18 = Math_Max_mB55ACEA482E7F67E61496C4C7C54FE0BB7BE78EA(L_17, (0.0f), NULL);
+		float L_19;
+		L_19 = Rect_get_height_mE1AA6C6C725CCD2D317BD2157396D3CF7D47C9D8_inline((&V_4), NULL);
+		float L_20;
+		L_20 = Math_Max_mB55ACEA482E7F67E61496C4C7C54FE0BB7BE78EA(L_19, (0.0f), NULL);
+		V_5 = ((float)il2cpp_codegen_multiply(L_18, L_20));
+		goto IL_0083;
+	}
+
+IL_0083:
+	{
+		float L_21 = V_5;
+		return L_21;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ReferenceCPUOps_U3CNonMaxSuppressionU3Eg__GetRectU7C143_2_m32D5DF34714D308D70EAE6AB4683251370DE68F0 (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_t, int32_t ___1_batch, int32_t ___2_index, const RuntimeMethod* method) 
+{
+	TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	float V_1 = 0.0f;
+	float V_2 = 0.0f;
+	float V_3 = 0.0f;
+	float V_4 = 0.0f;
+	bool V_5 = false;
+	float V_6 = 0.0f;
+	bool V_7 = false;
+	float V_8 = 0.0f;
+	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_0 = ___0_t;
+		NullCheck(L_0);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_1;
+		L_1 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_0, NULL);
+		V_0 = L_1;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_2 = ___0_t;
+		int32_t L_3 = ___1_batch;
+		int32_t L_4 = ___2_index;
+		int32_t L_5;
+		L_5 = TensorShape_Index_mBC2A1602541E21AE2919F39C2424580F06A7402E((&V_0), L_3, 0, 1, L_4, NULL);
+		NullCheck(L_2);
+		float L_6;
+		L_6 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_2, L_5, NULL);
+		V_1 = L_6;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_7 = ___0_t;
+		int32_t L_8 = ___1_batch;
+		int32_t L_9 = ___2_index;
+		int32_t L_10;
+		L_10 = TensorShape_Index_mBC2A1602541E21AE2919F39C2424580F06A7402E((&V_0), L_8, 0, 0, L_9, NULL);
+		NullCheck(L_7);
+		float L_11;
+		L_11 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_7, L_10, NULL);
+		V_2 = L_11;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_12 = ___0_t;
+		int32_t L_13 = ___1_batch;
+		int32_t L_14 = ___2_index;
+		int32_t L_15;
+		L_15 = TensorShape_Index_mBC2A1602541E21AE2919F39C2424580F06A7402E((&V_0), L_13, 0, 3, L_14, NULL);
+		NullCheck(L_12);
+		float L_16;
+		L_16 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_12, L_15, NULL);
+		V_3 = L_16;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_17 = ___0_t;
+		int32_t L_18 = ___1_batch;
+		int32_t L_19 = ___2_index;
+		int32_t L_20;
+		L_20 = TensorShape_Index_mBC2A1602541E21AE2919F39C2424580F06A7402E((&V_0), L_18, 0, 2, L_19, NULL);
+		NullCheck(L_17);
+		float L_21;
+		L_21 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_17, L_20, NULL);
+		V_4 = L_21;
+		float L_22 = V_1;
+		float L_23 = V_3;
+		V_5 = (bool)((((float)L_22) > ((float)L_23))? 1 : 0);
+		bool L_24 = V_5;
+		if (!L_24)
+		{
+			goto IL_0065;
+		}
+	}
+	{
+		float L_25 = V_1;
+		V_6 = L_25;
+		float L_26 = V_3;
+		V_1 = L_26;
+		float L_27 = V_6;
+		V_3 = L_27;
+	}
+
+IL_0065:
+	{
+		float L_28 = V_2;
+		float L_29 = V_4;
+		V_7 = (bool)((((float)L_28) > ((float)L_29))? 1 : 0);
+		bool L_30 = V_7;
+		if (!L_30)
+		{
+			goto IL_007c;
+		}
+	}
+	{
+		float L_31 = V_2;
+		V_8 = L_31;
+		float L_32 = V_4;
+		V_2 = L_32;
+		float L_33 = V_8;
+		V_4 = L_33;
+	}
+
+IL_007c:
+	{
+		float L_34 = V_1;
+		float L_35 = V_2;
+		float L_36 = V_3;
+		float L_37 = V_4;
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_38;
+		L_38 = Rect_MinMaxRect_m540D2DD8C255D276AD4AE06D9CCA2A667EFA39E5_inline(L_34, L_35, L_36, L_37, NULL);
+		V_9 = L_38;
+		goto IL_008a;
+	}
+
+IL_008a:
+	{
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_39 = V_9;
+		return L_39;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ReferenceCPUOps_U3CNonMaxSuppressionU3Eg__GetRectFromCenterU7C143_3_m5C1E099D04485C240654BEE7A6EB57C0CC3E6151 (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_t, int32_t ___1_batch, int32_t ___2_index, const RuntimeMethod* method) 
+{
+	TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	float V_1 = 0.0f;
+	float V_2 = 0.0f;
+	float V_3 = 0.0f;
+	float V_4 = 0.0f;
+	float V_5 = 0.0f;
+	float V_6 = 0.0f;
+	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D V_7;
+	memset((&V_7), 0, sizeof(V_7));
+	{
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_0 = ___0_t;
+		NullCheck(L_0);
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_1;
+		L_1 = Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline(L_0, NULL);
+		V_0 = L_1;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_2 = ___0_t;
+		int32_t L_3 = ___1_batch;
+		int32_t L_4 = ___2_index;
+		int32_t L_5;
+		L_5 = TensorShape_Index_mBC2A1602541E21AE2919F39C2424580F06A7402E((&V_0), L_3, 0, 0, L_4, NULL);
+		NullCheck(L_2);
+		float L_6;
+		L_6 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_2, L_5, NULL);
+		V_1 = L_6;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_7 = ___0_t;
+		int32_t L_8 = ___1_batch;
+		int32_t L_9 = ___2_index;
+		int32_t L_10;
+		L_10 = TensorShape_Index_mBC2A1602541E21AE2919F39C2424580F06A7402E((&V_0), L_8, 0, 1, L_9, NULL);
+		NullCheck(L_7);
+		float L_11;
+		L_11 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_7, L_10, NULL);
+		V_2 = L_11;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_12 = ___0_t;
+		int32_t L_13 = ___1_batch;
+		int32_t L_14 = ___2_index;
+		int32_t L_15;
+		L_15 = TensorShape_Index_mBC2A1602541E21AE2919F39C2424580F06A7402E((&V_0), L_13, 0, 2, L_14, NULL);
+		NullCheck(L_12);
+		float L_16;
+		L_16 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_12, L_15, NULL);
+		V_3 = L_16;
+		Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* L_17 = ___0_t;
+		int32_t L_18 = ___1_batch;
+		int32_t L_19 = ___2_index;
+		int32_t L_20;
+		L_20 = TensorShape_Index_mBC2A1602541E21AE2919F39C2424580F06A7402E((&V_0), L_18, 0, 3, L_19, NULL);
+		NullCheck(L_17);
+		float L_21;
+		L_21 = Tensor_get_Item_m5CB172D8EE24160C0733436BC50BD8B998F3754E(L_17, L_20, NULL);
+		V_4 = L_21;
+		float L_22 = V_3;
+		V_5 = ((float)il2cpp_codegen_multiply(L_22, (0.5f)));
+		float L_23 = V_4;
+		V_6 = ((float)il2cpp_codegen_multiply(L_23, (0.5f)));
+		float L_24 = V_1;
+		float L_25 = V_5;
+		float L_26 = V_2;
+		float L_27 = V_6;
+		float L_28 = V_3;
+		float L_29 = V_4;
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_30;
+		memset((&L_30), 0, sizeof(L_30));
+		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_30), ((float)il2cpp_codegen_subtract(L_24, L_25)), ((float)il2cpp_codegen_subtract(L_26, L_27)), L_28, L_29, NULL);
+		V_7 = L_30;
+		goto IL_0078;
+	}
+
+IL_0078:
+	{
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_31 = V_7;
+		return L_31;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Tensor_set_name_mF6D65DDE34C5D8D4B6B0E771EEE6435346EC3954_inline (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* __this, String_t* ___0_value, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = ___0_value;
+		__this->___U3CnameU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CnameU3Ek__BackingField), (void*)L_0);
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 Tensor_get_shape_m2523DEBC906259CF56D3ECD33CB93009E6B597BC_inline (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* __this, const RuntimeMethod* method) 
+{
+	{
+		TensorShape_t47FF7A9460E8AE4CADC6FFA19814C53203DD16E3 L_0 = __this->___U3CshapeU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline (float ___0_a, float ___1_b, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	float G_B3_0 = 0.0f;
+	{
+		float L_0 = ___0_a;
+		float L_1 = ___1_b;
+		if ((((float)L_0) > ((float)L_1)))
+		{
+			goto IL_0008;
+		}
+	}
+	{
+		float L_2 = ___1_b;
+		G_B3_0 = L_2;
+		goto IL_0009;
+	}
+
+IL_0008:
+	{
+		float L_3 = ___0_a;
+		G_B3_0 = L_3;
+	}
+
+IL_0009:
+	{
+		V_0 = G_B3_0;
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		float L_4 = V_0;
+		return L_4;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Min_m747CA71A9483CDB394B13BD0AD048EE17E48FFE4_inline (float ___0_a, float ___1_b, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	float G_B3_0 = 0.0f;
+	{
+		float L_0 = ___0_a;
+		float L_1 = ___1_b;
+		if ((((float)L_0) < ((float)L_1)))
+		{
+			goto IL_0008;
+		}
+	}
+	{
+		float L_2 = ___1_b;
+		G_B3_0 = L_2;
+		goto IL_0009;
+	}
+
+IL_0008:
+	{
+		float L_3 = ___0_a;
+		G_B3_0 = L_3;
+	}
+
+IL_0009:
+	{
+		V_0 = G_B3_0;
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		float L_4 = V_0;
+		return L_4;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Sign_m42EE1F0BC041AF14F89DED7F762BE996E2C50D8A_inline (float ___0_f, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	float G_B3_0 = 0.0f;
+	{
+		float L_0 = ___0_f;
+		if ((((float)L_0) >= ((float)(0.0f))))
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		G_B3_0 = (-1.0f);
+		goto IL_0015;
+	}
+
+IL_0010:
+	{
+		G_B3_0 = (1.0f);
+	}
+
+IL_0015:
+	{
+		V_0 = G_B3_0;
+		goto IL_0018;
+	}
+
+IL_0018:
+	{
+		float L_1 = V_0;
+		return L_1;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_FloorToInt_m2A39AE881CAEE6B6A4B3BFEF9CA1ED40625F5AB7_inline (float ___0_f, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		float L_0 = ___0_f;
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		double L_1;
+		L_1 = floor(((double)L_0));
+		V_0 = il2cpp_codegen_cast_double_to_int<int32_t>(L_1);
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		int32_t L_2 = V_0;
+		return L_2;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline (float ___0_value, float ___1_min, float ___2_max, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	bool V_1 = false;
+	float V_2 = 0.0f;
+	{
+		float L_0 = ___0_value;
+		float L_1 = ___1_min;
+		V_0 = (bool)((((float)L_0) < ((float)L_1))? 1 : 0);
+		bool L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		float L_3 = ___1_min;
+		___0_value = L_3;
+		goto IL_0019;
+	}
+
+IL_000e:
+	{
+		float L_4 = ___0_value;
+		float L_5 = ___2_max;
+		V_1 = (bool)((((float)L_4) > ((float)L_5))? 1 : 0);
+		bool L_6 = V_1;
+		if (!L_6)
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		float L_7 = ___2_max;
+		___0_value = L_7;
+	}
+
+IL_0019:
+	{
+		float L_8 = ___0_value;
+		V_2 = L_8;
+		goto IL_001d;
+	}
+
+IL_001d:
+	{
+		float L_9 = V_2;
+		return L_9;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_Min_m888083F74FF5655778F0403BB5E9608BEFDEA8CB_inline (int32_t ___0_a, int32_t ___1_b, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	int32_t G_B3_0 = 0;
+	{
+		int32_t L_0 = ___0_a;
+		int32_t L_1 = ___1_b;
+		if ((((int32_t)L_0) < ((int32_t)L_1)))
+		{
+			goto IL_0008;
+		}
+	}
+	{
+		int32_t L_2 = ___1_b;
+		G_B3_0 = L_2;
+		goto IL_0009;
+	}
+
+IL_0008:
+	{
+		int32_t L_3 = ___0_a;
+		G_B3_0 = L_3;
+	}
+
+IL_0009:
+	{
+		V_0 = G_B3_0;
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		int32_t L_4 = V_0;
+		return L_4;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* Tensor_get_name_mFFE192D8C6C752B333D635CE813BAAA9294F374F_inline (Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* __this, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = __this->___U3CnameU3Ek__BackingField;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Rect_Overlaps_m5A540A24DAD3327006A3A2E209CC17992173B572_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___0_other, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	int32_t G_B5_0 = 0;
+	{
+		float L_0;
+		L_0 = Rect_get_xMax_m2339C7D2FCDA98A9B007F815F6E2059BA6BE425F_inline((&___0_other), NULL);
+		float L_1;
+		L_1 = Rect_get_xMin_mE89C40702926D016A633399E20DB9501E251630D_inline(__this, NULL);
+		if ((!(((float)L_0) > ((float)L_1))))
+		{
+			goto IL_003f;
+		}
+	}
+	{
+		float L_2;
+		L_2 = Rect_get_xMin_mE89C40702926D016A633399E20DB9501E251630D_inline((&___0_other), NULL);
+		float L_3;
+		L_3 = Rect_get_xMax_m2339C7D2FCDA98A9B007F815F6E2059BA6BE425F_inline(__this, NULL);
+		if ((!(((float)L_2) < ((float)L_3))))
+		{
+			goto IL_003f;
+		}
+	}
+	{
+		float L_4;
+		L_4 = Rect_get_yMax_mBC37BEE1CD632AADD8B9EAF9FE3BA143F79CAF8E_inline((&___0_other), NULL);
+		float L_5;
+		L_5 = Rect_get_yMin_mB19848FB25DE61EDF958F7A22CFDD86DE103062F_inline(__this, NULL);
+		if ((!(((float)L_4) > ((float)L_5))))
+		{
+			goto IL_003f;
+		}
+	}
+	{
+		float L_6;
+		L_6 = Rect_get_yMin_mB19848FB25DE61EDF958F7A22CFDD86DE103062F_inline((&___0_other), NULL);
+		float L_7;
+		L_7 = Rect_get_yMax_mBC37BEE1CD632AADD8B9EAF9FE3BA143F79CAF8E_inline(__this, NULL);
+		G_B5_0 = ((((float)L_6) < ((float)L_7))? 1 : 0);
+		goto IL_0040;
+	}
+
+IL_003f:
+	{
+		G_B5_0 = 0;
+	}
+
+IL_0040:
+	{
+		V_0 = (bool)G_B5_0;
+		goto IL_0043;
+	}
+
+IL_0043:
+	{
+		bool L_8 = V_0;
+		return L_8;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* F_Invoke_mF9DE40521BFEBDFCA0F615EECF518CBDD6F3B581_inline (F_t0057DF9A2096B887F2CD030BD8B21AB93052E232* __this, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* ___0_tensor, const RuntimeMethod* method) 
+{
+	typedef Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10* (*FunctionPointerType) (RuntimeObject*, Tensor_t9B89EEE59F673A469027FF5E441797C2E247AF10*, const RuntimeMethod*);
+	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_tensor, reinterpret_cast<RuntimeMethod*>(__this->___method));
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Rect_get_width_m620D67551372073C9C32C4C4624C2A5713F7F9A9_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	{
+		float L_0 = __this->___m_Width;
+		V_0 = L_0;
+		goto IL_000a;
+	}
+
+IL_000a:
+	{
+		float L_1 = V_0;
+		return L_1;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Rect_get_height_mE1AA6C6C725CCD2D317BD2157396D3CF7D47C9D8_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	{
+		float L_0 = __this->___m_Height;
+		V_0 = L_0;
+		goto IL_000a;
+	}
+
+IL_000a:
+	{
+		float L_1 = V_0;
+		return L_1;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Rect_get_xMin_mE89C40702926D016A633399E20DB9501E251630D_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	{
+		float L_0 = __this->___m_XMin;
+		V_0 = L_0;
+		goto IL_000a;
+	}
+
+IL_000a:
+	{
+		float L_1 = V_0;
+		return L_1;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Rect_get_yMin_mB19848FB25DE61EDF958F7A22CFDD86DE103062F_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	{
+		float L_0 = __this->___m_YMin;
+		V_0 = L_0;
+		goto IL_000a;
+	}
+
+IL_000a:
+	{
+		float L_1 = V_0;
+		return L_1;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Rect_get_xMax_m2339C7D2FCDA98A9B007F815F6E2059BA6BE425F_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	{
+		float L_0 = __this->___m_Width;
+		float L_1 = __this->___m_XMin;
+		V_0 = ((float)il2cpp_codegen_add(L_0, L_1));
+		goto IL_0011;
+	}
+
+IL_0011:
+	{
+		float L_2 = V_0;
+		return L_2;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Rect_get_yMax_mBC37BEE1CD632AADD8B9EAF9FE3BA143F79CAF8E_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	{
+		float L_0 = __this->___m_Height;
+		float L_1 = __this->___m_YMin;
+		V_0 = ((float)il2cpp_codegen_add(L_0, L_1));
+		goto IL_0011;
+	}
+
+IL_0011:
+	{
+		float L_2 = V_0;
+		return L_2;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D Rect_MinMaxRect_m540D2DD8C255D276AD4AE06D9CCA2A667EFA39E5_inline (float ___0_xmin, float ___1_ymin, float ___2_xmax, float ___3_ymax, const RuntimeMethod* method) 
+{
+	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		float L_0 = ___0_xmin;
+		float L_1 = ___1_ymin;
+		float L_2 = ___2_xmax;
+		float L_3 = ___0_xmin;
+		float L_4 = ___3_ymax;
+		float L_5 = ___1_ymin;
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_6;
+		memset((&L_6), 0, sizeof(L_6));
+		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_6), L_0, L_1, ((float)il2cpp_codegen_subtract(L_2, L_3)), ((float)il2cpp_codegen_subtract(L_4, L_5)), NULL);
+		V_0 = L_6;
+		goto IL_0011;
+	}
+
+IL_0011:
+	{
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_7 = V_0;
+		return L_7;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, float ___0_x, float ___1_y, float ___2_width, float ___3_height, const RuntimeMethod* method) 
+{
+	{
+		float L_0 = ___0_x;
+		__this->___m_XMin = L_0;
+		float L_1 = ___1_y;
+		__this->___m_YMin = L_1;
+		float L_2 = ___2_width;
+		__this->___m_Width = L_2;
+		float L_3 = ___3_height;
+		__this->___m_Height = L_3;
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Func_7_Invoke_m0488A8C468A3B93B4CE37AD236310417DE2B7D97_gshared_inline (Func_7_t33F30BE5BCE3E271F4DAFFAF0E88EA8B6347957F* __this, RuntimeObject* ___0_arg1, int32_t ___1_arg2, int32_t ___2_arg3, int32_t ___3_arg4, int32_t ___4_arg5, int32_t ___5_arg6, const RuntimeMethod* method) 
+{
+	typedef float (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, int32_t, int32_t, int32_t, int32_t, int32_t, const RuntimeMethod*);
+	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_arg1, ___1_arg2, ___2_arg3, ___3_arg4, ___4_arg5, ___5_arg6, reinterpret_cast<RuntimeMethod*>(__this->___method));
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t KeyValuePair_2_get_Value_mAB1FC5832CB06EEF53C3A3E9C2A67258EAC6048E_gshared_inline (KeyValuePair_2_tF9681614985AA4D11569AFA8747D722D1447A120* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___value;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) 
+{
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	int32_t V_1 = 0;
+	{
+		int32_t L_0 = __this->____version;
+		__this->____version = ((int32_t)il2cpp_codegen_add(L_0, 1));
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1 = __this->____items;
+		V_0 = L_1;
+		int32_t L_2 = __this->____size;
+		V_1 = L_2;
+		int32_t L_3 = V_1;
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_4 = V_0;
+		NullCheck(L_4);
+		if ((!(((uint32_t)L_3) < ((uint32_t)((int32_t)(((RuntimeArray*)L_4)->max_length))))))
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		int32_t L_5 = V_1;
+		__this->____size = ((int32_t)il2cpp_codegen_add(L_5, 1));
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_6 = V_0;
+		int32_t L_7 = V_1;
+		RuntimeObject* L_8 = ___0_item;
+		NullCheck(L_6);
+		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(L_7), (RuntimeObject*)L_8);
+		return;
+	}
+
+IL_0034:
+	{
+		RuntimeObject* L_9 = ___0_item;
+		List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4(__this, L_9, il2cpp_rgctx_method(method->klass->rgctx_data, 14));
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->____size;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Func_3_Invoke_mC8193F9BE436AD10B0F1279771862679CB5813AD_gshared_inline (Func_3_t112E81BD9C60E0186076895800369606BCF590FB* __this, float ___0_arg1, float ___1_arg2, const RuntimeMethod* method) 
+{
+	typedef float (*FunctionPointerType) (RuntimeObject*, float, float, const RuntimeMethod*);
+	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_arg1, ___1_arg2, reinterpret_cast<RuntimeMethod*>(__this->___method));
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Clear_m8DD05D1390E2EDB26FCFD9F6E30A9CFECBFCB526_gshared_inline (List_1_t264DA9C475A0E3CF57148457209560CF2E2B6F27* __this, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	{
+		int32_t L_0 = __this->____version;
+		__this->____version = ((int32_t)il2cpp_codegen_add(L_0, 1));
+		goto IL_0035;
+	}
+
+IL_0035:
+	{
+		__this->____size = 0;
+	}
+
+IL_003c:
+	{
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Clear_mF6795DE5F49C1D0B91D6A0955F448B22970D67A9_gshared_inline (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	{
+		int32_t L_0 = __this->____version;
+		__this->____version = ((int32_t)il2cpp_codegen_add(L_0, 1));
+		goto IL_0035;
+	}
+
+IL_0035:
+	{
+		__this->____size = 0;
+	}
+
+IL_003c:
+	{
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Clear_m6CD2E5AAE6552A27AECCC57936767B4DCFC902B1_gshared_inline (List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* __this, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	{
+		int32_t L_0 = __this->____version;
+		__this->____version = ((int32_t)il2cpp_codegen_add(L_0, 1));
+		goto IL_0035;
+	}
+
+IL_0035:
+	{
+		__this->____size = 0;
+	}
+
+IL_003c:
+	{
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_m2F86E252D086E288E02FA1C830B7E86C0A431E51_gshared_inline (List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* __this, float ___0_item, const RuntimeMethod* method) 
+{
+	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* V_0 = NULL;
+	int32_t V_1 = 0;
+	{
+		int32_t L_0 = __this->____version;
+		__this->____version = ((int32_t)il2cpp_codegen_add(L_0, 1));
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_1 = __this->____items;
+		V_0 = L_1;
+		int32_t L_2 = __this->____size;
+		V_1 = L_2;
+		int32_t L_3 = V_1;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_4 = V_0;
+		NullCheck(L_4);
+		if ((!(((uint32_t)L_3) < ((uint32_t)((int32_t)(((RuntimeArray*)L_4)->max_length))))))
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		int32_t L_5 = V_1;
+		__this->____size = ((int32_t)il2cpp_codegen_add(L_5, 1));
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_6 = V_0;
+		int32_t L_7 = V_1;
+		float L_8 = ___0_item;
+		NullCheck(L_6);
+		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(L_7), (float)L_8);
+		return;
+	}
+
+IL_0034:
+	{
+		float L_9 = ___0_item;
+		List_1_AddWithResize_m446487BF7F55E757E7D552B2436AD74AC354EA99(__this, L_9, il2cpp_rgctx_method(method->klass->rgctx_data, 14));
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_gshared_inline (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, int32_t ___0_item, const RuntimeMethod* method) 
+{
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* V_0 = NULL;
+	int32_t V_1 = 0;
+	{
+		int32_t L_0 = __this->____version;
+		__this->____version = ((int32_t)il2cpp_codegen_add(L_0, 1));
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_1 = __this->____items;
+		V_0 = L_1;
+		int32_t L_2 = __this->____size;
+		V_1 = L_2;
+		int32_t L_3 = V_1;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_4 = V_0;
+		NullCheck(L_4);
+		if ((!(((uint32_t)L_3) < ((uint32_t)((int32_t)(((RuntimeArray*)L_4)->max_length))))))
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		int32_t L_5 = V_1;
+		__this->____size = ((int32_t)il2cpp_codegen_add(L_5, 1));
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_6 = V_0;
+		int32_t L_7 = V_1;
+		int32_t L_8 = ___0_item;
+		NullCheck(L_6);
+		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(L_7), (int32_t)L_8);
+		return;
+	}
+
+IL_0034:
+	{
+		int32_t L_9 = ___0_item;
+		List_1_AddWithResize_m378B392086AAB6F400944FA9839516326B3F7BB8(__this, L_9, il2cpp_rgctx_method(method->klass->rgctx_data, 14));
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m545762F67009314D9C63DD209B42FFF950569B05_gshared_inline (List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->____size;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ValueTuple_3_tBFE24970AFB182B3C77F4C747E3F1E7A7B4EBC57 Enumerator_get_Current_m8A8BF612D863FA9E7319E23A81F02181F66B51E1_gshared_inline (Enumerator_t6C2C3126C98F6470FE4A695C9CEAE34CC520EA9C* __this, const RuntimeMethod* method) 
+{
+	{
+		ValueTuple_3_tBFE24970AFB182B3C77F4C747E3F1E7A7B4EBC57 L_0 = __this->____current;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_m716377944B1E88CBB1B269AA9CF38C525A41D367_gshared_inline (List_1_t264DA9C475A0E3CF57148457209560CF2E2B6F27* __this, ValueTuple_3_tBFE24970AFB182B3C77F4C747E3F1E7A7B4EBC57 ___0_item, const RuntimeMethod* method) 
+{
+	ValueTuple_3U5BU5D_t2EE684CE383C822F20AF09A2B0A3C10C5A8A94E5* V_0 = NULL;
+	int32_t V_1 = 0;
+	{
+		int32_t L_0 = __this->____version;
+		__this->____version = ((int32_t)il2cpp_codegen_add(L_0, 1));
+		ValueTuple_3U5BU5D_t2EE684CE383C822F20AF09A2B0A3C10C5A8A94E5* L_1 = __this->____items;
+		V_0 = L_1;
+		int32_t L_2 = __this->____size;
+		V_1 = L_2;
+		int32_t L_3 = V_1;
+		ValueTuple_3U5BU5D_t2EE684CE383C822F20AF09A2B0A3C10C5A8A94E5* L_4 = V_0;
+		NullCheck(L_4);
+		if ((!(((uint32_t)L_3) < ((uint32_t)((int32_t)(((RuntimeArray*)L_4)->max_length))))))
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		int32_t L_5 = V_1;
+		__this->____size = ((int32_t)il2cpp_codegen_add(L_5, 1));
+		ValueTuple_3U5BU5D_t2EE684CE383C822F20AF09A2B0A3C10C5A8A94E5* L_6 = V_0;
+		int32_t L_7 = V_1;
+		ValueTuple_3_tBFE24970AFB182B3C77F4C747E3F1E7A7B4EBC57 L_8 = ___0_item;
+		NullCheck(L_6);
+		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(L_7), (ValueTuple_3_tBFE24970AFB182B3C77F4C747E3F1E7A7B4EBC57)L_8);
+		return;
+	}
+
+IL_0034:
+	{
+		ValueTuple_3_tBFE24970AFB182B3C77F4C747E3F1E7A7B4EBC57 L_9 = ___0_item;
+		List_1_AddWithResize_m57F67F58816C738BD74A58DE0B5652DE01FDC8EC(__this, L_9, il2cpp_rgctx_method(method->klass->rgctx_data, 14));
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_mD67F5478F4F639E87639CD28E2E5874679116DB2_gshared_inline (List_1_t264DA9C475A0E3CF57148457209560CF2E2B6F27* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->____size;
+		return L_0;
+	}
+}
