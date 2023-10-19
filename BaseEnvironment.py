@@ -23,7 +23,7 @@ class BaseEnvironment(gym.Env, ABC):
 
         # Set up the game engine communication channels
         self.engineConfigChannel = EngineConfigurationChannel()
-        self.engineConfigChannel.set_configuration_parameters(capture_frame_rate=60)
+        self.engineConfigChannel.set_configuration_parameters(capture_frame_rate=60, time_scale=2)
         self.customSideChannel = MySideChannel()
 
         # Load the unity build and wrap it in a gym environment
