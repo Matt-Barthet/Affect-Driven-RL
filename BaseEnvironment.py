@@ -1,5 +1,6 @@
 from abc import ABC
 
+import mlagents_envs
 import numpy as np
 import gym
 from mlagents_envs.side_channel import OutgoingMessage
@@ -17,13 +18,13 @@ class BaseEnvironment(gym.Env, ABC):
     unty-gym wrapper, configures the game engine parameters and sets up the custom side channel for
     communicating between our python scripts and unity's update loop.
     """
-    def __init__(self, id_number, graphics, scaler, obs_space, include_affect, path):
+    def __init__(self, id_number, graphics, scaler, obs_space, path):
 
         super(BaseEnvironment, self).__init__()
 
         # Set up the game engine communication channels
         self.engineConfigChannel = EngineConfigurationChannel()
-        self.engineConfigChannel.set_configuration_parameters(capture_frame_rate=60, time_scale=2)
+        self.engineConfigChannel.set_configuration_parameters(capture_frame_rate=60, time_scale=5)
         self.customSideChannel = MySideChannel()
 
         # Load the unity build and wrap it in a gym environment
@@ -33,10 +34,8 @@ class BaseEnvironment(gym.Env, ABC):
         # Set observation space and action space - important for learning
         self.action_space = self.env.action_space
         self.action_size = self.env.action_size
-        self.observation_space = gym.spaces.Box(low=obs_space['low'], high=obs_space['high'], shape=obs_space['shape'])
 
-        # Use the side channel to set whether affect values should be generated
-        self.create_and_send_message("[Generate Arousal]:{}".format(include_affect))
+        self.observation_space = gym.spaces.Box(low=obs_space['low'], high=obs_space['high'], shape=obs_space['shape'])
 
         # Important learning variables that should be used in all environments
         self.score = 0 # In-game score
@@ -65,9 +64,27 @@ class BaseEnvironment(gym.Env, ABC):
             obs.append(s[0][i])
         return obs
 
+    def construct_state(self, vector_obs, matrix_obs):
+        one_hot = self.one_hot_encode(matrix_obs, 7)
+        flattened_matrix_obs = [vector for sublist in one_hot for item in sublist for vector in item]
+        combined_observations = list(vector_obs[2:]) + list(flattened_matrix_obs)
+        return combined_observations
+
+    @staticmethod
+    def one_hot_encode(matrix_obs, num_categories):
+        one_hot_encoded = np.zeros((matrix_obs.shape[0], matrix_obs.shape[1], num_categories))
+        for i in range(matrix_obs.shape[0]):
+            for j in range(matrix_obs.shape[1]):
+                one_hot_encoded[i, j, int(matrix_obs[i][j])-1] = 1
+        return one_hot_encoded
+
     def reset(self):
         self.steps = 0
-        return self.tuple_to_vector(self.env.reset())
+        state = self.env.reset()
+        position = state[1][0]
+        if len(state) == 2:
+            state = self.construct_state(state[1], state[0])
+        return state, position
 
     def create_and_send_message(self, contents):
         message = OutgoingMessage()
@@ -83,6 +100,8 @@ class BaseEnvironment(gym.Env, ABC):
         except UnityEnvironmentException:
             print("Path not found! Please specify the right environment path.")
             return None
+        except:
+            return self.load_environment(path, identifier + 1, graphics)
         return env
 
     def handle_level_end(self):

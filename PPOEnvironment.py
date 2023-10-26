@@ -10,8 +10,8 @@ from Utils.Scalers import VectorScaler
 
 class PPO_Environment(BaseEnvironment, ABC):
 
-    def __init__(self, id_number, graphics, scaler, obs_space, include_affect, path):
-        super().__init__(id_number, graphics, scaler, obs_space, include_affect, path)
+    def __init__(self, id_number, graphics, scaler, obs_space, path):
+        super().__init__(id_number, graphics, scaler, obs_space, path)
 
         self.max_reward = 0
         self.cumulative_reward = 0
@@ -19,19 +19,21 @@ class PPO_Environment(BaseEnvironment, ABC):
         self.episode_length = 0
         self.last_x = np.round(self.reset()[0])
         self.max_x = -np.inf
+        self.death_applied = False
 
-    def calculate_reward(self, state, env_score):
-        current_x = np.round(state[0])
+    def calculate_reward(self, state, env_score, position):
+        current_x = np.round(position)
         health = state[3]
         reward = 0
-        if health == 0:
-            reward -= 10
-        if current_x > self.last_x:
-            reward += 1
-            if current_x > self.max_x:
-                reward += 1
+        if health > 0:
+            self.death_applied = False
+        if health == 0 and not self.death_applied:
+            reward -= 5
+            self.death_applied = True
+        # elif current_x > self.last_x:
+            # reward += 1
         self.last_x = current_x
-        self.reward = (self.score - env_score) + reward
+        self.reward = (env_score - self.score) + reward
         self.score = env_score
 
     def reset_condition(self):
@@ -43,7 +45,9 @@ class PPO_Environment(BaseEnvironment, ABC):
             self.reset()
 
     def reset(self):
-        state = super().reset()
+        state, position = super().reset()
+        self.last_x = position
+        self.score = 0
         self.cumulative_reward = 0
         return state
 
@@ -55,8 +59,9 @@ class PPO_Environment(BaseEnvironment, ABC):
     def step(self, action):
         # Move the env forward 1 tick and receive messages through side-channel.
         state, env_score, d, info = self.env.step((action[0] - 1, action[1]))
-        state = state[0]
-        self.calculate_reward(state, env_score)
+        position = state[1][0]
+        state = self.construct_state(state[1], state[0])
+        self.calculate_reward(state, env_score, position)
         self.update_stats()
         self.reset_condition()
         return state, self.reward, d, info
@@ -75,13 +80,10 @@ if __name__ == "__main__":
     else:
         scaler = VectorScaler(49)
 
-    vector_length = (70, )
-    env = DummyVecEnv([lambda: PPO_Environment(counter,
-                                               graphics=True,
-                                               scaler=None,
-                                               include_affect=False,
+    vector_length = (3092,)
+    env = DummyVecEnv([lambda: PPO_Environment(counter, graphics=True, scaler=None, include_affect=False,
                                                obs_space={"low": -np.inf, "high": np.inf, "shape": vector_length},
-                                               path="./Builds/Platformer.app") for counter in [1]])
+                                               path="./Builds/Platformer.app") for counter in [0]])
     sideChannel = env.envs[0].customSideChannel
     model = PPO("MlpPolicy", env=env, tensorboard_log="./Tensorboard")
     model.learn(total_timesteps=1500000, progress_bar=True, callback=TensorboardCallback(), tb_log_name="PPO")

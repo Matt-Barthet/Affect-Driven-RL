@@ -12,7 +12,8 @@ class MySideChannel(SideChannel, ABC):
         self.score = 0
         self.low_res_state = {}
         self.direction = []
-        self.levelEnd = True
+        self.levelEnd = False
+        self.arousal_vector = []  # TODO
 
     def on_message_received(self, msg: IncomingMessage):
         test = msg.read_string()
