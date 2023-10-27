@@ -43,12 +43,12 @@ class Archive:
         if cell.blended_reward < 0:
             return False
         if self.store_cell_condition(cell):
-            self.archive.update({cell: copy.deepcopy(cell)})
+            self.archive.update({cell.key: copy.deepcopy(cell)})
             self.update_best_cell(cell)
             return True
 
     def store_cell_condition(self, cell):
-        if cell.key not in self.archive:
+        if cell.key not in self.archive.keys():
             return True
         if cell.blended_reward < self.archive[cell.key].blended_reward:
             return False

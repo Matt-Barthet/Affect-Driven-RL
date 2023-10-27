@@ -18,17 +18,19 @@ class BaseEnvironment(gym.Env, ABC):
     unty-gym wrapper, configures the game engine parameters and sets up the custom side channel for
     communicating between our python scripts and unity's update loop.
     """
-    def __init__(self, id_number, graphics, scaler, obs_space, path):
+    def __init__(self, id_number, graphics, scaler, obs_space, path, args=None):
 
         super(BaseEnvironment, self).__init__()
 
         # Set up the game engine communication channels
+        if args is None:
+            args = [""]
         self.engineConfigChannel = EngineConfigurationChannel()
         self.engineConfigChannel.set_configuration_parameters(capture_frame_rate=60, time_scale=5)
         self.customSideChannel = MySideChannel()
 
         # Load the unity build and wrap it in a gym environment
-        self.env = self.load_environment(path, id_number, graphics)
+        self.env = self.load_environment(path, id_number, graphics, args)
         self.env = UnityToGymWrapper(self.env, uint8_visual=False, allow_multiple_obs=True)
 
         # Set observation space and action space - important for learning
@@ -91,17 +93,18 @@ class BaseEnvironment(gym.Env, ABC):
         message.write_string(contents)
         self.customSideChannel.queue_message_to_send(message)
 
-    def load_environment(self, path, identifier, graphics):
+    def load_environment(self, path, identifier, graphics, args):
         try:
             env = UnityEnvironment(f"{path}",
                                    side_channels=[self.engineConfigChannel, self.customSideChannel],
                                    worker_id=identifier,
-                                   no_graphics=not graphics)
+                                   no_graphics=not graphics,
+                                   additional_args=args)
         except UnityEnvironmentException:
             print("Path not found! Please specify the right environment path.")
             return None
         except:
-            return self.load_environment(path, identifier + 1, graphics)
+            return self.load_environment(path, identifier + 1, graphics, args)
         return env
 
     def handle_level_end(self):

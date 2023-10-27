@@ -24,7 +24,7 @@ class GoBlendEnvironment(BaseEnvironment, ABC):
         # State = direction, velocity x+y, health, powerup, grid
 
         obs_space = {"low": -np.inf, "high": np.inf, "shape": (1, )}
-        super().__init__(id_number, graphics, scaler, obs_space, path)
+        super().__init__(id_number, graphics, scaler, obs_space, path, ["-gridWidth", f"{self.gridWidth}", "-gridHeight", f"{self.gridHeight}", "-elementSize", f"{self.elementSize}"])
 
         """ ---- Generic GoBlend code ---- """
         self.config = config  # Go-Explore configuration file for this experiment
@@ -32,6 +32,7 @@ class GoBlendEnvironment(BaseEnvironment, ABC):
 
         self.total_timesteps = int(config['Cells']['max_trajectories'])  # total number of "rollouts" to explore
         self.explore_length = int(config['Cells']['explore_steps'])  # length of each rollout during exploration
+        self.max_trajectory_length = int(config['Cells']['max_trajectory_size'])
 
         self.lambdaValue = float(config['Rewards']['lambda'])
         self.behavior_target = config['Rewards']['behavior_target']
@@ -41,7 +42,7 @@ class GoBlendEnvironment(BaseEnvironment, ABC):
         self.arousal_function = reward_functions[config['Rewards']['arousal_reward']]
         self.kNN = int(config['Human Model']['kNN'])
 
-        self.writer = SummaryWriter(log_dir='./Tensorboard/GoBlend')  # Logger for tensorboard
+        self.writer = SummaryWriter(log_dir='./Tensorboard/GoBlend2')  # Logger for tensorboard
         self.callback = TensorboardGoExplore(self, self.archive)  # Callback class for passing stats to tensorboard
 
         self.create_and_send_message(f"[Grid]:{self.gridWidth},{self.gridHeight},{self.elementSize}")
@@ -74,13 +75,24 @@ class GoBlendEnvironment(BaseEnvironment, ABC):
                                              "arousal_vectors": [arousal_vector],
                                              "score_trajectory": [score]})
 
-        self.current_cell.assess_cell(self.lambdaValue, self.normalize_behavior, self.behavior_function,
+        self.current_cell.assess_cell(self.lambdaValue, self.normalize_behavior == "True", self.behavior_function,
                                       self.arousal_function, self.kNN)
 
     def construct_state(self, vector, visual):
         vector[0] = (vector[0] // 30) * 30
-        vector = vector[0] + vector[2:]
-        new_state = list(vector) + list(visual)
+        vector = [vector[0]] + list(vector[4:])
+
+        visual_flat = [element[0] for row in visual for element in row]
+        for element in range(len(visual_flat)):
+            if visual_flat[element] == 7 or visual_flat[element] == 4:
+                visual_flat[element] = 0
+            elif visual_flat[element] == 2:
+                visual_flat[element] = 1
+            elif visual_flat[element] == 3:
+                visual_flat[element] = 2
+            else:
+                visual_flat[element] = 3
+        new_state = list(vector) + visual_flat
         return new_state
 
     def step(self, action):
@@ -103,10 +115,12 @@ class GoBlendEnvironment(BaseEnvironment, ABC):
             state, score, ended = self.step((action[0], action[1]))
             arousal_vector = None  # TODO - not now
             self.create_cell(action, state, arousal_vector, score)
+
+            if self.current_cell.get_cell_length() >= self.max_trajectory_length:
+                break
             if self.archive.store_cell(self.current_cell):
                 self.create_and_send_message(f"[Save]:{self.current_cell.key}")
             if ended:
-                print("ENDED")
                 break
 
     def explore(self):

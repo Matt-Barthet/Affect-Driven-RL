@@ -39,10 +39,7 @@ def uncertainty_imitation(agent_trace, human_trace):
 
 
 def maximize(agent_trace, _):
-    try:
-        return agent_trace[-1] - agent_trace[-2]  # reward increase in score over time
-    except IndexError:
-        return agent_trace[-1]
+    return agent_trace[-1]
 
 
 reward_functions = {"No_Reward": no_reward,
