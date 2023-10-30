@@ -30,3 +30,7 @@ class MySideChannel(SideChannel, ABC):
             self.direction = [float(vector[counter]) for counter in range(3)]
         elif test == 'Level Ended':
             self.levelEnd = True
+        elif '[Surrogate Vector]' in test:
+            test = test.removeprefix("[Surrogate Vector]:")
+            self.arousal_vector = [float(value) for value in test.split(",")]
+            print(self.arousal_vector)

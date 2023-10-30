@@ -81,7 +81,6 @@ class GoBlendEnvironment(BaseEnvironment, ABC):
     def construct_state(self, vector, visual):
         vector[0] = (vector[0] // 30) * 30
         vector = [vector[0]] + list(vector[4:])
-
         visual_flat = [element[0] for row in visual for element in row]
         for element in range(len(visual_flat)):
             if visual_flat[element] == 7 or visual_flat[element] == 4:
@@ -115,7 +114,6 @@ class GoBlendEnvironment(BaseEnvironment, ABC):
             state, score, ended = self.step((action[0], action[1]))
             arousal_vector = None  # TODO - not now
             self.create_cell(action, state, arousal_vector, score)
-
             if self.current_cell.get_cell_length() >= self.max_trajectory_length:
                 break
             if self.archive.store_cell(self.current_cell):

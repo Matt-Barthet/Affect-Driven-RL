@@ -26,7 +26,7 @@ class BaseEnvironment(gym.Env, ABC):
         if args is None:
             args = [""]
         self.engineConfigChannel = EngineConfigurationChannel()
-        self.engineConfigChannel.set_configuration_parameters(capture_frame_rate=60, time_scale=5)
+        self.engineConfigChannel.set_configuration_parameters(capture_frame_rate=360, time_scale=1)
         self.customSideChannel = MySideChannel()
 
         # Load the unity build and wrap it in a gym environment
