@@ -26,7 +26,7 @@ class BaseEnvironment(gym.Env, ABC):
         if args is None:
             args = [""]
         self.engineConfigChannel = EngineConfigurationChannel()
-        self.engineConfigChannel.set_configuration_parameters(capture_frame_rate=360, time_scale=1)
+        self.engineConfigChannel.set_configuration_parameters(capture_frame_rate=20, time_scale=1)
         self.customSideChannel = MySideChannel()
 
         # Load the unity build and wrap it in a gym environment
@@ -83,10 +83,10 @@ class BaseEnvironment(gym.Env, ABC):
     def reset(self):
         self.steps = 0
         state = self.env.reset()
-        position = state[1][0]
+        # position = state[1][0]
         if len(state) == 2:
             state = self.construct_state(state[1], state[0])
-        return state, position
+        return self.tuple_to_vector(state)
 
     def create_and_send_message(self, contents):
         message = OutgoingMessage()

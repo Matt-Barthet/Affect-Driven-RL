@@ -28,7 +28,7 @@ class MySideChannel(SideChannel, ABC):
         elif '[Direction]' in test:
             vector = test.removeprefix("[Direction]:").split(",")
             self.direction = [float(vector[counter]) for counter in range(3)]
-        elif test == 'Level Ended':
+        elif test == 'Level Ended' or test == "Collision":
             self.levelEnd = True
         elif '[Surrogate Vector]' in test:
             test = test.removeprefix("[Surrogate Vector]:")
