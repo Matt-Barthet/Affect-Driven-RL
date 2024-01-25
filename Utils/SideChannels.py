@@ -15,6 +15,8 @@ class MySideChannel(SideChannel, ABC):
         self.levelEnd = False
         self.arousal_vector = []  # TODO
 
+        self.collision = False
+
     def on_message_received(self, msg: IncomingMessage):
         test = msg.read_string()
         self.levelEnd = False
@@ -34,3 +36,6 @@ class MySideChannel(SideChannel, ABC):
             test = test.removeprefix("[Surrogate Vector]:")
             self.arousal_vector = [float(value) for value in test.split(",")]
             print(self.arousal_vector)
+        if 'Collision' in test:
+            self.collision = True
+

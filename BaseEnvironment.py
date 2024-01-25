@@ -62,12 +62,12 @@ class BaseEnvironment(gym.Env, ABC):
     @staticmethod
     def tuple_to_vector(s):
         obs = []
-        for i in range(len(s[0])):
-            obs.append(s[0][i])
+        for i in range(len(s)):
+            obs.append(s[i])
         return obs
 
     def construct_state(self, vector_obs, matrix_obs):
-        one_hot = self.one_hot_encode(matrix_obs, 7)
+        one_hot = self.one_hot_encode(matrix_obs, 5)
         flattened_matrix_obs = [vector for sublist in one_hot for item in sublist for vector in item]
         combined_observations = list(vector_obs[2:]) + list(flattened_matrix_obs)
         return combined_observations
