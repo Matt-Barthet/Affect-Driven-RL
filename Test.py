@@ -47,7 +47,7 @@ class PPO_Environment(BaseEnvironment, ABC):
             self.create_and_send_message("[Cell Name]:Seed")
             self.reset()
 
-    def reset(self):
+    def reset(self, **kwargs):
         state = super().reset()
         self.cumulative_reward = 0
         self.score = 0

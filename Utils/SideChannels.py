@@ -38,4 +38,5 @@ class MySideChannel(SideChannel, ABC):
             print(self.arousal_vector)
         if 'Collision' in test:
             self.collision = True
+        
 

@@ -56,7 +56,7 @@ class GoBlendEnvironment(BaseEnvironment, ABC):
         if self.archive.store_cell(self.current_cell):
             self.create_and_send_message(f"[Save]:{self.current_cell.key}")
 
-    def reset(self):
+    def reset(self, **kwargs):
         state = self.env.reset()
         return state
 
