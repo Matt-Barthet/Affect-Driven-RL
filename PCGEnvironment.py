@@ -7,7 +7,7 @@ from stable_baselines3.common.vec_env import DummyVecEnv
 from PCGRL.PCGUtility import construct_state
 from Utils.Tensorboard_Callbacks import TensorboardCallback
 from BaseEnvironment import BaseEnvironment
-from PCGRL.ReachabilityAStar import AStar
+from PCGRL.ReachabilityAStar import AStar, dijkstra_with_path
 from hashlib import md5
 import json
 
@@ -68,38 +68,77 @@ class PCGEnvironment(BaseEnvironment, ABC):
         self.action_string += ','.join(f"{action}" for action in self.action_list)
         self.create_and_send_message(self.action_string)
 
+    def reset_to_state(self, actions):
+        self.env.reset()
+        # print(f"RESETTING WITH ACTIONS: {actions}")
+        for action in actions:
+            next_state, reward, done, _ = self.env.step(action)  # Execute the action
+            self.current_state, self.grid, self.current_index, self.facing = construct_state(next_state,
+                                                                                     self.one_hot_encode)
+            print(self.current_index[1], self.current_index[0])
+
     def step(self, action):
 
-        # self.create_and_send_message("[Spawn]:49,50") # Spawn placeholder to sanity check coordinate
-        """path = self.reachability_solver.a_star_search(self.fixed_grid, (self.current_index[0] + (self.facing[0]), self.current_index[1] + (self.facing[1])), (49, 50) )
-        message = f"[Place]:"
-        for element in path:
-            message += f"{int(element[0])},{int(element[1])}-{2}/"
-        self.create_and_send_message(message[:-1])"""
-        if self.current_index == (50, 49):
-            self.reset() # we are blocking the goal for closing the circuit
+        print(self.current_index[1], self.current_index[0])
 
-        if self.close_circuit:
-            state, env_score, d, info = self.env.step(action)
-            new_state, self.fixed_grid, self.current_index, self.facing = construct_state(state, self.one_hot_encode)
-            print(self.path)
-            sleep(100)
-        else:
-            self.action_list.append(action)
-            state, env_score, d, info = self.env.step(action)
-            new_state, self.fixed_grid, self.current_index, self.facing = construct_state(state, self.one_hot_encode)
-            self.score += env_score
-            self.reward = env_score
-            self.update_stats()
-            # sleep(1)
+        if self.current_index == (49, 50):
+            self.reset()
 
-        if self.max_reward > 20:
-            # self.create_and_send_message(f"[Load]:{self.action_string}")
-            self.close_circuit = True
-            a_star = AStar((self.current_index[1] + (self.facing[1]), self.current_index[0] + (self.facing[0]), self.action_list), (50, 49), self)
-            self.path = a_star.a_star_search()
-            """for action in self.path:
-                self.create_and_send_message(f"[Spawn]: {action[1]}, {action[0]}")  # Spawn placeholder to sanity check coordinate"""
+        self.action_list.append(action)
+        state, env_score, d, info = self.env.step(action)
+        new_state, self.fixed_grid, self.current_index, self.facing = construct_state(state, self.one_hot_encode)
+
+        self.score += env_score
+        self.reward = env_score
+        self.update_stats()
+
+        if self.cumulative_reward > 30:
+
+            print(self.current_index, self.facing, self.current_index[1], self.current_index[0])
+            length, path = dijkstra_with_path(self.fixed_grid,
+                                       (self.current_index[1], self.current_index[0]),
+                                       (49, 50))
+
+            # print(self.current_index[1], self.current_index[0])
+
+            path = path[1:]
+            while len(path) > 0:
+                print(path)
+
+                self.reset_to_state(self.action_list.copy())
+
+                from matplotlib import pyplot as plt
+
+                for new_action in range(5):
+                    print()
+                    self.reset_to_state(self.action_list.copy())
+                    next_state, reward, done, _ = self.env.step(new_action)
+                    self.current_state, self.fixed_grid, self.current_index, self.facing = construct_state(next_state, self.one_hot_encode)
+                    grid = np.array(self.fixed_grid.copy())
+
+                    for element in path:
+                        grid[int(element[0])][int(element[1])] = -1
+
+                    if (self.current_index[1], self.current_index[0]) == path[0]:
+                        self.action_list.append(new_action)
+                        path = path[1:]
+                        break
+
+                    grid[int(self.current_index[1])][int(self.current_index[0])] = -5
+                    '''plt.imshow(grid, origin='lower')
+                    plt.show()'''
+
+                    print((self.current_index[1], self.current_index[0]), )
+
+
+            for new_action in range(5):
+                self.reset_to_state(self.action_list.copy())
+                next_state, reward, done, _ = self.env.step(new_action)
+                self.current_state, self.grid, self.index, self.facing = construct_state(next_state,
+                                                                                         self.one_hot_encode)
+                if (self.index[1], self.index[0]) == (50, 50):
+                    self.action_list += [new_action]
+                    break
 
         if self.customSideChannel.collision:
             self.customSideChannel.collision = False
