@@ -13,8 +13,8 @@ class MySideChannel(SideChannel, ABC):
         self.low_res_state = {}
         self.direction = []
         self.levelEnd = False
-        self.arousal_vector = []  # TODO
-
+        self.arousal_vector = []
+        self.race_ended = False
         self.collision = False
 
     def on_message_received(self, msg: IncomingMessage):
@@ -32,10 +32,13 @@ class MySideChannel(SideChannel, ABC):
             self.direction = [float(vector[counter]) for counter in range(3)]
         elif test == 'Level Ended' or test == "Collision":
             self.levelEnd = True
-        elif '[Surrogate Vector]' in test:
-            test = test.removeprefix("[Surrogate Vector]:")
-            self.arousal_vector = [float(value) for value in test.split(",")]
-            print(self.arousal_vector)
+        elif '[Vector]' in test:
+            test = test.removeprefix("[Vector]:")
+            self.arousal_vector = [float(value) for value in test.split(",")[:-1]]
+            # print(self.arousal_vector)
+
+        if 'Race Ended' == test:
+            self.race_ended = True
         if 'Collision' in test:
             self.collision = True
         

@@ -1,4 +1,30 @@
 from stable_baselines3.common.callbacks import BaseCallback
+import numpy as np
+
+
+class PPOHackCallback(BaseCallback):
+    def __init__(self, target_arousal_per_component, verbose: int = 0):
+        super().__init__(verbose)
+        self.arousal_change_threshold = 0.05
+        self.target_signal = target_arousal_per_component
+
+    def _on_training_start(self) -> None:
+        pass
+
+    def _on_rollout_start(self) -> None:
+        self.training_env.envs[0].action_list.clear()
+        pass
+
+    def _on_step(self) -> bool:
+        return True
+
+    def _on_rollout_end(self) -> None:
+        self.logger.record('reward/cumulative reward', np.sum(self.model.rollout_buffer.rewards))
+        self.logger.record('reward/maximum track length', self.training_env.get_attr('max_score')[0])
+        # self.logger.record('reward/normalized reward (based on track length)', normalize_reward / len(self.training_env.envs[0].action_list))
+
+    def _on_training_end(self) -> None:
+        pass
 
 
 class TensorboardCallback(BaseCallback):
