@@ -15,7 +15,7 @@ from Utils.Tensorboard_Callbacks import TensorboardGoExplore
 
 class GoBlendEnvironment(BaseEnvironment, ABC):
 
-    def __init__(self, id_number, graphics, scaler, path, config):
+    def __init__(self, id_number, graphics, path, config):
 
         """ ---- Pirates! specific code ---- """
         self.gridWidth = 5
@@ -24,7 +24,7 @@ class GoBlendEnvironment(BaseEnvironment, ABC):
         # State = direction, velocity x+y, health, powerup, grid
 
         obs_space = {"low": -np.inf, "high": np.inf, "shape": (1, )}
-        super().__init__(id_number, graphics, scaler, obs_space, path, ["-gridWidth", f"{self.gridWidth}", "-gridHeight", f"{self.gridHeight}", "-elementSize", f"{self.elementSize}"])
+        super().__init__(id_number, graphics, obs_space, path, ["-gridWidth", f"{self.gridWidth}", "-gridHeight", f"{self.gridHeight}", "-elementSize", f"{self.elementSize}"])
 
         """ ---- Generic GoBlend code ---- """
         self.config = config  # Go-Explore configuration file for this experiment
@@ -135,11 +135,9 @@ class GoBlendEnvironment(BaseEnvironment, ABC):
 if __name__ == "__main__":
     config_reader = configparser.ConfigParser()
     config_reader.read('./GoBlend/config_files/baseline.config')
-
     env = GoBlendEnvironment(0,
                              graphics=True,
-                             scaler=None,
-                             path="./Builds/Platformer.app",
+                             path="./Builds/Pirates/Platform",
                              config=config_reader)
 
     env.explore()  # Run the exploration phase of go-explore

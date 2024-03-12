@@ -18,7 +18,7 @@ class BaseEnvironment(gym.Env, ABC):
     unity-gym wrapper, configures the game engine parameters and sets up the custom side channel for
     communicating between our python scripts and unity's update loop.
     """
-    def __init__(self, id_number, graphics, obs_space, path, args=None):
+    def __init__(self, id_number, graphics, obs_space, path, args=None, UUID="621f0a70-4f87-11ea-a6bf-784f4387d1f7"):
 
         super(BaseEnvironment, self).__init__()
 
@@ -26,8 +26,8 @@ class BaseEnvironment(gym.Env, ABC):
         if args is None:
             args = [""]
         self.engineConfigChannel = EngineConfigurationChannel()
-        self.engineConfigChannel.set_configuration_parameters(capture_frame_rate=10, time_scale=1)
-        self.customSideChannel = MySideChannel()
+        self.engineConfigChannel.set_configuration_parameters(capture_frame_rate=5, time_scale=1)
+        self.customSideChannel = MySideChannel(UUID)
 
         # Load the unity build and wrap it in a gym environment
         self.env = self.load_environment(path, id_number, graphics, args)
@@ -93,8 +93,9 @@ class BaseEnvironment(gym.Env, ABC):
                                    additional_args=args)
         except UnityEnvironmentException:
             print("Path not found! Please specify the right environment path.")
-            return None
+            raise
         except:
+            print("Checking next ID!")
             return self.load_environment(path, identifier + 1, graphics, args)
         return env
 

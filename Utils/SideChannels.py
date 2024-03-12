@@ -7,7 +7,7 @@ from mlagents_envs.side_channel import SideChannel, IncomingMessage
 
 class MySideChannel(SideChannel, ABC):
 
-    def __init__(self):
+    def __init__(self, socket_id):
         super().__init__(UUID("621f0a70-4f87-11ea-a6bf-784f4387d1f7"))
         self.score = 0
         self.low_res_state = {}

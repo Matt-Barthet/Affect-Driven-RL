@@ -18,17 +18,18 @@ class RankNet(nn.Module):
         super(RankNet, self).__init__()
         self.fc1 = nn.Linear(input_size, hidden_size1)
         self.fc2 = nn.Linear(hidden_size1, hidden_size2)
-        self.fc3 = nn.Linear(hidden_size1, output_size)
-        self.softmax = nn.Sigmoid()
+        self.fc3 = nn.Linear(hidden_size2, output_size)
+        self.sigmoid = nn.Sigmoid()
 
     def forward(self, x):
         x = torch.relu(self.fc1(x))
-        x = self.softmax(self.fc3(x))
+        x = torch.relu(self.fc2(x))
+        x = self.sigmoid(self.fc3(x))
         return x
 
 
 def load_model(model_path, input_size, hidden_size1, hidden_size2, output_size):
-    model = RankNet(input_size, hidden_size1, hidden_size2, output_size)
+    model = RankNet(input_size, hidden_size1, hidden_size2, output_size).to('cuda:0')
     model.load_state_dict(torch.load(model_path))
     model.eval()  # Set the model to inference mode
     return model
@@ -106,7 +107,7 @@ if __name__ == "__main__":
     output_size = 2
 
     model_path = 'best_model_scaled.pth'
-    scaler_path = 'best_scaler_global.pkl'
+    scaler_path = 'Builds/SolidRallyPCGRL/best_scaler_global.pkl'
 
     scaler = load_scaler(scaler_path)
     model = load_model(model_path, input_size, hidden_size1, hidden_size2, output_size)

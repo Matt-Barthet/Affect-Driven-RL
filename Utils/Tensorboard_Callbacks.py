@@ -27,6 +27,7 @@ class PPOHackCallback(BaseCallback):
         pass
 
 
+
 class TensorboardCallback(BaseCallback):
     def __init__(self):
         super(TensorboardCallback, self).__init__()
@@ -68,3 +69,17 @@ class TensorboardGoExplore:
         self.env.writer.add_scalar('best cell/blended reward', self.best_cell_lambda(), self.step_count)
         self.step_count += 1
 
+
+class TensorboardEDPCG:
+    def __init__(self, env):
+        self.env = env
+        self.step_count = 0
+
+    def update_board(self):
+        self.env.writer.add_scalar('GA Metrics/Minimum Fitness', self.env.min_fitness, self.step_count)
+        self.env.writer.add_scalar('GA Metrics/Average Fitness', self.env.avg_fitness, self.step_count)
+        self.env.writer.add_scalar('GA Metrics/Maximum Fitness', self.env.max_fitness, self.step_count)
+        self.env.writer.add_scalar('GA Metrics/Average Simulation Length', self.env.avg_length, self.step_count)
+        self.env.writer.add_scalar('GA Metrics/Best Indv. Simulation Length', self.env.best_length, self.step_count)
+        self.env.writer.add_scalar('KNN Metrics/Cluster Coverage', self.env.cluster_coverage, self.step_count)
+        self.step_count += 1

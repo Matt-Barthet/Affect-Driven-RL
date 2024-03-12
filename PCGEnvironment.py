@@ -93,7 +93,7 @@ class PCGEnvironment(BaseEnvironment, ABC):
         self.env.reset()
         for action in actions:
             next_state, reward, done, _ = self.env.step(action)  # Execute the action
-            self.current_state, self.grid, self.current_index, self.facing = construct_state(next_state, self.one_hot_encode)
+            self.current_state, self.fixed_grid, self.current_index, self.facing = construct_state(next_state, self.one_hot_encode)
 
     def simulate_race(self):
 
@@ -161,9 +161,6 @@ class PCGEnvironment(BaseEnvironment, ABC):
                         self.reset_to_state(self.action_list.copy())
                     next_state, reward, done, info = self.env.step(new_action)
                     new_state, self.fixed_grid, self.current_index, self.facing = construct_state(next_state, self.one_hot_encode)
-                    grid = np.array(self.fixed_grid.copy())
-                    for element in self.path:
-                        grid[int(element[0])][int(element[1])] = -1
                     if (self.current_index[1], self.current_index[0]) == self.path[0]:
                         self.action_list.append(new_action)
                         self.path = self.path[1:]
@@ -240,12 +237,12 @@ if __name__ == "__main__":
     np.set_printoptions(suppress=True, precision=6)  # precision is optional
 
     input_size = 62  # Update this with the input size
-    hidden_size1 = 16
-    hidden_size2 = 2
+    hidden_size1 = 64
+    hidden_size2 = 32
     output_size = 1
 
-    model_path = 'best_model_scaled.pth'
-    scaler_path = 'best_scaler_global.pkl'
+    model_path = 'Builds/SolidRallyPCGRL/best_model_global.pth'
+    scaler_path = 'Builds/SolidRallyPCGRL/best_scaler_global.pkl'
 
     scaler = load_scaler(scaler_path)
     arousal_model = load_model(model_path, input_size, hidden_size1, hidden_size2, output_size)
