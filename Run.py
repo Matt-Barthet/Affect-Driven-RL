@@ -1,7 +1,7 @@
 import subprocess
 
 for cluster in [0, 2, 3]:
-    for run in [2]:
+    for run in [1]:
         for target_name, target_signal in [("Maximize", "np.ones"), ("Minimize", "np.zeros")]:
 
             preference_trask = True

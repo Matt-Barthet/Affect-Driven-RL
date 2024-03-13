@@ -249,7 +249,7 @@ def load_and_clean(filename, cluster):
 
 def load_data_knn(cluster):
     if preference_task:
-        data, arousals = load_and_clean(f'./Datasets/solid_3000ms_downsampled_pair_data.csv', cluster)
+        data, arousals = load_and_clean(f'./Datasets/solid_3000ms_1W_downsampled_pair_data.csv', cluster)
     else:
         data, arousals = load_and_clean(f'./Datasets/Solid_3000ms_minmax_with_clusters.csv', cluster)
     unscaled_data = pd.read_csv(f'./Datasets/Solid_3000ms_nonorm_with_clusters.csv')
@@ -285,11 +285,6 @@ def evaluate_fitness(individual, generation):
         return -1000, []
     arousals = env.simulate_race()
     return -calculate_reward(target_signal(len(arousals)), arousals), arousals
-
-def roulette_wheel_selection(population, fitness_scores):
-    total_fitness = sum(fitness_scores)
-    selection_probabilities = [total_fitness/fitness+0.0001 for fitness in fitness_scores]
-    return random.choices(population, weights=selection_probabilities, k=population_size)
 
 
 if __name__ == "__main__":
