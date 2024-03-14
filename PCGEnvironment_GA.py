@@ -1,8 +1,7 @@
 import random
 import uuid
 from abc import ABC
-from time import sleep
-
+from asyncio import sleep
 import numpy as np
 import pandas as pd
 from sklearn.preprocessing import MinMaxScaler
@@ -187,15 +186,16 @@ class PCGEnvironmentGA(BaseEnvironment, ABC):
 
         action_list = list(ga_actions.copy())
 
+        self.fixed_grid[50][50] = 0
         _, self.path = dijkstra_with_path(self.fixed_grid,
                                           (self.current_index[0], self.current_index[1]),
                                           (50, 49))
-
         self.path.append((50, 50))
 
-        for value in self.path:
-            self.fixed_grid[int(value[0])][int(value[1])] = -5
+        # for value in self.path:
+        #     self.fixed_grid[int(value[0])][int(value[1])] = -5
 
+        self.path = self.path[1:]
         self.reset_dijkstra = True
 
         copied_grid = self.fixed_grid.copy()
@@ -205,13 +205,18 @@ class PCGEnvironmentGA(BaseEnvironment, ABC):
             copied_grid[int(self.path[i][0])][int(self.path[i][1])] = -1
 
         self.counter += 1
-        self.path = self.path[1:]
+
         while len(self.path) > 0:
             previous_len = len(self.path)
+
             for new_action in range(5):
 
                 if self.reset_dijkstra:
                     self.reset_to_state(action_list.copy())
+
+                print(self.path)
+                for _ in range(int(5e7)):
+                    pass
 
                 next_state, reward, done, info = self.env.step(new_action)
                 self.current_index = (next_state[0][0], next_state[0][2])
@@ -240,6 +245,8 @@ class PCGEnvironmentGA(BaseEnvironment, ABC):
 
         if self.customSideChannel.collision:
             self.customSideChannel.collision = False
+            plt.imshow(self.fixed_grid)
+            plt.show()
             return False
         return True
 
