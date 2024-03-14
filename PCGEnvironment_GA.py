@@ -1,11 +1,13 @@
 import random
 import uuid
 from abc import ABC
+from time import sleep
 
 import numpy as np
 import pandas as pd
 from sklearn.preprocessing import MinMaxScaler
 from torch.utils.tensorboard import SummaryWriter
+import matplotlib.pyplot as plt
 
 from BaseEnvironment import BaseEnvironment
 from PCGRL.Dijkstra import dijkstra_with_path
@@ -15,6 +17,7 @@ from similaritymeasures import similaritymeasures
 from statistics import mode
 
 preference_label = False
+
 
 def KNN(input_tuple):
     x_train = input_tuple[0][0].values
@@ -50,6 +53,7 @@ class PCGEnvironmentGA(BaseEnvironment, ABC):
 
     def __init__(self, id_number, graphics, path, shape, model, scaler, UUID, name="", dataset=None):
 
+        self.previous_index = None
         self.reset_dijkstra = False
         self.arousal_list = []
         self.path = []
@@ -86,23 +90,41 @@ class PCGEnvironmentGA(BaseEnvironment, ABC):
         self.writer = SummaryWriter(log_dir=f'./Tensorboard/EDPCG-{name}')  # Logger for tensorboard
 
     def reset(self, **kwargs):
-        # print("Resetting...")
         state = self.env.reset()
-        new_state, self.fixed_grid, self.current_index, self.facing = construct_state(state, self.one_hot_encode)
+
+        self.current_index = (50, 52)
+        self.previous_index = (50, 51)
+
+        self.fixed_grid = np.ones((100, 100))*7
+        self.fixed_grid[int(self.previous_index[0])][int(self.previous_index[1])] = 5
+        self.previous_index = (50, 52)
         self.previousSurrogate = None
         self.currentSurrogate = None
-        return self.tuple_to_vector(new_state)
+        return []
 
-    def send_load_message(self):
-        self.action_string = "[Load]:"
-        self.action_string += ','.join(f"{action}" for action in self.action_list)
-        self.create_and_send_message(self.action_string)
+    def update_grid(self, action):
+        x_delta = np.sign(int(self.current_index[0] - self.previous_index[0]))
+        y_delta = np.sign(int(self.current_index[1] - self.previous_index[1]))
+
+        if x_delta != 0:
+            for x_diff in range(int(self.previous_index[0]), int(self.current_index[0]), x_delta):
+                self.fixed_grid[int(x_diff)][int(self.current_index[1])] = action
+        elif y_delta != 0:
+            for y_diff in range(int(self.previous_index[1]), int(self.current_index[1]), y_delta):
+                self.fixed_grid[int(self.current_index[0])][int(y_diff)] = action
+
+        self.previous_index = (self.current_index[0], self.current_index[1])
 
     def reset_to_state(self, actions):
-        next_state = self.env.reset()
+        state = self.env.reset()
+        self.fixed_grid = np.ones((100, 100))*7
+        self.fixed_grid[int(self.previous_index[0])][int(self.previous_index[1])] = 5
+        self.previous_index = (50, 52)
         for action in actions:
-            next_state, reward, done, _ = self.env.step(action)  # Execute the action
-        self.current_state, self.fixed_grid, self.current_index, self.facing = construct_state(next_state, self.one_hot_encode)
+            state, reward, done, _ = self.env.step(action)  # Execute the action
+            self.current_index = (state[0][0], state[0][2])
+            self.update_grid(action)
+        # self.current_state, self.fixed_grid, self.current_index, self.facing = construct_state(next_state, self.one_hot_encode)
 
     def simulate_race(self):
         self.arousal_list.clear()
@@ -128,7 +150,7 @@ class PCGEnvironmentGA(BaseEnvironment, ABC):
                 self.previousSurrogate = np.zeros((29,))
 
             if len(self.currentSurrogate) == 0:
-                print("Setting surrogate to zero")
+                # print("Setting surrogate to zero")
                 self.currentSurrogate = np.zeros((29,))
 
             scaled_obs = np.array(self.scaler.transform(self.currentSurrogate.reshape(1, -1))[0])
@@ -140,10 +162,10 @@ class PCGEnvironmentGA(BaseEnvironment, ABC):
             # combined_scaler = np.concatenate((self.previousSurrogate.copy(), self.currentSurrogate.copy()))
             # scaled_obs = self.scaler.transform(np.array(combined_scaler).reshape(1, -1))
 
-            if np.max(scaled_obs) > 1:
-                print(np.max(scaled_obs), np.argmax(scaled_obs) % 29)
-            if np.min(scaled_obs) < 0:
-                print(np.min(scaled_obs), np.argmin(scaled_obs) % 29)
+            # if np.max(scaled_obs) > 1:
+            #     print(np.max(scaled_obs), np.argmax(scaled_obs) % 29)
+            # if np.min(scaled_obs) < 0:
+            #     print(np.min(scaled_obs), np.argmin(scaled_obs) % 29)
 
             scaled_obs = np.clip(scaled_obs, 0, 1)
             arousal, indices = self.arousal_model((self.dataset, scaled_obs))
@@ -154,22 +176,27 @@ class PCGEnvironmentGA(BaseEnvironment, ABC):
                 else:
                     self.indices[index] += 1
 
-            self.cluster_coverage = len(self.indices)/len(self.dataset[0]) * 100
+            self.cluster_coverage = len(self.indices) / len(self.dataset[0]) * 100
             self.arousal_list.append(arousal)
             self.previousSurrogate = self.currentSurrogate.copy()
-            print(arousal)
+            # print(arousal)
         self.customSideChannel.race_ended = False
         return self.arousal_list
 
     def close_circuit(self, ga_actions, generation):
 
         action_list = list(ga_actions.copy())
+
         _, self.path = dijkstra_with_path(self.fixed_grid,
-                                          (self.current_index[1], self.current_index[0]),
-                                          (49, 50))
+                                          (self.current_index[0], self.current_index[1]),
+                                          (50, 49))
+
         self.path.append((50, 50))
+
+        for value in self.path:
+            self.fixed_grid[int(value[0])][int(value[1])] = -5
+
         self.reset_dijkstra = True
-        self.path = self.path[1:]
 
         copied_grid = self.fixed_grid.copy()
         copied_grid[int(self.current_index[1])][int(self.current_index[0])] = -2
@@ -178,7 +205,7 @@ class PCGEnvironmentGA(BaseEnvironment, ABC):
             copied_grid[int(self.path[i][0])][int(self.path[i][1])] = -1
 
         self.counter += 1
-
+        self.path = self.path[1:]
         while len(self.path) > 0:
             previous_len = len(self.path)
             for new_action in range(5):
@@ -187,31 +214,30 @@ class PCGEnvironmentGA(BaseEnvironment, ABC):
                     self.reset_to_state(action_list.copy())
 
                 next_state, reward, done, info = self.env.step(new_action)
-                new_state, self.fixed_grid, self.current_index, self.facing = construct_state(next_state,
-                                                                                              self.one_hot_encode)
+                self.current_index = (next_state[0][0], next_state[0][2])
+                self.update_grid(new_action)
 
-                if (self.current_index[1], self.current_index[0]) == self.path[0]:
+                if (self.current_index[0], self.current_index[1]) == self.path[0]:
                     action_list.append(new_action)
                     self.path = self.path[1:]
                     self.reset_dijkstra = False
                     if len(self.path) == 0:
-                        # self.create_and_send_message(f"Screenshot: /{self.name}/Generation {generation} Track-{len(self.tracks)}.png")
-                        self.tracks.update({f"Generation-{generation}-Track-{len(self.tracks)}": { "Actions": action_list.copy(), "Arousals": self.arousal_list.copy()}})
+                        self.tracks.update({f"Generation-{generation}-Track-{len(self.tracks)}": {
+                            "Actions": action_list.copy(), "Arousals": self.arousal_list.copy()}})
                         return True
                     break
                 self.reset_dijkstra = True
 
             if len(self.path) == previous_len:
-                # print(f"{self.counter} Fail")
-                # self.create_and_send_message(
-                #     f"Screenshot:FAIL {self.name} Generation {generation} Track {self.counter - 1}.png")
                 return False
 
     def step(self, action):
-        if self.current_index == (49, 50):
+        if np.array_equal(self.current_index, (49, 50)):
             return False
         state, env_score, done, info = self.env.step(action)
-        new_state, self.fixed_grid, self.current_index, self.facing = construct_state(state, self.one_hot_encode)
+        self.current_index = (state[0][0], state[0][2])
+        self.update_grid(action)
+
         if self.customSideChannel.collision:
             self.customSideChannel.collision = False
             return False
@@ -223,7 +249,7 @@ def load_and_clean(filename, cluster):
     data = data.loc[:, data.apply(pd.Series.nunique) != 1]
 
     if not preference_task:
-        if cluster !=0 :
+        if cluster != 0:
             data = data[data['Cluster'] == cluster]
         arousals = data['[output]arousal'].values
         data = data.drop(columns=['[control]player_id', '[output]arousal', 'botRespawn'])
@@ -277,6 +303,7 @@ def calculate_reward(target_signal, arousal_signal):
     area = similaritymeasures.area_between_two_curves(target_signal, arousal_signal)
     return area
 
+
 def evaluate_fitness(individual, generation):
     for action in individual:
         if not env.step(action):
@@ -328,8 +355,9 @@ if __name__ == "__main__":
     # Assume PCGEnvironmentGA and other dependencies are defined elsewhere
     socketID = uuid.uuid4()
     vector_length = (2527,)
-    env = PCGEnvironmentGA(0, graphics=True, path="./Builds/SolidRallyPCGRL/Racing.exe",
-                           shape=vector_length, model=KNN, scaler=scaler, name=experiment_name, UUID=socketID, dataset=[x_train, y_train])
+    env = PCGEnvironmentGA(0, graphics=True, path="./Builds/Solid_Optimized/Racing.exe",
+                           shape=vector_length, model=KNN, scaler=scaler, name=experiment_name, UUID=socketID,
+                           dataset=[x_train, y_train])
 
     offspring_size = 50  # λ
     string_length = 10
@@ -339,11 +367,13 @@ if __name__ == "__main__":
     elite_count = 1  # Number of elite individuals to carry over
     population = np.load("./seed_tracks.npy", allow_pickle=True).item()[f'Seed_{run}']
 
+
     def one_point_crossover(parent1, parent2):
         crossover_point = random.randint(1, string_length - 1)
         child1 = list(parent1[:crossover_point]) + list(parent2[crossover_point:])
         child2 = list(parent2[:crossover_point]) + list(parent1[crossover_point:])
         return child1, child2
+
 
     for generation in range(num_generations):
         fitness_scores = []
@@ -380,21 +410,18 @@ if __name__ == "__main__":
         # Generate new offspring through crossover and mutation
         new_generation = elites[:]  # Start new generation with the elites
         while len(new_generation) < offspring_size:
+            print(len(new_generation))
             parent1, parent2 = random.sample(mating_pool, 2)
             child1, child2 = one_point_crossover(parent1, parent2)
-
             child1_unique, child2_unique = True, True
-
             for child in new_generation:
                 if np.array_equal(np.array(child), np.array(child1)):
                     child1_unique = False
                     break
-
             for child in new_generation:
                 if np.array_equal(np.array(child), np.array(child2)):
                     child2_unique = False
                     break
-
             if child1_unique:
                 new_generation.extend([child1])
             if child2_unique:
@@ -402,7 +429,8 @@ if __name__ == "__main__":
 
         # Mutation
         for i in range(len(new_generation)):
-            new_generation[i] = [gene if random.random() > mutation_rate else random.randint(0, 4) for gene in new_generation[i]]
+            new_generation[i] = [gene if random.random() > mutation_rate else random.randint(0, 4) for gene in
+                                 new_generation[i]]
 
         # The next generation replaces the old one, up to the population size
         population = new_generation[:offspring_size]

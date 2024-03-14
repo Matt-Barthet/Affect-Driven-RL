@@ -1,8 +1,9 @@
 import subprocess
 
 for cluster in [0, 2, 3]:
-    for run in [1]:
-        for target_name, target_signal in [("Maximize", "np.ones"), ("Minimize", "np.zeros")]:
+    for run in [1, 2, 3, 4, 5]:
+
+        for target_name, target_signal in [("Maximize", "np.ones")]:
 
             preference_trask = True
             # Assuming your script is named 'your_script.py' and located at 'C:\\path\\to\\your\\script\\'
