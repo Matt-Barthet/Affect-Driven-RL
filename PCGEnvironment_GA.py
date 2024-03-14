@@ -214,9 +214,7 @@ class PCGEnvironmentGA(BaseEnvironment, ABC):
                 if self.reset_dijkstra:
                     self.reset_to_state(action_list.copy())
 
-                print(self.path)
-                for _ in range(int(5e7)):
-                    pass
+                # print(self.path)
 
                 next_state, reward, done, info = self.env.step(new_action)
                 self.current_index = (next_state[0][0], next_state[0][2])
