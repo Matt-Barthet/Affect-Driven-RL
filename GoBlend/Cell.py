@@ -39,21 +39,13 @@ class Cell:
     def normalize_r_b(self):
         return self.behavior_reward / len(self.trajectory_dict['behavior_trajectory'])
 
-    def assess_cell(self, weight, normalize_behavior, behavior_function, arousal_function, kNN):
-        self.generate_human_arousal(kNN)
-        self.behavior_reward = behavior_function(self.trajectory_dict['score_trajectory'], None)
-        self.arousal_reward = arousal_function([], [])
+    def assess_cell(self, weight, normalize_behavior, arousal_function):
+        # self.behavior_reward = behavior_function(self.trajectory_dict['score_trajectory'], None)
+        self.arousal_reward = arousal_function()
         if normalize_behavior:
             self.blended_reward = self.normalize_r_a() * weight + self.normalize_r_b() * (1 - weight)
         else:
             self.blended_reward = self.normalize_r_a() * weight + self.behavior_reward * (1 - weight)
-
-    def generate_human_arousal(self, k):
-        self.arousal = 0
-        self.arousal_values = [0]
-        self.uncertainty = np.std(self.arousal_values)
-        self.trajectory_dict['arousal_trajectory'].append(self.arousal)
-        self.trajectory_dict['uncertainty_trajectory'].append(self.uncertainty)
 
     def update_key(self, state):
         self.key = get_state_hash(state)

@@ -70,6 +70,19 @@ class TensorboardGoExplore:
         self.step_count += 1
 
 
+class TensorboardEDPCGRLGO:
+    def __init__(self, env):
+        self.env = env
+        self.step_count = 0
+
+    def update_board(self):
+        # self.env.writer.add_scalar('Archive/Archive Size', self.env.min_fitness, self.step_count)
+        # self.env.writer.add_scalar('Archive/Mean Track Length', self.env.avg_fitness, self.step_count)
+        # self.env.writer.add_scalar('Archive/Best Track Length', self.env.avg_fitness, self.step_count)
+        # self.env.writer.add_scalar('KNN/Cluster Coverage', self.env.cluster_coverage, self.step_count)
+        self.step_count += 1
+
+
 class TensorboardEDPCG:
     def __init__(self, env):
         self.env = env

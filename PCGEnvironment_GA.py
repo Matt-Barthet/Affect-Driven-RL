@@ -104,14 +104,12 @@ class PCGEnvironmentGA(BaseEnvironment, ABC):
     def update_grid(self, action):
         x_delta = np.sign(int(self.current_index[0] - self.previous_index[0]))
         y_delta = np.sign(int(self.current_index[1] - self.previous_index[1]))
-
         if x_delta != 0:
             for x_diff in range(int(self.previous_index[0]), int(self.current_index[0]), x_delta):
                 self.fixed_grid[int(x_diff)][int(self.current_index[1])] = action
         elif y_delta != 0:
             for y_diff in range(int(self.previous_index[1]), int(self.current_index[1]), y_delta):
                 self.fixed_grid[int(self.current_index[0])][int(y_diff)] = action
-
         self.previous_index = (self.current_index[0], self.current_index[1])
 
     def reset_to_state(self, actions):

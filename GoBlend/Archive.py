@@ -31,8 +31,7 @@ class Archive:
             return copy.deepcopy(cell)
 
     def select_cell_roulette(self):
-        weights = [cell.assess_cell(self.selectionLambda, self.behavior_target == "Imitate") for cell in
-                   self.archive]
+        weights = [cell.assess_cell(self.selectionLambda, self.behavior_target == "Imitate") for cell in self.archive]
         weights = np.asarray(weights) / np.sum(weights)
         cell = np.random.choice(list(self.archive.items()), size=1, replace=False, p=weights)
         if not cell.final:

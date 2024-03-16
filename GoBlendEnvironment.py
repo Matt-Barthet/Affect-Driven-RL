@@ -75,8 +75,8 @@ class GoBlendEnvironment(BaseEnvironment, ABC):
                                              "arousal_vectors": [arousal_vector],
                                              "score_trajectory": [score]})
 
-        self.current_cell.assess_cell(self.lambdaValue, self.normalize_behavior == "True", self.behavior_function,
-                                      self.arousal_function, self.kNN)
+        self.current_cell.assess_cell(self.lambdaValue, self.normalize_behavior == "True",
+                                      self.arousal_function)
 
     def construct_state(self, vector, visual):
         vector[0] = (vector[0] // 30) * 30
@@ -127,10 +127,6 @@ class GoBlendEnvironment(BaseEnvironment, ABC):
             self.callback.on_step()  # Update tensorboard after each rollout
         self.writer.close()
 
-    def robustify(self):
-        # TODO - not now.
-        pass
-
 
 if __name__ == "__main__":
     config_reader = configparser.ConfigParser()
@@ -141,4 +137,3 @@ if __name__ == "__main__":
                              config=config_reader)
 
     env.explore()  # Run the exploration phase of go-explore
-    # env.robustify()  # Run the robustification phase of go-explore
