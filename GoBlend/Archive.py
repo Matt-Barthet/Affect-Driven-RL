@@ -26,7 +26,7 @@ class Archive:
     def select_random_cell(self):
         key, cell = random.choice(list(self.archive.items()))
         if cell.final:
-            self.select_random_cell()
+            return self.select_random_cell()
         else:
             return copy.deepcopy(cell)
 
@@ -39,7 +39,7 @@ class Archive:
         return copy.deepcopy(cell)
 
     def store_cell(self, cell):
-        if cell.blended_reward < 0:
+        if cell is None:
             return False
         if self.store_cell_condition(cell):
             self.archive.update({cell.key: copy.deepcopy(cell)})
@@ -56,7 +56,7 @@ class Archive:
         return cell.get_cell_length() < self.archive[cell.key].get_cell_length()
 
     def update_best_cell(self, cell):
-        if self.bestCell is None or cell.blended_reward > self.bestCell.blended_reward:
+        if cell.get_cell_length() == 10 and (self.bestCell is None or cell.blended_reward > self.bestCell.blended_reward):
             self.bestCell = copy.deepcopy(cell)
 
     def save_best_cells(self):

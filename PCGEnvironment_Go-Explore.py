@@ -40,11 +40,11 @@ class PCGEnvironmentGoExplore(BaseEnvironment, ABC):
         super().__init__(id_number, graphics, obs_space, path, args=args)
 
         self.config = configparser.ConfigParser()
-        self.config.read('./GoBlend/config_files/imitate_arousal.config')
+        self.config.read('./GoBlend/config_files/pcg_baseline.config')
         self.archive = Archive(self.config)
 
         self.callback = TensorboardEDPCGRLGO(self)
-        self.writer = SummaryWriter(log_dir=f'./Tensorboard/EDPCG-{name}')  # Logger for tensorboard
+        self.writer = SummaryWriter(log_dir=f'./Tensorboard/PCGRL-{name}')  # Logger for tensorboard
 
         self.total_timesteps = int(self.config['Cells']['max_trajectories'])  # total number of "rollouts" to explore
         self.explore_length = int(self.config['Cells']['explore_steps'])  # length of each rollout during exploration
@@ -70,7 +70,7 @@ class PCGEnvironmentGoExplore(BaseEnvironment, ABC):
         return None
 
     def update_grid(self, action):
-        print(self.current_index, self.previous_index)
+        # print(self.current_index, self.previous_index)
         x_delta = np.sign(int(self.current_index[0] - self.previous_index[0]))
         y_delta = np.sign(int(self.current_index[1] - self.previous_index[1]))
         if x_delta != 0:
@@ -199,15 +199,19 @@ class PCGEnvironmentGoExplore(BaseEnvironment, ABC):
                 return False
 
     def step(self, action):
-        if np.array_equal(self.current_index, (49, 50)):
-            return False
+
         state, env_score, done, info = self.env.step(action)
+
+        if np.array_equal(self.current_index, (49, 50)):
+            return state, False
+
         self.current_index = (state[0][0], state[0][2])
         self.update_grid(action)
 
         if self.customSideChannel.collision:
             self.customSideChannel.collision = False
             return state, False
+
         return state, True
 
     def create_cell(self, action, state):
@@ -216,6 +220,8 @@ class PCGEnvironmentGoExplore(BaseEnvironment, ABC):
             self.current_cell.trajectory_dict['state_trajectory'].append(state)
             # self.current_cell.trajectory_dict['score_trajectory'].append(score)
             self.current_cell.update_key(state)
+            if len(self.current_cell.trajectory_dict['behavior_trajectory']) >= 10:
+                self.current_cell.final = True
         else:
             self.current_cell = Cell(state, {"state_trajectory": [state],
                                              "behavior_trajectory": [action],
@@ -225,41 +231,47 @@ class PCGEnvironmentGoExplore(BaseEnvironment, ABC):
                                              "score_trajectory": []})
 
     def add_arousal(self, arousal_vector, score):
-        self.current_cell.trajectory_dict['arousal_vectors'].append(arousal_vector)
+        self.current_cell.trajectory_dict['arousal_trajectory'].append(arousal_vector)
         self.current_cell.trajectory_dict['score_trajectory'].append(score)
         pass
-
 
     def explore_actions(self):
 
         if len(self.archive.archive) != 0:
             self.current_cell = self.archive.select_cell()
+            print(self.current_cell)
             self.reset_to_state(self.current_cell.trajectory_dict['behavior_trajectory'])
 
         action = self.env.action_space.sample()
         state, collision = self.step(action)
 
-        self.create_cell(action, state)
+        if not collision:
+            return False
+
+        self.create_cell(action, self.fixed_grid)
         self.close_circuit(self.current_cell.trajectory_dict['behavior_trajectory'], 0)
         arousal_vector = env.simulate_race()
         self.add_arousal(arousal_vector, len(self.current_cell.trajectory_dict['behavior_trajectory']))
-        self.current_cell.assess_cell(self.lambdaValue, self.normalize_behavior == "True",
-                                      self.arousal_function)
+        self.current_cell.assess_cell(self.lambdaValue, self.normalize_behavior == "True", self.arousal_function)
         self.archive.store_cell(self.current_cell)
+        return True
 
     def explore(self):
-        self.reset()
         for _ in range(self.total_timesteps):
-            self.explore_actions()
-            self.callback.update_board()
+            self.reset()
+            if self.explore_actions():
+                self.callback.update_board()
+                results = {"Tracks": self.tracks, "Coverage": self.cluster_coverage, "Index_Counts": self.indices}
+                np.save(f"./{self.name} Results.npy", results)
+
         self.writer.close()
 
     def calculate_reward(self):
-        arousal_signal = self.current_cell.trajectory_dict['arousal_trajectory']
+        arousal_signal = self.current_cell.trajectory_dict['arousal_trajectory'][0]
         target_signal = self.target_signal(len(arousal_signal))
 
-        print(arousal_signal)
-        print(target_signal)
+        print(arousal_signal, target_signal)
+
         arousal_signal = np.expand_dims(np.array(arousal_signal), axis=1)
         target_signal = np.expand_dims(np.array(target_signal), axis=1)
         target_x = np.expand_dims(np.arange(len(target_signal)), axis=1)
@@ -267,7 +279,7 @@ class PCGEnvironmentGoExplore(BaseEnvironment, ABC):
         arousal_signal = np.concatenate([arousal_x, arousal_signal.copy()], axis=1)
         target_signal = np.concatenate([target_x, target_signal], axis=1)
         area = similaritymeasures.area_between_two_curves(target_signal, arousal_signal)
-        return area
+        return -area
 
 
 if __name__ == "__main__":
@@ -308,7 +320,7 @@ if __name__ == "__main__":
 
     socketID = uuid.uuid4()
     vector_length = (2527,)
-    env = PCGEnvironmentGoExplore(0, graphics=True, path="./Builds/SolidRallyPCGRL_Mac.app",
+    env = PCGEnvironmentGoExplore(0, graphics=True, path="./Builds/Solid_Optimized",
                                   shape=vector_length, model=surrogate_model, scaler=surrogate_model.scaler,
                                   name=experiment_name, UUID=socketID)
 

@@ -76,10 +76,14 @@ class TensorboardEDPCGRLGO:
         self.step_count = 0
 
     def update_board(self):
-        # self.env.writer.add_scalar('Archive/Archive Size', self.env.min_fitness, self.step_count)
-        # self.env.writer.add_scalar('Archive/Mean Track Length', self.env.avg_fitness, self.step_count)
-        # self.env.writer.add_scalar('Archive/Best Track Length', self.env.avg_fitness, self.step_count)
-        # self.env.writer.add_scalar('KNN/Cluster Coverage', self.env.cluster_coverage, self.step_count)
+        self.env.writer.add_scalar('Archive/Archive Size', len(self.env.archive.archive), self.step_count)
+        if self.env.archive.bestCell is None:
+            self.env.writer.add_scalar('Reward/Best Cell Reward', -1000, self.step_count)
+            self.env.writer.add_scalar('Reward/Best Cell Length', 0, self.step_count)
+        else:
+            self.env.writer.add_scalar('Reward/Best Cell Reward', self.env.archive.bestCell.blended_reward, self.step_count)
+            self.env.writer.add_scalar('Reward/Best Cell Length', self.env.archive.bestCell.get_cell_length(), self.step_count)
+        self.env.writer.add_scalar('KNN/Cluster Coverage', self.env.cluster_coverage, self.step_count)
         self.step_count += 1
 
 

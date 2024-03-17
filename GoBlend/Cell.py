@@ -22,9 +22,9 @@ class Cell:
         self.arousal = 0
         self.arousal_values = []
         self.uncertainty = 0
-        self.arousal_reward = 0
-        self.behavior_reward = 0
-        self.blended_reward = 0
+        self.arousal_reward = -1000
+        self.behavior_reward = -1000
+        self.blended_reward = -1000
 
         self.age = 0
         self.visited = 1
@@ -34,7 +34,7 @@ class Cell:
         return len(self.trajectory_dict['state_trajectory'])
 
     def normalize_r_a(self):
-        return self.arousal_reward / len(self.trajectory_dict['arousal_trajectory'])
+        return self.arousal_reward # / len(self.trajectory_dict['arousal_trajectory'])
 
     def normalize_r_b(self):
         return self.behavior_reward / len(self.trajectory_dict['behavior_trajectory'])
@@ -46,6 +46,7 @@ class Cell:
             self.blended_reward = self.normalize_r_a() * weight + self.normalize_r_b() * (1 - weight)
         else:
             self.blended_reward = self.normalize_r_a() * weight + self.behavior_reward * (1 - weight)
+        print(self.arousal_reward, self.blended_reward)
 
     def update_key(self, state):
         self.key = get_state_hash(state)

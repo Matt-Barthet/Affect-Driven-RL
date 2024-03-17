@@ -241,8 +241,8 @@ class PCGEnvironmentGA(BaseEnvironment, ABC):
 
         if self.customSideChannel.collision:
             self.customSideChannel.collision = False
-            plt.imshow(self.fixed_grid)
-            plt.show()
+            # plt.imshow(self.fixed_grid)
+            # plt.show()
             return False
         return True
 
@@ -413,10 +413,13 @@ if __name__ == "__main__":
         # Generate new offspring through crossover and mutation
         new_generation = elites[:]  # Start new generation with the elites
         while len(new_generation) < offspring_size:
-            print(len(new_generation))
             parent1, parent2 = random.sample(mating_pool, 2)
             child1, child2 = one_point_crossover(parent1, parent2)
             child1_unique, child2_unique = True, True
+
+            child1 = [gene if random.random() > mutation_rate else random.randint(0, 4) for gene in child1]
+            child2 = [gene if random.random() > mutation_rate else random.randint(0, 4) for gene in child2]
+
             for child in new_generation:
                 if np.array_equal(np.array(child), np.array(child1)):
                     child1_unique = False
@@ -425,15 +428,13 @@ if __name__ == "__main__":
                 if np.array_equal(np.array(child), np.array(child2)):
                     child2_unique = False
                     break
+
             if child1_unique:
                 new_generation.extend([child1])
             if child2_unique:
                 new_generation.extend([child2])
 
         # Mutation
-        for i in range(len(new_generation)):
-            new_generation[i] = [gene if random.random() > mutation_rate else random.randint(0, 4) for gene in
-                                 new_generation[i]]
 
         # The next generation replaces the old one, up to the population size
         population = new_generation[:offspring_size]
