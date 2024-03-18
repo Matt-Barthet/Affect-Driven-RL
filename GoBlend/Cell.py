@@ -34,7 +34,7 @@ class Cell:
         return len(self.trajectory_dict['state_trajectory'])
 
     def normalize_r_a(self):
-        return self.arousal_reward # / len(self.trajectory_dict['arousal_trajectory'])
+        return self.arousal_reward
 
     def normalize_r_b(self):
         return self.behavior_reward / len(self.trajectory_dict['behavior_trajectory'])

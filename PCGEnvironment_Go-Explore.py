@@ -58,13 +58,14 @@ class PCGEnvironmentGoExplore(BaseEnvironment, ABC):
         self.arousal_target = self.config['Rewards']['arousal_target']
         self.arousal_function = self.calculate_reward
 
+        self.dijkstra_length = 0
+
     def reset(self, **kwargs):
         _ = self.env.reset()
         self.current_index = (50, 52)
         self.previous_index = (50, 51)
         self.fixed_grid = np.ones((100, 100))*7
         self.fixed_grid[int(self.previous_index[0])][int(self.previous_index[1])] = 5
-        self.previous_index = (50, 52)
         self.previousSurrogate = None
         self.currentSurrogate = None
         return None
@@ -82,13 +83,11 @@ class PCGEnvironmentGoExplore(BaseEnvironment, ABC):
         self.previous_index = (self.current_index[0], self.current_index[1])
 
     def reset_to_state(self, actions):
-        _ = self.env.reset()
-        self.fixed_grid = np.ones((100, 100))*7
-        self.fixed_grid[int(self.previous_index[0])][int(self.previous_index[1])] = 5
-        self.previous_index = (50, 52)
+        self.reset()
         for action in actions:
-            state, reward, done, _ = self.env.step(action)  # Execute the action
+            state, reward, done, _ = self.env.step(action)
             self.current_index = (state[0][0], state[0][2])
+            # print(f"Resetting with action: {action} at position {self.current_index}")
             self.update_grid(action)
 
     def simulate_race(self):
@@ -123,14 +122,6 @@ class PCGEnvironmentGoExplore(BaseEnvironment, ABC):
                 previous_scaler = np.array(self.scaler.transform(self.previousSurrogate.reshape(1, -1))[0])
                 scaled_obs = list(previous_scaler) + list(scaled_obs)
 
-            # combined_scaler = np.concatenate((self.previousSurrogate.copy(), self.currentSurrogate.copy()))
-            # scaled_obs = self.scaler.transform(np.array(combined_scaler).reshape(1, -1))
-
-            # if np.max(scaled_obs) > 1:
-            #     print(np.max(scaled_obs), np.argmax(scaled_obs) % 29)
-            # if np.min(scaled_obs) < 0:
-            #     print(np.min(scaled_obs), np.argmin(scaled_obs) % 29)
-
             scaled_obs = np.clip(scaled_obs, 0, 1)
             arousal, indices = self.arousal_model(scaled_obs)
 
@@ -143,6 +134,7 @@ class PCGEnvironmentGoExplore(BaseEnvironment, ABC):
             self.cluster_coverage = len(self.indices) / len(self.arousal_model.x_train) * 100
             self.arousal_list.append(arousal)
             self.previousSurrogate = self.currentSurrogate.copy()
+
         self.customSideChannel.race_ended = False
         return self.arousal_list
 
@@ -150,40 +142,30 @@ class PCGEnvironmentGoExplore(BaseEnvironment, ABC):
 
         action_list = list(ga_actions.copy())
 
+        print(f"PATH FROM: {self.current_index}")
         self.fixed_grid[50][50] = 0
         _, self.path = dijkstra_with_path(self.fixed_grid,
                                           (self.current_index[0], self.current_index[1]),
                                           (50, 49))
         self.path.append((50, 50))
 
-        # for value in self.path:
-        #     self.fixed_grid[int(value[0])][int(value[1])] = -5
-
         self.path = self.path[1:]
+        self.dijkstra_length = len(self.path)
         self.reset_dijkstra = True
-
-        copied_grid = self.fixed_grid.copy()
-        copied_grid[int(self.current_index[1])][int(self.current_index[0])] = -2
-
-        for i in range(len(self.path)):
-            copied_grid[int(self.path[i][0])][int(self.path[i][1])] = -1
-
         self.counter += 1
 
         while len(self.path) > 0:
+            # print(self.path)
             previous_len = len(self.path)
-
             for new_action in range(5):
-
                 if self.reset_dijkstra:
+                    # print(f"Recreating track with actions {action_list.copy()}")
                     self.reset_to_state(action_list.copy())
-
-                # print(self.path)
-
+                    # print(self.current_index)
                 next_state, reward, done, info = self.env.step(new_action)
                 self.current_index = (next_state[0][0], next_state[0][2])
+                # print(self.current_index)
                 self.update_grid(new_action)
-
                 if (self.current_index[0], self.current_index[1]) == self.path[0]:
                     action_list.append(new_action)
                     self.path = self.path[1:]
@@ -194,31 +176,24 @@ class PCGEnvironmentGoExplore(BaseEnvironment, ABC):
                         return True
                     break
                 self.reset_dijkstra = True
-
             if len(self.path) == previous_len:
                 return False
 
     def step(self, action):
-
         state, env_score, done, info = self.env.step(action)
-
         if np.array_equal(self.current_index, (49, 50)):
             return state, False
-
         self.current_index = (state[0][0], state[0][2])
         self.update_grid(action)
-
         if self.customSideChannel.collision:
             self.customSideChannel.collision = False
             return state, False
-
         return state, True
 
     def create_cell(self, action, state):
         if self.current_cell is not None:
             self.current_cell.trajectory_dict['behavior_trajectory'].append(action)
             self.current_cell.trajectory_dict['state_trajectory'].append(state)
-            # self.current_cell.trajectory_dict['score_trajectory'].append(score)
             self.current_cell.update_key(state)
             if len(self.current_cell.trajectory_dict['behavior_trajectory']) >= 10:
                 self.current_cell.final = True
@@ -230,17 +205,17 @@ class PCGEnvironmentGoExplore(BaseEnvironment, ABC):
                                              "arousal_vectors": [],
                                              "score_trajectory": []})
 
-    def add_arousal(self, arousal_vector, score):
-        self.current_cell.trajectory_dict['arousal_trajectory'].append(arousal_vector)
+    def add_arousal(self, arousal_vector, score, dijkstra_length):
+        self.current_cell.trajectory_dict['arousal_trajectory'] = arousal_vector
         self.current_cell.trajectory_dict['score_trajectory'].append(score)
+        self.current_cell.trajectory_dict['state_trajectory'][-1].append(dijkstra_length)
         pass
 
     def explore_actions(self):
 
         if len(self.archive.archive) != 0:
             self.current_cell = self.archive.select_cell()
-            print(self.current_cell)
-            self.reset_to_state(self.current_cell.trajectory_dict['behavior_trajectory'])
+            self.reset_to_state(self.current_cell.trajectory_dict['behavior_trajectory'].copy())
 
         action = self.env.action_space.sample()
         state, collision = self.step(action)
@@ -248,30 +223,49 @@ class PCGEnvironmentGoExplore(BaseEnvironment, ABC):
         if not collision:
             return False
 
-        self.create_cell(action, self.fixed_grid)
-        self.close_circuit(self.current_cell.trajectory_dict['behavior_trajectory'], 0)
-        arousal_vector = env.simulate_race()
-        self.add_arousal(arousal_vector, len(self.current_cell.trajectory_dict['behavior_trajectory']))
-        self.current_cell.assess_cell(self.lambdaValue, self.normalize_behavior == "True", self.arousal_function)
-        self.archive.store_cell(self.current_cell)
-        return True
+        if self.current_cell is None:
+            action_list = [action]
+        else:
+            action_list = self.current_cell.trajectory_dict['behavior_trajectory'].copy()
+            action_list.append(action)
+
+        turns, straights, bridges, loops = 0, 0, 0, 0
+
+        for action in action_list:
+            if action == 0:
+                straights += 1
+            elif action == 1 or action == 2:
+                turns += 1
+            elif action == 3:
+                loops += 1
+            elif action == 4:
+                bridges += 1
+
+        state = [turns, straights, bridges, loops]
+
+        # print(f"CELL CREATED AT: {self.current_index}")
+        self.create_cell(action, state)
+        if self.close_circuit(self.current_cell.trajectory_dict['behavior_trajectory'].copy(), 0):
+            arousal_values = env.simulate_race()
+            self.add_arousal(arousal_values, len(self.current_cell.trajectory_dict['behavior_trajectory'].copy()), self.dijkstra_length)
+            self.current_cell.assess_cell(self.lambdaValue, self.normalize_behavior == "True", self.arousal_function)
+            self.archive.store_cell(self.current_cell)
+            return True
+        else:
+            return False
 
     def explore(self):
         for _ in range(self.total_timesteps):
             self.reset()
-            if self.explore_actions():
-                self.callback.update_board()
-                results = {"Tracks": self.tracks, "Coverage": self.cluster_coverage, "Index_Counts": self.indices}
-                np.save(f"./{self.name} Results.npy", results)
-
+            self.explore_actions()
+            self.callback.update_board()
+            results = {"Tracks": self.tracks, "Coverage": self.cluster_coverage, "Index_Counts": self.indices}
+            np.save(f"./{self.name} Results.npy", results)
         self.writer.close()
 
     def calculate_reward(self):
-        arousal_signal = self.current_cell.trajectory_dict['arousal_trajectory'][0]
+        arousal_signal = self.current_cell.trajectory_dict['arousal_trajectory']
         target_signal = self.target_signal(len(arousal_signal))
-
-        print(arousal_signal, target_signal)
-
         arousal_signal = np.expand_dims(np.array(arousal_signal), axis=1)
         target_signal = np.expand_dims(np.array(target_signal), axis=1)
         target_x = np.expand_dims(np.arange(len(target_signal)), axis=1)
