@@ -1,23 +1,18 @@
-import random
+import configparser
 import sys
 import uuid
 from abc import ABC
 
 import numpy as np
-import pandas as pd
 from similaritymeasures import similaritymeasures
-from sklearn.preprocessing import MinMaxScaler
 from torch.utils.tensorboard import SummaryWriter
 
 from BaseEnvironment import BaseEnvironment
-from PCGRL.Dijkstra import dijkstra_with_path
-from PCGRL.PCGUtility import construct_state
-from SurrogateModel import KNNSurrogateModel
-from Utils.Tensorboard_Callbacks import TensorboardEDPCGRLGO
-
 from GoBlend.Archive import Archive
 from GoBlend.Cell import Cell
-import configparser
+from PCGRL.Dijkstra import dijkstra_with_path
+from SurrogateModel import KNNSurrogateModel
+from Utils.Tensorboard_Callbacks import TensorboardEDPCGRLGO
 
 
 # noinspection DuplicatedCode
@@ -243,7 +238,6 @@ class PCGEnvironmentGoExplore(BaseEnvironment, ABC):
 
         state = [turns, straights, bridges, loops]
 
-        # print(f"CELL CREATED AT: {self.current_index}")
         self.create_cell(action, state)
         if self.close_circuit(self.current_cell.trajectory_dict['behavior_trajectory'].copy(), 0):
             arousal_values = env.simulate_race()
@@ -276,6 +270,15 @@ class PCGEnvironmentGoExplore(BaseEnvironment, ABC):
         return -area
 
 
+def sample_target_signal(length):
+    start_point = int(length/3)
+    end_point = start_point * 2
+    signal = np.ones((length,))
+    for value in range(start_point, end_point):
+        signal[value] = 0
+    return signal
+
+
 if __name__ == "__main__":
 
     if len(sys.argv) != 7:
@@ -298,7 +301,7 @@ if __name__ == "__main__":
     function_mapping = {
         'np.ones': np.ones,
         'np.zeros': np.zeros,
-        # 'imitate': sample_target_signal
+        'imitate': sample_target_signal
     }
 
     arousal_type = "Changes" if preference_task else "Arousal"
