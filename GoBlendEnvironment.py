@@ -133,7 +133,6 @@ if __name__ == "__main__":
     config_reader.read('./GoBlend/config_files/baseline.config')
     env = GoBlendEnvironment(0,
                              graphics=True,
-                             path="./Builds/Pirates/Platform",
+                             path="./Builds/Pirates/Platform.exe",
                              config=config_reader)
-
     env.explore()  # Run the exploration phase of go-explore

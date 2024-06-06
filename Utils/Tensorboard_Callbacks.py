@@ -27,16 +27,15 @@ class PPOHackCallback(BaseCallback):
         pass
 
 
-
 class TensorboardCallback(BaseCallback):
     def __init__(self):
         super(TensorboardCallback, self).__init__()
 
     def _on_step(self) -> bool:
-        self.logger.record('reward/reward', self.training_env.get_attr('reward')[0])
-        self.logger.record('reward/cumulative reward', self.training_env.get_attr('cumulative_reward')[0])
-        self.logger.record('reward/maximum environment score', self.training_env.get_attr('max_score')[0])
-        self.logger.record('reward/max reward', self.training_env.get_attr('max_reward')[0])
+        # self.logger.record('reward/reward', self.training_env.get_attr('current_reward')[0])
+        # self.logger.record('reward/cumulative reward', self.training_env.get_attr('cumulative_reward')[0])
+        # self.logger.record('reward/maximum environment score', self.training_env.get_attr('best_score')[0])
+        # self.logger.record('reward/max reward', self.training_env.get_attr('best_reward')[0])
         return True
 
 

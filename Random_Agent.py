@@ -15,8 +15,7 @@ from BaseEnvironment import BaseEnvironment
 
 if __name__ == "__main__":
 
-    env = DummyVecEnv([lambda: BaseEnvironment(counter,
-                                               graphics=True,
+    env = DummyVecEnv([lambda: BaseEnvironment(counter, graphics=True,
                                                scaler=None,
                                                include_affect=False,
                                                obs_space={"low": -np.inf, "high": np.inf, "shape": (13,)},

@@ -41,7 +41,8 @@ class Cell:
 
     def assess_cell(self, weight, normalize_behavior, arousal_function):
         # self.behavior_reward = behavior_function(self.trajectory_dict['score_trajectory'], None)
-        self.arousal_reward = arousal_function()
+        # self.arousal_reward = arousal_function()
+        self.arousal_reward = 0
         if normalize_behavior:
             self.blended_reward = self.normalize_r_a() * weight + self.normalize_r_b() * (1 - weight)
         else:

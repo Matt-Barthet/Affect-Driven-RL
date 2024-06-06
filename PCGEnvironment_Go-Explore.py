@@ -317,7 +317,7 @@ if __name__ == "__main__":
 
     socketID = uuid.uuid4()
     vector_length = (2527,)
-    env = PCGEnvironmentGoExplore(0, graphics=True, path="./Builds/Solid_Optimized",
+    env = PCGEnvironmentGoExplore(0, graphics=True, path="./Builds/Solid_Optimized/Racing.exe",
                                   shape=vector_length, model=surrogate_model, scaler=surrogate_model.scaler,
                                   name=experiment_name, UUID=socketID)
 

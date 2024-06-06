@@ -297,24 +297,30 @@ def sample_target_signal(length):
 
 
 def calculate_reward(target_signal, arousal_signal):
-    arousal_signal = np.expand_dims(np.array(arousal_signal), axis=1)
-    target_signal = np.expand_dims(np.array(target_signal), axis=1)
-    target_x = np.expand_dims(np.arange(len(target_signal)), axis=1)
-    arousal_x = np.expand_dims(np.arange(len(arousal_signal)), axis=1)
-    arousal_signal = np.concatenate([arousal_x, arousal_signal.copy()], axis=1)
-    target_signal = np.concatenate([target_x, target_signal], axis=1)
-    area = similaritymeasures.area_between_two_curves(target_signal, arousal_signal)
-    return area
+
+    reward = 0
+    for value in range(len(arousal_signal)):
+        if np.round(arousal_signal[value]) == target_signal[value]:
+            reward += 1
+    return reward / len(arousal_signal)
+    # arousal_signal = np.expand_dims(np.array(arousal_signal), axis=1)
+    # target_signal = np.expand_dims(np.array(target_signal), axis=1)
+    # target_x = np.expand_dims(np.arange(len(target_signal)), axis=1)
+    # arousal_x = np.expand_dims(np.arange(len(arousal_signal)), axis=1)
+    # arousal_signal = np.concatenate([arousal_x, arousal_signal.copy()], axis=1)
+    # target_signal = np.concatenate([target_x, target_signal], axis=1)
+    # area = similaritymeasures.area_between_two_curves(target_signal, arousal_signal)
+    # return area
 
 
 def evaluate_fitness(individual, generation):
     for action in individual:
         if not env.step(action):
-            return -1000, []
+            return 0, []
     if not env.close_circuit(individual, generation):
-        return -1000, []
+        return 0, []
     arousals = env.simulate_race()
-    return -calculate_reward(target_signal(len(arousals)), arousals), arousals
+    return calculate_reward(target_signal(len(arousals)), arousals), arousals
 
 
 if __name__ == "__main__":
@@ -324,7 +330,7 @@ if __name__ == "__main__":
     import numpy as np
 
     # Check if the correct number of arguments are passed
-    if len(sys.argv) != 6:
+    if len(sys.argv) != 7:
         print("Usage: python your_script.py <cluster> <run> <target_name> <target_signal>")
         sys.exit(1)
 

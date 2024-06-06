@@ -1,6 +1,5 @@
+import uuid
 from abc import ABC
-
-import mlagents_envs
 import numpy as np
 import gym
 from mlagents_envs.side_channel import OutgoingMessage
@@ -10,6 +9,7 @@ from Utils.SideChannels import MySideChannel
 from gym_unity.envs import UnityToGymWrapper
 from mlagents_envs.environment import UnityEnvironment
 from mlagents_envs.exception import UnityEnvironmentException
+import torch
 
 
 class BaseEnvironment(gym.Env, ABC):
@@ -18,50 +18,80 @@ class BaseEnvironment(gym.Env, ABC):
     unity-gym wrapper, configures the game engine parameters and sets up the custom side channel for
     communicating between our python scripts and unity's update loop.
     """
-    def __init__(self, id_number, graphics, obs_space, path, args=None, UUID="621f0a70-4f87-11ea-a6bf-784f4387d1f7"):
+    def __init__(self, id_number, graphics, obs_space, path, arousal_model, weight, capture_fps=5, time_scale=1, args=None):
 
         super(BaseEnvironment, self).__init__()
+        socket_id = uuid.uuid4()
 
         # Set up the game engine communication channels
         if args is None:
-            args = [""]
+            args = [f"-socketID {socket_id}"]
+        else:
+            args += f"-socketID {socket_id}"
+
         self.engineConfigChannel = EngineConfigurationChannel()
-        self.engineConfigChannel.set_configuration_parameters(capture_frame_rate=5, time_scale=1)
-        self.customSideChannel = MySideChannel(UUID)
+        self.engineConfigChannel.set_configuration_parameters(capture_frame_rate=capture_fps, time_scale=time_scale)
+        self.customSideChannel = MySideChannel(socket_id)
 
         # Load the unity build and wrap it in a gym environment
         self.env = self.load_environment(path, id_number, graphics, args)
         self.env = UnityToGymWrapper(self.env, uint8_visual=False, allow_multiple_obs=True)
 
         # Set observation space and action space - important for learning
-        self.action_space = self.env.action_space
-        self.action_size = self.env.action_size
+        self.action_space, self.action_size = self.env.action_space, self.env.action_size
 
         self.observation_space = gym.spaces.Box(low=obs_space['low'], high=obs_space['high'], shape=obs_space['shape'])
 
-        # Important learning variables that should be used in all environments
-        self.score = 0 # In-game score
-        self.max_score = 0
-        self.steps = 0
+        self.model, self.scaler = arousal_model, arousal_model.scaler
+        self.previous_surrogate, self.current_surrogate = np.empty(0), np.empty(0)
+        self.arousal_trace = []
+
+        self.current_score, self.current_reward, self.cumulative_reward = 0, 0, 0
+        self.best_reward, self.best_score, self.best_cumulative_reward = 0, 0, 0
+
+        self.episode_length = 0
+        self.weight = weight
 
     def reset(self, **kwargs):
-        """
-        Override this method to add any custom code for resetting the state.
-        """
-        self.steps = 0
+        self.episode_length = 0
+        self.current_reward, self.current_score, self.cumulative_reward = 0, 0, 0
+        self.best_reward, self.best_score, self.best_cumulative_reward = 0, 0, 0
+        self.previous_surrogate, self.current_surrogate = np.empty(0), np.empty(0)
+        self.arousal_trace = []
         state = self.env.reset()
-        return self.tuple_to_vector(state[0])
+        return state
 
     def step(self, action):
-        """
-        Override this method to add any custom code for reacting to a tick from the unity environment.
-        """
-        state, env_score, d, info = self.env.step(np.asarray([tuple([action[0]-1, action[1]])]))
-        self.score = env_score
-        self.max_score = np.max([self.score, self.max_score])
-        if self.customSideChannel.levelEnd:
-            self.handle_level_end()
-        return self.tuple_to_vector(state), env_score, d, info
+        self.episode_length += 1
+        for _ in range(9):
+            _ = self.env.step(action)
+        state, env_score, d, info = self.env.step(action)
+        self.current_score = env_score
+        self.best_score = np.max([self.current_score, self.best_score])
+
+        if self.episode_length % 13 == 0:
+            self.create_and_send_message("Send Vector")
+
+        arousal = 0
+        if self.episode_length % 15 == 0 and self.weight != 0:
+            self.current_surrogate = np.array(self.customSideChannel.arousal_vector.copy(), dtype=np.float32)
+            if self.current_surrogate.size == 0:
+                return state, env_score, arousal, d, info
+
+            scaled_obs = np.array(self.scaler.transform(self.current_surrogate.reshape(1, -1))[0])
+
+            if self.previous_surrogate.size == 0:
+                self.previous_surrogate = np.zeros(len(self.current_surrogate))
+
+            previous_scaler = np.array(self.scaler.transform(self.previous_surrogate.reshape(1, -1))[0])
+            tensor = torch.Tensor(np.clip(list(previous_scaler) + list(scaled_obs), 0, 1))
+            self.previous_surrogate = tensor
+            arousal = self.model(tensor)[0]
+            # print(arousal)
+            self.arousal_trace.append(arousal)
+            self.previous_surrogate = self.current_surrogate.copy()
+
+        return state, env_score, arousal, d, info
 
     def handle_level_end(self):
         """
@@ -69,17 +99,13 @@ class BaseEnvironment(gym.Env, ABC):
         """
         pass
 
-    @staticmethod
-    def construct_state(state):
+    def construct_state(self, state):
         """
         Override this method to add any custom code for reading the state received from unity.
         """
         return state
 
     def create_and_send_message(self, contents):
-        """
-        Send a string message to the unity environment using our custom side channel.
-        """
         message = OutgoingMessage()
         message.write_string(contents)
         self.customSideChannel.queue_message_to_send(message)

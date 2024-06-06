@@ -30,13 +30,12 @@ class MySideChannel(SideChannel, ABC):
         elif '[Direction]' in test:
             vector = test.removeprefix("[Direction]:").split(",")
             self.direction = [float(vector[counter]) for counter in range(3)]
-        elif test == 'Level Ended' or test == "Collision":
+        elif test == '[Level Ended]' or test == "Collision":
             self.levelEnd = True
         elif '[Vector]' in test:
             test = test.removeprefix("[Vector]:")
             self.arousal_vector = [float(value) for value in test.split(",")[:-1]]
             # print(self.arousal_vector)
-
         if 'Race Ended' == test:
             self.race_ended = True
         if 'Collision' in test:
