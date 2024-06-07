@@ -90,7 +90,7 @@ class PPO_Environment(BaseEnvironment, ABC):
 
 if __name__ == "__main__":
 
-    if len(sys.argv) != 2:
+    if len(sys.argv) != 3:
         print(f"Incorrect number of arguments specified, was expecting 7, found {len(sys.argv)}")
         run = 1
         target_name = "Maximize"

@@ -58,7 +58,7 @@ class PPO_Environment(BaseEnvironment, ABC):
 if __name__ == "__main__":
     np.set_printoptions(suppress=True, precision=6)  # precision is optional
 
-    if len(sys.argv) != 2:
+    if len(sys.argv) != 3:
         print(f"Incorrect number of arguments specified, was expecting 7, found {len(sys.argv)}")
         print("Using default arguments")
         cluster = 0
@@ -71,7 +71,7 @@ if __name__ == "__main__":
     else:
         cluster = 0
         run = int(sys.argv[1])
-        weight = int(sys.argv[2])
+        weight = float(sys.argv[2])
         target_name = "Maximize"
         target_signal_str = "np.ones"
         preference_task = True

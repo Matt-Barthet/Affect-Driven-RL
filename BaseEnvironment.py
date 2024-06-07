@@ -87,7 +87,7 @@ class BaseEnvironment(gym.Env, ABC):
             tensor = torch.Tensor(np.clip(list(previous_scaler) + list(scaled_obs), 0, 1))
             self.previous_surrogate = tensor
             arousal = self.model(tensor)[0]
-            # print(arousal)
+            print(f"Current Arousal: {arousal}")
             self.arousal_trace.append(arousal)
             self.previous_surrogate = self.current_surrogate.copy()
 
