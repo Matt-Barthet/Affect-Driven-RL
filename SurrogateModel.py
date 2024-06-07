@@ -5,7 +5,7 @@ from sklearn.preprocessing import MinMaxScaler
 
 
 class KNNSurrogateModel:
-    def __init__(self, k, classifier, preference, cluster):
+    def __init__(self, k, classifier, preference, cluster, game):
         self.x_train = None
         self.y_train = None
         self.k = k
@@ -13,6 +13,7 @@ class KNNSurrogateModel:
         self.preference = preference
         self.cluster = cluster
         self.scaler = MinMaxScaler()
+        self.game = game
         self.load_data()
 
     def __call__(self, state):
@@ -46,18 +47,22 @@ class KNNSurrogateModel:
             if cluster != 0:
                 data = data[data['Cluster'] == cluster]
             arousals = data['[output]arousal'].values
-            data = data.drop(columns=['[control]player_id', '[output]arousal', 'botRespawn'])
+            data = data.drop(columns=['[control]player_id', '[output]arousal'])
+
+        if self.game == "Solid":
+            data = data[data.columns[~data.columns.str.contains("botRespawn")]]
+
         data = data[data.columns[~data.columns.str.startswith("Cluster")]]
         data = data[data.columns[~data.columns.str.startswith("Time_Index")]]
         data = data[data.columns[~data.columns.str.contains("arousal")]]
-        data = data[data.columns[~data.columns.str.contains("botRespawn")]]
         data = data[data.columns[~data.columns.str.contains("Score")]]
+        # print(data.columns)
         return data, arousals
 
     def load_data(self):
-        unscaled_data, _ = self.load_and_clean(f'./Datasets/Solid_3000ms_nonorm_with_clusters.csv', self.cluster, False)
+        unscaled_data, _ = self.load_and_clean(f'./Datasets/{self.game}_3000ms_nonorm_with_clusters.csv', self.cluster, False)
         if self.preference:
-            self.x_train, self.y_train = self.load_and_clean(f'./Datasets/solid_3000ms_1W_downsampled_pair_data.csv', self.cluster, self.preference)
+            self.x_train, self.y_train = self.load_and_clean(f'./Datasets/{self.game}_3000ms_pairs_classification_downsampled.csv', self.cluster, self.preference)
         else:
-            self.x_train, self.y_train = self.load_and_clean(f'./Datasets/Solid_3000ms_minmax_with_clusters.csv', self.cluster, self.preference)
+            self.x_train, self.y_train = self.load_and_clean(f'./Datasets/{self.game}_3000ms_minmax_with_clusters.csv', self.cluster, self.preference)
         self.scaler.fit(unscaled_data.values)

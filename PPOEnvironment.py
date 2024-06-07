@@ -20,7 +20,7 @@ class PPO_Environment(BaseEnvironment, ABC):
         self.gridHeight = 11
         self.elementSize = 1
 
-        self.last_x = np.round(self.reset()[0])
+        self.last_x = -np.inf
         self.max_x = -np.inf
         self.death_applied = False
         self.previous_score = 0  # maximum possible score of 460
@@ -112,10 +112,10 @@ if __name__ == "__main__":
     cluster = 0
     weight = 0
     vector_length = (852,)
-    model = KNNSurrogateModel(5, classification_task, preference_task, cluster)
+    model = KNNSurrogateModel(5, classification_task, preference_task, cluster, "Pirates")
     env = PPO_Environment(run, graphics=True,
                           obs_space={"low": -np.inf, "high": np.inf, "shape": vector_length},
-                          path="./Builds/Pirates/Platform.exe", arousal_model=model)
+                          path="./Builds/PiratesGoBlend_Mac.app", arousal_model=model, weight=0.5)
 
     sideChannel = env.customSideChannel
     model = PPO("MlpPolicy", env=env, tensorboard_log="./Tensorboard", device='cpu')

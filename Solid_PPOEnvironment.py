@@ -86,7 +86,7 @@ if __name__ == "__main__":
         'imitate': None
     }
 
-    model = KNNSurrogateModel(5, classification_task, preference_task, cluster)
+    model = KNNSurrogateModel(5, classification_task, preference_task, cluster, "Solid")
 
     env = PPO_Environment(run,
                           graphics=True, obs_space={"low": -np.inf, "high": np.inf, "shape": (49,)},
