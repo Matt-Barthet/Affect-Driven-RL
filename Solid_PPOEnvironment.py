@@ -11,8 +11,8 @@ from Utils.Tensorboard_Callbacks import TensorboardCallback
 
 class PPO_Environment(BaseEnvironment, ABC):
 
-    def __init__(self, id_number, graphics, obs_space, path, arousal_model, weight, args=None):
-        super().__init__(id_number=id_number, graphics=graphics, obs_space=obs_space, path=path, args=args, capture_fps=5, time_scale=1, arousal_model=arousal_model, weight=weight)
+    def __init__(self, id_number, graphics, obs_space, path, arousal_model, weight, args=None, capture_fps=60):
+        super().__init__(id_number=id_number, graphics=graphics, obs_space=obs_space, path=path, args=args, capture_fps=capture_fps, time_scale=1, arousal_model=arousal_model, weight=weight)
 
     def calculate_reward(self, state):
         rotation_component = (180 - state[-1]) / 180
@@ -42,16 +42,13 @@ class PPO_Environment(BaseEnvironment, ABC):
         return self.tuple_to_vector(state[0])
 
     def step(self, action):
-
         transformed_action = np.asarray([tuple([action[0] - 1, action[1] - 1])])
         state, env_score, arousal, d, info = super().step(transformed_action)
         state = self.tuple_to_vector(state[0])
         self.calculate_reward(state)
         self.cumulative_reward += self.current_reward
-
         self.reset_condition()
         final_reward = self.current_reward * (1 - self.weight) + (arousal * self.weight)
-
         return state, final_reward, d, info
 
 
