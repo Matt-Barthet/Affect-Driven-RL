@@ -2,7 +2,6 @@ import sys
 from abc import ABC
 import numpy as np
 import torch
-from similaritymeasures import similaritymeasures
 from stable_baselines3 import PPO
 from BaseEnvironment import BaseEnvironment
 from SurrogateModel import KNNSurrogateModel
@@ -11,31 +10,20 @@ from Utils.Tensorboard_Callbacks import TensorboardCallback
 
 class PPO_Environment(BaseEnvironment, ABC):
 
-    def __init__(self, id_number, graphics, obs_space, path, arousal_model, weight, args=None, capture_fps=60):
-        super().__init__(id_number=id_number, graphics=graphics, obs_space=obs_space, path=path, args=args, capture_fps=capture_fps, time_scale=1, arousal_model=arousal_model, weight=weight)
+    def __init__(self, id_number, graphics, obs_space, path, arousal_model, weight, args=None):
+        super().__init__(id_number=id_number, graphics=graphics, obs_space=obs_space, path=path, args=args, capture_fps=5, time_scale=1, arousal_model=arousal_model, weight=weight)
 
     def calculate_reward(self, state):
-        rotation_component = (180 - state[-1]) / 180
-        speed_component = np.linalg.norm([state[0], state[1], state[2]]) / 60
-        self.current_reward = (self.current_score + 1) * rotation_component * speed_component
-        self.current_reward /= 25
+        rotation_component = 1 if (180 - state[-1]) / 180 < 90 else -1
+        speed_component = np.linalg.norm([state[0], state[1], state[2]]) / 80
+        self.current_reward = (self.current_score - self.previous_score) + rotation_component * speed_component
+        self.current_reward /= 2
+        # print(self.current_reward)
 
     def reset_condition(self):
-        if self.episode_length > 450:
+        if self.episode_length > 600:
             self.episode_length = 0
             self.reset()
-
-    # def arousal_reward(self):
-    #     arousal_signal = self.arousalTrace
-    #     target_signal = self.targetSignal(len(arousal_signal))
-    #     arousal_signal = np.expand_dims(np.array(arousal_signal), axis=1)
-    #     target_signal = np.expand_dims(np.array(target_signal), axis=1)
-    #     target_x = np.expand_dims(np.arange(len(target_signal)), axis=1)
-    #     arousal_x = np.expand_dims(np.arange(len(arousal_signal)), axis=1)
-    #     arousal_signal = np.concatenate([arousal_x, arousal_signal.copy()], axis=1)
-    #     target_signal = np.concatenate([target_x, target_signal], axis=1)
-    #     area = similaritymeasures.area_between_two_curves(target_signal, arousal_signal)
-    #     return -area
 
     def reset(self, **kwargs):
         state = super().reset()
@@ -88,13 +76,21 @@ if __name__ == "__main__":
 
     model = KNNSurrogateModel(5, classification_task, preference_task, cluster, "Solid")
 
-    env = PPO_Environment(run,
+    env = PPO_Environment(id_number=run,
                           graphics=True, obs_space={"low": -np.inf, "high": np.inf, "shape": (49,)},
-                          path="./Builds/Solid_GoBlend/Racing.exe", arousal_model=model, weight=weight)
+                          path="./Builds/Solid_GoBlend/Racing.exe", arousal_model=model, weight=weight,
+                         )
 
     sideChannel = env.customSideChannel
     env.targetSignal = function_mapping[target_signal_str]
 
     model = PPO("MlpPolicy", env=env, tensorboard_log="../Tensorboard", device='cpu')
-    model.learn(total_timesteps=1000000, progress_bar=True, callback=TensorboardCallback(), tb_log_name="PPO")
-    model.save(f"ppo_solid_{weight}W_{run}")
+    model.learn(total_timesteps=1000000, progress_bar=True, callback=TensorboardCallback(), tb_log_name="PPO", )
+
+    if weight == 0:
+        label = 'optimize'
+    elif weight == 0.5:
+        label = 'blended'
+    else:
+        label = 'arousal'
+    model.save(f"ppo_solid_{label}_{run}")

@@ -26,7 +26,7 @@ class PPO_Environment(BaseEnvironment, ABC):
         self.previous_score = 0  # maximum possible score of 460
         super().__init__(id_number=id_number, graphics=graphics, obs_space=obs_space, path=path,
                          args=["-gridWidth", f"{self.gridWidth}", "-gridHeight", f"{self.gridHeight}", "-elementSize",
-                          f"{self.elementSize}"], capture_fps=60, time_scale=5, arousal_model=arousal_model, weight=weight)
+                          f"{self.elementSize}"], capture_fps=60, time_scale=1, arousal_model=arousal_model, weight=weight)
 
     def calculate_reward(self, state, position):
         current_x = np.round(position)
@@ -45,8 +45,7 @@ class PPO_Environment(BaseEnvironment, ABC):
         self.previous_score = self.current_score
 
     def reset_condition(self):
-        self.episode_length += 1
-        if self.episode_length > 140 * 4:
+        if self.episode_length > 1000:
             self.episode_length = 0
             self.max_x = -np.inf
             self.create_and_send_message("[Cell Name]:Seed")
@@ -68,17 +67,13 @@ class PPO_Environment(BaseEnvironment, ABC):
     def step(self, action):
         transformed_action = (action[0] - 1, action[1])
         state, env_score, arousal, d, info = super().step(transformed_action)
-
         position = state[1][0]
         state = self.construct_state(state[1], state[0])
-
         self.calculate_reward(state, position)
         self.cumulative_reward += self.current_reward
         self.best_reward = np.max([self.best_reward, self.current_reward])
-
         self.reset_condition()
         final_reward = self.current_reward * (1 - self.weight) + (arousal * self.weight)
-
         return state, final_reward, d, info
 
     def handle_level_end(self):
@@ -95,8 +90,10 @@ if __name__ == "__main__":
         run = 1
         target_name = "Maximize"
         target_signal_str = "np.ones"
+        weight = 0
     else:
         run = int(sys.argv[1])
+        weight = float(sys.argv[2])
         print(f"Run {run}")
         target_name = "Maximize"
         target_signal_str = "np.ones"
@@ -110,14 +107,21 @@ if __name__ == "__main__":
     preference_task = True
     classification_task = False
     cluster = 0
-    weight = 0
+
     vector_length = (852,)
     model = KNNSurrogateModel(5, classification_task, preference_task, cluster, "Pirates")
     env = PPO_Environment(run, graphics=True,
                           obs_space={"low": -np.inf, "high": np.inf, "shape": vector_length},
-                          path="./Builds/PiratesGoBlend_Mac.app", arousal_model=model, weight=0.5)
-
+                          path="./Builds/Pirates/platform.exe", arousal_model=model, weight=weight)
     sideChannel = env.customSideChannel
     model = PPO("MlpPolicy", env=env, tensorboard_log="./Tensorboard", device='cpu')
     model.learn(total_timesteps=1000000, progress_bar=True, callback=TensorboardCallback(), tb_log_name="PPO")
-    model.save(f"ppo_pirates_{weight}W_{run}")
+
+    if weight == 0:
+        label = 'optimize'
+    elif weight == 0.5:
+        label = 'blended'
+    else:
+        label = 'arousal'
+    model.save(f"ppo_solid_{label}_{run}")
+

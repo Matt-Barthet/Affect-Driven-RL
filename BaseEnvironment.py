@@ -35,10 +35,14 @@ class BaseEnvironment(gym.Env, ABC):
 
         # Load the unity build and wrap it in a gym environment
         self.env = self.load_environment(path, id_number, graphics, args)
-        self.env = UnityToGymWrapper(self.env, uint8_visual=False, allow_multiple_obs=True)
+
+        try:
+            self.env = UnityToGymWrapper(self.env, allow_multiple_visual_obs=True, use_visual=True)
+        except TypeError:
+            self.env = UnityToGymWrapper(self.env, allow_multiple_obs=True)
 
         # Set observation space and action space - important for learning
-        self.action_space, self.action_size = self.env.action_space, self.env.action_size
+        self.action_space, self.action_size = self.env.action_space, self.env.action_space.shape
 
         self.observation_space = gym.spaces.Box(low=obs_space['low'], high=obs_space['high'], shape=obs_space['shape'])
 
@@ -49,12 +53,14 @@ class BaseEnvironment(gym.Env, ABC):
         self.current_score, self.current_reward, self.cumulative_reward = 0, 0, 0
         self.best_reward, self.best_score, self.best_cumulative_reward = 0, 0, 0
 
+        self.previous_score = 0
+
         self.episode_length = 0
         self.weight = weight
 
     def reset(self, **kwargs):
         self.episode_length = 0
-        self.current_reward, self.current_score, self.cumulative_reward = 0, 0, 0
+        self.current_reward, self.current_score, self.cumulative_reward, self.previous_score = 0, 0, 0, 0
         self.best_reward, self.best_score, self.best_cumulative_reward = 0, 0, 0
         self.previous_surrogate, self.current_surrogate = np.empty(0), np.empty(0)
         self.arousal_trace = []
@@ -63,35 +69,38 @@ class BaseEnvironment(gym.Env, ABC):
 
     def step(self, action):
         self.episode_length += 1
+        arousal = 0
+        self.previous_score = self.current_score
+        state, env_score, done, info = self.env.step(action)
+
         for _ in range(9):
-            _ = self.env.step(action)
-        state, env_score, d, info = self.env.step(action)
+            if done:
+                break
+            _, env_score, done, info = self.env.step(action)
+
         self.current_score = env_score
         self.best_score = np.max([self.current_score, self.best_score])
 
         if self.episode_length % 13 == 0:
             self.create_and_send_message("Send Vector")
 
-        arousal = 0
         if self.episode_length % 15 == 0 and self.weight != 0:
             self.current_surrogate = np.array(self.customSideChannel.arousal_vector.copy(), dtype=np.float32)
-            if self.current_surrogate.size == 0:
-                return state, env_score, arousal, d, info
+            if self.current_surrogate.size != 0:
+                scaled_obs = np.array(self.scaler.transform(self.current_surrogate.reshape(1, -1))[0])
 
-            scaled_obs = np.array(self.scaler.transform(self.current_surrogate.reshape(1, -1))[0])
+                if self.previous_surrogate.size == 0:
+                    self.previous_surrogate = np.zeros(len(self.current_surrogate))
 
-            if self.previous_surrogate.size == 0:
-                self.previous_surrogate = np.zeros(len(self.current_surrogate))
+                previous_scaler = np.array(self.scaler.transform(self.previous_surrogate.reshape(1, -1))[0])
+                tensor = torch.Tensor(np.clip(list(previous_scaler) + list(scaled_obs), 0, 1))
+                self.previous_surrogate = tensor
+                arousal = self.model(tensor)[0]
+                print(f"Current Arousal: {arousal}")
+                self.arousal_trace.append(arousal)
+                self.previous_surrogate = self.current_surrogate.copy()
 
-            previous_scaler = np.array(self.scaler.transform(self.previous_surrogate.reshape(1, -1))[0])
-            tensor = torch.Tensor(np.clip(list(previous_scaler) + list(scaled_obs), 0, 1))
-            self.previous_surrogate = tensor
-            arousal = self.model(tensor)[0]
-            print(f"Current Arousal: {arousal}")
-            self.arousal_trace.append(arousal)
-            self.previous_surrogate = self.current_surrogate.copy()
-
-        return state, env_score, arousal, d, info
+        return state, env_score, arousal, done, info
 
     def handle_level_end(self):
         """
@@ -116,10 +125,20 @@ class BaseEnvironment(gym.Env, ABC):
                                    side_channels=[self.engineConfigChannel, self.customSideChannel],
                                    worker_id=identifier,
                                    no_graphics=not graphics,
-                                   additional_args=args)
+                                   args=args)
         except UnityEnvironmentException:
             print("Path not found! Please specify the right environment path.")
             raise
+        except TypeError:
+            try:
+                env = UnityEnvironment(f"{path}",
+                                   side_channels=[self.engineConfigChannel, self.customSideChannel],
+                                   worker_id=identifier,
+                                   no_graphics=not graphics,
+                                   additional_args=args)
+            except:
+                print("Checking next ID!")
+                return self.load_environment(path, identifier + 1, graphics, args)
         except:
             print("Checking next ID!")
             return self.load_environment(path, identifier + 1, graphics, args)
