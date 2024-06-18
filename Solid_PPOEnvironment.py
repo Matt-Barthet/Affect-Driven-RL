@@ -5,16 +5,15 @@ import torch
 from stable_baselines3 import PPO
 from BaseEnvironment import BaseEnvironment
 from SurrogateModel import KNNSurrogateModel
-from Utils.Tensorboard_Callbacks import TensorboardCallback
-
+from Utils.Tensorboard_Callbacks import TensorBoardCallback
 
 class PPO_Environment(BaseEnvironment, ABC):
 
     def __init__(self, id_number, graphics, obs_space, path, arousal_model, weight, args=None):
-        super().__init__(id_number=id_number, graphics=graphics, obs_space=obs_space, path=path, args=args, capture_fps=5, time_scale=1, arousal_model=arousal_model, weight=weight)
+        super().__init__(id_number=id_number, game='Solid', graphics=graphics, obs_space=obs_space, path=path, args=args, capture_fps=5, time_scale=1, arousal_model=arousal_model, weight=weight)
 
     def calculate_reward(self, state):
-        rotation_component = 1 if (180 - state[-1]) / 180 < 90 else -1
+        rotation_component = 1 if (180 - np.abs(state[-1])) > 60 else -1
         speed_component = np.linalg.norm([state[0], state[1], state[2]]) / 80
         self.current_reward = (self.current_score - self.previous_score) + rotation_component * speed_component
         self.current_reward /= 2
@@ -77,15 +76,12 @@ if __name__ == "__main__":
     model = KNNSurrogateModel(5, classification_task, preference_task, cluster, "Solid")
 
     env = PPO_Environment(id_number=run,
-                          graphics=True, obs_space={"low": -np.inf, "high": np.inf, "shape": (49,)},
+                          graphics=True, obs_space={"low": -np.inf, "high": np.inf, "shape": (50,)},
                           path="./Builds/Solid_GoBlend/Racing.exe", arousal_model=model, weight=weight,
                          )
 
     sideChannel = env.customSideChannel
     env.targetSignal = function_mapping[target_signal_str]
-
-    model = PPO("MlpPolicy", env=env, tensorboard_log="../Tensorboard", device='cpu')
-    model.learn(total_timesteps=1000000, progress_bar=True, callback=TensorboardCallback(), tb_log_name="PPO", )
 
     if weight == 0:
         label = 'optimize'
@@ -93,4 +89,7 @@ if __name__ == "__main__":
         label = 'blended'
     else:
         label = 'arousal'
+
+    model = PPO("MlpPolicy", env=env, tensorboard_log="../Tensorboard", device='cpu')
+    model.learn(total_timesteps=1000000, progress_bar=True)
     model.save(f"ppo_solid_{label}_{run}")

@@ -11,6 +11,8 @@ from mlagents_envs.environment import UnityEnvironment
 from mlagents_envs.exception import UnityEnvironmentException
 import torch
 
+from Utils.Tensorboard_Callbacks import TensorBoardCallback
+
 
 class BaseEnvironment(gym.Env, ABC):
     """
@@ -18,7 +20,7 @@ class BaseEnvironment(gym.Env, ABC):
     unity-gym wrapper, configures the game engine parameters and sets up the custom side channel for
     communicating between our python scripts and unity's update loop.
     """
-    def __init__(self, id_number, graphics, obs_space, path, arousal_model, weight, capture_fps=5, time_scale=1, args=None):
+    def __init__(self, id_number, graphics, obs_space, path, arousal_model, weight, capture_fps=5, time_scale=1, args=None, game='Game'):
 
         super(BaseEnvironment, self).__init__()
         socket_id = uuid.uuid4()
@@ -58,10 +60,19 @@ class BaseEnvironment(gym.Env, ABC):
         self.episode_length = 0
         self.weight = weight
 
+        if weight == 0:
+            label = 'optimize'
+        elif weight == 0.5:
+            label = 'blended'
+        else:
+            label = 'arousal'
+
+        self.callback = TensorBoardCallback(f'./Tensorboard/{game}-PPO-{label}-{id_number}', self)
+
     def reset(self, **kwargs):
+        self.callback.on_episode_end()
         self.episode_length = 0
         self.current_reward, self.current_score, self.cumulative_reward, self.previous_score = 0, 0, 0, 0
-        self.best_reward, self.best_score, self.best_cumulative_reward = 0, 0, 0
         self.previous_surrogate, self.current_surrogate = np.empty(0), np.empty(0)
         self.arousal_trace = []
         state = self.env.reset()
@@ -84,7 +95,7 @@ class BaseEnvironment(gym.Env, ABC):
         if self.episode_length % 13 == 0:
             self.create_and_send_message("Send Vector")
 
-        if self.episode_length % 15 == 0 and self.weight != 0:
+        if self.episode_length % 15 == 0:
             self.current_surrogate = np.array(self.customSideChannel.arousal_vector.copy(), dtype=np.float32)
             if self.current_surrogate.size != 0:
                 scaled_obs = np.array(self.scaler.transform(self.current_surrogate.reshape(1, -1))[0])
@@ -96,7 +107,7 @@ class BaseEnvironment(gym.Env, ABC):
                 tensor = torch.Tensor(np.clip(list(previous_scaler) + list(scaled_obs), 0, 1))
                 self.previous_surrogate = tensor
                 arousal = self.model(tensor)[0]
-                print(f"Current Arousal: {arousal}")
+                # print(f"Current Arousal: {arousal}")
                 self.arousal_trace.append(arousal)
                 self.previous_surrogate = self.current_surrogate.copy()
 

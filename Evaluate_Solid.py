@@ -13,7 +13,7 @@ from mlagents_envs.environment import UnityEnvironment
 from mlagents_envs.exception import UnityEnvironmentException
 
 from BaseEnvironment import BaseEnvironment
-from Pirates_PPOEnvironment import PPO_Environment
+from Solid_PPOEnvironment import PPO_Environment
 from SurrogateModel import KNNSurrogateModel
 
 if __name__ == "__main__":
@@ -22,17 +22,17 @@ if __name__ == "__main__":
     classification_task = False
     cluster = 0
     weight = 0
-    vector_length = (852,)
-    model = KNNSurrogateModel(5, classification_task, preference_task, cluster, 'pirates')
+    vector_length = (50,)
+    model = KNNSurrogateModel(5, classification_task, preference_task, cluster, 'Solid')
 
     env = PPO_Environment(0, graphics=True,
                           obs_space={"low": -np.inf, "high": np.inf, "shape": vector_length},
-                          path="./Builds/Pirates/platform.exe", arousal_model=model, weight=weight)
+                          path="./Builds/Solid_GoBlend/racing.exe", arousal_model=model, weight=weight)
     sideChannel = env.customSideChannel
 
-    model = PPO("MlpPolicy", env=env, tensorboard_log="./Tensorboard", device='cpu')
-    model.load("./Affectively Experiments/Pirates/ppo_solid_optimize_3.zip", env=env)
-    model.set_parameters("./Affectively Experiments/Pirates/ppo_solid_optimize_3.zip")
+    model = PPO("MlpPolicy", env=env, device='cpu')
+    model.load("./Affectively Experiments/Solid Rally/ppo_solid_optimize_1.zip", env=env, force_reset=True)
+    model.set_parameters("./Affectively Experiments/Solid Rally/ppo_solid_optimize_1.zip")
 
     state = env.reset()
     for i in range(10000):

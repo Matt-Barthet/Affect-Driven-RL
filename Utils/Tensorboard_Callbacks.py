@@ -1,5 +1,6 @@
 from stable_baselines3.common.callbacks import BaseCallback
 import numpy as np
+from tensorboardX import SummaryWriter
 
 
 class PPOHackCallback(BaseCallback):
@@ -12,7 +13,7 @@ class PPOHackCallback(BaseCallback):
         pass
 
     def _on_rollout_start(self) -> None:
-        self.training_env.envs[0].action_list.clear()
+        self.training_env.action_list.clear()
         pass
 
     def _on_step(self) -> bool:
@@ -27,16 +28,20 @@ class PPOHackCallback(BaseCallback):
         pass
 
 
-class TensorboardCallback(BaseCallback):
-    def __init__(self):
-        super(TensorboardCallback, self).__init__()
+class TensorBoardCallback:
+    def __init__(self, log_dir, environment):
+        self.log_dir = log_dir
+        self.environment = environment
+        self.writer = SummaryWriter(log_dir)
+        self.episode = 0
 
-    def _on_step(self) -> bool:
-        # self.logger.record('reward/reward', self.training_env.get_attr('current_reward')[0])
-        # self.logger.record('reward/cumulative reward', self.training_env.get_attr('cumulative_reward')[0])
-        # self.logger.record('reward/maximum environment score', self.training_env.get_attr('best_score')[0])
-        # self.logger.record('reward/max reward', self.training_env.get_attr('best_reward')[0])
-        return True
+    def on_episode_end(self):
+        self.writer.add_scalar('reward/best_reward', self.environment.best_reward, self.episode)
+        self.writer.add_scalar('reward/best_score', self.environment.best_score, self.episode)
+        self.writer.add_scalar('reward/best_cumulative_reward', self.environment.best_cumulative_reward, self.episode)
+        self.writer.add_scalar('reward/episode_mean_arousal', np.nanmean(self.environment.arousal_trace), self.episode)
+        self.episode += 1
+        self.writer.flush()
 
 
 class TensorboardGoExplore:
@@ -80,8 +85,10 @@ class TensorboardEDPCGRLGO:
             self.env.writer.add_scalar('Reward/Best Cell Reward', -1000, self.step_count)
             self.env.writer.add_scalar('Reward/Best Cell Length', 0, self.step_count)
         else:
-            self.env.writer.add_scalar('Reward/Best Cell Reward', self.env.archive.bestCell.blended_reward, self.step_count)
-            self.env.writer.add_scalar('Reward/Best Cell Length', self.env.archive.bestCell.get_cell_length(), self.step_count)
+            self.env.writer.add_scalar('Reward/Best Cell Reward', self.env.archive.bestCell.blended_reward,
+                                       self.step_count)
+            self.env.writer.add_scalar('Reward/Best Cell Length', self.env.archive.bestCell.get_cell_length(),
+                                       self.step_count)
         self.env.writer.add_scalar('KNN/Cluster Coverage', self.env.cluster_coverage, self.step_count)
         self.step_count += 1
 

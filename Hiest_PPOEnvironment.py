@@ -29,7 +29,7 @@ class PPO_Environment(BaseEnvironment, ABC):
 
         super().__init__(id_number=id_number, graphics=graphics, obs_space=obs_space, path=path,
                          args=["-agentGridWidth", f"{self.gridWidth}", "-agentGridHeight", f"{self.gridHeight}", "-cellSize",
-                         f"{self.elementSize}"], capture_fps=15, time_scale=1, arousal_model=arousal_model, weight=weight)
+                         f"{self.elementSize}"], capture_fps=15, time_scale=1, arousal_model=arousal_model, weight=weight, game='Heist')
 
     def round_to_nearest_5(self, lst):
         rounded_list = [round(x / 3) * 3 for x in lst]
@@ -58,8 +58,7 @@ class PPO_Environment(BaseEnvironment, ABC):
 
         if self.current_angle == 0:
             pass
-        # elif self.current_angle < 20:
-        #     self.current_reward += 5
+
         elif self.current_angle < 90:
             self.current_reward += (180 - self.current_angle) / 180
         elif self.current_angle < 180:
@@ -157,7 +156,6 @@ if __name__ == "__main__":
     env = PPO_Environment(run, graphics=True,
                           obs_space={"low": -np.inf, "high": np.inf, "shape": vector_length},
                           path="./Builds/Heist_GoBlend/Top-Down Shooter.exe", arousal_model=model, weight=weight)
-
 
     sideChannel = env.customSideChannel
     model = PPO("MlpPolicy", env=env, tensorboard_log="./Tensorboard", device='cpu')

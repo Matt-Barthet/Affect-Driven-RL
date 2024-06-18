@@ -3,7 +3,7 @@ from stable_baselines3 import PPO
 from stable_baselines3.common.vec_env import DummyVecEnv
 
 from SurrogateModel import KNNSurrogateModel
-from Utils.Tensorboard_Callbacks import TensorboardCallback
+# from Utils.Tensorboard_Callbacks import TensorboardCallback
 from BaseEnvironment import BaseEnvironment
 import numpy as np
 import pickle
@@ -26,7 +26,7 @@ class PPO_Environment(BaseEnvironment, ABC):
         self.previous_score = 0  # maximum possible score of 460
         super().__init__(id_number=id_number, graphics=graphics, obs_space=obs_space, path=path,
                          args=["-gridWidth", f"{self.gridWidth}", "-gridHeight", f"{self.gridHeight}", "-elementSize",
-                          f"{self.elementSize}"], capture_fps=60, time_scale=1, arousal_model=arousal_model, weight=weight)
+                          f"{self.elementSize}"], capture_fps=60, time_scale=1, arousal_model=arousal_model, weight=weight, game='Pirates')
 
     def calculate_reward(self, state, position):
         current_x = np.round(position)
