@@ -91,16 +91,12 @@ class PPO_Environment(BaseEnvironment, ABC):
         return combined_observations
 
     def step(self, action):
-        # print(action)
         transformed_action = [
-            # np.round(action[0]/2 + 0.5),
-            # np.round(action[1]/2 + 0.5),
             action[0] * 4,
             action[1] * 2,
             np.round(action[2]+1),
             np.round(action[3]+1),
             np.round(action[4]/2 + 0.5),
-            # np.round(action[7]/2 + 0.5)
         ]
 
         # print(transformed_action[2])
