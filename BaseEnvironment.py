@@ -97,8 +97,13 @@ class BaseEnvironment(gym.Env, ABC):
 
         if self.episode_length % 15 == 0:
             self.current_surrogate = np.array(self.customSideChannel.arousal_vector.copy(), dtype=np.float32)
+
             if self.current_surrogate.size != 0:
-                scaled_obs = np.array(self.scaler.transform(self.current_surrogate.reshape(1, -1))[0])
+
+                try:
+                    scaled_obs = np.array(self.scaler.transform(self.current_surrogate.reshape(1, -1))[0])
+                except:
+                    scaled_obs = np.zeros((len(self.previous_surrogate)))
 
                 if self.previous_surrogate.size == 0:
                     self.previous_surrogate = np.zeros(len(self.current_surrogate))
@@ -107,7 +112,8 @@ class BaseEnvironment(gym.Env, ABC):
                 tensor = torch.Tensor(np.clip(list(previous_scaler) + list(scaled_obs), 0, 1))
                 self.previous_surrogate = tensor
                 arousal = self.model(tensor)[0]
-                # print(f"Current Arousal: {arousal}")
+
+                print(f"Current Arousal: {arousal}")
                 self.arousal_trace.append(arousal)
                 self.previous_surrogate = self.current_surrogate.copy()
 

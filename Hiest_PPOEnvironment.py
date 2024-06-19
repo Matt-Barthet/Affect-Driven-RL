@@ -3,7 +3,6 @@ from stable_baselines3 import PPO
 from stable_baselines3.common.vec_env import DummyVecEnv
 
 from SurrogateModel import KNNSurrogateModel
-from Utils.Tensorboard_Callbacks import TensorboardCallback
 from BaseEnvironment import BaseEnvironment
 import numpy as np
 import pickle
@@ -45,8 +44,6 @@ class PPO_Environment(BaseEnvironment, ABC):
             self.position_dict.update({position: 0})
             self.current_reward += 1
 
-        # Penalty for taking damage
-
         self.current_angle = np.abs(state[-5])
 
         if self.current_angle == 0:
@@ -67,6 +64,8 @@ class PPO_Environment(BaseEnvironment, ABC):
 
         self.previous_angle = self.current_angle
         self.previous_health = self.current_health
+
+        self.current_reward /= 42
 
     def reset_condition(self):
         self.episode_length += 1
@@ -159,7 +158,7 @@ if __name__ == "__main__":
 
     sideChannel = env.customSideChannel
     model = PPO("MlpPolicy", env=env, tensorboard_log="./Tensorboard", device='cpu')
-    model.learn(total_timesteps=1000000, progress_bar=True, callback=TensorboardCallback(), tb_log_name="PPO")
+    model.learn(total_timesteps=1000000, progress_bar=True, tb_log_name="PPO")
 
     if weight == 0:
         label = 'optimize'
