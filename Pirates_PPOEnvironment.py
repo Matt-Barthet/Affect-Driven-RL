@@ -45,7 +45,7 @@ class PPO_Environment(BaseEnvironment, ABC):
         self.previous_score = self.current_score
 
     def reset_condition(self):
-        if self.episode_length > 1000:
+        if self.episode_length > 600:
             self.episode_length = 0
             self.max_x = -np.inf
             self.create_and_send_message("[Cell Name]:Seed")

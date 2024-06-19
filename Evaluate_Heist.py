@@ -13,6 +13,7 @@ from mlagents_envs.environment import UnityEnvironment
 from mlagents_envs.exception import UnityEnvironmentException
 
 from BaseEnvironment import BaseEnvironment
+from Evaluate_Solid import compute_confidence_interval
 from Hiest_PPOEnvironment import PPO_Environment
 from SurrogateModel import KNNSurrogateModel
 
@@ -23,7 +24,7 @@ if __name__ == "__main__":
     cluster = 0
     weight = 0
     vector_length = (341,)
-    model = KNNSurrogateModel(5, classification_task, preference_task, cluster, 'Solid')
+    model = KNNSurrogateModel(5, classification_task, preference_task, cluster, 'fps')
 
     env = PPO_Environment(9, graphics=True,
                           obs_space={"low": -np.inf, "high": np.inf, "shape": vector_length},
@@ -35,11 +36,19 @@ if __name__ == "__main__":
     model.set_parameters("./Affectively Experiments/Solid Rally/ppo_solid_optimize_1.zip")
 
     state = env.reset()
-    for i in range(10000):
-        action, _ = model.predict(state, deterministic=False)
-        state, reward, done, info = env.step(action)
-        if done:
-            state = env.reset()
+    arousals, scores = [], []
+    for i in range(30):
+        for _ in range(600):
+            # action, _ = model.predict(state, deterministic=False)
+            action = env.action_space.sample()
+            state, reward, done, info = env.step(action)
+            if done:
+                state = env.reset()
 
-    # env.step(np.asarray([tuple([0, 0])]))
+        arousals.append(np.mean(env.arousal_trace))
+        scores.append(env.best_score)
+        env.best_score = 0
+        env.arousal_trace.clear()
+
+    print(f"Best Score: {compute_confidence_interval(scores)}, Mean Arousal: {compute_confidence_interval(arousals)}")
     env.close()

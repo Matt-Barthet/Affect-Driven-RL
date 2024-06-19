@@ -15,6 +15,16 @@ from mlagents_envs.exception import UnityEnvironmentException
 from BaseEnvironment import BaseEnvironment
 from Solid_PPOEnvironment import PPO_Environment
 from SurrogateModel import KNNSurrogateModel
+from scipy import stats
+
+
+def compute_confidence_interval(data, confidence=0.95):
+    data = np.array(data)  # Ensure the input data is a numpy array
+    mean = np.mean(data)
+    sem = stats.sem(data)  # Standard error of the mean
+    ci = sem * stats.t.ppf((1 + confidence) / 2, len(data) - 1)  # Margin of error
+    return np.round(mean, 4), np.round(ci, 4)
+
 
 if __name__ == "__main__":
 
@@ -27,7 +37,7 @@ if __name__ == "__main__":
 
     env = PPO_Environment(0, graphics=True,
                           obs_space={"low": -np.inf, "high": np.inf, "shape": vector_length},
-                          path="./Builds/Solid_GoBlend/racing.exe", arousal_model=model, weight=weight)
+                          path="./Builds/SolidRallyGoBlend_Mac.app", arousal_model=model, weight=weight)
     sideChannel = env.customSideChannel
 
     model = PPO("MlpPolicy", env=env, device='cpu')
@@ -35,11 +45,19 @@ if __name__ == "__main__":
     model.set_parameters("./Affectively Experiments/Solid Rally/ppo_solid_optimize_1.zip")
 
     state = env.reset()
-    for i in range(10000):
-        action, _ = model.predict(state, deterministic=False)
-        state, reward, done, info = env.step(action)
-        if done:
-            state = env.reset()
+    arousals, scores = [], []
+    for i in range(30):
+        for _ in range(600):
+            # action, _ = model.predict(state, deterministic=False)
+            action = env.action_space.sample()
+            state, reward, done, info = env.step(action)
+            if done:
+                state = env.reset()
 
-    # env.step(np.asarray([tuple([0, 0])]))
+        arousals.append(np.mean(env.arousal_trace))
+        scores.append(env.best_score)
+        env.best_score = 0
+        env.arousal_trace.clear()
+
+    print(f"Best Score: {compute_confidence_interval(scores)}, Mean Arousal: {compute_confidence_interval(arousals)}")
     env.close()

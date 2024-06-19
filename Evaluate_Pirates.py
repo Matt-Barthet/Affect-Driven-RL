@@ -12,9 +12,10 @@ from gym_unity.envs import UnityToGymWrapper
 from mlagents_envs.environment import UnityEnvironment
 from mlagents_envs.exception import UnityEnvironmentException
 
-from BaseEnvironment import BaseEnvironment
 from Pirates_PPOEnvironment import PPO_Environment
 from SurrogateModel import KNNSurrogateModel
+from scipy import stats
+
 
 if __name__ == "__main__":
 
@@ -23,23 +24,32 @@ if __name__ == "__main__":
     cluster = 0
     weight = 0
     vector_length = (852,)
-    model = KNNSurrogateModel(5, classification_task, preference_task, cluster, 'pirates')
+    model = KNNSurrogateModel(5, classification_task, preference_task, cluster, "pirates")
 
     env = PPO_Environment(0, graphics=True,
                           obs_space={"low": -np.inf, "high": np.inf, "shape": vector_length},
-                          path="./Builds/Pirates/platform.exe", arousal_model=model, weight=weight)
+                          path="./Builds/PiratesGoBlend_Mac.app", arousal_model=model, weight=weight)
     sideChannel = env.customSideChannel
 
-    model = PPO("MlpPolicy", env=env, tensorboard_log="./Tensorboard", device='cpu')
-    model.load("./Affectively Experiments/Pirates/ppo_solid_optimize_3.zip", env=env)
-    model.set_parameters("./Affectively Experiments/Pirates/ppo_solid_optimize_3.zip")
+    # model = PPO("MlpPolicy", env=env, tensorboard_log="./Tensorboard", device='cpu')
+    # model.load("./Affectively Experiments/Pirates/ppo_solid_optimize_3.zip")
+    # model.set_parameters("./Affectively Experiments/Pirates/ppo_solid_optimize_3.zip")
 
     state = env.reset()
-    for i in range(10000):
-        action, _ = model.predict(state, deterministic=False)
-        state, reward, done, info = env.step(action)
-        if done:
-            state = env.reset()
+    arousals, scores = [], []
+    for i in range(30):
+        print(i)
+        for _ in range(600):
+            # action, _ = model.predict(state, deterministic=False)
+            action = env.action_space.sample()
+            state, reward, done, info = env.step(action)
+            if done:
+                state = env.reset()
 
-    # env.step(np.asarray([tuple([0, 0])]))
+        arousals.append(np.mean(env.arousal_trace))
+        scores.append(env.best_score)
+        env.best_score = 0
+        env.arousal_trace.clear()
+
+    print(f"Best Score: {compute_confidence_interval(scores)}, Mean Arousal: {compute_confidence_interval(arousals)}")
     env.close()

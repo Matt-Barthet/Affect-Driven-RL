@@ -20,7 +20,7 @@ class BaseEnvironment(gym.Env, ABC):
     unity-gym wrapper, configures the game engine parameters and sets up the custom side channel for
     communicating between our python scripts and unity's update loop.
     """
-    def __init__(self, id_number, graphics, obs_space, path, arousal_model, weight, capture_fps=5, time_scale=1, args=None, game='Game'):
+    def __init__(self, id_number, graphics, obs_space, path, arousal_model, weight, capture_fps=5, time_scale=1, args=None, game='Game', logging=False):
 
         super(BaseEnvironment, self).__init__()
         socket_id = uuid.uuid4()
@@ -67,10 +67,13 @@ class BaseEnvironment(gym.Env, ABC):
         else:
             label = 'arousal'
 
-        self.callback = TensorBoardCallback(f'./Tensorboard/{game}-PPO-{label}-{id_number}', self)
+        self.callback = None
+        if logging:
+            self.callback = TensorBoardCallback(f'./Tensorboard/{game}-PPO-{label}-{id_number}', self)
 
     def reset(self, **kwargs):
-        self.callback.on_episode_end()
+        if self.callback is not None:
+            self.callback.on_episode_end()
         self.episode_length = 0
         self.current_reward, self.current_score, self.cumulative_reward, self.previous_score = 0, 0, 0, 0
         self.previous_surrogate, self.current_surrogate = np.empty(0), np.empty(0)
@@ -113,7 +116,7 @@ class BaseEnvironment(gym.Env, ABC):
                 self.previous_surrogate = tensor
                 arousal = self.model(tensor)[0]
 
-                print(f"Current Arousal: {arousal}")
+                # print(f"Current Arousal: {arousal}")
                 self.arousal_trace.append(arousal)
                 self.previous_surrogate = self.current_surrogate.copy()
 
